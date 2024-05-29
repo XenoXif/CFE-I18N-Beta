@@ -1,0 +1,46 @@
+{ //Alex
+
+	//Alex Gift Tastes
+	"CDE_Alex_GoldPumpkin": "You got through the maze safe and sound, huh? Congrats! This is an awesome prize!$h",
+	"AcceptGift_RockCandy": "I normally stay away from sugar, but... *crunch*#$b#No way!$7#$b#I feel unstoppable! I could do a thousand pushups and run a hundred miles!$h",
+	"AcceptGift_PrismaticShard": "This is the best! I don't know why, but just holding this thing feels like I'm holding a championship trophy!$h",
+	"AcceptGift_RabbitsFoot": "Nice! My favorite gridball player always taps one of these three times before he goes out on the field. I think I'll do the same.",
+	"AcceptGift_CompleteBreakfast": "Whoa, hoh-ho! Carbs, protein, it's got it all!$h#$b#I already had breakfast, but why not have another?",
+	"AcceptGift_SalmonDinner": "Mmm! *chomp* This is delicious! *gulp*$10#$b#Uhm... I mean, thank you very much! You're a good cook!",
+
+	//Alex's Misc Dialogue
+	//these lines target files other than the standard characters/dialogue/npc location such as unmarried rainy dialogue
+	"CDE_Alex_rainy_1": "",
+	"CDE_Alex_rainy_2": "",
+
+	//Alex's Standard Dialogue
+
+	//Special Dialogue
+	"CDE_Alex_Introduction": "Oh, hey. So you're the new person, huh? Cool.",
+	"CDE_Alex_ResortChair": "Aren't you hot in that outfit? Aw c'mon... It's the beach! Gotta get some ocean breeze goin'.",
+	"CDE_Alex_eventbox3": "...Thanks, @.#$b#You... you're more sensitive than everyone else. I'm glad.$l#$b#Is that embarrassing to say?$l",
+
+	//festival related dialogue
+	"CDE_Alex_NewYearsEve": "Another year gone? Man.$u#$e#Take a wild guess what I'm doing all evening.",
+	"CDE_Alex_NewYearsDay": "Buh, my head.$s#$e#Can I just sleep through this whole year?$s",
+
+	//date specific dialogue
+
+	//heart specific dialogue
+	
+	//generic weekday dialogue
+	"CDE_Alex_spring_Mon": "I don't know you. Why are you talking to me?",
+
+	//Alex's Married Dialogue
+
+	//weather specific dialogue
+	
+	//Festival Specific Dialogue
+
+	//Date Specific Dialogue
+	
+
+	//Season specific dialogue
+
+	//Affection specific dialogue
+}

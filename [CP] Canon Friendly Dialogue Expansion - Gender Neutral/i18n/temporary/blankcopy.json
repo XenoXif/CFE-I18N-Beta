@@ -1,0 +1,42 @@
+{ //NPC
+
+  //NPC Gift Tastes
+  "CDE_NPC_GoldPumpkin": "",
+  "CDE_NPC_RockCandy": "",
+  "CDE_NPC_PrismaticShard": "",
+  "CDE_NPC_RabbitsFoot": "",
+
+  //NPC's Misc Dialogue
+  //these lines target files other than the standard characters/dialogue/npc location such as unmarried rainy dialogue
+  "CDE_NPC_rainy_1": "",
+  "CDE_NPC_rainy_2": "",
+
+  //NPC's Standard Dialogue
+
+  //Special Dialogue
+  "CDE_NPC_Introduction": "",
+
+  //festival related dialogue
+  "CDE_NPC_NewYearsEve": "",
+  "CDE_NPC_NewYearsDay": "",
+
+  //date specific dialogue
+
+  //heart specific dialogue
+
+
+  //generic weekday dialogue
+
+  //NPC's Married Dialogue
+
+  //weather specific dialogue
+
+  //Festival Specific Dialogue
+
+  //Date Specific Dialogue
+
+
+  //Season specific dialogue
+
+  //Affection specific dialogue
+}
