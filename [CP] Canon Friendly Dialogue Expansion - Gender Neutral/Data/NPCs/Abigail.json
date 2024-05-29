@@ -54,9 +54,31 @@
         //this means summer day 6 year 1 exclusively. summer_6_1 will mean summer 6 any year.
 
         //Hearts Specific Dialogue
-        "summer_Mon8": "{{i18n: CDE_Abigail_summerMon8}}",
-        //this means summer Mondays with 8 hearts. if the players have more than 8 hearts with Abigail, they will never see any other Summer Monday dialogue (besides special dialogue exceptions sorted above this entry)
-        //I think it would be smart to sort these lines into "lines that do not need to be tied to friendship level, and lines that do. Then we can put any lines that don't together and randomize them to show up on the correct season and weekday. Players wouldnt miss as much of your content this way, and it would increase other modder's abilities to be compatible with your mod. it would also make it possible for us to remove duplicated lines like the winter cocoa line at 4 and 8 hearts.
+        "spring_Mon6": "{{i18n: {{i18n: CDE_Abigail_springMon6}}}}",
+        "spring_Mon4": "{{i18n: {{i18n: CDE_Abigail_springMon4}}}}",
+        "spring_Tue6": "{{i18n: {{i18n: CDE_Abigail_springTue6}}}}",
+        "spring_Tue4": "{{i18n: {{i18n: CDE_Abigail_springTue4}}}}",
+        "spring_Wed10": "{{i18n: {{i18n: CDE_Abigail_springWed10}}}}",
+        "spring_Wed8": "{{i18n: {{i18n: CDE_Abigail_springWed8}}}}",
+        "spring_Wed6": "{{i18n: {{i18n: CDE_Abigail_springWed6}}}}",
+        "spring_Wed2": "{{i18n: {{i18n: CDE_Abigail_springWed2}}}}",
+        "spring_Thu10": "{{i18n: {{i18n: CDE_Abigail_springThu10}}}}",
+        "spring_Thu8": "{{i18n: {{i18n: CDE_Abigail_springThu8}}}}",
+        "spring_Thu6": "{{i18n: {{i18n: CDE_Abigail_springThu6}}}}",
+        "spring_Thu4": "{{i18n: {{i18n: CDE_Abigail_springThu4}}}}",
+        "spring_Thu2": "{{i18n: {{i18n: CDE_Abigail_springThu2}}}}",
+
+        "spring_Fri8": "{{i18n: {{i18n: CDE_Abigail_springFri8}}}}",
+        "spring_Fri6": "{{i18n: {{i18n: CDE_Abigail_springFri6}}}}",
+        "spring_Fri4": "{{i18n: {{i18n: CDE_Abigail_springFri4}}}}",
+        "spring_Fri2": "{{i18n: {{i18n: CDE_Abigail_springFri2}}}}",
+        "spring_Sat10": "{{i18n: {{i18n: CDE_Abigail_springSat10}}}}",
+        "spring_Sat8": "{{i18n: {{i18n: CDE_Abigail_springSat8}}}}",
+        "spring_Sat6": "{{i18n: {{i18n: CDE_Abigail_springSat6}}}}",
+        "spring_Sat4": "{{i18n: {{i18n: CDE_Abigail_springSat4}}}}",
+        "spring_Sat2": "{{i18n: {{i18n: CDE_Abigail_springSat2}}}}",
+
+        "summer_Mon8": "{{i18n: {{i18n: CDE_Abigail_spring}}}}",
         "summer_Mon6": "{{i18n: CDE_Abigail_summerMon6}}",
         "summer_Mon4": "{{i18n: CDE_Abigail_summerMon4}}",
         "summer_Mon2": "{{i18n: CDE_Abigail_summerMon2}}",
@@ -123,6 +145,7 @@
         //Generic Weekday Dialogue
         //"winter_Fri" codes for any friday in winter when no other conditions are met
         //"Fri" codes for any friday when no other conditions are met
+        "spring_Thu": "{{i18n: {{i18n: CDE_Abigail_springThu}}}}",
         "fall_Tue": "{{i18n: CDE_Abigail_fall_Tue}}"
       }
     },
