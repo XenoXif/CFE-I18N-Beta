@@ -66,4 +66,6 @@ Shane - (1) fall_Sat10
 
 Vincent (5) - Grape(398), Mon10_1, Tue6_1, Tue8, summerTue
 
+Willy - PrismaticShard(74), Catfish(143), Mead(459), SeaCucumber(154), Mon2
+
 Wizard (0) - None
