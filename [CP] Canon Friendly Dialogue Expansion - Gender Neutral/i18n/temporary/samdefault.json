@@ -36,24 +36,24 @@
   "CDE_Sam_winter7":"One time, Gus fell in the river during the Ice Festival. We had to build a huge fire in the saloon to dry him out.#$e#We were all worried we'd never taste his famous spaghetti ever again.",
   "CDE_Sam_winter24":"The Feast of the Winter Star is supposed to be a time to show gratitude for all the good things in life.#$b#Me? I'm mostly interested in the food. Hehe.$h",
   "CDE_Sam_winter28y1":"I've got a strange feeling about tonight. Something big is about to happen.#$e#I just hope it's a good something.",
-  "CDE_Sam_winter28y2":"Guess I'll stay up late with Vincent tonight. I figure there's only a limited number of times he'll want to do that.",
+  "CDE_Sam_winter28":"Guess I'll stay up late with Vincent tonight. I figure there's only a limited number of times he'll want to do that.",
 
   //heart specific dialogue
 
   "CDE_Sam_Mon4":"I got into skateboarding when I was a little kid.#$e#It's rewarding to do the same hobby as an adult, though. You really end up viewing it in a whole new light.",
   "CDE_Sam_Tue8":"Sometimes I look at other people and notice how everyone changes. Some people I grew up with just aren't the same.#$e#It sucks to have to leave behind those parts of your childhood. Why does everyone settle for it?",
   "CDE_Sam_Tue4y1":"Mom's always worried about Vincent. Personally, I think he'll turn out fine.#$e#I mean, did she forget about what I was like at that age, or something?$h",
-  "CDE_Sam_Tue4y2":"I tried fixing a bowl of cereal for my dad, but as soon as I poured milk on it, he flipped out. What was up with that?$s",
+  "CDE_Sam_Tue4":"I tried fixing a bowl of cereal for my dad, but as soon as I poured milk on it, he flipped out. What was up with that?$s",
   "CDE_Sam_Tue2y1":"Hey, @.#$e#So, do you play any video games?",
   "CDE_Sam_Thu8y1":"I'm amazed we've made friends with each other as quickly as we have! You are seriously the best person ever, @!",
-  "CDE_Sam_Thu8y2":"Hey, if you get to talking with my dad, just uh... show him some support, if it's not too much to ask.#$e#He doesn't really like talking about himself around me, so maybe it's easier if you're not as close?$s",
+  "CDE_Sam_Thu8":"Hey, if you get to talking with my dad, just uh... show him some support, if it's not too much to ask.#$e#He doesn't really like talking about himself around me, so maybe it's easier if you're not as close?$s",
   "CDE_Sam_Thu4y1":"I think my Dad might be coming back in a year or so.#$e#I guess you might be able to meet him, then. If you're still living here.#$e#You wouldn't abandon the farm after putting so much effort into it!",
-  "CDE_Sam_Thu4y2":"...I have mixed feelings about my father being back. He seems strange.$s#$b#But I guess I haven't seen him in 3 years... so that could explain it.",
-  "CDE_Sam_Thu2y2":"Well, my Dad is back. You've met him, right?#$b#I'm just glad he's okay.",
+  "CDE_Sam_Thu4":"...I have mixed feelings about my father being back. He seems strange.$s#$b#But I guess I haven't seen him in 3 years... so that could explain it.",
+  "CDE_Sam_Thu2":"Well, my Dad is back. You've met him, right?#$b#I'm just glad he's okay.",
   "CDE_Sam_Fri10":"The older I get the more attached I feel to the valley.#$b#Although I could be biased... for a certain reason.$l#$e#So, how are you doing today?$h",
   "CDE_Sam_Fri2":"I miss the city sometimes, but if I moved there again, I'd end up working around the clock just to get by.#$e#I wonder which is more worth it?",
   "CDE_Sam_Sat8y1+Sat6":"Abby came up with a cool drum solo. I just have to figure out how to incorporate it into one of our songs.#$e#I didn't think too much of Abby when I was younger, but it turns out she's really creative.",
-  "CDE_Sam_Sat8y2":"Having my dad back has been... even more different than I expected.$s#$e#I just don't know I'm supposed to act around him. Like, am I a kid again or am I a man?$s",
+  "CDE_Sam_Sat8":"Having my dad back has been... even more different than I expected.$s#$e#I just don't know I'm supposed to act around him. Like, am I a kid again or am I a man?$s",
   "CDE_Sam_Sat4":"Oh! I just remembered I'm supposed to call my Grandma. Okay, I'm going to put this rubber band on my wrist so I don't forget.#$e#I have to make little reminders for myself or else I'll totally forget to do things.$h",
   "CDE_Sam_Sat2":"I picked up guitar just a few years ago. It came to me pretty naturally.#$e#I've still had to practice a lot, though. There's 'good,' but then there's 'actually good,' y'know?$h",
   "CDE_Sam_Sun8":"Sometimes I wonder if my mother is actually happy with her life...$s#$e#I asked her once and got the feeling she was hiding some inner pain.",
@@ -65,7 +65,7 @@
   "CDE_Sam_summerTue6":"Hmm, tomorrow morning should be a pancake day.#$e#I bet Vince would really like that.",
   "CDE_Sam_summerWed6":"$d Joja#Another shift at JojaMart today. Yay, another few hours of my life wasted.$s|If I work quickly, Gunther sometimes lets me off my shift early. Morris never would've let that slide.",
   "CDE_Sam_summerThu6y1":"@, thanks for reaching out to me like you have. Things have been tough lately with my dad being gone.$s#$e#No news is good news, right? Gotta stay positive.",
-  "CDE_Sam_summerThu6y2":"Sometimes I can hear my Dad pacing down the hallway at night.$s#$b#...But he won't tell us what's troubling him.",
+  "CDE_Sam_summerThu6":"Sometimes I can hear my Dad pacing down the hallway at night.$s#$b#...But he won't tell us what's troubling him.",
   "CDE_Sam_summerThu4":"Sebastian has some pretty cool board games.#$b#A long time ago, I wasn't into board games, but he knows how to make them fun.$h",
   "CDE_Sam_summerFri10":"I've been writing a song lately.#$e#It's uh... it's about you.#$e#Hey, c'mon, don't laugh!",
   "CDE_Sam_summerFri6":"I was homesick a lot when we first moved here, but that was ages ago.#$e#This is really the only home Vince has ever known. Seeing him fit in makes it easier for me, too.",
@@ -76,9 +76,9 @@
   "CDE_Sam_summerSun4":"Booyah! I got another set of lyrics cranked out last night!$h#$e#I'm on fire lately. Still lots of work to do, though, before we're ready to play live.",
   "CDE_Sam_summerSun2":"Hey, having a good summer?#$e#Stop by my place if you're looking for somewhere to cool off.",
   "CDE_Sam_fallMon10y1":"You're the best, @. I can't wait for my dad to meet you when he gets back.$l",
-  "CDE_Sam_fallMon10y2":"I told my dad, \"Look, Dad, you don't have to hide stuff from me. I'm not a kid anymore.\"$s#$b#For one second, he looked like he might actually open up, but then he just stood up, did this weird smirk, and walked away.$s#$e#I think he'll never give up wanting to protect me. If it hasn't happened now, it probably won't ever happen.$s",
+  "CDE_Sam_fallMon10":"I told my dad, \"Look, Dad, you don't have to hide stuff from me. I'm not a kid anymore.\"$s#$b#For one second, he looked like he might actually open up, but then he just stood up, did this weird smirk, and walked away.$s#$e#I think he'll never give up wanting to protect me. If it hasn't happened now, it probably won't ever happen.$s",
   "CDE_Sam_fallMon6y1":"Band practice went awesome last week. Abby and Sebastian have been putting in a lot of hard work.",
-  "CDE_Sam_fallMon6y2":"My dad? Yeah, I dunno. It's easier just to stay out of his way most of the time.",
+  "CDE_Sam_fallMon6":"My dad? Yeah, I dunno. It's easier just to stay out of his way most of the time.",
   "CDE_Sam_fallMon2":"I like taking walks in the forest this time of year. The temperature is so comfortable.#$e#...$h",
   "CDE_Sam_fallTue8":"I did a little cleaning up around the house to make things easier for my mom, but she doesn't actually seem any happier.#$e#She was thankful, but... I dunno. She's always saying that's her biggest source of stress. I'm not so sure, though.",
   "CDE_Sam_fallTue6":"After Dad left for his tour, I made a conscious decision to give Vince the best childhood he can get.#$e#I realized, if I don't help make that happen for him, who else will?",
@@ -87,7 +87,7 @@
   "CDE_Sam_fallWed6":"I think I'm becoming a pizza purist. Toppings are nice, but if you get just the right blend of cheeses, that's all you really need.#$e#I wish I could cook.$s",
   "CDE_Sam_fallWed4":"My mom makes pretty awesome pizza, as long as she doesn't put any weird toppings on it.#$e#Don't tell her, but the pizza at the saloon is downright perfection. Gus knows his stuff.",
   "CDE_Sam_fallThu6y1":"I think my Dad might be coming back next year.#$e#I guess that's kind of soon. Weird.",
-  "CDE_Sam_fallThu6y2":"I guess I should start thinking about moving out soon...$s#$e#...But I would miss Mom's fish casserole, so I dunno...$s#$e#I hate making decisions.",
+  "CDE_Sam_fallThu6":"I guess I should start thinking about moving out soon...$s#$e#...But I would miss Mom's fish casserole, so I dunno...$s#$e#I hate making decisions.",
   "CDE_Sam_fallThu4+fallSat2":"Hi @.#$e#Hmm... I wonder if I could grow a cactus in my room?",
   "CDE_Sam_fallFri8":"I got my paycheck yesterday. Hmm... should I save it or should I spend it...",
   "CDE_Sam_fallFri6":"...I stayed up late playing games on my computer last night. I really wish I'd focused on writing some more lyrics.",
@@ -105,7 +105,7 @@
   "CDE_Sam_winterWed10":"Heyyy... you aren't... 'hiring' at your farm, or anything, are you?$l", 
   "CDE_Sam_winterWed6":"$d Joja#I know our jobs are kinda crap, but it'd be nice if Shane was a little friendlier at work to pass the time.|I wonder how Shane's doing? He always seemed like he hated his JojaMart job even more than I did.",
   "CDE_Sam_winterThu4y1":"I think my Dad is coming back this spring.#$e#It's been 3 years since I've seen him. This is going to be strange.",
-  "CDE_Sam_winterThu4y2":"Dad's been back for a while now. I guess I'm finally getting used to it.",
+  "CDE_Sam_winterThu4":"Dad's been back for a while now. I guess I'm finally getting used to it.",
   "CDE_Sam_winterFri6":"Vince and I had an epic snowball fight yesterday. We're almost getting evenly matched.$h#$e#A couple more years, and I'll legitimately have to watch my back.",
   "CDE_Sam_winterFri4":"I'm hoping for some more dry, powdery snow before everything outside turns to slush.",
   "CDE_Sam_winterFri10":"@! It's so good to see you!$h#$e#Give me a hug. ...Ooh! You're nice and warm!$l",
@@ -117,7 +117,7 @@
 
   //generic weekday dialogue
 
-  "CDE_Sam_Thuy2":"My dad dropped by your farm, right?",
+  "CDE_Sam_Thu":"My dad dropped by your farm, right?",
 
   //Sam's Married Dialogue
 
