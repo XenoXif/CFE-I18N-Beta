@@ -172,6 +172,10 @@
   "CDE_Sam_Married_funLeave_2":	"I've gotta check in on my family today. Seeya tonight!",
   "CDE_Sam_Married_funReturn_1": "Seeing family is nice, but it's also kind of depressing in a weird way. Like... our lives are totally separate now, and everything feels more formal than it used to.$7",
   "CDE_Sam_Married_funReturn_2": "My family's doing alright, but they're all struggling with something or other. I hope it's cool with you if I see 'em again soon.$7",
+
+  "CDE_Sam_patio_1": "*Sigh*... I'm never gonna land this trick...$s",
+  "CDE_Sam_patio_2": "Aw man! You just missed it! I landed a perfect kickflip just a little bit ago.$h",
+  "CDE_Sam_patio_3": "This used to be so much easier...$s#$b#Either that or I just had a lot more unearned confidence when I was younger.$10",
   
   "CDE_Sam_Married_OneKid_1": "It's weird, but I really like being a father!$h",
   "CDE_Sam_Married_OneKid_2": "*yawn* Man oh man, I'm definitely feeling a new appreciation for stay-at home parents.$s",
