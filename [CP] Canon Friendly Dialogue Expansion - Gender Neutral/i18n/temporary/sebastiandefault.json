@@ -151,22 +151,22 @@
 
   //Date Specific Dialogue
   
-  "CDE_Sebastian_married_spring8": "My right eyelid keeps twitching. It's been doing that for almost a month.#$e#It's funny. I don't feel that stressed.#$e#Maybe it's from looking at screens so much. But I'm not giving those up for a little thing like this.$u",
-  "CDE_Sebastian_married_spring16": "I got picked on a lot as a kid. Doesn't really bother me anymore, though.#$e#If anything, it just helps me appreciate the present more.$7",
-  "CDE_Sebastian_married_spring26": "The wait's finally over. There's a new Cave Saga X that should be delivered later today.$h",
-  "CDE_Sebastian_married_spring28": "Man... I completely binged my way through the new Cave Saga X. I can't believe it's back to the waiting game again.#$e#I'll have to look through it again. There's probably some foreshadowing or secrets I missed.",
-  "CDE_Sebastian_married_summer5": "Are you putting on sunscreen today? Ugh. I'm sorry.#$e#You... do a lot for us, don't you? I'll... do some cleaning around the house today.$u#$e#Look, and if you want buy yourself a treat or something, I'm not gonna complain. You earn the money.",
-  "CDE_Sebastian_married_summer15": "Seriously, how is it this hot already? It's never a good sign when it's 6 AM and I've already stuck my head in the freezer once...$u",
-  "CDE_Sebastian_married_summer19": "There's a video game charity drive that's livestreaming today. I think I know what I'll be doing to keep my mind off the heat today.$h",
-  "CDE_Sebastian_married_summer22": "Don't you ever get tired running around all the time? I swear, you must have energy drink syrup for blood.$7",
-  "CDE_Sebastian_married_fall6": "I took another freelance job yesterday with an old client. This should keep me busy for a few days.$7#$e#I'm actually kind of excited to work on this one.$h",
-  "CDE_Sebastian_married_fall17": "Okay, I admit, I was smoking yesterday at the fair. But it was a special occasion. I promise you, I'm not getting back into it.$s",
-  "CDE_Sebastian_married_fall22": "I try to keep things in perspective when I recognize that everything is temporary. Everyone fades away eventually.#$e#Yeah, sometimes I go a bit overboard with these thoughts, but... I need them.$u#$b#Maybe that seems weird, but I really do.",
-  "CDE_Sebastian_married_winter3": "This kind of season is perfect for late night rides.$7#$e#Don't worry, I won't go if the roads are iced over. I'm not an idiot.$h",
-  "CDE_Sebastian_married_winter12": "The air is so dry and crisp. Just the way I like it.$h",
-  "CDE_Sebastian_married_winter19": "Hm. I usually go for coffee, but maybe today's a hot chocolate kind of day.$u#$e#With marshmallows.$7",
-  "CDE_Sebastian_married_winter24": "We'll be sitting down with my whole family tomorrow. You know... I'm actually kind of looking forward to it.$h",
-  "CDE_Sebastian_married_winter26": "...The snow's melting. *sigh*$s"
+  "CDE_Sebastian_Married_spring8": "My right eyelid keeps twitching. It's been doing that for almost a month.#$e#It's funny. I don't feel that stressed.#$e#Maybe it's from looking at screens so much. But I'm not giving those up for a little thing like this.$u",
+  "CDE_Sebastian_Married_spring16": "I got picked on a lot as a kid. Doesn't really bother me anymore, though.#$e#If anything, it just helps me appreciate the present more.$7",
+  "CDE_Sebastian_Married_spring26": "The wait's finally over. There's a new Cave Saga X that should be delivered later today.$h",
+  "CDE_Sebastian_Married_spring28": "Man... I completely binged my way through the new Cave Saga X. I can't believe it's back to the waiting game again.#$e#I'll have to look through it again. There's probably some foreshadowing or secrets I missed.",
+  "CDE_Sebastian_Married_summer5": "Are you putting on sunscreen today? Ugh. I'm sorry.#$e#You... do a lot for us, don't you? I'll... do some cleaning around the house today.$u#$e#Look, and if you want buy yourself a treat or something, I'm not gonna complain. You earn the money.",
+  "CDE_Sebastian_Married_summer15": "Seriously, how is it this hot already? It's never a good sign when it's 6 AM and I've already stuck my head in the freezer once...$u",
+  "CDE_Sebastian_Married_summer19": "There's a video game charity drive that's livestreaming today. I think I know what I'll be doing to keep my mind off the heat today.$h",
+  "CDE_Sebastian_Married_summer22": "Don't you ever get tired running around all the time? I swear, you must have energy drink syrup for blood.$7",
+  "CDE_Sebastian_Married_fall6": "I took another freelance job yesterday with an old client. This should keep me busy for a few days.$7#$e#I'm actually kind of excited to work on this one.$h",
+  "CDE_Sebastian_Married_fall17": "Okay, I admit, I was smoking yesterday at the fair. But it was a special occasion. I promise you, I'm not getting back into it.$s",
+  "CDE_Sebastian_Married_fall22": "I try to keep things in perspective when I recognize that everything is temporary. Everyone fades away eventually.#$e#Yeah, sometimes I go a bit overboard with these thoughts, but... I need them.$u#$b#Maybe that seems weird, but I really do.",
+  "CDE_Sebastian_Married_winter3": "This kind of season is perfect for late night rides.$7#$e#Don't worry, I won't go if the roads are iced over. I'm not an idiot.$h",
+  "CDE_Sebastian_Married_winter12": "The air is so dry and crisp. Just the way I like it.$h",
+  "CDE_Sebastian_Married_winter19": "Hm. I usually go for coffee, but maybe today's a hot chocolate kind of day.$u#$e#With marshmallows.$7",
+  "CDE_Sebastian_Married_winter24": "We'll be sitting down with my whole family tomorrow. You know... I'm actually kind of looking forward to it.$h",
+  "CDE_Sebastian_Married_winter26": "...The snow's melting. *sigh*$s"
 
   //locational specific dialogue
   
