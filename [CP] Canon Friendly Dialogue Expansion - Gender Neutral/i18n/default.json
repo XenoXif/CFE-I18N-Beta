@@ -69,7 +69,6 @@
 
   //date specific dialogue
   //to keep consistency with other tokens, i've removed the _ from date specific tokens and heart specific tokens, so that the key identifier is grouped within one segment. (_summer_6 became _summer6)
-  //festival specific dialogue has been returned to this section
   //don't forget that y2 means every year after as well. if a dialogue only appears in y1 i've marked it as such, otherwise the tokens are not year specific.
   "CDE_Abigail_spring1y2": "Staying up until midnight used to be more fun when I was a kid.#$b#Seems like I do that all the time these days.#$e#Oh yeah, happy new year!",
   "CDE_Abigail_spring12": "I'm definitely going to enter the egg hunt tomorrow. Are you?",
@@ -272,7 +271,6 @@
   //Affection specific dialogue
 
   //Shane
-  //changes koda has made to this section: moving special dialogue to the section for standard dialogue because it targets to the same file. moving season_weekday dialogue out of the heart specific section. reorganizing lines from most hearts to least hearts to keep in line with sorting by priority. fixed the underscores in date specific married. removed some duplicate comment lines.
 
   //Shane Gift Tastes
   "CDE_Shane_GoldPumpkin": "This thing's pretty cool. Where'd you manage to find it?$h",
@@ -420,7 +418,6 @@
   "CDE_Shane_Married_IndoorNight_9": "Maybe I should drink something to help me sleep. Not a good solution, but it'd beat staying up all night.",
 
   //locational specific dialogue
-  //koda 5/31: added _Married_ to shane's patio dialogue. Repeated for Sebastian below
   "CDE_Shane_Married_funLeave_1": "I'm going to go out today, alright?",
   "CDE_Shane_Married_funLeave_2": "Time for me to get a change of scenery or the walls'll close in. I'll be back later today.",
   "CDE_Shane_Married_funReturn_1": "Sorry if I'm sweaty... That was quite a walk... Buh, I'm out of shape.$6",
@@ -451,9 +448,6 @@
   "CDE_Shane_Married_patio_2": "If Charlie's in a good mood, I'm in a good mood, too.$8",
   "CDE_Shane_Married_patio_3": "I love this bird.$9#$e#Sorry, babe. You're my one true love, but Charlie is my one true-true love.$9",
 
-  //Festival Specific Dialogue
-  //koda 5/31: moved these back into date specific
-  
   //Date Specific Dialogue
   "CDE_Shane_Married_spring2": "It was awesome yesterday, seeing the chickens get outside for the first time in a while.$h",
   "CDE_Shane_Married_spring14": "Buh, I think I'm on post egg festival withdrawal. Just not a lot to look forward to for a while.$s#$e#Don't worry, I'll be alright in the long run. This always happens to me.",
@@ -475,11 +469,10 @@
   "CDE_Shane_Married_winter1": "Any big plans this winter? I'll probably end up watching a lot of TV and just hanging out around the house.",
   "CDE_Shane_Married_winter28": "Well, another year gone by... I look a little older...$6#$b#...but you look good as ever.",
   //Season specific dialogue
-
   //Affection specific dialogue
 
+
   //Sebastian
-  //changes Koda made here 5/30: changed gift taste and rainy lines to say sebastian instead of npc. reorganized heart specific dialogue to be the right order(10,8,6... and seasonless hearts lowest), moved generic (heartless) lines to their section
   //Sebastian Gift Tastes
   "CDE_Sebastian_GoldPumpkin": "This might be one of the coolest things I've ever seen. Is that real gold? It's definitely not paint.$7",
   "CDE_Sebastian_RockCandy": "Thanks! I love rock candy.$h#$b#This kind looks extra special.",
@@ -494,11 +487,11 @@
   "CDE_Sebastian_rainy_3": "Not too many people want to go out when it's like this. Things are more peaceful.",
 
   //Sebastian's Standard Dialogue
-  //changes Koda made here 5/31: changed summer_Mon10 style tokens to summerMon10, removed _ from inlaw tokens.
   //Special Dialogue
+  //Sebastian's mountain location dialogue should go here
 
   //date specific dialogue
-  "CDE_Sebastian_spring1": "I should browse the forums for some more clients. Anything to keep me busy indoors this spring.",
+  "CDE_Sebastian_spring1y2": "I should browse the forums for some more clients. Anything to keep me busy indoors this spring.",
   "CDE_Sebastian_spring12": "I'm not too big on festivals. Lots of commotion, too much social interaction... More stress than fun, if you ask me.",
   "CDE_Sebastian_spring23": "Ugh... Tomorrow is the worst festival of the year by a mile. Just wait and see how stupid I look during the flower dance.",
   "CDE_Sebastian_summer10": "Hehe... It might be funny to put something disgusting in the potluck soup tomorrow. Just don't poison anyone.#$e#Why ruin the potluck? Hmm... I guess some people feel liberated when the rigid structures of society break down a little. Maybe I'm weird.",
@@ -578,12 +571,15 @@
   "CDE_Sebastian_Sun6": "Damn it. Today's not a good day.$a#$e#If you can give me some space, I'd appreciate it.#$e#Look, you understand how I work.",
 
   //generic weekday dialogue
+  //Koda 6/1: added fall_fri and it's old addition as a quick copy/paste so they aren't lost if you wanted them kept.
   "CDE_Sebastian_summerThu": "Getting out and making small talk with the locals, just for the fun of it. ...That's probably your kind of thing, isn't it?",
+  "fall_Fri": "*yawn*... I was up until 3 reading this new book...#$q 462/463 fall_Fri_old#Do you read, @?#$r 462 -30 Fri_bad#Yep. The classics.#$r 463 30 Fri_good#Only Sci-fi and Fantasy#$r 462 0 Fri_bad#I like a good Romance#$r 463 -30 Fri_bad#No, I don't read books",
+  "fall_Fri_old": "$p 462#You probably wouldn't like it.$s|I think you'd like it.",
+
 
   //Sebastian's Married Dialogue
 
   //weather specific dialogue
-
   "CDE_Sebastian_Married_RainyDay_1": "Finally... some heavy rain. I get bored of sunny weather easily.",
   "CDE_Sebastian_Married_RainyDay_2": "I think I'm going to have a good day today. And you enjoy yourself, too, okay?$h",
   "CDE_Sebastian_Married_RainyDay_3": "Hey. I was just thinking about my old room in the basement. I felt comfortable there, but this is a lot more interesting. And I don't miss the smell...",
@@ -627,30 +623,7 @@
   "CDE_Sebastian_Married_IndoorNight_9": "I often felt unappreciated back home... but here I feel like I really belong. Thanks for making me feel welcome.$l",
   "CDE_Sebastian_Married_IndoorNight_10": "I don't feel tired, but I'll try to go to bed. I just want to have a chance to see you before you leave for the day.$7",
 
-  //Date Specific Dialogue
-
-  "CDE_Sebastian_Married_spring8": "My right eyelid keeps twitching. It's been doing that for almost a month.#$e#It's funny. I don't feel that stressed.#$e#Maybe it's from looking at screens so much. But I'm not giving those up for a little thing like this.$u",
-  "CDE_Sebastian_Married_spring16": "I got picked on a lot as a kid. Doesn't really bother me anymore, though.#$e#If anything, it just helps me appreciate the present more.$7",
-  "CDE_Sebastian_Married_spring26": "The wait's finally over. There's a new Cave Saga X that should be delivered later today.$h",
-  "CDE_Sebastian_Married_spring28": "Man... I completely binged my way through the new Cave Saga X. I can't believe it's back to the waiting game again.#$e#I'll have to look through it again. There's probably some foreshadowing or secrets I missed.",
-
-  "CDE_Sebastian_Married_summer5": "Are you putting on sunscreen today? Ugh. I'm sorry.#$e#You... do a lot for us, don't you? I'll... do some cleaning around the house today.$u#$e#Look, and if you want buy yourself a treat or something, I'm not gonna complain. You earn the money.",
-  "CDE_Sebastian_Married_summer15": "Seriously, how is it this hot already? It's never a good sign when it's 6 AM and I've already stuck my head in the freezer once...$u",
-  "CDE_Sebastian_Married_summer19": "There's a video game charity drive that's livestreaming today. I think I know what I'll be doing to keep my mind off the heat today.$h",
-  "CDE_Sebastian_Married_summer22": "Don't you ever get tired running around all the time? I swear, you must have energy drink syrup for blood.$7",
-
-  "CDE_Sebastian_Married_fall6": "I took another freelance job yesterday with an old client. This should keep me busy for a few days.$7#$e#I'm actually kind of excited to work on this one.$h",
-  "CDE_Sebastian_Married_fall17": "Okay, I admit, I was smoking yesterday at the fair. But it was a special occasion. I promise you, I'm not getting back into it.$s",
-  "CDE_Sebastian_Married_fall22": "I try to keep things in perspective when I recognize that everything is temporary. Everyone fades away eventually.#$e#Yeah, sometimes I go a bit overboard with these thoughts, but... I need them.$u#$b#Maybe that seems weird, but I really do.",
-
-  "CDE_Sebastian_Married_winter3": "This kind of season is perfect for late night rides.$7#$e#Don't worry, I won't go if the roads are iced over. I'm not an idiot.$h",
-  "CDE_Sebastian_Married_winter12": "The air is so dry and crisp. Just the way I like it.$h",
-  "CDE_Sebastian_Married_winter19": "Hm. I usually go for coffee, but maybe today's a hot chocolate kind of day.$u#$e#With marshmallows.$7",
-  "CDE_Sebastian_Married_winter24": "We'll be sitting down with my whole family tomorrow. You know... I'm actually kind of looking forward to it.$h",
-  "CDE_Sebastian_Married_winter26": "...The snow's melting. *sigh*$s",
-
-  //locational specific dialogue
-
+ //location specific dialogue
   "CDE_Sebastian_Married_funLeave_1": "I'm going to take a walk today. I need some time to myself. I'll see you in the evening.",
   "CDE_Sebastian_Married_funLeave_2": "Got a lot of stuff on my mind today. I'll let you know in the evening if it's still bothering me, but for now, I just need to go for a walk.",
   "CDE_Sebastian_Married_funReturn_1": "My day was fine, nothing much to tell you about. Why don't you tell me about yours?",
@@ -682,9 +655,28 @@
 
   "CDE_Sebastian_Married_patio_1": "Need something? I'll just be over here working on my bike for a while.",
   "CDE_Sebastian_Married_patio_2": "I just want to make sure everything's in perfect shape. Next time I ride, I don't want any worries on my mind.",
-  "CDE_Sebastian_Married_patio_3": "There's something meditative about working on a bike. Do you get the same feeling out in the fields?"
+  "CDE_Sebastian_Married_patio_3": "There's something meditative about working on a bike. Do you get the same feeling out in the fields?",
 
+  //Date Specific Dialogue
+  "CDE_Sebastian_Married_spring8": "My right eyelid keeps twitching. It's been doing that for almost a month.#$e#It's funny. I don't feel that stressed.#$e#Maybe it's from looking at screens so much. But I'm not giving those up for a little thing like this.$u",
+  "CDE_Sebastian_Married_spring16": "I got picked on a lot as a kid. Doesn't really bother me anymore, though.#$e#If anything, it just helps me appreciate the present more.$7",
+  "CDE_Sebastian_Married_spring26": "The wait's finally over. There's a new Cave Saga X that should be delivered later today.$h",
+  "CDE_Sebastian_Married_spring28": "Man... I completely binged my way through the new Cave Saga X. I can't believe it's back to the waiting game again.#$e#I'll have to look through it again. There's probably some foreshadowing or secrets I missed.",
+
+  "CDE_Sebastian_Married_summer5": "Are you putting on sunscreen today? Ugh. I'm sorry.#$e#You... do a lot for us, don't you? I'll... do some cleaning around the house today.$u#$e#Look, and if you want buy yourself a treat or something, I'm not gonna complain. You earn the money.",
+  "CDE_Sebastian_Married_summer15": "Seriously, how is it this hot already? It's never a good sign when it's 6 AM and I've already stuck my head in the freezer once...$u",
+  "CDE_Sebastian_Married_summer19": "There's a video game charity drive that's livestreaming today. I think I know what I'll be doing to keep my mind off the heat today.$h",
+  "CDE_Sebastian_Married_summer22": "Don't you ever get tired running around all the time? I swear, you must have energy drink syrup for blood.$7",
+
+  "CDE_Sebastian_Married_fall6": "I took another freelance job yesterday with an old client. This should keep me busy for a few days.$7#$e#I'm actually kind of excited to work on this one.$h",
+  "CDE_Sebastian_Married_fall17": "Okay, I admit, I was smoking yesterday at the fair. But it was a special occasion. I promise you, I'm not getting back into it.$s",
+  "CDE_Sebastian_Married_fall22": "I try to keep things in perspective when I recognize that everything is temporary. Everyone fades away eventually.#$e#Yeah, sometimes I go a bit overboard with these thoughts, but... I need them.$u#$b#Maybe that seems weird, but I really do.",
+
+  "CDE_Sebastian_Married_winter3": "This kind of season is perfect for late night rides.$7#$e#Don't worry, I won't go if the roads are iced over. I'm not an idiot.$h",
+  "CDE_Sebastian_Married_winter12": "The air is so dry and crisp. Just the way I like it.$h",
+  "CDE_Sebastian_Married_winter19": "Hm. I usually go for coffee, but maybe today's a hot chocolate kind of day.$u#$e#With marshmallows.$7",
+  "CDE_Sebastian_Married_winter24": "We'll be sitting down with my whole family tomorrow. You know... I'm actually kind of looking forward to it.$h",
+  "CDE_Sebastian_Married_winter26": "...The snow's melting. *sigh*$s"
   //Season specific dialogue
-
   //Affection specific dialogue
 }

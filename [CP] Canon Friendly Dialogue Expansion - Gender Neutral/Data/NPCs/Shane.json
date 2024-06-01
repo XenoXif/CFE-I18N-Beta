@@ -27,7 +27,7 @@
       }
     },
     {
-      "LogName": "Shane",
+      "LogName": "CDE_Shane_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Shane",
       "Entries": {
@@ -115,7 +115,7 @@
       }
     },
     {
-      "LogName": "Shane Marriage",
+      "LogName": "CDE_Shane_Marriage",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueShane",
       "Entries": {
