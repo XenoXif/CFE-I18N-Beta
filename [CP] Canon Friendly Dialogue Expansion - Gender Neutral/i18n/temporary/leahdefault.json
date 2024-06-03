@@ -214,24 +214,24 @@
   
   
   //Date Specific Dialogue
-  "CDE_Leah_spring4":"Did you get all the crops in the ground yet? Or... is it better to stagger it out?#$e#I'm just curious. I trust your judgment.",
-  "CDE_Leah_spring19":"There's a coffee house in Grampleton that wants to hang a sampling of my work. Guess I've got my work cut out for me!#$e#I just hope some of it sells.",
-  "CDE_Leah_spring25":"Elliott says beauty is experienced in the mind, so he thinks words most resemble our thoughts and are best for creating beauty.#$e#But... don't we also think in images? And aren't image-based thoughts usually more potent?#$b#...I dunno. What do you think?$u",
-  "CDE_Leah_summer8":"Sorry if I'm wet to the touch... I was sweating all night in the heat.",
-  "CDE_Leah_summer9":null,
-  "CDE_Leah_summer12":"It was nice catching up with Elliott at yesterday's festival. Seems like he's in a pretty good place with his lifestyle.",
-  "CDE_Leah_summer15":"Ahhh, I'm so glad we still have a good chunk of summer left.$h#$e#I'm not ready for it to be over.",
-  "CDE_Leah_summer20":"It takes a bit of guts to know my work sits on display in other people's homes.#$e#I pour myself into those pieces, so it's almost like they can spy on a piece of my soul. Does that make sense?#$e#Well, your work winds up on other people's dinner tables. So that's kind of the same thing.$h#$b#That's just the consequence of leaving a small impact on the world, I suppose.",
-  "CDE_Leah_summer24":"I wonder how my old neighbors are doing. Marnie, Jas...#$e#...Oh right. And Shane.#$e#I guess I'm still technically neighbors with them, huh?$h",
-  "CDE_Leah_fall7":"I wonder if I should check out Caroline's dance aerobics class again. I've only ever been... twice? ...I think?#$e#Oh yeah! Once, Dr. Harvey was there. It was cute.$h#$b#Hey, more power to him.",
-  "CDE_Leah_fall10":"Emily's still working at the Saloon, isn't she? Hm, I wonder if she'll ever move out of town?#$e#I've never gotten to know her super well, but I always got the sense she was meant for more than waiting tables.",
-  "CDE_Leah_fall13":"I basically get to live my dream. @, I hope you understand that I don't take that for granted, right?",
-  "CDE_Leah_fall24":"The coffee shop in Grampleton was displaying some of my paintings and they finished selling the last piece! Score!$h#$e#Maybe they'll ask me again.",
-  "CDE_Leah_winter4":"Hmm... I wonder how Elliott's doing with all this cold? Do you think maybe he'd appreciate a hot meal from us?",
-  "CDE_Leah_winter11":"Sorry, I let it get pretty cold in here last night, didn't I?#$e#I cracked the windows last night to let out the paint fumes. I just... let's just keep the fireplace running through the day.$s",
-  "CDE_Leah_winter16":"Sometimes, it's tough to sell a piece I feel really proud of.$s#$e#I mean, if we're good on money, maybe I'll just... keep some of them?$l",
-  "CDE_Leah_winter20":"Feast of the Winter Star-themed art is so fun and easy to do. I can just make it as unapologetically joyful as I want.$h",
-  "CDE_Leah_winter27":"The snow was melting and dripping repeatedly off this one spot on the roof. And then the sun started refracting through it.#$b#It sent these tiny little flashes through part of the room. So beautiful.#$e#Oh, this was just a few mornings ago."
+  "CDE_Leah_Married_spring4": "Did you get all the crops in the ground yet? Or... is it better to stagger it out?#$e#I'm just curious. I trust your judgment.",
+  "CDE_Leah_Married_spring19": "There's a coffee house in Grampleton that wants to hang a sampling of my work. Guess I've got my work cut out for me!#$e#I just hope some of it sells.",
+  "CDE_Leah_Married_spring25": "Elliott says beauty is experienced in the mind, so he thinks words most resemble our thoughts and are best for creating beauty.#$e#But... don't we also think in images? And aren't image-based thoughts usually more potent?#$b#...I dunno. What do you think?$u",
+  "CDE_Leah_Married_summer8": "Sorry if I'm wet to the touch... I was sweating all night in the heat.",
+  "CDE_Leah_Married_summer9": null,
+  "CDE_Leah_Married_summer12": "It was nice catching up with Elliott at yesterday's festival. Seems like he's in a pretty good place with his lifestyle.",
+  "CDE_Leah_Married_summer15": "Ahhh, I'm so glad we still have a good chunk of summer left.$h#$e#I'm not ready for it to be over.",
+  "CDE_Leah_Married_summer20": "It takes a bit of guts to know my work sits on display in other people's homes.#$e#I pour myself into those pieces, so it's almost like they can spy on a piece of my soul. Does that make sense?#$e#Well, your work winds up on other people's dinner tables. So that's kind of the same thing.$h#$b#That's just the consequence of leaving a small impact on the world, I suppose.",
+  "CDE_Leah_Married_summer24": "I wonder how my old neighbors are doing. Marnie, Jas...#$e#...Oh right. And Shane.#$e#I guess I'm still technically neighbors with them, huh?$h",
+  "CDE_Leah_Married_fall7": "I wonder if I should check out Caroline's dance aerobics class again. I've only ever been... twice? ...I think?#$e#Oh yeah! Once, Dr. Harvey was there. It was cute.$h#$b#Hey, more power to him.",
+  "CDE_Leah_Married_fall10": "Emily's still working at the Saloon, isn't she? Hm, I wonder if she'll ever move out of town?#$e#I've never gotten to know her super well, but I always got the sense she was meant for more than waiting tables.",
+  "CDE_Leah_Married_fall13": "I basically get to live my dream. @, I hope you understand that I don't take that for granted, right?",
+  "CDE_Leah_Married_fall24": "The coffee shop in Grampleton was displaying some of my paintings and they finished selling the last piece! Score!$h#$e#Maybe they'll ask me again.",
+  "CDE_Leah_Married_winter4": "Hmm... I wonder how Elliott's doing with all this cold? Do you think maybe he'd appreciate a hot meal from us?",
+  "CDE_Leah_Married_winter11": "Sorry, I let it get pretty cold in here last night, didn't I?#$e#I cracked the windows last night to let out the paint fumes. I just... let's just keep the fireplace running through the day.$s",
+  "CDE_Leah_Married_winter16": "Sometimes, it's tough to sell a piece I feel really proud of.$s#$e#I mean, if we're good on money, maybe I'll just... keep some of them?$l",
+  "CDE_Leah_Married_winter20": "Feast of the Winter Star-themed art is so fun and easy to do. I can just make it as unapologetically joyful as I want.$h",
+  "CDE_Leah_Married_winter27": "The snow was melting and dripping repeatedly off this one spot on the roof. And then the sun started refracting through it.#$b#It sent these tiny little flashes through part of the room. So beautiful.#$e#Oh, this was just a few mornings ago."
 
   //Season specific dialogue
 
