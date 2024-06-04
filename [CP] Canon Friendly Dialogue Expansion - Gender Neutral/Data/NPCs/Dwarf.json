@@ -6,7 +6,8 @@
         "Target":"Characters/Dialogue/Dwarf",
         "Entries":
         {
-            "AcceptGift_(O)279":"You are truly offering me this?#$b#...Give me. Give me. I bid you endless prosperity.",
+            "AcceptGift_(O)373":"I have not idea what this is. But I love it.#$e#No, you may not have it back.",
+			"AcceptGift_(O)279":"You are truly offering me this?#$b#...Give me. Give me. I bid you endless prosperity.",
 			"AcceptGift_(O)797":"A stone... from the bottom of the sea? How enchanting.",
 			"AcceptGift_(O)74":"You have undeniably achieved the highest skill as a miner. I hereby accept you as one of my own.",
 			"AcceptGift_(O)446":"What a strange object. And yet, you say it is imbued with good luck?#$b#I will cherish it. Good luck is what I need most of all right now.",

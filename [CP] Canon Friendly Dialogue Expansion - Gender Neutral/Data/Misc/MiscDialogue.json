@@ -6,6 +6,7 @@
         "Target": "Characters/Dialogue/rainy",
         "Entries":
         {
+            "Abigail": "#$c .5#The valley looks more interesting in the rain... don't you think?#The lake's a beautiful place to visit when the weather's like this.",
             "Robin": "#$c .5#The rain doesn't stop me from getting a job done! ...Although soggy wood isn't a joy to work with.#Your roof isn't leaking, is it? Let me know if it that ever happens.",
             "Demetrius": "#$c .5#Greetings. Stay inside if you want to keep warm.#The low acidity of this rain should be good for your crops.",
             "Maru": "#$c .5#When it rains I have a good excuse to work on my gadgets all day. ...It must be kind of boring for you, though.#Ah, another rainy day, just like I predicted.",
@@ -24,7 +25,7 @@
             "Haley": "#$c .5#I spent all morning doing my hair... now the rain could mess it up. *sigh* ... Life is hard sometimes.$s#Yikes. No offense, but you are soaked.",
             "Sam": "#$c .5#Rain muffles sound, so I can play my guitar louder without my Mom getting mad. Hehe.$h#It feels kinda badass to walk through the rain without letting it faze you.",
             "Leah": "#$c .5#Maybe I should cook something new and exciting today. Something spicy.#I always look forward to how the forest looks all glisteny after the sun returns.",
-           
+            "Shane": "#$c .5#Hmm... this weather makes me thirsty.$u#Oh joy. Another rainy day.$s",
             "Marnie": "#$c .5#Hey there. You look like you're soaked...you poor thing!$h#Hey @. You don't have any critters stuck outside, right?",
             "Elliott": "Sometimes when I lie in bed I can hear a distant foghorn cut through the rain.#$b#But when I look out the window I see only a curtain of gray.",
             "Gus": "#$c .5#There's nothing like a glass of dry red wine on a day like this, huh? Hehehe, I love my job.#Need something to warm you up tonight? Don't be shy!",
