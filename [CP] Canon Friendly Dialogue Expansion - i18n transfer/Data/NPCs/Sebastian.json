@@ -29,29 +29,27 @@
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
         //Special Dialogue
-        "Mountain_47_23": "I come here for the peace and quiet.",
-        "summer_Mountain_58_35": "#$c .5#The temperature only starts to get comfortable at night.#$e#It always seems to stay a little cooler by the lake.",
 
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CDE_Sebastian_spring1y2}}",
-        "spring_12": "{{i18n: CDE_Sebastian_spring12}}",
+        "spring_12_1": "{{i18n: CDE_Sebastian_spring12}}",
         "spring_12_2": "{{i18n: CDE_Sebastian_spring12}}",
-        "spring_23": "{{i18n: CDE_Sebastian_spring23}}",
+        "spring_23_1": "{{i18n: CDE_Sebastian_spring23}}",
         "spring_23_2": "{{i18n: CDE_Sebastian_spring23}}",
 
-        "summer_10": "{{i18n: CDE_Sebastian_summer10}}",
+        "summer_10_1": "{{i18n: CDE_Sebastian_summer10}}",
         "summer_10_2": "{{i18n: CDE_Sebastian_summer10}}",
-        "summer_27": "{{i18n: CDE_Sebastian_summer27}}",
+        "summer_27_1": "{{i18n: CDE_Sebastian_summer27}}",
         "summer_27_2": "{{i18n: CDE_Sebastian_summer27}}",
 
-        "fall_20": "{{i18n: CDE_Sebastian_fall20}}",
+        "fall_20_1": "{{i18n: CDE_Sebastian_fall20}}",
         "fall_20_2": "{{i18n: CDE_Sebastian_fall20}}",
-        "fall_26": "{{i18n: CDE_Sebastian_fall26}}",
+        "fall_26_1": "{{i18n: CDE_Sebastian_fall26}}",
         "fall_26_2": "{{i18n: CDE_Sebastian_fall26}}",
 
-        "winter_24": "{{i18n: CDE_Sebastian_winter24}}",
+        "winter_24_1": "{{i18n: CDE_Sebastian_winter24}}",
         "winter_24_2": "{{i18n: CDE_Sebastian_winter24}}",
-        "winter_28": "{{i18n: CDE_Sebastian_winter28}}",
+        "winter_28_1": "{{i18n: CDE_Sebastian_winter28}}",
         "winter_28_2": "{{i18n: CDE_Sebastian_winter28}}",
 
         //Heart Specific Dialogue
@@ -126,10 +124,7 @@
         "Sun6": "{{i18n: CDE_Sebastian_Sun6}}",
 
         //Generic Weekday Dialogue
-        "summer_Thu": "{{i18n: CDE_Sebastian_summerThu}}",
-
-        "fall_Fri": "{{i18n: CDE_Sebastian_fallFri}}",
-        "fall_Fri_old": "{{i18n: CDE_Sebastian_fallFri_old}}"
+        "summer_Thu": "{{i18n: CDE_Sebastian_summerThu}}"
       }
     },
     {
@@ -203,7 +198,6 @@
 
         //Seasonal Dialogue
         //Affection Specific Dialogue
-
       }
     }
   ]
