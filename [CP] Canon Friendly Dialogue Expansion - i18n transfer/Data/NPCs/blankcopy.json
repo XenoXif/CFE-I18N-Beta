@@ -1,0 +1,152 @@
+{
+  "Changes": [
+    {
+      "LogName": "CDE_NPC_GiftTastes",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/NPC",
+      "Entries": {
+        // we can also add reveal gift taste code to these now that they use i18n.
+        "AcceptGift_(O)373": "{{i18n: CDE_NPC_GoldPumpkin}}",
+        "AcceptGift_(O)279": "{{i18n: CDE_NPC_RockCandy}}",
+        "AcceptGift_(O)797": "{{i18n: CDE_NPC_Pearl}}",
+        "AcceptGift_(O)74": "{{i18n: CDE_NPC_PrismaticShard}}",
+        "AcceptGift_(O)446": "{{i18n: CDE_NPC_RabbitsFoot}}",
+
+        "AcceptGift_(O)1": "{{i18n: CDE_NPC_}}",
+        "AcceptGift_(O)2": "{{i18n: CDE_NPC_}}",
+        "AcceptGift_(O)3": "{{i18n: CDE_NPC_}}",
+        "AcceptGift_(O)4": "{{i18n: CDE_NPC_}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+    },
+    {
+      "LogName": "CDE_NPC_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "NPC": "{{i18n: CDE_NPC_rainy_{{random: 1,2,3}}}}"
+      }
+    },
+    {
+      "LogName": "CDE_NPC_Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/NPC",
+      "Entries": {
+        //Date Specific Dialogue
+        "spring_1_2": "{{i18n: CDE_NPC_spring1y2}}",
+        "summer_12_1": "{{i18n: CDE_NPC_summer12y1}}",
+        "winter_28_1": "{{i18n: CDE_NPC_winter28}}",
+        "winter_28_2": "{{i18n: CDE_NPC_winter28}}",
+
+        //Heart Specific Dialogue
+        "summer_Mon10": "{{i18n: CDE_NPC_summerMon10}}",
+        "summer_Mon8": "{{i18n: CDE_NPC_summerMon8}}",
+        "summer_Mon6": "{{i18n: CDE_NPC_summerMon6}}",
+        "summer_Mon4": "{{i18n: CDE_NPC_summerMon4}}",
+
+        "fall_Mon10": "{{i18n: CDE_NPC_fallMon10}}",
+        "fall_Mon8": "{{i18n: CDE_NPC_fallMon8}}",
+        "fall_Mon6": "{{i18n: CDE_NPC_fallMon6}}",
+
+        "winter_Mon10": "{{i18n: CDE_NPC_winterMon10}}",
+        "winter_Mon8": "{{i18n: CDE_NPC_winterMon8}}",
+        "winter_Mon4": "{{i18n: CDE_NPC_winterMon4}}",
+
+        "Mon8": "{{i18n: CDE_NPC_Mon8}}",
+        "Mon6": "{{i18n: CDE_NPC_Mon6}}",
+
+        //Generic Weekday Dialogue
+        "Mon": "{{i18n: CDE_NPC_Mon}}"
+      }
+    },
+    {
+      "LogName": "CDE_NPC_Marriage",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueNPC",
+      "Entries": {
+        //these lines follow different priority rules than unmarried dialogue does, with different options having different % likelihoods to show up each day when the right conditions are met.
+
+        //Weather specific dialogue
+        //note that Indoor_Day is the key for any weather besides rain, even when the NPC is outside. Day means prior to 6pm. Indoor_Night is specific to inside the farmhouse when it's not raining after 6pm.
+        "Rainy_Day_0": "{{i18n: CDE_NPC_Married_RainyDay_1}}",
+        "Rainy_Day_1": "{{i18n: CDE_NPC_Married_RainyDay_{{Random: 2,3}}}}",
+        "Rainy_Day_2": "{{i18n: CDE_NPC_Married_RainyDay_{{Random: 4,5}}}}",
+        "Rainy_Day_3": "{{i18n: CDE_NPC_Married_RainyDay_{{Random: 6,7}}}}",
+        "Rainy_Day_4": "{{i18n: CDE_NPC_Married_RainyDay_{{Random: 8,9}}}}",
+
+        "Rainy_Night_0": "{{i18n: CDE_NPC_Married_RainyNight_1}}",
+        "Rainy_Night_1": "{{i18n: CDE_NPC_Married_RainyNight_{{Random: 2,3}}}}",
+        "Rainy_Night_2": "{{i18n: CDE_NPC_Married_RainyNight_{{Random: 4,5}}}}",
+        "Rainy_Night_3": "{{i18n: CDE_NPC_Married_RainyDay_{{Random: 6,7}}}}",
+        "Rainy_Night_4": "{{i18n: CDE_NPC_Married_RainyDay_{{Random: 8,9}}}}",
+
+        "Indoor_Day_0": "{{i18n: CDE_NPC_Married_IndoorDay_{{Random: 1,2}}}}",
+        "Indoor_Day_1": "{{i18n: CDE_NPC_Married_IndoorDay_{{Random: 3,4}}}}",
+        "Indoor_Day_2": "{{i18n: CDE_NPC_Married_IndoorDay_{{Random: 5,6}}}}",
+        "Indoor_Day_3": "{{i18n: CDE_NPC_Married_IndoorDay_{{Random: 7,8}}}}",
+        "Indoor_Day_4": "{{i18n: CDE_NPC_Married_IndoorDay_{{Random: 9,10}}}}",
+
+        "Indoor_Night_0": "{{i18n: CDE_NPC_Married_IndoorNight_{{Random: 1,2}}}}",
+        "Indoor_Night_1": "{{i18n: CDE_NPC_Married_IndoorNight_{{Random: 3,4}}}}",
+        "Indoor_Night_2": "{{i18n: CDE_NPC_Married_IndoorNight_{{Random: 5,6}}}}",
+        "Indoor_Night_3": "{{i18n: CDE_NPC_Married_IndoorNight_{{Random: 7,8}}}}",
+        "Indoor_Night_4": "{{i18n: CDE_NPC_Married_IndoorNight_{{Random: 9,10}}}}",
+
+        //locational specific dialogue
+        //funleave and return only show up on Mondays or Fridays (except for characters with jobs), and only while the npc is leaving or entering the farmhouse. fun return will not display once the NPC has reached their target location.
+        //Kid dialogue only displays when the NPC is standing in the farmhouse kitchen
+        //Kid dialogue only displays when the NPC is standing in the farmhouse kitchen
+        //Outdoor Dialogue only displays on the farm. _num has an 80% chance of being displayed, _npc has a 20% chance. _npc is currently unused here
+
+        "funLeave_NPC": "{{i18n: CDE_NPC_Married_funLeave_{{Random: 1,2}}}}",
+        "funReturn_NPC": "{{i18n: CDE_NPC_Married_funReturn_{{Random: 1,2}}}}",
+
+        "OneKid_0": "{{i18n: CDE_NPC_Married_OneKid_{{Random: 1,2}}}}",
+        "OneKid_1": "{{i18n: CDE_NPC_Married_OneKid_{{Random: 3,4}}}}",
+        "OneKid_3": "{{i18n: CDE_NPC_Married_OneKid_5}}",
+        "TwoKids_1": "{{i18n: CDE_NPC_Married_TwoKids_{{Random: 1,2}}}}",
+        "TwoKids_2": "{{i18n: CDE_NPC_Married_TwoKids_{{Random: 3,4}}}}",
+        "TwoKids_3": "{{i18n: CDE_NPC_Married_TwoKids_{{Random: 5,6}}}}",
+
+        "Outdoor_0": "{{i18n: CDE_NPC_Married_Outdoor_1}}",
+        "Outdoor_1": "{{i18n: CDE_NPC_Married_Outdoor_2}}",
+        "Outdoor_2": "{{i18n: CDE_NPC_Married_Outdoor_{{Random: 3,4}}}}",
+        "Outdoor_3": "{{i18n: CDE_NPC_Married_Outdoor_{{Random: 5,6}}}}",
+        "Outdoor_4": "{{i18n: CDE_NPC_Married_Outdoor_{{Random: 7,8}}}}",
+
+        "patio_NPC": "{{i18n: CDE_NPC_Married_patio_{{Random: 1,2,3}}}}",
+
+        //Date Specific Dialogue
+        "spring_2": "{{i18n: CDE_NPC_Married_spring2}}",
+        "spring_14": "{{i18n: CDE_NPC_Married_spring14}}",
+        "spring_19": "{{i18n: CDE_NPC_Married_spring19}}",
+        "spring_27": "{{i18n: CDE_NPC_Married_spring27}}",
+
+        "summer_2": "{{i18n: CDE_NPC_Married_summer2}}",
+        "summer_4": "{{i18n: CDE_NPC_Married_summer4}}",
+        "summer_12": "{{i18n: CDE_NPC_Married_summer12}}",
+        "summer_16": "{{i18n: CDE_NPC_Married_summer16}}",
+        "summer_17": "{{i18n: CDE_NPC_Married_summer17}}",
+
+        "fall_3": "{{i18n: CDE_NPC_Married_fall3}}",
+        "fall_7": "{{i18n: CDE_NPC_Married_fall7}}",
+        "fall_10": "{{i18n: CDE_NPC_Married_fall10}}",
+        "fall_12": "{{i18n: CDE_NPC_Married_fall12}}",
+        "fall_23": "{{i18n: CDE_NPC_Married_fall23}}",
+
+        "winter_1": "{{i18n: CDE_NPC_Married_winter1}}",
+        "winter_28": "{{i18n: CDE_NPC_Married_winter28}}"
+
+        //Seasonal Dialogue
+        //shown at 9+ hearts, with a 5% chance each day
+        //currently unused. key looks like "fall_NPC"
+
+        //Affection Specific Dialogue
+        //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
+        //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
+        //currently unused. key looks like "Bad_3"
+      }
+    }
+  ]
+}

@@ -29,7 +29,7 @@
       //"Entries": { //left for future use }
     },
     {
-      "LogName": "Willy",
+      "LogName": "CDE_Willy_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Willy",
       "Entries": {
