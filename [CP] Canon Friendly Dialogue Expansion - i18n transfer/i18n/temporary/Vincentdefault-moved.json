@@ -12,6 +12,20 @@
 
   //Vincent's Misc Dialogue
   //these lines target files other than the standard characters/dialogue/npc location such as unmarried rainy dialogue
+  
+  //Vincent's Standard Dialogue
+  //special dialogue
+  "CDE_Vincent_repeated_1": "How long can you hold your breath?#$b#I can hold mine for... eight minutes.#$e#Yuh-huh. I can.#$e#...But I just don't want to right now.",
+  "CDE_Vincent_repeated_2": "@, was your dad around much when you were a kid?$u",
+  "CDE_Vincent_repeated_3": "Red flavored gummies are really good, but the purple kind in this new brand is really REALLY good.#$e#The only problem? The other colors that come with the purple kind aren't as good.#$b#Hmmmmmmmmm...",
+  "CDE_Vincent_repeated_4": "Can you keep a secret, mister?^Can you keep a secret, miss?$u#$b#I wanna marry Miss Penny when I grow up.#$e#Just don't tell her, okay?$u",
+  "CDE_Vincent_repeated_5": "Dad seems weird since he came back. I wonder what happened to him?$s",
+  //These keys correspond, line-by line, to the "repeated" lines above. I have them in a big chunk instead of interspersed so that it's easier to copy/paste.
+  //repeated_1: summer_Sun10, Thu4
+  //repeated_2: fall_Sat10_1, Sat10_1
+  //repeated_3: winterSun10, Tue2
+  //repeated_4: Tue8, Tue6_1
+  //repeated_5: Sat6_2, Sat_2
 
   //date specific dialogue
   "CDE_Vincent_spring1": "I am so happy today! Eeeeee!$h",
@@ -66,20 +80,6 @@
   "CDE_Vincent_Sun8": "I tried some of Mom's yellow curry. It was actually really good.#$b#But ONLY because of the sauce. Vegetables are still icky.",
   "CDE_Vincent_Sun4": "Ms. Penny makes me read a new book every week.$s#$b#At least she lets me pick them, sometimes!",
 
-  //some of these are redundant, like fallSat10y1 and Sat10y1, and Sat and Sat6. we can add a comment to the end of the line for keys like this if its specifically imporatant that the line show up on sats with 6 hearts, and on any other saturdays when no more specific conditions have been met. otherwise i recommend moving them to generic weekday dialogue and freeing up the heart key. if no other key takes priority this would result in the line showing up on Sat6 at any heart level, otherwise lines with more importance would cover it up.
-  //can summerSun10+Thu4 become Thu4? is it a 10 heart line? can winterSun10 be the same way? can we rehome fallSat10y1's line to be something players can see, or if you don't want it seen, can we remove it from the code so that the 10 heart key is freed up for other modders to use?
-  "CDE_Vincent_repeated_1": "How long can you hold your breath?#$b#I can hold mine for... eight minutes.#$e#Yuh-huh. I can.#$e#...But I just don't want to right now.",
-  "CDE_Vincent_repeated_2": "@, was your dad around much when you were a kid?$u",
-  "CDE_Vincent_repeated_3": "Red flavored gummies are really good, but the purple kind in this new brand is really REALLY good.#$e#The only problem? The other colors that come with the purple kind aren't as good.#$b#Hmmmmmmmmm...",
-  "CDE_Vincent_repeated_4": "Can you keep a secret, mister?^Can you keep a secret, miss?$u#$b#I wanna marry Miss Penny when I grow up.#$e#Just don't tell her, okay?$u",
-  "CDE_Vincent_repeated_5": "Dad seems weird since he came back. I wonder what happened to him?$s",
-  //These keys correspond, line-by line, to the "repeated" lines above. I have them in a big chunk instead of interspersed so that it's easier to copy/paste.
-  //repeated_1: summer_Sun10, Thu4
-  //repeated_2: fall_Sat10_1, Sat10_1
-  //repeated_3: winterSun10, Tue2
-  //repeated_4: Tue8, Tue6_1
-  //repeated_5: Sat6_2, Sat_2
-
   //generic weekday dialogue
   "CDE_Vincent_summerTue": "Hey Mister @.^Hey Miss @.#$e#Is there anyone in town who you like?#$e#Yeah, like... LIKE like.$h#$e#Aw, c'mon, tell me!",
   "CDE_Vincent_summerWed": "Whoa! Cool! You're all sweaty!",
@@ -97,5 +97,5 @@
 
   "CDE_Vincent_WedinlawSam": "How's my brother doing?#$e#I can't believe we're related now!$h",
   "CDE_Vincent_Fri": "Oh no... Mom's making lentil soup tonight.$s",
-  "CDE_Vincent_Saty1": "Dad's coming back soon!#$b#I hope he brings me some toys.$u",
+  "CDE_Vincent_Saty1": "Dad's coming back soon!#$b#I hope he brings me some toys.$u"
 }

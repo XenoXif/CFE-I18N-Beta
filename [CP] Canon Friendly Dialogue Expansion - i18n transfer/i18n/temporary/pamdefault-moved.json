@@ -1,5 +1,4 @@
 { //Pam
-
   //Pam Gift Tastes
   "CDE_Pam_GoldPumpkin": "Well lookit that, kid! Nice goin'!$h#$b#Hm, I gotta talk to Gus about this.",
   "CDE_Pam_RockCandy": "This is a fun one! I ain't had any o' this old-fashioned candy for a long time!",
@@ -21,18 +20,42 @@
   "CDE_Pam_rainy_3": "You don't need any umbrella, huh?#$e#Hah, good point. I reckon I don't need one, neither!$h",
 
   //Pam's Standard Dialogue
-
   //Special Dialogue
 
-  //festival related dialogue
-
   //date specific dialogue
-  "CDE_Pam_spring1":"Any plans for the new year?#$e#Yep, we'll see.#$e#Gotta keep that head up, huh?",
+  "CDE_Pam_spring1y2":"Any plans for the new year?#$e#Yep, we'll see.#$e#Gotta keep that head up, huh?",
   "CDE_Pam_spring23":"I can't wait to see Penny dance tomorrow!$h#$e#I just hope she dances with someone good enough for her.",
   "CDE_Pam_winter7":"Time for me to try my hand at fishing tomorrow. You gonna be there at the festival?",
   "CDE_Pam_winter28":"Welp, time for another year to walk into the sunset!#$e#Make sure you don't let your life go whooshin' by, kid.",
 
   //heart specific dialogue
+  "CDE_Pam_summerMon8":"$d bus#I'm a safe driver, kid. Ain't had a single ticket since I was younger than you.$h|Damn this weather, huh kid?",
+  "CDE_Pam_summerTue10":"I saw an osprey up in the trees. He looked like he was king o' the whole valley.#$e#Probably saw his whole kingdom from that high up.$h",
+  "CDE_Pam_summerWed10":"$d bus#Ain't no way I'm missin' my unemployment days, nuh uh.|Some of us just can't win in this world, kid.$s",
+  "CDE_Pam_summerThu10":"$d bus#I think I lost a pound or two since I restarted my daily walk to the bus stop!$h|*sigh*...$s",
+  "CDE_Pam_summerThu2":"Oh, hi there, farmer.#$e#Did I see you at the saloon the other night?",
+  "CDE_Pam_summerFri8":"Well, the world can't be all bad if there are still some good ones like you left.#$e#How'd you turn out so nice, anyway?",
+  "CDE_Pam_summerSat10":"Ol' Dusty, that mutt? Nahh, he ain't gettin' up there in age too-too bad. He's always just been lazy.#$e#He's like a dog who thinks he was born a cat.$h",
+  "CDE_Pam_summerSat2":"Don't mind that ol' dog next to the house.#$b#He might look at you cross, but he'll never get up from that box in a hundred years.#$b#The old boy's name? It's Dusty.",
+  "CDE_Pam_summerSun10":"$d bus#Shhh... don't tell anyone, but I went for a little personal trip a few days ago in the bus when no one was lookin'.$h|Wish I had somethin' to do today...$s",
+  
+  "CDE_Pam_fallMon10":"It's around this time of year, I always remember...#$e#That idiot husband o' mine just stood up and walked on out.#$e#I don't really care where he is. Penny's grown up just fine, and she's too good for him, anyway.",
+  "CDE_Pam_fallTue10":"$d bus#Hey kid, thanks for talkin' to me like you do. The bus stop's a nice spot, seein' as you live right down the road from it.|Oh, hey, kid...$s",
+  "CDE_Pam_fallWed10":"$d bus#I ain't rich, but I'm glad I don't have to worry about money so much anymore.|Some of us just can't win in this world, kid.$s",
+  "CDE_Pam_fallThu10":"Can you believe I wanted to be a movie star when I was little?#$b#S'pose it ain't too uncommon for kids, but what'd my little girl self say to me with how I am?#$e#Life ain't so bad when you really get down to it. Even if things don't always go the way they should.",
+  "CDE_Pam_fallFri10":"$d bus#I wonder which'll live longer... me or the bus. It's an old bus, so I bet I'd win, but I'd miss the old girl for sure.|*sigh*...$s",
+  "CDE_Pam_fallSat10":"Did I ever tell you? I saw a UFO one time.#$e#'Course, it was late at night, and I'd been at the saloon awhile, so no one believed me.$u#$e#Not sure if I believe me, if I'm honest.$s#$b#But I ain't seen somethin' like that ever since.",
+  "CDE_Pam_fallSun10":"Must be nice havin' Jodi's life. I know things ain't always easy for her, but at least she's made somethin' of herself.",
+  
+  "CDE_Pam_winterMon6":"You got any hogs on that farm?",
+  "CDE_Pam_winterTue10":"You seen anything strange around town today?#$e#Sometimes I think I see somethin' dark and spooky movin' through the trees.",
+  "CDE_Pam_winterTue4":"I just hope Penny has a good life ahead of her. If you ever have kids you'll know how I feel.",
+  "CDE_Pam_winterWed10":"$d bus#You don't know how glad I am that the bus is up and running! I feel alive again.|Some of us just can't win in this world, kid.$s",
+  "CDE_Pam_winterThu10":"I probably oughta get to that Altar of Yoba more often, seein' as I'm a believer and all that.#$e#It's just tough to find the time with my work schedule the way it is.",
+  "CDE_Pam_winterFri8":"It's cute seein' how Penny works with those kids.#$e#Well, even if it's too late for me, at least Penny's doin' something good for the world.",
+  "CDE_Pam_winterSat8":"Fishin' in the Ice Festival is pretty fun. I figure I should do it more often.$h#$e#Maybe I just need an audience to motivate me.#$e#Heh... like someone's got time for that.",
+  "CDE_Pam_winterSun8":"Your farm sure is pretty in the snow. Makes for a nice view.#$e#Don't you let it go fallin' apart, y'hear?$h",
+
   "CDE_Pam_Mon8":"$d bus#Don't you worry 'bout a thing. I know I'm at the saloon a lot, but I always drive sober.|I sure do miss my job.$s",
   "CDE_Pam_Mon6":"If my legs weren't so stiff I'd visit the mountains every now and then.",
   "CDE_Pam_Mon4":"Maybe if you do real well on your farm it'll boost the local economy.#$e#Then everyone will have a job and we'll all be happy, right?",
@@ -55,46 +78,9 @@
   "CDE_Pam_Sat4":"Hey kid. What're you up to?#$e#I'm just passin' time, same as always.",
   "CDE_Pam_Sun6":"$d bus#Good thing I got my job back when I did. A few more weeks and I woulda been clean outta cash.|I don't know how much longer I can go before Gus kicks me outta the saloon for not payin' my tab...$s",  
   "CDE_Pam_Sun4":"*Sigh*... I guess I'll be popping a frozen dinner into the microwave tonight.$s",
-  "CDE_Pam_Sat2":"Havin' a local farm is good for our town.",
-  "CDE_Pam_summerMon8":"$d bus#I'm a safe driver, kid. Ain't had a single ticket since I was younger than you.$h|Damn this weather, huh kid?",
-  "CDE_Pam_summerTue10":"I saw an osprey up in the trees. He looked like he was king o' the whole valley.#$e#Probably saw his whole kingdom from that high up.$h",
-  "CDE_Pam_summerWed10":"$d bus#Ain't no way I'm missin' my unemployment days, nuh uh.|Some of us just can't win in this world, kid.$s",
-  "CDE_Pam_summerThu10":"$d bus#I think I lost a pound or two since I restarted my daily walk to the bus stop!$h|*sigh*...$s",
-  "CDE_Pam_summerThu2":"Oh, hi there, farmer.#$e#Did I see you at the saloon the other night?",
-  "CDE_Pam_summerFri8":"Well, the world can't be all bad if there are still some good ones like you left.#$e#How'd you turn out so nice, anyway?",
-  "CDE_Pam_summerSat10":"Ol' Dusty, that mutt? Nahh, he ain't gettin' up there in age too-too bad. He's always just been lazy.#$e#He's like a dog who thinks he was born a cat.$h",
-  "CDE_Pam_summerSat2":"Don't mind that ol' dog next to the house.#$b#He might look at you cross, but he'll never get up from that box in a hundred years.#$b#The old boy's name? It's Dusty.",
-  "CDE_Pam_summerSun10":"$d bus#Shhh... don't tell anyone, but I went for a little personal trip a few days ago in the bus when no one was lookin'.$h|Wish I had somethin' to do today...$s",
-  "CDE_Pam_fallMon10":"It's around this time of year, I always remember...#$e#That idiot husband o' mine just stood up and walked on out.#$e#I don't really care where he is. Penny's grown up just fine, and she's too good for him, anyway.",
-  "CDE_Pam_fallTue10":"$d bus#Hey kid, thanks for talkin' to me like you do. The bus stop's a nice spot, seein' as you live right down the road from it.|Oh, hey, kid...$s",
-  "CDE_Pam_fallWed10":"$d bus#I ain't rich, but I'm glad I don't have to worry about money so much anymore.|Some of us just can't win in this world, kid.$s",
-  "CDE_Pam_fallThu10":"Can you believe I wanted to be a movie star when I was little?#$b#S'pose it ain't too uncommon for kids, but what'd my little girl self say to me with how I am?#$e#Life ain't so bad when you really get down to it. Even if things don't always go the way they should.",
-  "CDE_Pam_fallFri10":"$d bus#I wonder which'll live longer... me or the bus. It's an old bus, so I bet I'd win, but I'd miss the old girl for sure.|*sigh*...$s",
-  "CDE_Pam_fallSat10":"Did I ever tell you? I saw a UFO one time.#$e#'Course, it was late at night, and I'd been at the saloon awhile, so no one believed me.$u#$e#Not sure if I believe me, if I'm honest.$s#$b#But I ain't seen somethin' like that ever since.",
-  "CDE_Pam_fallSun10":"Must be nice havin' Jodi's life. I know things ain't always easy for her, but at least she's made somethin' of herself.",
-  "CDE_Pam_winterMon6":"You got any hogs on that farm?",
-  "CDE_Pam_winterTue10":"You seen anything strange around town today?#$e#Sometimes I think I see somethin' dark and spooky movin' through the trees.",
-  "CDE_Pam_winterTue4":"I just hope Penny has a good life ahead of her. If you ever have kids you'll know how I feel.",
-  "CDE_Pam_winterWed10":"$d bus#You don't know how glad I am that the bus is up and running! I feel alive again.|Some of us just can't win in this world, kid.$s",
-  "CDE_Pam_winterThu10":"I probably oughta get to that Altar of Yoba more often, seein' as I'm a believer and all that.#$e#It's just tough to find the time with my work schedule the way it is.",
-  "CDE_Pam_winterFri8":"It's cute seein' how Penny works with those kids.#$e#Well, even if it's too late for me, at least Penny's doin' something good for the world.",
-  "CDE_Pam_winterSat8":"Fishin' in the Ice Festival is pretty fun. I figure I should do it more often.$h#$e#Maybe I just need an audience to motivate me.#$e#Heh... like someone's got time for that.",
-  "CDE_Pam_winterSun8":"Your farm sure is pretty in the snow. Makes for a nice view.#$e#Don't you let it go fallin' apart, y'hear?$h",
+  "CDE_Pam_Sat2": "Havin' a local farm is good for our town.",
 
   //generic weekday dialogue
-  "CDE_Pam_Fri":"Hi, stranger.",
-  "CDE_Pam_winterMon":"It's so dry in winter. My skin feels like old parchment.",
-
-  //Pam's Married Dialogue
-
-  //weather specific dialogue
-  
-  //Festival Specific Dialogue
-
-  //Date Specific Dialogue
-
-
-  //Season specific dialogue
-
-  //Affection specific dialogue
+  "CDE_Pam_winterMon": "It's so dry in winter. My skin feels like old parchment.",
+  "CDE_Pam_Fri":"Hi, stranger."
 }
