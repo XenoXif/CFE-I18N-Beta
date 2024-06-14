@@ -1,26 +1,25 @@
-{ //NPC
+{ //Marnie
+  //Marnie Gift Tastes
+  "CDE_Marnie_GoldPumpkin": "",
+  "CDE_Marnie_RockCandy": "",
+  "CDE_Marnie_Pearl": "",
+  "CDE_Marnie_PrismaticShard": "",
+  "CDE_Marnie_RabbitsFoot": "",
 
-  //NPC Gift Tastes
-  "CDE_NPC_GoldPumpkin": "",
-  "CDE_NPC_RockCandy": "",
-  "CDE_NPC_Pearl": "",
-  "CDE_NPC_PrismaticShard": "",
-  "CDE_NPC_RabbitsFoot": "",
+  //Marnie's Misc Dialogue
+  //these lines target files other than the standard characters/dialogue/Marnie location such as unmarried rainy dialogue
+  "CDE_Marnie_rainy_1": "",
+  "CDE_Marnie_rainy_2": "",
+  "CDE_Marnie_rainy_3": "",
 
-  //NPC's Misc Dialogue
-  //these lines target files other than the standard characters/dialogue/NPC location such as unmarried rainy dialogue
-  "CDE_NPC_rainy_1": "",
-  "CDE_NPC_rainy_2": "",
-  "CDE_NPC_rainy_3": "",
-
-  //NPC's Standard Dialogue
+  //Marnie's Standard Dialogue
 
   //Special Dialogue
-  "CDE_NPC_Introduction": "",
+  "CDE_Marnie_Introduction": "",
 
   //festival related dialogue
-  "CDE_NPC_NewYearsEve": "",
-  "CDE_NPC_NewYearsDay": "",
+  "CDE_Marnie_NewYearsEve": "",
+  "CDE_Marnie_NewYearsDay": "",
 
   //date specific dialogue
 
@@ -29,90 +28,4 @@
 
   //generic weekday dialogue
 
-  //NPC's Married Dialogue
-
-  //weather specific dialogue
-  
-  "CDE_NPC_Married_RainyDay_1": "",
-  "CDE_NPC_Married_RainyDay_2": "",
-  "CDE_NPC_Married_RainyDay_3": "",
-  "CDE_NPC_Married_RainyDay_4": "",
-  "CDE_NPC_Married_RainyDay_5": "",
-  "CDE_NPC_Married_RainyDay_6": "",
-  "CDE_NPC_Married_RainyDay_7": "",
-  "CDE_NPC_Married_RainyDay_8": "",
-  "CDE_NPC_Married_RainyDay_9": "",
-  "CDE_NPC_Married_RainyDay_10": "",
-
-  "CDE_NPC_Married_RainyNight_1": "",
-  "CDE_NPC_Married_RainyNight_2": "",
-  "CDE_NPC_Married_RainyNight_3": "",
-  "CDE_NPC_Married_RainyNight_4": "",
-  "CDE_NPC_Married_RainyNight_5": "",
-  "CDE_NPC_Married_RainyNight_6": "",
-  "CDE_NPC_Married_RainyNight_7": "",
-  "CDE_NPC_Married_RainyNight_8": "",
-  "CDE_NPC_Married_RainyNight_9": "",
-  "CDE_NPC_Married_RainyNight_10": "",
-
-  "CDE_NPC_Married_IndoorDay_1": "",
-  "CDE_NPC_Married_IndoorDay_2": "",
-  "CDE_NPC_Married_IndoorDay_3": "",
-  "CDE_NPC_Married_IndoorDay_4": "",
-  "CDE_NPC_Married_IndoorDay_5": "",
-  "CDE_NPC_Married_IndoorDay_6": "",
-  "CDE_NPC_Married_IndoorDay_7": "",
-  "CDE_NPC_Married_IndoorDay_8": "",
-  "CDE_NPC_Married_IndoorDay_9": "",
-  "CDE_NPC_Married_IndoorDay_10": "",
-
-  "CDE_NPC_Married_IndoorNight_1": "",
-  "CDE_NPC_Married_IndoorNight_2": "",
-  "CDE_NPC_Married_IndoorNight_3": "",
-  "CDE_NPC_Married_IndoorNight_4": "",
-  "CDE_NPC_Married_IndoorNight_5": "",
-  "CDE_NPC_Married_IndoorNight_6": "",
-  "CDE_NPC_Married_IndoorNight_7": "",
-  "CDE_NPC_Married_IndoorNight_8": "",
-  "CDE_NPC_Married_IndoorNight_9": "",
-  "CDE_NPC_Married_IndoorNight_10": "",
-  
-  //location specific dialogue
-  "CDE_NPC_Married_patio_1": "",
-  "CDE_NPC_Married_patio_2": "",
-  "CDE_NPC_Married_patio_3": "",
-
-  "CDE_NPC_Married_funLeave_1": "",
-  "CDE_NPC_Married_funLeave_2": "",
-  "CDE_NPC_Married_funReturn_1": "",
-  "CDE_NPC_Married_funReturn_2": "",
-  "CDE_NPC_Married_OneKid_1": "",
-  "CDE_NPC_Married_OneKid_2": "",
-  "CDE_NPC_Married_TwoKids_1": "",
-  "CDE_NPC_Married_TwoKids_2": "",
-  "CDE_NPC_Married_TwoKids_3": "",
-  "CDE_NPC_Married_TwoKids_4": "",,
-  "CDE_NPC_Married_TwoKids_5": "",
-  "CDE_NPC_Married_TwoKids_6": "",
-  
-  "CDE_NPC_Married_Outdoor_1": "",
-  "CDE_NPC_Married_Outdoor_2": "",
-  "CDE_NPC_Married_Outdoor_3": "",
-  "CDE_NPC_Married_Outdoor_4": "",
-  "CDE_NPC_Married_Outdoor_5": "",
-  "CDE_NPC_Married_Outdoor_6": "",
-  "CDE_NPC_Married_Outdoor_7": "",
-  "CDE_NPC_Married_Outdoor_8": "",
-  "CDE_NPC_Married_Outdoor_9": "",
-  "CDE_NPC_Married_Outdoor_10": "",
-  
-  //Festival Specific Dialogue
-  
-  
-  //Date Specific Dialogue
-
-
-  //Season specific dialogue
-
-  //Affection specific dialogue
 }
