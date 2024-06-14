@@ -16,7 +16,11 @@
 
   //Sam's Standard Dialogue
   //Special Dialogue
-
+  "CDE_Sam_repeated_1": "Hi @.#$e#Hmm... I wonder if I could grow a cactus in my room?",
+  "CDE_Sam_repeated_2": "Abby came up with a cool drum solo. I just have to figure out how to incorporate it into one of our songs.#$e#I didn't think too much of Abby when I was younger, but it turns out she's really creative.",
+  //fall_Thu4, fall_Sat2
+  //Sat8_1, Sat6
+  
   //date specific dialogue
   "CDE_Sam_spring1": "Hey @, pretty amazing start to the year, isn't it? I thought last year would never end.$h#$e#Thanks for stopping by.",
   "CDE_Sam_spring12": "My little brother gets so excited for festivals. He's been talking about tomorrow's egg hunt all day.",
@@ -67,7 +71,6 @@
   "CDE_Sam_fallWed4": "My mom makes pretty awesome pizza, as long as she doesn't put any weird toppings on it.#$e#Don't tell her, but the pizza at the saloon is downright perfection. Gus knows his stuff.",
   "CDE_Sam_fallThu6y1": "I think my Dad might be coming back next year.#$e#I guess that's kind of soon. Weird.",
   "CDE_Sam_fallThu6y2": "I guess I should start thinking about moving out soon...$s#$e#...But I would miss Mom's fish casserole, so I dunno...$s#$e#I hate making decisions.",
-  "CDE_Sam_fallThu4+fallSat2": "Hi @.#$e#Hmm... I wonder if I could grow a cactus in my room?",
   "CDE_Sam_fallFri8": "I got my paycheck yesterday. Hmm... should I save it or should I spend it...",
   "CDE_Sam_fallFri6": "...I stayed up late playing games on my computer last night. I really wish I'd focused on writing some more lyrics.",
   "CDE_Sam_fallSat8": "$d Joja#So glad I have the day off. Working at JojaMart's been really grating on me lately.|I was looking at the exhibit displays during my shift at the museum. We've got some pretty cool stuff in there.",
@@ -107,7 +110,6 @@
   "CDE_Sam_Thu2y2": "Well, my Dad is back. You've met him, right?#$b#I'm just glad he's okay.",
   "CDE_Sam_Fri10": "The older I get the more attached I feel to the valley.#$b#Although I could be biased... for a certain reason.$l#$e#So, how are you doing today?$h",
   "CDE_Sam_Fri2": "I miss the city sometimes, but if I moved there again, I'd end up working around the clock just to get by.#$e#I wonder which is more worth it?",
-  "CDE_Sam_Sat8y1+Sat6": "Abby came up with a cool drum solo. I just have to figure out how to incorporate it into one of our songs.#$e#I didn't think too much of Abby when I was younger, but it turns out she's really creative.",
   "CDE_Sam_Sat8y2": "Having my dad back has been... even more different than I expected.$s#$e#I just don't know I'm supposed to act around him. Like, am I a kid again or am I a man?$s",
   "CDE_Sam_Sat4": "Oh! I just remembered I'm supposed to call my Grandma. Okay, I'm going to put this rubber band on my wrist so I don't forget.#$e#I have to make little reminders for myself or else I'll totally forget to do things.$h",
   "CDE_Sam_Sat2": "I picked up guitar just a few years ago. It came to me pretty naturally.#$e#I've still had to practice a lot, though. There's 'good,' but then there's 'actually good,' y'know?$h",
