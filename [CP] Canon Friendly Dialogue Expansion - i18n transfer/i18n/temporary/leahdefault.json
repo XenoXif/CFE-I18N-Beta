@@ -20,6 +20,36 @@
 
   //Special Dialogue
   "CDE_Leah_Beach":null,
+
+  "CDE_Leah_repeated_1":"Have you ever tried the wine from the valley?#$e#Better yet, you could probably make your own wine on your farm. That would be amazing.$h",
+  "CDE_Leah_repeated_2":"Oh, @! Hi!$h#$e#Did your morning chores go okay?$l#$e#I hope I can help you sometime.", 
+  "CDE_Leah_repeated_3":"Hello, @. It's a nice day, isn't it?#$e#Stop by my cabin if you ever need someone to talk to.$h",
+  "CDE_Leah_repeated_4":"Nature itself will always be a greater artist than any one of us.#$e#You work directly with nature, though. Yeah, I'd say farming is an art, of sorts.",
+  "CDE_Leah_repeated_5":"Humans were born to be creative, don't you think? It's what makes us who we are.#$e#Of course, there are many ways to be creative. Painting and sculpting just happen to be a couple of my favorites.",
+  "CDE_Leah_repeated_6":"Hey you.$l#$e#I've been thinking about you all day.$l#$e#So, tell me about your week.$h",
+  "CDE_Leah_repeated_7":"I can be frugal with my lifestyle, but sometimes I feel like my art career is a ticking time bomb.$s#$e#Do you know of anyone who's made it by on the starving artist lifestyle?$s",
+  "CDE_Leah_repeated_8":"I bet you could grow wild produce on your farm. Have you tried that?#$e#Nothing beats the sense of reward that comes from finding something delicious in the forest, but it might be convenient if you don't have time to forage.",
+  "CDE_Leah_repeated_9":"We wouldn't be able to survive without nature. It's good to remember that.",
+  "CDE_Leah_repeated_10":"I keep up a pretty strict pescatarian diet. It's not that I'm morally opposed to eating meat, but...#$b#...as long as everyone has their own way of showing respect for nature, I'm fine with 'em. This is just my way, for me.",
+  "CDE_Leah_repeated_11":"@, thank you for always believing in me.#$b#I think you showed up in my life just at the time when I needed you most.",  
+  "CDE_Leah_repeated_12":"Apparently, there was an old woman who lived in my hut before I did.#$e#After she died, Mayor Lewis held the property until I was able to come through and sign for it.",
+  "CDE_Leah_repeated_13":"Hello. How's your day going?",
+  "CDE_Leah_repeated_14":"I never felt truly safe in the city. Here, though, I don't even have to worry about locking my door.",
+  //repeated_1: Mon4, fall_Fri4
+  //repeated_2: Thu10, summer_Sun10
+  //repeated_3: Fri6, Sun8
+  //repeated_4: Fri4, summer_Fri4
+  //repeated_5: Sat6, fall_Sun6
+  //repeated_6: Sun10, fall_Sun10
+  //repeated_7: Sun6, winter_Sun6
+  //repeated_8: Sun4, fall_Thu4
+  //repeated_9: summer_Tue2, winter_Wed2
+  //repeated_10: summer_Sat2, winter_Mon4
+  //repeated_11: fall_Wed10, winter_Sun8
+  //repeated_12: fall_Wed6, winter_Sun4
+  //repeated_13: fall_Fri2, winter_Sat2
+  //repeated_14: fall_Sun8, winter_Wed6, winter_Fri8
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -111,22 +141,6 @@
   "CDE_Leah_winterSat6":"Do you like the winter decorations on my house?#$e#I'm always excited to put them up, but I've got to wait until the weather's right.",
   "CDE_Leah_winterSat4":"You should take a whole day off, now and then.#$b#Not only is it good for the soul, but in the long run, you'll actually be more productive!",
   "CDE_Leah_winterSun2":"I hate to be blunt, but if we don't treat nature with respect, our grandchildren will be doomed.#$e#Don't you think so?",
-  
-  "CDE_Leah_Mon4+fallFri4":"Have you ever tried the wine from the valley?#$e#Better yet, you could probably make your own wine on your farm. That would be amazing.$h",
-  "CDE_Leah_Thu10+summerSun10":"Oh, @! Hi!$h#$e#Did your morning chores go okay?$l#$e#I hope I can help you sometime.", 
-  "CDE_Leah_Fri6+Sun8":"Hello, @. It's a nice day, isn't it?#$e#Stop by my cabin if you ever need someone to talk to.$h",
-  "CDE_Leah_Fri4+summerFri4":"Nature itself will always be a greater artist than any one of us.#$e#You work directly with nature, though. Yeah, I'd say farming is an art, of sorts.",
-  "CDE_Leah_Sat6+FallSun6":"Humans were born to be creative, don't you think? It's what makes us who we are.#$e#Of course, there are many ways to be creative. Painting and sculpting just happen to be a couple of my favorites.",
-  "CDE_Leah_Sun10+fallSun10":"Hey you.$l#$e#I've been thinking about you all day.$l#$e#So, tell me about your week.$h",
-  "CDE_Leah_Sun6+winterSun6":"I can be frugal with my lifestyle, but sometimes I feel like my art career is a ticking time bomb.$s#$e#Do you know of anyone who's made it by on the starving artist lifestyle?$s",
-  "CDE_Leah_Sun4+fallThu4":"I bet you could grow wild produce on your farm. Have you tried that?#$e#Nothing beats the sense of reward that comes from finding something delicious in the forest, but it might be convenient if you don't have time to forage.",
-  "CDE_Leah_summerTue2+winterWed2":"We wouldn't be able to survive without nature. It's good to remember that.",
-  "CDE_Leah_summerSat2+winterMon4":"I keep up a pretty strict pescatarian diet. It's not that I'm morally opposed to eating meat, but...#$b#...as long as everyone has their own way of showing respect for nature, I'm fine with 'em. This is just my way, for me.",
-  "CDE_Leah_fallWed10+winterSun8":"@, thank you for always believing in me.#$b#I think you showed up in my life just at the time when I needed you most.",  
-  "CDE_Leah_fallWed6+winterSun4":"Apparently, there was an old woman who lived in my hut before I did.#$e#After she died, Mayor Lewis held the property until I was able to come through and sign for it.",
-  "CDE_Leah_fallFri2+winterSat2":"Hello. How's your day going?",
-  
-  "CDE_Leah_fallSun8+winterWed6+winterFri8":"I never felt truly safe in the city. Here, though, I don't even have to worry about locking my door.",
 
   //generic weekday dialogue
   "CDE_Leah_Thu":"I'm interested to see what you do with your farm, though there's also a natural beauty to the rocks and trees that have moved in.",
