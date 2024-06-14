@@ -23,6 +23,11 @@
 
   //Penny's Standard Dialogue
   //Special Dialogue
+  "CDE_Penny_repeated_1": "I have the kids on a summer reading schedule. It's nice to take it a little easier this time of year.",
+  "CDE_Penny_repeated_2": "So... do you like to decorate your farm house?#$e#It must be nice having your own place to decorate.",  
+  //summer_Tue4, summer_Tue
+  //summer_Sun4, summer_Sun
+  
   //date specific dialogue
   "CDE_Penny_spring1y2": "It's a bright new start to the year! I hope the morning was nice for you.$h",
   "CDE_Penny_spring12": "We decorated a few eggs earlier this week in preparation for the egg festival.#$e#Are you going to be there, too?",
@@ -80,10 +85,7 @@
   "CDE_Penny_winterFri2": "Are you friends with Linus? He lives in a tent up in the mountains.#$e#Everyone ignores him, the poor guy. He's actually really nice... Just a little odd.#$e#It must be so cold to live in a tent this time of year.",
   "CDE_Penny_winterSun10": "Sometime soon, we should go back to my place in the evening and cozy up together with a book.$h#$e#If you can make it, just try to show up before 8. I don't want my mom to come home early and make things awkward.",
   "CDE_Penny_winterSun6": "I have to hide most of the money I make from my job. Otherwise, my mom might drink it away.$s#$e#My mom still loves me. She doesn't do it all the time, but it has happened before.",
- 
-  "CDE_Penny_summerTue4+summerTue": "I have the kids on a summer reading schedule. It's nice to take it a little easier this time of year.",
-  "CDE_Penny_summerSun4+summerSun": "So... do you like to decorate your farm house?#$e#It must be nice having your own place to decorate.",  
-  
+   
   "CDE_Penny_Mon6": "If you're ever looking for something my mother will enjoy, you can't go wrong with parsnips.#$e#She uses it in a hangover remedy, but at least it's better than something that causes the hangover in the first place.$u",
   "CDE_Penny_Mon4": "*sigh*... My mother definitely has a problem with going to the saloon too much.$s#$q 237/238 Mon_old#But it's best not to dwell on bad things, right?#$r 237 50 Mon_237#Right. It's best to be positive!#$r 238 10 Mon_238#I think it's good to be realistic.",
   "CDE_Penny_Mon_old": "#$p 237#But if I keep trying I think I can get her to change.|I guess it makes sense. There's not much I can do to change it, anyway.",
