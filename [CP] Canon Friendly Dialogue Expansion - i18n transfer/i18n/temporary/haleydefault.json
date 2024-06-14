@@ -16,7 +16,13 @@
   //Haley's Standard Dialogue
 
   //Special Dialogue
-
+  "CDE_Haley_repeated_1":"First my parents leave, and now Emily, too. I just...$s#$e#It's a lot, you know?$s#$e#I'm sorry. I know it's selfish of me.$s",
+  "CDE_Haley_repeated_2":"The house is so empty and quiet without Emily around. I get so lonely.$s#$e#Why don't you come by?$l",
+  "CDE_Haley_repeated_3":"Oh... hey.",
+  //summer_Sun6_inlaw_Emily, fall_Sun6_inlaw_Emily
+  //Sun10_inlaw_Emily, summer_Sun10_inlaw_Emily, fall_Sun10_inlaw_Emily, winter_Sun10_inlaw_Emily
+  //summer_Sun_inlaw_Emily, fall_Sun_inlaw_Emily, winter_Sun_inlaw_Emily
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -106,11 +112,7 @@
   "CDE_Haley_winterSun6_inlaw_Emily":"What am I supposed to do with myself these days?$a",
   "CDE_Haley_winterSun4_inlaw_Emily":"I'm just going to come on out and say it. I really miss Emily. I didn't think I would, but I do.",
 
-  "CDE_Haley_summerSun6_inlaw_Emily+fallSun6_inlaw_Emily":"First my parents leave, and now Emily, too. I just...$s#$e#It's a lot, you know?$s#$e#I'm sorry. I know it's selfish of me.$s",
-  "CDE_Haley_Sun10_inlaw_Emily+summerSun10_inlaw_Emily+fallSun10_inlaw_Emily+winterSun10_inlaw_Emily":"The house is so empty and quiet without Emily around. I get so lonely.$s#$e#Why don't you come by?$l",
-
   //generic weekday dialogue
-  "CDE_Haley_summerSun_inlaw_Emily+fallSun_inlaw_Emily+winterSun_inlaw_Emily":"Oh... hey.",
 
   //Haley's Married Dialogue
 
