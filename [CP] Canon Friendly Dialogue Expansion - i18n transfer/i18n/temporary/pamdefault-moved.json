@@ -21,6 +21,7 @@
 
   //Pam's Standard Dialogue
   //Special Dialogue
+    //no repeated dialogue
 
   //date specific dialogue
   "CDE_Pam_spring1y2":"Any plans for the new year?#$e#Yep, we'll see.#$e#Gotta keep that head up, huh?",
