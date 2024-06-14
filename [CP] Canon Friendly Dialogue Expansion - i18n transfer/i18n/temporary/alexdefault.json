@@ -17,6 +17,22 @@
 	//Alex's Standard Dialogue
 
 	//Special Dialogue
+  "CDE_Alex_repeated_1": "It might sound weird, but I kind of miss having a coach yelling at me and telling me what to do.$s#$e#I can motivate myself, but when you're giving it your all for someone else, it's just different, you know?",
+  "CDE_Alex_repeated_2": "So uh... Haley cooks, huh? I don't think she ever did that much before she met you.#$e#People change, I guess.$s",
+  "CDE_Alex_repeated_3": "Hey, Haley's pretty great, don't you think?#$e#No, we're not dating right now. She's uh... going through some stuff.#$e#But it's probably headed there again soon.",
+  "CDE_Alex_repeated_4": "Haley cooks, huh? You really brought out the best in her!$h#$e#I promise I'm not being weird, I'm just curious: Do you guys have any leftovers?",
+  "CDE_Alex_repeated_5": "I'll admit... I was a little jealous when you and Haley got married. But, hey... It's a chance for me to learn something new about myself.$9",
+  "CDE_Alex_repeated_6": "Hey, come by my room any afternoon you want and we can work out together.#$e#It's a lot more fun that way.$h",
+  "CDE_Alex_repeated_7": "You know what? I'm going to start reading a new book!",
+  "CDE_Alex_repeated_8": "At least the gridball season keeps going through winter. But it just gets too snowy where we live to do anything.",
+	//Fri6, summer_Sun6
+	//Sat_inlaw_Haley+fall_Sat_inlaw_Haley
+	//Sat2, fallSat2
+	//Sat8_inlaw_Haley, fall_Sat8_inlaw_Haley
+	//Sun6_inlaw_Haley, summerSun6_inlaw_Haley
+	//Sun8, summer_Mon8
+	//summer_Thu8, winter_Wed8
+	//winter_Sun2, winter_Sun6
 
 	//festival related dialogue
 
@@ -120,19 +136,11 @@
 
 	
 	//generic weekday dialogue
-  "CDE_Alex_Mon8+fallFri8": "You know, I used to want fame and fortune, but lately I've been starting to sing a different tune. In the end it's the humble little things that satisfy, don't you think?#$e#I still want to go pro, but it's not the most important thing in the world.",
-  "CDE_Alex_Fri6+summerSun6": "It might sound weird, but I kind of miss having a coach yelling at me and telling me what to do.$s#$e#I can motivate myself, but when you're giving it your all for someone else, it's just different, you know?",
-  "CDE_Alex_Sat_inlaw_Haley+fallSat_inlaw_Haley": "So uh... Haley cooks, huh? I don't think she ever did that much before she met you.#$e#People change, I guess.$s",
-  "CDE_Alex_Sat2+fallSat2": "Hey, Haley's pretty great, don't you think?#$e#No, we're not dating right now. She's uh... going through some stuff.#$e#But it's probably headed there again soon.",
-  "CDE_Alex_Sat8_inlaw_Haley+fallSat8_inlaw_Haley": "Haley cooks, huh? You really brought out the best in her!$h#$e#I promise I'm not being weird, I'm just curious: Do you guys have any leftovers?",
-  "CDE_Alex_Sun6_inlaw_Haley+summerSun6_inlaw_Haley": "I'll admit... I was a little jealous when you and Haley got married. But, hey... It's a chance for me to learn something new about myself.$9",
-  "CDE_Alex_Sun8+summerMon8": "Hey, come by my room any afternoon you want and we can work out together.#$e#It's a lot more fun that way.$h",
-  "CDE_Alex_summerThu8+winterWed8": "You know what? I'm going to start reading a new book!",
   "CDE_Alex_summerSun": "Haley's pretty hot, don't you think?#$e#It really sucks that there aren't more hot girls in Pelican Town.^Maybe you oughta hang out with her.",
   "CDE_Alex_summerSun_inlaw_Haley": "Oh, hey. How's the married life coming along?$9",
   "CDE_Alex_fallTue": "Isn't it sad how some people just don't ever reach their full potential?#$e#The important thing is just to keep fighting, no matter what.",
-  "CDE_Alex_winterSun2+winterSun6": "At least the gridball season keeps going through winter. But it just gets too snowy where we live to do anything.",
-  
+  "CDE_Alex_Mon8+fallFri8": "You know, I used to want fame and fortune, but lately I've been starting to sing a different tune. In the end it's the humble little things that satisfy, don't you think?#$e#I still want to go pro, but it's not the most important thing in the world.",
+
 	//Alex's Married Dialogue
 
 	//weather specific dialogue
