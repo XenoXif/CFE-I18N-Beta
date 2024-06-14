@@ -16,7 +16,15 @@
 
   //Robin's Standard Dialogue
   //Special Dialogue
-
+  "CDE_Robin_repeated_1": "Sometimes, I wonder if Sebastian passively resents me for not having his father around.$s#$e#Maybe he feels like Maru's got it all, and he lives in her shadow...$s",
+  "CDE_Robin_repeated_2": "I met Demetrius in college while working an apprenticeship and raising Sebastian.#$e#My head still spins when I wonder how we managed to find time for it all!",  
+  "CDE_Robin_repeated_3": "When we first moved here, we had to rough it out in a trailer until I could get the house finished.#$e#Demetrius had a separate trailer for his lab.",
+  "CDE_Robin_repeated_4": "Demetrius may be a bit stoic, with his scientific brain, but I learned pretty quickly how to get through to his romantic side.#$e#I did teach him how to dance with me, after all.$h",
+  //summer_Sat10, Thu8
+  //summer_Sun10, Thu6
+  //fall_Tue10, Wed2
+  //fall_Sat10, Tue6
+  
   //date specific dialogue
   "CDE_Robin_spring1y2": "Happy springtime! Hey, now's a good time to let me know of any projects you might have for me.",
   "CDE_Robin_summer27": "I don't think I'll ever get tired of seeing the moonlight jellies with Demetrius.#$e#I hope you can make it, too.",
@@ -46,11 +54,6 @@
   "CDE_Robin_winterThu10": "With all these cold days, how's your hearth treating you? Need me to restyle it?",
   "CDE_Robin_winterSat8": "As a girl, I remember looking up how to make a real igloo and then putting it together.#$e#It turned out pretty good! I acted as foreman and put a couple of my friends to work.$h",
   "CDE_Robin_winterSun10": "There were a lot of things in this town that have needed fixing, but I wasn't ever able to get started on many of them until you showed up.",
-  
-  "CDE_Robin_summerSat10+Thu8": "Sometimes, I wonder if Sebastian passively resents me for not having his father around.$s#$e#Maybe he feels like Maru's got it all, and he lives in her shadow...$s",
-  "CDE_Robin_summerSun10+Thu6": "I met Demetrius in college while working an apprenticeship and raising Sebastian.#$e#My head still spins when I wonder how we managed to find time for it all!",  
-  "CDE_Robin_FallTue10+Wed2": "When we first moved here, we had to rough it out in a trailer until I could get the house finished.#$e#Demetrius had a separate trailer for his lab.",
-  "CDE_Robin_FallSat10+Tue6": "Demetrius may be a bit stoic, with his scientific brain, but I learned pretty quickly how to get through to his romantic side.#$e#I did teach him how to dance with me, after all.$h",
 
   "CDE_Robin_Mon6": "Demetrius's work technically brought us out here. I'd say it's worked out pretty well, though.",
   "CDE_Robin_Mon4": "Nahh, I don't go into the mines all that much. Too dark and dangerous.#$e#Let me know if you find anything neat down there, though.",
