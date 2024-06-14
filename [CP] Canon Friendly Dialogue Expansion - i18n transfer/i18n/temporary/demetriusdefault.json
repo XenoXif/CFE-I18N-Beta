@@ -19,7 +19,11 @@
   //Demetrius's Standard Dialogue
 
   //Special Dialogue
-
+  "CDE_Demetrius_repeated_1": "When I met Robin in college, a lot of my friends were pretty awestruck at my willingness to date someone who's already a mom.#$e#What can I say? We were just a good match.$h",
+  "CDE_Demetrius_repeated_2": "Fertilizer is best for producing quality crops, but if you need to rush a crop to maturity, use Speed Gro.#$b#In theory, you could get three melon harvests that way, instead of two.",
+  //Fri6, summer_Wed10
+  //summer_Tue4. summer_Sun10
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -72,8 +76,6 @@
   "CDE_Demetrius_winterSat8": "Feel free to harvest as much lumber and stone from this area as you please.",
   "CDE_Demetrius_winterSat4": "Let's see... if seasonal nitrogen levels could be modeled by a piecewise function...$u#$b#Oh! Sorry. I was analyzing data and I didn't notice you there.#$e#Do you need anything?",
   "CDE_Demetrius_winterSun10": "There's likely a naturalistic explanation for every phenomenon.#$b#Even things like love, or spirituality, or the origin of the world perhaps may be explained with science.#$e#Some say that takes the wonder out of the universe.#$b#Myself? I don't think so. If anything. it increases my awe for existence.",
-  "CDE_Demetrius_Fri6+summerWed10": "When I met Robin in college, a lot of my friends were pretty awestruck at my willingness to date someone who's already a mom.#$e#What can I say? We were just a good match.$h",
-  "CDE_Demetrius_summerTue4+summerSun10": "Fertilizer is best for producing quality crops, but if you need to rush a crop to maturity, use Speed Gro.#$b#In theory, you could get three melon harvests that way, instead of two.",
 
   //generic weekday dialogue
   "CDE_Demetrius_Sun_inlaw_Sebastian": "It's such a relief that Sebastian's finally moved out. I did always think you were a good match for him.$h",
