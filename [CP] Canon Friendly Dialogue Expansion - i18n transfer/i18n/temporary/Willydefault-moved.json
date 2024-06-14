@@ -17,6 +17,16 @@
   //Willy's Misc Dialogue
   //Willy has no rainy day dialogue, not in my mod nor in the base game.
 
+  //special dialogue
+  "CDE_Willy_repeated_1": "If you see me out fishing, you just come on up beside me and cast your line, too.#$b#You're always welcome to.$h",
+  "CDE_Willy_repeated_2": "There are two worlds: the one we live in, and the much, much older one beneath the water.#$e#I think of what I do as a dialogue between those two worlds.",
+  "CDE_Willy_repeated_3": "Sometimes I can find someone who'll play checkers with me at the Saloon.#$e#It's important to have a little human contact every now and then, no matter how comfortable I can be by myself.",
+  "CDE_Willy_repeated_4": "Remember, anywhere there's water, there's likely to be fish.#$b#You get out a little more than I do, so I hope you find some exotic varieties.$h#$e#Just don't bring it to me if it's a bit TOO exotic, though.$s",
+    //fall_Thu10, Sat4
+    //fall_Sat10, Tue2
+    //winter_Mon10, Thu4
+    //summer_Wed6, winterWed6
+  
   //date specific dialogue
   "CDE_Willy_spring1": "Ahoy there! A happy new year to you, too!$h#$e#I'm surprised you found time to visit me. Today's such a busy day for your farm, right?$h",
   "CDE_Willy_summer4": "Looks like tuna have shown up off the coast of our beach. Be sure to stock up on 'em. They'll be gone again until winter.",
@@ -70,11 +80,6 @@
   "CDE_Willy_winterThu10": "I wonder how Clint's doing.#$e#We see each other at the saloon all the time but we never get to talking much.",
   "CDE_Willy_winterSat10": "Ooh, I just don't have the strength I once had.#$b#But it's still plenty enough. Don't you worry about me.$h",
   "CDE_Willy_winterSun10": "Seein' the children in town always brings a smile to my face.$h",
-
-  "CDE_Willy_fallThu10+Sat4": "If you see me out fishing, you just come on up beside me and cast your line, too.#$b#You're always welcome to.$h",
-  "CDE_Willy_fallSat10+Tue2": "There are two worlds: the one we live in, and the much, much older one beneath the water.#$e#I think of what I do as a dialogue between those two worlds.",
-  "CDE_Willy_winterMon10+Thu4": "Sometimes I can find someone who'll play checkers with me at the Saloon.#$e#It's important to have a little human contact every now and then, no matter how comfortable I can be by myself.",
-  "CDE_Willy_summerWed6+winterWed6": "Remember, anywhere there's water, there's likely to be fish.#$b#You get out a little more than I do, so I hope you find some exotic varieties.$h#$e#Just don't bring it to me if it's a bit TOO exotic, though.$s",
 
   //generic weekday dialogue
   "CDE_Willy_winterTue": "Ye really can't beat wild-caught fish when it comes to taste. And nutrition.#$b#People who live too far inland don't really know what they're missin'.#$e#If they eat farm-raised fish, it's like a whole different food.",
