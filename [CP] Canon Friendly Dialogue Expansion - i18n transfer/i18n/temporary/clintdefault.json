@@ -26,7 +26,9 @@
   //Clint's Standard Dialogue
 
   //Special Dialogue
-
+  "CDE_Clint_repeated_1":"I played a little Gridball back in school. Wasn't the worst at it, either.#$e#It was fun while it lasted.",
+  //fall_Tue2, fall_Fri10
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -83,8 +85,6 @@
   "CDE_Clint_summerThu_inlaw_Emily":"...$s#$e#...What? Oh...#$e#...I think you know what.$s#$e#What do you need?",
   "CDE_Clint_fallMon_inlaw_Emily":"How are you and Emily?#$e#Oh, that's great!#$e#I'm glad for you two. Really, I am.",
   "CDE_Clint_winterSun_inlaw_Emily":"I'm not in the mood to chat today.$s#$e#Just get the hell out of here!$3#$e#Sorry I... that was...$4#$b#I'm sorry. What do you need?$s",
-
-  "CDE_Clint_fallTue2+fallFri10":"I played a little Gridball back in school. Wasn't the worst at it, either.#$e#It was fun while it lasted.",
 
   //generic weekday dialogue
   "CDE_Clint_Thu":"You inherited a pretty basic toolset, huh? Yeah, let me know how I can help with that.",
