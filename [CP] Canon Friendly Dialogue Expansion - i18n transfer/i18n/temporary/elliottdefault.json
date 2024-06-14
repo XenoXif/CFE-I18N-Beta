@@ -18,7 +18,21 @@
   //Elliott's Standard Dialogue
 
   //Special Dialogue
-
+  "CDE_Elliott_repeated_1":"I am a firm believer that beauty is in the eye of the beholder.#$b#If that's true, then I'd consider writing to be the most direct pathway to where our minds create the beauty we experience.",
+  "CDE_Elliott_repeated_2":"A day can never be boring when you follow the whims of your imagination.$u#$e#Sorry, am I babbling on about nonsense?",
+  "CDE_Elliott_repeated_3":"'Awake, my visage of the looming sun#$b#As nature's chorus lifts its voice as one.'#$b#Oh, @, I was mulling over some of my poetry just now. Lately, the springtime has awakened my creativity.",
+  "CDE_Elliott_repeated_4":"Some of my best ideas jump into my head when I sit and play my piano.#$e#Of course, some of my worst hours of procrastination happen there, too...$s",
+  "CDE_Elliott_repeated_5":"I can often see pieces of myself in the characters I create. But lately, I've written some vignettes that resemble you more than me.$l",
+  "CDE_Elliott_repeated_6":"One thing I adore about this beach is that I can enjoy a luxurious steamed lobster dinner on the cheap.$h#$e#The finest things in life require very little money if you know where to look.",
+  "CDE_Elliott_repeated_7":"'A sheen of silky snow across the knoll#$b#Invites the lonely one to find his soul...'#$b#Ah, @, I'm just working on a little poetry to invigorate my inspiration.$h",
+  //Mon6, winter_Wed8
+  //Tue8, winter_Wed
+  //Sat4, Sun8
+  //summer_Thu4, winter_Fri4, winter_Fri8
+  //summer_Sun10, winter_Fri10
+  //fall_Wed2, fall_Wed6
+  //winter_Tue8, winter_Sat4
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -96,14 +110,6 @@
   "CDE_Elliott_winterFri6":"I only got through writing three sentences all day yesterday. Three sentences!$s#$e#My brain simply must be exhausted.",
   "CDE_Elliott_winterSun8":"I think I'll make enough to get by for another few months!$h#$e#It's easier for me as I have so few expenses, but for a while, I was worried I would go broke.",
   "CDE_Elliott_winterSun6":"The cold does make my cabin feel lonelier.$s#$e#Perhaps if I could just use this loneliness as a source of inspiration...$s",
-
-  "CDE_Elliott_Mon6+winterWed8":"I am a firm believer that beauty is in the eye of the beholder.#$b#If that's true, then I'd consider writing to be the most direct pathway to where our minds create the beauty we experience.",
-  "CDE_Elliott_Tue8+winterWed":"A day can never be boring when you follow the whims of your imagination.$u#$e#Sorry, am I babbling on about nonsense?",
-  "CDE_Elliott_Sat4+Sun8":"'Awake, my visage of the looming sun#$b#As nature's chorus lifts its voice as one.'#$b#Oh, @, I was mulling over some of my poetry just now. Lately, the springtime has awakened my creativity.",
-  "CDE_Elliott_summerThu4+winterFri4+winterFri8":"Some of my best ideas jump into my head when I sit and play my piano.#$e#Of course, some of my worst hours of procrastination happen there, too...$s",
-  "CDE_Elliott_summerSun10+winterFri10":"I can often see pieces of myself in the characters I create. But lately, I've written some vignettes that resemble you more than me.$l",
-  "CDE_Elliott_fallWed2+fallWed6":"One thing I adore about this beach is that I can enjoy a luxurious steamed lobster dinner on the cheap.$h#$e#The finest things in life require very little money if you know where to look.",
-  "CDE_Elliott_winterTue8+winterSat4":"'A sheen of silky snow across the knoll#$b#Invites the lonely one to find his soul...'#$b#Ah, @, I'm just working on a little poetry to invigorate my inspiration.$h",
 
   //generic weekday dialogue
 
