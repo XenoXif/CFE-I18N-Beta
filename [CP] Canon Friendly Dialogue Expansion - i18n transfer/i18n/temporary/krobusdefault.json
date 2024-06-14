@@ -20,7 +20,11 @@
   //Krobus's Standard Dialogue
 
   //Special Dialogue
-
+  "CDE_Krobus_repeated_1":"If you put your ear up to the right pipe, you can hear into any house from down here.#$b#I wouldn't eavesdrop, though!$3",
+  "CDE_Krobus_repeated_2":"Please don't tell anyone about me.#$b#Most humans are frightened by us shadow people... maybe for good reason.$s#$b#But regardless, if the townspeople knew about me, I might not be safe here.",
+  //summer_Wed6, winter_Wed6
+  //summer_Thu6, winter_Thu6
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -62,9 +66,6 @@
   "CDE_Krobus_winterMon10":"Many shadow beings enjoy \"Strange Bun.\" I certainly do, too.#$b#But humans probably don't like them. Too bad, they're delicious.$s",
   "CDE_Krobus_winterTue10":"It's too cold for the tiny bugs to survive. My food supply is a bit short.$s",
   "CDE_Krobus_winterSat10":"I carry mixed feelings about my species. On one hand, I'm ashamed of the chaos we've caused. It's simply in our nature.$3#$b#But we're not all violent. And my kin, my origin... it's who I am. I can't just forsake where I come from, can I?$3",
-
-  "CDE_Krobus_summerWed6+winterWed6":"If you put your ear up to the right pipe, you can hear into any house from down here.#$b#I wouldn't eavesdrop, though!$3",
-  "CDE_Krobus_summerThu6+winterThu6":"Please don't tell anyone about me.#$b#Most humans are frightened by us shadow people... maybe for good reason.$s#$b#But regardless, if the townspeople knew about me, I might not be safe here.",
 
   //generic weekday dialogue
 
