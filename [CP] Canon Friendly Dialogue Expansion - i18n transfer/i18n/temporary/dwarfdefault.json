@@ -24,7 +24,13 @@
   //Dwarf's Standard Dialogue
 
   //Special Dialogue
-
+  "CDE_Dwarf_repeated_1": "A few times, I have seen a strange, blue human climbing down through the mines.#$e#At least, I think he's one of you humans.#$e#I don't trust him.",
+  "CDE_Dwarf_repeated_2": "I'm impressed by how much your species has advanced in the past 100 years alone.#$b#Are humans always in a rush like that?",
+  "CDE_Dwarf_repeated_3": "The old way of my life is gone. I must connect with humans, but I also do not think your species would receive me well if I walked through the town.#$e#The light outside would drive me crazy in a matter of minutes, too.",
+  //Wed8, fall_Mon10
+  //Wed6, summer_Wed10
+  //Sun6, fall_Tue10
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -76,10 +82,6 @@
   "CDE_Dwarf_winterFri10": "My people used to be legendary blacksmiths, too.#$b#But that is another art lost to the ages.",
   "CDE_Dwarf_winterSat10": "You say you can find winter root up on the surface? Perfect.#$b#It would be simple to cook a roots platter.",
   "CDE_Dwarf_winterSun10": "The hostile spirits in the shrine of death must be quite ancient.#$b#I'm sure they would be no match for you, though."
-
-  "CDE_Dwarf_Wed8+fallMon10": "A few times, I have seen a strange, blue human climbing down through the mines.#$e#At least, I think he's one of you humans.#$e#I don't trust him.",
-  "CDE_Dwarf_Wed6+summerWed10": "I'm impressed by how much your species has advanced in the past 100 years alone.#$b#Are humans always in a rush like that?",
-  "CDE_Dwarf_Sun6+fallTue10": "The old way of my life is gone. I must connect with humans, but I also do not think your species would receive me well if I walked through the town.#$e#The light outside would drive me crazy in a matter of minutes, too.",
 
   //generic weekday dialogue
   "CDE_Dwarf_Mon": "Welcome to my shop.",
