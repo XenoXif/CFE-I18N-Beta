@@ -17,6 +17,18 @@
   "CDE_Wizard_rainy_2": "If you have extra time on days like these, why not enter the mines and slay a few monsters?",
   "CDE_Wizard_rainy_3": "Though the rainclouds bring a dim melancholy, they are also a primary source of life for all things thriving in this valley.#$e#Light and shadow, although enemies, are actually co-dependent. Their conflict is the saving grace of the cosmos.#$e#That's the oversimplification. It takes a lifetime to fully understand it.",
 
+  //special dialogue
+  "CDE_Wizard_repeated_1": "Though I am looking for an apprentice, I can safely tell you that it will not be you.#$e#Do not be disappointed. This responsibility is not enviable.",
+  "CDE_Wizard_repeated_2": "Stardew Valley is a special place. It is rich with bountiful, living things.#$e#You can thank the spirits for that.",
+  "CDE_Wizard_repeated_3": "I tried living for my own selfish pursuits some time ago and it didn't end well.#$b#The truth is that there are greater things for me to worry about than myself.",
+  "CDE_Wizard_repeated_4": "I fear for the souls of those who abuse the dark arts, especially for selfish desires.#$e#To harm the innocent... truly, there is no greater crime in this world nor the next.",
+  "CDE_Wizard_repeated_5": "The bears in this region are not... ordinary.#$b#With your connection to the forest spirits, you may even be able to communicate with them. Have you tried?",
+  //summer_Mon10, Sun4
+  //fall_Fri10, Thu4
+  //summer_Tue8, fall_Tue8
+  //summer_Tue10, winter_Tue10
+  //summer_Fri, fall_Wed
+  
   //Wizard's Standard Dialogue
   //Special dialogue
 
@@ -55,12 +67,6 @@
   "CDE_Wizard_Sun10": "Ah, @. I am glad you are here.#$e#Yes, I am happy to take a break from my work. How are you?",
   "CDE_Wizard_Sun6": "In the elemental wars, the dwarven race was almost completely wiped out by the shadow beings.#$b#But the war has finally ended. I hope that those who remain can move on.",
 
-  "CDE_Wizard_summerMon10+Sun4": "Though I am looking for an apprentice, I can safely tell you that it will not be you.#$e#Do not be disappointed. This responsibility is not enviable.",
-  "CDE_Wizard_fallFri10+Thu4": "Stardew Valley is a special place. It is rich with bountiful, living things.#$e#You can thank the spirits for that.",
-  "CDE_Wizard_summerTue8+fallTue8": "I tried living for my own selfish pursuits some time ago and it didn't end well.#$b#The truth is that there are greater things for me to worry about than myself.",
-  "CDE_Wizard_summerTue10+winterTue10": "I fear for the souls of those who abuse the dark arts, especially for selfish desires.#$e#To harm the innocent... truly, there is no greater crime in this world nor the next.",
-
   //Generic Weekday Dialogue
   "CDE_Wizard_Fri": "Think of me as an ambassador between this world and the world of spirits.#$e#That is but one of my duties, anyway.",
-  "CDE_Wizard_summerFri+fallWed": "The bears in this region are not... ordinary.#$b#With your connection to the forest spirits, you may even be able to communicate with them. Have you tried?",
 }
