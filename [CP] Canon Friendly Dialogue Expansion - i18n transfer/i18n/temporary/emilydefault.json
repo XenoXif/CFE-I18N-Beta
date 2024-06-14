@@ -18,7 +18,11 @@
   //Emily's Standard Dialogue
 
   //Special Dialogue
-
+  "CDE_Emily_repeated_1":"In a way, Yoba plays an important role in my life, but I believe her presence goes beyond anything we can comprehend.#$b#Who knows? Maybe she isn't even a 'she.'",
+  "CDE_Emily_repeated_2":"Life can't last for all time, so we have to make sure we embrace every day!#$b#But also, what IS 'time,' anyway?",
+  //Sat8, fall_Tue10
+  //fall_Fri8, winter_Sat8
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -105,9 +109,6 @@
   "CDE_Emily_winterSun8_inlaw_Haley":"Say hi to my sister for me! And remind her to visit me tomorrow.",
   "CDE_Emily_winterSun6":"There were some huge snowflakes outside the other night!#$e#Sometimes, I really enjoy walking home late at night.",
   "CDE_Emily_winterSun2":"My homemade sweaters have been really cozy in this cold weather.",
-
-  "CDE_Emily_Sat8+fallTue10":"In a way, Yoba plays an important role in my life, but I believe her presence goes beyond anything we can comprehend.#$b#Who knows? Maybe she isn't even a 'she.'",
-  "CDE_Emily_fallFri8+winterSat8":"Life can't last for all time, so we have to make sure we embrace every day!#$b#But also, what IS 'time,' anyway?",
 
   //generic weekday dialogue
 
