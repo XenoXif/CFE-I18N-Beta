@@ -20,12 +20,14 @@
   //Gus's Standard Dialogue
 
   //Special Dialogue
+    //no repeated dialogue
   "CDE_Gus_Saloon":null,
   "CDE_Gus_Saloon4":null,
   "CDE_Gus_Saloon8":null,
   "CDE_Gus_Saloon_Tue":null,
   "CDE_Gus_Saloon_Thu":null,
   "CDE_Gus_Saloon_Fri":null,
+  
 
   //festival related dialogue
 
