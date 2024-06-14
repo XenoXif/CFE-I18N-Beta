@@ -19,7 +19,11 @@
   //Caroline's Standard Dialogue
 
   //Special Dialogue
-
+  "CDE_Caroline_repeated_1":"#$1 Caroline1#Hmmm... I wonder if I can get Pierre to cook dinner tonight.#$e#Hmmm... what am I going to make for dinner tonight?#$e#Maybe I'll just get take-out from the Saloon.",
+  "CDE_Caroline_repeated_2":"$d Joja#I'm worried about Pierre. Each time we lose business to JojaMart, he can barely sleep for days.|I'm never going to forget the day Pierre stood up to Morris like that. It reminds me of when we were both younger.$h",
+  //Thu4, winter_Thu6
+  //Thu6, winter_Thu8
+  
   //festival related dialogue
 
   //date specific dialogue
@@ -75,9 +79,6 @@
   "CDE_Caroline_winterWed10":"Ugh, Abby needs to clean her guinea pig's cage. I can smell the fumes from halfway across the house.$s#$e#Can you nag her about it for me? Phew, thanks.",
   "CDE_Caroline_winterFri6":"Don't you think Abby would look better with her natural hair color?#$e#She used to have light chestnut-colored hair.",
   "CDE_Caroline_winterSun4":"Ahh, with a hot cup of green tea, it's like the cold doesn't even matter anymore.",
-
-  "CDE_Caroline_Thu4+winterThu6":"#$1 Caroline1#Hmmm... I wonder if I can get Pierre to cook dinner tonight.#$e#Hmmm... what am I going to make for dinner tonight?#$e#Maybe I'll just get take-out from the Saloon.",
-  "CDE_Caroline_Thu6+fallThu8+winterThu8":"$d Joja#I'm worried about Pierre. Each time we lose business to JojaMart, he can barely sleep for days.|I'm never going to forget the day Pierre stood up to Morris like that. It reminds me of when we were both younger.$h",
 
   //generic weekday dialogue
   "CDE_Caroline_Tue":"On Wednesdays the shop is closed.#$e#Keep that in mind if you're going to need anything.",
