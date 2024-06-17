@@ -172,6 +172,7 @@
   "CDE_Abigail_Married_IndoorNight_8": "*yawn*... I'm ready to call it a night pretty soon.$h",
   "CDE_Abigail_Married_IndoorNight_9": "David Jr.'s been running frantic laps around his cage. I hope he doesn't keep it going after we head to bed.",
   "CDE_Abigail_Married_IndoorNight_10": "The sounds of the night are louder out here. I'll never stop enjoying that.",
+  "CDE_Abigail_Married_IndoorNight_11": "Hey! You look like you've been hard at work. Can I help you relax?",
 
   //locational specific dialogue
   "CDE_Abigail_Married_funLeave_1": "I'm visiting my parents today. Someone's gotta check in with them, right?",
@@ -186,6 +187,10 @@
   "CDE_Abigail_Married_TwoKids_4": "I had a dream that %kid2 will grow up to be a famous monster hunter. I've already been thinking about a little armor set.",
   "CDE_Abigail_Married_TwoKids_5": "We had kids young, but look on the bright side! At least we won't be super old when they're all grown up.",
   "CDE_Abigail_Married_TwoKids_6": "A cool old house, a couple kids, and an amazing farm. I never thought I'd come this far... but, hey! Our lives are just getting started.$h",
+
+  "CDE_Abigail_Married_patio_1": "%Abigail is lost in her music.",
+  "CDE_Abigail_Married_patio_2": "%Abigail appears to be perfectly content.",
+  "CDE_Abigail_Married_patio_3": "%Abigail's eyes are closed as she plays peacefully. Better not interrupt.",
 
   "CDE_Abigail_Married_Outdoor_1": "What an awesome morning! I can't believe how many of these I missed before we got married.$h",
   "CDE_Abigail_Married_Outdoor_2": "The soft breeze is blowing mountain air throughout the valley today. It smells like fresh pine and sage.",
