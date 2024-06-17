@@ -6,7 +6,7 @@
   "CDE_Abigail_RabbitsFoot": "This is great! I can hang this on the handle of one of my katanas!",
   "CDE_Abigail_BananaPudding": "Oh my god, homemade pudding? Yes please!#$e#Getting good bananas must've been quite the adventure.$h",
   "CDE_Abigail_BlackberryCobbler": "This! ...This is the official flavor of fall!#$b#It's like Spirit's Eve on a plate! Thank you so much!$h",
-  "CDE_Abigail_ChocolateCake": "Are you for real? You're the kind of guy who just shows up with free cake?$h^Are you for real? You're the kind of girl who just shows up with free cake?$h#$b#*sniff* Mmmm, and the best kind of cake, at that!",
+  "CDE_Abigail_ChocolateCake": "Are you for real? You're the kind of {{GenericNoun}} who just shows up with free cake?$h#$b#*sniff* Mmmm, and the best kind of cake, at that!", //guy^girl
   "CDE_Abigail_Pufferfish": "Heeheehee! Look at this brave little guy!$h#$b#Look at those spikes! Mr. fierce warrior, he is!",
   "CDE_Abigail_Pumpkin": "That is one perfectly plump pumpkin! Thank you so much!$h#$b#I'm gonna carve it, toast the seeds, use the guts for... something.#$b#This is exciting!$h",
   "CDE_Abigail_SpicyEel": "No way! You got me some mega ultra eel? That's my favorite kind of eel!$h",
@@ -15,6 +15,7 @@
   //these lines target files other than the standard characters/dialogue/npc location such as unmarried rainy dialogue
   "CDE_Abigail_rainy_1": "The valley looks more interesting in the rain... don't you think?",
   "CDE_Abigail_rainy_2": "The lake's a beautiful place to visit when the weather's like this.",
+  "CDE_Abigail_rainy_3": "A world full of mystery is the only one worth living in.#$e#As soon as one mystery is solved, we're desperate to find another.#$b#Isn't everyone like that?",
 
   //Abigail's Standard Dialogue
   //date specific dialogue
@@ -41,7 +42,7 @@
   "CDE_Abigail_summerMon4": "'Journey of the Prairie King' is still driving me crazy.#$e#I tend to stick more to RPGs. Maybe that's why I'm not the best at shooters.",
   "CDE_Abigail_summerMon2": "$d joja#I try to help out in the shop on most days. Business has been pretty bad since the JojaMart opened, though.|Ever since JojaMart shut down we've been doing great at the shop!$h",
   "CDE_Abigail_summerTue10": "Dad sometimes calls you his 'business partner.'$u#$b#He is going to freak when he finds out about the two of us hanging out.$h",
-  "CDE_Abigail_summerTue6": "You're an interesting person, @. I'm glad you moved here.$h",
+  "CDE_Abigail_summerTue6": "You're an interesting {{GenericNoun}}, @. I'm glad you moved here.$h", //guy^girl
   "CDE_Abigail_summerTue4": "I do what I can to help with the store. It's not my favorite, but I figure I have to do at least a little something.",
   "CDE_Abigail_summerTue2": "I can play the flute, but I only play when the mood strikes me right.#$e#The lake up north is a good spot for it.",
   "CDE_Abigail_summerWed10": "Your farmhouse is really beautiful.#$e#Walking by it, I just get a sense of its history, its soul, like I'm nostalgic for an experience I haven't had yet.",
