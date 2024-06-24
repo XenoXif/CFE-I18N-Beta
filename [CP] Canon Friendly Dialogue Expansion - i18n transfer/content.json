@@ -192,7 +192,7 @@
         "Name": "ModdedDialogCompat",
         "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
         "When": {
-          "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded": "true"
+          "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded": "true" //add new mods UniqueIDs here after a comma to include them in intentional key compat
         }
       }
     ],
