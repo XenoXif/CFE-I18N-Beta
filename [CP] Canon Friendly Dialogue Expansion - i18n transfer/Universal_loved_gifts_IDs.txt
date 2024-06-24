@@ -1,16 +1,18 @@
+** Indicates a shared key with UGDE
+
 Universal loved gifts (All NPCs have 4 of the 5, except Haley)
 373 - Gold Pumpkin
 279 - Magic Rock Candy
 797 - Pearl
-74 - Prismatic Shard
-446 - Rabbit's Foot
+74 - Prismatic Shard **for Clint, Emily
+446 - Rabbit's Foot **for Marnie, Penny
 
 Abigail
 904 - Banana Pudding *BUG - I got it mixed up with Tropical Curry. I can fix the line: It should be "Oh my god, homemade banana pudding? Yes please!#$e#Getting the ingredients must've been quite the adventure.$h",
 611 - Blackberry Cobbler
 220 - Chocolate Cake
-128 - Pufferfish
-276 - Pumpkin
+128 - Pufferfish **
+276 - Pumpkin **
 226 - Spicy Eel
 
 Alex
@@ -18,18 +20,18 @@ Alex
 212 - Salmon Dinner
 
 Caroline
-213 - Fish Taco
+213 - Fish Taco **
 614 - Green Tea
 593 - Summer Spangle
 907 - Tropical Curry
 
 Clint
-60 - Emerald
-62 - Aquamarine
-64 - Ruby
-66 - Amethyst
-68 - Topaz
-70 - Jade
+60 - Emerald **
+62 - Aquamarine **
+64 - Ruby **
+66 - Amethyst **
+68 - Topaz **
+70 - Jade **
 749 - Omni Geode
 336 - Gold Bar
 337 - Iridium Bar
@@ -37,10 +39,10 @@ Clint
 649 - Fiddlehead Risotto
 
 Demetrius
-207 - Bean Hotpot
-233 - Ice Cream
-232 - Rice Pudding
-400 - Strawberry
+207 - Bean Hotpot **
+233 - Ice Cream **
+232 - Rice Pudding **
+400 - Strawberry **
 
 Dwarf
 60 - Emerald
@@ -51,11 +53,11 @@ Dwarf
 70 - Jade
 749 - Omni Geode
 162 - Lava Eel
-554 - Lemon Stone
+554 - Lemon Stone **
 
 Elliott
 732 - Crab Cakes
-715 - Lobster
+715 - Lobster **
 637 - Pomegranate
 218 - Tom Kha Soup
 
@@ -68,33 +70,33 @@ Evelyn
 284 - Beet
 220 - Chocolate Cake
 72 - Diamond
-595 - Fairy Rose
+595 - Fairy Rose **
 239 - Stuffing
 591 - Tulip
 
 George
-20 - Leek
-205 - Fried Mushroom
+20 - Leek **
+205 - Fried Mushroom **
 
 Gus
-72 - Diamond
-729 - Escargot
-213 - Fish taco
+72 - Diamond **
+729 - Escargot **
+213 - Fish taco **
 625 - Orange
 907 - Tropical Curry
 
 Haley
 610 - Fruit Salad
-221 - Pink Cake
+221 - Pink Cake **
 
 Harvey
-395 - Coffee
+395 - Coffee **
 342 - Pickles
 237 - Super Meal
 
 Jas
 595 - Fairy Rose
-221 - Pink Cake
+221 - Pink Cake **
 604 - Plum Pudding
 
 Jodi
@@ -109,7 +111,7 @@ Jodi
 
 Kent
 649 - Fiddlehead Risotto
-607 - Roasted Hazelnuts
+607 - Roasted Hazelnuts **
 346 - Beer
 
 Krobus
@@ -117,16 +119,16 @@ Krobus
 72 - Diamond
 337 - Iridium Bar
 276 - Pumpkin
-16 - Wild Horseradish
+16 - Wild Horseradish **
 
 Leah
 426 - Goat Cheese
 651 - Poppyseed Muffin
 606 - Stir Fry
-348 - Wine
+348 - Wine **
 
 Leo/LeoMainland
-444 - Duck Feather
+444 - Duck Feather **
 834 - Mango
 289 - Ostrich Egg
 906 - Poi
@@ -136,12 +138,12 @@ Lewis
 614 - Green Tea
 208 - Glazed Yams
 260 - Hot Pepper
-200 - Vegetable Medley
+200 - Vegetable Medley **
 
 Linus
 234 - Blueberry Tart
-90 - Cactus Fruit
-88 - Coconut
+90 - Cactus Fruit **
+88 - Coconut **
 242 - Dish O' The Sea
 280 - Yam
 
@@ -161,36 +163,36 @@ Maru
 400 - Strawberry
 
 Pam
-346 - Beer
+346 - Beer **
 90 - Cactus Fruit
 208 - Glazed Yams
-459 - Mead
-303 - Pale Ale
-24 - Parsnip
-199 - Parsnip Soup
-873 - Pina Colada
+459 - Mead **
+303 - Pale Ale **
+24 - Parsnip **
+199 - Parsnip Soup **
+873 - Pina Colada **
 
 Penny
 72 - Diamond
-60 - Emerald
+60 - Emerald **
 254 - Melon
 376 - Poppy
 651 - Poppyseed Muffin
 230 - Red Plate
 244 - Roots Platter
 873 - Sandfish
-218 - Tom Kha Soup *BUG -I got the ID wrong for this. It's listed as 873, but it should be fixed to 218
+218 - Tom Kha Soup
 
 Pierre
-202 - Fried Calamari
+202 - Fried Calamari **
 
 Robin
 426 - Goat Cheese
 636 - Peach
-224 - Spaghetti
+224 - Spaghetti **
 
 Sam
-90 - Cactus Fruit
+90 - Cactus Fruit **
 731 - Maple Bar
 562 - Tigerseye
 
@@ -198,23 +200,23 @@ Sandy
 905 - Mango Sticky Rice
 
 Sebastian
-84 - Frozen Tear
+84 - Frozen Tear **
 
 Shane
-346 - Beer
+346 - Beer **
 260 - Hot Pepper
 215 - Pepper Poppers
-206 - Pizza
+206 - Pizza **
 
 Vincent
 612 - Cranberry Candy
 903 - Ginger Ale
 398 - Grape
-221 - Pink Cake
+221 - Pink Cake **
 721 - Snail
 
 Willy
-143 - Catfish *BUG - The item ID is wrong. It's listed as 221 (pink cake) and should be fixed to 143.
+143 - Catfish **
 72 - Diamond
 337 - Iridium Bar
 459 - Mead
@@ -224,7 +226,7 @@ Willy
 698 - Sturgeon
 
 Wizard
-422 - Purple Mushroom
-155 - Super Cucumber
+422 - Purple Mushroom **
+155 - Super Cucumber **
 768 - Solar Essence
 769 - Void Essence
