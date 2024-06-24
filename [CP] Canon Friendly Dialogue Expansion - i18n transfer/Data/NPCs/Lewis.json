@@ -1,24 +1,15 @@
 {
   "Changes": [
     {
-      "LogName": "CDE_Lewis_GiftTastes",
+      "LogName": "CDE_Lewis_Compat",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lewis",
       "Entries": {
-        // we can also add reveal gift taste code to these now that they use i18n.
-        "AcceptGift_(O)373": "{{i18n: CDE_Lewis_GoldPumpkin}}",
-        "AcceptGift_(O)279": "{{i18n: CDE_Lewis_RockCandy}}",
-        "AcceptGift_(O)74": "{{i18n: CDE_Lewis_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CDE_Lewis_RabbitsFoot}}",
-
-        "AcceptGift_(O)235": "{{i18n: CDE_Lewis_}}",
-        "AcceptGift_(O)614": "{{i18n: CDE_Lewis_}}",
-        "AcceptGift_(O)208": "{{i18n: CDE_Lewis_}}",
-        "AcceptGift_(O)260": "{{i18n: CDE_Lewis_}}",
         "AcceptGift_(O)200": "{{i18n: CDE_Lewis_}}"
+        //every time UGDE updates, or someone requests special compat with a different mod, this section may be updated to include the conflicting key. Mods other than UGDE will need to be added to the list of mods to recognize, found in the dynamic tokens section of content.json
       },
       "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+
     },
     {
       "LogName": "CDE_Lewis_Rainy",
@@ -26,6 +17,21 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Lewis": "{{i18n: CDE_Lewis_rainy_{{random: 1,2,3}}}}"
+      }
+    },
+    {
+      "LogName": "CDE_Lewis_GiftTastes",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "AcceptGift_(O)373": "{{i18n: CDE_Lewis_GoldPumpkin}}",
+        "AcceptGift_(O)279": "{{i18n: CDE_Lewis_RockCandy}}",
+        "AcceptGift_(O)74": "{{i18n: CDE_Lewis_PrismaticShard}}",
+        "AcceptGift_(O)446": "{{i18n: CDE_Lewis_RabbitsFoot}}",
+        "AcceptGift_(O)235": "{{i18n: CDE_Lewis_}}",
+        "AcceptGift_(O)614": "{{i18n: CDE_Lewis_}}",
+        "AcceptGift_(O)208": "{{i18n: CDE_Lewis_}}",
+        "AcceptGift_(O)260": "{{i18n: CDE_Lewis_}}"
       }
     },
     {
@@ -96,28 +102,28 @@
         "winter_Sun10": null,
 
         "Mon6": "{{i18n: CDE_Lewis_Mon6}}",
-        "Mon2":
-        "Tue8":
-        "Wed6":
-        "Wed2":
-        "Thu6":
-        "Thu2":
-        "Fri4":
-        "Fri2":
-        "Sat8":
-        "Sat2":
-        "Sun4":
-        "Sun2":
+        "Mon2": null,
+        "Tue8": null,
+        "Wed6": null,
+        "Wed2": null,
+        "Thu6": null,
+        "Thu2": null,
+        "Fri4": null,
+        "Fri2": null,
+        "Sat8": null,
+        "Sat2": null,
+        "Sun4": null,
+        "Sun2": null,
 
         //Generic Weekday Dialogue
-        "summer_Thu":
-        "summer_Fri":
-        "fall_Mon":
-        "fall_Tue":
-        "winter_Tue":
-        "winter_Thu":
+        "summer_Thu": null,
+        "summer_Fri": null,
+        "fall_Mon": null,
+        "fall_Tue": null,
+        "winter_Tue": null,
+        "winter_Thu": null,
 
-        "Thu":
+        "Thu": null,
         "Sun":
       }
     }

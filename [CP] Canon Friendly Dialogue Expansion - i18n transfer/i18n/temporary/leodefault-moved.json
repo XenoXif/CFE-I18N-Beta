@@ -1,5 +1,4 @@
 { //Leo
-
   //Leo Gift Tastes
   "CDE_Leo_RockCandy": "*lick* It's sweet! What a yummy treat!$h#$b#...$u#$b#That rhymed!$h",
   "CDE_Leo_Pearl": "I-is this your treasure? The parrots told me of these, but I never found any.$u#$b#Thank you!$h",
@@ -14,13 +13,6 @@
   //these lines target files other than the standard characters/dialogue/Leo location such as unmarried rainy dialogue
 
   //Leo's Standard Dialogue
-
-  //Special Dialogue
-    //no repeated dialogue
-  
-  //festival related dialogue
-
-  //date specific dialogue
 
   //heart specific dialogue
   "CDE_Leo_Mon2": "Did you... find some Golden Walnuts today?#$e#No... don't share them with me. My family needs them most.$3#$e#I'll find enough for myself.",

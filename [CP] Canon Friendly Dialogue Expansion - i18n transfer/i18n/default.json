@@ -266,6 +266,80 @@
   //Season specific dialogue
   //Affection specific dialogue
 
+  //Leo
+  //Leo Gift Tastes
+  //all of these keys should be used again in leoMainland!
+  "CDE_Leo_RockCandy": "*lick* It's sweet! What a yummy treat!$h#$b#...$u#$b#That rhymed!$h",
+  "CDE_Leo_Pearl": "I-is this your treasure? The parrots told me of these, but I never found any.$u#$b#Thank you!$h",
+  "CDE_Leo_PrismaticShard": "S-so nice! With this in my hand, I don't feel shy of anything!$h",
+  "CDE_Leo_RabbitsFoot": "Ahh, it's nice and soft. I like it very much.",
+  "CDE_Leo_DuckFeather": "So soft, so pretty... You are saying I may have this?#$b#Thank you!$h",
+  "CDE_Leo_Mango": "Ah! A mango! Yes, this is what I love!$h",
+  "CDE_Leo_OstrichEgg": "An ostrich egg! The parrots say ostrich is king of the birds. Did you know?#$e#I will keep it safe until it hatches, and then I will find it a home.",
+  "CDE_Leo_Poi": "You made the special meal, just like the parrots taught me!$h#$e#*slurp* Mmm, it's just like they make it.",
+  //Leo's Misc Dialogue
+  //these lines target files other than the standard characters/dialogue/Leo location such as unmarried rainy dialogue
+
+  //Leo's Standard Dialogue
+  //heart specific dialogue
+  "CDE_Leo_Mon2": "Did you... find some Golden Walnuts today?#$e#No... don't share them with me. My family needs them most.$3#$e#I'll find enough for myself.",
+  "CDE_Leo_Tue4": "...My hut? No, I couldn't build it by myself.$3#$e#The parrots are good helpers. They help me so much. You know?#$e#Do they help you, too?",
+  "CDE_Leo_Tue2": "Is Willy your friend?#$e#...He's nice.#$e#I'm not so shy with him.",
+  "CDE_Leo_Wed4": "...@, do birds ever fly here from your home?$3",
+  "CDE_Leo_Thu4": "Oh, @! You're here!$h#$e#I'm happy you keep coming here so much.",
+  "CDE_Leo_Thu2": "You know mangoes? They're... mmmmm! Delicious!$h#$e#I once ate them every day. My favorite tree grew them.#$b#...But then, the sky got mad... and broke the tree with lightning.$s#$e#...More trees can grow again, right?",
+  "CDE_Leo_Fri2": "Sometimes I see an old man, with... what are they called? Glasses.#$e#I don't think he knows I'm here.$3",
+  "CDE_Leo_Sat4": "I'm scared to ride a boat, because...$s#$b#...but, do you think Willy could help me try?",
+  "CDE_Leo_Sat2": "...You come here on a boat? Willy, too?#$e#No... I can't ride boats. Too scared...$s#$e#Mother... Father...$s",
+  "CDE_Leo_Sun4": "Don't be afraid of gorillas if you see them.#$b#Just be nice to them. They will be nice to you.",
+  "CDE_Leo_Sun2": "I've seen an old woman on the island's other side. Have you?$3#$e#...I'm shy to her. And scared.$s#$e#I don't think she wants to be friends with birds.$s#$e#But you do.",
+
+  //generic weekday dialogue
+  "CDE_Leo_summerMon": "Hm? You ask about my... birthday?$3#$b#Um... what season is this? I don't have a... what is it? A calendar.$3#$e#Oh, this is summer now? It's... summer 26! The parrots told me I hatched on that day.",
+
+  //LeoMainland
+  //Please Note that all of these keys only use _Leo_ for the sake of simplicity!
+  //LeoMainland Gift Tastes
+  "CDE_Leo_ParrotEgg": "This is a precious egg... A baby! I'm glad you brought it to me, I'll keep it safe.",
+
+  //LeoMainland's Misc Dialogue
+  //these lines target files other than the standard characters/dialogue/LeoMainland location such as unmarried rainy dialogue
+  "CDE_Leo_rainy_1": "The valley is peaceful when it rains.#$e#To me... nature is someone I know, with different moods.",
+  "CDE_Leo_rainy_2": "I can get myself clean today.$h",
+  "CDE_Leo_rainy_3": "The rain is a bit chilly, but I will be okay.",
+
+  //LeoMainland's Standard Dialogue
+  //Special Dialogue
+  //no repeated dialogue
+
+  //date specific dialogue
+  "CDE_Leo_spring1": "Ahh, I slept well last night. Are you ready for a new year?#$e#I'm excited to see the valley tomorrow when I get back.",
+  "CDE_Leo_winter28": "It's a new year tomorrow, right? Willy said the snow might be melted by the time I get back to the valley.#$e#Not much changes around here, though. I used to forget sometimes.",
+
+  //heart specific dialogue
+  "CDE_Leo_summerMon8": "Vincent said he wants to move to my hut here on Ginger Island.$h#$e#His mother won't let him. Haha, maybe someday.",
+  "CDE_Leo_summerTue10": "I wonder if there are others like me... living on islands of their own. What if they're all alone?$u#$e#I was never alone, but I understand now that things weren't the way they should have been.$u",
+  "CDE_Leo_summerFri10": "A lot of people are talking about their week-end. I get what it is, but why is it such a big deal?",
+  "CDE_Leo_summerSat10": "At first, I thought there was no more room in my heart for more family...#$b#...but it turns out there's plenty more room! You, Uncle Linus, Willy, everyone.,,$h#$e#I have two families now.",
+  "CDE_Leo_fallThu10": "My socks are wet. Used to be... I'd dry my feet in the hot sand. What do I do now?$u",
+  "CDE_Leo_fallSat10": "Even the fish in the valley change from season to season. It's so interesting.#$b#On the island, they are always the same.",
+  "CDE_Leo_winterWed10": "The cold isn't so bad if you have a campfire. Uncle Linus taught me.",
+  "CDE_Leo_winterSun8": "Ahhhh, it's nice to take a break from the cold in the Stardew Valley.#$e#Still, it'll be fun when I can get back and play in the snow.",
+
+  "CDE_Leo_Mon10": "It's funny... I'm happy to be visiting here on the island, but I also miss my new home a little.#$e#I wonder what everyone's doing in Stardew Valley.",
+  "CDE_Leo_Mon8": "I finally talked to the old lady! You know? The one who fishes?#$b#It turns out, her name? It's Birdie! Haha!$h#$e#I should not have been so shy of her. She's very nice, actually.",
+  "CDE_Leo_Tue8": "I really like reading. If only I'd had some books when I lived on Ginger Island...#$e#Miss Penny found me a book about birds from all over the world. There are so many different kinds I never knew about!",
+  "CDE_Leo_Wed10": "So many things that Vincent eats for lunch come out of... plastic boxes. Are they really food?",
+  "CDE_Leo_Wed8": "When the trains come through behind my treehouse, the noise scared me the first time, but not anymore.#$e#They're loud but so exciting! Where do you think they go?",
+  "CDE_Leo_Fri10": "I think I'm growing big and strong. I'm eating a lot more these days, and I can run faster and jump higher than I used to.",
+  "CDE_Leo_Sat8": "Ahhhh... me and Willy are going to get up extra early tomorrow to visit Ginger Island.#$b#I can't wait to tell the parrots about all my adventures this week!$h",
+  "CDE_Leo_Sun8": "I caught a fish off the side of Willy's boat early this morning.$h#$e#It was just a little one. I threw him back to his home.",
+
+  //generic weekday dialogue
+  "CDE_Leo_fallTue": "I took a bath at the hot spring! It feels so good to get all clean.$h",
+  "CDE_Leo_fallWed": "The leaves! They're so beautiful!#$e#Why don't the trees change color on Ginger Island?",
+  "CDE_Leo_winterWed": "So... c-c-cold.$3#$e#Uncle Linus says I'll get used to it.$3",
+
   //Lewis
   //Lewis Gift Tastes
   "CDE_Lewis_GoldPumpkin": "So that's what was at the end of the maze, huh? Another Pelican Town mystery solved!$h#$e#I'll just uh... put the gold pumpkin in the town's trophy case.#$e#We don't have a trophy case, but I've been trying to get one made.#$e#Date to be determined.",
