@@ -72,6 +72,10 @@ CDE_Krobus_rainy_3
 
 -Leah-
 CDE_Leah_rainy_3
+CDE_Leah_Married_IndoorDay_3
+CDE_Leah_Married_IndoorDay_4
+CDE_Leah_Married_IndoorDay_7
+CDE_Leah_Married_IndoorDay_8
 CDE_Leah_Married_IndoorDay_11
 CDE_Leah_Married_IndoorDay_12
 CDE_Leah_Married_IndoorDay_13
@@ -81,6 +85,8 @@ CDE_Leah_Married_patio_3
 CDE_Leah_Married_spouseRoom_3
 CDE_Leah_Married_spouseRoom_4
 CDE_Leah_Married_spouseRoom_5
+CDE_Leah_Married_Outdoor_8
+CDE_Leah_Married_Outdoor_9
 
 -Leo-
 
@@ -100,6 +106,14 @@ CDE_Marnie_rainy_3
 -Maru-
 CDE_Maru_rainy_3
 CDE_Maru_Married_patio_3
+CDE_Maru_Married_RainyDay_3
+CDE_Maru_Married_RainyDay_4
+CDE_Maru_Married_RainyDay_5
+CDE_Maru_Married_RainyDay_6
+CDE_Maru_Married_RainyNight_5
+CDE_Maru_Married_RainyNight_6
+CDE_Maru_Married_IndoorNight_5
+CDE_Maru_Married_IndoorNight_6
 
 -Pam-
 CDE_Pam_rainy_2
@@ -108,6 +122,12 @@ CDE_Pam_rainy_3
 -Penny-
 CDE_Penny_rainy_3
 CDE_Penny_Married_patio_3
+CDE_Penny_Married_RainyDay_3
+CDE_Penny_Married_RainyDay_4
+CDE_Penny_Married_Outdoor_1
+CDE_Penny_Married_Outdoor_2
+CDE_Penny_Married_Outdoor_5
+CDE_Penny_Married_Outdoor_6
 
 -Pierre-
 CDE_Pierre_rainy_3
