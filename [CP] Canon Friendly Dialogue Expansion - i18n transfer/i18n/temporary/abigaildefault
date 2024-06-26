@@ -132,13 +132,15 @@
   //Abigail's Married Dialogue
   //weather specific dialogue
   "CDE_Abigail_Married_RainyDay_1": "I think I'll bust out my good ol' sketchbook today. I've got some ideas for mythical beasts that could be fun.",
-  "CDE_Abigail_Married_RainyDay_2": "#The dark... the rain... it gets me excited.$l",
-  "CDE_Abigail_Married_RainyDay_3": "Hey, remember when we played that duet by the lake? This weather reminds me of that day.#$e#$c .5#Do you still carry around that mini harp? That one kind of surprised me. Where'd you learn to play, anyway?#You really surprised me with that mini-harp... I never expected that. I guess that's why I like you so much.$l",
-  "CDE_Abigail_Married_RainyDay_4": "Hey! I woke up early and did some exploring on my own. I found this and it reminded me of you. [768 767 769 66 82]#$e#$c .5#Where'd I find it at this ungodly early hour? Ooh, wouldn't YOU like to know?$h#Think you can find something better than that? I'm not so sure!$h",
-  "CDE_Abigail_Married_RainyDay_5": "Hehe, I did some sword training in the rainy darkness. You've gotta admit, your wife is pretty epic.$h",
-  "CDE_Abigail_Married_RainyDay_6": "#It might be a good day to visit the caves, huh? Just be careful out there, and if you go, bring a Life Elixir or two.",
-  "CDE_Abigail_Married_RainyDay_7": "Is it getting kind of dusty in here? Don't worry, I'll take care of it.",
-  "CDE_Abigail_Married_RainyDay_8": "Maybe I'll boot up Journey Of The Prairie King today... one of these days I swear I'll beat it fully.$h",
+  "CDE_Abigail_Married_RainyDay_2": "The dark... the rain... it gets me excited.$l",
+  "CDE_Abigail_Married_RainyDay_3": "Hey, remember when we played that duet by the lake? This weather reminds me of that day.#$e#Do you still carry around that mini harp? That one kind of surprised me. Where'd you learn to play, anyway?",
+  "CDE_Abigail_Married_RainyDay_4": "I've been practicing on my flute. Today is a good day for it.#$e#You really surprised me with that mini-harp that one time... I never expected that.#$b#I guess that's why I like you so much.$l",
+  "CDE_Abigail_Married_RainyDay_5": "Hey! I woke up early and did some exploring on my own. I found this and it reminded me of you. [768 767 769 66 82]#$e#Where'd I find it at this ungodly early hour? Ooh, wouldn't YOU like to know?$h",
+  "CDE_Abigail_Married_RainyDay_6": "Night-time exploration is the best. Take a gander at what I discovered. [768 767 769 66 82]#$e#Think you can find something better than that? I'm not so sure!$h",
+  "CDE_Abigail_Married_RainyDay_7": "Hehe, I did some sword training in the rainy darkness. You've gotta admit, your wife is pretty epic.$h",
+  "CDE_Abigail_Married_RainyDay_8": "It might be a good day to visit the caves, huh? Just be careful out there, and if you go, bring a Life Elixir or two.",
+  "CDE_Abigail_Married_RainyDay_9": "Is it getting kind of dusty in here? Don't worry, I'll take care of it.",
+  "CDE_Abigail_Married_RainyDay_10": "Maybe I'll boot up Journey Of The Prairie King today... one of these days I swear I'll beat it fully.$h",
 
   "CDE_Abigail_Married_RainyNight_1": "The countryside looks more interesting on a day like this, don't you think?",
   "CDE_Abigail_Married_RainyNight_2": "I was just gazing out into the rainswept woods... I swear I saw something darker than black shifting around the trees.$6",
