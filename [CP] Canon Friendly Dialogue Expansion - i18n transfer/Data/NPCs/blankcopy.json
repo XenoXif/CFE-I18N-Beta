@@ -10,14 +10,6 @@
       "When": { "ModdedDialogCompat": "true" }
     },
     {
-      "LogName": "CDE_NPC_Rainy",
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
-      "Entries": {
-        "NPC": "{{i18n: CDE_NPC_rainy_{{random: 1,2,3}}}}"
-      }
-    },
-    {
       "LogName": "CDE_NPC_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/NPC",
@@ -32,6 +24,14 @@
         "AcceptGift_(O)2": "{{i18n: CDE_NPC_}}",
         "AcceptGift_(O)3": "{{i18n: CDE_NPC_}}",
         "AcceptGift_(O)4": "{{i18n: CDE_NPC_}}"
+      }
+    },
+    {
+      "LogName": "CDE_NPC_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "NPC": "{{i18n: CDE_NPC_rainy_{{random: 1,2,3}}}}"
       }
     },
     {
