@@ -127,7 +127,12 @@
   "CDE_Harvey_Married_IndoorDay_8": "I can't say I miss medical school too much. What we have here is so much better.$h",
   "CDE_Harvey_Married_IndoorDay_9": "I was afraid of you when we first met. It's funny to think about now that we've come so far.$h",
   "CDE_Harvey_Married_IndoorDay_10": "Any household chores that need doing today? I was going to dust and sweep. ...Oh, and do you think the kitchen could use a little scrubbing?",
-
+  "CDE_Harvey_Married_IndoorDay_11": "You're just in time! Breakfast is served! [201]$h#$e#I know, it's my usual... but you can't go wrong with it!",
+  "CDE_Harvey_Married_IndoorDay_12": "Off to a good start, I hope? I got in some good stretches and I feel like a new person!",
+  "CDE_Harvey_Married_IndoorDay_13": "Honey, have you seen my glasses?#$e#...Ha! That's right, they're here on my face!$h#$e#Looks like I need my coffee.$h",
+  "CDE_Harvey_Married_IndoorDay_14": "Did you get enough sleep last night?#$e#You can scrape by on six hours. You'll feel better on eight, though.",
+  "CDE_Harvey_Married_IndoorDay_15": "You've got a busy day ahead of you, don't you? Got time for a cup of coffee? [395]#$e#I don't want to delay you. Good luck out there!",
+  
   "CDE_Harvey_Married_IndoorNight_1": "I got in a little bit of exercise today. Did you?#$e#...Er, well, of course you did.",
   "CDE_Harvey_Married_IndoorNight_2": "You look exhausted, dear. Let me give you a massage tonight. I promise it will reduce the inflammation in your muscle tissue!$l",
   "CDE_Harvey_Married_IndoorNight_3": "Dinner's ready! This one will make you feel great! [212 214 225 209 200]$h#$c .5#It's one of my favorites. Enjoy!",
@@ -140,14 +145,28 @@
   "CDE_Harvey_Married_IndoorNight_10": "Thank you for letting me dote on you like I do. It's actually a really important outlet for me.",
   
   //location specific dialogue
-  "CDE_Harvey_Married_funLeave_1":	"I'm going for a walk today. There's a lot of medical literature I need to catch up on, and I'll work better if I'm not cooped up.",
-  "CDE_Harvey_Married_funLeave_2":	"I think I'll take a little walk today. I need to unwind.",
+  "CDE_Harvey_Married_funLeave_1": "I'm going for a walk today. There's a lot of medical literature I need to catch up on, and I'll work better if I'm not cooped up.",
+  "CDE_Harvey_Married_funLeave_2": "I think I'll take a little walk today. I need to unwind.",
   "CDE_Harvey_Married_funReturn_1": "Oh! Good timing. I just got home, too. How was your day?",
   "CDE_Harvey_Married_funReturn_2": "I had a nice day. It's refreshing to spend some time alone now and then. Did you have a good day, honey?",
+  "CDE_Harvey_Married_jobLeave_1": "I've got some appointments today at work. I'll see you in the evening!",
+  "CDE_Harvey_Married_jobLeave_2": "I have to go into the clinic today. Have a nice day, okay?",
+  "CDE_Harvey_Married_jobLeave_3": "Looks like we both have busy days of work ahead of us. I'll look forward to the evening, though!",
+  "CDE_Harvey_Married_jobLeave_4": "I'll be heading to the clinic soon. Stop by if you're in the area, okay?",
+  "CDE_Harvey_Married_jobReturn_1": "Hi, honey. How was your day?#$e#$c .6#My patients are still healthy, so it was a good day.#*Phew*... I'm exhausted...$s",
+  "CDE_Harvey_Married_jobReturn_2": "Good evening! Did you have a good day?$h#$e#It actually wasn't a very busy day at the clinic after all.",
+  "CDE_Harvey_Married_jobReturn_3": "What a day! I'm looking forward to a nice, quiet evening.#$e#How about you? Are you done with work for the day?",
+  "CDE_Harvey_Married_jobReturn_4": "I may not live above the clinic anymore, but I still can't complain about the commute to and from work.#$e#How'd your day go?",
   
   "CDE_Harvey_Married_patio_1": "You know, this 'journal of tendon dynamics' is actually bearable when I'm reading out here.",
   "CDE_Harvey_Married_patio_2": "There's always something new for me to be learning. Especially when there are no specialists in town.",
   "CDE_Harvey_Married_patio_3": "The doctor who wrote this article has over a hundred publications on the hairs lining the inner ear.#$b#I know a lot about the human body, but the potential depth to physiology seems to be limitless.$h",
+
+  "CDE_Harvey_Married_spouseRoom_1": "No air-traffic this morning, honey. But it's still fun to break out the equipment now and then.",
+  "CDE_Harvey_Married_spouseRoom_2": "I'm working on a new model plane. It's so much more relaxing here than in my old apartment.",
+  "CDE_Harvey_Married_spouseRoom_3": "I'm technically on call, but as long as there are no emergencies, I'll enjoy a little bit of hobby time.",
+  "CDE_Harvey_Married_spouseRoom_4": "The air traffic is a bit more active than usual lately.#$e#Erm, that is, I found one plane the other day, but that doesn't happen all the time!",
+  "CDE_Harvey_Married_spouseRoom_5": "I'll get a bit of reading done today. Y'know, hopefully something a little more gripping than another medical journal.",
   
   "CDE_Harvey_Married_OneKid_1": "I have to say, having my own child would have made my rotation in the pediatric trauma center a lot harder.$s",
   "CDE_Harvey_Married_OneKid_2": "Little %kid1 is going to have the perfect childhood here. We're really fortunate to have this opportunity.",
