@@ -120,7 +120,7 @@
   
   "CDE_Haley_Married_RainyDay_1": "Ohh, I had plans to go outside today...$s",
   "CDE_Haley_Married_RainyDay_2": "I've changed a lot over the years, but I still prefer sunny weather.",
-  "CDE_Haley_Married_RainyDay_3": "Getting old someday is kind of scary. I'm just glad I'll have you with me.",
+  "CDE_Haley_Married_RainyDay_3": "Getting old someday is kind of scary. I'm just glad I'll have you with me.#$e#You'll probably age better than I will, anyway.",
   "CDE_Haley_Married_RainyDay_4": "Sometimes I daydream about our retirement... relaxing on the sunny beaches of the Fern Islands!#$e#Do you ever think about the future?",
   "CDE_Haley_Married_RainyDay_5": "Good morning! I got up early and baked something sweet for you! [223 234 211 651 731]#$e#I wonder if I could work as a baker?#$e#...But maybe it wouldn't be as fun. I like baking for you.",
   "CDE_Haley_Married_RainyDay_6": "Good morning! I did some baking early this morning! [223 234 211 651 731]#$e#I know you're strong, but you still need to eat well to stay at your best!$h",
@@ -156,7 +156,7 @@
   "CDE_Haley_Married_IndoorNight_3": "Good evening, honey. Anything you need from me to help you unwind?$l",
   "CDE_Haley_Married_IndoorNight_4": "Thanks for letting me be a domestic wife. I know I'm a bit traditional that way, but I really like it.",
   "CDE_Haley_Married_IndoorNight_5": "Oh good, you're back!<$h#$e#This is probably my favorite time of the day.$l",
-  "CDE_Haley_Married_IndoorNight_6": "Welcome home,honey! <$h#$e#How was your day?",
+  "CDE_Haley_Married_IndoorNight_6": "Welcome home, honey! <$h#$e#How was your day?",
   "CDE_Haley_Married_IndoorNight_7": "Oh, that smell? I just put on a little fleur de cerisier perfume before you came in. I hope you like it.",
   "CDE_Haley_Married_IndoorNight_8": "Good evening, honey. When do you want to head to bed?$l",
   "CDE_Haley_Married_IndoorNight_9": "Dinner's ready! I hope you're hungry![727 231 207 199 197 212 208]$h",
