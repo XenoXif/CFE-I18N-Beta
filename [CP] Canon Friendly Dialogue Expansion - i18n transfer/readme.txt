@@ -11,11 +11,19 @@ List of changes made to keys used in this update:
 exact duplicates from the vanilla code have been removed across all files!
 [use npc.json key]
 
-list of new lines added by this update:
+list of new lines added (or edited) by this update:
 [use default.json tokens]
 -Abigail-
 CDE_Abigail_rainy_3
 CDE_Abigail_Married_patio_3
+CDE_Abigail_Married_RainyDay_3
+CDE_Abigail_Married_RainyDay_4
+CDE_Abigail_Married_RainyDay_5
+CDE_Abigail_Married_RainyDay_6
+CDE_Abigail_Married_IndoorDay_3
+CDE_Abigail_Married_IndoorDay_4
+CDE_Abigail_Married_Outdoor_3
+CDE_Abigail_Married_Outdoor_4
 
 -Alex-
 CDE_Alex_rainy_3
@@ -37,10 +45,26 @@ CDE_Dwarf_rainy_3
 CDE_Elliott_rainy_2
 CDE_Elliott_rainy_3
 CDE_Elliott_Married_patio_3
+CDE_Elliott_Married_RainyDay_3
+CDE_Elliott_Married_RainyDay_4
+CDE_Elliott_Married_RainyDay_5
+CDE_Elliott_Married_RainyDay_6
+CDE_Elliott_Married_IndoorDay_3
+CDE_Elliott_Married_IndoorDay_4
+CDE_Elliott_Married_IndoorDay_9
+CDE_Elliott_Married_IndoorDay_10
+CDE_Elliott_Married_IndoorNight_5
+CDE_Elliott_Married_IndoorNight_6
+CDE_Elliott_Married_IndoorNight_7
+CDE_Elliott_Married_IndoorNight_8
+CDE_Elliott_Married_Outdoor_9
+CDE_Elliott_Married_Outdoor_10
 
 -Emily-
 CDE_Emily_rainy_3
 CDE_Emily_Married_patio_3
+CDE_Emily_Married_Outdoor_7
+CDE_Emily_Married_Outdoor_8
 
 -Evelyn-
 CDE_Evelyn_rainy_3
@@ -54,10 +78,42 @@ CDE_Gus_rainy_3
 -Haley-
 CDE_Haley_rainy_3
 CDE_Haley_Married_patio_3
+CDE_Haley_Married_RainyDay_3
+CDE_Haley_Married_RainyDay_4
+CDE_Haley_Married_RainyDay_5
+CDE_Haley_Married_RainyDay_6
+CDE_Haley_Married_RainyDay_7
+CDE_Haley_Married_RainyDay_8
+CDE_Haley_Married_RainyDay_9
+CDE_Haley_Married_RainyDay_10
+CDE_Haley_Married_IndoorDay_1
+CDE_Haley_Married_IndoorDay_2
+CDE_Haley_Married_IndoorDay_3
+CDE_Haley_Married_IndoorDay_4
+CDE_Haley_Married_IndoorDay_5
+CDE_Haley_Married_IndoorDay_6
+CDE_Haley_Married_IndoorDay_7
+CDE_Haley_Married_IndoorDay_8
+CDE_Haley_Married_IndoorNight_5
+CDE_Haley_Married_IndoorNight_6
+CDE_Haley_Married_Outdoor_1
+CDE_Haley_Married_Outdoor_2
+CDE_Haley_Married_Outdoor_5
+CDE_Haley_Married_Outdoor_6
 
 -Harvey-
 CDE_Harvey_rainy_3
 CDE_Harvey_Married_patio_3
+CDE_Harvey_Married_RainyDay_1
+CDE_Harvey_Married_RainyDay_2
+CDE_Harvey_Married_RainyDay_7
+CDE_Harvey_Married_RainyDay_8
+CDE_Harvey_Married_IndoorDay_1
+CDE_Harvey_Married_IndoorDay_2
+CDE_Harvey_Married_IndoorDay_3
+CDE_Harvey_Married_IndoorDay_4
+CDE_Harvey_Married_IndoorNight_3
+CDE_Harvey_Married_IndoorNight_4
 
 -Jas-
 
