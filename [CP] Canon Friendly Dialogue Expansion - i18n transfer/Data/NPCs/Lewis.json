@@ -5,7 +5,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lewis",
       "Entries": {
-        "AcceptGift_(O)200": "{{i18n: CDE_Lewis_}}"
+        "AcceptGift_(O)200": "{{i18n: CDE_Lewis_VegetableMedley}}"
         //every time UGDE updates, or someone requests special compat with a different mod, this section may be updated to include the conflicting key. Mods other than UGDE will need to be added to the list of mods to recognize, found in the dynamic tokens section of content.json
       },
       "When": { "ModdedDialogCompat": "true" }
@@ -124,7 +124,7 @@
         "winter_Thu": "{{i18n: CDE_Lewis_winterThu}}",
 
         "Thu": "{{i18n: CDE_Lewis_Thu}}",
-        "Sun": "{{i18n: CDE_Lewis_Sun}}",
+        "Sun": "{{i18n: CDE_Lewis_Sun}}"
       }
     }
   ]
