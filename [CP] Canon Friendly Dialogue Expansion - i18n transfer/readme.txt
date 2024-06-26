@@ -4,7 +4,7 @@ Canon Friendly Dialogue Expansion has just receieved a massive update to it's co
 
 How to translate i18n:
 [i will put in a guide here later!]
-How to upload your translation: 
+How to upload your translation:
 [would you prefer they upload the file itself, or send you the translation for you to upload?]
 
 List of changes made to keys used in this update:
@@ -140,12 +140,16 @@ CDE_Jodi_rainy_2
 CDE_Jodi_rainy_3
 
 -Kent-
+CDE_Kent_RoastedHazelnuts_1
+CDE_Kent_RoastedHazelnuts_2
 
 -Krobus-
 CDE_Krobus_rainy_3
 
 -Leah-
 CDE_Leah_rainy_3
+CDE_Leah_fallMon6_1
+CDE_Leah_fallMon6_2
 CDE_Leah_Married_IndoorDay_3
 CDE_Leah_Married_IndoorDay_4
 CDE_Leah_Married_IndoorDay_7
