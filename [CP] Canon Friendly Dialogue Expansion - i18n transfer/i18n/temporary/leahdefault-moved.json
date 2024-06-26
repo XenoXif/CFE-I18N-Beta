@@ -1,0 +1,258 @@
+{ //Leah
+
+  //Leah Gift Tastes
+  "CDE_Leah_GoldPumpkin": "You found this at the end of the maze? It's simply enchanting!$h",
+  "CDE_Leah_Pearl": "@! This is... really rare!$6#$b#But... you want me to have it? I uh... okay. Thank you!$l",
+  "CDE_Leah_PrismaticShard": "That's fantastic! I wonder if I could mix it into some paint...$h",
+  "CDE_Leah_RabbitsFoot": "Thanks! I could use some good luck!$h#$b#A career in art is never very easy.$7",
+  "CDE_Leah_GoatCheese": "Ooh! My favorite kind of cheese!#$b#I've got the perfect wine that'll pair with that tangy acidity.$h",
+  "CDE_Leah_PoppyseedMuffin": "Thank you! It'll be great kicking back with this.$h#$b#*sniff* Mmm, fresh-baked and oh-so soothing.",
+  "CDE_Leah_StirFry": "Now that's a meal! There are so many delicious things in there, practically every bite's got a little something new.$h",
+  "CDE_Leah_Wine": "Ahh, one of life's great pleasures. I'll sip this one nice and slow. Thank you!",
+
+  //Leah's Misc Dialogue
+  //these lines target files other than the standard characters/dialogue/Leah location such as unmarried rainy dialogue
+  "CDE_Leah_rainy_1": "Maybe I should cook something new and exciting today. Something spicy.",
+  "CDE_Leah_rainy_2": "I always look forward to how the forest looks all glisteny after the sun returns.",
+  "CDE_Leah_rainy_3": "Mmm... smells nice outside, don't you think?",
+
+  //Leah's Standard Dialogue
+
+  //Special Dialogue
+  "CDE_Leah_repeated_1": "Have you ever tried the wine from the valley?#$e#Better yet, you could probably make your own wine on your farm. That would be amazing.$h",
+  "CDE_Leah_repeated_2": "Oh, @! Hi!$h#$e#Did your morning chores go okay?$l#$e#I hope I can help you sometime.",
+  "CDE_Leah_repeated_3": "Hello, @. It's a nice day, isn't it?#$e#Stop by my cabin if you ever need someone to talk to.$h",
+  "CDE_Leah_repeated_4": "Nature itself will always be a greater artist than any one of us.#$e#You work directly with nature, though. Yeah, I'd say farming is an art, of sorts.",
+  "CDE_Leah_repeated_5": "Humans were born to be creative, don't you think? It's what makes us who we are.#$e#Of course, there are many ways to be creative. Painting and sculpting just happen to be a couple of my favorites.",
+  "CDE_Leah_repeated_6": "Hey you.$l#$e#I've been thinking about you all day.$l#$e#So, tell me about your week.$h",
+  "CDE_Leah_repeated_7": "I can be frugal with my lifestyle, but sometimes I feel like my art career is a ticking time bomb.$s#$e#Do you know of anyone who's made it by on the starving artist lifestyle?$s",
+  "CDE_Leah_repeated_8": "I bet you could grow wild produce on your farm. Have you tried that?#$e#Nothing beats the sense of reward that comes from finding something delicious in the forest, but it might be convenient if you don't have time to forage.",
+  "CDE_Leah_repeated_9": "We wouldn't be able to survive without nature. It's good to remember that.",
+  "CDE_Leah_repeated_10": "I keep up a pretty strict pescatarian diet. It's not that I'm morally opposed to eating meat, but...#$b#...as long as everyone has their own way of showing respect for nature, I'm fine with 'em. This is just my way, for me.",
+  "CDE_Leah_repeated_11": "@, thank you for always believing in me.#$b#I think you showed up in my life just at the time when I needed you most.",
+  "CDE_Leah_repeated_12": "Apparently, there was an old woman who lived in my hut before I did.#$e#After she died, Mayor Lewis held the property until I was able to come through and sign for it.",
+  "CDE_Leah_repeated_13": "Hello. How's your day going?",
+  "CDE_Leah_repeated_14": "I never felt truly safe in the city. Here, though, I don't even have to worry about locking my door.",
+  //repeated_1: Mon4, fall_Fri4
+  //repeated_2: Thu10, summer_Sun10
+  //repeated_3: Fri6, Sun8
+  //repeated_4: Fri4, summer_Fri4
+  //repeated_5: Sat6, fall_Sun6
+  //repeated_6: Sun10, fall_Sun10
+  //repeated_7: Sun6, winter_Sun6
+  //repeated_8: Sun4, fall_Thu4
+  //repeated_9: summer_Tue2, winter_Wed2
+  //repeated_10: summer_Sat2, winter_Mon4
+  //repeated_11: fall_Wed10, winter_Sun8
+  //repeated_12: fall_Wed6, winter_Sun4
+  //repeated_13: fall_Fri2, winter_Sat2
+  //repeated_14: fall_Sun8, winter_Wed6, winter_Fri8
+
+  //date specific dialogue
+  "CDE_Leah_spring1": "I thought I'd miss the snow, but I take it back. This is so much better. Happy new year!",
+  "CDE_Leah_spring23": "I figure I'll dance at the festival tomorrow. I mean, why not?",
+  "CDE_Leah_summer27": "I was awestruck the first time I saw the moonlight jellies. I'll never forget that year.",
+  "CDE_Leah_fall15": "The Stardew Valley Fair makes me feel like a kid again. I'm glad our town hosts it.",
+  "CDE_Leah_winter24": "Hey! Feeling in the holiday spirit yet?#$e#I'm more than ready, myself. Bring on the good eats!",
+  "CDE_Leah_winter28": "A wonderful happy new year to you!$h#$e#It was a good one for me. How about you?",
+
+  //heart specific dialogue
+  "CDE_Leah_summerMon10": "I'm glad you live just up the road.#$e#I'm always happy to see you.",
+  "CDE_Leah_summerMon8": "I'm glad you live just up the road. Life's better when you live next to people you care about.",
+  "CDE_Leah_summerMon6": "I have a good eye for wild fruit. Some day I'll make you a nice fruit salad.$h",
+  "CDE_Leah_summerMon4": "Such a lovely day, isn't it?#$e#Oh, by the way, I found these. I saved one for you. [396]#$e#To me, they just taste like summer memories.",
+  "CDE_Leah_summerTue8": "One time, I went on a night hike with some friends and we unexpectedly wound up at an old vineyard.#$b#The owner of the vineyard invited us in. I remember that summer night air was so pure and warm. That was the first time I had a glass of wine.#$e#What's your favorite summer memory, @?",
+  "CDE_Leah_summerTue6": "The simple things in life are best: a soft summer breeze, majestic clouds, and a goblet full of Stardew Valley red.",
+  "CDE_Leah_summerTue4": "I walked by Marnie's ranch yesterday, and the cows just kept looking at me.#$e#Their faces were so gentle.#$e#Do you have some cows, too?",
+  "CDE_Leah_summerWed8": "Sometimes, a strange feeling comes over me. My head becomes totally empty... and I feel completely at peace, even blissful.#$e#Hey, now! It has nothing to do with drinking wine!$h",
+  "CDE_Leah_summerWed4": "Do you ever walk out into the forest... Pause... And simply enjoy the beauty of nature?#$e#It's easy to forget how incredible this world actually is...",
+  "CDE_Leah_summerThu10": "*giggle* Why yes, I do like long walks on the beach. How perceptive of you to ask!$h",
+  "CDE_Leah_summerThu8": "The sound of the ocean puts me into a meditative state. It's so peaceful.#$e#But you're always welcome to talk to me, too.",
+  "CDE_Leah_summerThu6": "The seagulls must see the beach so differently from us.#$e#I've always envied their ability to fly. Do you?",
+  "CDE_Leah_summerThu4": "I never grow tired of the forest, but it's amazing how we have a beach here, too.#$e#I've found the most beautiful rainbow shells washed up on shore a couple of times.",
+  "CDE_Leah_summerFri8": "It's been really quiet in my cabin lately.$s#$b#I'm happy if you drop by.#$e#So, how's your day going?",
+  "CDE_Leah_summerSat10": "Hey you.$l#$e#You're just the one who was missing from my day.#$e#I need a hug. C'mere.",
+  "CDE_Leah_summerSat8": "Let me know if you find anything tasty in the woods, okay?#$e#Sometimes it's tough living the poverty lifestyle, but I wouldn't want to eat any differently even if I had money.",
+  "CDE_Leah_summerSat6": "One summer, it was so hot during the night that I got out of bed and jumped into the river!#$e#I hope no one saw me!$h",
+  "CDE_Leah_summerSat4": "Yeah, I go to the beach a lot during the summer.#$b#Of course, you can join me. Don't be shy.$h",
+  "CDE_Leah_summerSun8": "Question: What's better than a delicious fruit salad?#$b#Two fruit salads, with someone to share it with! [610]$h#$e#No, I insist. Eat up!",
+  "CDE_Leah_summerSun6": "Hello, @. It's a nice day, isn't it?#$e#Stop by my cabin if you ever need someone to talk to.$h#$b#It's just a little hot in there during the day, so I tend to be out and about in the afternoon.",
+  "CDE_Leah_summerSun4": "It's nice getting to see a little more of Elliott during the summer.#$e#Of course, it's always nice to see you, too.",
+
+  "CDE_Leah_fallMon10": "I was never crazy about starchy foods, but all Kel ever wanted to eat was 'breakfast for dinner' and I'd be the one to cook.$s#$b#I got so sick of those foods after a while.$s#$e#Sorry, that's unattractive of me. Let's change the subject.",
+  "CDE_Leah_fallMon8": "Hey! I went hunting for mushrooms and I found a bunch. Here's one I saved for you. [404]#$e#Ever try putting one of those in a stir fry?",
+  "CDE_Leah_fallMon6_1": "I found some wild mushrooms over the weekend!#$e#Keep your nose to the ground and you'll find some mushrooms yourself... I'm sure of it.",
+  "CDE_Leah_fallMon6_2": "I had a huge plate of wild mushrooms and eggs for breakfast today... I'm still full.#$e#Keep your nose to the ground and you'll find some mushrooms yourself... I'm sure of it.",
+  "CDE_Leah_fallMon4": "As a kid, I didn't really like mushrooms, until someone cooked them for me the right way.#$e#I don't really eat meat, so they're a good source of protein for me.",
+  "CDE_Leah_fallTue10": "I usually try to keep myself out of my art, and let it just exist for the sake of its own beauty, rather than myself.#$e#Sometimes, though, I can't help it. That sculpture I gave you would be one example.$l",
+  "CDE_Leah_fallTue8": "I've been feeling pretty inspired lately. Fall brings out a more personal side to me.",
+  "CDE_Leah_fallTue2": "I wonder if I could make a collage out of dried leaves?#$e#They're just so colorful... I can't help but think of the potential for art projects.$h",
+  "CDE_Leah_fallWed4": "It's so nice to live by the river.#$e#I fall asleep to the soothing sound of water every night.",
+  "CDE_Leah_fallWed2": "It's so nice living by the river.#$e#Sometimes, I can hear the salmon leaping and splashing out of the water.",
+  "CDE_Leah_fallThu8": "I don't have much connection with my parents anymore. We just kind of grew apart.#$e#I call them every once in a while, but we've mainly got our own lives these days.#$e#Why, is that unusual to you?",
+  "CDE_Leah_fallThu2": "Do you ever take a whole day off?#$e#It's a refreshing break.",
+  "CDE_Leah_fallFri10": "I was just looking at my fall decorations. I wonder if I'll have kids of my own someday who I can share that with?",
+  "CDE_Leah_fallFri8": "Do you ever wonder what it's like to be a different person?#$e#Do our thoughts manifest in a similar way, or is it radically different?#$e#Don't mind me, I think about weird things sometimes...$h",
+  "CDE_Leah_fallSat10": "Hey. You should come by my place tomorrow morning. Bring a couple of omelets and we'll call it brunch.$h#$e#Sorry, if you're looking to get creative, there aren't a whole lot of other breakfast-y things I like.",
+  "CDE_Leah_fallSat6": "It's nice just to make something fun and whimsical every now and then, like the decorations on my house.#$e#Gotta get in touch with that inner child, right?$h",
+  "CDE_Leah_fallSat4": "Heyyy! So what do you think of my fall decorations?$h#$e#You should have some Spirit's Eve decorations for your farm. Nothing too creepy, though.",
+  "CDE_Leah_fallSat2": "Decorations accentuate the feeling of the season. I think it's a worthwhile tradition.",
+  "CDE_Leah_fallSun4": "One thing I love about this place is that there are beautiful waterfalls.#$e#Do you ever spend time watching them? It's soothing...",
+  "CDE_Leah_fallSun2": "Hello, @. Is there something you wanted to talk about?",
+
+  "CDE_Leah_winterMon8": "One of my earlier memories is from a time I went sledding. I sped down the slope and crashed into a pile of snow.#$e#I remember lying there, hearing to the silence and watching the sky, with the snow falling down on my face. I just wanted to stay there forever.",
+
+  "CDE_Leah_Mon8": "$query PLAYER_NPC_RELATIONSHIP current any married roommate#It must be satisfying to harvest a whole field of crops, huh? You're basically creating food out of nothing!$h|Hi @! I was just thinking about you and your farm.#$e#I was imagining how good it must feel to harvest a big bunch of crops.$h#$e#Wouldn't it be nice to have help, though?$l",
+  "CDE_Leah_Mon6": "Marnie and Jas are great neighbors. I love walking by their cows on my way into town.#$e#Shane? Um... I uh... haven't talked to him much.$u",
+  "CDE_Leah_Tue10": "So... if we're dating, I want to make sure... you're okay with the fact that I don't make a lot of money, right?#$e#I was just wondering.#$b#I think you know why.$l",
+  "CDE_Leah_Tue8": "Hi. Oh, you want to talk?#$e#The landscape around here gives me a lot of ideas. The terrain is almost like a sculpture itself.#$e#I don't make art for money. It's just an urge that I have.#$e#Farming seems like a very rewarding profession. You get to create delicious food for everyone!$h#$e#You're probably busy. Sorry.",
+  "CDE_Leah_Tue6": "I made a little painting for Elliott to hang in his house. Poor guy doesn't have very much to make his home feel cozy.#$e#I respect how much he sacrifices to pursue what he wants, though. We're both out here for similar reasons.",
+  "CDE_Leah_Tue4": "The thing I like best about Pelican Town is the amount of independence you can have.#$b#We're all built for cooperation, but in the city, cooperation is more like a blind dependence.#$e#So many people can't last a week without someone else cooking their food or setting their schedule for them.#$b#I think a lot of people who say they want independence don't necessarily follow through.#$e#Sorry, am I being really judgmental right now?$h",
+  "CDE_Leah_Tue2": "I was wondering for a while whether someone would move into that farm. It's nice that you did!",
+  "CDE_Leah_Wed10": "Haha, yep. Same hairstyle today as always.#$e#It'll keep my hair out of your face if we're making out, though.$l#$e#Oh! did I say that out loud?$h",
+  "CDE_Leah_Wed8": "I've found some great pieces of driftwood for sculpting lately.#$q 225/226 Wed_old#So um... Do you like the sculpture I made for you?#$r 225 10 Wed_225#Yes, it reminds me of you when I look at it.#$r 226 -100 Wed_226#Uh, what's it look like, again?",
+  "CDE_Leah_Wed_old": "$p 025#I've been making more sculptures similar to the one I made you.|Don't worry, though. I won't impose on your home's floor space with more sculptures.$u",
+  "CDE_Leah_Wed_225": "Really? Oh, I'm glad!$h#$b#Sorry, I know it's not really professional of me to ask, but I just couldn't hold out any longer.",
+  "CDE_Leah_Wed_226": "Ahh... never mind.$s",
+  "CDE_Leah_Wed4": "There's a beautiful tree west of my house. The fruit from it is delicious, though it is a bit hard to reach.",
+  "CDE_Leah_Wed2": "You've met my friend Elliott, right?#$b#Maybe we could all hang out at the next festival.",
+  "CDE_Leah_Thu8": "I was hoping I'd run into you!  Here's a little something I thought you might appreciate. [196]$h",
+  "CDE_Leah_Thu6": "Emily's salads at the saloon are pretty delicious. Her recipe is very similar to the one I use.",
+  "CDE_Leah_Thu4": "Foraging is a specialty of mine. Someday I'll make you a fresh salad.$h",
+  "CDE_Leah_Thu2": "There's actually a lot of wild food in this area, if you know where to look.#$e#I've been having fresh salads almost every day.$h",
+  "CDE_Leah_Fri8": "If you ever find any interesting looking driftwood, I could use it.#$e#It would be special that you gave it to me.",
+  "CDE_Leah_Sat10": "Hey love.$l#$e#Wanna come visit me at the pond tomorrow in the late afternoon? I'll be there if it's not raining.$l#$e#Or you can just find me whenever. I don't mind it.$l",
+  "CDE_Leah_Sat4": "Do you have much art in your house?#$e#A house only becomes a home when it has a creative touch.",
+  "CDE_Leah_Sun2": "Stop by my home sometime. I'll show you my latest projects.",
+
+  "CDE_Leah_winterMon6": "I love the way everything looks when it's covered with fresh snow.",
+  "CDE_Leah_winterTue10": "Hey. C'mere. Warm me up.#$e#Mmm, you're cozy.$l",
+  "CDE_Leah_winterTue8": "Farming sounds so fun. I want to try it, someday.$l",
+  "CDE_Leah_winterTue6": "I guess nature can be pretty harsh in the winter. It still provides enough for us to get by, though.",
+  "CDE_Leah_winterTue4": "It gets pretty cold in my little cabin.$s#$e#I just snuggle up under a huge blanket, and I'm okay.$h",
+  "CDE_Leah_winterWed8": "Seen any snow rabbits out there? I think they're one of my favorite things in the woods this time of year.",
+  "CDE_Leah_winterWed4": "I saw a snow rabbit early this morning! They're rare, aren't they?",
+  "CDE_Leah_winterThu10": "Snow on the ground outside, someone who loves me in my arms... Yeah, this is pretty nice.$l",
+  "CDE_Leah_winterThu4": "I hope Elliott's doing okay in his little house. I like to think I have it hard sometimes, but that guy really knows how to rough it out.",
+  "CDE_Leah_winterThu2": "I'm having a hard time finding fresh food to eat.#$e#I've been eating a lot of bread.$s",
+  "CDE_Leah_winterFri10": "Hey. Whaddaya say we get a little tipsy together this evening?$h#$e#It's alright. I trust you.$l#$e#I just want to be asleep by around midnight, though.",
+  "CDE_Leah_winterFri4": "Time seems to move slower here.#$e#When I lived in the city, the year went by so fast.",
+  "CDE_Leah_winterFri2": "So, what do you enjoy most about living on a farm?#$e#You must have a lot more time on your hands lately.",
+  "CDE_Leah_winterSat8": "Do you ever get cold in that farmhouse of yours?#$e#Stop by my cabin if you want to huddle under one of my quilts and drink cider.$h",
+  "CDE_Leah_winterSat6": "Do you like the winter decorations on my house?#$e#I'm always excited to put them up, but I've got to wait until the weather's right.",
+  "CDE_Leah_winterSat4": "You should take a whole day off, now and then.#$b#Not only is it good for the soul, but in the long run, you'll actually be more productive!",
+  "CDE_Leah_winterSun2": "I hate to be blunt, but if we don't treat nature with respect, our grandchildren will be doomed.#$e#Don't you think so?",
+
+  //generic weekday dialogue
+  "CDE_Leah_summerThu": "I visit the beach a lot during the summer.#$e#The sound of the ocean is so beautiful, isn't it?",
+  "CDE_Leah_fallTue": "So, what do you enjoy most about living on a farm?",
+  "CDE_Leah_fallThu": "Hey. How's the farm coming along?#$e#This season, there must be so many different seeds to choose from.",
+  "CDE_Leah_fallSat": "If you hear any banging from inside my hut, it's probably just me working on one of my sculptures.",
+  "CDE_Leah_winterTue": "Don't you think the saloon has just the right atmosphere for winter time? It's so cozy.",
+  "CDE_Leah_winterThu": "I love to decorate for the different seasons.",
+  "CDE_Leah_Thu": "I'm interested to see what you do with your farm, though there's also a natural beauty to the rocks and trees that have moved in.",
+
+  //Leah's Married Dialogue
+  //weather specific dialogue
+  "CDE_Leah_Married_RainyDay_1": "I sometimes find inspiration in the most unlikely of places.",
+  "CDE_Leah_Married_RainyDay_2": "Hmm, maybe I should put on some music. Something to wake me up.$s",
+  "CDE_Leah_Married_RainyDay_3": "I used to find rain depressing when I lived in the city. But here in Stardew Valley it's beautiful.",
+  "CDE_Leah_Married_RainyDay_4": "Not a bad day for staying in. I've got some new project ideas I was hoping to try.",
+  "CDE_Leah_Married_RainyDay_5": "Good morning! I got up early and did some mushroom hunting. Here, take one.[281 404 420 257]",
+  "CDE_Leah_Married_RainyDay_6": "Searching for mushrooms is like going on a treasure hunt. It's a lot of fun.$h",
+  "CDE_Leah_Married_RainyDay_7": "It's days like this I'm really happy about my heavy-duty boots.$h",
+  "CDE_Leah_Married_RainyDay_8": "The clouds get so thick here. It's almost like it's still nighttime.",
+  "CDE_Leah_Married_RainyDay_9": "The trees have been begging for this rain... I'm happy for them.",
+  "CDE_Leah_Married_RainyDay_10": "You could go fishing today, if you want. Let me know if you find some driftwood.",
+
+  "CDE_Leah_Married_RainyNight_1": "How was your day? Did you see any animals out there?",
+  "CDE_Leah_Married_RainyNight_2": "Did the animals stay dry today?",
+  "CDE_Leah_Married_RainyNight_3": "I usually go for salad... but a wet night like this gives me cravings for hot soup.$h",
+  "CDE_Leah_Married_RainyNight_4": "It wasn't a bad day. I just had to readjust my expectations and make the best of it.",
+  "CDE_Leah_Married_RainyNight_5": "It's going to be relaxing to fall asleep on a night like this...$l",
+  "CDE_Leah_Married_RainyNight_6": "Welcome home, love. Mmm, come here and kiss me.$l",
+  "CDE_Leah_Married_RainyNight_7": "I made a little wood sculpture today, but it was so ugly I threw it into the fire.$u#$e#I think to become a great artist, you have to be critical of your own work.",
+  "CDE_Leah_Married_RainyNight_8": "I'm glad you're home... It's a good night to get under the covers and stay warm.",
+  "CDE_Leah_Married_RainyNight_9": "I missed you today. We should... spend some time together tonight.$l",
+  "CDE_Leah_Married_RainyNight_10": "How was your day today, dear? Muddy?#An old friend from the city commissioned me to do a painting for her. I almost finished it today.",
+
+  "CDE_Leah_Married_IndoorDay_1": "This house is a lot nicer than my old cabin! I don't miss it.",
+  "CDE_Leah_Married_IndoorDay_2": "Hm, what am I in the mood for today? Painting or sculpting?",
+  "CDE_Leah_Married_IndoorDay_3": "Rise and shine! Look what finished growing in a pot out back. [16 18 20 22 90 259 396 402]$h#$e#Make sure you don't let it go to waste. It's a good one.",
+  "CDE_Leah_Married_IndoorDay_4": "Good morning, @. I've planted these in a little pot out back... [16 18 20 22 90 259 396 402]#$e#I grew that with great love and attention. Enjoy it.",
+  "CDE_Leah_Married_IndoorDay_5": "Always remember to keep your eyes peeled for wild food! There's lots out there.",
+  "CDE_Leah_Married_IndoorDay_6": "Good morning. What are you hoping to get done today?",
+  "CDE_Leah_Married_IndoorDay_7": "I couldn't resist. These greens were at peak freshness, so...#$b#This one's for you. Enjoy! [196]",
+  "CDE_Leah_Married_IndoorDay_8": "I was thinking... life's too short to eat bad food. Luckily, we live in one of the best regions for fresh greens and vegetables!#$e#Here, I made you a healthy salad. [196]#$e#I'm surprised you aren't sick of my salad yet!",
+  "CDE_Leah_Married_IndoorDay_9": "Good morning! I made us some coffee.[395]$h",
+  "CDE_Leah_Married_IndoorDay_10": "My morning just wouldn't be complete without a hot cup of coffee.[395] How about you?$h",
+  "CDE_Leah_Married_IndoorDay_11": "Let me know if you see any cute animals out there today.#$e#I think I saw some fuzzy racoons down in Cindersap Forest. Maybe keep an eye out for 'em?",
+  "CDE_Leah_Married_IndoorDay_12": "Busy day today? Remember, you don't have to do it all.#$e#Whatever you can get done will be plenty, I'm sure.",
+  "CDE_Leah_Married_IndoorDay_13": "Are the animals doing well today?#$e#I suppose I could give them a visit myself too.",
+  "CDE_Leah_Married_IndoorDay_14": "Is it odd to have salad for breakfast, too? Sorry, I couldn't resist. [196 196 609 610]$h#$e#I must be the biggest salad nut you know, huh?$l",
+  "CDE_Leah_Married_IndoorDay_15": "Cindersap Forest is calling to me. I should hike out to the falls sometime soon.#$e#I love that I didn't have to move away from the woods when we got married.",
+
+  "CDE_Leah_Married_IndoorNight_1": "Something about this time of night makes me thirsty.",
+  "CDE_Leah_Married_IndoorNight_2": "Got some time to spend with me tonight? I've been thinking about you...$l",
+  "CDE_Leah_Married_IndoorNight_3": "The flow of time is so delicate... even the tiniest decision changes the future forever.",
+  "CDE_Leah_Married_IndoorNight_4": "With the short lives we live, everyone leaves a mark on the world. I hope I'm doing my part to leave a good mark.",
+  "CDE_Leah_Married_IndoorNight_5": "It's so much lovelier here at night than the garish glow of the city.",
+  "CDE_Leah_Married_IndoorNight_6": "Everything worked out perfectly for me. I'm very lucky.",
+  "CDE_Leah_Married_IndoorNight_7": "I never thought I'd receive a mermaid's pendant so soon after moving here! I'm happy about it, though.$l",
+  "CDE_Leah_Married_IndoorNight_8": "Did you make any good memories today?",
+  "CDE_Leah_Married_IndoorNight_9": "I saw a wild rabbit today. I just wish I could pet one someday. They look so soft...",
+  "CDE_Leah_Married_IndoorNight_10": "I saw some red-crested bluebirds today. They must be tucked nice and snug in their nests by now.",
+
+  //location specific dialogue
+  "CDE_Leah_Married_spouseRoom_1": "One of these days I'll have to do your portrait.",
+  "CDE_Leah_Married_spouseRoom_2": "The view from this window is inspiring, don't you think?",
+  "CDE_Leah_Married_spouseRoom_3": "Oop, be sure not to step in the bowls of paint over there. They're very wet.",
+  "CDE_Leah_Married_spouseRoom_4": "I love the scents of fresh wood and old wood combined in here. Must be from your house upgrades, huh?",
+  "CDE_Leah_Married_spouseRoom_5": "Can you believe I found this red rug next to a dumpster?#$e#It's true. It was just lying there, and in nearly perfect condition.",
+
+  "CDE_Leah_Married_funLeave_1": "I'm going to take a nature walk today. I need to get out of the house.",
+  "CDE_Leah_Married_funLeave_2": "I'm going for a long walk today, so hopefully I'll see some neat things. You'll see me in the evening.",
+  "CDE_Leah_Married_funReturn_1": "I had a nice, relaxing time today. How did your day go?",
+  "CDE_Leah_Married_funReturn_2": "The woods were beautiful, as usual. I feel like I discover something new each time I visit it -- bugs, little flowers, you know.",
+  "CDE_Leah_Married_OneKid_1": "Stardew Valley is a great place for a child to learn an appreciation for nature, don't you think?",
+  "CDE_Leah_Married_OneKid_2": "It's fun to be a parent. I want to make sure %kid1 grows up to have a love for the outdoors.",
+  "CDE_Leah_Married_TwoKids_1": "We've got a wonderful farm and a full family. Our new life has really turned out well, hasn't it?",
+  "CDE_Leah_Married_TwoKids_2": "I hope %kid1 and %kid2 find healthy outlets for their expression. It doesn't have to be painting or sculpting; just whatever makes them happy.",
+
+  "CDE_Leah_Married_Outdoor_1": "The cool breeze feels nice. It reminds me of living by the river.",
+  "CDE_Leah_Married_Outdoor_2": "Heyyy, good morning. I was wondering when you'd find me out here.$h",
+  "CDE_Leah_Married_Outdoor_3": "Hmm... I'm going to do some maintenance over here. I just get the urge to do some hammering now and then.",
+  "CDE_Leah_Married_Outdoor_4": "I can tell which parts of the house were added by Robin. Let me just say, she really knew what she was doing.",
+  "CDE_Leah_Married_Outdoor_5": "It's going to be a special day, I can sense it.",
+  "CDE_Leah_Married_Outdoor_6": "Good morning! I'm feeling a little more awake now that I'm out here.",
+  "CDE_Leah_Married_Outdoor_7": "Ah... that smell of fresh dirt. There's nothing quite like it.$h",
+  "CDE_Leah_Married_Outdoor_8": "You can tell the air is clean here... it feels good in the lungs.",
+  "CDE_Leah_Married_Outdoor_9": "Don't overwork yourself, dear.#$e#It's not as if we're starving, so there's no rush, right?",
+  "CDE_Leah_Married_Outdoor_10": "I hope you don't wear yourself out today.#$e#Make sure and take a break every now and then, or get something to eat.$h",
+
+  "CDE_Leah_Married_patio_1": "Don't look too close, it's a work in progress.",
+  "CDE_Leah_Married_patio_2": "My wood sculptures sell relatively well, so I'm always working on a new one of these.",
+  "CDE_Leah_Married_patio_3": "I've got to get the curvature of these branches just right. Small details can make a big difference, even subconsciously.",
+
+  //Date Specific Dialogue
+  "CDE_Leah_Married_spring4": "Did you get all the crops in the ground yet? Or... is it better to stagger it out?#$e#I'm just curious. I trust your judgment.",
+  "CDE_Leah_Married_spring19": "There's a coffee house in Grampleton that wants to hang a sampling of my work. Guess I've got my work cut out for me!#$e#I just hope some of it sells.",
+  "CDE_Leah_Married_spring25": "Elliott says beauty is experienced in the mind, so he thinks words most resemble our thoughts and are best for creating beauty.#$e#But... don't we also think in images? And aren't image-based thoughts usually more potent?#$b#...I dunno. What do you think?$u",
+  "CDE_Leah_Married_summer8": "Sorry if I'm wet to the touch... I was sweating all night in the heat.",
+  "CDE_Leah_Married_summer12": "It was nice catching up with Elliott at yesterday's festival. Seems like he's in a pretty good place with his lifestyle.",
+  "CDE_Leah_Married_summer15": "Ahhh, I'm so glad we still have a good chunk of summer left.$h#$e#I'm not ready for it to be over.",
+  "CDE_Leah_Married_summer20": "It takes a bit of guts to know my work sits on display in other people's homes.#$e#I pour myself into those pieces, so it's almost like they can spy on a piece of my soul. Does that make sense?#$e#Well, your work winds up on other people's dinner tables. So that's kind of the same thing.$h#$b#That's just the consequence of leaving a small impact on the world, I suppose.",
+  "CDE_Leah_Married_summer24": "I wonder how my old neighbors are doing. Marnie, Jas...#$e#...Oh right. And Shane.#$e#I guess I'm still technically neighbors with them, huh?$h",
+  "CDE_Leah_Married_fall7": "I wonder if I should check out Caroline's dance aerobics class again. I've only ever been... twice? ...I think?#$e#Oh yeah! Once, Dr. Harvey was there. It was cute.$h#$b#Hey, more power to him.",
+  "CDE_Leah_Married_fall10": "Emily's still working at the Saloon, isn't she? Hm, I wonder if she'll ever move out of town?#$e#I've never gotten to know her super well, but I always got the sense she was meant for more than waiting tables.",
+  "CDE_Leah_Married_fall13": "I basically get to live my dream. @, I hope you understand that I don't take that for granted, right?",
+  "CDE_Leah_Married_fall24": "The coffee shop in Grampleton was displaying some of my paintings and they finished selling the last piece! Score!$h#$e#Maybe they'll ask me again.",
+  "CDE_Leah_Married_winter4": "Hmm... I wonder how Elliott's doing with all this cold? Do you think maybe he'd appreciate a hot meal from us?",
+  "CDE_Leah_Married_winter11": "Sorry, I let it get pretty cold in here last night, didn't I?#$e#I cracked the windows last night to let out the paint fumes. I just... let's just keep the fireplace running through the day.$s",
+  "CDE_Leah_Married_winter16": "Sometimes, it's tough to sell a piece I feel really proud of.$s#$e#I mean, if we're good on money, maybe I'll just... keep some of them?$l",
+  "CDE_Leah_Married_winter20": "Feast of the Winter Star-themed art is so fun and easy to do. I can just make it as unapologetically joyful as I want.$h",
+  "CDE_Leah_Married_winter27": "The snow was melting and dripping repeatedly off this one spot on the roof. And then the sun started refracting through it.#$b#It sent these tiny little flashes through part of the room. So beautiful.#$e#Oh, this was just a few mornings ago."
+
+  //Season specific dialogue
+  //Affection specific dialogue
+}

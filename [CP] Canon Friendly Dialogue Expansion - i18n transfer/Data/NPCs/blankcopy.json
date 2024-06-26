@@ -39,6 +39,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/NPC",
       "Entries": {
+        //special dialogue
+
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CDE_NPC_spring1y2}}",
         "summer_12_1": "{{i18n: CDE_NPC_summer12y1}}",
