@@ -266,8 +266,148 @@
   //Season specific dialogue
   //Affection specific dialogue
 
-  //Leah
+  //Krobus
+  //Krobus Gift Tastes
+  "CDE_Krobus_GoldPumpkin": "The Wizard's maze held this prize at the end, didn't it? I suppose you could only find it if you're unafraid of the dark.$h",
+  "CDE_Krobus_RockCandy": "I've heard of these, but I've never tried one. *crunch*#$b#Ohhhh, hohoho, the power! Tonight is going to be a very interesting night!$6",
+  "CDE_Krobus_PrismaticShard": "I can feel a beautiful, sacred energy emanating from this stone. What a rare and special item.",
+  "CDE_Krobus_RabbitsFoot": "Humans keep these for luck, don't they? What an amusing practice!$7",
+  "CDE_Krobus_VoidEgg": "What a kind gesture. I have these right here in my shop, but the giving of a void egg is a deep sign of respect for my people.$h",
+  "CDE_Krobus_Diamond": "Diamonds are the earth itself, perfected and beautiful. It's very thoughtful of you to share.",
+  "CDE_Krobus_IridiumBar": "Deep from the earth's darkest depths, these iridium bars make marvelous gifts.#$e#Normally, they're reserved for royalty, but I don't mind.$h",
+  "CDE_Krobus_Pumpkin": "This reminds me of that festival you do each year... Spirit's Eve, is it?#$b#I love watching that festival from the shadows. It's so cute how all the humans behave.$7",
+  "CDE_Krobus_WildHorseradish": "Ah, this plant! The spicy flavor is so soothing... I won't have to worry about my mischievous side getting away from me.",
 
+  //Krobus's Misc Dialogue
+  //these lines target files other than the standard characters/dialogue/Krobus location such as unmarried rainy dialogue
+  "CDE_Krobus_rainy_1": "Ah, the sewers are flowing quickly today. It'll get nice and humid in here... Just how I like it.",
+  "CDE_Krobus_rainy_2": "Rain is truly a lifegiving force. Give thanks to Yoba today.",
+  "CDE_Krobus_rainy_3": "Today might be a good day for me to poke me head outside for a few minutes.#$e#...If the coast is clear, that is.",
+
+  //Krobus's Standard Dialogue
+  //Special Dialogue
+  "CDE_Krobus_repeated_1": "If you put your ear up to the right pipe, you can hear into any house from down here.#$b#I wouldn't eavesdrop, though!$3",
+  "CDE_Krobus_repeated_2": "Please don't tell anyone about me.#$b#Most humans are frightened by us shadow people... maybe for good reason.$s#$b#But regardless, if the townspeople knew about me, I might not be safe here.",
+  //summer_Wed6, winter_Wed6
+  //summer_Thu6, winter_Thu6
+
+  //date specific dialogue
+
+  //heart specific dialogue
+  "CDE_Krobus_summerMon10": "Do you, too, feel comfortable in the darkness? I heard the human body needs sunlight to stay healthy. Is it harmful for you to spend too much time down here?",
+  "CDE_Krobus_summerTue10": "I know that I cannot spend too much time in the sun. Can you not spend much time in the dark?",
+  "CDE_Krobus_summerSat8": "I'll never know what it's like to be human... but talking to you, I feel like I understand it a little.",
+  "CDE_Krobus_summerSun10": "It's in my nature to create chaos. And sometimes I still feel an urge for mischief.$6#$b#...$3#$b#But you're here now. And when you visit me, the urge suddenly dissipates.#$e#Is there something wrong with me?$s",
+  "CDE_Krobus_fallMon10": "Seems you may have found some secret notes.#$e#Yes, I apologize. Some of my kind enjoy snatching notes from humans' houses at night. We sometimes discard them in unusual places.",
+  "CDE_Krobus_fallWed10": "Heeheehee. Dogs... AND cats... have pointy ears...$7#$b#...on top of their heads!$7#$e#It's so cute! I can hardly stand it.$7",
+  "CDE_Krobus_fallThu10": "There are plenty of delicious things to eat down here. Flies. Slugs. Roaches.#$e#Recently, I saw a mantis who was lost.",
+  "CDE_Krobus_fallSat10": "I decided upon the name \"Krobus\" for myself. This was only a few hundred years ago.#$e#Before then, I had other names. ...I think.#$b#Or maybe I didn't have a name before \"Krobus.\" It's tough to remember.$3",
+  "CDE_Krobus_fallSun10": "We shadow beings don't grow old. We can \"pass away,\" though not in the same way as your kind.#$e#With time, we slowly dissolve until we are indistinguishable from the darkness once again.#$b#Some time later, a new shadow being hatches from the darkness.$h",
+  "CDE_Krobus_winterMon10": "Many shadow beings enjoy \"Strange Bun.\" I certainly do, too.#$b#But humans probably don't like them. Too bad, they're delicious.$s",
+  "CDE_Krobus_winterTue10": "It's too cold for the tiny bugs to survive. My food supply is a bit short.$s",
+  "CDE_Krobus_winterSat10": "I carry mixed feelings about my species. On one hand, I'm ashamed of the chaos we've caused. It's simply in our nature.$3#$b#But we're not all violent. And my kin, my origin... it's who I am. I can't just forsake where I come from, can I?$3",
+
+  "CDE_Krobus_Mon10": "'Krobus' means 'bridge-crosser' in our language.",
+  "CDE_Krobus_Mon8": "Dwarves? The dwarves slew us indiscriminately for ages, violent and non-violent alike.$a#$e#Please, I wish to have no more talk on this painful topic.$s",
+  "CDE_Krobus_Mon6": "My friends and I have largely been shunned by our kind, for attempting to suppress our chaotic nature.#$e#But I cannot declare myself better than the violent ones. A life is a life.#$e#Please, even if you have slain any violent ones, I do not wish to know.",
+  "CDE_Krobus_Mon4": "...Have you encountered others like me, in the mines? I'm sorry if they were hostile towards you. You see, we've learned to fear humans... there have been too many... unpleasant encounters.$s#$e#You haven't... slain any of my friends, have you?$3",
+  "CDE_Krobus_Tue10": "@, I have grown quite amiable of your frequent visits here.#$e#It is strange. Until recently, I never would have even considered friendship with a human.",
+  "CDE_Krobus_Tue8": "Rasmodius is a good man. He is one of the few humans besides you whom I would trust.#$e#His worldview is in much better alignment with reality than most humans'.",
+  "CDE_Krobus_Tue6": "Yes, I call this place my home.#$e#I did not have a place to call my home for quite some time.",
+  "CDE_Krobus_Tue4": "There is a plant that grows in the springtime. Humans describe it as \"spicy,\" but for my kind, we find it...#$b#How shall I put it? It keeps the evil instincts at bay.",
+  "CDE_Krobus_Tue2": "So you farm for a living? I occasionally carry a product that might help you. Check back on Friday.",
+  "CDE_Krobus_Wed10": "You've seen Junimo, too? I'm surprised. For a human, you seem to have quite a propensity for encountering elementals.",
+  "CDE_Krobus_Wed8": "A while ago, two human children contemplated finding a way in here.#$e#Regretfully, I had to scare them away. There would be no chance of them keeping my secrecy.",
+  "CDE_Krobus_Wed6": "In rare cases, some tricksters belonging to my kind have made sport out of hiding in children's closets and scaring them at night.#$b#I do not condone any such kind of behavior.",
+  "CDE_Krobus_Wed4": "A 1000 year war between my people and the dwarves recently ended. There's still a lot of resentment on both sides.",
+  "CDE_Krobus_Wed2": "Sometimes, objects come floating down the water and I collect them.#$b#I can also move freely within the shadows, unencumbered by gravity, which lets me sustain trade with others and rotate my stock.",
+  "CDE_Krobus_Thu2": "I hope you appreciate the risk I took with you, by not fleeing when you first appeared down here.",
+  "CDE_Krobus_Thu8": "I have observed your kind for many years. It has given me ample opportunity to learn your language.#$e#However, you are one of the first humans with whom I have had consistent interaction.$h",
+  "CDE_Krobus_Thu6": "I don't think you will find many interesting fish in this kind of water.#$e#I did see a rather large, strange looking fish swimming around, but just once.",
+  "CDE_Krobus_Thu4": "No, we are not born from a mother like you humans are.#$e#Where do we come from, then? Well, when does any shadow begin to exist?#$b#Are the shadows under your feet somehow \"new,\" or simply less hidden by the light?#$e#Likewise, when does any soul begin to exist?#$e#That said, I somewhat arbitrarily credit the start of winter as the time when my essence hatched from the darkness.",
+  "CDE_Krobus_Sat10": "Thank you for being respectful toward my devotion of silence on Fridays.",
+  "CDE_Krobus_Sat8": "I thank Yoba for bringing clarity to my chaotic nature.#$b#Without a doubt, I would have earned the title \"shadow brute\" long ago if not for her blessings and guidance.",
+  "CDE_Krobus_Sat6": "Humans have some rather interesting customs for showing respect to Yoba.",
+  "CDE_Krobus_Sun6": "I have safeguarded the Return Scepter for many years. Its origin predates both our species, significantly.#$e#As such, I hope you understand why I cannot sell it for an ordinary price.",
+  "CDE_Krobus_Sun2": "Please keep my location a secret. If the dwarves knew of me, they'd surely send an assassin.",
+
+  //generic weekday dialogue
+
+  //Krobus's Married Dialogue
+  //weather specific dialogue
+  "CDE_Krobus_Married_RainyDay_1": "The raindrops tickle when I step outside. I might go for a walk.$h",
+  "CDE_Krobus_Married_RainyDay_2": "Do you like rainy days as much as I do, @?",
+  "CDE_Krobus_Married_RainyDay_3": "We're different in so many ways... but that's alright.",
+  "CDE_Krobus_Married_RainyDay_4": "When I look up at the dark clouds, I wonder if there are cloud beings who live up there.",
+  "CDE_Krobus_Married_RainyDay_5": "I'm happy here, in the house. I like to spend all my time in a good spot... I don't need to \"get out\" like humans do.#$e#But I understand that you need to! Please don't feel like you have to stay here with me.$3",
+  "CDE_Krobus_Married_RainyDay_6": "I wonder if the wizard knows about... this? I hope he can keep a secret.$s",
+  "CDE_Krobus_Married_RainyDay_7": "I love the rain, but it sure looks lonely outside. Nice to have someone like you for company.",
+  "CDE_Krobus_Married_RainyDay_8": "As much as I try to be civilized, I have the urge to be mischievous sometimes...$6#$e#They say it's a condition of my people.",
+  "CDE_Krobus_Married_RainyDay_9": "Ah, it's more humid today with the rain... I feel a lot more comfortable.",
+  "CDE_Krobus_Married_RainyDay_10": "Anything I can help with while you're out today?",
+
+  "CDE_Krobus_Married_RainyNight_1": "On nights like this, those who gaze out windows sometimes see shadowy figures. To think... it might've been me.$7",
+  "CDE_Krobus_Married_RainyNight_2": "It's a bit spooky out there, isn't it? I can understand it from a human's perspective these days, at least a little.",
+  "CDE_Krobus_Married_RainyNight_3": "If the other shadow people knew of our living arrangement, they would... \"punish\" me. Most of them despise humans, you know.$s",
+  "CDE_Krobus_Married_RainyNight_4": "I hope you stayed safe today. I assume you did?",
+  "CDE_Krobus_Married_RainyNight_5": "You're sopping wet, and cold! Isn't that dangerous to your species?$s",
+  "CDE_Krobus_Married_RainyNight_6": "In a hundred years, who knows? Maybe our living arrangement will be quite normal.",
+  "CDE_Krobus_Married_RainyNight_7": "I already had dinner, but it wasn't something you'd be able to eat... sorry.",
+  "CDE_Krobus_Married_RainyNight_8": "I tried to watch a \"movie\" on the... \"television.\" It wasn't my favorite, but I'm glad I tried.",
+  "CDE_Krobus_Married_RainyNight_9": "Sometimes I wonder if humans and shadow people could really ever co-exist... It's a lovely idea, but is it realistic?$s#$e#I hope so...",
+  "CDE_Krobus_Married_RainyNight_10": "It's said that my people came here long ago, when a great catastrophe allowed spirits from the void to cross into the physical plane.",
+  "CDE_Krobus_Married_RainyNight_11": "What's the word for it again? ... \"Cozy.\" Right. That's how it is in here tonight.$h",
+  "CDE_Krobus_Married_RainyNight_12": "The sound of the rain reminds me of the sewers... it's comforting.#$e#The sewers were my refuge... I felt safe there. But don't worry... I feel the same way about my new home, too.",
+
+  "CDE_Krobus_Married_IndoorDay_1": "If I could come help you, I would... but I'll do my best to keep the house in order.",
+  "CDE_Krobus_Married_IndoorDay_2": "Am I leaving too much void dust around the house? I'll clean it up if you need me to.",
+  "CDE_Krobus_Married_IndoorDay_3": "I tried my best to make human food... [203 204 651 225] You can eat it later, don't worry about it...",
+  "CDE_Krobus_Married_IndoorDay_4": "Well, I made this. [204 651 225]It tastes good to me, but... no pressure.",
+  "CDE_Krobus_Married_IndoorDay_5": "I went exploring last night and found this. [305 308 203 795 397]Think you could use it?",
+  "CDE_Krobus_Married_IndoorDay_6": "Good morning, @. I went out before the sun and found this for you. [305 308 203 795 397]I hope it's not too strange.",
+  "CDE_Krobus_Married_IndoorDay_7": "Don't worry, I won't be bored today. A human's desire for novelty is much higher than mine.",
+  "CDE_Krobus_Married_IndoorDay_8": "I don't like coffee much, but I thought you might like some. So... here you go. [395]",
+  "CDE_Krobus_Married_IndoorDay_9": "On Fridays, I like to stay quiet out of respect for Yoba. I hope you don't mind.",
+  "CDE_Krobus_Married_IndoorDay_10": "Ooh, there's so much sun! ...But I can tolerate it a bit better than I used to.",
+  "CDE_Krobus_Married_IndoorDay_11": "I wish I could help you on the farm, but I can't go out in the sun...",
+  "CDE_Krobus_Married_IndoorDay_12": "Good morning. Say hi to all the animals for me.",
+
+  "CDE_Krobus_Married_IndoorNight_1": "I cleaned all the bugs out of the house today... Sorry, I didn't save you any! *smack*$7",
+  "CDE_Krobus_Married_IndoorNight_2": "Ooh, it's nice to have you back home again. Are you staying in?$l",
+  "CDE_Krobus_Married_IndoorNight_3": "You feel solid... sometimes I wish I had bones, too...$s",
+  "CDE_Krobus_Married_IndoorNight_4": "I'm sure it's my mind playing a trick, but lately I do feel a bit more... corporeal than usual.$l",
+  "CDE_Krobus_Married_IndoorNight_5": "Ever since I left my people, I've been searching for a new home... now I belong somewhere. That means everything to me.",
+  "CDE_Krobus_Married_IndoorNight_6": "What a beautiful night.$h",
+  "CDE_Krobus_Married_IndoorNight_7": "I have vague memories from ancient times, but they're all so faded. I don't think I could articulate them.",
+  "CDE_Krobus_Married_IndoorNight_8": "I looked out the window today and I saw %pet running around. So cute!$7",
+  "CDE_Krobus_Married_IndoorNight_9": "I remember when I first learned the sound of your footsteps approaching me in the sewer. Such a fond memory.$h",
+  "CDE_Krobus_Married_IndoorNight_10": "This week, I pray that the will of Yoba shall be done. Whatever her will may be, I shall be ready.",
+  "CDE_Krobus_Married_IndoorNight_11": "Hi, @. Welcome home. You look like you've been working hard out there!$h",
+
+  //location specific dialogue
+
+  //Date Specific Dialogue
+  "CDE_Krobus_Married_spring1": "What's your plan for the new year, @?",
+  "CDE_Krobus_Married_spring6": "Humans and shadow beings have such different traditions in worshipping Yoba. And yet, Yoba created both our species.#$e#Perhaps Yoba is much more complex than most of us realize.",
+  "CDE_Krobus_Married_spring15": "I just want to live my life doing right by Yoba. I never wanted to be an agent of chaos.$s#$e#But then I think... isn't it Yoba who made the shadow brutes? And made me the way I am? Sometimes it's all so confusing.$3#$e#Then again... Yoba brought you to me, and I like living here with you.#$b#And that isn't so complicated, is it?$7",
+  "CDE_Krobus_Married_spring23": "You should go to the flower dance tomorrow! Don't worry about me.",
+  "CDE_Krobus_Married_summer1": "I get sunburnt very easily, so I need to be careful this time of year.",
+  "CDE_Krobus_Married_summer8": "Mmm... what's that lovely smell? You must've been sweating all night...$h",
+  "CDE_Krobus_Married_summer10": "I'm considering spending my day all balled up and wedged in the corner...#$e#What? You mean you don't do that?$3",
+  "CDE_Krobus_Married_summer15": "It's summer... that means the house is full of flies.#$e#Don't worry, I'll take care of them. It's good protein!$h",
+  "CDE_Krobus_Married_fall8": "I don't feel like doing anything today.",
+  "CDE_Krobus_Married_fall15": "Have you figured out what you're going to use for your grange display tomorrow?",
+  "CDE_Krobus_Married_fall17": "Heeheehee... It's a great day for causing a little chaos for the citizens of Pelican Town...$6",
+  "CDE_Krobus_Married_fall18": "...I'm terribly sorry. I wasn't myself yesterday. Seems my chaotic instincts flared up a bit.$3#$e#I let the feeling pass through me. Honest! You can ask the townsfolk. No one saw me.",
+  "CDE_Krobus_Married_fall24": "If I showed up to the Spirit's Eve festival they'd put me in a cage...$s",
+  "CDE_Krobus_Married_winter7": "I want to be a good housemate for you, but I never know if I'm doing well... *groan* $s#$e#I have a hard time understanding human expression. B... but... you're happy living with me?#$e#Okay!$7",
+  "CDE_Krobus_Married_winter16": "Sometimes I pause and think of all that I've learned about humans from you...#$b#I wish all my fellow shadow people could know this feeling.",
+  "CDE_Krobus_Married_winter28": "Thanks for letting me stay here, @. I'm looking forward to another great year!$h",
+
+  //Season specific dialogue
+  //Affection specific dialogue
+
+  //Leah
   //Leah Gift Tastes
   "CDE_Leah_GoldPumpkin": "You found this at the end of the maze? It's simply enchanting!$h",
   "CDE_Leah_Pearl": "@! This is... really rare!$6#$b#But... you want me to have it? I uh... okay. Thank you!$l",
@@ -285,7 +425,6 @@
   "CDE_Leah_rainy_3": "Mmm... smells nice outside, don't you think?",
 
   //Leah's Standard Dialogue
-
   //Special Dialogue
   "CDE_Leah_repeated_1": "Have you ever tried the wine from the valley?#$e#Better yet, you could probably make your own wine on your farm. That would be amazing.$h",
   "CDE_Leah_repeated_2": "Oh, @! Hi!$h#$e#Did your morning chores go okay?$l#$e#I hope I can help you sometime.",
@@ -1382,7 +1521,6 @@
   //Date Specific Dialogue
   "CDE_Penny_Married_spring1": "We've got a long, warm year to look forward to. Let's make it a productive one.",
   "CDE_Penny_Married_spring4": "Spring is probably my favorite season. There's a certain freshness in the air that fills me with hope.",
-  "CDE_Penny_Married_spring8": null,
   "CDE_Penny_Married_spring13": "School's off today. I'll be heading into town for the egg festival. Are you coming, too?",
   "CDE_Penny_Married_spring16": "Ah, the 'spring cleaning'... I'm actually going to enjoy this.",
   "CDE_Penny_Married_spring19": "It's really nice seeing my mom proud of me. I wondered, briefly, if she'd be jealous of me.#$b#But that turned out not to be a problem!$h",
@@ -1399,7 +1537,6 @@
   "CDE_Penny_Married_fall19": "I got to catch up with Maru yesterday. It's weird that we're in different phases of our lives now.#$b#But she's just as good a friend as ever.$h",
 
   "CDE_Penny_Married_winter5": "The falling snow reminds me of grandma, rocking by the fire. I mostly remember her shadow flickering against the orange wood. That was long ago.",
-  "CDE_Penny_Married_winter6": null,
   "CDE_Penny_Married_winter9": "It's been so long since Nora Sealy released any new books. I wonder if she's ever even going to get around to it.$s#$e#Sorry, just thinking out loud. I'm sure I'll find something to read today.",
   "CDE_Penny_Married_winter12": "I wonder if Vincent will ever learn to enjoy reading...$s#$e#It's just not enough for me to teach him skills he'll never use. I want him to find joy in it.#$b#Plus, I don't want to let Jodi down.",
   "CDE_Penny_Married_winter16": "Brr... Such a long walk in the snow, to get to school this morning.$s#$e#Yep, out here in the country, I guess we still walk uphill both ways.#$e#...$h",

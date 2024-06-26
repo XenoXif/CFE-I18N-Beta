@@ -15,7 +15,7 @@
         "AcceptGift_(O)215": "{{i18n: CDE_Shane_PepperPoppers}}",
         "AcceptGift_(O)206": "{{i18n: CDE_Shane_Pizza}}"
       },
-      "When": { "ModdedDialogCompat": "true"}
+      "When": { "ModdedDialogCompat": "true" }
       //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
     },
     {
@@ -176,19 +176,19 @@
         "spring_14": "{{i18n: CDE_Shane_Married_spring14}}",
         "spring_19": "{{i18n: CDE_Shane_Married_spring19}}",
         "spring_27": "{{i18n: CDE_Shane_Married_spring27}}",
-        
+
         "summer_2": "{{i18n: CDE_Shane_Married_summer2}}",
         "summer_4": "{{i18n: CDE_Shane_Married_summer4}}",
         "summer_12": "{{i18n: CDE_Shane_Married_summer12}}",
         "summer_16": "{{i18n: CDE_Shane_Married_summer16}}",
         "summer_17": "{{i18n: CDE_Shane_Married_summer17}}",
-        
+
         "fall_3": "{{i18n: CDE_Shane_Married_fall3}}",
         "fall_7": "{{i18n: CDE_Shane_Married_fall7}}",
         "fall_10": "{{i18n: CDE_Shane_Married_fall10}}",
         "fall_12": "{{i18n: CDE_Shane_Married_fall12}}",
         "fall_23": "{{i18n: CDE_Shane_Married_fall23}}",
-        
+
         "winter_1": "{{i18n: CDE_Shane_Married_winter1}}",
         "winter_28": "{{i18n: CDE_Shane_Married_winter28}}"
 

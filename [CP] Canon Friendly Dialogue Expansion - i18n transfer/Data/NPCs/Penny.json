@@ -202,7 +202,7 @@
         //Date Specific Dialogue
         "spring_1": "{{i18n: CDE_Penny_Married_spring1}}",
         "spring_4": "{{i18n: CDE_Penny_Married_spring4}}",
-        "spring_8": null,
+        "spring_8": null, //intentionally nulled
         "spring_12": "{{i18n: CDE_Penny_Married_spring12}}",
         "spring_16": "{{i18n: CDE_Penny_Married_spring16}}",
         "spring_19": "{{i18n: CDE_Penny_Married_spring19}}",
@@ -221,7 +221,7 @@
         "fall_19": "{{i18n: CDE_Penny_Married_fall19}}",
 
         "winter_5": "{{i18n: CDE_Penny_Married_winter1}}",
-        "winter_6": null,
+        "winter_6": null, //intentionally nulled
         "winter_9": "{{i18n: CDE_Penny_Married_winter9}}",
         "winter_12": "{{i18n: CDE_Penny_Married_winter12}}",
         "winter_16": "{{i18n: CDE_Penny_Married_winter16}}",

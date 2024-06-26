@@ -7,7 +7,6 @@
       "Entries": {
         "AcceptGift_(O)90": "{{i18n: CDE_Linus_CactusFruit}}",
         "AcceptGift_(O)88": "{{i18n: CDE_Linus_Coconut}}"
-
       },
       "When": { "ModdedDialogCompat": "true" }
       //every time UGDE updates, or someone requests special compat with this mod, this section may be updated to include the conflicting key. Mods other than UGDE will need to be added to the list of mods to recognize, found in the dynamic tokens section of content.json
@@ -31,7 +30,7 @@
         "AcceptGift_(O)446": "{{i18n: CDE_Linus_RabbitsFoot}}",
         "AcceptGift_(O)234": "{{i18n: CDE_Linus_BlueberryTart}}",
         "AcceptGift_(O)242": "{{i18n: CDE_Linus_DishotheSea}}",
-        "AcceptGift_(O)280": "{{i18n: CDE_Linus_Yam}}",
+        "AcceptGift_(O)280": "{{i18n: CDE_Linus_Yam}}"
       }
     },
     {
@@ -92,7 +91,6 @@
         "Sun8": "{{i18n: CDE_Linus_Sun8}}",
         "Sun2": "{{i18n: CDE_Linus_Sun2}}"
         //Generic Weekday Dialogue
-
       }
     }
   ]
