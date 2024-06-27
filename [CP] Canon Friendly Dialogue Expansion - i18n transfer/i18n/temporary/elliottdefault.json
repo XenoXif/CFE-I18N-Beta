@@ -147,6 +147,11 @@
   "CDE_Elliott_Married_IndoorDay_8": "A sheen of silky sun across your hair... reminds me how I know I've found my home, wherein your gleaming gaze invites to share... a moment in the sun to call our own.#$e#A happy day to you, dearest!$h",
   "CDE_Elliott_Married_IndoorDay_9": "Dear, what do you think we should do for dinner tonight? It's your pick.",
   "CDE_Elliott_Married_IndoorDay_10": "I've had this recurring nightmare that you gave me a buzz cut... You wouldn't ever do that to me, would you?$s#$e#I trust you.",
+  "CDE_Elliott_Married_IndoorDay_11": "We're not merely passing time from one amusement to the next, are we? I say fun is vital, but there must be something more, no?#$e#Apologies. Perhaps I'm a bit frustrated at the way shallow pop-fiction sells better than anything I'll ever write.$s",
+  "CDE_Elliott_Married_IndoorDay_12": "I've had my cup of coffee and I'm well put-together! Now, your turn.[395]$h#$b#That is, if you want it. I've seen a boundless natural energy within you, and that suffices, perhaps?"
+  "CDE_Elliott_Married_IndoorDay_13": "What a beautiful day! The possibilities for making the best of it are simply exquisite.$h",
+  "CDE_Elliott_Married_IndoorDay_14": "I was in the mood for tea this morning instead of coffee. Care for a cup?[614]",
+  "CDE_Elliott_Married_IndoorDay_15": "Enjoy your time out in the fields today, my love. There's no time like the present!",
 
   "CDE_Elliott_Married_IndoorNight_1": "Mmm, good evening, my dear. Come closer.$l",
   "CDE_Elliott_Married_IndoorNight_2": "From the brightest winter star, to the shimmer of an iridium vein... nothing can compare to my wonderful man.$l^From the brightest winter star, to the fragrant fairy rose... nothing can compare with your captivating beauty.$l",
@@ -168,7 +173,13 @@
   "CDE_Elliott_Married_patio_1": "Ah, what a lovely day to read a book... don't you think, my dear?",
   "CDE_Elliott_Married_patio_2": "Feel free to join me if you're taking a break, my dear.$h",
   "CDE_Elliott_Married_patio_3": "As immersive as a book can be, the environment where you read it plays a crucial role in the experience.#$e#I couldn't ask for a better environment!$h",
-  
+
+  "CDE_Elliott_Married_spouseRoom_1": "I think I might do some writing today.",
+  "CDE_Elliott_Married_spouseRoom_2": "Will you be okay without my help?",
+  "CDE_Elliott_Married_spouseRoom_3": "To be skilled in writing, one must read at least twice as much as they write.#$e#I've a few books on this shelf I can still finish. And the old favorites never get old.",
+  "CDE_Elliott_Married_spouseRoom_4": "Willy gave me that small ship as a keepsake for being neighbors. He is certainly a kind soul.",
+  "CDE_Elliott_Married_spouseRoom_5": "We've plenty of wood stocked over here, not to mention the outside. I don't suppose we'll ever run short.",
+
   "CDE_Elliott_Married_OneKid_1": "How strange... I no longer feel like the protagonist of my own life. And yet, it doesn't bother me at all.",
   "CDE_Elliott_Married_OneKid_2": "Have you had any time to entertain little %kid1 today? Maybe a second child will make things easier for both of us.",
   "CDE_Elliott_Married_OneKid_3": "I feel like raising our child is the start of a brand new story! It will always be our greatest.",
