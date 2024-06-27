@@ -1,5 +1,4 @@
 { //Harvey
-
   //Harvey Gift Tastes
   "CDE_Harvey_GoldPumpkin": "You got to the end of the maze and you're just giving me the prize? @, this is so generous!",
   "CDE_Harvey_RockCandy": "I suppose a little candy never hurt anyone.#$b#If I'm having candy, though, I'm going for the good stuff like this!$h",
@@ -16,13 +15,35 @@
   "CDE_Harvey_rainy_3": "That gray sky is so serene to look it, isn't it?#$e#Heh, I can only look for a moment before the raindrops clutter up my glasses.",
 
   //Harvey's Standard Dialogue
-
   //Special Dialogue
     //no repeated dialogue
   
-  //festival related dialogue
-
   //date specific dialogue
+  "CDE_Harvey_summerTue8":"Eight years of med school were like one continuous blur. Ever since I moved here, I actually feel like I can slow down again.#$e#I should have some time to head outside tomorrow.$h#$e#Not every doctor gets that luxury.",
+  "CDE_Harvey_summerTue4":"Do you have any bees on your farm? There's strong evidence to suggest that local honey does mitigate allergy symptoms.",
+  "CDE_Harvey_summerTue2":"Be sure to keep hydrated when you're working out in the field.#$e#Wearing a hat is a good idea, too.",
+  "CDE_Harvey_summerWed8":"$query PLAYER_NPC_RELATIONSHIP current any married roommate#As a doctor, I'm well aware of the benefits of home-cooked food. But I'm so busy, I have a hard time bringing myself to cook.$s|It's a lot of work, being a doctor. I don't eat as well as I should.$s#$e#If I didn't live alone I think it would be easier.$l",
+  "CDE_Harvey_summerThu10":"I somewhat expected my life as a singleton to be permanent.#$e#Meeting you here in Stardew Valley... it's enough to make even someone like me feel a sense of destiny about the whole thing.",
+  "CDE_Harvey_summerThu6":"I have to be more or less specialized in all forms of medicine to be able to open my own practice.#$e#I trained in general medicine, but sometimes I call up a specialist if I need a second opinion.",
+  "CDE_Harvey_summerThu2":"Maru is a great help around here. I think she could be very successful pursuing medicine as a career.#$e#Of course, she's quite gifted in other sciences, too. Who knows where she'll end up.",
+  "CDE_Harvey_summerFri10":"I went into this profession anticipating that it might be dehumanizing.#$e#What I've found has been quite the opposite.$l",
+  "CDE_Harvey_summerFri6":"You really should avoid the mines, @. It's one thing if there's a team-based operation with onsite medical staff...#$b#...but to go in there alone? That worries me.#$e#Well, all I can do is give professional advice. The choice is ultimately yours.",
+  "CDE_Harvey_summerFri4":"People don't get sick much during the summer. That's nice, but it also means less business for me.",
+  "CDE_Harvey_summerFri2":"It's less common to get a cold during the summer, but they can be extra persistent. Keep taking good care, @.",
+  "CDE_Harvey_fallSat10":"What, me and Maru? No, of course not.$h#$e#She's a beautiful young woman, and Demetrius seemed pleased with the prospect, but it wouldn't have worked out.#$b#Where even to begin...?$l",
+  "CDE_Harvey_fallSat8":"I believe in a system of morality in which care is the only good and harm is the only evil.#$e#I think that's why I became a doctor, but I didn't quite learn to phrase it that way until a couple of years into med school.#$e#I just want to reduce the amount of suffering in the world.#$e#What drives you, @?",
+  "CDE_Harvey_fallSat6":"I heard from an old colleague of mine. He sounded like he wanted to open a small countryside practice.#$e#He's paid quite well in the city where he works now, but his free time is almost nonexistent.",
+  "CDE_Harvey_fallSat4":"It was a bit strange, at first, to move into an apartment directly above my workplace.#$e#I'll never have a better commute, though!$h",
+  "CDE_Harvey_fallFri10":"When you eat certain foods you'll perform better.#$e#'Lucky Lunch' is a bizarre dish, but I feel like I have no need for it when I'm around you.$l",
+  "CDE_Harvey_fallFri8":"When you eat certain foods you'll perform better.#$e#'Lobster Bisque' is quite a luxurious dish. I suppose it would make anyone feel ready to fish up a record-breaking catch!",
+  "CDE_Harvey_fallFri6":"When you eat certain foods you'll perform better.#$e#Eating a 'Red Plate' will give you an extra boost of energy beyond what you normally have.",
+  "CDE_Harvey_fallFri4":"When you eat certain foods you'll perform better.#$e#Eating a 'Survival Burger' will give you the nutrition you need to forage edible plants and wood better!",
+  "CDE_Harvey_winterWed10":"@, if you go into the mines, that's one thing...$s#$b#...but if you get seriously hurt, please consider how it affects those around you.$s",
+  "CDE_Harvey_winterWed8":"I've heard stories from my colleagues about iridium miners who wind up in the hospital in critical condition.#$e#Some of them don't make it. I don't think I've heard of a more dangerous profession.$s",
+  "CDE_Harvey_winterSat10":"*Sigh*... I'm starting to feel kind of old...#$e#The older you get the more memories you're burdened with. It can be overwhelming.$s#$e#I think I'll stay younger with you around.$l",
+  "CDE_Harvey_winterSun8":"It seems like you never catch any illnesses, @.#$e#Be thankful for that strong immune system!$h",
+  "CDE_Harvey_winterSun4":"The Gotoro Empire has quite an advanced system for providing healthcare to its citizens.#$b#But for obvious reasons, you couldn't pay me enough to move there.$h",
+
   "CDE_Harvey_spring1":"Happy new year, @!$h#$b#It's a great day for a fresh start.",
   "CDE_Harvey_spring12":"It's interesting how Pelican Town's first festival of the calendar year is also one of the more bizarre.#$e#Hey, that's not a complaint, though.$h",
   "CDE_Harvey_spring23":"My old med school colleagues wouldn't believe that I literally dance in front of my patients.#$e#Well, technically it's not a part of the job description. But in choosing to live here, it might as well be.$h",
@@ -60,41 +81,17 @@
   "CDE_Harvey_Sun10":"The closest I ever came to giving up on medicine was during the pediatric rotation of my residency, in the trauma center.$s#$e#It was... a lot to handle.$s#$b#But I'm glad I pushed onward, to care for those who need it. What else is there to do?",
   "CDE_Harvey_Sun4":"Our government provides a small pension for the routine checkups I do on all the villagers, but the rest of my income is commission based.#$e#Yes, it's no secret that our nation's healthcare system needs reform, but I went to med school to be a healer rather than a politician.",
   "CDE_Harvey_Sun2":"Hmm... I'm struggling to make ends meet. I don't have enough patients.#$e#I guess I should try to get patients from the neighboring towns...",
-  "CDE_Harvey_summerTue8":"Eight years of med school were like one continuous blur. Ever since I moved here, I actually feel like I can slow down again.#$e#I should have some time to head outside tomorrow.$h#$e#Not every doctor gets that luxury.",
-  "CDE_Harvey_summerTue4":"Do you have any bees on your farm? There's strong evidence to suggest that local honey does mitigate allergy symptoms.",
-  "CDE_Harvey_summerTue2":"Be sure to keep hydrated when you're working out in the field.#$e#Wearing a hat is a good idea, too.",
-  "CDE_Harvey_summerWed8":"$query PLAYER_NPC_RELATIONSHIP current any married roommate#As a doctor, I'm well aware of the benefits of home-cooked food. But I'm so busy, I have a hard time bringing myself to cook.$s|It's a lot of work, being a doctor. I don't eat as well as I should.$s#$e#If I didn't live alone I think it would be easier.$l",
-  "CDE_Harvey_summerThu10":"I somewhat expected my life as a singleton to be permanent.#$e#Meeting you here in Stardew Valley... it's enough to make even someone like me feel a sense of destiny about the whole thing.",
-  "CDE_Harvey_summerThu6":"I have to be more or less specialized in all forms of medicine to be able to open my own practice.#$e#I trained in general medicine, but sometimes I call up a specialist if I need a second opinion.",
-  "CDE_Harvey_summerThu2":"Maru is a great help around here. I think she could be very successful pursuing medicine as a career.#$e#Of course, she's quite gifted in other sciences, too. Who knows where she'll end up.",
-  "CDE_Harvey_summerFri10":"I went into this profession anticipating that it might be dehumanizing.#$e#What I've found has been quite the opposite.$l",
-  "CDE_Harvey_summerFri6":"You really should avoid the mines, @. It's one thing if there's a team-based operation with onsite medical staff...#$b#...but to go in there alone? That worries me.#$e#Well, all I can do is give professional advice. The choice is ultimately yours.",
-  "CDE_Harvey_summerFri4":"People don't get sick much during the summer. That's nice, but it also means less business for me.",
-  "CDE_Harvey_summerFri2":"It's less common to get a cold during the summer, but they can be extra persistent. Keep taking good care, @.",
-  "CDE_Harvey_fallSat10":"What, me and Maru? No, of course not.$h#$e#She's a beautiful young woman, and Demetrius seemed pleased with the prospect, but it wouldn't have worked out.#$b#Where even to begin...?$l",
-  "CDE_Harvey_fallSat8":"I believe in a system of morality in which care is the only good and harm is the only evil.#$e#I think that's why I became a doctor, but I didn't quite learn to phrase it that way until a couple of years into med school.#$e#I just want to reduce the amount of suffering in the world.#$e#What drives you, @?",
-  "CDE_Harvey_fallSat6":"I heard from an old colleague of mine. He sounded like he wanted to open a small countryside practice.#$e#He's paid quite well in the city where he works now, but his free time is almost nonexistent.",
-  "CDE_Harvey_fallSat4":"It was a bit strange, at first, to move into an apartment directly above my workplace.#$e#I'll never have a better commute, though!$h",
-  "CDE_Harvey_fallFri10":"When you eat certain foods you'll perform better.#$e#'Lucky Lunch' is a bizarre dish, but I feel like I have no need for it when I'm around you.$l",
-  "CDE_Harvey_fallFri8":"When you eat certain foods you'll perform better.#$e#'Lobster Bisque' is quite a luxurious dish. I suppose it would make anyone feel ready to fish up a record-breaking catch!",
-  "CDE_Harvey_fallFri6":"When you eat certain foods you'll perform better.#$e#Eating a 'Red Plate' will give you an extra boost of energy beyond what you normally have.",
-  "CDE_Harvey_fallFri4":"When you eat certain foods you'll perform better.#$e#Eating a 'Survival Burger' will give you the nutrition you need to forage edible plants and wood better!",
-  "CDE_Harvey_winterWed10":"@, if you go into the mines, that's one thing...$s#$b#...but if you get seriously hurt, please consider how it affects those around you.$s",
-  "CDE_Harvey_winterWed8":"I've heard stories from my colleagues about iridium miners who wind up in the hospital in critical condition.#$e#Some of them don't make it. I don't think I've heard of a more dangerous profession.$s",
-  "CDE_Harvey_winterSat10":"*Sigh*... I'm starting to feel kind of old...#$e#The older you get the more memories you're burdened with. It can be overwhelming.$s#$e#I think I'll stay younger with you around.$l",
-  "CDE_Harvey_winterSun8":"It seems like you never catch any illnesses, @.#$e#Be thankful for that strong immune system!$h",
-  "CDE_Harvey_winterSun4":"The Gotoro Empire has quite an advanced system for providing healthcare to its citizens.#$b#But for obvious reasons, you couldn't pay me enough to move there.$h",
-  
+
   //generic weekday dialogue
+  "CDE_Harvey_fallSat":"Have you been going into the mines, @?#$e#It's a dangerous place. I recommend against it.",
+  "CDE_Harvey_fallFri":"When you eat certain foods you'll perform better.#$e#Eating a 'Farmer's Lunch' will give you the nutrition you need to water and harvest crops better!",  
+  
   "CDE_Harvey_Sat":"Today's my day off, but I figure I shouldn't stay cooped up all day.",
   "CDE_Harvey_Sun":"When I'm at the clinic, feel free to come around behind the counter if you want to talk about anything non-business related.#$e#That's the benefit of working in a small town.",
-  "CDE_Harvey_fallSat":"Have you been going into the mines, @?#$e#It's a dangerous place. I recommend against it.",
-  "CDE_Harvey_fallFri":"When you eat certain foods you'll perform better.#$e#Eating a 'Farmer's Lunch' will give you the nutrition you need to water and harvest crops better!",
+
   
   //Harvey's Married Dialogue
-
   //weather specific dialogue
-  
   "CDE_Harvey_Married_RainyDay_1": "Do you think you'd consider wearing a raincoat today?#$e#I often worry about you.",
   "CDE_Harvey_Married_RainyDay_2": "It's a myth that rainy weather causes the flu. However, take care that you don't slip on the mud!#$e#You have to permit me to worry about you a bit.$l",
   "CDE_Harvey_Married_RainyDay_3": "It was so incredibly lonely living above the clinic by myself.#$b#I'm much happier now.$h",
@@ -158,10 +155,6 @@
   "CDE_Harvey_Married_jobReturn_3": "What a day! I'm looking forward to a nice, quiet evening.#$e#How about you? Are you done with work for the day?",
   "CDE_Harvey_Married_jobReturn_4": "I may not live above the clinic anymore, but I still can't complain about the commute to and from work.#$e#How'd your day go?",
   
-  "CDE_Harvey_Married_patio_1": "You know, this 'journal of tendon dynamics' is actually bearable when I'm reading out here.",
-  "CDE_Harvey_Married_patio_2": "There's always something new for me to be learning. Especially when there are no specialists in town.",
-  "CDE_Harvey_Married_patio_3": "The doctor who wrote this article has over a hundred publications on the hairs lining the inner ear.#$b#I know a lot about the human body, but the potential depth to physiology seems to be limitless.$h",
-
   "CDE_Harvey_Married_spouseRoom_1": "No air-traffic this morning, honey. But it's still fun to break out the equipment now and then.",
   "CDE_Harvey_Married_spouseRoom_2": "I'm working on a new model plane. It's so much more relaxing here than in my old apartment.",
   "CDE_Harvey_Married_spouseRoom_3": "I'm technically on call, but as long as there are no emergencies, I'll enjoy a little bit of hobby time.",
@@ -190,10 +183,11 @@
   "CDE_Harvey_Married_Outdoor_8": "Would I get mornings like this, living just about anywhere else? ...I don't think so.$h",
   "CDE_Harvey_Married_Outdoor_9": "As a scientist I'm fascinated by the delicate interplay of insect and plant life.",
   "CDE_Harvey_Married_Outdoor_10": "Hey! Excited for another day?#$b#Just look out there; there's loads of potential.$h",
+ 
+  "CDE_Harvey_Married_patio_1": "You know, this 'journal of tendon dynamics' is actually bearable when I'm reading out here.",
+  "CDE_Harvey_Married_patio_2": "There's always something new for me to be learning. Especially when there are no specialists in town.",
+  "CDE_Harvey_Married_patio_3": "The doctor who wrote this article has over a hundred publications on the hairs lining the inner ear.#$b#I know a lot about the human body, but the potential depth to physiology seems to be limitless.$h", 
   
-  //Festival Specific Dialogue
-  
-
   //Date Specific Dialogue
   "CDE_Harvey_spring2":"Well, time for another year of work to begin! I hope everyone's been taking good care of themselves.",
   "CDE_Harvey_spring9":"How are the crops coming along out there? I'm really craving some fresh produce.#$e#Or... how about something pickled? Do we have any pickles? ",
@@ -213,6 +207,5 @@
   "CDE_Harvey_winter26":"Hah! Look what was left over and completely unguarded at the Feast! [348]$h#$e#Let's open it tonight. Sorry, I know it's early. I just couldn't wait to show you."
 
   //Season specific dialogue
-
   //Affection specific dialogue
 }
