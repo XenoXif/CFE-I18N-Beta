@@ -38,6 +38,16 @@ CDE_Abigail_Married_Outdoor_4
 -Alex-
 CDE_Alex_rainy_3
 CDE_Alex_Married_patio_3
+CDE_Alex_Married_spouseRoom_1
+CDE_Alex_Married_spouseRoom_2
+CDE_Alex_Married_spouseRoom_3
+CDE_Alex_Married_spouseRoom_4
+CDE_Alex_Married_spouseRoom_5
+CDE_Alex_Married_IndoorDay_11
+CDE_Alex_Married_IndoorDay_12
+CDE_Alex_Married_IndoorDay_13
+CDE_Alex_Married_IndoorDay_14
+CDE_Alex_Married_IndoorDay_15
 
 -Caroline-
 CDE_Caroline_rainy_3
