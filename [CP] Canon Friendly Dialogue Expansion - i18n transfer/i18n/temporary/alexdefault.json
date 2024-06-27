@@ -176,6 +176,11 @@
   "CDE_Alex_Married_IndoorDay_8": "I got some books from the library that I need to finish before they're due. I want to keep my mind as fit as my body.",
   "CDE_Alex_Married_IndoorDay_9": "There's a couple things around the house that I'm going to try and fix today. Don't worry about me, I'm not bored.",
   "CDE_Alex_Married_IndoorDay_10": "Leave the cleaning to me today! It's fun to have you picture me as a sexy cleaning brand mascot.$h",
+  "CDE_Alex_Married_IndoorDay_11": "Breakfast time! You've gotta eat well if you've got a busy day ahead.[195 210 211]$h#$e#I mixed some protein powder in it. Trust me, it's gonna keep you going like a boss.",
+  "CDE_Alex_Married_IndoorDay_12": "I was reading that your body's potential peaks when you're young, and then your brain's potential peaks when you're kind of old.#$b#Good, looks like I'm doing 'em in order, then!$h",
+  "CDE_Alex_Married_IndoorDay_13": "Hmm, I wonder if I could play gridball with all the farm animals out there?#$e#The way they just fan out in some kind of formation...#$b#Oh, it'd be different, for sure.$h",
+  "CDE_Alex_Married_IndoorDay_14": "I'm glad you get outside as much as you do. It seems like so many people just stay cooped up all the time.$l",
+  "CDE_Alex_Married_IndoorDay_15": "Don't worry about Grandma and Grandpa. They'll definitely live for a good while.#$e#I'm stubborn about my workout schedule, but they're stubborn about, well, everything.$h#$b#They'll never let go easily.",
 
   "CDE_Alex_Married_IndoorNight_1": "It feels good to push yourself to the limit, doesn't it?#$b#You'll really feel like you earned your place in the soft bed tonight.",
   "CDE_Alex_Married_IndoorNight_2": "Let me know if you're sore. I know some physical therapy techniques that can help you if you need 'em.",
@@ -189,15 +194,21 @@
   "CDE_Alex_Married_IndoorNight_10": "Hey. Got some energy left in you?$l",
 
 	//Location specific dialogue
-  "CDE_Alex_Married_funLeave_1":	"I'm going into town today. I'll see you tonight.",
-  "CDE_Alex_Married_funLeave_2":	"It's about time I owe a visit to Grandma and Grandpa. That's where I'll be, so drop in if you get a chance!",
+  "CDE_Alex_Married_funLeave_1": "I'm going into town today. I'll see you tonight.",
+  "CDE_Alex_Married_funLeave_2": "It's about time I owe a visit to Grandma and Grandpa. That's where I'll be, so drop in if you get a chance!",
   "CDE_Alex_Married_funReturn_1": "I had a good day. I like to see my grandparents often; they're getting pretty old.",
   "CDE_Alex_Married_funReturn_2": "It was nice visiting town today. Grandma had some cookies out, of course!",
 
   "CDE_Alex_patio_1": "Unghh... one... Unghhh... two... It feels great to lift weights outdoors!$6",
   "CDE_Alex_patio_2": "*huff*... Alright! *puff*... Feelin' alive! *huff*...$6",
   "CDE_Alex_patio_3": "*puff* Y'know what they say... *huff* wake up the body, wake up the soul!$6",
-  
+
+  "CDE_Alex_spouseRoom_1": "Don't ever let me get lazy. I want to stay in good shape for you!",
+  "CDE_Alex_spouseRoom_2": "There's lots of room here to do my exercises. I'm making more progress than ever!",
+  "CDE_Alex_spouseRoom_3": "Honey, I think I put on a pound or two this week...$s#$e#Haha, just kidding. If I did, it's all muscle.$h",
+  "CDE_Alex_spouseRoom_4": "A home gym... man, this is so much better than just lifting weights in my old bedroom.$h",
+  "CDE_Alex_spouseRoom_5": "I don't totally feel like working out today, but that's sort of the point, isn't it?#$e#Gotta get good at doing hard things. Then everything else is easier.",
+
   "CDE_Alex_Married_OneKid_1": "I'm still getting used to my new life as a stay-at-home dad.$h",
   "CDE_Alex_Married_OneKid_2": "I could run a marathon if I really needed to, but looking after a kid all day is a completely different kind of exhaustion.$s",
   "CDE_Alex_Married_OneKid_3": "Our little one's going to grow up strong, just like Daddy.",
