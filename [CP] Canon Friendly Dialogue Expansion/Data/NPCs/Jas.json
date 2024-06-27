@@ -1,95 +1,95 @@
 {
-	"Changes": [
-		{
-			"LogName": "CDE_NPC_Compat",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/NPC",
-			"Entries": {
-				//any keys that overlap go here
-				"AcceptGift_(O)221": "{{i18n: CDE_NPC_}}"
-			},
-			"When": { "ModdedDialogCompat": "true" }
-		},
-		{
-			"LogName": "CDE_NPC_GiftTastes",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/NPC",
-			"Entries": {
-				"AcceptGift_(O)373": "{{i18n: CDE_NPC_GoldPumpkin}}",
-				"AcceptGift_(O)279": "{{i18n: CDE_NPC_RockCandy}}",
-				"AcceptGift_(O)797": "{{i18n: CDE_NPC_Pearl}}",
-				"AcceptGift_(O)74": "{{i18n: CDE_NPC_PrismaticShard}}",
-				"AcceptGift_(O)595": "{{i18n: CDE_NPC_}}",
-				"AcceptGift_(O)604": "{{i18n: CDE_NPC_}}"
-			}
-		},
-		{
-			"LogName": "CDE_NPC_Rainy",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/rainy",
-			"Entries": {
-       //no rainy dialogue currently
-			}
-		},
-		{
-			"LogName": "CDE_NPC_Dialogue",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/NPC",
-			"Entries": {
-				//special dialogue
+  "Changes": [
+    {
+      "LogName": "CDE_NPC_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/NPC",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)221": "{{i18n: CDE_NPC_}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
+      "LogName": "CDE_NPC_GiftTastes",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/NPC",
+      "Entries": {
+        "AcceptGift_(O)373": "{{i18n: CDE_NPC_GoldPumpkin}}",
+        "AcceptGift_(O)279": "{{i18n: CDE_NPC_RockCandy}}",
+        "AcceptGift_(O)797": "{{i18n: CDE_NPC_Pearl}}",
+        "AcceptGift_(O)74": "{{i18n: CDE_NPC_PrismaticShard}}",
+        "AcceptGift_(O)595": "{{i18n: CDE_NPC_}}",
+        "AcceptGift_(O)604": "{{i18n: CDE_NPC_}}"
+      }
+    },
+    {
+      "LogName": "CDE_NPC_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        //no rainy dialogue currently
+      }
+    },
+    {
+      "LogName": "CDE_NPC_Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/NPC",
+      "Entries": {
+        //special dialogue
 
-				//Date Specific Dialogue
-				"winter_28_1": "{{i18n: CDE_NPC_winter28}}",
-				"winter_28_2": "{{i18n: CDE_NPC_winter28}}",
+        //Date Specific Dialogue
+        "winter_28_1": "{{i18n: CDE_NPC_winter28}}",
+        "winter_28_2": "{{i18n: CDE_NPC_winter28}}",
 
-				//Heart Specific Dialogue
-				"summer_Mon4": "{{i18n: CDE_NPC_summerMon4}}",
-				"summer_Tue4": null,
-				"summer_Thu10": null,
-				"summer_Sat10": null,
+        //Heart Specific Dialogue
+        "summer_Mon4": "{{i18n: CDE_NPC_summerMon4}}",
+        "summer_Tue4": null,
+        "summer_Thu10": null,
+        "summer_Sat10": null,
 
-				"fall_Wed4": null,
-				"fall_Thu10": null,
-				"fall_Thu4": null,
-				"fall_Fri10": null,
-				"fall_Sat10": null,
-				"fall_Sun10": null,
+        "fall_Wed4": null,
+        "fall_Thu10": null,
+        "fall_Thu4": null,
+        "fall_Fri10": null,
+        "fall_Sat10": null,
+        "fall_Sun10": null,
 
-				"winter_Mon10": "{{i18n: CDE_NPC_winterMon10}}",
-				"winter_Wed10": null,
-				"winter_Fri8": null,
-				"winter_Sat6": null,
-				"winter_Sun8": null,
+        "winter_Mon10": "{{i18n: CDE_NPC_winterMon10}}",
+        "winter_Wed10": null,
+        "winter_Fri8": null,
+        "winter_Sat6": null,
+        "winter_Sun8": null,
 
-				"Mon10": null,
-				"Mon8": null,
-				"Mon6": null,
-				"Mon2": null,
-				"Tue10": null,
-				"Tue8": null,
-				"Tue4_inlaw_Shane": null,
-				"Tue4": null,
-				"Tue2": null,
-				"Wed10": null,
-				"Wed8": null,
-				"Wed6": null,
-				"Thu10": null,
-				"Thu8": null,
-				"Thu6": null,
-				"Thu4": null,
-				"Thu2": null,
-				"Fri8": null,
-				"Fri6": null,
-				"Sat8": null,
-				"Sat6": null,
-				"Sat4": null,
-				"Sun8": null,
-				"Sun6": null,
-				"Sun4": null,
+        "Mon10": null,
+        "Mon8": null,
+        "Mon6": null,
+        "Mon2": null,
+        "Tue10": null,
+        "Tue8": null,
+        "Tue4_inlaw_Shane": null,
+        "Tue4": null,
+        "Tue2": null,
+        "Wed10": null,
+        "Wed8": null,
+        "Wed6": null,
+        "Thu10": null,
+        "Thu8": null,
+        "Thu6": null,
+        "Thu4": null,
+        "Thu2": null,
+        "Fri8": null,
+        "Fri6": null,
+        "Sat8": null,
+        "Sat6": null,
+        "Sat4": null,
+        "Sun8": null,
+        "Sun6": null,
+        "Sun4": null,
 
-				//Generic Weekday Dialogue
-				"Tue_inlaw_Shane": null
-			}
-		}
-	]
+        //Generic Weekday Dialogue
+        "Tue_inlaw_Shane": null
+      }
+    }
+  ]
 }
