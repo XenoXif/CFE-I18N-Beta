@@ -150,7 +150,12 @@
   "CDE_Emily_Married_IndoorDay_8": "I wonder what Haley's doing today? I hope she has something planned.",
   "CDE_Emily_Married_IndoorDay_9": "Ughh... *gurgle*... I ate too many bran muffins for breakfast.$s",
   "CDE_Emily_Married_IndoorDay_10": "Good morning! Give me a kiss before you go.$l",
-
+  "CDE_Emily_Married_IndoorDay_11": "Shh, take this and hold it to your heart.[428 440 444 338 207 395 749]$u#$b#Breathe deeply, then do with it what you wish.$u#$e#And don't tell anyone else about it. This is of great importance.$u",
+  "CDE_Emily_Married_IndoorDay_12": "Work isn't really work if you enjoy it. Would you agree?",
+  "CDE_Emily_Married_IndoorDay_13": "Some spiritual teachers preach that attachment is the cause of suffering, but I couldn't disagree more.#$b#Attachment is the most beautiful thing we can experience.$l",
+  "CDE_Emily_Married_IndoorDay_14": "I'm not worried about the future. I can already read that our destinies are safe. And time is an illusion, anyway.",
+  "CDE_Emily_Married_IndoorDay_15": "Your aura is a brilliant green today. Were you hoping to hit the town?#$e#It's a great day for meeting with our neighbors.",
+  
   "CDE_Emily_Married_IndoorNight_1": "Is that a new hole I see in your shirt? I can sew that up for you, no problem.",
   "CDE_Emily_Married_IndoorNight_2": "I danced a little while you were out. It always helps bring me back in touch with reality.",
   "CDE_Emily_Married_IndoorNight_3": "Welcome home. I hope you had a wonderful day.",
@@ -171,6 +176,12 @@
   "CDE_Emily_Married_patio_1": "This is my favorite spot for a morning meditation. I visualize the energy from this crystal garden flowing through my body.",
   "CDE_Emily_Married_patio_2": "%Emily is in a deep meditative state.",
   "CDE_Emily_Married_patio_3": "Ahh! Feels good!$h#$b#Y'know, just being alive. If you take the proper time to notice it, it's undeniable.",
+
+  "CDE_Emily_Married_spouseRoom_1": "I'm going to spend some time with the parrot today. It breaks my heart that he'll never fly again.$u",
+  "CDE_Emily_Married_spouseRoom_2": "Some of your clothes are getting a bit tattered, so I'll be mending a few of them today.",
+  "CDE_Emily_Married_spouseRoom_3": "The parrot needs love. All living things need love, really.$u#$b#But destiny brought him to my doorstep, so the connection he shares with me is extra special.$u",
+  "CDE_Emily_Married_spouseRoom_4": "I've got a fresh bolt of cloth queued up for myself. I wonder what I can start making with it today?",
+  "CDE_Emily_Married_spouseRoom_5": "I can stare at that painting on the wall for hours if I let myself. It's a kind of meditation, I'd say.#$e#You'll keep noticing finer and finer details if you really stop and look.$h",
   
   "CDE_Emily_Married_OneKid_1": "I hope we can raise our child to be kind and considerate. That's more important than getting A's in school.",
   "CDE_Emily_Married_OneKid_2": "Little %kid1 will probably grow up to like vegetables if we set a good example. What do you think?",
