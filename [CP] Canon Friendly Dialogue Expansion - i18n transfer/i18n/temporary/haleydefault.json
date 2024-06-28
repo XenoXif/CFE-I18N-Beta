@@ -150,6 +150,11 @@
   "CDE_Haley_Married_IndoorDay_8": "I hope today's not too busy of a day. We should spend some time with each other.#$e#Be sure not to stay out too late tonight.",
   "CDE_Haley_Married_IndoorDay_9": "I felt like I had no direction in life before I met you. Now I have exactly what I want.$l",
   "CDE_Haley_Married_IndoorDay_10": "Good morning, dear. Another day of farm chores, huh? I'll be thinking of you. <$h",
+  "CDE_Haley_Married_IndoorDay_11": "Easy peasy! Breakfast's ready just on time![194 195 210 211 216]#$e#Have a good day out there, OK?",
+  "CDE_Haley_Married_IndoorDay_12": "I don't get bored a lot anymore, like I used to.#$e#I think watching you helps a lot. You're always finding something to do.",
+  "CDE_Haley_Married_IndoorDay_13": "We balance each other out, don't we? I love your rugged lifestyle.#$b#And I'd like to think I bring a little, uh... 'refinement' to the farm.$11"
+  "CDE_Haley_Married_IndoorDay_14": "Rrgh, I can't get this stupid zipper zipped up on my back.$5#$b#Can you help me?$14#$e#*zzzip* Thanks!",
+  "CDE_Haley_Married_IndoorDay_15": "You don't need me to wrangle any cattle today, do you, dear?#$e#I will if I have to, but only if it's reeeally important.$14",
 
   "CDE_Haley_Married_IndoorNight_1": "You look like you've been working hard, dear. Let me help you de-stress.$l",
   "CDE_Haley_Married_IndoorNight_2": "I never thought I'd say this, but the country lifestyle really suits me.$h",
@@ -171,6 +176,12 @@
   "CDE_Haley_Married_patio_1": "Say 'goat cheese'!",
   "CDE_Haley_Married_patio_2": "I'm documenting our time here on this farm. Today's another memory in the making!",
   "CDE_Haley_Married_patio_3": "I'm getting some wide shots. How about one with you in the distance, working in the field?",
+
+  "CDE_Haley_Married_spouseRoom_1": "Go ahead and start your day, honey. I'm just putting on my make-up.",
+  "CDE_Haley_Married_spouseRoom_2": "Have any plans for the day?",
+  "CDE_Haley_Married_spouseRoom_3": "Hm-hm. < You look cute today.$11"
+  "CDE_Haley_Married_spouseRoom_4": "I've got a few steps I'm hoping to complete on my latest photo album.#$e#Really, it's more like a scrapbook. But the photos are the main attraction.",
+  "CDE_Haley_Married_spouseRoom_5": "Admit it: My dresser is the most organized dresser you've ever seen.#$e#It's way more organized than yours. I dare you to peek inside.$11#$b#Unless you can't cuz you're too scared.$h",",
   
   "CDE_Haley_Married_OneKid_1": "*sniff* I'm not crying 'cause I'm sad. I'm crying 'cause... I just- didn't- know- ...I could love our baby so much. *sniff*$s",
   "CDE_Haley_Married_OneKid_2": "Isn't it strange? I'm not used to being a mother.",
