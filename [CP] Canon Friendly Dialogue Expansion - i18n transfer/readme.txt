@@ -196,6 +196,14 @@ CDE_Kent_RoastedHazelnuts_2
 
 -Krobus-
 CDE_Krobus_rainy_3
+CDE_Krobus_Married_spouseRoom_1
+CDE_Krobus_Married_spouseRoom_2
+CDE_Krobus_Married_spouseRoom_3
+CDE_Krobus_Married_spouseRoom_4
+CDE_Krobus_Married_spouseRoom_5
+CDE_Krobus_Married_IndoorDay_13
+CDE_Krobus_Married_IndoorDay_14
+CDE_Krobus_Married_IndoorDay_15
 
 -Leah-
 CDE_Leah_rainy_3
