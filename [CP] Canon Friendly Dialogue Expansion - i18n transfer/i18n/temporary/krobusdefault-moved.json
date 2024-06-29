@@ -103,6 +103,9 @@
   "CDE_Krobus_Married_IndoorDay_10": "Ooh, there's so much sun! ...But I can tolerate it a bit better than I used to.",
   "CDE_Krobus_Married_IndoorDay_11": "I wish I could help you on the farm, but I can't go out in the sun...",
   "CDE_Krobus_Married_IndoorDay_12": "Good morning. Say hi to all the animals for me.",
+  "CDE_Krobus_Married_IndoorDay_13": "Warmth doesn't often bring me a lot of comfort. I normally prefer when it's cool.#$b#But the warmth of this house is an exception. I do like it here quite a bit.$l",
+  "CDE_Krobus_Married_IndoorDay_14": "I've always been fascinated how your arms don't mesh back into your sides when they're not in use. You just... swing them all around as you run.#$b#It's kind of uh... cute.$7",
+  "CDE_Krobus_Married_IndoorDay_15": "I might be just about the most 'human' of all shadow beings in the world.#$b#Don't get me wrong, I'm proud of that. But I also don't wish to be any less of a true shadow being than my kin.#$e#Does that make sense?",
 
   "CDE_Krobus_Married_IndoorNight_1": "I cleaned all the bugs out of the house today... Sorry, I didn't save you any! *smack*$7",
   "CDE_Krobus_Married_IndoorNight_2": "Ooh, it's nice to have you back home again. Are you staying in?$l",
@@ -117,7 +120,12 @@
   "CDE_Krobus_Married_IndoorNight_11": "Hi, @. Welcome home. You look like you've been working hard out there!$h",
 
   //location specific dialogue
-
+  "CDE_Krobus_Married_spouseRoom_1": "We're so physically different that it's a challenge to live together, isn't it?",
+  "CDE_Krobus_Married_spouseRoom_2": "I hope the humidity here isn't bothersome to you. We both have to compromise in order to live together!",
+  "CDE_Krobus_Married_spouseRoom_3": "The artifacts in this room have been with me for many years. They help calm my mind.#$e#I hope you're not bothered by them.",
+  "CDE_Krobus_Married_spouseRoom_4": "Thank you for letting me set up this room. It's not too messy, is it?#$e#Well, I suppose I've witnessed some humans who are much messier than I am.$7",
+  "CDE_Krobus_Married_spouseRoom_5": "Do my belongings emit any kind of smell that's unpleaseant to you? I can't really tell...$3",
+  
   //Date Specific Dialogue
   "CDE_Krobus_Married_spring1": "What's your plan for the new year, @?",
   "CDE_Krobus_Married_spring6": "Humans and shadow beings have such different traditions in worshipping Yoba. And yet, Yoba created both our species.#$e#Perhaps Yoba is much more complex than most of us realize.",
