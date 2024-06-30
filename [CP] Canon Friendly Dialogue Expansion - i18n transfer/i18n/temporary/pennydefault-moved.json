@@ -152,6 +152,11 @@
   "CDE_Penny_Married_IndoorDay_8": "I got a brand new book from the library. It's always exciting when there's a new shipment.$h",
   "CDE_Penny_Married_IndoorDay_9": "Was I shy when we first met? It's funny to think about, now that we've come so far.$h",
   "CDE_Penny_Married_IndoorDay_10": "Just wanted to say... I love the way you look this morning.$h",
+  "CDE_Penny_Married_IndoorDay_11": "I don't know how to make a lot of different things for breakfast, but if it works, it works, right?[195 210 211]$3",
+  "CDE_Penny_Married_IndoorDay_12": "You're doing a lovely job with the farm, honey. I just think back to what it looked like right before you moved here.",
+  "CDE_Penny_Married_IndoorDay_13": "I finished reading my library book last night. Time to get another...#$e#I heard Gunther might be ordering some new ones from the bookseller soon.",
+  "CDE_Penny_Married_IndoorDay_14": "Mind if I open a window? The air smells really fresh out there.",
+  "CDE_Penny_Married_IndoorDay_15": "I ought to give Maru a call today. What kind of invention is she working on lately, I wonder?",
 
   "CDE_Penny_Married_IndoorNight_1": "Good evening, honey. Did you accomplish everything you wanted to today? If not, that's okay. We've got all the time in the world!",
   "CDE_Penny_Married_IndoorNight_2": "When the light's dim, you have these little glowing stars in your eyes. You're so lovely.$l",
@@ -168,6 +173,15 @@
   "CDE_Penny_Married_funLeave_2": "I'm going to head into town today, just for fun. I'll be back in a while!",
   "CDE_Penny_Married_funReturn_1": "I had a nice time... It's good to stay in contact with everyone. Tell me about your day.",
   "CDE_Penny_Married_funReturn_2": "A lot of people were out and about. I'm glad I was able to chat with a few of them.",
+
+  "CDE_Penny_Married_jobLeave_1": "I have to go into town today. Don't work too hard, and eat something good for lunch!$h",
+  "CDE_Penny_Married_jobLeave_2": "Looks like I'm all prepared for work. Be sure to take good care of yourself today!$h",
+  "CDE_Penny_Married_jobLeave_3": "Eesh, I'm a little bit late for work, but that's okay. I'll walk a little faster on my way there.",
+  "CDE_Penny_Married_jobLeave_4": "Good morning! It's another busy school day.#$e#I've got the whole day planned out, except the afternoon.#$b#I'm sure I'll think of something, though.",
+  "CDE_Penny_Married_jobReturn_1": "$c .7#Good evening. My day was fine, thanks! How was yours?$h#Jas and Vincent weren't behaving very well today. I'm still all wound up...$3",
+  "CDE_Penny_Married_jobReturn_2": "I know I shouldn't stress so much about Vincent. He'll probably grow up to be just fine.$3#$b#Still, the job of teaching is never done.",
+  "CDE_Penny_Married_jobReturn_3": "Whew, I'm tired. Those kids take a lot more energy than people realize...#$e#Still, it was a fun day.",
+  "CDE_Penny_Married_jobReturn_4": "Welcome home!$h#$b#This was left over from today's lesson. Think you could use it?[475 480 497 535 613 771 814 80 176 310]",
 
   "CDE_Penny_Married_OneKid_1": "Have you had any time to play with our little one today? Maybe a second child will make things better.",
   "CDE_Penny_Married_OneKid_2": "Oh right. My mom visited yesterday to spend some time with %kid1. It's kind of surreal, getting to see that nurturing side of her personality.",
@@ -198,6 +212,12 @@
   "CDE_Penny_Married_patio_2": "Care to join me for a bit? ...Or, I guess you must have a lot to do, right?",
   "CDE_Penny_Married_patio_3": "I wish there were more readers in the world. There are so many good stories to get through.#$e#Good stories deserve good attention.",
 
+  "CDE_Penny_Married_spouseRoom_1": "I always wanted my very own library. This is so charming.$h",
+  "CDE_Penny_Married_spouseRoom_2": "I like to do a little reading first thing in the morning. It gets my brain into gear.",
+  "CDE_Penny_Married_spouseRoom_3": "Let's see... the plants in this room could use a little water.",
+  "CDE_Penny_Married_spouseRoom_4": "I have to get caught up on my grading today.#$e#It shouldn't take too long, but I like to give the kids' work the attention it deserves.",
+  "CDE_Penny_Married_spouseRoom_5": "I do have quite the aptitude for decorating rooms, if I say so myself!$h",
+  
   //Date Specific Dialogue
   "CDE_Penny_Married_spring1": "We've got a long, warm year to look forward to. Let's make it a productive one.",
   "CDE_Penny_Married_spring4": "Spring is probably my favorite season. There's a certain freshness in the air that fills me with hope.",
