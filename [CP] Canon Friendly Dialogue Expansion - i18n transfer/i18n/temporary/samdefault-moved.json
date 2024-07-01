@@ -154,6 +154,11 @@
   "CDE_Sam_Married_IndoorDay_8": "Let's see... what should I do today?#$e#I might play some old favorites on my guitar.",
   "CDE_Sam_Married_IndoorDay_9": "Maybe Sebastian's going to be online later. I kinda feel like playing video games today.",
   "CDE_Sam_Married_IndoorDay_10": "Um... Maybe I'll help out on the farm some other day. I feel lazy today.$s#$e#You're not mad?",
+  "CDE_Sam_Married_IndoorDay_11": "Good morning! Pancake time for you~![211]$h#$e#I was practicing flipping 'em really high in the air.#$b#Uh, one got stuck to the ceiling, but I got it cleaned up.$10",
+  "CDE_Sam_Married_IndoorDay_12": "Heyyy, I made eggs! And I managed not to drop any on the floor![194 195]$h#$e#Well, \"on the floor\" is the part of my sentence that makes it true.$10",
+  "CDE_Sam_Married_IndoorDay_13": "All our animals are really sick.#$e#Uhh, I mean... sick as in \"cool.\"$8#$b#Sorry, bad choice of words. They're all healthy, right?$10",
+  "CDE_Sam_Married_IndoorDay_14": "I know I don't have a whole lot of \"career skills,\" but you'd agree I'm pretty good with kids, right?#$e#I dunno, I could see myself working with kids for a lot of years to come.",
+  "CDE_Sam_Married_IndoorDay_15": "Uhm, if I rock out with my amp turned up all the way, that won't scare the farm animals, will it?",
 
   "CDE_Sam_Married_IndoorNight_1": "Hey, you look tired. Let me help you relax tonight, okay? Maybe I'll give you a massage later.",
   "CDE_Sam_Married_IndoorNight_2": "Whoa, you're home! Guess that's my cue. OK, relax-o time for you! [184 346 206]",
@@ -172,10 +177,16 @@
   "CDE_Sam_Married_funReturn_1": "Seeing family is nice, but it's also kind of depressing in a weird way. Like... our lives are totally separate now, and everything feels more formal than it used to.$7",
   "CDE_Sam_Married_funReturn_2": "My family's doing alright, but they're all struggling with something or other. I hope it's cool with you if I see 'em again soon.$7",
 
-  "CDE_Sam_patio_1": "*Sigh*... I'm never gonna land this trick...$s",
-  "CDE_Sam_patio_2": "Aw man! You just missed it! I landed a perfect kickflip just a little bit ago.$h",
-  "CDE_Sam_patio_3": "This used to be so much easier...$s#$b#Either that or I just had a lot more unearned confidence when I was younger.$10",
+  "CDE_Sam_Married_patio_1": "*Sigh*... I'm never gonna land this trick...$s",
+  "CDE_Sam_Married_patio_2": "Aw man! You just missed it! I landed a perfect kickflip just a little bit ago.$h",
+  "CDE_Sam_Married_patio_3": "This used to be so much easier...$s#$b#Either that or I just had a lot more unearned confidence when I was younger.$10",
 
+  "CDE_Sam_Married_spouseRoom_1": "The old guitar... I don't have as much drive to play it anymore. That's fine.",
+  "CDE_Sam_Married_spouseRoom_2": "What's on your agenda today?",
+  "CDE_Sam_Married_spouseRoom_3": "I've been messing around with the keyboard lately. Nothing too serious, though.",
+  "CDE_Sam_Married_spouseRoom_4": "It's a good day for reading. A real book, y'know? I read more than just comics.#$e#Not that there's anything wrong with comics. Heck no.$h",
+  "CDE_Sam_Married_spouseRoom_5": "Let's see, I'm all caught up with my e-mails, so what next?#$e#I've got this music composition software on the computer. It could be worthwhile to tinker around with that.",
+  
   "CDE_Sam_Married_OneKid_1": "It's weird, but I really like being a father!$h",
   "CDE_Sam_Married_OneKid_2": "*yawn* Man oh man, I'm definitely feeling a new appreciation for stay-at home parents.$s",
   "CDE_Sam_Married_OneKid_3": "I think we should have another kid. Why stop now?",
