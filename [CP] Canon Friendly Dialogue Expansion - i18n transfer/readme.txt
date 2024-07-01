@@ -311,6 +311,11 @@ CDE_Robin_rainy_3
 -Sam-
 CDE_Sam_rainy_3
 CDE_Sam_Married_patio_3
+CDE_Sam_Married_spouseRoom_1
+CDE_Sam_Married_spouseRoom_2
+CDE_Sam_Married_spouseRoom_3
+CDE_Sam_Married_spouseRoom_4
+CDE_Sam_Married_spouseRoom_5
 CDE_Sam_Married_RainyNight_6
 CDE_Sam_Married_RainyNight_7
 CDE_Sam_Married_IndoorDay_3
@@ -319,6 +324,11 @@ CDE_Sam_Married_IndoorDay_7
 CDE_Sam_Married_IndoorDay_8
 CDE_Sam_Married_IndoorDay_9
 CDE_Sam_Married_IndoorDay_10
+CDE_Sam_Married_IndoorDay_11
+CDE_Sam_Married_IndoorDay_12
+CDE_Sam_Married_IndoorDay_13
+CDE_Sam_Married_IndoorDay_14
+CDE_Sam_Married_IndoorDay_15
 CDE_Sam_Married_Outdoor_5
 CDE_Sam_Married_Outdoor_6
 
