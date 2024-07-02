@@ -78,7 +78,7 @@
   "CDE_Sebastian_fallTue4":"Pumpkin spice this... pumpkin spice that... man, I do get sick of these seasonal fads.",
   "CDE_Sebastian_fallTue8":"I'm not really mad that Mom married Demetrius. She can live her own life.#$b#I just wish they'd let me live my own life, too.",
   "CDE_Sebastian_fallWed4":"I stayed up most of the night finishing a job for one of my clients. It was actually a lot of fun.#$e#I don't even feel tired, for one thing.$h",
-  "CDE_Sebastian_fallWed6":"*sigh* If I lived in the city, I could join a 'Solarian Chronicles' group and do some of those epic 8-person raids.$s#$e#Oh well. I guess it's not really the same when you don't know anybody in the group.",
+  "CDE_Sebastian_fallWed6":"*sigh* If I lived in the city, I could join a \"Solarian Chronicles\" group and do some of those epic 8-person raids.$s#$e#Oh well. I guess it's not really the same when you don't know anybody in the group.",
   "CDE_Sebastian_fallThu4":"My room might be a little less depressing if I had a window...$s",
   "CDE_Sebastian_fallThu6":"Hm, maybe I should move my synthesizer back here from Sam's place. It'd be a lot easier to practice.#$e#Or I can just practice on my computer keyboard. That's how I first learned, anyway.",
   "CDE_Sebastian_fallThu8":"I know I should try more to connect with Maru. It's just...#$b#...if I try to meet her on her level, getting all excited with her, it feels wrong. It's just not me.#$e#Does that make any sense?",
@@ -132,7 +132,7 @@
   "CDE_Sebastian_Married_RainyNight_9": "Hey, let me know when you're ready to turn in for the night...$l",
 
   "CDE_Sebastian_Married_IndoorDay_1": "The older I get, the less I'm drawn to the city. It had a certain mystique to it, once.#$e#But it turns out that was just a romantic fantasy. The city's so busy, so full of people... I don't belong there. I'm a loner.",
-  "CDE_Sebastian_Married_IndoorDay_2": "Living in Zuzu city seems a bit overrated, the more I think about it.#$e#Living out here... it's just the right kind of loneliness for me. The kind that makes me look forward to seeing you again each day at home.$7",
+  "CDE_Sebastian_Married_IndoorDay_2": "Living in Zuzu City seems a bit overrated, the more I think about it.#$e#Living out here... it's just the right kind of loneliness for me. The kind that makes me look forward to seeing you again each day at home.$7",
   "CDE_Sebastian_Married_IndoorDay_3": "Hey, I made coffee.[395]$7#$e#I needed some... woke up early from a nightmare and I just couldn't fall back asleep.",
   "CDE_Sebastian_Married_IndoorDay_4": "Hey... want some coffee?[395]$7#$e#This is the good stuff. Not that Joja-brand garbage.",
   "CDE_Sebastian_Married_IndoorDay_5": "Insomnia got the better of me last night, so I went for a motorcycle ride.#$e#I need to stay independent, even though we're married. That's just how I am. I still love you, though.$7",
@@ -141,7 +141,12 @@
   "CDE_Sebastian_Married_IndoorDay_8": "Slept okay last night?#$e#It wasn't too bad a night for me, but I'll admit I'm jealous how you can sleep like a log sometimes.$7",
   "CDE_Sebastian_Married_IndoorDay_9": "Living here with you is teaching me to come out of my shell a little bit. I think it's good for me.$7",
   "CDE_Sebastian_Married_IndoorDay_10": "The way you've put this farm together... I've got to say it's given me an appreciation for where our food comes from.$7",
-
+  "CDE_Sebastian_Married_IndoorDay_11": "Need some coffee?[395]$3#$e#Mmm, sorry, I'm not really talkative. Haven't had mine yet.$3",
+  "CDE_Sebastian_Married_IndoorDay_12": "What's on the docket for you today?#$e#Think you might hit up the mines? I always love seeing what kinds of loot you haul out of there.",
+  "CDE_Sebastian_Married_IndoorDay_13": "I've got a handful of programming tasks to take care of on the computer. Don't want to keep my clients waiting.",
+  "CDE_Sebastian_Married_IndoorDay_14": "I'll be practicing on the keyboard today. Sam's always happy when I show him something new.#$e#I just use my computer keyboard. It's similar enough.",
+  "CDE_Sebastian_Married_IndoorDay_15": "I could use another rainy day.$s#$e#It's not just me. The frogs and toads out there could really use one too.#$b#Not to mention your crops, right? It's win-win all around.",
+  
   "CDE_Sebastian_Married_IndoorNight_1": "Hey. I just hung out around the house, today. Nothing interesting...#$e#...Oh, I got all the dishes and laundry caught up. So there's that.",
   "CDE_Sebastian_Married_IndoorNight_2": "The view from our house is perfect. You can see the sun setting over Pelican Town from the front porch.",
   "CDE_Sebastian_Married_IndoorNight_3": "My caffeine buzz is still going. I probably should've cut off the coffee a few hours ago...#$e#I just didn't want it to go to waste. That, and it was a flavor I really like.",
@@ -202,10 +207,16 @@
   "CDE_Sebastian_Married_Outdoor_8": "I went for a little walk just before you got up. Sounds like some animals are already up and alive.$7",
   "CDE_Sebastian_Married_Outdoor_9": "We should raise more slimes... In big quantities they can be pretty profitable. And they're so easy to raise.#$e#Also, different colored slimes produce different items. I dunno, I think it'd be kind of a fun hobby for us.",
   
-  "CDE_Sebastian_patio_1": "Need something? I'll just be over here working on my bike for a while.",
-  "CDE_Sebastian_patio_2": "I just want to make sure everything's in perfect shape. Next time I ride, I don't want any worries on my mind.",
-  "CDE_Sebastian_patio_3": "There's something meditative about working on a bike. Do you get the same feeling out in the fields?",
+  "CDE_Sebastian_Married_patio_1": "Need something? I'll just be over here working on my bike for a while.",
+  "CDE_Sebastian_Married_patio_2": "I just want to make sure everything's in perfect shape. Next time I ride, I don't want any worries on my mind.",
+  "CDE_Sebastian_Married_patio_3": "There's something meditative about working on a bike. Do you get the same feeling out in the fields?",
 
+  "CDE_Sebastian_Married_spouseRoom_1": "I'm debating whether I should work or just read comics all day.",
+  "CDE_Sebastian_Married_spouseRoom_2": "Hey, do we have any pizza in the freezer? I'm hungry.",
+  "CDE_Sebastian_Married_spouseRoom_3": "Some day, I'll have to get you caught up on my \"Cave Saga X\" comics.#$e#The series has been running for a little over twenty years, but oh man, it's totally worth it.$h",
+  "CDE_Sebastian_Married_spouseRoom_4": "I've got a client who needs something done by the end of the day. So I'll be on the computer as soon as my brain finishes waking up.",
+  "CDE_Sebastian_Married_spouseRoom_5": "I've got a \"Solarian Chronicles\" solo campaign that could use my attention. Should be a fun day.$7",
+  
   //Season specific dialogue
 
   //Affection specific dialogue
