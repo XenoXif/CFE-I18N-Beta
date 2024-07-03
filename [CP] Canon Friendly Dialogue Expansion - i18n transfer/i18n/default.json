@@ -3046,6 +3046,11 @@
   "CDE_Shane_Married_IndoorDay_8": "Hey, don't brush your hair. You're looking hot this morning.",
   "CDE_Shane_Married_IndoorDay_9": "I may keep to myself a lot, and I may seem unhappy sometimes... but I do appreciate all the work you do. I'm a lucky guy.$6",
   "CDE_Shane_Married_IndoorDay_10": "Give me something positive to focus on. I know it should feel like a good morning; I just need some help getting there.",
+  "CDE_Shane_Married_IndoorDay_11": "@, I mean it when I say you're the best thing in my life.$l#$e#Well, you and Charlie.#$e#Actually, y'know what? Just Charlie.$3#$e#...Ha ha, what?$h",
+  "CDE_Shane_Married_IndoorDay_12": "Good morning. I made some breakfast.[195 215 206]#$e#Uh well, actually it's dinner from last night. I just forgot about it and found it the microwave a minute ago.$3#$b#But uh, it's still good, see?$6",
+  "CDE_Shane_Married_IndoorDay_13": "Why is life as a person so complicated? The chickens are simpler. They've figured it out.#$e#*sigh*",
+  "CDE_Shane_Married_IndoorDay_14": "Oh yeah. I forgot to mention, Jas was over here a few days ago. You were out.#$e#We just played around outside for a bit. It was nice.$6",
+  "CDE_Shane_Married_IndoorDay_15": "You know what? I think we're actually better off than those billionaires living in Zuzu City penthouses. I really do.#$e#I don't know how to explain it, but I just can't bring myself to envy them.",
 
   "CDE_Shane_Married_IndoorNight_1": "I'm just gonna have a couple more beers before closing my eyes for the night.",
   "CDE_Shane_Married_IndoorNight_2": "I took a nap while you were out. I hope that doesn't screw up my sleep cycle.",
@@ -3056,6 +3061,7 @@
   "CDE_Shane_Married_IndoorNight_7": "Hey. Want to... go to bed when I do?$l",
   "CDE_Shane_Married_IndoorNight_8": "I spent all day watching TV and now my legs feel like soft dough. Guess I'll have to take it easy until tomorrow.",
   "CDE_Shane_Married_IndoorNight_9": "Maybe I should drink something to help me sleep. Not a good solution, but it'd beat staying up all night.",
+  "CDE_Shane_Married_IndoorNight_10": "Hey, uh... take this outta my hands, will you?[346 303]$s#$e#I'm glad you're home.$l",
 
   //locational specific dialogue
   "CDE_Shane_Married_funLeave_1": "I'm going to go out today, alright?",
@@ -3087,6 +3093,12 @@
   "CDE_Shane_Married_patio_1": "Charlie's doing well.$8",
   "CDE_Shane_Married_patio_2": "If Charlie's in a good mood, I'm in a good mood, too.$8",
   "CDE_Shane_Married_patio_3": "I love this bird.$9#$e#Sorry, babe. You're my one true love, but Charlie is my one true-true love.$9",
+
+  "CDE_Shane_Married_spouseRoom_1": "Beer or cider? Sometimes life can be challenging."
+  "CDE_Shane_Married_spouseRoom_2": "Hi, @. I'll just hang out in here today and uh... maybe sweep the floor a little bit or something."
+  "CDE_Shane_Married_spouseRoom_3": "*sigh* Well, at least the chickens don't think I'm messy.$3#$e#It's enough to clean up their crap. Do I have to clean up my own, too?$s",
+  "CDE_Shane_Married_spouseRoom_4": "I did ten lifts on the dumbell. Time for a snack.",
+  "CDE_Shane_Married_spouseRoom_5": "Got a busy day today, huh?#$e#...Uh, yeah. Me too.$3",
 
   //Date Specific Dialogue
   "CDE_Shane_Married_spring2": "It was awesome yesterday, seeing the chickens get outside for the first time in a while.$h",
