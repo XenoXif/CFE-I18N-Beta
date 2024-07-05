@@ -1,5 +1,4 @@
 { //Dwarf
-
   //Dwarf Gift Tastes
   "CDE_Dwarf_GoldPumpkin": "I have no idea what this is. But I love it.#$e#No, you may not have it back.",
   "CDE_Dwarf_RockCandy": "You are truly offering me this?#$b#...Give me. Give me. I bid you endless prosperity.",
@@ -22,21 +21,38 @@
   "CDE_Dwarf_rainy_3": "Delving deep today, are we?#$e#The monsters are appearing in great numbers. Be careful.",
 
   //Dwarf's Standard Dialogue
-
   //Special Dialogue
   "CDE_Dwarf_repeated_1": "A few times, I have seen a strange, blue human climbing down through the mines.#$e#At least, I think he's one of you humans.#$e#I don't trust him.",
   "CDE_Dwarf_repeated_2": "I'm impressed by how much your species has advanced in the past 100 years alone.#$b#Are humans always in a rush like that?",
   "CDE_Dwarf_repeated_3": "The old way of my life is gone. I must connect with humans, but I also do not think your species would receive me well if I walked through the town.#$e#The light outside would drive me crazy in a matter of minutes, too.",
-  //Wed8, fall_Mon10
-  //Wed6, summer_Wed10
-  //Sun6, fall_Tue10
-  
-  //festival related dialogue
+  //fall_Mon10, Wed8
+  //summer_Wed10, Wed6
+  //fall_Tue10, Sun6
 
   //date specific dialogue
 
-
   //heart specific dialogue
+  "CDE_Dwarf_summerMon10": "I feel much more secure inside. When I step out under your open sky, I feel almost as if I could fall into it.",
+  "CDE_Dwarf_summerTue10": "You have devices called... computers? Ah yes, I think I know what you mean.#$b#You can thank my ancestors' ingenuity for giving humans the idea.",
+  "CDE_Dwarf_summerThu10": "My ancestors were capable of taming massive dragons. Or so I heard long ago.#$b#In truth, I have no evidence that it is true. It could merely be a tale.",
+  "CDE_Dwarf_summerFri10": "There are other cave systems around the world where other dwarves dwell. But I have not seen them with my own eyes for a long time.",
+  "CDE_Dwarf_summerSat10": "In the future, if there are no dwarves to carry on our legacy, then I suppose it must be up to humans like you.#$b#Please be good to the underground.",
+  "CDE_Dwarf_summerSun10": "The volcanic activity in this mountain is increasing. Your kind may want to watch out when it erupts.#$e#I predict it will happen in about four thousand years.",
+
+  "CDE_Dwarf_fallWed10": "Humans make a lot of garbage, hmm? Where else does it come from?#$e#I wasn't talking about you. I meant the other humans.",
+  "CDE_Dwarf_fallThu10": "There was a thriving Dwarvish civilization near a volcano south of here.#$e#I assume it must lie in ruins now.",
+  "CDE_Dwarf_fallFri10": "The gray and white parts of the sky... you call those... clouds?#$e#How interesting.",
+  "CDE_Dwarf_fallSat10": "You seem like an ambitious type. Please be careful with the power you weild, or you will become a monster yourself.",
+  "CDE_Dwarf_fallSun10": "...#$b#You are... a kind person.#$b#...#$b#I have not said that to anyone in many years.",
+
+  "CDE_Dwarf_winterMon10": "Strange things have begun to happen in the mines. Dangerous hordes of monsters, odd environments...#$b#Could that strange blue human be involved?",
+  "CDE_Dwarf_winterTue10": "You can find rare fish in the lakes down below. Have you heard of the Lava Eel and the Ice Pip?#$e#Only an expert angler could catch them.",
+  "CDE_Dwarf_winterWed10": "All old things pass into new. My civilization has crumbled. But I do not wish to be discarded.#$e#I have a near endless supply of bombs. I will not go quietly.",
+  "CDE_Dwarf_winterThu10": "Skull... cavern... beneath a desert. Yes. I believe my people spent some time there, long ago.#$e#I do not believe you will find any dwarves there now.",
+  "CDE_Dwarf_winterFri10": "My people used to be legendary blacksmiths, too.#$b#But that is another art lost to the ages.",
+  "CDE_Dwarf_winterSat10": "You say you can find winter root up on the surface? Perfect.#$b#It would be simple to cook a roots platter.",
+  "CDE_Dwarf_winterSun10": "The hostile spirits in the shrine of death must be quite ancient.#$b#I'm sure they would be no match for you, though.",
+
   "CDE_Dwarf_Mon8": "You keep coming back here. Do you... like bombs?",
   "CDE_Dwarf_Mon6": "When you humans had your mining operation below, I had to be very crafty to evade detection.#$e#Obviously, I don't care much about that anymore. I humbly welcome you here.",
   "CDE_Dwarf_Mon4": "I got some of this stuff from the surface. I just take it from your people during the night.#$e#Hmm? What is this concept you call \"private property\"?",
@@ -64,28 +80,11 @@
   "CDE_Dwarf_Sun8": "You are without a doubt the one human I have spoken to more than any other.#$e#I was always taught to stay away from humans, but I am glad that I decided to shun that rule.",
   "CDE_Dwarf_Sun4": "One day you'll have to tell me about this beverage you call \"milk\".",
   "CDE_Dwarf_Sun2": "I am willing to try human cuisine, yes. Why don't you bring some by?",
-  "CDE_Dwarf_summerMon10": "I feel much more secure inside. When I step out under your open sky, I feel almost as if I could fall into it.",
-  "CDE_Dwarf_summerTue10": "You have devices called... computers? Ah yes, I think I know what you mean.#$b#You can thank my ancestors' ingenuity for giving humans the idea.",
-  "CDE_Dwarf_summerThu10": "My ancestors were capable of taming massive dragons. Or so I heard long ago.#$b#In truth, I have no evidence that it is true. It could merely be a tale.",
-  "CDE_Dwarf_summerFri10": "There are other cave systems around the world where other dwarves dwell. But I have not seen them with my own eyes for a long time.",
-  "CDE_Dwarf_summerSat10": "In the future, if there are no dwarves to carry on our legacy, then I suppose it must be up to humans like you.#$b#Please be good to the underground.",
-  "CDE_Dwarf_summerSun10": "The volcanic activity in this mountain is increasing. Your kind may want to watch out when it erupts.#$e#I predict it will happen in about four thousand years.",
-  "CDE_Dwarf_fallWed10": "Humans make a lot of garbage, hmm? Where else does it come from?#$e#I wasn't talking about you. I meant the other humans.",
-  "CDE_Dwarf_fallThu10": "There was a thriving Dwarvish civilization near a volcano south of here.#$e#I assume it must lie in ruins now.",
-  "CDE_Dwarf_fallFri10": "The gray and white parts of the sky... you call those... clouds?#$e#How interesting.",
-  "CDE_Dwarf_fallSat10": "You seem like an ambitious type. Please be careful with the power you weild, or you will become a monster yourself.",
-  "CDE_Dwarf_fallSun10": "...#$b#You are... a kind person.#$b#...#$b#I have not said that to anyone in many years.",
-  "CDE_Dwarf_winterMon10": "Strange things have begun to happen in the mines. Dangerous hordes of monsters, odd environments...#$b#Could that strange blue human be involved?",
-  "CDE_Dwarf_winterTue10": "You can find rare fish in the lakes down below. Have you heard of the Lava Eel and the Ice Pip?#$e#Only an expert angler could catch them.",
-  "CDE_Dwarf_winterWed10": "All old things pass into new. My civilization has crumbled. But I do not wish to be discarded.#$e#I have a near endless supply of bombs. I will not go quietly.",
-  "CDE_Dwarf_winterThu10": "Skull... cavern... beneath a desert. Yes. I believe my people spent some time there, long ago.#$e#I do not believe you will find any dwarves there now.",
-  "CDE_Dwarf_winterFri10": "My people used to be legendary blacksmiths, too.#$b#But that is another art lost to the ages.",
-  "CDE_Dwarf_winterSat10": "You say you can find winter root up on the surface? Perfect.#$b#It would be simple to cook a roots platter.",
-  "CDE_Dwarf_winterSun10": "The hostile spirits in the shrine of death must be quite ancient.#$b#I'm sure they would be no match for you, though."
 
   //generic weekday dialogue
+  "CDE_Dwarf_winterSun": "Ah, yes. It's true that there's a shrine of death near here. Some humans must have tunneled straight into it some time ago.#$e#I can't say exactly where it came from. Certainly not my people. And the shadow people have also denied it.#$e#Have you been there?",
+
   "CDE_Dwarf_Mon": "Welcome to my shop.",
   "CDE_Dwarf_Tue": "I know that you are new to my language. Please, ask me to repeat anything you hear me say.",
-  "CDE_Dwarf_Sun": "Care to buy anything today?",
-  "CDE_Dwarf_winterSun": "Ah, yes. It's true that there's a shrine of death near here. Some humans must have tunneled straight into it some time ago.#$e#I can't say exactly where it came from. Certainly not my people. And the shadow people have also denied it.#$e#Have you been there?",
+  "CDE_Dwarf_Sun": "Care to buy anything today?"
 }
