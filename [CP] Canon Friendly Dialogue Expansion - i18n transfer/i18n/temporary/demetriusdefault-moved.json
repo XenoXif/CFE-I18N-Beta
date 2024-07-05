@@ -1,5 +1,4 @@
 { //Demetrius
-
   //Demetrius Gift Tastes
   "CDE_Demetrius_GoldPumpkin": "This specimen is fascinating! What a discovery!$h#$b#For one thing, is it made of organic matter, or is it composed of real gold? This may take years of research!",
   "CDE_Demetrius_Pearl": "The ocean depths are a tremendously fascinating place. What a fantastic find!",
@@ -17,21 +16,40 @@
   "CDE_Demetrius_rainy_3": "I have a lot of tests to run in the lab today.#$e#You're free to stay, but please know I might put you to work.$h",
 
   //Demetrius's Standard Dialogue
-
   //Special Dialogue
   "CDE_Demetrius_repeated_1": "When I met Robin in college, a lot of my friends were pretty awestruck at my willingness to date someone who's already a mom.#$e#What can I say? We were just a good match.$h",
   "CDE_Demetrius_repeated_2": "Fertilizer is best for producing quality crops, but if you need to rush a crop to maturity, use Speed Gro.#$b#In theory, you could get three melon harvests that way, instead of two.",
-  //Fri6, summer_Wed10
-  //summer_Tue4. summer_Sun10
-  
-  //festival related dialogue
+  //summer_Wed10, Fri6
+  //summer_Tue4, summer_Sun10
 
   //date specific dialogue
-  "CDE_Demetrius_spring1": "Happy new year! Lots of work ahead of both of us.",
+  "CDE_Demetrius_spring1y2": "Happy new year! Lots of work ahead of both of us.",
   "CDE_Demetrius_summer28": "You got my letter, right? Don't be late! You won't want to wait a whole 'nother year for it.$h",
   "CDE_Demetrius_winter28": "We've completed another rotation around the sun!#$e#That deserves a celebration, it seems.",
 
   //heart specific dialogue
+  "CDE_Demetrius_summerMon6": "Why is it that ice cream tastes so good? Science may never provide an answer.#$e#Ha ha, just kidding. It's the fat and sugar.$h",
+  "CDE_Demetrius_summerTue8": "You can use sap and fish to make quality fertilizer.#$e#If it's too time consuming to get the fish, maybe you could catch some snails or periwinkles in some crab pots instead.",
+  "CDE_Demetrius_summerThu8": "I became a scientist because I wanted to contribute to the progression of our species.#$e#Of course, none of this would be possible without farmers such as yourself.$h",
+  "CDE_Demetrius_summerThu4": "Hmm... If strigolactone levels could be increased, would it have a proportional effect on mycorhizal growth?$u#$b#Oh! Sorry. I was pondering some data and I didn't notice you there.#$e#Do you need anything?",
+  "CDE_Demetrius_summerFri10": "Good news, @! I've had an article published in Environmental Science Quarterly!$h#$b#I'd say it's relevant to any modern farmer.#$e#It's all about my recent findings on the reaction of a fertile soil's bacillus toward fungal phytopathogens.#$b#Fascinating stuff!$h",
+  "CDE_Demetrius_summerFri2": "$p 40#So I heard Maru had you look through that telescope out back.|If you and Maru become friends, I'm sure she'll show you how to use that telescope out back.#$e#Pretty exciting, huh?",
+  "CDE_Demetrius_summerSat10": "I hope my research will contribute to better, more sustainable use of the environment's resources.#$e#Finding a use for the cave on your farm would be one small example.",
+
+  "CDE_Demetrius_fallMon10": "Remember, there's a thriving ecosystem living right there in your farm's soil. Be sure to take good care of it.#$e#I'd argue the soil is far more amazing than even the plants that grow from it. Especially this time of year!#$b#Why, just right now the azotobacter levels are soaring, providing phenomenal nitrogen fixation for the plants. Not to mention the rhizobium...$h#$e#...Robin isn't too terribly interested in this topic.$s",
+  "CDE_Demetrius_fallTue10": "The more we pull resources from a variety of locations, the less we have to take from each place.#$b#There's an ecological incentive to biodiversity. We can't keep this world running on factory-like monocultures.",
+  "CDE_Demetrius_fallThu6": "Maru sure spends a lot of time working on those gadgets of hers.#$e#I'm glad she's so dedicated.",
+  "CDE_Demetrius_fallFri10": "Hmm, I was looking through my microscope at a soil sample from your farm. I found some strange, sparkling phenomena.$s#$b#Then when I looked back less than a minute later, I was unable to find it again.$s#$e#The good news is that your soil is quite healthy. Thriving, really.#$b#But I wish I knew what it was that I saw.$s",
+  "CDE_Demetrius_fallSun6": "We know a lot about nature thanks to science.#$e#But there's always a lot more to learn.",
+
+  "CDE_Demetrius_winterMon10": "Robin insists on hiking all the way down to Cindersap Forest to chop trees. She certainly knows what she likes.#$e#The hot spring area is much closer. And I measured that its trees decay a full tenth of a percent slower!#$b#But she still sticks to her reasons.",
+  "CDE_Demetrius_winterWed10": "Have you saved some produce for cooking this winter? I bet you have quite a stash!",
+  "CDE_Demetrius_winterWed4": "Do you have a kitchen in your house yet?#$e#Cooking is kind of like doing lab work.",
+  "CDE_Demetrius_winterThu10": "Robin teaches me a lot about how to step back from life's scientific technicalities and focus more on things like aesthetics and well-being.#$e#I can see her perspectives. Sometimes it just takes a bit of time so I can make sense of them.",
+  "CDE_Demetrius_winterSat8": "Feel free to harvest as much lumber and stone from this area as you please.",
+  "CDE_Demetrius_winterSat4": "Let's see... if seasonal nitrogen levels could be modeled by a piecewise function...$u#$b#Oh! Sorry. I was analyzing data and I didn't notice you there.#$e#Do you need anything?",
+  "CDE_Demetrius_winterSun10": "There's likely a naturalistic explanation for every phenomenon.#$b#Even things like love, or spirituality, or the origin of the world perhaps may be explained with science.#$e#Some say that takes the wonder out of the universe.#$b#Myself? I don't think so. If anything. it increases my awe for existence.",
+
   "CDE_Demetrius_Mon10": "I can already see Maru's scientific achievements surpassing mine in her future.#$e#I'm very lucky that she's turning out the way she is.$h",
   "CDE_Demetrius_Mon8": "If you've ever wondered why your crops grow well, it has to do primarily with the healthy rhizobium living in your soil.#$e#Long story short, you need a diverse ecosystem to have a high-quality farm.#$b#Corporate farms grow less-nutritious produce when they level an entire forest and replace it with a monoculture.$s",
   "CDE_Demetrius_Mon6": "I know that Maru will have to leave the valley eventually. If she got stuck here for too long, it could hinder her potential.$s#$e#For the moment, though, I think her living here works out well.",
@@ -53,37 +71,20 @@
   "CDE_Demetrius_Sat10": "Have you heard of giant crops? Apparently, if certain crops become so dominant in a wide enough plot of land, there's a small chance for the giant variant to manifest.#$e#Nature almost bred them out of existence, since their size makes them impractical for natural selection.",
   "CDE_Demetrius_Sat6": "Greetings, @. How is your work progressing?#$e#If you grow any pristine crops, it would be a privilege to examine them.#$e#And possibly taste them, too!$h#$b#...For science.",
   "CDE_Demetrius_Sat4": "One aim of my research is to figure out the exact environmental conditions that we see here in the valley, that make it so uniquely fertile for such a wide variety of species.#$e#In terms of application, we could use it to bolster the abundance of crop turnouts in less fertile regions.",
-  "CDE_Demetrius_Sun10": "Between you and me, I really thought that Sebastian would have moved out by now.$s#$e#He's even older than I was when I first met Robin...$s#$e#As long as he works and pays his rent, though...",  
+  "CDE_Demetrius_Sun10": "Between you and me, I really thought that Sebastian would have moved out by now.$s#$e#He's even older than I was when I first met Robin...$s#$e#As long as he works and pays his rent, though...",
   "CDE_Demetrius_Sun8": "Sebastian always seems bored by just about every aspect of my work.$s#$e#Computer science is a science, though. I've always tried to bond with him over that, but there's still a bit of a divide between us.#$e#The books I've read say that's to be expected.",
   "CDE_Demetrius_Sun6": "For Sebastian, I left most of the parenting to Robin.#$e#Even today, it's usually best to stay out of his way and let Robin handle things with him.",
   "CDE_Demetrius_Sun4": "My work basically is my hobby. Occasionally, though, I'll cook a meal, too.",
-  "CDE_Demetrius_summerMon6": "Why is it that ice cream tastes so good? Science may never provide an answer.#$e#Ha ha, just kidding. It's the fat and sugar.$h",
-  "CDE_Demetrius_summerTue8": "You can use sap and fish to make quality fertilizer.#$e#If it's too time consuming to get the fish, maybe you could catch some snails or periwinkles in some crab pots instead.",
-  "CDE_Demetrius_summerThu8": "I became a scientist because I wanted to contribute to the progression of our species.#$e#Of course, none of this would be possible without farmers such as yourself.$h",
-  "CDE_Demetrius_summerThu4": "Hmm... If strigolactone levels could be increased, would it have a proportional effect on mycorhizal growth?$u#$b#Oh! Sorry. I was pondering some data and I didn't notice you there.#$e#Do you need anything?",
-  "CDE_Demetrius_summerFri10": "Good news, @! I've had an article published in Environmental Science Quarterly!$h#$b#I'd say it's relevant to any modern farmer.#$e#It's all about my recent findings on the reaction of a fertile soil's bacillus toward fungal phytopathogens.#$b#Fascinating stuff!$h",
-  "CDE_Demetrius_summerFri2": "$p 40#So I heard Maru had you look through that telescope out back.|If you and Maru become friends, I'm sure she'll show you how to use that telescope out back.#$e#Pretty exciting, huh?",
-  "CDE_Demetrius_summerSat10": "I hope my research will contribute to better, more sustainable use of the environment's resources.#$e#Finding a use for the cave on your farm would be one small example.",
-  "CDE_Demetrius_fallMon10": "Remember, there's a thriving ecosystem living right there in your farm's soil. Be sure to take good care of it.#$e#I'd argue the soil is far more amazing than even the plants that grow from it. Especially this time of year!#$b#Why, just right now the azotobacter levels are soaring, providing phenomenal nitrogen fixation for the plants. Not to mention the rhizobium...$h#$e#...Robin isn't too terribly interested in this topic.$s",
-  "CDE_Demetrius_fallTue10": "The more we pull resources from a variety of locations, the less we have to take from each place.#$b#There's an ecological incentive to biodiversity. We can't keep this world running on factory-like monocultures.",
-  "CDE_Demetrius_fallThu6": "Maru sure spends a lot of time working on those gadgets of hers.#$e#I'm glad she's so dedicated.",
-  "CDE_Demetrius_fallFri10": "Hmm, I was looking through my microscope at a soil sample from your farm. I found some strange, sparkling phenomena.$s#$b#Then when I looked back less than a minute later, I was unable to find it again.$s#$e#The good news is that your soil is quite healthy. Thriving, really.#$b#But I wish I knew what it was that I saw.$s",
-  "CDE_Demetrius_fallSun6": "We know a lot about nature thanks to science.#$e#But there's always a lot more to learn.",
-  "CDE_Demetrius_winterMon10": "Robin insists on hiking all the way down to Cindersap Forest to chop trees. She certainly knows what she likes.#$e#The hot spring area is much closer. And I measured that its trees decay a full tenth of a percent slower!#$b#But she still sticks to her reasons.",
-  "CDE_Demetrius_winterWed10": "Have you saved some produce for cooking this winter? I bet you have quite a stash!",
-  "CDE_Demetrius_winterWed4": "Do you have a kitchen in your house yet?#$e#Cooking is kind of like doing lab work.",
-  "CDE_Demetrius_winterThu10": "Robin teaches me a lot about how to step back from life's scientific technicalities and focus more on things like aesthetics and well-being.#$e#I can see her perspectives. Sometimes it just takes a bit of time so I can make sense of them.",
-  "CDE_Demetrius_winterSat8": "Feel free to harvest as much lumber and stone from this area as you please.",
-  "CDE_Demetrius_winterSat4": "Let's see... if seasonal nitrogen levels could be modeled by a piecewise function...$u#$b#Oh! Sorry. I was analyzing data and I didn't notice you there.#$e#Do you need anything?",
-  "CDE_Demetrius_winterSun10": "There's likely a naturalistic explanation for every phenomenon.#$b#Even things like love, or spirituality, or the origin of the world perhaps may be explained with science.#$e#Some say that takes the wonder out of the universe.#$b#Myself? I don't think so. If anything. it increases my awe for existence.",
 
   //generic weekday dialogue
-  "CDE_Demetrius_Sun_inlaw_Sebastian": "It's such a relief that Sebastian's finally moved out. I did always think you were a good match for him.$h",
   "CDE_Demetrius_summerFri": "Do you have any animals on your farm?",
+
   "CDE_Demetrius_fallWed": "Let's see... perhaps the nitrogen fixation level is affected by nematode secretions...$u#$b#Oh! Sorry. I was pondering some data and I didn't notice you there.#$e#Do you need anything?",
-  "CDE_Demetrius_fallThu_inlaw_Maru": "I'm still flabbergasted about Maru's secret robot... was it all a dream?",
+  "CDE_Demetrius_fallThuinlawMaru": "I'm still flabbergasted about Maru's secret robot... was it all a dream?",
   "CDE_Demetrius_fallSun": "During this time of year I divert my attentions to fungi.",
+
   "CDE_Demetrius_winterWed": "Talk to my wife if you want to increase the size of your house.",
   "CDE_Demetrius_winterSat": "Hello.#$e#%Demetrius seems lost in thought.",
 
+  "CDE_Demetrius_SuninlawSebastian": "It's such a relief that Sebastian's finally moved out. I did always think you were a good match for him.$h"
 }
