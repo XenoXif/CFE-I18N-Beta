@@ -1,5 +1,4 @@
 { //Birdie
-
   //Special Dialogue
   //These lines should target Content/Data/ExtraDialogue
   //The keys should just be "Birdie[number]".
@@ -20,5 +19,5 @@
   "CDE_Birdie_24": "I think I'll take a stroll over to the secret shrine later. I have much to be thankful for each day.",
   "CDE_Birdie_25": "Can you think of a happier place than this?#$b#I traveled so many places when I was young, I think I've seen all I need!",
   "CDE_Birdie_26": "You do seem so dedicated to caring for living things. It takes a gentle soul to do that.#$b#But I sense you've got a tougher side, too, hmm? How many times have you been in that volcano, hmm?$h",
-  "CDE_Birdie_27": "The seasons must be changing soon on the mainland, huh? Which one are you going into, now?",
+  "CDE_Birdie_27": "The seasons must be changing soon on the mainland, huh? Which one are you going into, now?"
 }

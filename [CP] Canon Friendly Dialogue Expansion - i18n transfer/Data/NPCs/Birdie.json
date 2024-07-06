@@ -1,0 +1,21 @@
+{
+  "LogName": "CDE_Birdie",
+  "Action": "EditData",
+  "Target": "Data/ExtraDialogue",
+  "Entries": {
+    "Birdie7": null,
+    "Birdie8": null,
+    "Birdie9": null,
+    "Birdie10": null,
+    "Birdie11": null,
+    "Birdie13": null,
+    "Birdie14": null,
+    "Birdie16": null,
+    "Birdie18": null,
+    "Birdie20": null,
+    "Birdie24": null,
+    "Birdie25": null,
+    "Birdie26": null,
+    "Birdie27": null
+  }
+}

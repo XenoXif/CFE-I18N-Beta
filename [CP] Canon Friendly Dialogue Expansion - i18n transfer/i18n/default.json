@@ -266,6 +266,29 @@
   //Season specific dialogue
   //Affection specific dialogue
 
+  //Birdie
+  //Special Dialogue
+  //These lines should target Content/Data/ExtraDialogue
+  //The keys should just be "Birdie[number]".
+  //It appears that if there is no [number] value that matches the day of the month, the dialogue defaults back to "Birdie0". This is why I don't have a line for the 21st of the month. It's to preserve the vanilla "Birdie0" line. All other missing numbers are included in the vanilla file: 1, 2, 3, 4, 5, 6, 12, 15, 17, 19, 22, 23, 28. I also moved around a couple of lines for some reason.
+
+  "CDE_Birdie_7": "Got someone special waiting for you back on the mainland? You make sure you hold 'em close!",
+  "CDE_Birdie_8": "Why sure, I'll spend the rest of my days on this island. It's become my happy place.#$b#Have you found one of your own?$h",
+  "CDE_Birdie_9": "Should be a good day for a hike. You'll see all sorts of little critters if you keep your eyes open.",
+  "CDE_Birdie_10": "When I was just a tiny little girl, I wanted to be a mermaid. Looks like I came pretty close! Heh heh...",
+  "CDE_Birdie_11": "The sand feels good between the toes, wouldn't you say?",
+  "CDE_Birdie_13": "I don't know if you believe in ocean spirits, but whenever I talk to them, the fish always bite a bit more.",
+  "CDE_Birdie_14": "The weather is warm and lovely year round, my dear... it feels perfect for me bones...",
+  "CDE_Birdie_16": "You've seen those Joja cargo barges, huh? I've seen one come near the island once and then turn around.#$b#Probably they were lost.",
+  "CDE_Birdie_17": "My husband and I never had any children. What an adventure that could have been...!#$e#There are plenty of lives I could have lived. Sometimes I wonder about those...$s#$b#...But only for a little while. It takes a bit of effort to be glad for what was.",
+  "CDE_Birdie_18": "Hello, dear... you look healthy and in good spirits today!$h",
+  "CDE_Birdie_20": "Is it just me, or have the island spirits perked up a bit ever since you arrived?",
+  "CDE_Birdie_22": "I remember long ago how older folks would complain about the times changing.#$b#Well, around here, nothing much changes! Seems I dodged that one, hehe.$h",
+  "CDE_Birdie_24": "I think I'll take a stroll over to the secret shrine later. I have much to be thankful for each day.",
+  "CDE_Birdie_25": "Can you think of a happier place than this?#$b#I traveled so many places when I was young, I think I've seen all I need!",
+  "CDE_Birdie_26": "You do seem so dedicated to caring for living things. It takes a gentle soul to do that.#$b#But I sense you've got a tougher side, too, hmm? How many times have you been in that volcano, hmm?$h",
+  "CDE_Birdie_27": "The seasons must be changing soon on the mainland, huh? Which one are you going into, now?",
+
   //Caroline
   //Caroline Gift Tastes
   "CDE_Caroline_GoldPumpkin": "I've seen something like this before! It was at a Spirit's Eve, long ago...$h",
