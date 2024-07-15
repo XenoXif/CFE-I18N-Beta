@@ -1,6 +1,5 @@
 { //Alex
-
-	//Alex Gift Tastes
+  //Alex Gift Tastes
   "CDE_Alex_GoldPumpkin": "You got through the maze safe and sound, huh? Congrats! This is an awesome prize!$h",
   "CDE_Alex_RockCandy": "I normally stay away from sugar, but... *crunch*#$b#No way!$7#$b#I feel unstoppable! I could do a thousand pushups and run a hundred miles!$h",
   "CDE_Alex_PrismaticShard": "This is the best! I don't know why, but just holding this thing feels like I'm holding a championship trophy!$h",
@@ -8,15 +7,14 @@
   "CDE_Alex_CompleteBreakfast": "Whoa, hoh-ho! Carbs, protein, it's got it all!$h#$b#I already had breakfast, but why not have another?",
   "CDE_Alex_SalmonDinner": "Mmm! *chomp* This is delicious! *gulp*$10#$b#Uhm... I mean, thank you very much! You're a good cook!",
 
-	//Alex's Misc Dialogue
-	//these lines target files other than the standard characters/dialogue/Alex location such as unmarried rainy dialogue
+  //Alex's Misc Dialogue
+  //these lines target files other than the standard characters/dialogue/Alex location such as unmarried rainy dialogue
   "CDE_Alex_rainy_1": "Hmmph. This is not good weather for sports.$s#$e#Oh well, I can always lift weights inside.$h",
   "CDE_Alex_rainy_2": "Nothing like a hardcore game of mud gridball. As long as you've got buddies who are up for playing.",
   "CDE_Alex_rainy_3": "I went for a run early this morning. Better get my wet clothes in the wash.#$e#If I leave 'em until laundry day, it'll stink something fierce. No thanks!$h",
 
-	//Alex's Standard Dialogue
-
-	//Special Dialogue
+  //Alex's Standard Dialogue
+  //Special Dialogue
   "CDE_Alex_repeated_1": "It might sound weird, but I kind of miss having a coach yelling at me and telling me what to do.$s#$e#I can motivate myself, but when you're giving it your all for someone else, it's just different, you know?",
   "CDE_Alex_repeated_2": "So uh... Haley cooks, huh? I don't think she ever did that much before she met you.#$e#People change, I guess.$s",
   "CDE_Alex_repeated_3": "Hey, Haley's pretty great, don't you think?#$e#No, we're not dating right now. She's uh... going through some stuff.#$e#But it's probably headed there again soon.",
@@ -25,51 +23,28 @@
   "CDE_Alex_repeated_6": "Hey, come by my room any afternoon you want and we can work out together.#$e#It's a lot more fun that way.$h",
   "CDE_Alex_repeated_7": "You know what? I'm going to start reading a new book!",
   "CDE_Alex_repeated_8": "At least the gridball season keeps going through winter. But it just gets too snowy where we live to do anything.",
-	//Fri6, summer_Sun6
-	//Sat_inlaw_Haley+fall_Sat_inlaw_Haley
-	//Sat2, fallSat2
-	//Sat8_inlaw_Haley, fall_Sat8_inlaw_Haley
-	//Sun6_inlaw_Haley, summerSun6_inlaw_Haley
-	//Sun8, summer_Mon8
-	//summer_Thu8, winter_Wed8
-	//winter_Sun2, winter_Sun6
+  "CDE_Alex_repeated_9": "You know, I used to want fame and fortune, but lately I've been starting to sing a different tune. In the end it's the humble little things that satisfy, don't you think?#$e#I still want to go pro, but it's not the most important thing in the world.",
 
-	//festival related dialogue
+  //summer_Sun6, Fri6
+  //fall_Fri8, Mon8
+  //fall_Sat_inlaw_Haley, Sat_inlaw_Haley
+  //fallSat2, Sat2
+  //fall_Sat8_inlaw_Haley, Sat8_inlaw_Haley
+  //summerSun6_inlaw_Haley, Sun6_inlaw_Haley
+  //summer_Mon8, Sun8
+  //summer_Thu8, winter_Wed8
+  //winter_Sun6, winter_Sun2
 
-	//date specific dialogue
-  "CDE_Alex_spring1": "Happy new year!#$e#I'm going to try to upgrade my workout again this year.",
+  //date specific dialogue
+  "CDE_Alex_spring1y2": "Happy new year!#$e#I'm going to try to upgrade my workout again this year.",
   "CDE_Alex_spring23y1": "Nervous? No way, I'm not nervous about finding a partner at the dance tomorrow.#$e#Why would I be?",
   "CDE_Alex_summer10": "Tomorrow should be a good day at the beach. Good food, too!$h",
   "CDE_Alex_fall15": "I'm not gonna lie, it rocks pretty hard to step outside of your house and have a full-fledged carnival waiting for you.$h",
   "CDE_Alex_fall26": "Hmm... if I go into the haunted maze tomorrow, I wonder if I should bring my bat.",
   "CDE_Alex_winter24": "There's gonna be so much good food tomorrow! I just need to watch and make sure I don't overdo it.",
   "CDE_Alex_winter28": "Good weather's coming back! I can't wait.",
-  
-	//heart specific dialogue
-  "CDE_Alex_Mon6": "There are some junior league gridball tryouts at the end of the month. I could give it a shot, but I uh... I dunno.#$e#Maybe another year of training would be what's best for me so I can make a good first impression.",
-  "CDE_Alex_Mon4": "All I need to do is show up for junior league gridball tryouts. Should be challenging, but not too hard.#$e#After a season or two of junior league, it's pro all the way, baby.",
-  "CDE_Alex_Tue10": "Heyyy.#$e#You're lookin' good today!$h#$e#So what's new?",
-  "CDE_Alex_Tue8": "*sigh*... I wish I had more friends in this town who wanted to play sports with me.$s#$e#I mean, it's the perfect place for it! Such a shame for it to go to waste.",
-  "CDE_Alex_Tue6": "Nothing's better than an energetic day at the beach with your friends... right?",
-  "CDE_Alex_Tue4": "It's important to have goals. Ever since I finished high school, I've really relied on my workout routines to give a sense of structure to my days.",
-  "CDE_Alex_Tue2": "I spend a lot of time at the beach during the summer.#$e#Hey, if you're up for a game of catch, you should meet me there next month.",
-  "CDE_Alex_Wed10": "I feel like I learn so much from you, @. I appreciate that you're honest with me.#$e#We'll see where my sports career goes. I appreciate that you're there for me whether I make it or not.",
-  "CDE_Alex_Wed8": "Everyone around me has always told me I'm the best player they have. Gridball is my life.#$e#Then one day, high school ends, and it's like all those promises everyone implied about you just vanish.$s#$e#Gotta figure out something else with my life, I guess. Right?",
-  "CDE_Alex_Wed6": "Gridball's more than just a game to me. It's really the one thing that I've always been good at.#$e#I don't know what I'd do without it.",
-  "CDE_Alex_Wed4": "Do you ever watch Sports Report?#$b#I've been glued to it in the evenings. The gridball draft is going on right now.$h",
-  "CDE_Alex_Thu8": "Everybody's got to have dreams. I think it's really cool how you just got up one day and came here to take over the farm.#$e#Hats off to you.",
-  "CDE_Alex_Thu6": "The air's starting to warm up... I'm feeling pumped.",
-  "CDE_Alex_Thu4": "I was going to try out for junior-league gridball last year, but my knee was kind of messed up.#$e#Hey, you can't rush this kind of stuff.",
-  "CDE_Alex_Thu2": "I feel bad for people who have allergies. It's like, how do you even get your heart rate up if you're sneezing all the time?",
-  "CDE_Alex_Fri10": "Hey um...$l#$b#Let me know if you ever want some help with your farmwork.$l#$e#I've gotta do something that's more than just exercise for its own sake, right?$h",
-  "CDE_Alex_Fri8": "Hi @. You look sporty today.$h^Hey @. Did you do something different with your hair? Something keeps grabbing my attention.$h",
-  "CDE_Alex_Fri2": "In school, my teachers always complained about how gridball players make too much money. That's so ridiculous.#$e#If anything, they're underpaid. How many people do you know who can do what a pro does?",
-  "CDE_Alex_Sat10": "I've been having a hard time staying focused lately.$l",
-  "CDE_Alex_Sat8": "...Where do you think I'll be in 10 years?$s",
-  "CDE_Alex_Sat6": "My arms are really sore, but that's the sign of progress for a guy like me.#$e#I must've done a thousand push-ups yesterday.",
-  "CDE_Alex_Sat4": "Grandma keeps complaining I take up too much space in the freezer with all of my ice cube trays.#$b#But I mean, how else am I supposed to have enough ice to take ice baths?",
-  "CDE_Alex_Sun10": "Haley and I always thought we could be the town's 'power couple,' but it was always complicated.#$e#We just weren't meant for each other, beyond being friends.#$e#I mean, clearly, right?$l",
-  "CDE_Alex_Sun6": "Hey, come by my room any afternoon you want and we can work out together.#$e#It's really a lot more fun to work out with friends.$h",
+
+  //heart specific dialogue
   "CDE_Alex_summerMon10": "It's weird. I never really talked about my feelings with many people before I met you.$l#$e#I feel like I can just be myself.$l",
   "CDE_Alex_summerMon6": "Hey @. Having a nice summer?#$e#What's new with you?",
   "CDE_Alex_summerMon4": "Hey, nice tan.",
@@ -134,16 +109,38 @@
   "CDE_Alex_winterSun8": "Hey @. Do you want to hang out?#$e#It's okay if I miss the start of the game. I'm happy to spend a little time with you.",
   "CDE_Alex_winterSun4": "Hey, the gridball game is on today!#$e#This might be my favorite day of the week.",
 
-	
-	//generic weekday dialogue
+  "CDE_Alex_Mon6": "There are some junior league gridball tryouts at the end of the month. I could give it a shot, but I uh... I dunno.#$e#Maybe another year of training would be what's best for me so I can make a good first impression.",
+  "CDE_Alex_Mon4": "All I need to do is show up for junior league gridball tryouts. Should be challenging, but not too hard.#$e#After a season or two of junior league, it's pro all the way, baby.",
+  "CDE_Alex_Tue10": "Heyyy.#$e#You're lookin' good today!$h#$e#So what's new?",
+  "CDE_Alex_Tue8": "*sigh*... I wish I had more friends in this town who wanted to play sports with me.$s#$e#I mean, it's the perfect place for it! Such a shame for it to go to waste.",
+  "CDE_Alex_Tue6": "Nothing's better than an energetic day at the beach with your friends... right?",
+  "CDE_Alex_Tue4": "It's important to have goals. Ever since I finished high school, I've really relied on my workout routines to give a sense of structure to my days.",
+  "CDE_Alex_Tue2": "I spend a lot of time at the beach during the summer.#$e#Hey, if you're up for a game of catch, you should meet me there next month.",
+  "CDE_Alex_Wed10": "I feel like I learn so much from you, @. I appreciate that you're honest with me.#$e#We'll see where my sports career goes. I appreciate that you're there for me whether I make it or not.",
+  "CDE_Alex_Wed8": "Everyone around me has always told me I'm the best player they have. Gridball is my life.#$e#Then one day, high school ends, and it's like all those promises everyone implied about you just vanish.$s#$e#Gotta figure out something else with my life, I guess. Right?",
+  "CDE_Alex_Wed6": "Gridball's more than just a game to me. It's really the one thing that I've always been good at.#$e#I don't know what I'd do without it.",
+  "CDE_Alex_Wed4": "Do you ever watch Sports Report?#$b#I've been glued to it in the evenings. The gridball draft is going on right now.$h",
+  "CDE_Alex_Thu8": "Everybody's got to have dreams. I think it's really cool how you just got up one day and came here to take over the farm.#$e#Hats off to you.",
+  "CDE_Alex_Thu6": "The air's starting to warm up... I'm feeling pumped.",
+  "CDE_Alex_Thu4": "I was going to try out for junior-league gridball last year, but my knee was kind of messed up.#$e#Hey, you can't rush this kind of stuff.",
+  "CDE_Alex_Thu2": "I feel bad for people who have allergies. It's like, how do you even get your heart rate up if you're sneezing all the time?",
+  "CDE_Alex_Fri10": "Hey um...$l#$b#Let me know if you ever want some help with your farmwork.$l#$e#I've gotta do something that's more than just exercise for its own sake, right?$h",
+  "CDE_Alex_Fri8": "Hi @. You look sporty today.$h^Hey @. Did you do something different with your hair? Something keeps grabbing my attention.$h",
+  "CDE_Alex_Fri2": "In school, my teachers always complained about how gridball players make too much money. That's so ridiculous.#$e#If anything, they're underpaid. How many people do you know who can do what a pro does?",
+  "CDE_Alex_Sat10": "I've been having a hard time staying focused lately.$l",
+  "CDE_Alex_Sat8": "...Where do you think I'll be in 10 years?$s",
+  "CDE_Alex_Sat6": "My arms are really sore, but that's the sign of progress for a guy like me.#$e#I must've done a thousand push-ups yesterday.",
+  "CDE_Alex_Sat4": "Grandma keeps complaining I take up too much space in the freezer with all of my ice cube trays.#$b#But I mean, how else am I supposed to have enough ice to take ice baths?",
+  "CDE_Alex_Sun10": "Haley and I always thought we could be the town's 'power couple,' but it was always complicated.#$e#We just weren't meant for each other, beyond being friends.#$e#I mean, clearly, right?$l",
+  "CDE_Alex_Sun6": "Hey, come by my room any afternoon you want and we can work out together.#$e#It's really a lot more fun to work out with friends.$h",
+
+  //generic weekday dialogue
+  "CDE_Alex_summerSuninlawHaley": "Oh, hey. How's the married life coming along?$9",
   "CDE_Alex_summerSun": "Haley's pretty hot, don't you think?#$e#It really sucks that there aren't more hot girls in Pelican Town.^Maybe you oughta hang out with her.",
-  "CDE_Alex_summerSun_inlaw_Haley": "Oh, hey. How's the married life coming along?$9",
   "CDE_Alex_fallTue": "Isn't it sad how some people just don't ever reach their full potential?#$e#The important thing is just to keep fighting, no matter what.",
-  "CDE_Alex_Mon8+fallFri8": "You know, I used to want fame and fortune, but lately I've been starting to sing a different tune. In the end it's the humble little things that satisfy, don't you think?#$e#I still want to go pro, but it's not the most important thing in the world.",
 
-	//Alex's Married Dialogue
-
-	//weather specific dialogue
+  //Alex's Married Dialogue
+  //weather specific dialogue
   "CDE_Alex_Married_RainyDay_1": "With all this space, I can really achieve a full body workout.",
   "CDE_Alex_Married_RainyDay_2": "I know you're not the type of farmer who'd raise beef cattle. That's okay; I can just get some steak at the store.",
   "CDE_Alex_Married_RainyDay_3": "I never had many friends in town... I sometimes wonder how I'd end up if you never moved here.$9",
@@ -193,21 +190,21 @@
   "CDE_Alex_Married_IndoorNight_9": "If you need some quiet time to yourself, that's okay with me.",
   "CDE_Alex_Married_IndoorNight_10": "Hey. Got some energy left in you?$l",
 
-	//Location specific dialogue
+  //Location specific dialogue
   "CDE_Alex_Married_funLeave_1": "I'm going into town today. I'll see you tonight.",
   "CDE_Alex_Married_funLeave_2": "It's about time I owe a visit to Grandma and Grandpa. That's where I'll be, so drop in if you get a chance!",
   "CDE_Alex_Married_funReturn_1": "I had a good day. I like to see my grandparents often; they're getting pretty old.",
   "CDE_Alex_Married_funReturn_2": "It was nice visiting town today. Grandma had some cookies out, of course!",
 
-  "CDE_Alex_patio_1": "Unghh... one... Unghhh... two... It feels great to lift weights outdoors!$6",
-  "CDE_Alex_patio_2": "*huff*... Alright! *puff*... Feelin' alive! *huff*...$6",
-  "CDE_Alex_patio_3": "*puff* Y'know what they say... *huff* wake up the body, wake up the soul!$6",
+  "CDE_Alex_Married_patio_1": "Unghh... one... Unghhh... two... It feels great to lift weights outdoors!$6",
+  "CDE_Alex_Married_patio_2": "*huff*... Alright! *puff*... Feelin' alive! *huff*...$6",
+  "CDE_Alex_Married_patio_3": "*puff* Y'know what they say... *huff* wake up the body, wake up the soul!$6",
 
-  "CDE_Alex_spouseRoom_1": "Don't ever let me get lazy. I want to stay in good shape for you!",
-  "CDE_Alex_spouseRoom_2": "There's lots of room here to do my exercises. I'm making more progress than ever!",
-  "CDE_Alex_spouseRoom_3": "Honey, I think I put on a pound or two this week...$s#$e#Haha, just kidding. If I did, it's all muscle.$h",
-  "CDE_Alex_spouseRoom_4": "A home gym... man, this is so much better than just lifting weights in my old bedroom.$h",
-  "CDE_Alex_spouseRoom_5": "I don't totally feel like working out today, but that's sort of the point, isn't it?#$e#Gotta get good at doing hard things. Then everything else is easier.",
+  "CDE_Alex_Married_spouseRoom_1": "Don't ever let me get lazy. I want to stay in good shape for you!",
+  "CDE_Alex_Married_spouseRoom_2": "There's lots of room here to do my exercises. I'm making more progress than ever!",
+  "CDE_Alex_Married_spouseRoom_3": "Honey, I think I put on a pound or two this week...$s#$e#Haha, just kidding. If I did, it's all muscle.$h",
+  "CDE_Alex_Married_spouseRoom_4": "A home gym... man, this is so much better than just lifting weights in my old bedroom.$h",
+  "CDE_Alex_Married_spouseRoom_5": "I don't totally feel like working out today, but that's sort of the point, isn't it?#$e#Gotta get good at doing hard things. Then everything else is easier.",
 
   "CDE_Alex_Married_OneKid_1": "I'm still getting used to my new life as a stay-at-home dad.$h",
   "CDE_Alex_Married_OneKid_2": "I could run a marathon if I really needed to, but looking after a kid all day is a completely different kind of exhaustion.$s",
@@ -230,26 +227,29 @@
   "CDE_Alex_Married_Outdoor_8": "Look at us, with our little farm. We make a cute couple.$h^Hey. Maybe it's the golden light, but you look beautiful today.$l",
   "CDE_Alex_Married_Outdoor_9": "Ahh... It feels great to be outside. Stardew Valley really is the most beautiful place...",
   "CDE_Alex_Married_Outdoor_10": "I wonder how old Dusty's doing? I oughta pay him a visit.",
-  
-	//Festival Specific Dialogue
 
-	//Date Specific Dialogue
+  //Festival Specific Dialogue
+
+  //Date Specific Dialogue
   "CDE_Alex_Married_spring3": "These past couple of days have been pretty busy for you, haven't they?",
   "CDE_Alex_Married_spring15": "When I visit my grandpa today, I wonder if I can get him to watch something good with me.#$b#Like... Sports Report! I don't wanna miss a minute of the gridball draft.$h",
   "CDE_Alex_Married_spring27": "I should update my workout mix. Summer's gonna be here soon!",
+  
   "CDE_Alex_Married_summer3": "I gotta say, I don't really miss working at the ice cream stand.#$e#What, do you miss the ice cream? Well, we could always make our own.#$b#I think uh... Sam's mom has a recipe. Or did she already share it with you?",
   "CDE_Alex_Married_summer12": "My stomach's all stretched after yesterday and I'm hungry again. I'd better take it easy today.",
   "CDE_Alex_Married_summer15": "Oof, I think I messed up my knee yesterday. Better take it easy with the leg days for a little while.#$e#Don't worry, I value my body too much to abuse it. I'll make sure I don't make it worse.",
   "CDE_Alex_Married_summer20": "Oh yeah! My knee's doing much better now. Thanks for asking.$h",
+
   "CDE_Alex_Married_fall3": "I almost forgot, it's salmon season! You know what sounds good?$h#$e#Pan roasted salmon with a lemon butter sauce. And a side of kale and... whatever that grain is. The one that isn't rice.$l",
   "CDE_Alex_Married_fall7": "It's the Tunnelers' first game of the season today! Oh, man, I'm so psyched!$h",
   "CDE_Alex_Married_fall11": "Whoa... I may have overdone it with the protein and carbo-loading this morning. Getting... diminishing returns.$s",
   "CDE_Alex_Married_fall22": "Oh yeah, yesterday's game was awesome! The Tunnelers were down, but they came back and crushed it in the last couple minutes.$h",
+ 
   "CDE_Alex_Married_winter10": "When I was younger, I didn't think I really needed friends. Just respect.$9#$e#But now, I can see I was missing out. It's strange to think I went through so much of my life with so little genuine human connection...$9",
   "CDE_Alex_Married_winter15": "These cold days are pretty rough on my grandparents. I'd better go visit 'em today.",
   "CDE_Alex_Married_winter22": "*sigh*... Just one more gridball game of the season, but at least it'll be a good one. The championship game is coming up on new year's eve."
 
-	//Season specific dialogue
+  //Season specific dialogue
 
-	//Affection specific dialogue
+  //Affection specific dialogue
 }
