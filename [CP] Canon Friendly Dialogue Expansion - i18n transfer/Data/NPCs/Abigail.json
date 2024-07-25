@@ -1,24 +1,31 @@
 {
   "Changes": [
-    { //I've done my best to sort these entries in order of priority, so that it is easier to track which lines will be visible to players when. I've also commented on what the codes do where i think it could help.
+    {
+      "LogName": "CDE_Abigail_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)128": "{{i18n: CDE_Abigail_Pufferfish}}",
+        "AcceptGift_(O)276": "{{i18n: CDE_Abigail_Pumpkin}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Abigail_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
-        // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)373": "{{i18n: CDE_Abigail_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CDE_Abigail_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CDE_Abigail_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CDE_Abigail_RabbitsFoot}}",
+
         "AcceptGift_(O)904": "{{i18n: CDE_Abigail_BananaPudding}}",
         "AcceptGift_(O)611": "{{i18n: CDE_Abigail_BlackberryCobbler}}",
         "AcceptGift_(O)220": "{{i18n: CDE_Abigail_ChocolateCake}}",
-        "AcceptGift_(O)128": "{{i18n: CDE_Abigail_Pufferfish}}",
-        "AcceptGift_(O)276": "{{i18n: CDE_Abigail_Pumpkin}}",
         "AcceptGift_(O)226": "{{i18n: CDE_Abigail_SpicyEel}}"
-      },
-      "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+      }
     },
     {
       "LogName": "CDE_Abigail_Rainy",
@@ -33,11 +40,9 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
-        //Special Dialogue
+        //special dialogue
 
         //Date Specific Dialogue
-        //spring_12_2 means any year besides year 1, fall_26 means only year 1. This rule is specific to calander date specific dialogue and the rules are different for heart keys, where not specifying a year will make the line applicable at any year
-        //this is another area i think we should look at randomizing- currently you will only see fall 26 once at most. we could make fall 26 and fall 26_2 randomize year to year to give people more chances at seeing the line. Should summer_6 be first year exclusive?
         "spring_12": "{{i18n: CDE_Abigail_spring12}}",
         "spring_12_2": "{{i18n: CDE_Abigail_spring12}}",
         "spring_1_2": "{{i18n: CDE_Abigail_spring1y2}}",
@@ -58,7 +63,7 @@
         "winter_28": "{{i18n: CDE_Abigail_winter28}}",
         "winter_28_2": "{{i18n: CDE_Abigail_winter28}}",
 
-        //Hearts Specific Dialogue
+        //Heart Specific Dialogue
         "summer_Mon8": "{{i18n: CDE_Abigail_summerMon8}}",
         "summer_Mon6": "{{i18n: CDE_Abigail_summerMon6}}",
         "summer_Mon4": "{{i18n: CDE_Abigail_summerMon4}}",
@@ -148,14 +153,12 @@
         "Sat2": "{{i18n: CDE_Abigail_Sat2}}",
 
         //Generic Weekday Dialogue
-        //"winter_Fri" codes for any friday in winter when no other conditions are met
-        //"Fri" codes for any friday when no other conditions are met
         "spring_Thu": "{{i18n:  CDE_Abigail_springThu}}",
         "fall_Tue": "{{i18n: CDE_Abigail_fallTue}}"
       }
     },
     {
-      "LogName": "CDE_Abigail_Married_spouseRoom",
+      "LogName": "CDE_Abigail_Marriage_spouseRoom",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
@@ -170,7 +173,7 @@
         //these lines follow different priority rules than unmarried dialogue does, with different options having different % likelihoods to show up each day when the right conditions are met.
 
         //Weather specific dialogue
-        //note that Indoor_Day is the key for any weather besides rain, even when the NPC is outside. Day means prior to 6pm. Indoor_Night is specific to inside the farmhouse when it's not raining after 6pm.
+        //note that Indoor_Day is the key for any weather besides rain, even when the Abigail is outside. Day means prior to 6pm. Indoor_Night is specific to inside the farmhouse when it's not raining after 6pm.
         "Rainy_Day_0": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 1,2}}}}",
         "Rainy_Day_1": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 3,4}}}}",
         "Rainy_Day_2": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 5,6}}}}",
@@ -196,13 +199,13 @@
         "Indoor_Night_4": "{{i18n: CDE_Abigail_Married_IndoorNight_{{Random: 9,10,11}}}}",
 
         //locational specific dialogue
-        //funleave and return only show up on Mondays or Fridays (except for characters with jobs), and only while the npc is leaving or entering the farmhouse. fun return will not display once the NPC has reached their target location.
-        //Kid dialogue only displays when the NPC is standing in the farmhouse kitchen
-        //Outdoor Dialogue only displays on the farm. _num has an 80% chance of being displayed, _npc has a 20% chance. _npc is currently unused here
-        //currently unused here: "spouseRoom_Abigail" for dialogue unique to when she is inside her room, "patio_Spouse" when shes standing on her patio.
+        //funleave and return only show up on Mondays or Fridays (except for characters with jobs), and only while the Abigail is leaving or entering the farmhouse. fun return will not display once the Abigail has reached their target location.
+        //Kid dialogue only displays when the Abigail is standing in the farmhouse kitchen
+        //Kid dialogue only displays when the Abigail is standing in the farmhouse kitchen
+        //Outdoor Dialogue only displays on the farm. _num has an 80% chance of being displayed, _Abigail has a 20% chance. _Abigail is currently unused here
         "funLeave_Abigail": "{{i18n: CDE_Abigail_Married_funLeave_{{Random: 1,2}}}}",
         "funReturn_Abigail": "{{i18n: CDE_Abigail_Married_funReturn_{{Random: 1,2}}}}",
-       
+
         "OneKid_3": "{{i18n: CDE_Abigail_Married_OneKid_{{Random: 1,2}}}}",
         "TwoKids_0": "{{i18n: CDE_Abigail_Married_TwoKids_{{Random: 1,2}}}}",
         "TwoKids_2": "{{i18n: CDE_Abigail_Married_TwoKids_{{Random: 3,4}}}}",
@@ -219,27 +222,26 @@
         //Date Specific Dialogue
         "spring_6": "{{i18n: CDE_Abigail_Married_spring6}}",
         "spring_16": "{{i18n: CDE_Abigail_Married_spring16}}",
-        
+
         "summer_19": "{{i18n: CDE_Abigail_Married_summer19}}",
         "summer_22": "{{i18n: CDE_Abigail_Married_summer22}}",
         "summer_23": "{{i18n: CDE_Abigail_Married_summer23}}",
-        
+
         "fall_12": "{{i18n: CDE_Abigail_Married_fall12}}",
         "fall_24": "{{i18n: CDE_Abigail_Married_fall24}}",
         "fall_28": "{{i18n: CDE_Abigail_Married_fall28}}",
-        
+
         "winter_1": "{{i18n: CDE_Abigail_Married_winter1}}",
         "winter_8": "{{i18n: CDE_Abigail_Married_winter8}}",
         "winter_19": "{{i18n: CDE_Abigail_Married_winter19}}",
         "winter_24": "{{i18n: CDE_Abigail_Married_winter24}}",
         "winter_28": "{{i18n: CDE_Abigail_Married_winter28}}"
 
-
-        //season specific dialogue
+        //Seasonal Dialogue
         //shown at 9+ hearts, with a 5% chance each day
-        //currently unused. key looks like "fall_NPC"
+        //currently unused. key looks like "fall_Abigail"
 
-        //affection specific dialogue
+        //Affection Specific Dialogue
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"

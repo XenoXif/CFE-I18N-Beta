@@ -1,4 +1,4 @@
-//Abigail
+{ //Abigail
   //Abigail's Gift Tastes
   "CDE_Abigail_GoldPumpkin": "No way! Is that-?$7#$b#You actually found the gold pumpkin!$h#$e#@, you are so cool. I mean it!$l",
   "CDE_Abigail_RockCandy": "That looks delicious! *crunch*#$b#Hm, not as crunchy as some I've tried, but I feel ready to take on the world! Let's go!$h",
@@ -232,6 +232,7 @@
   "CDE_Abigail_Married_winter8": "I know we're all grown up, but you've gotta let me get out some of my inner child today. I'm going to make a snowman that's extra uncanny.$h",
   "CDE_Abigail_Married_winter19": "Tonight's supposed to be a Saloon night again. Think you can make it?#$e#It's my due diligence as a friend. I'm happy I have you to myself on all the other evenings.$h",
   "CDE_Abigail_Married_winter24": "I think I enjoy the Feast of the Winter Star more when I pause and realize how much I have to be thankful for.#$e#It hasn't been a bad life so far, you know?$h",
-  "CDE_Abigail_Married_winter28": "I know I'm not much of a drinker, but hey, here are some adult beverages for the evening. Tonight's as good a night as any! [346][346]",
+  "CDE_Abigail_Married_winter28": "I know I'm not much of a drinker, but hey, here are some adult beverages for the evening. Tonight's as good a night as any! [346][346]"
   //Season specific dialogue
   //Affection specific dialogue
+}
