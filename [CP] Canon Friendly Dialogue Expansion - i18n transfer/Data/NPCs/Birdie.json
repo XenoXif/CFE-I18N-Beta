@@ -3,19 +3,19 @@
   "Action": "EditData",
   "Target": "Data/ExtraDialogue",
   "Entries": {
-    "Birdie7": null,
-    "Birdie8": null,
-    "Birdie9": null,
-    "Birdie10": null,
-    "Birdie11": null,
-    "Birdie13": null,
-    "Birdie14": null,
-    "Birdie16": null,
-    "Birdie18": null,
-    "Birdie20": null,
-    "Birdie24": null,
-    "Birdie25": null,
-    "Birdie26": null,
-    "Birdie27": null
+    "Birdie7": "{{i18n: CDE_Birdie_7}}",
+    "Birdie8": "{{i18n: CDE_Birdie_8}}",
+    "Birdie9": "{{i18n: CDE_Birdie_9}}",
+    "Birdie10": "{{i18n: CDE_Birdie_10}}",
+    "Birdie11": "{{i18n: CDE_Birdie_11}}",
+    "Birdie13": "{{i18n: CDE_Birdie_13}}",
+    "Birdie14": "{{i18n: CDE_Birdie_14}}",
+    "Birdie16": "{{i18n: CDE_Birdie_16}}",
+    "Birdie18": "{{i18n: CDE_Birdie_18}}",
+    "Birdie20": "{{i18n: CDE_Birdie_20}}",
+    "Birdie24": "{{i18n: CDE_Birdie_24}}",
+    "Birdie25": "{{i18n: CDE_Birdie_25}}",
+    "Birdie26": "{{i18n: CDE_Birdie_26}}",
+    "Birdie27": "{{i18n: CDE_Birdie_27}}"
   }
 }
