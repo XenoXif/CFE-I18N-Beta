@@ -6,7 +6,7 @@
       "Target": "Characters/Dialogue/Caroline",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)213": "{{i18n: CDE_Caroline_}}"
+        "AcceptGift_(O)213": "{{i18n: CDE_Caroline_FishTaco}}"
       },
       "When": { "ModdedDialogCompat": "true" }
     },
@@ -19,7 +19,6 @@
         "AcceptGift_(O)797": "{{i18n: CDE_Caroline_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CDE_Caroline_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CDE_Caroline_RabbitsFoot}}",
-        "AcceptGift_(O)213": "{{i18n: CDE_Caroline_FishTaco}}",
         "AcceptGift_(O)614": "{{i18n: CDE_Caroline_GreenTea}}",
         "AcceptGift_(O)593": "{{i18n: CDE_Caroline_SummerSpangle}}",
         "AcceptGift_(O)907": "{{i18n: CDE_Caroline_TropicalCurry}}"
