@@ -64,6 +64,7 @@
   //these lines target files other than the standard characters/dialogue/npc location such as unmarried rainy dialogue
   "CDE_Abigail_rainy_1": "The valley looks more interesting in the rain... don't you think?",
   "CDE_Abigail_rainy_2": "The lake's a beautiful place to visit when the weather's like this.",
+  "CDE_Abigail_rainy_3": "A world full of mystery is the only one worth living in.#$e#As soon as one mystery is solved, we're desperate to find another.#$b#Isn't everyone like that?",
 
   //Abigail's Standard Dialogue
   //date specific dialogue
@@ -180,13 +181,15 @@
   //Abigail's Married Dialogue
   //weather specific dialogue
   "CDE_Abigail_Married_RainyDay_1": "I think I'll bust out my good ol' sketchbook today. I've got some ideas for mythical beasts that could be fun.",
-  "CDE_Abigail_Married_RainyDay_2": "#The dark... the rain... it gets me excited.$l",
-  "CDE_Abigail_Married_RainyDay_3": "Hey, remember when we played that duet by the lake? This weather reminds me of that day.#$e#$c .5#Do you still carry around that mini harp? That one kind of surprised me. Where'd you learn to play, anyway?#You really surprised me with that mini-harp... I never expected that. I guess that's why I like you so much.$l",
-  "CDE_Abigail_Married_RainyDay_4": "Hey! I woke up early and did some exploring on my own. I found this and it reminded me of you. [768 767 769 66 82]#$e#$c .5#Where'd I find it at this ungodly early hour? Ooh, wouldn't YOU like to know?$h#Think you can find something better than that? I'm not so sure!$h",
-  "CDE_Abigail_Married_RainyDay_5": "Hehe, I did some sword training in the rainy darkness. You've gotta admit, your wife is pretty epic.$h",
-  "CDE_Abigail_Married_RainyDay_6": "#It might be a good day to visit the caves, huh? Just be careful out there, and if you go, bring a Life Elixir or two.",
-  "CDE_Abigail_Married_RainyDay_7": "Is it getting kind of dusty in here? Don't worry, I'll take care of it.",
-  "CDE_Abigail_Married_RainyDay_8": "Maybe I'll boot up Journey Of The Prairie King today... one of these days I swear I'll beat it fully.$h",
+  "CDE_Abigail_Married_RainyDay_2": "The dark... the rain... it gets me excited.$l",
+  "CDE_Abigail_Married_RainyDay_3": "Hey, remember when we played that duet by the lake? This weather reminds me of that day.#$e#Do you still carry around that mini harp? That one kind of surprised me. Where'd you learn to play, anyway?",
+  "CDE_Abigail_Married_RainyDay_4": "I've been practicing on my flute. Today is a good day for it.#$e#You really surprised me with that mini-harp that one time... I never expected that.#$b#I guess that's why I like you so much.$l",
+  "CDE_Abigail_Married_RainyDay_5": "Hey! I woke up early and did some exploring on my own. I found this and it reminded me of you. [768 767 769 66 82]#$e#Where'd I find it at this ungodly early hour? Ooh, wouldn't YOU like to know?$h",
+  "CDE_Abigail_Married_RainyDay_6": "Night-time exploration is the best. Take a gander at what I discovered. [768 767 769 66 82]#$e#Think you can find something better than that? I'm not so sure!$h",
+  "CDE_Abigail_Married_RainyDay_7": "Hehe, I did some sword training in the rainy darkness. You've gotta admit, your wife is pretty epic.$h",
+  "CDE_Abigail_Married_RainyDay_8": "It might be a good day to visit the caves, huh? Just be careful out there, and if you go, bring a Life Elixir or two.",
+  "CDE_Abigail_Married_RainyDay_9": "Is it getting kind of dusty in here? Don't worry, I'll take care of it.",
+  "CDE_Abigail_Married_RainyDay_10": "Maybe I'll boot up Journey Of The Prairie King today... one of these days I swear I'll beat it fully.$h",
 
   "CDE_Abigail_Married_RainyNight_1": "The countryside looks more interesting on a day like this, don't you think?",
   "CDE_Abigail_Married_RainyNight_2": "I was just gazing out into the rainswept woods... I swear I saw something darker than black shifting around the trees.$6",
@@ -209,6 +212,11 @@
   "CDE_Abigail_Married_IndoorDay_8": "Hey! I'm just debating what I should do today. I'm not used to having this much freedom!",
   "CDE_Abigail_Married_IndoorDay_9": "Sure, I can do some cleaning today, no problem. It's actually kind of fun to clean up when I'm thinking about you.#",
   "CDE_Abigail_Married_IndoorDay_10": "You don't mind if I do some re-decorating now and then, do you? I'm still excited to have a place of my own to work on.",
+  "CDE_Abigail_Married_IndoorDay_11": "I wish I could animate a broom to life, to do all the sweeping for us.#$e#Aw, c'mon. What would go wrong?$h#$e#You know I'd be great friends with Mr. Broomy.",
+  "CDE_Abigail_Married_IndoorDay_12": "I hope your day's not too boring, but this ought to spice things up if you need a little adventuring. [286 287 205 732 441]",
+  "CDE_Abigail_Married_IndoorDay_13": "It's a chocolate cereal kind of morning for me.#$e#We've got a lot of great food on this farm, but please allow me this one indulgence.$l",
+  "CDE_Abigail_Married_IndoorDay_14": "%pet needs some affection and playtime. I'll take good care of our fur-baby today.#$e#Well, sure, the other animals will get some pets and scritches from me, too.$h",
+  "CDE_Abigail_Married_IndoorDay_15": "If I'm hungry, I can't just wander to the store shelves and pilfer the snack foods like I used to.#$e#Anyway, long story short, I was hungry during the night and I made some food. Want some? [232 244 228 224]",
 
   "CDE_Abigail_Married_IndoorNight_1": "Heyyy, what'd you do? Enchant me with a love spell, or something? You look really good tonight.$l",
   "CDE_Abigail_Married_IndoorNight_2": "I had a good day today. There's always something interesting going on around here, if you look close enough.",
@@ -220,6 +228,7 @@
   "CDE_Abigail_Married_IndoorNight_8": "*yawn*... I'm ready to call it a night pretty soon.$h",
   "CDE_Abigail_Married_IndoorNight_9": "David Jr.'s been running frantic laps around his cage. I hope he doesn't keep it going after we head to bed.",
   "CDE_Abigail_Married_IndoorNight_10": "The sounds of the night are louder out here. I'll never stop enjoying that.",
+  "CDE_Abigail_Married_IndoorNight_11": "Hey! You look like you've been hard at work. Can I help you relax?",
 
   //locational specific dialogue
   "CDE_Abigail_Married_funLeave_1": "I'm visiting my parents today. Someone's gotta check in with them, right?",
@@ -234,6 +243,16 @@
   "CDE_Abigail_Married_TwoKids_4": "I had a dream that %kid2 will grow up to be a famous monster hunter. I've already been thinking about a little armor set.",
   "CDE_Abigail_Married_TwoKids_5": "We had kids young, but look on the bright side! At least we won't be super old when they're all grown up.",
   "CDE_Abigail_Married_TwoKids_6": "A cool old house, a couple kids, and an amazing farm. I never thought I'd come this far... but, hey! Our lives are just getting started.$h",
+
+  "CDE_Abigail_Married_patio_1": "%Abigail is lost in her music.",
+  "CDE_Abigail_Married_patio_2": "%Abigail appears to be perfectly content.",
+  "CDE_Abigail_Married_patio_3": "%Abigail's eyes are closed as she plays peacefully. Better not interrupt.",
+
+  "CDE_Abigail_Married_spouseRoom_1": "I got up a little before you and fed David Jr. He's very active this morning.",
+  "CDE_Abigail_Married_spouseRoom_2": "I hope you don't mind the guinea pig smell.",
+  "CDE_Abigail_Married_spouseRoom_3": "My broadsword could use some sharpening today.#$e#What? I use it sometimes.#$e#I just need to get strong enough to heft it proerly...$s",
+  "CDE_Abigail_Married_spouseRoom_4": "If I play my drums, can you hear them all the way from the south end of the farm?",
+  "CDE_Abigail_Married_spouseRoom_5": "I'm pretty sure none of my spellbooks are genuine. You never know, though.#$e#A couple of times, I've read them and noticed a soft chill or a flicker of the lights. But maybe it was just my imagination.$u",
 
   "CDE_Abigail_Married_Outdoor_1": "What an awesome morning! I can't believe how many of these I missed before we got married.$h",
   "CDE_Abigail_Married_Outdoor_2": "The soft breeze is blowing mountain air throughout the valley today. It smells like fresh pine and sage.",
