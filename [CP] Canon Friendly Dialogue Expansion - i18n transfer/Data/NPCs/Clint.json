@@ -61,7 +61,7 @@
         "summer_Sun6": "{{i18n: CDE_Clint_summerSun6}}",
 
         "fall_Mon8": "{{i18n: CDE_Clint_fallMon8}}",
-        "fall_Tue8": "{{i18n: CDE_Clint_fall}}",
+        "fall_Tue8": "{{i18n: CDE_Clint_fallTue8}}",
         "fall_Tue2": "{{i18n: CDE_Clint_repeated_1}}",
         "fall_Wed10": "{{i18n: CDE_Clint_fallWed10}}",
         "fall_Thu6": "{{i18n: CDE_Clint_fallThu6}}",
@@ -112,7 +112,7 @@
         "winter_Sun_inlaw_Emily": "{{i18n: CDE_Clint_winterSuninlawEmily}}",
 
         "Mon_inlaw_Emily": "{{i18n: CDE_Clint_MoninlawEmily}}",
-        "Thu": "{{i18n: CDE_Clint_Thu}}",
+        "Thu": "{{i18n: CDE_Clint_Thu}}"
       }
     }
   ]

@@ -109,7 +109,7 @@
         "fall_Sun": "{{i18n: CDE_Demetrius_fallSun}}",
         "winter_Wed": "{{i18n: CDE_Demetrius_winterWed}}",
         "winter_Sat": "{{i18n: CDE_Demetrius_winterSat}}",
-        "Sun_inlaw_Sebastian": "{{i18n: CDE_Demetrius_SuninlawSebastian}}",
+        "Sun_inlaw_Sebastian": "{{i18n: CDE_Demetrius_SuninlawSebastian}}"
       }
     }
   ]
