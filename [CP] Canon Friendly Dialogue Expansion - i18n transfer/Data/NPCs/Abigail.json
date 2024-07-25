@@ -25,7 +25,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
-        "Abigail": "{{i18n: CDE_Abigail_rainy_{{random: 1,2}}}}"
+        "Abigail": "{{i18n: CDE_Abigail_rainy_{{random: 1,2,3}}}}"
       }
     },
     {
@@ -155,6 +155,14 @@
       }
     },
     {
+      "LogName": "CDE_Abigail_Married_spouseRoom",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "Entries": {
+        "spouseRoom_Abigail": "{{i18n: CDE_Abigail_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
+      }
+    },
+    {
       "LogName": "CDE_Abigail_Marriage",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueAbigail",
@@ -164,10 +172,10 @@
         //Weather specific dialogue
         //note that Indoor_Day is the key for any weather besides rain, even when the NPC is outside. Day means prior to 6pm. Indoor_Night is specific to inside the farmhouse when it's not raining after 6pm.
         "Rainy_Day_0": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 1,2}}}}",
-        "Rainy_Day_1": "{{i18n: CDE_Abigail_Married_RainyDay_3}}",
-        "Rainy_Day_2": "{{i18n: CDE_Abigail_Married_RainyDay_4}}",
-        "Rainy_Day_3": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 5,6}}}}",
-        "Rainy_Day_4": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 7,8}}}}",
+        "Rainy_Day_1": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 3,4}}}}",
+        "Rainy_Day_2": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 5,6}}}}",
+        "Rainy_Day_3": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 7,8}}}}",
+        "Rainy_Day_4": "{{i18n: CDE_Abigail_Married_RainyDay_{{Random: 9,10}}}}",
 
         "Rainy_Night_0": "{{i18n: CDE_Abigail_Married_RainyNight_{{Random: 1,2}}}}",
         "Rainy_Night_1": "{{i18n: CDE_Abigail_Married_RainyNight_{{Random: 3,4}}}}",
@@ -175,17 +183,17 @@
         "Rainy_Night_3": "{{i18n: CDE_Abigail_Married_RainyNight_{{Random: 7,8}}}}",
         "Rainy_Night_4": "{{i18n: CDE_Abigail_Married_RainyNight_{{Random: 9,10}}}}",
 
-        "Indoor_Day_0": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 1,2}}}}",
-        "Indoor_Day_1": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 3,4}}}}",
-        "Indoor_Day_2": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 5,6}}}}",
-        "Indoor_Day_3": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 7,8}}}}",
-        "Indoor_Day_4": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 9,10}}}}",
+        "Indoor_Day_0": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 1,2,3}}}}",
+        "Indoor_Day_1": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 4,5,6}}}}",
+        "Indoor_Day_2": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 7,8,9}}}}",
+        "Indoor_Day_3": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 10,11,12}}}}",
+        "Indoor_Day_4": "{{i18n: CDE_Abigail_Married_IndoorDay_{{Random: 13,14,15}}}}",
 
         "Indoor_Night_0": "{{i18n: CDE_Abigail_Married_IndoorNight_{{Random: 1,2}}}}",
         "Indoor_Night_1": "{{i18n: CDE_Abigail_Married_IndoorNight_{{Random: 3,4}}}}",
         "Indoor_Night_2": "{{i18n: CDE_Abigail_Married_IndoorNight_{{Random: 5,6}}}}",
         "Indoor_Night_3": "{{i18n: CDE_Abigail_Married_IndoorNight_{{Random: 7,8}}}}",
-        "Indoor_Night_4": "{{i18n: CDE_Abigail_Married_IndoorNight_{{Random: 9,10}}}}",
+        "Indoor_Night_4": "{{i18n: CDE_Abigail_Married_IndoorNight_{{Random: 9,10,11}}}}",
 
         //locational specific dialogue
         //funleave and return only show up on Mondays or Fridays (except for characters with jobs), and only while the npc is leaving or entering the farmhouse. fun return will not display once the NPC has reached their target location.
@@ -199,12 +207,14 @@
         "TwoKids_0": "{{i18n: CDE_Abigail_Married_TwoKids_{{Random: 1,2}}}}",
         "TwoKids_2": "{{i18n: CDE_Abigail_Married_TwoKids_{{Random: 3,4}}}}",
         "TwoKids_3": "{{i18n: CDE_Abigail_Married_TwoKids_{{Random: 5,6}}}}",
-        
+
         "Outdoor_0": "{{i18n: CDE_Abigail_Married_Outdoor_{{Random: 1,2}}}}",
         "Outdoor_1": "{{i18n: CDE_Abigail_Married_Outdoor_{{Random: 3,4}}}}",
         "Outdoor_2": "{{i18n: CDE_Abigail_Married_Outdoor_{{Random: 5,6}}}}",
         "Outdoor_3": "{{i18n: CDE_Abigail_Married_Outdoor_{{Random: 7,8}}}}",
         "Outdoor_4": "{{i18n: CDE_Abigail_Married_Outdoor_{{Random: 9,10}}}}",
+
+        "patio_Abigail": "{{i18n: CDE_Abigail_Married_patio_{{Random: 1,2,3}}}}",
 
         //Date Specific Dialogue
         "spring_6": "{{i18n: CDE_Abigail_Married_spring6}}",
