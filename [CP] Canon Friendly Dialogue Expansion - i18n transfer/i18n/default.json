@@ -681,9 +681,9 @@
 
   //date specific dialogue
   "CDE_Clint_spring1y2": "Any resolutions this year?#$e#Nah, not me. I don't really see the point.#$e#Still, though, at least it's nice outside.",
-  "CDE_Clint_winter28_1": "*sigh* Well, did you at least have a good year?",
-  "CDE_Clint_winter28_2": "Hey, I hope your year was good.#$e#Me? Oh, I'll manage. I'm glad winter's just about finished.",
-  //randomize between winter28_1 and _2!
+  "CDE_Clint_winter28y1": "*sigh* Well, did you at least have a good year?",
+  "CDE_Clint_winter28y2": "Hey, I hope your year was good.#$e#Me? Oh, I'll manage. I'm glad winter's just about finished.",
+  //My intention was for y1 and y2 to be specifically for those years -- My goal is for Clint to be a little less of a downer as the story progresses.
 
   //heart specific dialogue
   "CDE_Clint_summerMon10": "Oh, uh, hey @. Wanna smack some metal with me a bit?$h#$e#Uhh, I mean, if that's something you'd like to do...#$b#I think it's kinda fun, anyway.#$b#Sometimes.$s",
