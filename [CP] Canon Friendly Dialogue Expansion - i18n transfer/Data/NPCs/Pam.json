@@ -1,18 +1,12 @@
 {
   "Changes": [
     {
-      "LogName": "CDE_Pam_GiftTastes",
+      "LogName": "CDE_Pam_Compat",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pam",
       "Entries": {
-        // we can also add reveal gift taste code to these now that they use i18n.
-        "AcceptGift_(O)373": "{{i18n: CDE_Pam_GoldPumpkin}}",
-        "AcceptGift_(O)279": "{{i18n: CDE_Pam_RockCandy}}",
-        "AcceptGift_(O)797": "{{i18n: CDE_Pam_Pearl}}",
-        "AcceptGift_(O)446": "{{i18n: CDE_Pam_RabbitsFoot}}",
+        //any keys that overlap go here
         "AcceptGift_(O)346": "{{i18n: CDE_Pam_Beer}}",
-        "AcceptGift_(O)90": "{{i18n: CDE_Pam_CactusFruit}}",
-        "AcceptGift_(O)208": "{{i18n: CDE_Pam_GlazedYams}}",
         "AcceptGift_(O)459": "{{i18n: CDE_Pam_Mead}}",
         "AcceptGift_(O)303": "{{i18n: CDE_Pam_PaleAle}}",
         "AcceptGift_(O)24": "{{i18n: CDE_Pam_Parsnip}}",
@@ -20,7 +14,19 @@
         "AcceptGift_(O)873": "{{i18n: CDE_Pam_PinaColada}}"
       },
       "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+    },
+    {
+      "LogName": "CDE_Pam_GiftTastes",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
+        "AcceptGift_(O)373": "{{i18n: CDE_Pam_GoldPumpkin}}",
+        "AcceptGift_(O)279": "{{i18n: CDE_Pam_RockCandy}}",
+        "AcceptGift_(O)797": "{{i18n: CDE_Pam_Pearl}}",
+        "AcceptGift_(O)446": "{{i18n: CDE_Pam_RabbitsFoot}}",
+        "AcceptGift_(O)90": "{{i18n: CDE_Pam_CactusFruit}}",
+        "AcceptGift_(O)208": "{{i18n: CDE_Pam_GlazedYams}}"
+      }
     },
     {
       "LogName": "CDE_Pam_Rainy",
@@ -37,10 +43,10 @@
       "Entries": {
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CDE_Pam_spring1y2}}",
-        "spring_23_1": "{{i18n: CDE_Pam_summer12y1}}",
-        "spring_23_2": "{{i18n: CDE_Pam_}}",
-        "winter_7_1": "{{i18n: CDE_Pam_}}",
-        "winter_7_2": "{{i18n: CDE_Pam_}}",
+        "spring_23_1": "{{i18n: CDE_Pam_spring23}}",
+        "spring_23_2": "{{i18n: CDE_Pam_spring23}}",
+        "winter_7_1": "{{i18n: CDE_Pam_winter7}}",
+        "winter_7_2": "{{i18n: CDE_Pam_winter7}}",
         "winter_28_1": "{{i18n: CDE_Pam_winter28}}",
         "winter_28_2": "{{i18n: CDE_Pam_winter28}}",
 
@@ -54,7 +60,7 @@
         "summer_Sat10": "{{i18n: CDE_Pam_summerSat10}}",
         "summer_Sat2": "{{i18n: CDE_Pam_summerSat2}}",
         "summer_Sun10": "{{i18n: CDE_Pam_summerSun10}}",
-        
+
         "fall_Mon10": "{{i18n: CDE_Pam_fallMon10}}",
         "fall_Tue10": "{{i18n: CDE_Pam_fallTue10}}",
         "fall_Wed10": "{{i18n: CDE_Pam_fallWed10}}",
@@ -62,7 +68,7 @@
         "fall_Fri10": "{{i18n: CDE_Pam_fallFri10}}",
         "fall_Sat10": "{{i18n: CDE_Pam_fallSat10}}",
         "fall_Sun10": "{{i18n: CDE_Pam_fallSun10}}",
-        
+
         "winter_Mon6": "{{i18n: CDE_Pam_winterMon6}}",
         "winter_Tue10": "{{i18n: CDE_Pam_winterTue10}}",
         "winter_Tue4": "{{i18n: CDE_Pam_winterTue4}}",

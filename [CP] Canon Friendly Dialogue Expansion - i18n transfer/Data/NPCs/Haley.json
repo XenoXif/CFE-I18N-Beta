@@ -179,7 +179,6 @@
         //locational specific dialogue
         //funleave and return only show up on Mondays or Fridays (except for characters with jobs), and only while the npc is leaving or entering the farmhouse. fun return will not display once the NPC has reached their target location.
         //Kid dialogue only displays when the NPC is standing in the farmhouse kitchen
-        //Kid dialogue only displays when the NPC is standing in the farmhouse kitchen
         //Outdoor Dialogue only displays on the farm. _num has an 80% chance of being displayed, _npc has a 20% chance. _npc is currently unused here
 
         "funLeave_NPC": "{{i18n: CDE_NPC_Married_funLeave_{{Random: 1,2}}}}",
@@ -219,7 +218,7 @@
         "winter_8": "{{i18n: CDE_NPC_Married_winter1}}",
         "winter_22": null,
         "winter_24": null,
-        "winter_28": "{{i18n: CDE_NPC_Married_winter28}}",
+        "winter_28": "{{i18n: CDE_NPC_Married_winter28}}"
 
         //Seasonal Dialogue
         //shown at 9+ hearts, with a 5% chance each day

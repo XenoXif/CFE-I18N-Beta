@@ -1,6 +1,16 @@
 {
   "Changes": [
     {
+      "LogName": "CDE_Pierre_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pierre",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)202": "{{i18n: CDE_Pierre_FriedCalamari}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Pierre_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pierre",
@@ -9,8 +19,8 @@
         "AcceptGift_(O)279": "{{i18n: CDE_Pierre_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CDE_Pierre_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CDE_Pierre_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CDE_Pierre_RabbitsFoot}}",
-        "AcceptGift_(O)202": "{{i18n: CDE_Pierre_FriedCalamari}}"
+        "AcceptGift_(O)446": "{{i18n: CDE_Pierre_RabbitsFoot}}"
+
       },
       "When": { "ModdedDialogCompat": "true" }
       //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
@@ -47,14 +57,14 @@
         //Heart Specific Dialogue
         "summer_Wed6": "{{i18n: CDE_Pierre_summerWed6}}",
         "summer_Tue6": "{{i18n: CDE_Pierre_summerTue6}}",
-        "summer_Thu6": "{{i18n: CDE_Pierre_summerThu6+winterTue10}}",
+        "summer_Thu6": "{{i18n: CDE_Pierre_repeated_4}}",
         "summer_Fri6": "{{i18n: CDE_Pierre_summerFri6}}",
-        "summer_Sat10": "{{i18n: CDE_Pierre_summerSat10+Tue4}}",
-        "summer_Sun10": "{{i18n: CDE_Pierre_summerSun10+Fri4}}",
+        "summer_Sat10": "{{i18n: CDE_Pierre_repeated_2}}",
+        "summer_Sun10": "{{i18n: CDE_Pierre_repeated_3}}",
 
         "fall_Mon8": "{{i18n: CDE_Pierre_fallMon8}}",
         "fall_Mon4_inlaw_Abigail": "{{i18n: CDE_Pierre_fallMon4inlawAbigail}}",
-        "fall_Mon4": "{{i18n: CDE_Pierre_fallMon4+winterMon4}}",
+        "fall_Mon4": "{{i18n: CDE_Pierre_repeated_5}}",
         "fall_Tue10": "{{i18n: CDE_Pierre_fallTue10}}",
         "fall_Wed6": "{{i18n: CDE_Pierre_fallWed6}}",
         "fall_Thu10": "{{i18n: CDE_Pierre_fallThu10}}",
@@ -67,23 +77,23 @@
 
         "winter_Mon8": "{{i18n: CDE_Pierre_winterMon8}}",
         "winter_Mon4_inlaw_Abigail": "{{i18n: CDE_Pierre_winterMon4inlawAbigail}}",
-        "winter_Mon4": "{{i18n: CDE_Pierre_fallMon4+winterMon4}}",
-        "winter_Tue10": "{{i18n: CDE_Pierre_summerThu6+winterTue10}}",
+        "winter_Mon4": "{{i18n: CDE_Pierre_repeated_5}}",
+        "winter_Tue10": "{{i18n: CDE_Pierre_repeated_4}}",
         "winter_Wed6": "{{i18n: CDE_Pierre_winterWed6}}",
         "winter_Thu6": "{{i18n: CDE_Pierre_winterThu6}}",
-        "winter_Thu4": "{{i18n: CDE_Pierre_winterThu4+winterSat6}}",
+        "winter_Thu4": "{{i18n: CDE_Pierre_repeated_6}}",
         "winter_Thu2": "{{i18n: CDE_Pierre_winterThu2}}",
         "winter_Fri10": "{{i18n: CDE_Pierre_winterFri10}}",
         "winter_Sat8": "{{i18n: CDE_Pierre_winterSat8}}",
-        "winter_Sat6": "{{i18n: CDE_Pierre_winterThu4+winterSat6}}",
-        "winter_Sun10": "{{i18n: CDE_Pierre_winterSun10+Mon6}}",
+        "winter_Sat6": "{{i18n: CDE_Pierre_repeated_6}}",
+        "winter_Sun10": "{{i18n: CDE_Pierre_repeated_1}}",
 
         "Mon8": "{{i18n: CDE_Pierre_Mon8}}",
-        "Mon6": "{{i18n: CDE_Pierre_winterSun10+Mon6}}",
+        "Mon6": "{{i18n: CDE_Pierre_repeated_1}}",
         "Mon4": "{{i18n: CDE_Pierre_Mon4}}",
         "Mon2": "{{i18n: CDE_Pierre_Mon2}}",
         "Tue10": "{{i18n: CDE_Pierre_Tue10}}",
-        "Tue4": "{{i18n: CDE_Pierre_summerSat10+Tue4}}",
+        "Tue4": "{{i18n: CDE_Pierre_repeated_2}}",
         "Tue2": "{{i18n: CDE_Pierre_Tue2}}",
         "Wed10": "{{i18n: CDE_Pierre_Wed10}}",
         "Thu8": "{{i18n: CDE_Pierre_Thu8}}",
@@ -91,7 +101,7 @@
         "Thu4": "{{i18n: CDE_Pierre_Thu4}}",
         "Fri8": "{{i18n: CDE_Pierre_Fri8}}",
         "Fri6": "{{i18n: CDE_Pierre_Fri6}}",
-        "Fri4": "{{i18n: CDE_Pierre_summerSun10+Fri4}}",
+        "Fri4": "{{i18n: CDE_Pierre_repeated_3}}",
         "Sat6": "{{i18n: CDE_Pierre_Sat6}}",
         "Sat4": "{{i18n: CDE_Pierre_Sat4}}",
         "Sat2": "{{i18n: CDE_Pierre_Sat2}}",

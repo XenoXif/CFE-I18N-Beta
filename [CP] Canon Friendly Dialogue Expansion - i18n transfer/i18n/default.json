@@ -3406,6 +3406,11 @@
 
   //Penny's Standard Dialogue
   //Special Dialogue
+  "CDE_Penny_repeated_1": "I have the kids on a summer reading schedule. It's nice to take it a little easier this time of year.",
+  "CDE_Penny_repeated_2": "So... do you like to decorate your farm house?#$e#It must be nice having your own place to decorate.",
+  //summer_Tue4, summer_Tue
+  //summer_Sun4, summer_Sun
+
   //date specific dialogue
   "CDE_Penny_spring1y2": "It's a bright new start to the year! I hope the morning was nice for you.$h",
   "CDE_Penny_spring12": "We decorated a few eggs earlier this week in preparation for the egg festival.#$e#Are you going to be there, too?",
@@ -3463,9 +3468,6 @@
   "CDE_Penny_winterFri2": "Are you friends with Linus? He lives in a tent up in the mountains.#$e#Everyone ignores him, the poor guy. He's actually really nice... Just a little odd.#$e#It must be so cold to live in a tent this time of year.",
   "CDE_Penny_winterSun10": "Sometime soon, we should go back to my place in the evening and cozy up together with a book.$h#$e#If you can make it, just try to show up before 8. I don't want my mom to come home early and make things awkward.",
   "CDE_Penny_winterSun6": "I have to hide most of the money I make from my job. Otherwise, my mom might drink it away.$s#$e#My mom still loves me. She doesn't do it all the time, but it has happened before.",
-
-  "CDE_Penny_summerTue4+summerTue": "I have the kids on a summer reading schedule. It's nice to take it a little easier this time of year.",
-  "CDE_Penny_summerSun4+summerSun": "So... do you like to decorate your farm house?#$e#It must be nice having your own place to decorate.",
 
   "CDE_Penny_Mon6": "If you're ever looking for something my mother will enjoy, you can't go wrong with parsnips.#$e#She uses it in a hangover remedy, but at least it's better than something that causes the hangover in the first place.$u",
   "CDE_Penny_Mon4": "*sigh*... My mother definitely has a problem with going to the saloon too much.$s#$q 237/238 Mon_old#But it's best not to dwell on bad things, right?#$r 237 50 Mon_237#Right. It's best to be positive!#$r 238 10 Mon_238#I think it's good to be realistic.",
@@ -3533,6 +3535,11 @@
   "CDE_Penny_Married_IndoorDay_8": "I got a brand new book from the library. It's always exciting when there's a new shipment.$h",
   "CDE_Penny_Married_IndoorDay_9": "Was I shy when we first met? It's funny to think about, now that we've come so far.$h",
   "CDE_Penny_Married_IndoorDay_10": "Just wanted to say... I love the way you look this morning.$h",
+  "CDE_Penny_Married_IndoorDay_11": "I don't know how to make a lot of different things for breakfast, but if it works, it works, right?[195 210 211]$3",
+  "CDE_Penny_Married_IndoorDay_12": "You're doing a lovely job with the farm, honey. I just think back to what it looked like right before you moved here.",
+  "CDE_Penny_Married_IndoorDay_13": "I finished reading my library book last night. Time to get another...#$e#I heard Gunther might be ordering some new ones from the bookseller soon.",
+  "CDE_Penny_Married_IndoorDay_14": "Mind if I open a window? The air smells really fresh out there.",
+  "CDE_Penny_Married_IndoorDay_15": "I ought to give Maru a call today. What kind of invention is she working on lately, I wonder?",
 
   "CDE_Penny_Married_IndoorNight_1": "Good evening, honey. Did you accomplish everything you wanted to today? If not, that's okay. We've got all the time in the world!",
   "CDE_Penny_Married_IndoorNight_2": "When the light's dim, you have these little glowing stars in your eyes. You're so lovely.$l",
@@ -3549,6 +3556,15 @@
   "CDE_Penny_Married_funLeave_2": "I'm going to head into town today, just for fun. I'll be back in a while!",
   "CDE_Penny_Married_funReturn_1": "I had a nice time... It's good to stay in contact with everyone. Tell me about your day.",
   "CDE_Penny_Married_funReturn_2": "A lot of people were out and about. I'm glad I was able to chat with a few of them.",
+
+  "CDE_Penny_Married_jobLeave_1": "I have to go into town today. Don't work too hard, and eat something good for lunch!$h",
+  "CDE_Penny_Married_jobLeave_2": "Looks like I'm all prepared for work. Be sure to take good care of yourself today!$h",
+  "CDE_Penny_Married_jobLeave_3": "Eesh, I'm a little bit late for work, but that's okay. I'll walk a little faster on my way there.",
+  "CDE_Penny_Married_jobLeave_4": "Good morning! It's another busy school day.#$e#I've got the whole day planned out, except the afternoon.#$b#I'm sure I'll think of something, though.",
+  "CDE_Penny_Married_jobReturn_1": "$c .7#Good evening. My day was fine, thanks! How was yours?$h#Jas and Vincent weren't behaving very well today. I'm still all wound up...$3",
+  "CDE_Penny_Married_jobReturn_2": "I know I shouldn't stress so much about Vincent. He'll probably grow up to be just fine.$3#$b#Still, the job of teaching is never done.",
+  "CDE_Penny_Married_jobReturn_3": "Whew, I'm tired. Those kids take a lot more energy than people realize...#$e#Still, it was a fun day.",
+  "CDE_Penny_Married_jobReturn_4": "Welcome home!$h#$b#This was left over from today's lesson. Think you could use it?[475 480 497 535 613 771 814 80 176 310]",
 
   "CDE_Penny_Married_OneKid_1": "Have you had any time to play with our little one today? Maybe a second child will make things better.",
   "CDE_Penny_Married_OneKid_2": "Oh right. My mom visited yesterday to spend some time with %kid1. It's kind of surreal, getting to see that nurturing side of her personality.",
@@ -3579,9 +3595,16 @@
   "CDE_Penny_Married_patio_2": "Care to join me for a bit? ...Or, I guess you must have a lot to do, right?",
   "CDE_Penny_Married_patio_3": "I wish there were more readers in the world. There are so many good stories to get through.#$e#Good stories deserve good attention.",
 
+  "CDE_Penny_Married_spouseRoom_1": "I always wanted my very own library. This is so charming.$h",
+  "CDE_Penny_Married_spouseRoom_2": "I like to do a little reading first thing in the morning. It gets my brain into gear.",
+  "CDE_Penny_Married_spouseRoom_3": "Let's see... the plants in this room could use a little water.",
+  "CDE_Penny_Married_spouseRoom_4": "I have to get caught up on my grading today.#$e#It shouldn't take too long, but I like to give the kids' work the attention it deserves.",
+  "CDE_Penny_Married_spouseRoom_5": "I do have quite the aptitude for decorating rooms, if I say so myself!$h",
+
   //Date Specific Dialogue
   "CDE_Penny_Married_spring1": "We've got a long, warm year to look forward to. Let's make it a productive one.",
   "CDE_Penny_Married_spring4": "Spring is probably my favorite season. There's a certain freshness in the air that fills me with hope.",
+  "CDE_Penny_Married_spring8": null,
   "CDE_Penny_Married_spring13": "School's off today. I'll be heading into town for the egg festival. Are you coming, too?",
   "CDE_Penny_Married_spring16": "Ah, the 'spring cleaning'... I'm actually going to enjoy this.",
   "CDE_Penny_Married_spring19": "It's really nice seeing my mom proud of me. I wondered, briefly, if she'd be jealous of me.#$b#But that turned out not to be a problem!$h",
@@ -3598,6 +3621,7 @@
   "CDE_Penny_Married_fall19": "I got to catch up with Maru yesterday. It's weird that we're in different phases of our lives now.#$b#But she's just as good a friend as ever.$h",
 
   "CDE_Penny_Married_winter5": "The falling snow reminds me of grandma, rocking by the fire. I mostly remember her shadow flickering against the orange wood. That was long ago.",
+  "CDE_Penny_Married_winter6": null,
   "CDE_Penny_Married_winter9": "It's been so long since Nora Sealy released any new books. I wonder if she's ever even going to get around to it.$s#$e#Sorry, just thinking out loud. I'm sure I'll find something to read today.",
   "CDE_Penny_Married_winter12": "I wonder if Vincent will ever learn to enjoy reading...$s#$e#It's just not enough for me to teach him skills he'll never use. I want him to find joy in it.#$b#Plus, I don't want to let Jodi down.",
   "CDE_Penny_Married_winter16": "Brr... Such a long walk in the snow, to get to school this morning.$s#$e#Yep, out here in the country, I guess we still walk uphill both ways.#$e#...$h",
@@ -3623,6 +3647,19 @@
 
   //Pierre's Standard Dialogue
   //Special Dialogue
+  "CDE_Pierre_repeated_1": "Caroline and I met in school. We never actually dated anyone besides each other.#$e#I know, it's a little unconventional. But it's worked so far!$h",
+  "CDE_Pierre_repeated_2": "If we look out for one another, that's how our community will make it in the long run.#$e#Anyway, would you like to buy anything?$h",
+  "CDE_Pierre_repeated_3": "With her online classes, Abigail's already formally more educated than I've ever been. I'm proud of her.#$e#I started out as a courtesy clerk as a kid, and then I worked my way up until I could open this store.",
+  "CDE_Pierre_repeated_4": "Abigail will always be my little girl. It was love at first sight, when I saw her for the first time.",
+  "CDE_Pierre_repeated_5": "I just can't really get into following gridball.#$e#Ha ha, go Tunnelers, I guess! Right?",
+  "CDE_Pierre_repeated_6": "Is it just me or is there a cold draft in here?",
+  //winter_Sun10, Mon6
+  //summer_Sat10, Tue4
+  //summer_Sun10, Fri4
+  //summer_Thu6, winter_Tue10
+  //fall_Mon4, winter_Mon4
+  //winter_Thu4, winter_Sat6
+
   //date specific dialogue
   "CDE_Pierre_spring1y2": "Aha! I figured you'd come by. Better get some seeds into the ground, huh?",
   "CDE_Pierre_spring12": "Tomorrow's the egg festival! I'll have some special seeds that are on sale only at the festival, so be sure to save some cash!",
@@ -3655,13 +3692,6 @@
   "CDE_Pierre_winterThu2": "I mainly deal in edibles, so if you've got any ores or wood you'd better try selling them somewhere else.",
   "CDE_Pierre_winterFri10": "Sometimes I wonder if the citizens don't respect me the way they do other villagers. What is it that I do wrong in their eyes?$s",
   "CDE_Pierre_winterSat8": "#$1 pierre2#Does Abigail look anything like me? Don't tell my wife, but sometimes I wonder if I'm really the father.$k$s#$e#Don't tell my wife, but I hate to cook dinner.",
-
-  "CDE_Pierre_summerSat10+Tue4": "If we look out for one another, that's how our community will make it in the long run.#$e#Anyway, would you like to buy anything?$h",
-  "CDE_Pierre_summerSun10+Fri4": "With her online classes, Abigail's already formally more educated than I've ever been. I'm proud of her.#$e#I started out as a courtesy clerk as a kid, and then I worked my way up until I could open this store.",
-  "CDE_Pierre_summerThu6+winterTue10": "Abigail will always be my little girl. It was love at first sight, when I saw her for the first time.",
-  "CDE_Pierre_fallMon4+winterMon4": "I just can't really get into following gridball.#$e#Ha ha, go Tunnelers, I guess! Right?",
-  "CDE_Pierre_winterThu4+winterSat6": "Is it just me or is there a cold draft in here?",
-  "CDE_Pierre_winterSun10+Mon6": "Caroline and I met in school. We never actually dated anyone besides each other.#$e#I know, it's a little unconventional. But it's worked so far!$h",
 
   "CDE_Pierre_Mon8": "$d Joja#Well, at least some residents of our town believe in supporting local businesses. ...*sigh*$s|I'll admit, work's actually a little more fun without JojaMart around. ...It all seems like it matters again, knowing it won't end in ruin, y'know?",
   "CDE_Pierre_Mon4": "Hi, @. Need any seeds or fruit tree saplings?",

@@ -3,7 +3,7 @@
   //Pierre Gift Tastes
   "CDE_Pierre_RockCandy": "Rock candy? Sure, I'll have a bite. *crunch*#$b#...Whoooaaa! Holy smokes!$4#$b#Is this magic? I feel ready to march off to Zuzu city and punch that smug Joja CEO in the kisser!$h#$b#...Uhhm, ahem. After my shift.$4",
   "CDE_Pierre_Pearl": "Thank you, you're beyond generous! I'm sure you must know the market value on something like this?$h",
-  "CDE_Pierre_PrismaticShard": "No kidding...? @, do you know how much one of these is worth?$4#$b#Y-you're outstanding!$4"
+  "CDE_Pierre_PrismaticShard": "No kidding...? @, do you know how much one of these is worth?$4#$b#Y-you're outstanding!$4",
   "CDE_Pierre_RabbitsFoot": "Wow, thanks a lot!$h#$b#No one can afford to just give these things out willy-nilly, so I do not take your generosity for granted.",
   "CDE_Pierre_FriedCalamari": "Is that...?$4#$b#Oh, you have no idea how much this means to me.$h#$b#Finally, someone who understands. Thank you.",
 
@@ -41,8 +41,8 @@
   "CDE_Pierre_winter28": "Happy new year, @. Thanks for stopping in.",
 
   //heart specific dialogue
-  
-  "CDE_Pierre_Mon8": "$d Joja#Well, at least some residents of our town believe in supporting local businesses. ...*sigh*$s|I'll admit, work's actually a little more fun without JojaMart around. ...It all seems like it matters again, knowing it won't end in ruin, y'know?",  
+
+  "CDE_Pierre_Mon8": "$d Joja#Well, at least some residents of our town believe in supporting local businesses. ...*sigh*$s|I'll admit, work's actually a little more fun without JojaMart around. ...It all seems like it matters again, knowing it won't end in ruin, y'know?",
   "CDE_Pierre_Mon4": "Hi, @. Need any seeds or fruit tree saplings?",
   "CDE_Pierre_Mon2": "How is the farm?#$e#I think we could really have a nice business setup, you and me.#$b#So I hope you stick around!",
   "CDE_Pierre_Tue10": "$d Joja#Apparently, the mom-and-pop grocer in Grampleton closed not too long ago. I wonder when it's gonna be my turn?$s|I did some research. Turns out JojaMart was selling at quite a loss. Their general strategy isn't even to turn a profit until after the local businesses are extinguished.",
@@ -51,12 +51,12 @@
   "CDE_Pierre_Thu8": "It's easier to keep in a positive mood when there are more familiar faces dropping in.#$e#So... thanks for visiting!$h",
   "CDE_Pierre_Thu6": "$d Joja#I support a free market as much as anyone, but who exactly is it 'free' for when Joja holds the kind of power it has?$s|Just another beautiful day in the neighborhood!",
   "CDE_Pierre_Thu4": "Hey, @. You're my number one customer!",
-  "CDE_Pierre_Fri8": "$d Joja#Everything that Morris does is technically legal, but it doesn't change the fact that he sees our town for its money and nothing else.$3|My stress nightmares about JojaMart have finally stopped. ...Did I tell you I'd been having nightmares? Yeah, that was a thing.",  
+  "CDE_Pierre_Fri8": "$d Joja#Everything that Morris does is technically legal, but it doesn't change the fact that he sees our town for its money and nothing else.$3|My stress nightmares about JojaMart have finally stopped. ...Did I tell you I'd been having nightmares? Yeah, that was a thing.",
   "CDE_Pierre_Fri6": "I've thought about writing stories to pass the time. Nothing really gets me inspired, though.#$e#I don't know how Elliott does what he does.#$e#Maybe I need a change of scenery.",
-  "CDE_Pierre_Sat6": "Sometimes it's tough making dinner conversation with my family. At the end of the day, all that's on my mind are order forms, profits, sales...$s#$e#I guess I can see how that'd be boring...$s#$b#But at any rate, a man has to do what's necessary for his family, regardless of whether they can appreciate it or not.",,
+  "CDE_Pierre_Sat6": "Sometimes it's tough making dinner conversation with my family. At the end of the day, all that's on my mind are order forms, profits, sales...$s#$e#I guess I can see how that'd be boring...$s#$b#But at any rate, a man has to do what's necessary for his family, regardless of whether they can appreciate it or not.",
   "CDE_Pierre_Sat4": "Sometimes, operating a small business really takes it out of you.#$b#But I wonder, what would this community be like without my store?",
   "CDE_Pierre_Sat2": "I like it best if I can sell produce that's local.#$e#I just want to do what I can that's right by the environment.#$e#Plus, there are no shipping costs when it's local.",
-  "CDE_Pierre_Sun8": "$d Joja#Can a community have a soul? I want to believe in this place, but it's difficult when it seems like people's wallets are their number-one priority.$s|I feel very lucky. In the end, it looks like Pelican Town is a special place after all!",  
+  "CDE_Pierre_Sun8": "$d Joja#Can a community have a soul? I want to believe in this place, but it's difficult when it seems like people's wallets are their number-one priority.$s|I feel very lucky. In the end, it looks like Pelican Town is a special place after all!",
   "CDE_Pierre_Sun6": "I sometimes wonder... what percentage of my life will I spend behind this counter?$s",
   "CDE_Pierre_Sun4": "Providing basic necessities to the people of this community... That's worth a legacy, isn't it?",
   "CDE_Pierre_Sun2": "Thanks for stopping in!$h#$e#I hope your day goes well.",
@@ -83,24 +83,23 @@
   "CDE_Pierre_winterSat8": "#$1 pierre2#Does Abigail look anything like me? Don't tell my wife, but sometimes I wonder if I'm really the father.$k$s#$e#Don't tell my wife, but I hate to cook dinner.",
 
   //generic weekday dialogue
-  
+
   "CDE_Pierre_summerMon": "What are you growing this summer? Something specific? A little of everything?",
   "CDE_Pierre_summerTue": "JojaMart doesn't even have lower prices than we do, unless you count those 50% off coupons that they're always handing out.$3#$e#You've never gotten one, huh? Yeah, neither have I. Makes sense why.",
   "CDE_Pierre_fallMon_inlaw_Abigail": "Hello, er... my son?$s^Hello, er... daughter?$s",
   "CDE_Pierre_fallSun": "Hi there. Is your farm still doing well?#$e#Maybe a few of my seeds will spruce things up.$h",
   "CDE_Pierre_winterMon_inlaw_Abigail": "Hello, er... my son?$s^Hello, er... daughter?$s",
   "CDE_Pierre_winterWed": "#$1 pierreDin#I'm going to surprise Caroline tonight with dinner and a bottle of Stardew Red. Don't tell anyone! Finally, a day of relaxation.$k#$e#",
-  "CDE_Pierre_winterSat": "If I didn't have this shop to run I would be outside right now.#$e#It would be fun to throw a snowball.",
+  "CDE_Pierre_winterSat": "If I didn't have this shop to run I would be outside right now.#$e#It would be fun to throw a snowball."
 
 
   //Pierre's Married Dialogue
 
   //weather specific dialogue
-  
+
   //Festival Specific Dialogue
 
   //Date Specific Dialogue
-
 
   //Season specific dialogue
 

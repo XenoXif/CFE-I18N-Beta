@@ -1,18 +1,25 @@
 {
   "Changes": [
     {
+      "LogName": "CDE_Penny_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Penny",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)446": "{{i18n: CDE_Penny_RabbitsFoot}}",
+        "AcceptGift_(O)60": "{{i18n: CDE_Penny_Emerald}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Penny_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Penny",
       "Entries": {
-        // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)373": "{{i18n: CDE_Penny_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CDE_Penny_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CDE_Penny_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CDE_Penny_RabbitsFoot}}",
-
         "AcceptGift_(O)72": "{{i18n: CDE_Penny_Diamond}}",
-        "AcceptGift_(O)60": "{{i18n: CDE_Penny_Emerald}}",
         "AcceptGift_(O)254": "{{i18n: CDE_Penny_Melon}}",
         "AcceptGift_(O)376": "{{i18n: CDE_Penny_Poppy}}",
         "AcceptGift_(O)651": "{{i18n: CDE_Penny_PoppyseedMuffin}}",
@@ -20,9 +27,7 @@
         "AcceptGift_(O)244": "{{i18n: CDE_Penny_RootsPlatter}}",
         "AcceptGift_(O)873": "{{i18n: CDE_Penny_Sandfish}}",
         "AcceptGift_(O)218": "{{i18n: CDE_Penny_TomKhaSoup}}"
-      },
-      "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+      }
     },
     {
       "LogName": "CDE_Penny_Rainy",
@@ -64,7 +69,7 @@
         "summer_Mon4": "{{i18n: CDE_Penny_summerMon4}}",
         "summer_Mon2": "{{i18n: CDE_Penny_summerMon2}}",
         "summer_Tue10": "{{i18n: CDE_Penny_summerTue10}}",
-        "summer_Tue4": "{{i18n: CDE_Penny_summerTue4+summerTue}}",
+        "summer_Tue4": "{{i18n: CDE_Penny_repeated_1}}",
         "summer_Tue2": "{{i18n: CDE_Penny_summerTue2}}",
         "summer_Wed10": "{{i18n: CDE_Penny_summerWed10}}",
         "summer_Wed8": "{{i18n: CDE_Penny_summerWed8}}",
@@ -76,7 +81,7 @@
         "summer_Sun10": "{{i18n: CDE_Penny_summerSun10}}",
         "summer_Sun8": "{{i18n: CDE_Penny_summerSun8}}",
         "summer_Sun6": "{{i18n: CDE_Penny_summerSun6}}",
-        "summer_Sun4": "{{i18n: CDE_Penny_summerSun4+summerSun}}",
+        "summer_Sun4": "{{i18n: CDE_Penny_repeated_2}}",
         "summer_Sun2": "{{i18n: CDE_Penny_summerSun2}}",
 
         "fall_Mon10": "{{i18n: CDE_Penny_fallMon10}}",
@@ -132,9 +137,9 @@
         "Sun2": "{{i18n: CDE_Penny_Sun2}}",
 
         //Generic Weekday Dialogue
-        "summer_Tue": "{{i18n: CDE_Penny_summerTue4+summerTue}}",
+        "summer_Tue": "{{i18n: CDE_Penny_repeated_1}}",
         "summer_Wed": "{{i18n: CDE_Penny_summerWed}}",
-        "summer_Sun": "{{i18n: CDE_Penny_summerSun4+summerSun}}",
+        "summer_Sun": "{{i18n: CDE_Penny_repeated_2}}",
         "fall_Tue": "{{i18n: CDE_Penny_fallTue}}",
         "winter_Mon": "{{i18n: CDE_Penny_winterMon}}",
         "winter_Wed": "{{i18n: CDE_Penny_winterWed}}",
@@ -213,7 +218,6 @@
         "summer_19": "{{i18n: CDE_Penny_Married_summer19}}",
         "summer_23": "{{i18n: CDE_Penny_Married_summer23}}",
         "summer_17": "{{i18n: CDE_Penny_Married_summer17}}",
-
 
         "fall_10": "{{i18n: CDE_Penny_Married_fall10}}",
         "fall_12": "{{i18n: CDE_Penny_Married_fall12}}",
