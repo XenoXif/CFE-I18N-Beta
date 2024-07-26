@@ -1,42 +1,42 @@
 {
   "Changes": [
     {
-      "LogName": "CDE_NPC_Compat",
+      "LogName": "CDE_Gus_Compat",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/NPC",
+      "Target": "Characters/Dialogue/Gus",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)72": "{{i18n: CDE_NPC_}}",
-        "AcceptGift_(O)729": "{{i18n: CDE_NPC_}}",
-        "AcceptGift_(O)213": "{{i18n: CDE_NPC_}}"
+        "AcceptGift_(O)72": "{{i18n: CDE_Gus_Diamond}}",
+        "AcceptGift_(O)729": "{{i18n: CDE_Gus_Escargot}}",
+        "AcceptGift_(O)213": "{{i18n: CDE_Gus_FishTaco}}"
       },
       "When": { "ModdedDialogCompat": "true" }
     },
     {
-      "LogName": "CDE_NPC_GiftTastes",
+      "LogName": "CDE_Gus_GiftTastes",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/NPC",
+      "Target": "Characters/Dialogue/Gus",
       "Entries": {
-        "AcceptGift_(O)373": "{{i18n: CDE_NPC_GoldPumpkin}}",
-        "AcceptGift_(O)279": "{{i18n: CDE_NPC_RockCandy}}",
-        "AcceptGift_(O)797": "{{i18n: CDE_NPC_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CDE_NPC_PrismaticShard}}",
-        "AcceptGift_(O)635": "{{i18n: CDE_NPC_}}",
-        "AcceptGift_(O)907": "{{i18n: CDE_NPC_}}"
+        "AcceptGift_(O)373": "{{i18n: CDE_Gus_GoldPumpkin}}",
+        "AcceptGift_(O)279": "{{i18n: CDE_Gus_RockCandy}}",
+        "AcceptGift_(O)797": "{{i18n: CDE_Gus_Pearl}}",
+        "AcceptGift_(O)74": "{{i18n: CDE_Gus_PrismaticShard}}",
+        "AcceptGift_(O)635": "{{i18n: CDE_Gus_Orange}}",
+        "AcceptGift_(O)907": "{{i18n: CDE_Gus_TropicalCurry}}"
       }
     },
     {
-      "LogName": "CDE_NPC_Rainy",
+      "LogName": "CDE_Gus_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
-        "NPC": "{{i18n: CDE_NPC_rainy_{{random: 1,2,3}}}}"
+        "Gus": "{{i18n: CDE_Gus_rainy_{{random: 1,2,3}}}}"
       }
     },
     {
-      "LogName": "CDE_NPC_Dialogue",
+      "LogName": "CDE_Gus_Dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/NPC",
+      "Target": "Characters/Dialogue/Gus",
       "Entries": {
         //special dialogue
         "Saloon": null, //intentionally nulled
@@ -47,88 +47,88 @@
         "Saloon_Fri": null, //intentionally nulled
 
         //Date Specific Dialogue
-        "spring_1_2": "{{i18n: CDE_NPC_spring1y2}}",
-        "spring_12_1": null,
-        "spring_12_2": null,
+        "spring_1_2": "{{i18n: CDE_Gus_spring1y2}}",
+        "spring_12_1": "{{i18n: CDE_Gus_spring12}}",
+        "spring_12_2": "{{i18n: CDE_Gus_spring12}}",
 
-        "summer_10_1": null,
-        "summer_10_2": null,
+        "summer_10_1": "{{i18n: CDE_Gus_summer10}}",
+        "summer_10_2": "{{i18n: CDE_Gus_summer10}}",
 
-        "fall_15_1": null,
-        "fall_15_2": null,
-        "fall_26_1": null,
-        "fall_26_2": null,
+        "fall_15_1": "{{i18n: CDE_Gus_fall15}}",
+        "fall_15_2": "{{i18n: CDE_Gus_fall15}}",
+        "fall_26_1": "{{i18n: CDE_Gus_fall26}}",
+        "fall_26_2": "{{i18n: CDE_Gus_fall26}}",
 
-        "winter_24_1": null,
-        "winter_24_2": null,
-        "winter_28_1": "{{i18n: CDE_NPC_winter28}}",
-        "winter_28_2": "{{i18n: CDE_NPC_winter28}}",
+        "winter_24_1": "{{i18n: CDE_Gus_winter24}}",
+        "winter_24_2": "{{i18n: CDE_Gus_winter24}}",
+        "winter_28_1": "{{i18n: CDE_Gus_winter28}}",
+        "winter_28_2": "{{i18n: CDE_Gus_winter28}}",
 
         //Heart Specific Dialogue
-        "summer_Mon10": "{{i18n: CDE_NPC_summerMon10}}",
-        "summer_Tue10": null,
-        "summer_Wed10": null,
-        "summer_Sun6": null,
-        "summer_Sun2": null,
-        "summer_Fri10": null,
+        "summer_Mon10": "{{i18n: CDE_Gus_summerMon10}}",
+        "summer_Tue10": "{{i18n: CDE_Gus_summerTue10}}",
+        "summer_Wed10": "{{i18n: CDE_Gus_summerWed10}}",
+        "summer_Fri10": "{{i18n: CDE_Gus_summerFri10}}",
+        "summer_Sun6": "{{i18n: CDE_Gus_summerSun6}}",
+        "summer_Sun2": "{{i18n: CDE_Gus_summerSun2}}",
+        
+        "fall_Mon10": "{{i18n: CDE_Gus_fallMon10}}",
+        "fall_Thu10": "{{i18n: CDE_Gus_fallThu10}}",
+        "fall_Thu4": "{{i18n: CDE_Gus_fallThu4}}",
+        "fall_Fri8": "{{i18n: CDE_Gus_fallFri8}}",
+        "fall_Fri4": "{{i18n: CDE_Gus_fallFri4}}",
 
-        "fall_Mon10": "{{i18n: CDE_NPC_fallMon10}}",
-        "fall_Thu10": null,
-        "fall_Thu4": null,
-        "fall_Fri8": null,
-        "fall_Fri4": null,
+        "winter_Mon10": "{{i18n: CDE_Gus_winterMon10}}",
+        "winter_Tue10": "{{i18n: CDE_Gus_winterTue10}}",
+        "winter_Wed10": "{{i18n: CDE_Gus_winterWed10}}",
+        "winter_Sat6": "{{i18n: CDE_Gus_winterSat6}}",
 
-        "winter_Mon10": "{{i18n: CDE_NPC_winterMon10}}",
-        "winter_Tue10": null,
-        "winter_Wed10": null,
-        "winter_Sat6": null,
-
-        "Mon10": null,
-        "Mon8": null,
-        "Mon_old": null,
-        "Mon_010": null,
-        "Mon_011": null,
-        "Mon6": null,
-        "Mon4": null,
-        "Mon2": null,
-        "Tue8": null,
-        "Tue6": null,
-        "Tue4": null,
-        "Tue2": null,
-        "Wed10": null,
-        "Wed8": null,
-        "Wed6": null,
-        "Wed4": null,
-        "Wed2": null,
-        "Thu10": null,
-        "Thu4": null,
-        "Thu2": null,
-        "Fri8": null,
-        "Fri6": null,
-        "Fri4": null,
-        "Fri2": null,
-        "Sat8": null,
-        "Sat6": null,
-        "Sat4": null,
-        "Sat2": null,
-        "Sun10": null,
-        "Sun8": null,
-        "Sun6": null,
-        "Sun4": null,
-        "Sun2": null,
+        "Mon10": "{{i18n: CDE_Gus_Mon10}}",
+        "Mon8": "{{i18n: CDE_Gus_Mon8}}",
+        "Mon_old": "{{i18n: CDE_Gus_Mon_old}}",
+        "Mon_010": "{{i18n: CDE_Gus_Mon_010}}",
+        "Mon_011": "{{i18n: CDE_Gus_Mon_011}}",
+        "Mon6": "{{i18n: CDE_Gus_Mon6}}",
+        "Mon4": "{{i18n: CDE_Gus_Mon4}}",
+        "Mon2": "{{i18n: CDE_Gus_Mon2}}",
+        "Tue8": "{{i18n: CDE_Gus_Tue8}}",
+        "Tue6": "{{i18n: CDE_Gus_Tue6}}",
+        "Tue4": "{{i18n: CDE_Gus_Tue4}}",
+        "Tue2": "{{i18n: CDE_Gus_Tue2}}",
+        "Wed10": "{{i18n: CDE_Gus_Wed10}}",
+        "Wed8": "{{i18n: CDE_Gus_Wed8}}",
+        "Wed6": "{{i18n: CDE_Gus_Wed6}}",
+        "Wed4": "{{i18n: CDE_Gus_Wed4}}",
+        "Wed2": "{{i18n: CDE_Gus_Wed2}}",
+        "Thu10": "{{i18n: CDE_Gus_Thu10}}",
+        "Thu4": "{{i18n: CDE_Gus_Thu4}}",
+        "Thu2": "{{i18n: CDE_Gus_Thu2}}",
+        "Fri8": "{{i18n: CDE_Gus_Fri8}}",
+        "Fri6": "{{i18n: CDE_Gus_Fri6}}",
+        "Fri4": "{{i18n: CDE_Gus_Fri4}}",
+        "Fri2": "{{i18n: CDE_Gus_Fri2}}",
+        "Sat8": "{{i18n: CDE_Gus_Sat8}}",
+        "Sat6": "{{i18n: CDE_Gus_Sat6}}",
+        "Sat4": "{{i18n: CDE_Gus_Sat4}}",
+        "Sat2": "{{i18n: CDE_Gus_Sat2}}",
+        "Sun10": "{{i18n: CDE_Gus_Sat10}}",
+        "Sun8": "{{i18n: CDE_Gus_Sun8}}",
+        "Sun6": "{{i18n: CDE_Gus_Sun6}}",
+        "Sun4": "{{i18n: CDE_Gus_Sun4}}",
+        "Sun2": "{{i18n: CDE_Gus_Sun2}}",
 
         //Generic Weekday Dialogue
-        "summer_Thu": null,
-        "winter_Sat": null,
+        "summer_Thu": "{{i18n: CDE_Gus_summerThu}}",
+        "winter_Sat": "{{i18n: CDE_Gus_winterSat}}",
 
-        "Mon": null,
-        "Wed": null,
-        "Wed_old": null,
-        "Wed_012": null,
-        "Wed_013": null,
-        "Wed_014": null,
-        "Wed_015": null,
-        "Sat": null
+        "Mon": "{{i18n: CDE_Gus_Mon}}",
+        "Wed": "{{i18n: CDE_Gus_Wed}}",
+        "Wed_old": "{{i18n: CDE_Gus_Wed_old}}",
+        "Wed_012": "{{i18n: CDE_Gus_Wed_012}}",
+        "Wed_013": "{{i18n: CDE_Gus_Wed_013}}",
+        "Wed_014": "{{i18n: CDE_Gus_Wed_014}}",
+        "Wed_015": "{{i18n: CDE_Gus_Wed_015}}",
+        "Sat": "{{i18n: CDE_Gus_Sat}}"
       }
     }
   ]
