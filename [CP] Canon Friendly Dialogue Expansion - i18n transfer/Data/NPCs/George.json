@@ -6,7 +6,7 @@
       "Target": "Characters/Dialogue/George",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)20": "{{i18n: CDE_George_Leek}}",
+        "AcceptGift_(O)20": "{{i18n: CDE_George_Leek_{{random: 1,2}}}}",
         "AcceptGift_(O)205": "{{i18n: CDE_George_FriedMushroom}}"
       },
       "When": { "ModdedDialogCompat": "true" }
