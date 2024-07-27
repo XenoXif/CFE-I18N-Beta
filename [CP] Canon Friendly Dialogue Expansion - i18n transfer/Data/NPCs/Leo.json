@@ -1,49 +1,49 @@
 {
   "Changes": [
         {
-          "LogName": "CDE_NPC_Compat",
+          "LogName": "CDE_Leo_Compat",
           "Action": "EditData",
-          "Target": "Characters/Dialogue/NPC",
+          "Target": "Characters/Dialogue/Leo",
           "Entries": {
             //any keys that overlap go here 
-            "AcceptGift_(O)444": "{{i18n: CDE_NPC_}}"
+            "AcceptGift_(O)444": "{{i18n: CDE_Leo_DuckFeather}}"
           },
           "When": { "ModdedDialogCompat": "true" }
         },
         {
-          "LogName": "CDE_NPC_GiftTastes",
+          "LogName": "CDE_Leo_GiftTastes",
           "Action": "EditData",
-          "Target": "Characters/Dialogue/NPC",
+          "Target": "Characters/Dialogue/Leo",
           "Entries": {
-            "AcceptGift_(O)279": "{{i18n: CDE_NPC_RockCandy}}",
-            "AcceptGift_(O)797": "{{i18n: CDE_NPC_Pearl}}",
-            "AcceptGift_(O)74": "{{i18n: CDE_NPC_PrismaticShard}}",
-            "AcceptGift_(O)446": "{{i18n: CDE_NPC_RabbitsFoot}}",
+            "AcceptGift_(O)279": "{{i18n: CDE_Leo_RockCandy}}",
+            "AcceptGift_(O)797": "{{i18n: CDE_Leo_Pearl}}",
+            "AcceptGift_(O)74": "{{i18n: CDE_Leo_PrismaticShard}}",
+            "AcceptGift_(O)446": "{{i18n: CDE_Leo_RabbitsFoot}}",
 
-            "AcceptGift_(O)834": "{{i18n: CDE_NPC_}}",
-            "AcceptGift_(O)289": "{{i18n: CDE_NPC_}}",
-            "AcceptGift_(O)906": "{{i18n: CDE_NPC_}}"
+            "AcceptGift_(O)834": "{{i18n: CDE_Leo_Mango}}",
+            "AcceptGift_(O)289": "{{i18n: CDE_Leo_OstrichEgg}}",
+            "AcceptGift_(O)906": "{{i18n: CDE_Leo_Poi}}"
           }
         },
         {
-          "LogName": "CDE_NPC_Dialogue",
+          "LogName": "CDE_Leo_Dialogue",
           "Action": "EditData",
-          "Target": "Characters/Dialogue/NPC",
+          "Target": "Characters/Dialogue/Leo",
           "Entries": {
             //Heart Specific Dialogue
-            "Mon2": null,
-            "Tue4": null,
-            "Tue2": null,
-            "Wed4": null,
-            "Thu4": null,
-            "Thu2": null,
-            "Fri2": null,
-            "Sat4": null,
-            "Sat2": null,
-            "Sun4": null,
-            "Sun2": null,
+            "Mon2": "{{i18n: CDE_Leo_Mon2}}",
+            "Tue4": "{{i18n: CDE_Leo_Tue4}}",
+            "Tue2": "{{i18n: CDE_Leo_Tue2}}",
+            "Wed4": "{{i18n: CDE_Leo_Wed4}}",
+            "Thu4": "{{i18n: CDE_Leo_Thu4}}",
+            "Thu2": "{{i18n: CDE_Leo_Thu2}}",
+            "Fri2": "{{i18n: CDE_Leo_Fri2}}",
+            "Sat4": "{{i18n: CDE_Leo_Sat4}}",
+            "Sat2": "{{i18n: CDE_Leo_Sat2}}",
+            "Sun4": "{{i18n: CDE_Leo_Sun4}}",
+            "Sun2": "{{i18n: CDE_Leo_Sun2}}",
             //Generic Weekday Dialogue
-            "summer_Mon": null
+            "summer_Mon": "{{i18n: CDE_Leo_summerMon}}"
           }
         }
       ]
