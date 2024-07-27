@@ -1464,7 +1464,8 @@
   "CDE_George_RockCandy": "Ah, the original sugar sweet! And still the best kind! I'll take that!$h",
   "CDE_George_Pearl": "With your young set of lungs, you must've gone diving for this yourself! That's the spirit!$h",
   "CDE_George_PrismaticShard": "This? I found dozens of these back in my days as a miner. Or I would have, if I'd had more time.#$b#But uh, I'll admit it, I'm impressed.$h",
-  "CDE_George_Leek": "$c 0.5#Ha! You've got taste, kid, I'll give you that!$h#Ha! Now this'll wake up the ol' taste buds. Did you wash it?$h",
+  "CDE_George_Leek_1": "Ha! You've got taste, kid, I'll give you that!$h",
+  "CDE_George_Leek_2": "Ha! Now this'll wake up the ol' taste buds. Did you wash it?$h",
   "CDE_George_FriedMushroom": "Now that's what I call an honest-to-goodness meal! It's all you really need. Just mushrooms, oil...#$b#You didn't put any newfangled seasonings on it, did you?",
 
   //George's Misc Dialogue
