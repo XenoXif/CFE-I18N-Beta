@@ -165,8 +165,8 @@
         "Rainy_Night_0": "{{i18n: CDE_Elliott_Married_RainyNight_1}}",
         "Rainy_Night_1": "{{i18n: CDE_Elliott_Married_RainyNight_{{Random: 2,3}}}}",
         "Rainy_Night_2": "{{i18n: CDE_Elliott_Married_RainyNight_{{Random: 4,5}}}}",
-        "Rainy_Night_3": "{{i18n: CDE_Elliott_Married_RainyDay_{{Random: 6,7}}}}",
-        "Rainy_Night_4": "{{i18n: CDE_Elliott_Married_RainyDay_{{Random: 8,9}}}}",
+        "Rainy_Night_3": "{{i18n: CDE_Elliott_Married_RainyNight_{{Random: 6,7}}}}",
+        "Rainy_Night_4": "{{i18n: CDE_Elliott_Married_RainyNight_{{Random: 8,9}}}}",
 
         "Indoor_Day_0": "{{i18n: CDE_Elliott_Married_IndoorDay_{{Random: 1,2,3}}}}",
         "Indoor_Day_1": "{{i18n: CDE_Elliott_Married_IndoorDay_{{Random: 4,5,6}}}}",
