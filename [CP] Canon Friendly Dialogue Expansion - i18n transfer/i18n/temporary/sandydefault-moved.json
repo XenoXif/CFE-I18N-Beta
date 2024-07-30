@@ -58,17 +58,27 @@
   "CDE_Sandy_winterFri6":"At least it's a little cooler here in the winter. That sun sure doesn't let up, though.",
   "CDE_Sandy_winterSat10":"Do you go fishing in that pond across the street?#$e#I've seen those fish. I can't imagine eating something like that! Blech.",
   "CDE_Sandy_winterSun10":"What do you think about having a store cat who lives here?#$e#The owner of the building would definitely say no, I'm sure, but I think a cat would love living in the desert.#$e#There's even a mysterious cat totem a stone's throw from here. You've seen it, yeah?",
-  
-  "CDE_Sandy_Mon8+winterWed10":"Emily's got a real knack for reading people. It's like she's on a different wavelength, or something.#$e#She can't help but treat everyone with equal respect, though, no matter how the other person acts. I admire that.",
-  "CDE_Sandy_Mon4+winterTue10":"One time, a couple literally camped out here for their honeymoon. Whatever floats their boat, right?",
-  "CDE_Sandy_Tue6+summerSat10":"I complain about the heat nonstop, but nothing can really beat the coolness of the desert when the sun goes down.#$e#The way a desert sunset looks is hard to beat, too.",
-  "CDE_Sandy_Tue4+winterMon10":"My name's not really Sandy, you know. It's just good for business.#$e#But everyone calls me Sandy anyway, so I've just gotten used to it.",
-  "CDE_Sandy_Thu6+fallSun10":"Those antenna-like structures northeast of here? No idea.#$e#Apparently, they were featured on an old episode of 'Mysteries of the Unknown.'#$e#They must have been built there for some reason, anyway!",
-  "CDE_Sandy_Fri6+summerWed10":"I listen to the radio sometimes. After you hear the same pop song twice an hour for a month, though, it's tough to keep it going.$s",
-  "CDE_Sandy_Sat8+winterThu10":"@! Come on in. I've got a treat for you. [233]#$e#I figured you'd love it.$h",
-  "CDE_Sandy_Sun8+fallMon10":"I took a trip to Zuzu City last month. Can't miss out on living it up at the clubs every once in a while!$h#$e#I don't waste a second. I stay out all night.#$e#There are college kids who can't even keep up with me! Heehee!$h",  
-  "CDE_Sandy_Sun6+fallTue10":"I guess I've seen at least one guy from the back room who occasionally heads up north.#$e#I wonder if he's headed for that freakish cavern?$s",
-  "CDE_Sandy_Sun4+fallSat10":"I floated around in the valley for a few years. Wish I could live there, but it's pretty hard to find reliable work.#$e#So that's how I wound up here!",
+
+  "CDE_Sandy_repeated_1":"Emily's got a real knack for reading people. It's like she's on a different wavelength, or something.#$e#She can't help but treat everyone with equal respect, though, no matter how the other person acts. I admire that.",
+  "CDE_Sandy_repeated_2":"One time, a couple literally camped out here for their honeymoon. Whatever floats their boat, right?",
+  "CDE_Sandy_repeated_3":"I complain about the heat nonstop, but nothing can really beat the coolness of the desert when the sun goes down.#$e#The way a desert sunset looks is hard to beat, too.",
+  "CDE_Sandy_repeated_4":"My name's not really Sandy, you know. It's just good for business.#$e#But everyone calls me Sandy anyway, so I've just gotten used to it.",
+  "CDE_Sandy_repeated_5":"Those antenna-like structures northeast of here? No idea.#$e#Apparently, they were featured on an old episode of 'Mysteries of the Unknown.'#$e#They must have been built there for some reason, anyway!",
+  "CDE_Sandy_repeated_6":"I listen to the radio sometimes. After you hear the same pop song twice an hour for a month, though, it's tough to keep it going.$s",
+  "CDE_Sandy_repeated_7":"@! Come on in. I've got a treat for you. [233]#$e#I figured you'd love it.$h",
+  "CDE_Sandy_repeated_8":"I took a trip to Zuzu City last month. Can't miss out on living it up at the clubs every once in a while!$h#$e#I don't waste a second. I stay out all night.#$e#There are college kids who can't even keep up with me! Heehee!$h",  
+  "CDE_Sandy_repeated_9":"I guess I've seen at least one guy from the back room who occasionally heads up north.#$e#I wonder if he's headed for that freakish cavern?$s",
+  "CDE_Sandy_repeated_10":"I floated around in the valley for a few years. Wish I could live there, but it's pretty hard to find reliable work.#$e#So that's how I wound up here!",
+  //Mon8+winterWed10
+  //Mon4+winterTue10
+  //Tue6+summerSat10
+  //Tue4+winterMon10
+  //Thu6+fallSun10
+  //Fri6+summerWed10
+  //Sat8+winterThu10
+  /Sun8+fallMon10
+  /Sun6+fallTue10
+  //Sun4+fallSat10
 
   //generic weekday dialogue
   "CDE_Sandy_Fri":"That trader with the camel comes through here pretty often. I don't know how she expects to do any business, though.#$e#Hey, I speak from experience. It's tough out here.",
