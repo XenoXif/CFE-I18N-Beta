@@ -1,0 +1,12 @@
+{
+   "Name": "Canon-Friendly Dialogue Expansion",
+   "Author": "gizzymo (dialogue), WitchWeed (coding)",
+   "Description": "Adds about 2600 new lines of dialogue across all 34 characters who have a heart level",
+   "Version": "3.0.0",
+   "UniqueID": "gizzymo.canonfriendlyexpansion",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+  "UpdateKeys": [ "Nexus:2544" ],
+  "Priority": "low"
+}

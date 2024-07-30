@@ -1,0 +1,437 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": { //lets players toggle settings on and off
+    "CDE_Abigail": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Alex": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Birdie": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Caroline": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Clint": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Demetrius": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Dwarf": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Elliott": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Emily": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Evelyn": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_George": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Gus": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Haley": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Harvey": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Jas": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Jodi": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Kent": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Krobus": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Leah": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Leo": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Lewis": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Linus": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Marnie": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Maru": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Pam": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Penny": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Pierre": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Robin": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Sam": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Sandy": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Sebastian": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Shane": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Vincent": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Willy": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Wizard": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Dialogue"
+    },
+    "CDE_Festivals": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Misc"
+    }
+  },
+
+  "DynamicTokens": [
+    {
+      "Name": "ModdedDialogCompat",
+      "Value": "true" //generally my content should be applied
+    },
+    {
+      "Name": "ModdedDialogCompat",
+      "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
+      "When": {
+        "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded": "true" //add new mods UniqueIDs here after a comma to include them in intentional key compat
+      }
+    }
+  ],
+
+  "Changes": [
+    {
+      "LogName": "CDE_Abigail_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Abigail.json",
+      "When": { "CDE_Abigail": "true" }
+    },
+    {
+      "LogName": "CDE_Alex_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Alex.json",
+      "When": { "Alex": "true" }
+    },
+    {
+      "LogName": "CDE_Birdie_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Birdie.json",
+      "When": { "Birdie": "true" }
+    },
+    {
+      "LogName": "CDE_Caroline_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Caroline.json",
+      "When": { "CDE_Caroline": "true" }
+    },
+    {
+      "LogName": "CDE_Clint_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Clint.json",
+      "When": { "CDE_Clint": "true" }
+    },
+    {
+      "LogName": "CDE_Demetrius_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Demetrius.json",
+      "When": { "CDE_Demetrius": "true" }
+    },
+    {
+      "LogName": "CDE_Dwarf_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Dwarf.json",
+      "When": { "CDE_Dwarf": "true" }
+    },
+    {
+      "LogName": "CDE_Elliott_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Elliott.json",
+      "When": { "CDE_Elliott": "true" }
+    },
+    {
+      "LogName": "CDE_Emily_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Emily.json",
+      "When": { "CDE_Emily": "true" }
+    },
+    {
+      "LogName": "CDE_Evelyn_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Evelyn.json",
+      "When": { "CDE_Evelyn": "true" }
+    },
+    {
+      "LogName": "CDE_George_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/George.json",
+      "When": { "CDE_George": "true" }
+    },
+    {
+      "LogName": "CDE_Gus_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Gus.json",
+      "When": { "CDE_Gus": "true" }
+    },
+    {
+      "LogName": "CDE_Haley_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Haley.json",
+      "When": { "CDE_Haley": "true" }
+    },
+    {
+      "LogName": "CDE_Harvey_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Harvey.json",
+      "When": { "CDE_Harvey": "true" }
+    },
+    {
+      "LogName": "CDE_Jas_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Jas.json",
+      "When": { "CDE_Jas": "true" }
+    },
+    {
+      "LogName": "CDE_Jodi_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Jodi.json",
+      "When": { "CDE_Jodi": "true" }
+    },
+    {
+      "LogName": "CDE_Kent_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Kent.json",
+      "When": { "CDE_Kent": "true" }
+    },
+    {
+      "LogName": "CDE_Krobus_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Krobus.json",
+      "When": { "CDE_Krobus": "true" }
+    },
+    {
+      "LogName": "CDE_Leah_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Leah.json",
+      "When": { "CDE_Caroline": "true" }
+    },
+    {
+      "LogName": "CDE_Leo_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Leo.json",
+      "When": { "CDE_Leo": "true" }
+    },
+    {
+      "LogName": "CDE_LeoMainland_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/LeoMainland.json",
+      "When": { "CDE_Leo": "true" }
+    },
+    {
+      "LogName": "CDE_Lewis_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Lewis.json",
+      "When": { "CDE_Lewis": "true" }
+    },
+    {
+      "LogName": "CDE_Linus_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Linus.json",
+      "When": { "CDE_Linus": "true" }
+    },
+    {
+      "LogName": "CDE_Marnie_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Marnie.json",
+      "When": { "CDE_Marnie": "true" }
+    },
+    {
+      "LogName": "CDE_Maru_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Maru.json",
+      "When": { "CDE_Maru": "true" }
+    },
+    {
+      "LogName": "CDE_Pam_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Pam.json",
+      "When": { "CDE_Pam": "true" }
+    },
+    {
+      "LogName": "CDE_Penny_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Penny.json",
+      "When": { "CDE_Penny": "true" }
+    },
+    {
+      "LogName": "CDE_Pierre_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Pierre.json",
+      "When": { "CDE_Pierre": "true" }
+    },
+    {
+      "LogName": "CDE_Robin_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Robin.json",
+      "When": { "CDE_Robin": "true" }
+    },
+    {
+      "LogName": "CDE_Sam_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Sam.json",
+      "When": { "CDE_Sam": "true" }
+    },
+    {
+      "LogName": "CDE_Sandy_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Sandy.json",
+      "When": { "CDE_Sandy": "true" }
+    },
+    {
+      "LogName": "CDE_Sebastian_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Sebastian.json",
+      "When": { "CDE_Sebastian": "true" }
+    },
+    {
+      "LogName": "CDE_Shane_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Shane.json",
+      "When": { "CDE_Shane": "true" }
+    },
+    {
+      "LogName": "CDE_Vincent_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Vincent.json",
+      "When": { "CDE_Vincent": "true" }
+    },
+    {
+      "LogName": "CDE_Willy_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Willy.json",
+      "When": { "CDE_Willy": "true" }
+    },
+    {
+      "LogName": "CDE_Wizard_Include",
+      "Action": "Include",
+      "FromFile": "Data/NPCs/Wizard.json",
+      "When": { "CDE_Wizard": "true" }
+    },
+    {
+      "LogName": "CDE_FestivalAlt_Include",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/Fest_True.json",
+      "When": {
+        "Year": "3, 4",
+        "CDE_Festivals": "true"
+      }
+    },
+    {
+      "LogName": "CDE_FestivalRandom_Include",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/Fest_{{Random:null, True}}.json",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Year |contains= 1, 2, 3, 4": false,
+        "CDE_Festivals": "true"
+      }
+    }
+  ]
+}
