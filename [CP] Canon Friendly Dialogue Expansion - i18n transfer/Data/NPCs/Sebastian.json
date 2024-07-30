@@ -1,19 +1,25 @@
 {
   "Changes": [
     {
+      "LogName": "CDE_Sebastian_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)84": "{{i18n: CDE_Sebastian_FrozenTear}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Sebastian_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
-        // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)373": "{{i18n: CDE_Sebastian_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CDE_Sebastian_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CDE_Sebastian_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CDE_Sebastian_PrismaticShard}}",
-        "AcceptGift_(O)84": "{{i18n: CDE_Sebastian_FrozenTear}}"
-      },
-      "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+        "AcceptGift_(O)74": "{{i18n: CDE_Sebastian_PrismaticShard}}"
+      }
     },
     {
       "LogName": "CDE_Sebastian_Rainy",
@@ -146,7 +152,7 @@
         "Rainy_Day_2": "{{i18n: CDE_Sebastian_Married_RainyDay_{{Random: 5,6}}}}",
         "Rainy_Day_3": "{{i18n: CDE_Sebastian_Married_RainyDay_{{Random: 7,8}}}}",
         "Rainy_Day_4": "{{i18n: CDE_Sebastian_Married_RainyDay_{{Random: 9,10}}}}",
-        
+
         "Rainy_Night_0": "{{i18n: CDE_Sebastian_Married_RainyNight_1}}",
         "Rainy_Night_1": "{{i18n: CDE_Sebastian_Married_RainyNight_{{Random: 2,3}}}}",
         "Rainy_Night_2": "{{i18n: CDE_Sebastian_Married_RainyNight_{{Random: 4,5}}}}",
@@ -158,7 +164,7 @@
         "Indoor_Day_2": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 7,8,9}}}}",
         "Indoor_Day_3": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 10,11,12}}}}",
         "Indoor_Day_4": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 13,14,15}}}}",
-        
+
         "Indoor_Night_0": "{{i18n: CDE_Sebastian_Married_IndoorNight_{{Random: 1,2}}}}",
         "Indoor_Night_1": "{{i18n: CDE_Sebastian_Married_IndoorNight_{{Random: 3,4}}}}",
         "Indoor_Night_2": "{{i18n: CDE_Sebastian_Married_IndoorNight_{{Random: 5,6}}}}",

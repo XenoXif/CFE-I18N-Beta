@@ -1,6 +1,16 @@
 {
   "Changes": [
     {
+      "LogName": "CDE_Willy_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Willy",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)143": "{{i18n: CDE_Willy_Catfish}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Willy_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Willy",
@@ -10,7 +20,6 @@
         "AcceptGift_(O)797": "{{i18n: CDE_Willy_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CDE_Willy_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CDE_Willy_RabbitsFoot}}",
-        "AcceptGift_(O)143": "{{i18n: CDE_Willy_Catfish}}",
         "AcceptGift_(O)72": "{{i18n: CDE_Willy_Diamond}}",
         "AcceptGift_(O)337": "{{i18n: CDE_Willy_IridiumBar}}",
         "AcceptGift_(O)459": "{{i18n: CDE_Willy_Mead}}",

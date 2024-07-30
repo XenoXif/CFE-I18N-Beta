@@ -1,6 +1,17 @@
 {
   "Changes": [
     {
+      "LogName": "CDE_Wizard_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)422": "{{i18n: CDE_Wizard_PurpleMushroom}}",
+        "AcceptGift_(O)155": "{{i18n: CDE_Wizard_SuperCucumber}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Wizard_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Wizard",
@@ -10,8 +21,6 @@
         "AcceptGift_(O)279": "{{i18n: CDE_Wizard_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CDE_Wizard_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CDE_Wizard_RabbitsFoot}",
-        "AcceptGift_(O)422": "{{i18n: CDE_Wizard_PurpleMushroom}}",
-        "AcceptGift_(O)155": "{{i18n: CDE_Wizard_SuperCucumber}}",
         "AcceptGift_(O)768": "{{i18n: CDE_Wizard_SolarEssence}}",
         "AcceptGift_(O)769": "{{i18n: CDE_Wizard_VoidEssence}}"
       },

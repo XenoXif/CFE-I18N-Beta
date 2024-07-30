@@ -1,6 +1,16 @@
 {
   "Changes": [
     {
+      "LogName": "CDE_Vincent_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)221": "{{i18n: CDE_Vincent_PinkCake}}"
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Vincent_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Vincent",
@@ -13,7 +23,6 @@
         "AcceptGift_(O)612": "{{i18n: CDE_Vincent_CranberryCandy}}",
         "AcceptGift_(O)903": "{{i18n: CDE_Vincent_GingerAle}}",
         "AcceptGift_(O)398": "{{i18n: CDE_Vincent_Grape}}",
-        "AcceptGift_(O)221": "{{i18n: CDE_Vincent_PinkCake}}",
         "AcceptGift_(O)721": "{{i18n: CDE_Vincent_Snail}}"
       },
       "When": { "ModdedDialogCompat": "true" }

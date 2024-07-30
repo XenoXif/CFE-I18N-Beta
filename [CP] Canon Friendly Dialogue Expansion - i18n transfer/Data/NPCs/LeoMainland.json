@@ -10,8 +10,7 @@
       },
       "When": { "ModdedDialogCompat": "true" }
     },
-    { //are we sure that this is the right path for leo's rainy dialogue? i can look if need be
-      //it looks to be correct
+    {
       "LogName": "CDE_Leo_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",

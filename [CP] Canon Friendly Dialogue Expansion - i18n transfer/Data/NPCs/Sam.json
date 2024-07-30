@@ -1,21 +1,27 @@
 {
   "Changes": [
     {
+      "LogName": "CDE_Sam_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "Entries": {
+        "AcceptGift_(O)90": "{{i18n: CDE_Sam_CactusFruit}}",
+        //any keys that overlap go here
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Sam_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Shane",
       "Entries": {
-        // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)373": "{{i18n: CDE_Sam_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CDE_Sam_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CDE_Sam_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CDE_Sam_RabbitsFoot}}",
-        "AcceptGift_(O)90": "{{i18n: CDE_Sam_CactusFruit}}",
         "AcceptGift_(O)731": "{{i18n: CDE_Sam_MapleBar}}",
         "AcceptGift_(O)562": "{{i18n: CDE_Sam_TigersEye}}"
-      },
-      "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+      }
     },
     {
       "LogName": "CDE_Sam_Rainy",

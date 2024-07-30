@@ -1,6 +1,16 @@
 {
   "Changes": [
     {
+      "LogName": "CDE_Sandy_Compat",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sandy",
+      "Entries": {
+        //any keys that overlap go here
+      
+      },
+      "When": { "ModdedDialogCompat": "true" }
+    },
+    {
       "LogName": "CDE_Sandy_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
@@ -11,9 +21,7 @@
         "AcceptGift_(O)74": "{{i18n: CDE_Sandy_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CDE_Sandy_RabbitsFoot}}",
         "AcceptGift_(O)905": "{{i18n: CDE_Sandy_MangoStickyRice}}"
-      },
-      "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+      }
     },
     {
       "LogName": "CDE_Sandy_Rainy",
