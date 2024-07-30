@@ -3237,6 +3237,11 @@
   "CDE_Maru_Married_IndoorDay_8": "One of the best things about living on the farm is waking up to a chorus of songbirds.",
   "CDE_Maru_Married_IndoorDay_9": "I used to wonder where I'd end up after moving out. I never imagined it'd be right down the road. How funny.$h",
   "CDE_Maru_Married_IndoorDay_10": "How do you keep your hands so soft with all that farmwork?",
+  "CDE_Maru_Married_IndoorDay_11": "It's pretty nice outside! I've got to make sure I don't spend the whole day cooped up.",
+  "CDE_Maru_Married_IndoorDay_12": "We've got a lot of machines on the farm, don't we?#$e#Don't worry, what you do is still 'honest work.'$h",
+  "CDE_Maru_Married_IndoorDay_13": "I got my automatic breakfast machine to work! How's it taste?[194 195 210 211 731]",
+  "CDE_Maru_Married_IndoorDay_14": "Ahh, up bright and early! It feels really good when you get into a rhythm.",
+  "CDE_Maru_Married_IndoorDay_15": "I know my dad's not always the most tactful in conversation, but please know that deep down, he's actually really happy for us.$l",
 
   "CDE_Maru_Married_IndoorNight_1": "One day, we'll look at the stars the same way early man looked at the horizon: distant but surmountable.",
   "CDE_Maru_Married_IndoorNight_2": "Did you see the moon tonight? It always looks spectacular on the horizon.",
@@ -3254,6 +3259,15 @@
   "CDE_Maru_Married_funLeave_2": "I think I'll visit my parents today. I haven't seen them in a while.",
   "CDE_Maru_Married_funReturn_1": "Well, it was good to go home today, but now it's even better to come 'home-home.' My heart's really here, now.$l",
   "CDE_Maru_Married_funReturn_2": "Mom and Dad are doing just fine. Their routine is still the same, even with me gone.#$e#How was your day?",
+
+  "CDE_Maru_Married_jobLeave_1": "It's another work day for me. Shouldn't be too stressful! But we'll see.",
+  "CDE_Maru_Married_jobLeave_2": "I have to leave for work soon. I'll see you tonight. I'll be thinking of you!$h",
+  "CDE_Maru_Married_jobLeave_3": "Give me a kiss before you leave! I'll be heading into work soon, myself.",
+  "CDE_Maru_Married_jobLeave_4": "Looks like I'm needed at the clinic. I hope all goes well for you today!",
+  "CDE_Maru_Married_jobReturn_1": "Well, it was just another boring day at the clinic.#$e#Well, It's time to kick back and relax. Did you leave me any dinner?",
+  "CDE_Maru_Married_jobReturn_2": "Hey. Did you have a more exciting day than me? I hope so.#$e#I'm just looking forward to bed-time.$h",
+  "CDE_Maru_Married_jobReturn_3": "Dr. Harvey kept me busy today. Nothing I couldn't handle, though.#$e#Was your day manageable?",
+  "CDE_Maru_Married_jobReturn_4": "Here you go! I got to work on dinner as soon as I got home.[727 224 209 198 244 456 457 153]#$e#I used some of my home-made kitchen appliances to make it. And some of them worked!",
 
   "CDE_Maru_Married_OneKid_1": "I'll ask Penny for some kid advice. I know she works with big kids, but she just has a way with the little ones.",
   "CDE_Maru_Married_OneKid_2": "Have you spent any time with %kid1 today? Kids need playtime in order reach their full potential.",
@@ -3278,6 +3292,12 @@
   "CDE_Maru_Married_patio_1": "When this one's done, it should be useful for helping me cook food. Y'know, MY way, just for fun.",
   "CDE_Maru_Married_patio_2": "I'm not sure what this is, yet... but it's fun to turn the old wrench now and then.",
   "CDE_Maru_Married_patio_3": "It's one part science, one part art, what I do here.#$e#Oops, now where did that tiny screw go? Not sure what I expected when I set it down in the grass...",
+
+  "CDE_Maru_Married_spouseRoom_1": "I got up early to do a little star-gazing.",
+  "CDE_Maru_Married_spouseRoom_2": "I hope you don't mind if I spend some time on my projects today, honey.",
+  "CDE_Maru_Married_spouseRoom_3": "Let's see if I can get another one of these old computers up and running today...",
+  "CDE_Maru_Married_spouseRoom_4": "That little robot shouldn't be going anywhere anytime soon. I'll be keeping it for myself.#$e#Unless this one also becomes sentient...$s",
+  "CDE_Maru_Married_spouseRoom_5": "Let's see... what phase is the moon in right now?",
 
   //Date Specific Dialogue
   "CDE_Maru_Married_spring9": "Working in a university would be interesting, but honestly, what would I do there that I don't already do?#$b#Invent? Learn? Experiment? I already do all that.$h",
