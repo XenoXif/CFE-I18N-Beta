@@ -127,9 +127,9 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
-        "spouseRoom_Harvey": "{{i18n: CDE_Harvey_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
+        "spouseRoom_Harvey": "{{i18n: CDE_Harvey_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Harvey": "{{i18n: CDE_Harvey_Married_jobLeave_{{Random: 1,2,3,4}}}}",
-        "jobReturn_Harvey": "{{i18n: CDE_Harvey_Married_jobReturn_{{Random: 1,2,3,4}}}}",
+        "jobReturn_Harvey": "{{i18n: CDE_Harvey_Married_jobReturn_{{Random: 1,2,3,4}}}}"
       }
     },
     {
