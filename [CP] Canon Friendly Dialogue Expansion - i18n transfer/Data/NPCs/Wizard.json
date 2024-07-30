@@ -42,10 +42,10 @@
 
 
         //Heart Specific Dialogue
-        "summer_Mon10": "{{i18n: CDE_Wizard_summerMon10}}",
+        "summer_Mon10": "{{i18n: CDE_Wizard_repeated_1}}",
         "summer_Mon4": "{{i18n: CDE_Wizard_summerMon4}}",
-        "summer_Tue10": "{{i18n: CDE_Wizard_summerTue10+winterTue10}}",
-        "summer_Tue8": "{{i18n: CDE_Wizard_summerTue8+fallTue8}}",
+        "summer_Tue10": "{{i18n: CDE_Wizard_repeated_4}}",
+        "summer_Tue8": "{{i18n: CDE_Wizard_repeated_3}}",
         "summer_Wed10": "{{i18n: CDE_Wizard_summerWed10}}",
         "summer_Fri6": "{{i18n: CDE_Wizard_summerFri6}}",
         "summer_Sat10": "{{i18n: CDE_Wizard_summerSat10}}",
@@ -53,14 +53,14 @@
         "fall_Mon8": "{{i18n: CDE_Wizard_fallMon8}}",
         "fall_Mon2": "{{i18n: CDE_Wizard_fallMon2}}",
         "fall_Tue10": "{{i18n: CDE_Wizard_fallTue10}}",
-        "fall_Tue8": "{{i18n: CDE_Wizard_summerTue8+fallTue8}}",
+        "fall_Tue8": "{{i18n: CDE_Wizard_repeated_3}}",
         "fall_Wed10": "{{i18n: CDE_Wizard_fallWed10}}",
         "fall_Thu10": "{{i18n: CDE_Wizard_fallThu10}}",
-        "fall_Fri10": "{{i18n: CDE_Wizard_fallFri10+Thu4}}",
+        "fall_Fri10": "{{i18n: CDE_Wizard_repeated_2}}",
         "fall_Sun10": "{{i18n: CDE_Wizard_fallSun10}}",
 
         "winter_Mon4": "{{i18n: CDE_Wizard_winterMon4}}",
-        "winter_Tue10": "{{i18n: CDE_Wizard_summerTue10+winterTue10}}",
+        "winter_Tue10": "{{i18n: CDE_Wizard_repeated_4}}",
         "winter_Wed4": "{{i18n: CDE_Wizard_winterWed4}}",
         "winter_Thu10": "{{i18n: CDE_Wizard_winterThu10}}",
         "winter_Fri10": "{{i18n: CDE_Wizard_winterFri10}}",
@@ -75,16 +75,17 @@
         "Wed2": "{{i18n: CDE_Wizard_Wed2}}",
         "Thu8": "{{i18n: CDE_Wizard_Thu8}}",
         "Thu6": "{{i18n: CDE_Wizard_Thu6}}",
-        "Thu4": "{{i18n: CDE_Wizard_fallFri10+Thu4}}",
+        "Thu4": "{{i18n: CDE_Wizard_repeated_2}}",
         "Fri4": "{{i18n: CDE_Wizard_Fri4}}",
         "Fri2": "{{i18n: CDE_Wizard_Fri2}}",
         "Sat8": "{{i18n: CDE_Wizard_Sat8}}",
         "Sun10": "{{i18n: CDE_Wizard_Sun10}}",
         "Sun6": "{{i18n: CDE_Wizard_Sun6}}",
+        "Sun4": "{{i18n: CDE_Wizard_repeated_1}}",
 
         //Generic Weekday Dialogue
-        "summer_Fri": "{{i18n: CDE_Wizard_summerFri+fallWed}}",
-        "fall_Wed": "{{i18n: CDE_Wizard_summerFri+fallWed}}",
+        "summer_Fri": "{{i18n: CDE_Wizard_repeated_5}}",
+        "fall_Wed": "{{i18n: CDE_Wizard_repeated_5}}",
         "Fri": "{{i18n: CDE_Wizard_Fri}}"
       }
     }
