@@ -128,6 +128,14 @@
       }
     },
     {
+      "LogName": "CDE_Sebastian_Married_spouseRoom",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "Entries": {
+        "spouseRoom_Sebastian": "{{i18n: CDE_Sebastian_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
+      }
+    },
+    {
       "LogName": "CDE_Sebastian_Married",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriedDialogueSebastian",
@@ -138,17 +146,19 @@
         "Rainy_Day_2": "{{i18n: CDE_Sebastian_Married_RainyDay_{{Random: 5,6}}}}",
         "Rainy_Day_3": "{{i18n: CDE_Sebastian_Married_RainyDay_{{Random: 7,8}}}}",
         "Rainy_Day_4": "{{i18n: CDE_Sebastian_Married_RainyDay_{{Random: 9,10}}}}",
+        
         "Rainy_Night_0": "{{i18n: CDE_Sebastian_Married_RainyNight_1}}",
         "Rainy_Night_1": "{{i18n: CDE_Sebastian_Married_RainyNight_{{Random: 2,3}}}}",
         "Rainy_Night_2": "{{i18n: CDE_Sebastian_Married_RainyNight_{{Random: 4,5}}}}",
         "Rainy_Night_3": "{{i18n: CDE_Sebastian_Married_RainyNight_{{Random: 6,7}}}}",
         "Rainy_Night_4": "{{i18n: CDE_Sebastian_Married_RainyNight_{{Random: 8,9}}}}",
 
-        "Indoor_Day_0": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 1,2}}}}",
-        "Indoor_Day_1": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 3,4}}}}",
-        "Indoor_Day_2": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 5,6}}}}",
-        "Indoor_Day_3": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 7,8}}}}",
-        "Indoor_Day_4": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 9,10}}}}",
+        "Indoor_Day_0": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 1,2,3}}}}",
+        "Indoor_Day_1": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 4,5,6}}}}",
+        "Indoor_Day_2": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 7,8,9}}}}",
+        "Indoor_Day_3": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 10,11,12}}}}",
+        "Indoor_Day_4": "{{i18n: CDE_Sebastian_Married_IndoorDay_{{Random: 13,14,15}}}}",
+        
         "Indoor_Night_0": "{{i18n: CDE_Sebastian_Married_IndoorNight_{{Random: 1,2}}}}",
         "Indoor_Night_1": "{{i18n: CDE_Sebastian_Married_IndoorNight_{{Random: 3,4}}}}",
         "Indoor_Night_2": "{{i18n: CDE_Sebastian_Married_IndoorNight_{{Random: 5,6}}}}",
