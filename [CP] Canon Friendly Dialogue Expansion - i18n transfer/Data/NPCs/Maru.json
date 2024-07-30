@@ -177,6 +177,16 @@
       }
     },
     {
+      "LogName": "CDE_Maru_Married_spouseRoom",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "Entries": {
+        "spouseRoom_Maru": "{{i18n: CDE_Maru_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
+        "jobLeave_Maru": "{{i18n: CDE_Maru_Married_jobLeave_{{Random: 1,2,3,4}}}}",
+        "jobReturn_Maru": "{{i18n: CDE_Maru_Married_jobReturn_{{Random: 1,2,3,4}}}}",
+      }
+    },
+    {
       "LogName": "CDE_Maru_Marriage",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueMaru",
@@ -197,11 +207,11 @@
         "Rainy_Night_3": "{{i18n: CDE_Maru_Married_RainyDay_{{Random: 7,8}}}}",
         "Rainy_Night_4": "{{i18n: CDE_Maru_Married_RainyDay_{{Random: 9,10}}}}",
 
-        "Indoor_Day_0": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 1,2}}}}",
-        "Indoor_Day_1": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 3,4}}}}",
-        "Indoor_Day_2": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 5,6}}}}",
-        "Indoor_Day_3": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 7,8}}}}",
-        "Indoor_Day_4": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 9,10}}}}",
+        "Indoor_Day_0": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 1,2,3}}}}",
+        "Indoor_Day_1": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 4,5,6}}}}",
+        "Indoor_Day_2": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 7,8,9}}}}",
+        "Indoor_Day_3": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 10,11,12}}}}",
+        "Indoor_Day_4": "{{i18n: CDE_Maru_Married_IndoorDay_{{Random: 13,14,15}}}}",
 
         "Indoor_Night_0": "{{i18n: CDE_Maru_Married_IndoorNight_{{Random: 1,2}}}}",
         "Indoor_Night_1": "{{i18n: CDE_Maru_Married_IndoorNight_{{Random: 3,4}}}}",
