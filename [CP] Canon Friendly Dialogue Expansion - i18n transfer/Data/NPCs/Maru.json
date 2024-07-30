@@ -181,9 +181,9 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
-        "spouseRoom_Maru": "{{i18n: CDE_Maru_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
+        "spouseRoom_Maru": "{{i18n: CDE_Maru_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Maru": "{{i18n: CDE_Maru_Married_jobLeave_{{Random: 1,2,3,4}}}}",
-        "jobReturn_Maru": "{{i18n: CDE_Maru_Married_jobReturn_{{Random: 1,2,3,4}}}}",
+        "jobReturn_Maru": "{{i18n: CDE_Maru_Married_jobReturn_{{Random: 1,2,3,4}}}}"
       }
     },
     {
