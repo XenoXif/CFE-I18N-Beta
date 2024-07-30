@@ -417,7 +417,7 @@
     {
       "LogName": "CDE_FestivalAlt_Include",
       "Action": "Include",
-      "FromFile": "Data/Festivals/Y3.json",
+      "FromFile": "Data/Festivals/Fest_True.json",
       "When": {
         "Year": "3, 4",
         "CDE_Festivals": "true"
@@ -426,17 +426,12 @@
     {
       "LogName": "CDE_FestivalRandom_Include",
       "Action": "Include",
-      "FromFile": "Data/Festivals/Y{{Random:null, 3}}.json",
+      "FromFile": "Data/Festivals/Fest_{{Random:null, True}}.json",
       "When": {
         "HasFile:{{FromFile}}": true,
         "Year |contains= 1, 2, 3, 4": false,
         "CDE_Festivals": "true"
       }
-    },
-    {
-      "LogName": "Misc Dialogue",
-      "Action": "Include",
-      "FromFile": "Data/Misc/MiscDialogue.json"
     }
   ]
 }
