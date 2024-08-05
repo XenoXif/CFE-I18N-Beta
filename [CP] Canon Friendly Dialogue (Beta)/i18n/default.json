@@ -3633,7 +3633,6 @@
   //Date Specific Dialogue
   "CDE_Penny_Married_spring1": "We've got a long, warm year to look forward to. Let's make it a productive one.",
   "CDE_Penny_Married_spring4": "Spring is probably my favorite season. There's a certain freshness in the air that fills me with hope.",
-  "CDE_Penny_Married_spring8": null,
   "CDE_Penny_Married_spring13": "School's off today. I'll be heading into town for the egg festival. Are you coming, too?",
   "CDE_Penny_Married_spring16": "Ah, the 'spring cleaning'... I'm actually going to enjoy this.",
   "CDE_Penny_Married_spring19": "It's really nice seeing my mom proud of me. I wondered, briefly, if she'd be jealous of me.#$b#But that turned out not to be a problem!$h",
@@ -3650,7 +3649,6 @@
   "CDE_Penny_Married_fall19": "I got to catch up with Maru yesterday. It's weird that we're in different phases of our lives now.#$b#But she's just as good a friend as ever.$h",
 
   "CDE_Penny_Married_winter5": "The falling snow reminds me of grandma, rocking by the fire. I mostly remember her shadow flickering against the orange wood. That was long ago.",
-  "CDE_Penny_Married_winter6": null,
   "CDE_Penny_Married_winter9": "It's been so long since Nora Sealy released any new books. I wonder if she's ever even going to get around to it.$s#$e#Sorry, just thinking out loud. I'm sure I'll find something to read today.",
   "CDE_Penny_Married_winter12": "I wonder if Vincent will ever learn to enjoy reading...$s#$e#It's just not enough for me to teach him skills he'll never use. I want him to find joy in it.#$b#Plus, I don't want to let Jodi down.",
   "CDE_Penny_Married_winter16": "Brr... Such a long walk in the snow, to get to school this morning.$s#$e#Yep, out here in the country, I guess we still walk uphill both ways.#$e#...$h",
@@ -4846,7 +4844,7 @@
   "CDE_Wizard_Sun6": "In the elemental wars, the dwarven race was almost completely wiped out by the shadow beings.#$b#But the war has finally ended. I hope that those who remain can move on.",
 
   //Generic Weekday Dialogue
-  "CDE_Wizard_Fri": "Think of me as an ambassador between this world and the world of spirits.#$e#That is but one of my duties, anyway."
+  "CDE_Wizard_Fri": "Think of me as an ambassador between this world and the world of spirits.#$e#That is but one of my duties, anyway.",
 
   //Festival Dialogue
   //Egg Festival
@@ -5288,7 +5286,7 @@
   "CDE_IceFest_Vincent_y2": "I want to make this snowman ten snowballs high!",
   "CDE_IceFest_Leo_y2": "I hope I travel to many different places when I'm all grown up. Maybe some places even colder than here.#$e#There's just so much to see!$1",
   "CDE_IceFest_Willy_y2": "I like to watch the waters of the stream flow by, along with all o' me thoughts. It sets me spirit right for the competition.",
-  "CDE_IceFest_Marlon_y2": "Gil once survived in arctic tundra, fending off skeleton mages for nearly a week straight.#$e#I may be an accomplished adventurer, but my feats are nothing compared to Gil's."
+  "CDE_IceFest_Marlon_y2": "Gil once survived in arctic tundra, fending off skeleton mages for nearly a week straight.#$e#I may be an accomplished adventurer, but my feats are nothing compared to Gil's.",
 
   //Winter Star
   "CDE_WinterStar_Abigail": "Mom, are you okay?$h",

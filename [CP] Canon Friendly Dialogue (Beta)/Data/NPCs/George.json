@@ -36,7 +36,7 @@
       "Target": "Characters/Dialogue/George",
       "Entries": {
         //special dialogue
-
+        //
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CDE_George_spring1y2}}",
 

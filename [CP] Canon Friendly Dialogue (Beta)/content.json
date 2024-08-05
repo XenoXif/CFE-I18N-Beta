@@ -208,13 +208,13 @@
       "LogName": "CDE_Alex_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Alex.json",
-      "When": { "Alex": "true" }
+      "When": { "CDE_Alex": "true" }
     },
     {
       "LogName": "CDE_Birdie_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Birdie.json",
-      "When": { "Birdie": "true" }
+      "When": { "CDE_Birdie": "true" }
     },
     {
       "LogName": "CDE_Caroline_Include",

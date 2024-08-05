@@ -41,7 +41,7 @@
       "Target": "Characters/Dialogue/Krobus",
       "Entries": {
         //special dialogue
-
+        //
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CDE_Krobus_spring1y2}}",
         "summer_12_1": "{{i18n: CDE_Krobus_summer12y1}}",
@@ -110,7 +110,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueKrobus",
       "Entries": {
         //these lines follow different priority rules than unmarried dialogue does, with different options having different % likelihoods to show up each day when the right conditions are met.
-
+        //
         //Weather specific dialogue
         //note that Indoor_Day is the key for any weather besides rain, even when the Krobus is outside. Day means prior to 6pm. Indoor_Night is specific to inside the farmhouse when it's not raining after 6pm.
         "Rainy_Day_0": "{{i18n: CDE_Krobus_Married_RainyDay_{{Random: 1,2}}}",

@@ -25,7 +25,6 @@
         "AcceptGift_(O)769": "{{i18n: CDE_Wizard_VoidEssence}}"
       },
       "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
     },
     {
       "LogName": "CDE_Wizard_Rainy",
@@ -48,7 +47,6 @@
 
         "winter_28_1": "{{i18n: CDE_Wizard_winter28}}",
         "winter_28_2": "{{i18n: CDE_Wizard_winter28}}",
-
 
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CDE_Wizard_repeated_1}}",

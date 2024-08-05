@@ -101,8 +101,8 @@
         "Fri6": "{{i18n: CDE_Evelyn_Fri6}}",
         "Fri4": "{{i18n: CDE_Evelyn_Fri4}}",
         "Fri2": "{{i18n: CDE_Evelyn_repeated_2}}",
-        "Sat4": "{{i18n: CDE_Evelyn_Sat4}}"
-        "Sun6": "{{i18n: CDE_Evelyn_Sun6}}",
+        "Sat4": "{{i18n: CDE_Evelyn_Sat4}}",
+        "Sun6": "{{i18n: CDE_Evelyn_Sun6}}"
 
         //Generic Weekday Dialogue
       }

@@ -23,14 +23,14 @@
         "AcceptGift_(O)604": "{{i18n: CDE_Jas_PlumPudding}}"
       }
     },
-    {
+    /*{
       "LogName": "CDE_Jas_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         //no rainy dialogue currently
       }
-    },
+    }, */
     {
       "LogName": "CDE_Jas_Dialogue",
       "Action": "EditData",

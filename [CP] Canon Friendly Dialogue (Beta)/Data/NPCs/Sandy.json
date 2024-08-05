@@ -1,6 +1,6 @@
 {
   "Changes": [
-    {
+    /* {
       "LogName": "CDE_Sandy_Compat",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
@@ -9,7 +9,7 @@
       
       },
       "When": { "ModdedDialogCompat": "true" }
-    },
+    }, */
     {
       "LogName": "CDE_Sandy_GiftTastes",
       "Action": "EditData",

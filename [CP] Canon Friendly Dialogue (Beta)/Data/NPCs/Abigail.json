@@ -43,24 +43,24 @@
         //special dialogue
 
         //Date Specific Dialogue
-        "spring_12": "{{i18n: CDE_Abigail_spring12}}",
+        "spring_12_1": "{{i18n: CDE_Abigail_spring12}}",
         "spring_12_2": "{{i18n: CDE_Abigail_spring12}}",
         "spring_1_2": "{{i18n: CDE_Abigail_spring1y2}}",
 
-        "summer_6": "{{i18in: CDE_Abigail_summer6y1}}",
-        "summer_10": "{{i18n: CDE_Abigail_summer10}}",
+        "summer_6_1": "{{i18n: CDE_Abigail_summer6y1}}",
+        "summer_10_1": "{{i18n: CDE_Abigail_summer10}}",
         "summer_10_2": "{{i18n: CDE_Abigail_summer10}}",
-        "summer_27": "{{i18n: CDE_Abigail_summer27}}",
+        "summer_27_1": "{{i18n: CDE_Abigail_summer27}}",
         "summer_27_2": "{{i18n: CDE_Abigail_summer27}}",
 
-        "fall_26": "{{i18n: CDE_Abigail_fall26y1}}",
+        "fall_26_1": "{{i18n: CDE_Abigail_fall26y1}}",
         "fall_26_2": "{{i18n: CDE_Abigail_fall26y2}}",
 
-        "winter_7": "{{i18n: CDE_Abigail_winter7}}",
+        "winter_7_1": "{{i18n: CDE_Abigail_winter7}}",
         "winter_7_2": "{{i18n: CDE_Abigail_winter7}}",
-        "winter_24": "{{i18n: CDE_Abigail_winter24y1}}",
+        "winter_24_1": "{{i18n: CDE_Abigail_winter24y1}}",
         "winter_24_2": "{{i18n: CDE_Abigail_winter24y2}}",
-        "winter_28": "{{i18n: CDE_Abigail_winter28}}",
+        "winter_28_1": "{{i18n: CDE_Abigail_winter28}}",
         "winter_28_2": "{{i18n: CDE_Abigail_winter28}}",
 
         //Heart Specific Dialogue

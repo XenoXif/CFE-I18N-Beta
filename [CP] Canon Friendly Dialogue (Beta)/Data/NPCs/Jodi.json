@@ -1,6 +1,6 @@
 {
   "Changes": [
-    {
+    /*{
       "LogName": "CDE_Jodi_Compat",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Jodi",
@@ -8,7 +8,7 @@
         //any keys that overlap go here
       },
       "When": { "ModdedDialogCompat": "true" }
-    },
+    },*/
     {
       "LogName": "CDE_Jodi_GiftTastes",
       "Action": "EditData",

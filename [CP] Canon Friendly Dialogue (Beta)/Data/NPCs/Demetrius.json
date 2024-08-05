@@ -37,9 +37,9 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Demetrius",
       "Entries": {
-        //special dialogue
-
-        //Date Specific Dialogue
+        //special dialogue,
+        //
+        //Date Specific Dialogue,
         "spring_1_2": "{{i18n: CDE_Demetrius_spring1y2}}",
 
         "summer_28_1": "{{i18n: CDE_Demetrius_summer28}}",

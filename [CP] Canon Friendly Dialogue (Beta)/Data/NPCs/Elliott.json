@@ -38,7 +38,7 @@
       "Target": "Characters/Dialogue/Elliott",
       "Entries": {
         //special dialogue
-
+        //
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CDE_Elliott_spring1y2}}",
         "summer_27_1": "{{i18n: CDE_Elliott_summer27}}",
@@ -136,10 +136,10 @@
         "Sun2": "{{i18n: CDE_Elliott_Sun2}}",
 
         //Generic Weekday Dialogue
-        "winter_Wed": "{{i18n: CDE_Elliott_repeated_2}}",
+        "winter_Wed": "{{i18n: CDE_Elliott_repeated_2}}"
       }
     },
-      {
+    {
       "LogName": "CDE_Elliott_Married_spouseRoom",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",

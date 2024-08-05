@@ -15,7 +15,6 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Vincent",
       "Entries": {
-        // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)373": "{{i18n: CDE_Vincent_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CDE_Vincent_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CDE_Vincent_Pearl}}",
@@ -28,12 +27,12 @@
       "When": { "ModdedDialogCompat": "true" }
       //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
     },
-    {
-      //"LogName": "CDE_Vincent_Rainy",
-      //"Action": "EditData",
-      //"Target": "Characters/Dialogue/rainy",
-      //"Entries": { //left for future use }
-    },
+    /*{
+      "LogName": "CDE_Vincent_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": { //left for future use }
+    }, */
     {
       "LogName": "CDE_Vincent_Dialogue",
       "Action": "EditData",
