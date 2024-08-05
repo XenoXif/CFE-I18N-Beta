@@ -113,7 +113,7 @@
         //
         //Weather specific dialogue
         //note that Indoor_Day is the key for any weather besides rain, even when the Krobus is outside. Day means prior to 6pm. Indoor_Night is specific to inside the farmhouse when it's not raining after 6pm.
-        "Rainy_Day_0": "{{i18n: CDE_Krobus_Married_RainyDay_{{Random: 1,2}}}",
+        "Rainy_Day_0": "{{i18n: CDE_Krobus_Married_RainyDay_{{Random: 1,2}}}}",
         "Rainy_Day_1": "{{i18n: CDE_Krobus_Married_RainyDay_{{Random: 3,4}}}}",
         "Rainy_Day_2": "{{i18n: CDE_Krobus_Married_RainyDay_{{Random: 5,6}}}}",
         "Rainy_Day_3": "{{i18n: CDE_Krobus_Married_RainyDay_{{Random: 7,8}}}}",
