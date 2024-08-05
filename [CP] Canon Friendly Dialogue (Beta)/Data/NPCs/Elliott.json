@@ -59,7 +59,7 @@
         "summer_Thu10": "{{i18n: CDE_Elliott_summerThu10}}",
         "summer_Thu6": "{{i18n: CDE_Elliott_summerThu6}}",
         "summer_Thu4": "{{i18n: CDE_Elliott_repeated_4}}",
-        "summer_Thu2": "{{i18n: CDE_Elliott_summerThu}2}",
+        "summer_Thu2": "{{i18n: CDE_Elliott_summerThu}2}}",
         "summer_Fri6": "{{i18n: CDE_Elliott_summerFri6}}",
         "summer_Fri4": "{{i18n: CDE_Elliott_summerFri4}}",
         "summer_Fri2": "{{i18n: CDE_Elliott_summerFri2}}",
