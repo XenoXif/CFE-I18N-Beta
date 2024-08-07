@@ -224,9 +224,13 @@
         "funReturn_Maru": "{{i18n: CFE_Maru_Married_funReturn_{{Random: 1,2}}}}",
 
         "OneKid_0": "{{i18n: CFE_Maru_Married_OneKid_{{Random: 1,2}}}}",
-        "OneKid_1": "{{i18n: CFE_Maru_Married_OneKid_{{Random: 3,4}}}}",
-        "OneKid_3": "{{i18n: CFE_Maru_Married_OneKid_{{Random: 5,6}}}}",
-        "TwoKids_3": "{{i18n: CFE_Maru_Married_TwoKids_{{Random: 1,2}}}}",
+		    "OneKid_1": "{{i18n: CFE_Maru_Married_OneKid_{{Random: 3,4}}}}",
+		    "OneKid_2": "{{i18n: CFE_Maru_Married_OneKid_{{Random: 5,6}}}}",
+		    "OneKid_3": "{{i18n: CFE_Maru_Married_OneKid_{{Random: 7,8}}}}",
+        "TwoKids_0": "{{i18n: CFE_Maru_Married_TwoKids_{{Random: 1,2}}}}",
+	    	"TwoKids_1": "{{i18n: CFE_Maru_Married_TwoKids_{{Random: 3,4}}}}",
+        "TwoKids_2": "{{i18n: CFE_Maru_Married_TwoKids_{{Random: 5,6}}}}",
+        "TwoKids_3": "{{i18n: CFE_Maru_Married_TwoKids_{{Random: 7,8}}}}",
 
         "Outdoor_0": "{{i18n: CFE_Maru_Married_Outdoor_{{Random: 1,2}}}}",
         "Outdoor_1": "{{i18n: CFE_Maru_Married_Outdoor_{{Random: 9,10}}}}",
