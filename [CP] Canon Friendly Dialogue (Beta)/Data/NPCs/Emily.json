@@ -76,8 +76,7 @@
         "summer_Sun8": "{{i18n: CFE_Emily_summerSun8}}",
         "summer_Sun6": "{{i18n: CFE_Emily_summerSun6}}",
 
-        "fall_Mon4": "{{i18n: CFE_Emily_fallMon}}",
-        "fall_Tue10": "{{i18n: CFE_Emily_fallTue10}}",
+        "fall_Mon4": "{{i18n: CFE_Emily_fallMon4}}",
         "fall_Tue8": "{{i18n: CFE_Emily_repeated_1}}",
         "fall_Wed8": "{{i18n: CFE_Emily_fallWed8}}",
         "fall_Wed2": "{{i18n: CFE_Emily_fallWed2}}",
@@ -112,7 +111,7 @@
         "winter_Fri2": "{{i18n: CFE_Emily_winterFri2}}",
         "winter_Sat8": "{{i18n: CFE_Emily_repeated_2}}",
         "winter_Sat6": "{{i18n: CFE_Emily_winterSat6}}",
-        "winter_Sun10": "{{i18n: CFE_Emily_winter}}",
+        "winter_Sun10": "{{i18n: CFE_Emily_winterSun10}}",
         "winter_Sun8_inlaw_Haley": "{{i18n: CFE_Emily_winterSun8inlawHaley}}",
         "winter_Sun8": "{{i18n: CFE_Emily_winterSun8}}",
         "winter_Sun6": "{{i18n: CFE_Emily_winterSun6}}",

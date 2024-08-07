@@ -86,7 +86,6 @@
         "Thu8": "{{i18n: CFE_George_Thu8}}",
         "Thu4": "{{i18n: CFE_George_Thu4}}",
         "Thu2": "{{i18n: CFE_George_Thu2}}",
-        "Fri10": "{{i18n: CFE_George_Fri10}}",
         "Fri6": "{{i18n: CFE_George_Fri6}}",
         "Fri2": "{{i18n: CFE_George_Fri2}}",
         "Sat8": "{{i18n: CFE_George_Sat8}}",
@@ -99,10 +98,7 @@
         "Sun2": "{{i18n: CFE_George_Sun2}}",
 
         //Generic Weekday Dialogue
-        "Tue": "{{i18n: CFE_George_Tue}}",
-        "Thu": "{{i18n: CFE_George_Thu}}",
         "Fri": "{{i18n: CFE_George_Fri}}",
-        "Sat": "{{i18n: CFE_George_Sat}}",
         "Sun": "{{i18n: CFE_George_Sun}}"
       }
     }

@@ -111,7 +111,7 @@
         "Sat6": "{{i18n: CFE_Gus_Sat6}}",
         "Sat4": "{{i18n: CFE_Gus_Sat4}}",
         "Sat2": "{{i18n: CFE_Gus_Sat2}}",
-        "Sun10": "{{i18n: CFE_Gus_Sat10}}",
+        "Sun10": "{{i18n: CFE_Gus_Sun10}}",
         "Sun8": "{{i18n: CFE_Gus_Sun8}}",
         "Sun6": "{{i18n: CFE_Gus_Sun6}}",
         "Sun4": "{{i18n: CFE_Gus_Sun4}}",
@@ -121,7 +121,6 @@
         "summer_Thu": "{{i18n: CFE_Gus_summerThu}}",
         "winter_Sat": "{{i18n: CFE_Gus_winterSat}}",
 
-        "Mon": "{{i18n: CFE_Gus_Mon}}",
         "Wed": "{{i18n: CFE_Gus_Wed}}",
         "Wed_old": "{{i18n: CFE_Gus_Wed_old}}",
         "Wed_012": "{{i18n: CFE_Gus_Wed_012}}",

@@ -40,12 +40,7 @@
       "Target": "Characters/Dialogue/Krobus",
       "Entries": {
         //special dialogue
-        //
         //Date Specific Dialogue
-        "spring_1_2": "{{i18n: CFE_Krobus_spring1y2}}",
-        "summer_12_1": "{{i18n: CFE_Krobus_summer12y1}}",
-        "winter_28_1": "{{i18n: CFE_Krobus_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Krobus_winter28}}",
 
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Krobus_summerMon10}}",
@@ -71,7 +66,6 @@
         "Mon8": "{{i18n: CFE_Krobus_Mon8}}",
         "Mon6": "{{i18n: CFE_Krobus_Mon6}}",
         "Mon4": "{{i18n: CFE_Krobus_Mon4}}",
-        "Mon2": "{{i18n: CFE_Krobus_Mon2}}",
         "Tue10": "{{i18n: CFE_Krobus_Tue10}}",
         "Tue8": "{{i18n: CFE_Krobus_Tue8}}",
         "Tue6": "{{i18n: CFE_Krobus_Tue6}}",

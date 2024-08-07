@@ -1653,7 +1653,7 @@
   //summer_Sun_inlaw_Emily, fall_Sun_inlaw_Emily, winter_Sun_inlaw_Emily
 
   //date specific dialogue
-  "CFE_Haley_spring1": "I think this year, I need to keep working on my photography.#$e#Any new year's resolutions for you?",
+  "CFE_Haley_spring1y2": "I think this year, I need to keep working on my photography.#$e#Any new year's resolutions for you?",
   "CFE_Haley_summer12": "Did you see Emily yesterday at the luau? So ridiculous.$11",
   "CFE_Haley_fall1": "It's fall already?$s",
   "CFE_Haley_winter28": "Finally. I was thinking this cold weather would never end.#$e#Just have to wait for all this slush to finish melting.",
@@ -2527,7 +2527,7 @@
   //repeated_14: fall_Sun8, winter_Wed6, winter_Fri8
 
   //date specific dialogue
-  "CFE_Leah_spring1": "I thought I'd miss the snow, but I take it back. This is so much better. Happy new year!",
+  "CFE_Leah_spring1y2": "I thought I'd miss the snow, but I take it back. This is so much better. Happy new year!",
   "CFE_Leah_spring23": "I figure I'll dance at the festival tomorrow. I mean, why not?",
   "CFE_Leah_summer27": "I was awestruck the first time I saw the moonlight jellies. I'll never forget that year.",
   "CFE_Leah_fall15": "The Stardew Valley Fair makes me feel like a kid again. I'm glad our town hosts it.",

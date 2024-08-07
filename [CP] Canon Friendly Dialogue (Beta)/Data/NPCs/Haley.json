@@ -135,12 +135,7 @@
         //Generic Weekday Dialogue
         "summer_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
         "fall_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
-        "winter_Wed": "{{i18n: CFE_Haley_winterWed}}",
-        "winter_Thu": "{{i18n: CFE_Haley_winterThu}}",
-        "winter_Fri": "{{i18n: CFE_Haley_winterFri}}",
-        "winter_Sat": "{{i18n: CFE_Haley_winterSat}}",
-        "winter_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
-        "winter_Sun": "{{i18n: CFE_Haley_winterSun}}"
+        "winter_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}"
       }
     },
     {

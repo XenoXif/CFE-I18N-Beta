@@ -105,7 +105,6 @@
         "summer_Fri": "{{i18n: CFE_Demetrius_summerFri}}",
         "fall_Wed": "{{i18n: CFE_Demetrius_fallWed}}",
         "fall_Thu_inlaw_Maru": "{{i18n: CFE_Demetrius_fallThuinlawMaru}}",
-        "fall_Thu": "{{i18n: CFE_Demetrius_fallThu}}",
         "fall_Sun": "{{i18n: CFE_Demetrius_fallSun}}",
         "winter_Wed": "{{i18n: CFE_Demetrius_winterWed}}",
         "winter_Sat": "{{i18n: CFE_Demetrius_winterSat}}",

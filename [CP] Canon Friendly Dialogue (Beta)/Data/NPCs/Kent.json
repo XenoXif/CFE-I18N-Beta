@@ -49,7 +49,7 @@
         "summer_Wed10": "{{i18n: CFE_Kent_summerWed10}}",
         "summer_Thu8": "{{i18n: CFE_Kent_summerThu8}}",
         "summer_Sat10": "{{i18n: CFE_Kent_summerSat10}}",
-        "summer_Sun2": "{{i18n: CFE_Kent_summer}}",
+        "summer_Sun2": "{{i18n: CFE_Kent_summerSun2}}",
 
         "fall_Mon6": "{{i18n: CFE_Kent_fallMon6}}",
         "fall_Mon4": "{{i18n: CFE_Kent_fallMon4}}",

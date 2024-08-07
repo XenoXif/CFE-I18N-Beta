@@ -113,11 +113,9 @@
         "Sun2": "{{i18n: CFE_Harvey_Sun2}}",
 
         //Generic Weekday Dialogue
-        "summer_Tue": "{{i18n: CFE_Harvey_summerTue}}",
         "fall_Fri": "{{i18n: CFE_Harvey_fallFri}}",
         "fall_Sat": "{{i18n: CFE_Harvey_fallSat}}",
 
-        "Wed": "{{i18n: CFE_Harvey_Wed}}",
         "Sat": "{{i18n: CFE_Harvey_Sat}}",
         "Sun": "{{i18n: CFE_Harvey_Sun}}"
       }
