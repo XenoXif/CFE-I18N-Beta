@@ -957,7 +957,7 @@
   //repeated 7: winter_Tue8, winter_Sat4
 
   //date specific dialogue
-  "CFE_Elliott_spring1": "Such a beautiful morning today! Happy new year!$h",
+  "CFE_Elliott_spring1y2": "Such a beautiful morning today! Happy new year!$h",
   "CFE_Elliott_summer27": "The moonlight jellies' visit made for a wonderful experience last year. I hope this year proves no different.#$e#And you can't beat the location of my home!$h",
   "CFE_Elliott_winter15": "These boats made quite the entrance when they arrived this morning!",
   "CFE_Elliott_winter28": "Here's to another chapter of our lives! [459]$h#$e#Cheers.",

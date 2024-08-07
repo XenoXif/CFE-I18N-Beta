@@ -20,8 +20,8 @@
         "AcceptGift_(O)797": "{{i18n: CFE_Elliott_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Elliott_RabbitsFoot}}",
         "AcceptGift_(O)732": "{{i18n: CFE_Elliott_CrabCakes}}",
-        "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}",
-        "AcceptGift_(O)218": "{{i18n: CFE_Elliott_TomKhaSoup}}"
+        "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}"
+        //"AcceptGift_(O)218": "{{i18n: CFE_Elliott_TomKhaSoup}}"
       }
     },
     {
@@ -59,7 +59,7 @@
         "summer_Thu10": "{{i18n: CFE_Elliott_summerThu10}}",
         "summer_Thu6": "{{i18n: CFE_Elliott_summerThu6}}",
         "summer_Thu4": "{{i18n: CFE_Elliott_repeated_4}}",
-        "summer_Thu2": "{{i18n: CFE_Elliott_summerThu}2}}",
+        "summer_Thu2": "{{i18n: CFE_Elliott_summerThu2}}",
         "summer_Fri6": "{{i18n: CFE_Elliott_summerFri6}}",
         "summer_Fri4": "{{i18n: CFE_Elliott_summerFri4}}",
         "summer_Fri2": "{{i18n: CFE_Elliott_summerFri2}}",
@@ -93,10 +93,10 @@
 
         "winter_Mon4": "{{i18n: CFE_Elliott_winterMon4}}",
         "winter_Mon_old": "{{i18n: CFE_Elliott_winterMon_old}}",
-        "Mon_060": "{{i18n: CFE_Elliott_winterMon_60}}",
-        "Mon_061": "{{i18n: CFE_Elliott_winterMon_61}}",
-        "Mon_062": "{{i18n: CFE_Elliott_winterMon_62}}",
-        "Mon_063": "{{i18n: CFE_Elliott_winterMon_63}}",
+        "Mon_060": "{{i18n: CFE_Elliott_winterMon_060}}",
+        "Mon_061": "{{i18n: CFE_Elliott_winterMon_061}}",
+        "Mon_062": "{{i18n: CFE_Elliott_winterMon_062}}",
+        "Mon_063": "{{i18n: CFE_Elliott_winterMon_063}}",
         "winter_Tue8": "{{i18n: CFE_Elliott_repeated_7}}",
         "winter_Tue6": "{{i18n: CFE_Elliott_winterTue6}}",
         "winter_Tue4": "{{i18n: CFE_Elliott_winterTue4}}",
