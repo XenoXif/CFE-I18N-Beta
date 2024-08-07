@@ -43,7 +43,7 @@
   "config.CFE_Willy.name": "Willy",
   "config.CFE_Wizard.name": "Wizard",
   "config.CFE_Festivals.name": "Festivals",
-  "config.CFE_Festivals.description": "adds new dialogue to year 3 and from year 5 onward",
+  "config.CFE_Festivals.description": "adds new dialogue to year 3 and 4, and randomizes dialogue from year 5 onward",
 
   //NPC Dialogue
 
