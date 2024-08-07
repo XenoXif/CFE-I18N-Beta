@@ -46,22 +46,18 @@
         //special dialogue
 
         //Date Specific Dialogue
-        "spring_1_2": "{{i18n: CFE_Dwarf_spring1y2}}",
-        "summer_12_1": "{{i18n: CFE_Dwarf_summer12y1}}",
-        "winter_28_1": "{{i18n: CFE_Dwarf_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Dwarf_winter28}}",
 
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Dwarf_summerMon10}}",
         "summer_Tue10": "{{i18n: CFE_Dwarf_summerTue10}}",
-        "summer_Wed10": "{{i18n: CFE_Dwarf_summerWed10}}",
+        "summer_Wed10": "{{i18n: CFE_Dwarf_repeated_2}}",
         "summer_Thu10": "{{i18n: CFE_Dwarf_summerThu10}}",
         "summer_Fri10": "{{i18n: CFE_Dwarf_summerFri10}}",
         "summer_Sat10": "{{i18n: CFE_Dwarf_summerSat10}}",
         "summer_Sun10": "{{i18n: CFE_Dwarf_summerSun10}}",
 
-        "fall_Mon10": "{{i18n: CFE_Dwarf_fallMon10}}",
-        "fall_Tue10": "{{i18n: CFE_Dwarf_fallTue10}}",
+        "fall_Mon10": "{{i18n: CFE_Dwarf_repeated_1}}",
+        "fall_Tue10": "{{i18n: CFE_Dwarf_repeated_3}}",
         "fall_Wed10": "{{i18n: CFE_Dwarf_fallWed10}}",
         "fall_Thu10": "{{i18n: CFE_Dwarf_fallThu10}}",
         "fall_Fri10": "{{i18n: CFE_Dwarf_fallFri10}}",
@@ -86,8 +82,8 @@
         "Tue4": "{{i18n: CFE_Dwarf_Tue4}}",
         "Tue2": "{{i18n: CFE_Dwarf_Tue2}}",
         "Wed10": "{{i18n: CFE_Dwarf_Wed10}}",
-        "Wed8": "{{i18n: CFE_Dwarf_Wed8}}",
-        "Wed6": "{{i18n: CFE_Dwarf_Wed6}}",
+        "Wed8": "{{i18n: CFE_Dwarf_repeated_1}}",
+        "Wed6": "{{i18n: CFE_Dwarf_repeated_2}}",
         "Wed4": "{{i18n: CFE_Dwarf_Wed4}}",
         "Wed2": "{{i18n: CFE_Dwarf_Wed2}}",
         "Thu10": "{{i18n: CFE_Dwarf_Thu10}}",
@@ -103,7 +99,7 @@
         "Sat4": "{{i18n: CFE_Dwarf_Sat4}}",
         "Sat2": "{{i18n: CFE_Dwarf_Sat2}}",
         "Sun8": "{{i18n: CFE_Dwarf_Sun8}}",
-        "Sun6": "{{i18n: CFE_Dwarf_Sun6}}",
+        "Sun6": "{{i18n: CFE_Dwarf_repeated_3}}",
         "Sun4": "{{i18n: CFE_Dwarf_Sun4}}",
         "Sun2": "{{i18n: CFE_Dwarf_Sun2}}",
 
@@ -111,7 +107,6 @@
         "winter_Sun": "{{i18n: CFE_Dwarf_winterSun}}",
         "Mon": "{{i18n: CFE_Dwarf_Mon}}",
         "Tue": "{{i18n: CFE_Dwarf_Tue}}",
-        "Thu": "{{i18n: CFE_Dwarf_Thu}}",
         "Sun": "{{i18n: CFE_Dwarf_Sun}}"
       }
     }

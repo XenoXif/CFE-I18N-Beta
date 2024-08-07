@@ -69,8 +69,8 @@
 
         "winter_Mon10": "{{i18n: CFE_Caroline_winterMon10}}",
         "winter_Wed10": "{{i18n: CFE_Caroline_winterWed10}}",
-        "winter_Thu8": "{{i18n: CFE_Caroline_repeated2}}",
-        "winter_Thu6": "{{i18n: CFE_Caroline_repeated1}}",
+        "winter_Thu8": "{{i18n: CFE_Caroline_repeated_2}}",
+        "winter_Thu6": "{{i18n: CFE_Caroline_repeated_1}}",
         "winter_Fri6": "{{i18n: CFE_Caroline_winterFri6}}",
         "winter_Sun4": "{{i18n: CFE_Caroline_winterSun4}}",
 
@@ -86,8 +86,8 @@
         "Wed6": "{{i18n: CFE_Caroline_Wed6}}",
         "Wed4": "{{i18n: CFE_Caroline_Wed4}}",
         "Wed2": "{{i18n: CFE_Caroline_Wed2}}",
-        "Thu6": "{{i18n: CFE_Caroline_repeated2}}",
-        "Thu4": "{{i18n: CFE_Caroline_repeated1}}",
+        "Thu6": "{{i18n: CFE_Caroline_repeated_2}}",
+        "Thu4": "{{i18n: CFE_Caroline_repeated_1}}",
         "Thu2": "{{i18n: CFE_Caroline_Thu2}}",
         "Fri10_1": "{{i18n: CFE_Caroline_Fri10y1}}",
         "Fri10_2": "{{i18n: CFE_Caroline_Fri10y2}}",
