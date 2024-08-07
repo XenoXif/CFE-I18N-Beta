@@ -932,6 +932,7 @@
   "CFE_Elliott_CrabCakes": "My my, a local delicacy!$h#$b#You simply have exquisite taste.",
   "CFE_Elliott_Lobster": "Ahh, fresh steamed lobster! I enjoy my minimalistic lifestyle, but I never compromise on cuisine. Thank you!$h",
   "CFE_Elliott_Pomegranate": "The fruit of myth and fairytale! How wonderful!#$b#It's as if it transports me to the pages of a storybook.$h",
+  "CFE_Elliott_TomKhaSoup": "This warms me to my soul! What a symphony of flavor!$h",
 
   //Elliott's Misc Dialogue
   //these lines target files other than the standard characters/dialogue/Elliott location such as unmarried rainy dialogue
@@ -4899,7 +4900,7 @@
   "CFE_EggFest_Leah_y2": "I got out my tiniest paintbrushes and I made a little flowery meadow on one of the eggs. If one of the kids finds it, I bet it'd be extra special.",
   "CFE_EggFest_Shane_y2": "If you want good birds who lay the best eggs, you've just gotta give 'em the life they deserve.#$e#This festival would never work with a bunch of factory-farmed eggs. Never in a million years.",
   "CFE_EggFest_Marnie_y2": "I think things turned out pretty well this year!$1#$e#I think the only improvement would be if Gus made one of his famous giant omelets.",
-  "CFE_EggFest_Elliott_y2": "This environment isn't particularly inspiring to me in the literary sense, but I am enjoying myself quite 	nicely.$1",
+  "CFE_EggFest_Elliott_y2": "This environment isn't particularly inspiring to me in the literary sense, but I am enjoying myself quite \tnicely.$1",
   "CFE_EggFest_Gus_y2": "We've got all the usual fixins here today. I improved my deviled egg recipe a bit, though, so that's something new. Give 'em a try!",
   "CFE_EggFest_Harvey_y2": "This year, I was looking forward to the egg festival like it's an old family tradition.#$b#I'm really lucky I wound up in this town.",
   "CFE_EggFest_Jas_y2": "I'll do the egg hunt, but I think I'll just look for the eggs I decorated.#$e#It's too hard to compete with grown ups.",
@@ -5309,7 +5310,7 @@
   "CFE_WinterStar_Jodi": "Here, Kent. Why don't you eat the rest of what's on my plate?",
   "CFE_WinterStar_Kent": "Looks like I have quite the appetite today.$h",
   "CFE_WinterStar_Sam": "I'm thankful for another year with my dad around.#$e#Sure, it's been... different than what I expected when he was away, but it's still so much better.",
-  "CFE_WinterStar_Leah": "I can't believe Gus doesn't talk more about the food he spent all week prepping.#$e#Maybe candy canes are just his 	go-to subject when he's exhausted from cooking and his mind breaks down.$u",
+  "CFE_WinterStar_Leah": "I can't believe Gus doesn't talk more about the food he spent all week prepping.#$e#Maybe candy canes are just his \tgo-to subject when he's exhausted from cooking and his mind breaks down.$u",
   "CFE_WinterStar_Marnie": "I hope you can walk home tonight after you're done eating!$h",
   "CFE_WinterStar_Elliott": "The beach was especially lonely this morning. I took a quick walk up here and discovered such wonderfully warm company!$h",
   "CFE_WinterStar_Harvey": "I couldn't believe this festival during my first year here. Eating out in the cold? But it all somehow works, doesn't it?$h",
@@ -5329,7 +5330,7 @@
   "CFE_WinterStar_Alex_y2": "Whoa. At some point, I think I lost my hollow leg metabolism.$2#$b#I've only had four plates of food so far, but I feel like I might already be at my limit.$2#$e#Well, they were big plates.",
   "CFE_WinterStar_George_y2": "How is it possible that another year's already gone by since our last Feast?",
   "CFE_WinterStar_Evelyn_y2": "Oh, another year with the whole town together! It truly is special.$1",
-  "CFE_WinterStar_Lewis_y2": "Got plans to get things in order for the new year? It can wait!#$b#As your mayor, I insist on some 	local-government sponsored procrastination!$1",
+  "CFE_WinterStar_Lewis_y2": "Got plans to get things in order for the new year? It can wait!#$b#As your mayor, I insist on some \tlocal-government sponsored procrastination!$1",
   "CFE_WinterStar_Clint_y2": "I already cleared my plate. Maybe I should quit while I'm ahead.#$e#I put on a few pounds this year. Oh well. Better to eat the stuff you like than to eat twigs and leaves all the time.",
   "CFE_WinterStar_Emily_y2": "$y '@! What are you hoping to find under the spirit tree?_A homemade meal._Aww, that'd be special, wouldn't it? A little personal touch._A puppy._Ha, if only, right?$1_A new couch._Um... yeah. Maybe? I don't know how that'd fit in any of these boxes.$3'",
   "CFE_WinterStar_Penny_y2": "I can't imagine the Winter Star without our town's traditions.#$e#It just wouldn't be the same without our whole town sitting down like one big family.$1",
