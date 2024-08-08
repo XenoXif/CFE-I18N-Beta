@@ -3884,10 +3884,10 @@
   "CFE_Robin_Sat4": "Ugh, I wish Sebastian wouldn't smoke.$s#$e#I don't even know where he picked that up from.$s",
 
   //generic weekday dialogue
-  "CFE_Robin_summerFri_inlaw_Sebastian": "Has Sebastian been getting outside much lately?#$e#Make sure you two take good care of each other!$h",
-  "CFE_Robin_summerFri_inlaw_Maru": "Has Maru been tinkering around with anything neat lately?#$e#Make sure you two take good care of each other!$h",
+  "CFE_Robin_summerFriinlawSebastian": "Has Sebastian been getting outside much lately?#$e#Make sure you two take good care of each other!$h",
+  "CFE_Robin_summerFriinlawMaru": "Has Maru been tinkering around with anything neat lately?#$e#Make sure you two take good care of each other!$h",
   "CFE_Robin_winterWed": "I think I need a little me-time. A visit to the hot spring might be in order.#$e#Do you ever go?",
-  "CFE_Robin_winterFri_inlaw_Maru": "Is Maru staying cozy over at your place?#$e#Be sure to tell her to visit soon!",
+  "CFE_Robin_winterFriinlawMaru": "Is Maru staying cozy over at your place?#$e#Be sure to tell her to visit soon!",
 
   "CFE_Robin_Mon": "Hey there, @.#$e#I was just daydreaming about some new carpentry projects.#$e#Are you doing OK at your place? How's the woodwork in your cottage holding up?",
   "CFE_Robin_Wed": "Hey, how are things going?#$q 604/605/606 Wed_old#Are you settling in okay?#$r 604 0 Wed_604#So far so good.#$r 605 0 Wed_605#I'm alright, just overwhelmed.#$r 604 0 Wed_604#This place is refreshing.#$r 606 -10 Wed_606#This place sucks. Why am I here?",
@@ -3895,7 +3895,7 @@
   "CFE_Robin_Wed_604": "I'm glad to hear it. Let me know if you need anything.$h",
   "CFE_Robin_Wed_605": "Hang in there. It'll get better.#$b#Remember, we didn't even have a house when we first moved out here. I'm sure you'll land on your feet soon, too.",
   "CFE_Robin_Wed_606": "Oh gosh, I didn't realize it was that bad.$s#$b#Thank you for being honest. Please know you're never alone here. We're all on your side.",
-  "CFE_Robin_Fri_inlaw_Maru": "I did think you and Maru would get along well. It really makes me happy to see the two of you together.",
+  "CFE_Robin_FriinlawMaru": "I did think you and Maru would get along well. It really makes me happy to see the two of you together.",
 
   //Sam
   //Sam Gift Tastes
@@ -3921,7 +3921,7 @@
   //Sat8_1, Sat6
 
   //date specific dialogue
-  "CFE_Sam_spring1": "Hey @, pretty amazing start to the year, isn't it? I thought last year would never end.$h#$e#Thanks for stopping by.",
+  "CFE_Sam_spring1y2": "Hey @, pretty amazing start to the year, isn't it? I thought last year would never end.$h#$e#Thanks for stopping by.",
   "CFE_Sam_spring12": "My little brother gets so excited for festivals. He's been talking about tomorrow's egg hunt all day.",
   "CFE_Sam_spring21": "Sometimes those spring petals that float around make my nose drip.$s#$e#I like summer best, myself.",
   "CFE_Sam_spring23": "Why couldn't the flower dance be today so I could get work off?$s",
@@ -3983,7 +3983,7 @@
   "CFE_Sam_winterMon4": "We had another good band practice this weekend! Things are coming along.$h#$e#Oh, don't worry, I'm definitely getting you tickets to our first show.",
   "CFE_Sam_winterMon2": "Everyone's indoors during the winter, so I can play guitar as loud as I want.$h",
   "CFE_Sam_winterTue8": "Penny and I used to hang out a lot when we first moved here.#$e#We still hang out occasionally, and we've got this weird, almost... flirty? ...thing going, but we don't have a lot in common anymore.$s",
-  "CFE_Sam_winterTue8_inlaw_Penny": "I'm glad things worked out for you and Penny! I always kinda wondered about her.$h",
+  "CFE_Sam_winterTue8inlawPenny": "I'm glad things worked out for you and Penny! I always kinda wondered about her.$h",
   "CFE_Sam_winterWed10": "Heyyy... you aren't... 'hiring' at your farm, or anything, are you?$l",
   "CFE_Sam_winterWed6": "$d Joja#I know our jobs are kinda crap, but it'd be nice if Shane was a little friendlier at work to pass the time.|I wonder how Shane's doing? He always seemed like he hated his JojaMart job even more than I did.",
   "CFE_Sam_winterThu4y1": "I think my Dad is coming back this spring.#$e#It's been 3 years since I've seen him. This is going to be strange.",
@@ -4267,7 +4267,7 @@
   "CFE_Sebastian_Tue4": "When you throw a rock in the lake, it sends out ripples. But then the ripples eventually reach the edge and stop.#$b#Everything ends, so how can things with a lasting effect be any more important?",
   "CFE_Sebastian_Tue10": "It's nice having a reason to stay here in Pelican Town.#$e#Um, you know what I'm talking about, right?$l",
   "CFE_Sebastian_Wed4": "I get bored by plain, ordinary life stuff. How do people get excited about the most mundane things?#$e#Like for example, Abby's parents got a new washing machine a few months ago, and they'll tell stories about that thing for hours...#$b#...like it's the most important thing that'll ever happen to them.#$e#In one sense, it's kind of funny, but in another, it's just depressing as hell.$s",
-  "CFE_Sebastian_Thu4_inlaw_Maru": "It's a little easier not having to live with Maru anymore. How are you holding up?",
+  "CFE_Sebastian_Thu4inlawMaru": "It's a little easier not having to live with Maru anymore. How are you holding up?",
   "CFE_Sebastian_Thu6": "My biological dad? Yeah, I've met him a few times.#$e#He's staggeringly unremarkable.#$e#That's about it.",
   "CFE_Sebastian_Fri8": "What's new?$h#$e#I'll be at the saloon tonight destroying Sam at pool again.$h",
   "CFE_Sebastian_Sat4": "You don't smoke, do you?#$b#...Yeah, no problem, it's all good.",
@@ -4296,7 +4296,7 @@
   "CFE_Sebastian_summerSun6": "Some people look up at the night sky and start to feel insignificant.#$b#But I feel that way all the time. For me, it's actually a comfort for the sky to remind me of that simple truth.",
   "CFE_Sebastian_summerSun8": "The best thing with the lake is when there's a full moon right above it. It gives the whole area a nice serene glow.",
   "CFE_Sebastian_fallMon6": "Why does Maru have to be instantly good at everything she does?$s#$e#I'm still better than she is at music... and programming...#$b#...but even with programming, she's crazy good at installing the AI scripts for her robots.$s",
-  "CFE_Sebastian_fallMon6_inlaw_Maru": "Don't get me wrong, I'm happy you and Maru got together, but...#$b#...it's just another reminder about how she keeps upstaging me. Everything just has to work out perfectly for her.$s",
+  "CFE_Sebastian_fallMon6inlawMaru": "Don't get me wrong, I'm happy you and Maru got together, but...#$b#...it's just another reminder about how she keeps upstaging me. Everything just has to work out perfectly for her.$s",
   "CFE_Sebastian_fallMon8": "Does it make sense if I say that the more crowded a place is, the lonelier it is?#$e#I was in a nightclub in Zuzu City a couple of years ago. It was too crowded to dance and too loud to talk.#$b#Kind of defeats the whole purpose, doesn't it?",
   "CFE_Sebastian_fallTue2": "Maybe I should pay Abby a visit soon.$u#$e#...I dunno.$u",
   "CFE_Sebastian_fallTue4": "Pumpkin spice this... pumpkin spice that... man, I do get sick of these seasonal fads.",
@@ -4326,7 +4326,7 @@
   "CFE_Sebastian_winterSat8": "I'm always confused why the idea of an afterlife is so appealing. Do people realize how long 'eternity' actually is?#$e#I understand the need for comfort, but...#$b#...to me, thinking about 'eternity' is more like staring into an endless abyss. I'd rather focus on what's temporary and in front of me.",
   "CFE_Sebastian_winterSat10": "Man, I've got to move out of here, fast.#$e#Anything new on your farm, despite the snow?",
   "CFE_Sebastian_winterSun4": "I built a snowgoon but Demetrius made me get rid of it.#$b#You know your life's going in reverse when your stepdad treats you like a six-year-old.$u",
-  "CFE_Sebastian_winterSun6_inlaw_Maru": "I can't believe Maru still comes out here to build her snowman.#$e#Are you sure it was a good idea to marry someone who lives within walking distance from your farm?#$e#Sorry. I mean, whatever works for you.$s",
+  "CFE_Sebastian_winterSun6inlawMaru": "I can't believe Maru still comes out here to build her snowman.#$e#Are you sure it was a good idea to marry someone who lives within walking distance from your farm?#$e#Sorry. I mean, whatever works for you.$s",
 
   //generic weekday dialogue
 
