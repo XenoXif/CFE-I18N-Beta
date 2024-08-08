@@ -4159,6 +4159,24 @@
   "CFE_Sandy_spring13": "Wheee! ~ The desert festival starts next week!$h#$e#Things are about to get lively around here!$h",
 
   //heart specific dialogue
+  "CFE_Sandy_summerMon10": "Are my roots showing? My hairdresser canceled on me again.$s#$e#*sigh* It's such a long journey into the city, too, I can't just reschedule for the next day.$s",
+  "CFE_Sandy_summerTue10": "How's the desert trader's camel doing? Is she up for some pets?",
+  "CFE_Sandy_summerWed8": "I heard there used to be Pepper Rexes wandering this desert in packs, long ago. Imagine that!",
+  "CFE_Sandy_summerWed6": "Next year's desert festival is so far away... *sigh*$s#$e#Better get used to some lonely months.$s",
+  "CFE_Sandy_summerWed4": "I saw a hot air balloon soaring through the sky the other week. Who d'you suppose was up there?$h",
+  "CFE_Sandy_summerWed2": "I've heard stories about a pot of gold at the end of a rainbow.#$b#I'd love it if I even got to see a rainbow in the first place!",
+  "CFE_Sandy_summerThu10": "If you see Emily, be sure to let her know that I'm free to meet up with her at the time she mentioned.",
+  "CFE_Sandy_summerFri6": "The desert trader came in and looked around for a bit the other day. She didn't say much. Didn't buy anything, either.#$e#What a mysterious person. I wonder what her real life is like?",
+  "CFE_Sandy_summerSun10": "Ohhh! I just got the cutest shirt in stock! Want to try it on?$h",
+
+  "CFE_Sandy_fallWed10": "Good thing you showed up! I haven't had a customer all day!#$e#...as expected.$s",
+  "CFE_Sandy_fallThu10": "Well hellooooooo ~ What brings you to the desert today?#$e#Treasure hunting? Coconut foraging? ...Meeeeee? <$h#$e#Haha, just kidding.",
+  "CFE_Sandy_fall_Fri4": "Seems like that desert trader usually knows how to predict when you'll show up.#$b#Then she heads home just as soon as you leave. Can she predict the future or something?#$e#Wish I could do that...",
+
+  "CFE_Sandy_winterFri6": "At least it's a little cooler here in the winter. That sun sure doesn't let up, though.",
+  "CFE_Sandy_winterSat10": "Do you go fishing in that pond across the street?#$e#I've seen those fish. I can't imagine eating something like that! Blech.",
+  "CFE_Sandy_winterSun10": "What do you think about having a store cat who lives here?#$e#The owner of the building would definitely say no, I'm sure, but I think a cat would love living in the desert.#$e#There's even a mysterious cat totem a stone's throw from here. You've seen it, yeah?",
+
   "CFE_Sandy_Mon10": "Hey honey! Made any of that tom kha soup lately? I don't think I'll ever get tired of the flavor.#$e#Grab a coconut before you go, if you see one.",
   "CFE_Sandy_Mon6": "I got lunch with Emily not too long ago! It was so great to catch up with her.$h#$e#We talked for a bit about you, actually. All good things, I promise!$h",
   "CFE_Sandy_Mon2": "You made it out here again! I'm so glad.$h#$e#What's new in the valley?",
@@ -4179,21 +4197,6 @@
   "CFE_Sandy_Sat2": "The cavern north of here is best worth avoiding.$s#$e#I peeked inside once. There's this door? ...and *shiver* Ugh, never again.#$b#Never. Again.$s",
   "CFE_Sandy_Sun10": "The cavern? Look, if you've been in there, I don't wanna know.$s#$e#I trust you'd stay safe if you did, though, huh?",
   "CFE_Sandy_Sun2": "Hi there, honey. Yep, it's just me, alone in this big old shop. Hmmm...#$e#Well, except for that creepy guy in the back. But he never moves a muscle, so I often forget about him.",
-  "CFE_Sandy_summerMon10": "Are my roots showing? My hairdresser canceled on me again.$s#$e#*sigh* It's such a long journey into the city, too, I can't just reschedule for the next day.$s",
-  "CFE_Sandy_summerTue10": "How's the desert trader's camel doing? Is she up for some pets?",
-  "CFE_Sandy_summerWed8": "I heard there used to be Pepper Rexes wandering this desert in packs, long ago. Imagine that!",
-  "CFE_Sandy_summerWed6": "Next year's desert festival is so far away... *sigh*$s#$e#Better get used to some lonely months.$s",
-  "CFE_Sandy_summerWed4": "I saw a hot air balloon soaring through the sky the other week. Who d'you suppose was up there?$h",
-  "CFE_Sandy_summerWed2": "I've heard stories about a pot of gold at the end of a rainbow.#$b#I'd love it if I even got to see a rainbow in the first place!",
-  "CFE_Sandy_summerThu10": "If you see Emily, be sure to let her know that I'm free to meet up with her at the time she mentioned.",
-  "CFE_Sandy_summerFri6": "The desert trader came in and looked around for a bit the other day. She didn't say much. Didn't buy anything, either.#$e#What a mysterious person. I wonder what her real life is like?",
-  "CFE_Sandy_summerSun10": "Ohhh! I just got the cutest shirt in stock! Want to try it on?$h",
-  "CFE_Sandy_fallWed10": "Good thing you showed up! I haven't had a customer all day!#$e#...as expected.$s",
-  "CFE_Sandy_fallThu10": "Well hellooooooo ~ What brings you to the desert today?#$e#Treasure hunting? Coconut foraging? ...Meeeeee? <$h#$e#Haha, just kidding.",
-  "CFE_Sandy_fal_Fri4": "Seems like that desert trader usually knows how to predict when you'll show up.#$b#Then she heads home just as soon as you leave. Can she predict the future or something?#$e#Wish I could do that...",
-  "CFE_Sandy_winterFri6": "At least it's a little cooler here in the winter. That sun sure doesn't let up, though.",
-  "CFE_Sandy_winterSat10": "Do you go fishing in that pond across the street?#$e#I've seen those fish. I can't imagine eating something like that! Blech.",
-  "CFE_Sandy_winterSun10": "What do you think about having a store cat who lives here?#$e#The owner of the building would definitely say no, I'm sure, but I think a cat would love living in the desert.#$e#There's even a mysterious cat totem a stone's throw from here. You've seen it, yeah?",
 
   "CFE_Sandy_repeated_1": "Emily's got a real knack for reading people. It's like she's on a different wavelength, or something.#$e#She can't help but treat everyone with equal respect, though, no matter how the other person acts. I admire that.",
   "CFE_Sandy_repeated_2": "One time, a couple literally camped out here for their honeymoon. Whatever floats their boat, right?",
@@ -4205,16 +4208,16 @@
   "CFE_Sandy_repeated_8": "I took a trip to Zuzu City last month. Can't miss out on living it up at the clubs every once in a while!$h#$e#I don't waste a second. I stay out all night.#$e#There are college kids who can't even keep up with me! Heehee!$h",
   "CFE_Sandy_repeated_9": "I guess I've seen at least one guy from the back room who occasionally heads up north.#$e#I wonder if he's headed for that freakish cavern?$s",
   "CFE_Sandy_repeated_10": "I floated around in the valley for a few years. Wish I could live there, but it's pretty hard to find reliable work.#$e#So that's how I wound up here!",
-  //Mon8+winterWed10
-  //Mon4+winterTue10
-  //Tue6+summerSat10
-  //Tue4+winterMon10
-  //Thu6+fallSun10
-  //Fri6+summerWed10
-  //Sat8+winterThu10
-  //Sun8+fallMon10
-  //Sun6+fallTue10
-  //Sun4+fallSat10
+  //summerSat10+Tue6
+  //summerWed10+Fri6
+  //winterTue10+Mon4
+  //fallMon10+Sun8
+  //fallTue10+Sun6
+  //fallSat10+Sun4
+  //fallSun10+Thu6
+  //winterMon10+Tue4
+  //winterWed10+Mon8
+  //winterThu10+Sat8
 
   //generic weekday dialogue
   "CFE_Sandy_Fri": "That trader with the camel comes through here pretty often. I don't know how she expects to do any business, though.#$e#Hey, I speak from experience. It's tough out here.",
