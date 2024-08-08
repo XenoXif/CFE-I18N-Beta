@@ -35,7 +35,7 @@
       "Target": "Strings/Schedules/Sebastian",
       "Entries": {
         "Fri.000": "{{i18n: CFE_Sebastian_Billiards_{{random: 1,2}}}}",
-		    "marriage_Fri.001": "{{i18n: CFE_Sebastian_Married_Billiards_{{random: 1,2}}}}"
+        "marriage_Fri.001": "{{i18n: CFE_Sebastian_Married_Billiards_{{random: 1,2}}}}"
       }
     },
     {
@@ -72,7 +72,6 @@
         "summer_Mon4": "{{i18n: CFE_Sebastian_summerMon4}}",
         "summer_Mon2": "{{i18n: CFE_Sebastian_summerMon2}}",
         "summer_Tue6": "{{i18n: CFE_Sebastian_summerTue6}}",
-        "summer_Tue4": "{{i18n: CFE_Sebastian_summerTue4}}",
         "summer_Wed8": "{{i18n: CFE_Sebastian_summerWed8}}",
         "summer_Wed4": "{{i18n: CFE_Sebastian_summerWed4}}",
         "summer_Thu8": "{{i18n: CFE_Sebastian_summerThu8}}",
@@ -123,8 +122,6 @@
 
         "Mon10": "{{i18n: CFE_Sebastian_Mon10}}",
         "Mon8": "{{i18n: CFE_Sebastian_Mon8}}",
-        "Mon6": "{{i18n: CFE_Sebastian_Mon6}}",
-        "Mon2": "{{i18n: CFE_Sebastian_Mon2}}",
         "Tue10": "{{i18n: CFE_Sebastian_Tue10}}",
         "Tue4": "{{i18n: CFE_Sebastian_Tue4}}",
         "Wed4": "{{i18n: CFE_Sebastian_Wed4}}",
@@ -185,11 +182,11 @@
         "funReturn_Sebastian": "{{i18n: CFE_Sebastian_Married_funLeave_{{Random: 1,2}}}}",
 
         "OneKid_0": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 1,2}}}}",
-	"OneKid_1": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 3,4}}}}",
-	"OneKid_2": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 5,6}}}}",
-	"OneKid_3": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 7,8}}}}",
+        "OneKid_1": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 3,4}}}}",
+        "OneKid_2": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 5,6}}}}",
+        "OneKid_3": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 7,8}}}}",
         "TwoKids_0": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 1,2}}}}",
-	"TwoKids_1": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 3,4}}}}",
+        "TwoKids_1": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 3,4}}}}",
         "TwoKids_2": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 5,6}}}}",
         "TwoKids_3": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 7,8}}}}",
 
