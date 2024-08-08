@@ -4334,8 +4334,8 @@
   "CFE_Sebastian_summerThu": "Getting out and making small talk with the locals, just for the fun of it. ...That's probably your kind of thing, isn't it?",
 
   //Sebastian's Married Dialogue
-  //weather specific dialogue 
-  "CFE_Sebastian_Married_RainyDay_1": "Finally... some heavy rain. I get bored of sunny weather easily.", 
+  //weather specific dialogue
+  "CFE_Sebastian_Married_RainyDay_1": "Finally... some heavy rain. I get bored of sunny weather easily.",
   "CFE_Sebastian_Married_RainyDay_2": "I think I'm going to have a good day today. And you enjoy yourself, too, okay?$h",
   "CFE_Sebastian_Married_RainyDay_3": "Hey. I was just thinking about my old room in the basement. I felt comfortable there, but this is a lot more interesting. And I don't miss the smell...",
   "CFE_Sebastian_Married_RainyDay_4": "I couldn't really hear the sound of the raindrops in my old basement room. It's nice being able to in this house.$7#$e#I felt kind of embarrassed living in my mom's house for so long.",
@@ -4446,7 +4446,6 @@
   "CFE_Sebastian_Married_winter26": "...The snow's melting. *sigh*$s",
 
   //Season specific dialogue
-
   //Affection specific dialogue
 
   //Shane
@@ -4472,8 +4471,8 @@
 
   //date specific dialogue
   //I might change this so it fits better with his attempts to mitigate his alcoholism. It's pretty negative.
-  "CFE_Shane_winter28": "Another year gone? Man.$u#$e#Take a wild guess what I'm doing all evening.",
   "CFE_Shane_spring1y2": "Buh, my head.$s#$e#Can I just sleep through this whole year?$s",
+  "CFE_Shane_winter28": "Another year gone? Man.$u#$e#Take a wild guess what I'm doing all evening.",
 
   //heart specific dialogue
   "CFE_Shane_summerMon10": "Jas and I played a pretty fun game yesterday. We made a little obstacle course outside.$h#$e#I know I haven't been a great influence on Jas, but you have to admit I have my moments.",
@@ -4793,7 +4792,7 @@
   //summer_Wed6, winterWed6
 
   //date specific dialogue
-  "CFE_Willy_spring1": "Ahoy there! A happy new year to you, too!$h#$e#I'm surprised you found time to visit me. Today's such a busy day for your farm, right?$h",
+  "CFE_Willy_spring1y2": "Ahoy there! A happy new year to you, too!$h#$e#I'm surprised you found time to visit me. Today's such a busy day for your farm, right?$h",
   "CFE_Willy_summer4": "Looks like tuna have shown up off the coast of our beach. Be sure to stock up on 'em. They'll be gone again until winter.",
   "CFE_Willy_winter7": "Will you go ice fishing tomorrow at the festival? I don't even care whether I win these days. I just like to see more folks fishing.$h",
   "CFE_Willy_winter15": "I think I'll be needin' some peace and quiet from the night market after these next few days.#$e#I'll just have to manage until then.",
@@ -4874,18 +4873,18 @@
   "CFE_Wizard_repeated_4": "I fear for the souls of those who abuse the dark arts, especially for selfish desires.#$e#To harm the innocent... truly, there is no greater crime in this world nor the next.",
   "CFE_Wizard_repeated_5": "The bears in this region are not... ordinary.#$b#With your connection to the forest spirits, you may even be able to communicate with them. Have you tried?",
   //summer_Mon10, Sun4
-  //fall_Fri10, Thu4
   //summer_Tue8, fall_Tue8
   //summer_Tue10, winter_Tue10
   //summer_Fri, fall_Wed
+  //fall_Fri10, Thu4
 
   //Wizard's Standard Dialogue
   //Special dialogue
 
   //date specific dialogue
+  "CFE_Wizard_spring1y2": "You came out here when you should be getting your farm back in shape for the new year?",
   "CFE_Wizard_fall26": "Will I see you tomorrow at the Spirit's Eve festival?#$e#No, I didn't look into my scrying orb for that one. I just figured it'd be easier to ask.#$e#What is it that you think I do here all day, anyway?",
   "CFE_Wizard_winter28": "Another year with no disasters. I've brewed up a celebratory potion with my name on it.$h#$e#No, you may not have any. Your body is not properly adjusted to it.#$e#That potion when we first met? That was about a 2. This is a 9.",
-  "CFE_Wizard_spring1": "You came out here when you should be getting your farm back in shape for the new year?",
 
   //heart specific dialogue
   "CFE_Wizard_summerMon4": "I will post a message in town if I need help stabilizing the local elemental forces. The creatures in the mine sometimes throw it out of balance.#$e#If you can't get to it, Marlon usually can, but his leg slows him down.",

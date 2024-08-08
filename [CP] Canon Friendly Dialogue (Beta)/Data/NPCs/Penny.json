@@ -143,8 +143,7 @@
         "fall_Tue": "{{i18n: CFE_Penny_fallTue}}",
         "winter_Mon": "{{i18n: CFE_Penny_winterMon}}",
         "winter_Wed": "{{i18n: CFE_Penny_winterWed}}",
-        "winter_Fri": "{{i18n: CFE_Penny_winterFri}}",
-        "Mon": "{{i18n: CFE_Penny_Mon}}"
+        "winter_Fri": "{{i18n: CFE_Penny_winterFri}}"
       }
     },
     {
