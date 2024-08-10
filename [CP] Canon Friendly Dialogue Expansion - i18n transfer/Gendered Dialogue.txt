@@ -25,7 +25,7 @@ Changes for use with GNT mod (i've added all the steps so that you can decide wh
 
 Abigail (2) - ChocolateCake(220), summer_Tue6... done
 
-Alex (7) - Fri8, summer_Sun, fall_Thu4, winter_Mon6, winter_Wed6, Indoor_Day_0, outdoor_8
+Alex (7) - Fri8, summer_Sun, fall_Thu4, winter_Mon6, winter_Wed6, Indoor_Day_0, outdoor_8...done
 
 Clint (0) - None
 
@@ -35,9 +35,9 @@ Demetrius (0) - None
 
 Dwarf (0) - None
 
-Elliott (3) - Rainy_Night_0, Rainy_Night_2, Indoor_Night_0
+Elliott (3) - Rainy_Night_0, Rainy_Night_2, Indoor_Night_0...done
 
-Emily (1) - summer_Sun6
+Emily (1) - summer_Sun6... done
 
 Evelyn (1) - FairyRose(595)
 

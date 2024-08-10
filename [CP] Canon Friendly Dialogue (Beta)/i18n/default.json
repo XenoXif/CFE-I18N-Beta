@@ -632,12 +632,14 @@
   "CFE_Caroline_summerSat6": "Sorry if Abby's ever said anything that made you feel awkward.#$b#I wonder if she could have learned better social skills if she'd gotten outside a bit more.",
   "CFE_Caroline_summerSun8": "Everyone needs to put in the appropriate time for self-care. I think you know my little rituals by now.$h#$e#Have you been putting in the appropriate time? You deserve it, you know.",
   "CFE_Caroline_summerSun4": "It's perfect weather for an iced tea, don't you think?",
+
   "CFE_Caroline_fallMon10": "I hope Abby doesn't make the same mistakes I made when I was her age...$s#$e#Uhm, I mean, looks like we've got another exercise class tomorrow! I'll see you around?",
   "CFE_Caroline_fallTue10": "I actually lost two pounds in the past couple of weeks, and that's even with Pierre cooking more often!$h#$e#Sorry, when Pierre cooks, I can only stomach so much of it, so I end up sneaking out to the store shelves and I nosh on the snack foods.#$b#Um, don't tell.$s",
   "CFE_Caroline_fallThu6": "There are some good recipes that you can make year round with wild mushrooms, so it's not a bad idea to stock up.#$e#Or if you're not much of a cook, you can always sell them to us.",
   "CFE_Caroline_fallSat8": "Is it just me, or does Abigail play too many video games?#$e#Maybe I'm a little old-fashioned.",
   "CFE_Caroline_fallSat4": "Abby's always had a strange interest in the occult. I'm sure it's just a phase...",
   "CFE_Caroline_fallSat2": "Abby's always had a strange interest in the occult. I'm not sure where she gets it from...",
+
   "CFE_Caroline_winterMon10": "So many people want to have these grand adventures. Me? Well, I got my fill when I was younger.#$e#Why not take it a little easier? That's what most everyone's after in the long-run, isn't it?",
   "CFE_Caroline_winterWed10": "Ugh, Abby needs to clean her guinea pig's cage. I can smell the fumes from halfway across the house.$s#$e#Can you nag her about it for me? Phew, thanks.",
   "CFE_Caroline_winterFri6": "Don't you think Abby would look better with her natural hair color?#$e#She used to have light chestnut-colored hair.",
@@ -683,7 +685,7 @@
   //Clint
   //Clint Gift Tastes
   "CFE_Clint_RockCandy": "*crunch* Wow! With this, I just might be able to get past level two of the mines! Thanks, @!",
-  "CFE_Clint_Pearl": "Hey! This is great!$h#$b#I wonder if I could give it to... uhm... never mind.",
+  "CFE_Clint_Pearl": "Hey, this is great!$h#$b#I wonder if I could give it to... uhm... never mind.",
   "CFE_Clint_PrismaticShard": "You're giving me this?$4#$b#...Why are you being so nice to me?$4",
   "CFE_Clint_RabbitsFoot": "You're telling me... this little charm will bring me luck?$4#$b#I sure could use some luck right about now.$4",
   "CFE_Clint_Emerald": "Oh nice! This one looks great.$h#$b#Apparently the green color comes from the amount of chromium in the emerald.#$e#...I  don't actually know what chromium is. But uh... I think I read that once.",
@@ -695,7 +697,7 @@
   "CFE_Clint_OmniGeode": "Oh boy! You're leaving this one for me? Sure you don't want to keep it?#$b#This'll be exciting. I almost never get to open these for myself.$h",
   "CFE_Clint_GoldBar": "Hoo! Look at that one, it's pristine! Thanks a lot!$h",
   "CFE_Clint_IridiumBar": "Oh, awesome. I love working with this stuff!#$b#I can feel the energy rippling up my arm every time I hit it with my hammer.$h",
-  "CFE_Clint_ArtichokeDip": "This is great! I can eat a whole bowl of this in one sitting.$h",
+  "CFE_Clint_ArtichokeDip": "This is great! I could eat a whole bowl of this in one sitting.$h",
   "CFE_Clint_FiddleheadRisotto": "Oh, thanks! I think the best way to describe this dish is that it's just got my name written all over it!",
 
   //Clint's Misc Dialogue
@@ -713,7 +715,6 @@
   "CFE_Clint_spring1y2": "Any resolutions this year?#$e#Nah, not me. I don't really see the point.#$e#Still, though, at least it's nice outside.",
   "CFE_Clint_winter28y1": "*sigh* Well, did you at least have a good year?",
   "CFE_Clint_winter28y2": "Hey, I hope your year was good.#$e#Me? Oh, I'll manage. I'm glad winter's just about finished.",
-  //My intention was for y1 and y2 to be specifically for those years -- My goal is for Clint to be a little less of a downer as the story progresses.
 
   //heart specific dialogue
   "CFE_Clint_summerMon10": "Oh, uh, hey @. Wanna smack some metal with me a bit?$h#$e#Uhh, I mean, if that's something you'd like to do...#$b#I think it's kinda fun, anyway.#$b#Sometimes.$s",
@@ -725,7 +726,7 @@
   "CFE_Clint_summerSun6": "I couldn't tell you too much about the molecular properties of metal. You'd have to ask Demetrius or his daughter about that one.#$e#I just know how to make it into the shape I want.",
 
   "CFE_Clint_fallMon8": "Sometimes I wonder if there's anyone in this town lower on the social ladder than I am.$s#$e#Even Shane seems down pretty low, but at least he knows how to socialize if he feels like it.$s",
-  "CFE_Clint_fallTue8": "My old gridball teammates... I've no idea where any of them are these days.#$e#Some of them probably wouldn't even remember me.",
+  "CFE_Clint_fallTue8": "My old gridball teammates... I've got no idea where any of them are these days.#$e#Some of them probably wouldn't even remember me.",
   "CFE_Clint_fallWed10": "@, I gotta confess, I know I might look like a tough guy, but I just hate going into the mines.$s#$e#There's too many creepy crawlies down there...$s#$e#Just... don't let anyone else know. My secret's safe with you, right?",
   "CFE_Clint_fallThu6": "Dr. Harvey says I should lose some weight. Hah.#$e#I'm swinging a hammer and lifting metal in here every day. I count that as my exercise.",
   "CFE_Clint_fallSat10": "My arm's a bit sore today. So much hammering away.#$e#Oh well. It's a good workout, I suppose.",
@@ -953,6 +954,7 @@
   "CFE_Dwarf_Mon": "Welcome to my shop.",
   "CFE_Dwarf_Tue": "I know that you are new to my language. Please, ask me to repeat anything you hear me say.",
   "CFE_Dwarf_Sun": "Care to buy anything today?",
+
   //Elliott
   //Elliott Gift Tastes
   "CFE_Elliott_GoldPumpkin": "What a curious object indeed! I wonder if we could make some kind of pumpkin ale from it?",
@@ -1081,13 +1083,17 @@
   "CFE_Elliott_Married_RainyDay_8": "Goodness! I'm in constant admiration at how you boldly venture outside on these days, yet it never dampens your spirit.",
   "CFE_Elliott_Married_RainyDay_9": "My inspiration for writing is like the weather... it comes and goes at random. Today I feel entirely dull.$s#$e#Perhaps I'll read one of the classics to get my creative juices flowing.",
 
-  "CFE_Elliott_Married_RainyNight_1": "Good evening. Did you have a productive day, @?",
-  "CFE_Elliott_Married_RainyNight_2": "Our triumphant hero returns! How was your day?$h^Our triumphant heroine returns! How was your day?$h",
-  "CFE_Elliott_Married_RainyNight_3": "You're ice cold! Let me keep you warm.$l",
+  "CFE_Elliott_Married_RainyNight_1": "You're ice cold! Let me keep you warm.$l",
+  "CFE_Elliott_Married_RainyNight_2": "Good evening. Did you have a productive day, @?",
+  "CFE_Elliott_Married_RainyNight_2_GN": "Good evening. Did you have a productive day, {{TermOfEndearment}}?",
+  "CFE_Elliott_Married_RainyNight_3": "Our triumphant hero returns! How was your day?$h^Our triumphant heroine returns! How was your day?$h",
+  "CFE_Elliott_Married_RainyNight_3_GN": "Our triumphant hero returns! How was your day?$h",
   "CFE_Elliott_Married_RainyNight_4": "Dear, what are you doing, burying your wet face in my hair like that? I'm not a towel!$l",
   "CFE_Elliott_Married_RainyNight_5": "Ah, my dear, I was just thinking about you. Welcome home.$h",
   "CFE_Elliott_Married_RainyNight_6": "My skill with words is unmatched, yet I can't find the way to properly describe your allure.$l^My skill with words is unmatched, yet I can't find the way to properly describe your beauty.$l",
+  "CFE_Elliott_Married_RainyNight_6_GN": "My skill with words is unmatched, yet I can't find the way to properly describe your mystique.$l",
   "CFE_Elliott_Married_RainyNight_7": "What did I do today? I'll just say this... it takes a lot of work to maintain this rugged physique!",
+  "CFE_Elliott_Married_RainyNight_7_GN": "What did I do today? I'll just say this... it takes a lot of work to maintain this rugged physique!", //repeated to prevent errors in Gender Neutral Compat
   "CFE_Elliott_Married_RainyNight_8": "Isolating? No, it's never isolating here, compared to the beach. Simply the promise of your return each evening keeps my mind quite copacetic.$h",
   "CFE_Elliott_Married_RainyNight_9": "My love... I wouldn't trade you for 100 iridium bars.#$e#Nor 1000...#$e#Not even 10,000 bars, no.$7#$e#...$7#$e#No, not even 100,000 bars!$a#$e#...$s#$e#Wa... one million bars of pure iridium...? Don't make me do this...$8",
 
@@ -1098,8 +1104,11 @@
   "CFE_Elliott_Married_IndoorDay_5": "If you find a spider in the house, don't squash it! Just let me know and I'll take the poor thing outside.",
   "CFE_Elliott_Married_IndoorDay_6": "I woke up with some thoughts swimming in my head for a little vignette. I'll have to write those thoughts down before they vanish.",
   "CFE_Elliott_Married_IndoorDay_7": "Today is going to be a fantastic day... I can feel it! I get this special feeling in my nose...$h",
+  "CFE_Elliott_Married_IndoorDay_7_GN": "Today is going to be a fantastic day... I can feel it! I get this special feeling in my nose...$h", //repeated to prevent errors in Gender Neutral Compat
   "CFE_Elliott_Married_IndoorDay_8": "A sheen of silky sun across your hair... reminds me how I know I've found my home, wherein your gleaming gaze invites to share... a moment in the sun to call our own.#$e#A happy day to you, dearest!$h",
+  "CFE_Elliott_Married_IndoorDay_8_GN": "A sheen of silky sun across your hair... reminds me how I know I've found my home, wherein your gleaming gaze invites to share... a moment in the sun to call our own.#$e#A happy day to you, {{TermOfEndearment}}!$h",
   "CFE_Elliott_Married_IndoorDay_9": "Dear, what do you think we should do for dinner tonight? It's your pick.",
+  "CFE_Elliott_Married_IndoorDay_9_GN": "{{TermOfEndearment}}, what do you think we should do for dinner tonight? It's your pick.",
   "CFE_Elliott_Married_IndoorDay_10": "I've had this recurring nightmare that you gave me a buzz cut... You wouldn't ever do that to me, would you?$s#$e#I trust you.",
   "CFE_Elliott_Married_IndoorDay_11": "We're not merely passing time from one amusement to the next, are we? I say fun is vital, but there must be something more, no?#$e#Apologies. Perhaps I'm a bit frustrated at the way shallow pop-fiction sells better than anything I'll ever write.$s",
   "CFE_Elliott_Married_IndoorDay_12": "I've had my cup of coffee and I'm well put-together! Now, your turn.[395]$h#$b#That is, if you want it. I've seen a boundless natural energy within you, and that suffices, perhaps?",
@@ -1108,7 +1117,9 @@
   "CFE_Elliott_Married_IndoorDay_15": "Enjoy your time out in the fields today, my love. There's no time like the present!",
 
   "CFE_Elliott_Married_IndoorNight_1": "Mmm, good evening, my dear. Come closer.$l",
+  "CFE_Elliott_Married_IndoorNight_1_GN": "Mmm, good evening, my {{TermOfEndearment}}. Come closer.$l",
   "CFE_Elliott_Married_IndoorNight_2": "From the brightest winter star, to the shimmer of an iridium vein... nothing can compare to my wonderful man.$l^From the brightest winter star, to the fragrant fairy rose... nothing can compare with your captivating beauty.$l",
+  "CFE_Elliott_Married_IndoorNight_2_GN": "From the brightest winter star, to the shimmer of an iridium vein... nothing can compare to my darling beloved.$l",
   "CFE_Elliott_Married_IndoorNight_3": "A crackling fire adds wonderful ambiance to the house... every piece of wood burns in a unique way.",
   "CFE_Elliott_Married_IndoorNight_4": "There's no sand on the floor, but I still have a lingering habit of brushing off the bottoms of my feet before I climb in bed.",
   "CFE_Elliott_Married_IndoorNight_5": "Every time I look out at the fields, I'm eager to learn more about your work. Why don't you teach me something new?",
@@ -1124,12 +1135,6 @@
   "CFE_Elliott_Married_funReturn_1": "I had a nice time at the beach by myself. I watched the waves come and go, just like old times.",
   "CFE_Elliott_Married_funReturn_2": "The beach was quiet today, and yet so full of life. I quite enjoyed myself. And how was your day?",
 
-  "CFE_Elliott_Married_spouseRoom_1": "I think I might do some writing today.",
-  "CFE_Elliott_Married_spouseRoom_2": "Will you be okay without my help?",
-  "CFE_Elliott_Married_spouseRoom_3": "To be skilled in writing, one must read at least twice as much as they write.#$e#I've a few books on this shelf I can still finish. And the old favorites never get old.",
-  "CFE_Elliott_Married_spouseRoom_4": "Willy gave me that small ship as a keepsake for being neighbors. He is certainly a kind soul.",
-  "CFE_Elliott_Married_spouseRoom_5": "We've plenty of wood stocked over here, not to mention the outside. I don't suppose we'll ever run short.",
-
   "CFE_Elliott_Married_OneKid_1": "How strange... I no longer feel like the protagonist of my own life. And yet, it doesn't bother me at all.",
   "CFE_Elliott_Married_OneKid_2": "Have you had any time to entertain little %kid1 today? Maybe a second child will make things easier for both of us.",
   "CFE_Elliott_Married_OneKid_3": "I feel like raising our child is the start of a brand new story! It will always be our greatest.",
@@ -1138,6 +1143,7 @@
   "CFE_Elliott_Married_OneKid_6": "Caring for babies isn't exactly my strong suit... but I'll do my best to be a good father.",
   "CFE_Elliott_Married_OneKid_7": "Fear not, my dear. I'll see to it that %kid1 is cared for well today.",
   "CFE_Elliott_Married_OneKid_8": "Caring for %kid1 is a bit monotonous, but it's given me plenty of down-time to gather some story ideas.#$e#I jot down my ideas in my notebook before they leave me. The list is getting quite long!$h",
+
   "CFE_Elliott_Married_TwoKids_1": "I wonder how long it'll be before our children can appreciate gourmet seafood?",
   "CFE_Elliott_Married_TwoKids_2": "I already gave %kid1 and %kid2 their food. They eat a lot for such small creatures!",
   "CFE_Elliott_Married_TwoKids_3": "I told the children a little story last night as they were drifting off. You can color me smitten.$l",
@@ -1146,6 +1152,16 @@
   "CFE_Elliott_Married_TwoKids_6": "I'm going to teach %kid1 to read as soon as possible! That's a great way for children to learn about the world.",
   "CFE_Elliott_Married_TwoKids_7": "Goodness! I'm still able to write a little, but I have to do it in short bursts when our children require such attention.",
   "CFE_Elliott_Married_TwoKids_8": "We've done well, @. The farm is doing excellent and our healthy children are a great joy. I couldn't be happier.",
+
+  "CFE_Elliott_Married_patio_1": "Ah, what a lovely day to read a book... don't you think, my dear?",
+  "CFE_Elliott_Married_patio_2": "Feel free to join me if you're taking a break, my dear.$h",
+  "CFE_Elliott_Married_patio_3": "As immersive as a book can be, the environment where you read it plays a crucial role in the experience.#$e#I couldn't ask for a better environment!$h",
+
+  "CFE_Elliott_Married_spouseRoom_1": "I think I might do some writing today.",
+  "CFE_Elliott_Married_spouseRoom_2": "Will you be okay without my help?",
+  "CFE_Elliott_Married_spouseRoom_3": "To be skilled in writing, one must read at least twice as much as they write.#$e#I've a few books on this shelf I can still finish. And the old favorites never get old.",
+  "CFE_Elliott_Married_spouseRoom_4": "Willy gave me that small ship as a keepsake for being neighbors. He is certainly a kind soul.",
+  "CFE_Elliott_Married_spouseRoom_5": "We've plenty of wood stocked over here, not to mention the outside. I don't suppose we'll ever run short.",
 
   "CFE_Elliott_Married_Outdoor_1": "My wildest dreams have come true... just look at this incredible landscape!",
   "CFE_Elliott_Married_Outdoor_2": "It's the strangest thing, but I get fewer tangles in my hair when I dry it outside. I try to do that on occasion.",
@@ -1156,11 +1172,7 @@
   "CFE_Elliott_Married_Outdoor_7": "If I stay perfectly still, perhaps a resplendent butterfly will bless my nose with a landing.",
   "CFE_Elliott_Married_Outdoor_8": "Scarecrows seem to work well here. I can't imagine the birds are short on food in the nearby forests.",
   "CFE_Elliott_Married_Outdoor_9": "Good morning. May I steal a soft kiss from my love?$l#$e#Oh... sorry about the coffee breath.$7",
-  "CFE_Elliott_Married_Outdoor_10": "I drank too much coffee... my mouth feels about as dry as the Calico Desert.$s#$e#I hope my fingeres aren't too jittery for writing today...$s",
-
-  "CFE_Elliott_Married_patio_1": "Ah, what a lovely day to read a book... don't you think, my dear?",
-  "CFE_Elliott_Married_patio_2": "Feel free to join me if you're taking a break, my dear.$h",
-  "CFE_Elliott_Married_patio_3": "As immersive as a book can be, the environment where you read it plays a crucial role in the experience.#$e#I couldn't ask for a better environment!$h",
+  "CFE_Elliott_Married_Outdoor_10": "I drank too much coffee... my mouth feels about as dry as the Calico Desert.$s#$e#I hope my fingers aren't too jittery for writing today...$s",
 
   //Date Specific Dialogue
   "CFE_Elliott_Married_spring3": "I wonder what new stories we'll have to tell this year? This new chapter of our lives is still just beginning.",
@@ -1234,8 +1246,9 @@
   "CFE_Emily_summerSat8": "My sewing machine's been getting a good workout this summer. I just have so many projects.#$e#I'll maybe get around to making something for Haley, but I also have to accept there's a good chance she'll never wear it.$u#$b#Oh well. *shrug*",
   "CFE_Emily_summerSat4": "We should always treat one another with not just respect, but love, too.#$e#I try to treat everyone the same. Sandy, Clint, Shane, you... everyone.#$e#Because you're all wonderful in your own ways!$h",
   "CFE_Emily_summerSun10": "Souls swirl together like clouds forming and reshaping in the sky. I'm glad we've crossed paths as we have, @.$l",
-  "CFE_Emily_summerSun8": "Hi, @! We've become decent friends, haven't we?$h#$e#This may sound weird, but I've always been certain this would happen.",
+  "CFE_Emily_summerSun8": "Hi, @! We've become close friends, haven't we?$h#$e#This may sound weird, but I've always been certain this would happen.",
   "CFE_Emily_summerSun6": "Hi, @! We've become decent friends, haven't we?$h#$e#That's fine with me. You're a cool guy.^I'm glad.$h",
+  "CFE_Emily_summerSun6_GN": "Hi, @! We've become decent friends, haven't we?$h#$e#That's fine with me.I'm glad. You're a cool {{GenericNoun}}.$h",
 
   "CFE_Emily_fallMon4": "I've been working on some sweaters for when the days get colder.#$e#My goal is for the fabric to create a warm, nostalgic feeling for whoever wears it.",
   "CFE_Emily_fallTue8": "Everyone has something to contribute to this world. Whether it's big or small makes no difference.",
@@ -1302,7 +1315,7 @@
   "CFE_Emily_Married_RainyDay_2": "I hope all the animals out there are taking shelter. Maybe they're all sleeping in.",
   "CFE_Emily_Married_RainyDay_3": "A day like this is a blessing from mother nature.",
   "CFE_Emily_Married_RainyDay_4": "When one raindrop falls on your head, how many times do you think its water molecules have been in the sky before?",
-  "CFE_Emily_Married_RainyDay_5": "Good morning... I got this gift for you. Don't worry, I already purified it with sage incense. [428 440 444 338 207]",
+  "CFE_Emily_Married_RainyDay_5": "Good morning... I got this gift for you. Don't worry, I already purified it with incense. [428 440 444 338 207]",
   "CFE_Emily_Married_RainyDay_6": "It's pretty wet out there, isn't it? Here, this item will keep you well. [428 440 444 338 207]",
   "CFE_Emily_Married_RainyDay_7": "I meant to let the parrot go free, but his wing never fully healed. He seems content, though. I give him lots of attention.",
   "CFE_Emily_Married_RainyDay_8": "The parrot seems to enjoy living inside, especially on days like these. He told me that he's happy here.",
@@ -1355,12 +1368,6 @@
   "CFE_Emily_Married_funReturn_1": "My day went well... it's good to get out of the house now and then.",
   "CFE_Emily_Married_funReturn_2": "What a wonderful day today! It was nice to take a stroll through Pelican Town.$h",
 
-  "CFE_Emily_Married_spouseRoom_1": "I'm going to spend some time with the parrot today. It breaks my heart that he'll never fly again.$u",
-  "CFE_Emily_Married_spouseRoom_2": "Some of your clothes are getting a bit tattered, so I'll be mending a few of them today.",
-  "CFE_Emily_Married_spouseRoom_3": "The parrot needs love. All living things need love, really.$u#$b#But destiny brought him to my doorstep, so the connection he shares with me is extra special.$u",
-  "CFE_Emily_Married_spouseRoom_4": "I've got a fresh bolt of cloth queued up for myself. I wonder what I can start making with it today?",
-  "CFE_Emily_Married_spouseRoom_5": "I can stare at that painting on the wall for hours if I let myself. It's a kind of meditation, I'd say.#$e#You'll keep noticing finer and finer details if you really stop and look.$h",
-
   "CFE_Emily_Married_OneKid_1": "I hope we can raise our child to be kind and considerate. That's more important than getting A's in school.",
   "CFE_Emily_Married_OneKid_2": "Little %kid1 will probably grow up to like vegetables if we set a good example. What do you think?",
   "CFE_Emily_Married_OneKid_3": "Is one child enough, or should we raise another? I guess we'll just see where fate leads us.",
@@ -1369,6 +1376,7 @@
   "CFE_Emily_Married_OneKid_6": "I love %kid1's cute little baby noises.$h",
   "CFE_Emily_Married_OneKid_7": "%kid1 will always be loved. I'll personally see to that.$u",
   "CFE_Emily_Married_OneKid_8": "*yawn* Who knew a little bundle like %kid1 could take so much energy to watch?$u#$b#Okay, time to get going. It's another big day!",
+
   "CFE_Emily_Married_TwoKids_1": "A big house, two kids and a parrot... I have my hands full!",
   "CFE_Emily_Married_TwoKids_2": "Yoba has blessed our home so much! We have that much more responsibility to show love and support to others.",
   "CFE_Emily_Married_TwoKids_3": "Well, %kid2 certainly has your hair...",
@@ -1378,18 +1386,25 @@
   "CFE_Emily_Married_TwoKids_7": "Oh, I already fed the kids their organic quinoa puffs with goat milk. You just focus on the farm!",
   "CFE_Emily_Married_TwoKids_8": "I forgot to tell you, the kids loved seeing their Aunt Haley yesterday. She stopped by.",
 
+  "CFE_Emily_Married_patio_1": "This is my favorite spot for a morning meditation. I visualize the energy from this crystal garden flowing through my body.",
+  "CFE_Emily_Married_patio_2": "%Emily is in a deep meditative state.",
+  "CFE_Emily_Married_patio_3": "Ahh! Feels good!$h#$b#Y'know, just being alive. If you take the proper time to notice it, it's undeniable.",
+
+  "CFE_Emily_Married_spouseRoom_1": "I'm going to spend some time with the parrot today. It breaks my heart that he'll never fly again.$u",
+  "CFE_Emily_Married_spouseRoom_2": "Some of your clothes are getting a bit tattered, so I'll be mending a few of them today.",
+  "CFE_Emily_Married_spouseRoom_3": "The parrot needs love. All living things need love, really.$u#$b#But destiny brought him to my doorstep, so the connection he shares with me is extra special.$u",
+  "CFE_Emily_Married_spouseRoom_4": "I've got a fresh bolt of cloth queued up for myself. I wonder what I can start making with it today?",
+  "CFE_Emily_Married_spouseRoom_5": "I can stare at that painting on the wall for hours if I let myself. It's a kind of meditation, I'd say.#$e#You'll keep noticing finer and finer details if you really stop and look.$h",
+
   "CFE_Emily_Married_Outdoor_1": "I love getting up early. There's a certain freshness to the air and the wildlife is much more active.",
-  "CFE_Emily_Married_Outdoor_2": "Shh, if you pause and listen very carefully, you can hear the ocean.",
-  "CFE_Emily_Married_Outdoor_3": "What's on the agenda today, dear?",
+  "CFE_Emily_Married_Outdoor_2": "What's on the agenda today, dear?",
+  "CFE_Emily_Married_Outdoor_2_GN": "What's on the agenda today, {{TermOfEndearment}}?",
+  "CFE_Emily_Married_Outdoor_3": "Shh, if you pause and listen very carefully, you can hear the ocean.",
   "CFE_Emily_Married_Outdoor_4": "If you need a break later today, you can meditate over at the crystal garden. There's no wrong way how to do it.",
   "CFE_Emily_Married_Outdoor_5": "A little sunlight is good for you. Just don't get crispy, okay?",
   "CFE_Emily_Married_Outdoor_6": "There's so much to do today! Not in the stressful sense, but just in the 'appreciation' way.",
   "CFE_Emily_Married_Outdoor_7": "Good morning! I was wondering when you'd finally roll out of bed!$h#$e#I was hoping you wouldn't miss this beautiful morning.",
   "CFE_Emily_Married_Outdoor_8": "Living here, I can't help but get up extra early. I'm usually up before you, huh?#$e#It's okay... you deserve a good night of rest.",
-
-  "CFE_Emily_Married_patio_1": "This is my favorite spot for a morning meditation. I visualize the energy from this crystal garden flowing through my body.",
-  "CFE_Emily_Married_patio_2": "%Emily is in a deep meditative state.",
-  "CFE_Emily_Married_patio_3": "Ahh! Feels good!$h#$b#Y'know, just being alive. If you take the proper time to notice it, it's undeniable.",
 
   //Date Specific Dialogue
   "CFE_Emily_Married_spring14": "The farm must seem like an endless expanse to the bugs and worms. It's an entire world, really.#$e#When I think about people standing all over the planet, we're just like the bugs who only know the farm. What lies beyond?#$e#Everything is relative. It's just a matter of perspective.",

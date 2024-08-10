@@ -74,7 +74,7 @@
         "summer_Sat4": "{{i18n: CFE_Emily_summerSat4}}",
         "summer_Sun10": "{{i18n: CFE_Emily_summerSun10}}",
         "summer_Sun8": "{{i18n: CFE_Emily_summerSun8}}",
-        "summer_Sun6": "{{i18n: CFE_Emily_summerSun6}}",
+        "summer_Sun6": "{{i18n: CFE_Emily_summerSun6{{GenderNeutralCompat}} |GenericNoun={{lowercase:{{Random:{{GNMTGenericNoun}}}}}}}}",
 
         "fall_Mon4": "{{i18n: CFE_Emily_fallMon4}}",
         "fall_Tue8": "{{i18n: CFE_Emily_repeated_1}}",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "LogName": "CFE_Emily_Married_spouseRoom",
+      "LogName": "CFE_Emily_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
@@ -194,16 +194,16 @@
         "funReturn_Emily": "{{i18n: CFE_Emily_Married_funReturn_{{Random: 1,2}}}}",
 
         "OneKid_0": "{{i18n: CFE_Emily_Married_OneKid_{{Random: 1,2}}}}",
-		    "OneKid_1": "{{i18n: CFE_Emily_Married_OneKid_{{Random: 3,4}}}}",
-		    "OneKid_2": "{{i18n: CFE_Emily_Married_OneKid_{{Random: 5,6}}}}",
-		    "OneKid_3": "{{i18n: CFE_Emily_Married_OneKid_{{Random: 7,8}}}}",
+        "OneKid_1": "{{i18n: CFE_Emily_Married_OneKid_{{Random: 3,4}}}}",
+        "OneKid_2": "{{i18n: CFE_Emily_Married_OneKid_{{Random: 5,6}}}}",
+        "OneKid_3": "{{i18n: CFE_Emily_Married_OneKid_{{Random: 7,8}}}}",
         "TwoKids_0": "{{i18n: CFE_Emily_Married_TwoKids_{{Random: 1,2}}}}",
-	    	"TwoKids_1": "{{i18n: CFE_Emily_Married_TwoKids_{{Random: 3,4}}}}",
+        "TwoKids_1": "{{i18n: CFE_Emily_Married_TwoKids_{{Random: 3,4}}}}",
         "TwoKids_2": "{{i18n: CFE_Emily_Married_TwoKids_{{Random: 5,6}}}}",
         "TwoKids_3": "{{i18n: CFE_Emily_Married_TwoKids_{{Random: 7,8}}}}",
 
         "Outdoor_0": "{{i18n: CFE_Emily_Married_Outdoor_1}}",
-        "Outdoor_1": "{{i18n: CFE_Emily_Married_Outdoor_2}}",
+        "Outdoor_1": "{{i18n: CFE_Emily_Married_Outdoor_2{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
         "Outdoor_2": "{{i18n: CFE_Emily_Married_Outdoor_{{Random: 3,4}}}}",
         "Outdoor_3": "{{i18n: CFE_Emily_Married_Outdoor_{{Random: 5,6}}}}",
         "Outdoor_4": "{{i18n: CFE_Emily_Married_Outdoor_{{Random: 7,8}}}}",
