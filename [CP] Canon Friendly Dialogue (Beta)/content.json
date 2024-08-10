@@ -194,6 +194,60 @@
       "When": {
         "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded": "true" //add new mods UniqueIDs here after a comma to include them in intentional key compat
       }
+    },
+    {
+      "Name": "GenderNeutralCompat",
+      "Value": ""
+    },
+    {
+      "Name": "GenderNeutralCompat",
+      "Value": "_GN",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTAdultInformalNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTAdultInformalNoun",
+      "Value": "{{Hana.GNMTokens/AdultInformalNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTGenericNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTGenericNoun",
+      "Value": "{{Hana.GNMTokens/GenericNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTSpouseNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTSpouseNoun",
+      "Value": "{{Hana.GNMTokens/SpouseNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTTermOfEndearment",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTTermOfEndearment",
+      "Value": "{{Hana.GNMTokens/TermOfEndearment}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTAdjective",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTAdjective",
+      "Value": "{{Hana.GNMTokens/Adjective}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
     }
   ],
 

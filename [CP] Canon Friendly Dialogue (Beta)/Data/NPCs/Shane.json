@@ -80,7 +80,7 @@
         "fall_Thu8": "{{i18n: CFE_Shane_fallThu8}}",
         "fall_Thu6": "{{i18n: CFE_Shane_fallThu6}}",
         "fall_Fri10": "{{i18n: CFE_Shane_fallFri10}}",
-        "fall_Fri8": "{{i18n: CFE_Shane_fallFri8_{{Random: 1,2}}",
+        "fall_Fri8": "{{i18n: CFE_Shane_fallFri8_{{Random: 1,2}}}}",
         "fall_Fri4": "{{i18n: CFE_Shane_fallFri4}}",
         "fall_Sat10": "{{i18n: CFE_Shane_fallSat10}}",
         "fall_Sun10": "{{i18n: CFE_Shane_fallSun10}}",

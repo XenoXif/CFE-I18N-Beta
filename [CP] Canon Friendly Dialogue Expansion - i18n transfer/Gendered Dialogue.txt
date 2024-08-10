@@ -21,46 +21,11 @@ Changes for use with GNT mod (i've added all the steps so that you can decide wh
   "ServiceFormalNoun": "Esteemed Patron",
   "TraderNoun": "Traveller",
   "ParentalNoun": "Lala"
+  "TermOfEndearment": "sweetie"
 
-  in default.json:
-  erase the second line after the ^
-  replace the gendered portion of dialogue with the relevant config option above, in {{double brackets}}.
-  leave a //comment with what you want the male and female standard lines to be.
+Abigail (2) - ChocolateCake(220), summer_Tue6... done
 
-  example: "Are you for real? You're the kind of guy who just shows up with free cake?$h^Are you for real? You're the kind of girl who just shows up with free cake?$h#$b#*sniff* Mmmm, and the best kind of cake, at that!" -->
-  :"Are you for real? You're the kind of {{GenericNoun}} who just shows up with free cake?$h" //guy^girl
-
-  in npc.json:
-  find the appropriate key, and add: |defaultstoken={{configvaluefromgnmt}}}}" to the end of the i18n token.
-
-  example: "AcceptGift_(O)220": "{{i18n:CDE_Abigail_ChocolateCake |GenericNoun={{GenericNoun}}}}"
-
-  in content.json: 
-  make a dynamic token that adds the standard gendered dialogue for when people are not using GNTM.
-  A different dynamic token entry will need to be made for each of the config options from GNTM that you use (ie subjective, objective, possessive, etc)
-  the way it is currently set up, i can't easily allow for multiple generic nouns for the male/female players, so if you for example are coding for "lad^lass" instead of "guy^girl", it will be easier to choose a different config key such as AdultInformalNoun rather than trying to fit multiple options into the GenericNoun category. 
-  example: 
-  "DynamicTokens": [
-  { "Name": "GenericNoun",
-	"Value": "guy",
-	"When": { "PlayerGender": "male"}
-	},
- { "Name": "GenericNoun",
-	"Value": "girl",
-	"When": { "PlayerGender": "female"}
-	},
- { "Name": "GenericNoun"
-   "Value": "{{Lowercase: {{Random: {{Hana.GNMTokens/GenericNoun}}}}}}",
-   "When": {"HasMod": "Hana.GNMTokens"}
-    }
-  ]
-
-  in manifest.json:
-  make gnmtokens a false dependency!
-
-Abigail (3) - ChocolateCake(220), summer_Tue6, Rainy_Night_1
-
-Alex (7) - Fri8, summer_Sun, fall_Thu4, winter_Mon6, winter_Wed6, Indoor_Day_0, Outdoor_3
+Alex (7) - Fri8, summer_Sun, fall_Thu4, winter_Mon6, winter_Wed6, Indoor_Day_0, outdoor_8
 
 Clint (0) - None
 

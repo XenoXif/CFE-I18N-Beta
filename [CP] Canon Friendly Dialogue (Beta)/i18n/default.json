@@ -1,12 +1,14 @@
 {
-  //The first line refers to the code, the second line is what the players see. Translators should create a copy of this json file, rename it to the appropriate i18n name for their language, and edit the second line in quotes. They now no longer need any files besides the i18n in their own mod, or you can add the translated i18n jsons to the mod's main i18n folder to make translation significantly more accessible to players.
+  //The first line refers to the code, the second line is what the players see. Translators should create a copy of this json file, rename it to the appropriate i18n name for their language, and edit the second line in quotes. They now no longer need any files besides the i18n in their own mod.
   //use ctrl + F to find different sections, as this document is quite long.
 
   //Config Schema for GMCM.
   "config.section.Dialogue.name": "NPC Dialogue Settings",
-  "config.section.Dialogue.description": "Toggle specific NPCs new dialogue on/off",
+  "config.section.Dialogue.description": "Toggle specific NPCs new dialogue on, off, or 50/50",
   "config.section.Misc.name": "Other Settings",
   "config.section.Misc.description": "Toggle other additions on/off",
+  "config.CFE_Festivals.name": "Festivals",
+  "config.CFE_Festivals.description": "adds new dialogue to year 3 and 4, and randomizes dialogue from year 5 onward",
   "config.CFE_Abigail.name": "Abigail",
   "config.CFE_Alex.name": "Alex",
   "config.CFE_Birdie.name": "Birdie",
@@ -42,8 +44,6 @@
   "config.CFE_Vincent.name": "Vincent",
   "config.CFE_Willy.name": "Willy",
   "config.CFE_Wizard.name": "Wizard",
-  "config.CFE_Festivals.name": "Festivals",
-  "config.CFE_Festivals.description": "adds new dialogue to year 3 and 4, and randomizes dialogue from year 5 onward",
 
   //NPC Dialogue
 
@@ -55,7 +55,8 @@
   "CFE_Abigail_RabbitsFoot": "This is great! I can hang this on the handle of one of my katanas!",
   "CFE_Abigail_BananaPudding": "Oh my god, homemade pudding? Yes please!#$e#Getting good bananas must've been quite the adventure.$h",
   "CFE_Abigail_BlackberryCobbler": "This! ...This is the official flavor of fall!#$b#It's like Spirit's Eve on a plate! Thank you so much!$h",
-  "CFE_Abigail_ChocolateCake": "Are you for real? You're the kind of {{GenericNoun}} who just shows up with free cake?$h#$b#*sniff* Mmmm, and the best kind of cake, at that!", //guy^girl
+  "CFE_Abigail_ChocolateCake": "Are you for real? You're the kind of guy who just shows up with free cake?$h^Are you for real? You're the kind of girl who just shows up with free cake?$h#$b#*sniff* Mmmm, and the best kind of cake, at that!",
+  "CFE_Abigail_ChocolateCake_GN": "Are you for real? You're the kind of {{AdultInformalNoun}} who just shows up with free cake? $h#$b#*sniff* Mmmm, and the best kind of cake, at that!",
   "CFE_Abigail_Pufferfish": "Heeheehee! Look at this brave little guy!$h#$b#Look at those spikes! Mr. fierce warrior, he is!",
   "CFE_Abigail_Pumpkin": "That is one perfectly plump pumpkin! Thank you so much!$h#$b#I'm gonna carve it, toast the seeds, use the guts for... something.#$b#This is exciting!$h",
   "CFE_Abigail_SpicyEel": "No way! You got me some mega ultra eel? That's my favorite kind of eel!$h",
@@ -67,6 +68,26 @@
   "CFE_Abigail_rainy_3": "A world full of mystery is the only one worth living in.#$e#As soon as one mystery is solved, we're desperate to find another.#$b#Isn't everyone like that?",
 
   //Abigail's Standard Dialogue
+  //Special Dialogue
+  "CFE_Abigail_repeated_1": "Dad sometimes calls you his 'business partner.'$u#$b#He is going to freak out when he learns about the two of us hanging out.$h",
+  "CFE_Abigail_repeated_2": "Oh! Did I tell you? I finally beat 'Prairie King.' Took long enough, huh?$h#$e#Then it starts over in hard mode. Getting past the first level of that is my new project.$u",
+  "CFE_Abigail_repeated_3": "It's so cold, I wish we had a hot cup of cocoa to share.$h",
+  "CFE_Abigail_repeated_4": "My favorite classes? Probably anthropology... or media arts...$u#$b#Don't know what I'd do with those for a career, though.",
+  "CFE_Abigail_repeated_5": "'Journey of the Prairie King' is still driving me crazy.#$e#I tend to stick more to RPGs. Maybe that's why I'm not the best at shooters.",
+  "CFE_Abigail_repeated_6": "Sebastian's basically my best friend. I don't know what I'd do without him.#$e#We pretty much grew up together.",
+  "CFE_Abigail_repeated_7": "I've often wondered if one day, I'll wake up and realize that the reality I knew was just a dream.#$e#But these days, I don't really hope that's the case.$l",
+  "CFE_Abigail_repeated_8": "$d joja#Dad's really stressed about the store lately. He's been all passive aggressive, taking it out on me and Mom.$s|With JojaMart gone, it's actually really nice to see Dad in a positive mood more often.$h",
+  "CFE_Abigail_repeated_9": "$d joja#I try to help out in the shop on most days. Business has been pretty bad since the JojaMart opened, though.|Ever since JojaMart shut down we've been doing great at the shop!$h",
+  //summerTue10, fallWed10
+  //fallSat8, winterTue6
+  //winterTue8, winterTue4
+  //winterSat6, Wed6
+  //summerMon4, winterFri4
+  //fallTue2, Thu2
+  //fallThu8, Fri8
+  //fallTue4, Sat4
+  //summerMon2, FallTue
+
   //date specific dialogue
   //to keep consistency with other tokens, i've removed the _ from date specific tokens and heart specific tokens, so that the key identifier is grouped within one segment. (_summer_6 became _summer6)
   //don't forget that y2 means every year after as well. if a dialogue only appears in y1 i've marked it as such, otherwise the tokens are not year specific.
@@ -88,10 +109,8 @@
   //heart specific dialogue
   "CFE_Abigail_summerMon8": "I used to think Pelican Town was kinda drab, but lately I'm starting to love some things about it.$h",
   "CFE_Abigail_summerMon6": "My pet guinea pig, David, just hates this hot weather. He's fussy.",
-  "CFE_Abigail_summerMon4": "'Journey of the Prairie King' is still driving me crazy.#$e#I tend to stick more to RPGs. Maybe that's why I'm not the best at shooters.",
-  "CFE_Abigail_summerMon2": "$d joja#I try to help out in the shop on most days. Business has been pretty bad since the JojaMart opened, though.|Ever since JojaMart shut down we've been doing great at the shop!$h",
-  "CFE_Abigail_summerTue10": "Dad sometimes calls you his 'business partner.'$u#$b#He is going to freak when he finds out about the two of us hanging out.$h",
-  "CFE_Abigail_summerTue6": "You're an interesting {{GenericNoun}}, @. I'm glad you moved here.$h", //guy^girl
+  "CFE_Abigail_summerTue6": "You're an interesting guy, @. I'm glad you moved here.$h^You're an interesting lady, @. I'm glad you moved here.$h",
+  "CFE_Abigail_summerTue6_GN": "You're an interesting {{GenericNoun}}, @. I'm glad you moved here.$h",
   "CFE_Abigail_summerTue4": "I do what I can to help with the store. It's not my favorite, but I figure I have to do at least a little something.",
   "CFE_Abigail_summerTue2": "I can play the flute, but I only play when the mood strikes me right.#$e#The lake up north is a good spot for it.",
   "CFE_Abigail_summerWed10": "Your farmhouse is really beautiful.#$e#Walking by it, I just get a sense of its history, its soul, like I'm nostalgic for an experience I haven't had yet.",
@@ -113,18 +132,13 @@
   "CFE_Abigail_fallMon6": "Haha, see? I don't hate the outdoors. It just has to be the way I like it.$h",
   "CFE_Abigail_fallMon4": "I need to get some good use out of this season while it lasts. It's a good day to be outside.",
   "CFE_Abigail_fallTue8": "$d joja#Why the heck did my parents decide to move to a small town if it was just going to be more stressful for them?$a|I heard my dad put on quite a show at the Community Center, right when it was restored. I wish I could've seen it.$h",
-  "CFE_Abigail_fallTue4": "$d joja#Dad's really stressed about the store lately. He's been all passive aggressive, taking it out on me and Mom.$s|With JojaMart gone, it's actually really nice to see Dad in a positive mood more often.$h",
-  "CFE_Abigail_fallTue2": "Sebastian's basically my best friend. I don't know what I'd do without him.#$e#We pretty much grew up together.",
-  "CFE_Abigail_fallWed10": "Dad sometimes calls you his 'business partner.'$u#$b#He is going to freak out when he learns about the two of us.$h",
   "CFE_Abigail_fallWed8": "I wonder if they'll let me design some of the features in the Spirit's Eve maze someday.#$e#I've got some ideas I've sketched. I just don't know who even to show them to.",
   "CFE_Abigail_fallWed4": "Are you growing pumpkins on your farm this year?#$e#Save one for me!$h",
   "CFE_Abigail_fallThu10": "I had an interesting dream last night, with you in it.#$e#It was a good dream.$h",
-  "CFE_Abigail_fallThu8": "I've often wondered if one day, I'll wake up and realize that the reality I knew was just a dream.#$e#But these days, I don't really hope that's the case.$l",
   "CFE_Abigail_fallThu6": "#$1 AbigailHAND#Last night I dreamt that my left hand had turned into a gigantic %noun. Does that mean anything?#$e#%Abigail doesn't seem to be interested in talking right now.",
   "CFE_Abigail_fallThu4": "Sebastian's a few years older than I am, but he's one of the few people who actually gets me.#$e#Well, and you and Sam sort of do, too.$h",
   "CFE_Abigail_fallFri10": "I usually feel lonely this time of year, but not anymore.$l#$e#@, what are your plans for the future?",
   "CFE_Abigail_fallFri6": "I wish the season lasted a little longer.$8#$e#When the wind really picks up, I almost feel like a kid again.",
-  "CFE_Abigail_fallSat8": "Oh! Did I tell you? I finally beat 'Prairie King.' Took long enough, huh?$h#$e#Then it starts over in hard mode. Getting past the first level of that is my new project.$u",
   "CFE_Abigail_fallSat6": "Hi.$h#$e#Your hair looks cool today... did you do something different?",
   "CFE_Abigail_fallSun8": "Hmm... what should I do tonight?#$q 27/28 fall_Sun_old#I was thinking about dyeing my hair again... what do you think?#$r 27 10 Sun_27#Dye it black.#$r 27 10 Sun_27#Why not blonde?#$r 27 20 Sun_WildColor#How about bubblegum pink?#$r 28 0 Sun_28#I like your hair just the way it is!",
   "CFE_Abigail_fallSun6": "If it's an especially windy day, I like facing the wind directly and letting it blow back my hair.#$b#It's like facing some kind of immortal godbeast, or something. Just like, \"Rah! Bring it!\"$h",
@@ -133,9 +147,6 @@
   "CFE_Abigail_winterMon6": "It's just too cold to go outside much.#$e#But I do enjoy building a snowgoon.$h",
   "CFE_Abigail_winterMon4": "Maybe I should build a snow squidmonster. That'd be a nice change of pace.",
   "CFE_Abigail_winterTue10": "*hug* Hey you!$h#$e#Um... just tryin' to get warm!$l",
-  "CFE_Abigail_winterTue8": "It's so cold, I wish we had a hot cup of cocoa to share.$h",
-  "CFE_Abigail_winterTue6": "Oh! Did I tell you? I finally beat 'Prairie King.' Took long enough, huh?$h#$e#Then it starts over in hard mode. Getting past the first level of that is my new project.$u",
-  "CFE_Abigail_winterTue4": "It's so cold, I wish we had a hot cup of cocoa to share.$h",
   "CFE_Abigail_winterWed10": "Do you ever get lonely on your farm?",
   "CFE_Abigail_winterWed6": "It must be nice not having crops to worry about this time of year.#$e#And that means you can hang out with me more often!$h",
   "CFE_Abigail_winterWed2": "Hi. If you're ever bored, you can always hang out in my room.#$e#As long as I'm not changing, of course!",
@@ -144,10 +155,8 @@
   "CFE_Abigail_winterThu4": "So, how deep have you gone in those mines, anyway?",
   "CFE_Abigail_winterFri10": "@, there's something I want to tell you...#$e#It's just... um... well... your boots! They, uh... look really clean... *gulp*#$e#That's all... *sigh*$s",
   "CFE_Abigail_winterFri8": "Do you ever worry that maybe all your hard work and effort might all be for nothing?$s#$e#Oh! I mean...! Not YOUR hard work. I just meant 'you' as in the general 'you.' No, don't worry. You're perfect.$l#$b#I mean...!$7#$b#Yeah, hope your day's going well!$h",
-  "CFE_Abigail_winterFri4": "'Journey of the Prairie King' is still driving me crazy.#$e#I tend to stick more to RPGs. Maybe that's why I'm not the best at shooters.",
   "CFE_Abigail_winterSat10": "Thanks for not getting weirded out after the bit with the spirit board.$l#$e#I was seriously worried that you'd never talk to me again.$l",
   "CFE_Abigail_winterSat8": "I've been daydreaming a lot lately...#$e#Oh! You want to know what it's about? Well...$u#$b#...It's a secret.$h",
-  "CFE_Abigail_winterSat6": "My favorite classes? Probably anthropology... or media arts...$u#$b#Don't know what I'd do with those for a career, though.",
   "CFE_Abigail_winterSun10": "Hey, if you ever want to come into my room, you can just walk right in.#$e#...You don't have to knock.$l",
 
   "CFE_Abigail_Mon6": "As I've gotten older, I've figured out a way to give my parents a pretty awesome death glare.#$e#I think they're legitimately afraid of it, on some level.$h",
@@ -157,26 +166,21 @@
   "CFE_Abigail_Tue4": "Sometimes I wonder... are everyone's parents as out-of-touch as mine are?$s#$e#Seems like their idea of a girl being adventurous is to try on a new dress or something.$u",
   "CFE_Abigail_Wed10": "If I ever have kids, I'm making sure they get to be who they want to be.#$e#Even if their lives are completely different from what I expect, that'd be okay, right?",
   "CFE_Abigail_Wed8": "Which do you think is cooler: broadswords or katanas?#$e#I'm partial to both. I guess it just depends on the situation.",
-  "CFE_Abigail_Wed6": "My favorite classes? Probably anthropology... or media arts...#$b#Don't know what I'd do with those for a career, though.",
   "CFE_Abigail_Wed2": "Oh, hi @. Taking a break from your work?#$e#Me too. Oh! Nothing physical... the classes I take are all online.",
   "CFE_Abigail_Thu10": "Hi.$l#$e#Do you feel like everything seems unreal lately?$l#$b#Not in a bad way, though.$h",
   "CFE_Abigail_Thu8": "I wonder if I would have turned out differently if I hadn't been born and raised in this little town.$u#$e#Do you ever think about other versions of yourself in alternate timelines?",
   "CFE_Abigail_Thu6": "I picked up how to play the drums pretty easily as a kid. My own set is in storage, though.#$e#Good thing Sam has some.",
   "CFE_Abigail_Thu4": "#$1 Abigail1#Oh no, I think my Dad's going to cook dinner tonight...$s#$e#I don't feel like doing anything today...$u",
-  "CFE_Abigail_Thu2": "Sebastian's basically my best friend. I don't know what I'd do without him.#$e#We pretty much grew up together.",
-  "CFE_Abigail_Fri8": "I've often wondered if one day, I'll wake up and realize that the reality I knew was just a dream.#$e#But these days, I don't really hope that's the case.$l",
   "CFE_Abigail_Fri6": "The birds were happily chirping today. They're too simple to understand the future.#$e#It's better to be like them, isn't it?",
   "CFE_Abigail_Fri4": "It's saloon night. Wanna join us this evening?#$e#I just like having all my friends in one place.",
   "CFE_Abigail_Fri2": "We're all going to hang out in the saloon this evening. It's kind of like a Friday tradition, I guess.",
   "CFE_Abigail_Sat10": "Dying one day and ceasing to exist didn't sound so bad before. But these days, the stakes seem too high.$l#$b#I don't want to lose what I have now.$l",
   "CFE_Abigail_Sat8": "How can non-existence be so bad if we're not around to experience it?#$e#It's not like I miss my 'life' from before I was born. It's probably the same after.",
   "CFE_Abigail_Sat6": "You came all this way to visit me? That's nice.$h#$e#So have you been exploring the mountain caves at all?#$e#Interesting. I'd like to go there myself one of these days.$l",
-  "CFE_Abigail_Sat4": "$d joja#Dad's really stressed about the store lately. He's been all passive aggressive, taking it out on me and Mom.$s|With JojaMart gone, it's actually really nice to see Dad in a positive mood more often.$h",
   "CFE_Abigail_Sat2": "Ugh, so much homework to do this weekend.$s#$e#I've still got a few hours before the procrastination becomes risky, though.",
 
   //generic weekday dialogue
   "CFE_Abigail_springThu": "Ugh... I'm not in a good mood right now.$s#$e#I said I'm not in a good mood... what do you want?$a",
-  "CFE_Abigail_fallTue": "$d joja#I try to help out in the shop on most days. Business has been pretty bad since the JojaMart opened, though.|Ever since JojaMart shut down we've been doing great at the shop!$h",
 
   //Abigail's Married Dialogue
   //weather specific dialogue
@@ -244,6 +248,7 @@
   "CFE_Abigail_Married_OneKid_6": "It's a long way off, but what do you think is an appropriate age when %kid1 can accompany us into the mines?#$e#I'm thinking sometime in the teenage years. Wouldn't that be exciting?",
   "CFE_Abigail_Married_OneKid_7": "Got to feed %kid1 today... *mumble* napping schedule... *mumble* calm-alert time...$s#$b#Okay. I think I got this. Have a good day, honey.",
   "CFE_Abigail_Married_OneKid_8": "Don't worry. I'm not just going to use the TV as a babysitter.#$e#But I am going to get in some gaming. That's my me-time.",
+
   "CFE_Abigail_Married_TwoKids_1": "Haha, Mom and Dad thought I was hard to raise? Try raising two!$h",
   "CFE_Abigail_Married_TwoKids_2": "I already gave %kid1 and %kid2 their chocolate cereal. They were screaming!",
   "CFE_Abigail_Married_TwoKids_3": "I'd do anything for our kids. I'd fight every last monster around if it meant keeping them safe!",
@@ -320,7 +325,6 @@
   "CFE_Alex_repeated_7": "You know what? I'm going to start reading a new book!",
   "CFE_Alex_repeated_8": "At least the gridball season keeps going through winter. But it just gets too snowy where we live to do anything.",
   "CFE_Alex_repeated_9": "You know, I used to want fame and fortune, but lately I've been starting to sing a different tune. In the end it's the humble little things that satisfy, don't you think?#$e#I still want to go pro, but it's not the most important thing in the world.",
-
   //summer_Sun6, Fri6
   //fall_Fri8, Mon8
   //fall_Sat_inlaw_Haley, Sat_inlaw_Haley
@@ -361,6 +365,7 @@
   "CFE_Alex_summerSun10": "@, I wonder sometimes whether my mom would be proud of me.$s#$e#I managed to find you. And I know we can make things work between the two of us. I guess that's something.$l#$e#See you around.$l",
   "CFE_Alex_summerSun4": "Oh wow...your shoes are a little dirty... but that's fine, too!#$e#Different people have different tastes I guess.",
   "CFE_Alex_summerSun2": "I got these new shoes yesterday 'cuz my old pair had a brown smudge.#$b#I just threw them into the garbage. I would've donated them but I don't like the idea of some weirdo wearing my shoes, ya know?#$e#...What?$a",
+
   "CFE_Alex_fallMon10": "Tunnelers won again last night! They're having an amazing season this year!$h#$e#Sorry, I am really happy right now.$l",
   "CFE_Alex_fallMon6": "I've got all these old books that my mom used to have. It's interesting to see what she was into.#$e#It's kind of like looking at a photo of her, only with words, if that makes sense.$h",
   "CFE_Alex_fallMon2": "Did you see Cheroky make that play last night? That was insane!$h#$e#Reminds me of what I used to do on the field.",
@@ -371,6 +376,7 @@
   "CFE_Alex_fallThu10": "@! Um... Hi.$l#$e#Sorry! I mean, uh...$l#$b#Is it cool if we hang out soon?",
   "CFE_Alex_fallThu6": "I remember the final play of the regional championship game. The score was tied, and we were just ten seconds away from the end.#$b#I saw the leaves go flying around in a gust of wind, and I threw the ball, knowing the wind would knock it to the side a bit.#$b#Zane caught it perfectly and we scored. No overtime.#$e#It was a good feeling, y'know?$l",
   "CFE_Alex_fallThu4": "Dude, you are the bomb.^@, you are one awesome girl, you know that?#$e#Just the way you walked right into town one day, and said, \"Yup! I'm gonna fix up this farm!\" and you straight up did it!#$b#I think people like you and me are on another level.",
+  "CFE_Alex_fallThu4_GN": "@, you are the bomb, you know that?#$e#Just the way you walked right into town one day, and said, \"Yup! I'm gonna fix up this farm!\" and you straight up did it!#$b#I think people like you and me are on another level.",
   "CFE_Alex_fallThu2": "What's up, @?",
   "CFE_Alex_fallFri10": "Haley's good as a friend, I think. It's just that she never listened to me the way you do.#$e#I felt like I always had to act like a big shot when I was around her. And if I told her how I really felt, she'd just lose interest in me.$s#$e#But having those memories make me appreciate who I have now, that much more.$l",
   "CFE_Alex_fallFri6": "I'm going to do a ton of sit-ups tonight.#$e#You have to work really hard if you want to achieve your maximum potential.",
@@ -382,9 +388,11 @@
   "CFE_Alex_fallSun8": "Hey, the gridball game is on today!#$e#Sundays are pretty awesome in the fall.$u",
   "CFE_Alex_fallSun6": "Hey, @, if my grandpa won't get off the freakin' TV, is it alright if I just sprint over to your house to watch the game?#$e#What kind of TV do you have, anyway?",
   "CFE_Alex_fallSun4": "Gridball's on today! I've waited all week for this.$u",
+
   "CFE_Alex_winterMon10": "I think I disagree that high school is the best years of your life.#$b#This year, for one, has been better.$l",
   "CFE_Alex_winterMon8": "@, you know how people say high school is the best years of your life?$s#$b#What if that's true? Is it all downhill from here?$s",
   "CFE_Alex_winterMon6": "Hey, we should work out sometime. The air in the hot spring isn't so dry like it is everywhere else.^Hey, we should work out at the hot spring sometime... er, I mean, I guess you can't get in on my side? Ah, oh well.",
+  "CFE_Alex_winterMon6_GN": "Hey, we should work out sometime. The air in the hot spring isn't as dry as everywhere else is right now.",
   "CFE_Alex_winterMon4": "You like the snow? Me... I'm just looking forward to spring.",
   "CFE_Alex_winterMon2": "What's something good from the saloon that could warm me up?",
   "CFE_Alex_winterTue10": "Hey! What's up?$h#$e#Are you bored, too? What a coincidence.$l#$e#Hey, we can hang out anytime.",
@@ -392,6 +400,7 @@
   "CFE_Alex_winterTue4": "Hey, @. Could you do me a favor?$l#$b#If you see Haley, tell her I'm busy.$l#$e#Thanks.",
   "CFE_Alex_winterWed10": "I finished reading this book that my grandma said was my mom's favorite.#$b#It was about these two teenagers who travel through time and change history.#$b#So weird. I had no idea my mom was into that stuff.",
   "CFE_Alex_winterWed6": "So not much grows on your farm during the winter? You must be a little bored then.#$e#Hey, you and me, buddy! Welcome to the club.$h^Hey, you and me, @! Welcome to the club.$h",
+  "CFE_Alex_winterWed6_GN": "So not much grows on your farm during the winter? You must be a little bored then.#$e#Hey, you and me, @! Welcome to the club.$h",
   "CFE_Alex_winterWed4": "I don't really play video games. Why would I want to push buttons and watch a guy throw a ball on the screen...#$b#...when I could do the same thing in real life?",
   "CFE_Alex_winterThu10": "If I ever make a lot of money, I'll make sure all my friends and family are taken care of.#$e#That means you, too.$h",
   "CFE_Alex_winterThu8": "I had a dream the other night where my mom was there. Then I woke up.$s#$e#Reality bites sometimes.$a",
@@ -422,23 +431,25 @@
   "CFE_Alex_Thu2": "I feel bad for people who have allergies. It's like, how do you even get your heart rate up if you're sneezing all the time?",
   "CFE_Alex_Fri10": "Hey um...$l#$b#Let me know if you ever want some help with your farmwork.$l#$e#I've gotta do something that's more than just exercise for its own sake, right?$h",
   "CFE_Alex_Fri8": "Hi @. You look sporty today.$h^Hey @. Did you do something different with your hair? Something keeps grabbing my attention.$h",
+  "CFE_Alex_Fri8_GN": "#$c .5#Hi @. You look sporty today.$h #Hey @. Did you do something different with your hair? Something keeps grabbing my attention.$h",
   "CFE_Alex_Fri2": "In school, my teachers always complained about how gridball players make too much money. That's so ridiculous.#$e#If anything, they're underpaid. How many people do you know who can do what a pro does?",
   "CFE_Alex_Sat10": "I've been having a hard time staying focused lately.$l",
   "CFE_Alex_Sat8": "...Where do you think I'll be in 10 years?$s",
   "CFE_Alex_Sat6": "My arms are really sore, but that's the sign of progress for a guy like me.#$e#I must've done a thousand push-ups yesterday.",
   "CFE_Alex_Sat4": "Grandma keeps complaining I take up too much space in the freezer with all of my ice cube trays.#$b#But I mean, how else am I supposed to have enough ice to take ice baths?",
   "CFE_Alex_Sun10": "Haley and I always thought we could be the town's 'power couple,' but it was always complicated.#$e#We just weren't meant for each other, beyond being friends.#$e#I mean, clearly, right?$l",
-  "CFE_Alex_Sun6": "Hey, come by my room any afternoon you want and we can work out together.#$e#It's really a lot more fun to work out with friends.$h",
+  "CFE_Alex_Sun6": "Hey, come by my place any afternoon you want and we can work out together.#$e#It's really a lot more fun to work out with friends.$h",
 
   //generic weekday dialogue
   "CFE_Alex_summerSuninlawHaley": "Oh, hey. How's the married life coming along?$9",
   "CFE_Alex_summerSun": "Haley's pretty hot, don't you think?#$e#It really sucks that there aren't more hot girls in Pelican Town.^Maybe you oughta hang out with her.",
+  "CFE_Alex_summerSun_GN": "Haley's pretty hot, don't you think?",
   "CFE_Alex_fallTue": "Isn't it sad how some people just don't ever reach their full potential?#$e#The important thing is just to keep fighting, no matter what.",
 
   //Alex's Married Dialogue
   //weather specific dialogue
   "CFE_Alex_Married_RainyDay_1": "With all this space, I can really achieve a full body workout.",
-  "CFE_Alex_Married_RainyDay_2": "I know you're not the type of farmer who'd raise beef cattle. That's okay; I can just get some steak at the store.",
+  "CFE_Alex_Married_RainyDay_2": "I know you're not the type of farmer who'd raise cows just for their meat. That's okay; I can just get some steak at the store.",
   "CFE_Alex_Married_RainyDay_3": "I never had many friends in town... I sometimes wonder how I'd end up if you never moved here.$9",
   "CFE_Alex_Married_RainyDay_4": "I wonder what my old high school buddies are up to? Today might be a good day to call.",
   "CFE_Alex_Married_RainyDay_5": "Aw... I was gonna do some jogging outside. But I can't really do it in this weather.",
@@ -457,18 +468,21 @@
   "CFE_Alex_Married_RainyNight_7": "I've been setting aside a few scraps for Dusty. He deserves a treat now and then.",
   "CFE_Alex_Married_RainyNight_8": "I stopped by to visit Dusty today. Old boy just keeps on truckin'!$h",
   "CFE_Alex_Married_RainyNight_9": "I was hungry so I made some dinner. Here, I saved you a plate. [241 242 225 214 198]$h",
-  "CFE_Alex_Married_RainyNight_10": "I don't really eat too many energy bars. I like real food better, like this! Here, bon appetit! [241 242 225 214 198]$h",
+  "CFE_Alex_Married_RainyNight_10": "I don't really eat too many energy bars. I like real food better, like this! Bon appetit! [241 242 225 214 198]$h",
 
   "CFE_Alex_Married_IndoorDay_1": "Feels good to stay in good health! We only get one body. Gotta make use of it!$h",
+  "CFE_Alex_Married_IndoorDay_1_GN": "Feels good to stay in good health! We only get one body. Gotta make use of it!$h", //repeated to prevent errors in Gender Neutral Compat
   "CFE_Alex_Married_IndoorDay_2": "Ahh... there's nothing like a good night's sleep next to my husband!$h^Ahh... there's nothing like a good night's sleep next to my wife!$h",
+  "CFE_Alex_Married_IndoorDay_2_GN": "Ahh... there's nothing like a good night's sleep next to my {{SpouseNoun}}!$h",
   "CFE_Alex_Married_IndoorDay_3": "Hey, honey! I made you a hot breakfast.[195 210 211]#$e#If you want to get strong, you have to eat like you mean it!",
+  "CFE_Alex_Married_IndoorDay_3_GN": "Hey, {{TermOfEndearment}}! I made you a hot breakfast.[195 210 211]#$e#If you want to get strong, you have to eat like you mean it!",
   "CFE_Alex_Married_IndoorDay_4": "Oh yeah! Good morning! It's breakfast time![195 210 211]$h#$e#Good food, straight from the source! I'm so glad we've got this farm.",
   "CFE_Alex_Married_IndoorDay_5": "Come here. *squeeze*... Mmhmm. You're firming up from all that farm work.",
   "CFE_Alex_Married_IndoorDay_6": "Today's a good day to read something.#$e#...Yeah, I've been keeping that going.$h",
   "CFE_Alex_Married_IndoorDay_7": "I'm still getting used to cooking and doing laundry... It's not exactly my favorite, but I knew what I was getting into when I married you.$h",
   "CFE_Alex_Married_IndoorDay_8": "I got some books from the library that I need to finish before they're due. I want to keep my mind as fit as my body.",
   "CFE_Alex_Married_IndoorDay_9": "There's a couple things around the house that I'm going to try and fix today. Don't worry about me, I'm not bored.",
-  "CFE_Alex_Married_IndoorDay_10": "Leave the cleaning to me today! It's fun to have you picture me as a sexy cleaning brand mascot.$h",
+  "CFE_Alex_Married_IndoorDay_10": "Leave the cleaning to me today! It's fun to have you picture me as a hot cleaning brand mascot.$h",
   "CFE_Alex_Married_IndoorDay_11": "Breakfast time! You've gotta eat well if you've got a busy day ahead.[195 210 211]$h#$e#I mixed some protein powder in it. Trust me, it's gonna keep you going like a boss.",
   "CFE_Alex_Married_IndoorDay_12": "I was reading that your body's potential peaks when you're young, and then your brain's potential peaks when you're kind of old.#$b#Good, looks like I'm doing 'em in order, then!$h",
   "CFE_Alex_Married_IndoorDay_13": "Hmm, I wonder if I could play gridball with all the farm animals out there?#$e#The way they just fan out in some kind of formation...#$b#Oh, it'd be different, for sure.$h",
@@ -492,16 +506,6 @@
   "CFE_Alex_Married_funReturn_1": "I had a good day. I like to see my grandparents often; they're getting pretty old.",
   "CFE_Alex_Married_funReturn_2": "It was nice visiting town today. Grandma had some cookies out, of course!",
 
-  "CFE_Alex_Married_patio_1": "Unghh... one... Unghhh... two... It feels great to lift weights outdoors!$6",
-  "CFE_Alex_Married_patio_2": "*huff*... Alright! *puff*... Feelin' alive! *huff*...$6",
-  "CFE_Alex_Married_patio_3": "*puff* Y'know what they say... *huff* wake up the body, wake up the soul!$6",
-
-  "CFE_Alex_Married_spouseRoom_1": "Don't ever let me get lazy. I want to stay in good shape for you!",
-  "CFE_Alex_Married_spouseRoom_2": "There's lots of room here to do my exercises. I'm making more progress than ever!",
-  "CFE_Alex_Married_spouseRoom_3": "Honey, I think I put on a pound or two this week...$s#$e#Haha, just kidding. If I did, it's all muscle.$h",
-  "CFE_Alex_Married_spouseRoom_4": "A home gym... man, this is so much better than just lifting weights in my old bedroom.$h",
-  "CFE_Alex_Married_spouseRoom_5": "I don't totally feel like working out today, but that's sort of the point, isn't it?#$e#Gotta get good at doing hard things. Then everything else is easier.",
-
   "CFE_Alex_Married_OneKid_1": "I'm still getting used to my new life as a stay-at-home dad.$h",
   "CFE_Alex_Married_OneKid_2": "I could run a marathon if I really needed to, but looking after a kid all day is a completely different kind of exhaustion.$s",
   "CFE_Alex_Married_OneKid_3": "Our little one's going to grow up strong, just like Daddy.",
@@ -510,6 +514,7 @@
   "CFE_Alex_Married_OneKid_6": "Ahh, little %kid1... you've got a lot of life in front of you, don't ya?$h",
   "CFE_Alex_Married_OneKid_7": "Leave the parenting to me today! I've got things under control, so be sure not to stress while you're out.",
   "CFE_Alex_Married_OneKid_8": "Can we get a jogging stroller? I could make some really good use of that.",
+
   "CFE_Alex_Married_TwoKids_1": "When the kids get bigger, I don't suppose you could spare some of the farm space to make a little gridball field...?$l",
   "CFE_Alex_Married_TwoKids_2": "Maybe %kid2 will be the first professional gridball played from Pelican Town?$h",
   "CFE_Alex_Married_TwoKids_3": "I finally have the family life that I missed out on as a kid... thank you.$l",
@@ -519,6 +524,16 @@
   "CFE_Alex_Married_TwoKids_7": "%kid1 and %kid2 were having a little wrestling match this morning.#$e#%kid1 won, of course. But %kid2 is growing pretty fast!",
   "CFE_Alex_Married_TwoKids_8": "The kids already had a high-protein breakfast.#$b#You know me, I keep 'em busy! So they've got to eat well.$h",
 
+  "CFE_Alex_Married_patio_1": "Unghh... one... Unghhh... two... It feels great to lift weights outdoors!$6",
+  "CFE_Alex_Married_patio_2": "*huff*... Alright! *puff*... Feelin' alive! *huff*...$6",
+  "CFE_Alex_Married_patio_3": "*puff* Y'know what they say... *huff* wake up the body, wake up the soul!$6",
+
+  "CFE_Alex_Married_spouseRoom_1": "Don't ever let me get lazy. I want to stay in good shape for you!",
+  "CFE_Alex_Married_spouseRoom_2": "There's lots of room here to do my exercises. I'm making more progress than ever!",
+  "CFE_Alex_Married_spouseRoom_3": "Hey, I think I put on a pound or two this week...$s#$e#Haha, just kidding. If I did, it's all muscle.$h",
+  "CFE_Alex_Married_spouseRoom_4": "A home gym... man, this is so much better than just lifting weights in my old bedroom.$h",
+  "CFE_Alex_Married_spouseRoom_5": "I don't totally feel like working out today, but that's sort of the point, isn't it?#$e#Gotta get good at doing hard things. Then everything else is easier.",
+
   "CFE_Alex_Married_Outdoor_1": "Hey. When I stand here and look out over our land... I'm really proud. You've done great work.",
   "CFE_Alex_Married_Outdoor_2": "If we ever moved, I'd really miss these sunrises. This is a good spot to stay put for a while, don't you think?",
   "CFE_Alex_Married_Outdoor_3": "This is a great place to raise children. I would've loved growing up in a place like this. So much room to run around!",
@@ -526,11 +541,11 @@
   "CFE_Alex_Married_Outdoor_5": "I like to spend as much time outside as possible. It just feels better to be out here.",
   "CFE_Alex_Married_Outdoor_6": "I guess I'm a fresh air snob. It was getting a bit stuffy for me inside the house, so I came out here.",
   "CFE_Alex_Married_Outdoor_7": "Glad I got up in time to see the early morning. It's always the best part of the day, but it's so easy to miss if you sleep in.$h",
+  "CFE_Alex_Married_Outdoor_7_GN": "Glad I got up in time to see the early morning. It's always the best part of the day, but it's so easy to miss if you sleep in.$h", //repeated to prevent errors in Gender Neutral Compat
   "CFE_Alex_Married_Outdoor_8": "Look at us, with our little farm. We make a cute couple.$h^Hey. Maybe it's the golden light, but you look beautiful today.$l",
+  "CFE_Alex_Married_Outdoor_8_GN": "#$c .5#Look at us, with our little farm. We make a cute couple.$h #Hey. Maybe it's the golden light, but you look {{Adjective}} today.$l",
   "CFE_Alex_Married_Outdoor_9": "Ahh... It feels great to be outside. Stardew Valley really is the most beautiful place...",
   "CFE_Alex_Married_Outdoor_10": "I wonder how old Dusty's doing? I oughta pay him a visit.",
-
-  //Festival Specific Dialogue
 
   //Date Specific Dialogue
   "CFE_Alex_Married_spring3": "These past couple of days have been pretty busy for you, haven't they?",
@@ -558,7 +573,7 @@
   //Special Dialogue
   //These lines should target Content/Data/ExtraDialogue
   //The keys should just be "Birdie[number]".
-  //It appears that if there is no [number] value that matches the day of the month, the dialogue defaults back to "Birdie0". This is why I don't have a line for the 21st of the month. It's to preserve the vanilla "Birdie0" line. All other missing numbers are included in the vanilla file: 1, 2, 3, 4, 5, 6, 12, 15, 17, 19, 22, 23, 28. I also moved around a couple of lines for some reason.
+  //It appears that if there is no [number] value that matches the day of the month, the dialogue defaults back to "Birdie0". This is why I don't have a line for the 21st of the month. It's to preserve the vanilla "Birdie0" line. All other missing numbers are included in the vanilla file: 1, 2, 3, 4, 5, 6, 12, 15, 17, 19, 22, 23, 28.
 
   "CFE_Birdie_7": "Got someone special waiting for you back on the mainland? You make sure you hold 'em close!",
   "CFE_Birdie_8": "Why sure, I'll spend the rest of my days on this island. It's become my happy place.#$b#Have you found one of your own?$h",
