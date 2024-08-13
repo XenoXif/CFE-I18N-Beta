@@ -149,7 +149,7 @@
         "Thu4": "{{i18n: CFE_Alex_Thu4}}",
         "Thu2": "{{i18n: CFE_Alex_Thu2}}",
         "Fri10": "{{i18n: CFE_Alex_Fri10}}",
-        "Fri8": "{{i18n: CFE_Alex_Fri8{{GenderNeutralCompat}}",
+        "Fri8": "{{i18n: CFE_Alex_Fri8{{GenderNeutralCompat}}}}",
         "Fri6": "{{i18n: CFE_Alex_repeated_1}}",
         "Fri2": "{{i18n: CFE_Alex_Fri2}}",
         "Sat10": "{{i18n: CFE_Alex_Sat10}}",
