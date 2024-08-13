@@ -1437,6 +1437,7 @@
   "CFE_Evelyn_ChocolateCake": "Oh goodness! For me? That's too much!$h#$b#I'll share some slices with George and Alex. You do spoil me!$h",
   "CFE_Evelyn_Diamond": "Hee hee! For me? You'll make me feel like a queen, dearie! I don't know what to say but thank you!$h",
   "CFE_Evelyn_FairyRose": "*sniff* Mmmm, that smell is one of my favorites. You sure do know how to be a gentleman, @!$u^*sniff* Mmm, that smell is one of my favorites. You sure do know how to be a sweetheart, @!$u",
+  "CFE_Evelyn_FairyRose_GN": "*sniff* Mmmm, that smell is one of my favorites. You sure do know how to be a charmer, @!$u",
   "CFE_Evelyn_Stuffing": "Oh, @, a good bowl of stuffing warms my heart like few things can. It always reminds me of the holidays, as far back as my memory can take me.$u",
   "CFE_Evelyn_Tulip": "Will you look at that! I feel fresh as a flower myself, just holding it. Thank you!$h",
 
@@ -1581,6 +1582,7 @@
   "CFE_George_Sat2": "Hi there.#$e#What's going on out there, anyway?",
   "CFE_George_Sun10": "I didn't spend much time praying till recently.#$b#For a while, I was furious with Yoba, what with me losing everything I had.#$e#I have a kernel of faith that there's something better for me after this old body's ticker runs out.#$b#It's not much, but what's an old man like me to do?$s",
   "CFE_George_Sun6": "It'll be good to be out of the house for a while.#$e#What are you up to today, young man?^What are you up to today, young miss?",
+  "CFE_George_Sun6_GN": "It'll be good to be out of the house for a while.#$e#What are you up to today, young {{ElderInformalNoun}}?",
   "CFE_George_Sun4": "Is it the end of the week already? I lose track of what day it is.",
   "CFE_George_Sun2": "Aren't you cold? They don't make sweaters like they used to.#$e#*Sigh*",
 
@@ -1675,6 +1677,7 @@
   "CFE_Gus_winterSat": "Sure is chilly out there! Think you could do with a hot cup of coffee?",
 
   "CFE_Gus_Wed": "Glad to see you, buddy.$h^Glad to see you, young lady.$h#$q 012/013/014/015 Wed_old#I've got a cold beer here on the house.[346] What's today's battle? Lay it on me.#$r 012 10 Wed_012#It's kind of lonely here.#$r 013 10 Wed_013#I know nothing about farming.#$r 014 10 Wed_014#I have no money.#$r 015 0 Wed_015#Everything's peachy!",
+  "CFE_Gus_Wed_GN": "Glad to see you, {{AdultFamilialNoun}}.$h.$h#$q 012/013/014/015 Wed_old#I've got a cold beer here on the house.[346] What's today's battle? Lay it on me.#$r 012 10 Wed_012#It's kind of lonely here.#$r 013 10 Wed_013#I know nothing about farming.#$r 014 10 Wed_014#I have no money.#$r 015 0 Wed_015#Everything's peachy!",
   "CFE_Gus_Wed_old": "$p 015#I hope things are still going well! Let me know if you need a pick-me-up, though.|Remember you've got lots of friends here at the saloon. Especially on Fridays!",
   "CFE_Gus_Wed_012": "I feel ya. That's the reality for any newcomer.#$b#But relatively speaking, there are quite a few singles your age in Pelican Town. You're bound to hit it off with someone.$h",
   "CFE_Gus_Wed_013": "Well, I once knew nothing about cooking and brewing! But here I am.$h#$b#Truth is, we all start somewhere. Be sure to forgive yourself when things go wrong, and I'm sure you'll make it.",

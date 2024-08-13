@@ -93,7 +93,7 @@
         "Sat4": "{{i18n: CFE_George_Sat4}}",
         "Sat2": "{{i18n: CFE_George_Sat2}}",
         "Sun10": "{{i18n: CFE_George_Sun10}}",
-        "Sun6": "{{i18n: CFE_George_Sun6}}",
+        "Sun6": "{{i18n: CFE_George_Sun6{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}",
         "Sun4": "{{i18n: CFE_George_Sun4}}",
         "Sun2": "{{i18n: CFE_George_Sun2}}",
 

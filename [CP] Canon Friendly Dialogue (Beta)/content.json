@@ -248,6 +248,24 @@
       "Name": "GNMTAdjective",
       "Value": "{{Hana.GNMTokens/Adjective}}",
       "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTElderInformalNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTElderInformalNoun",
+      "Value": "{{Hana.GNMTokens/ElderInformalNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTAdultFamilialNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTAdultFamilialNoun",
+      "Value": "{{Hana.GNMTokens/AdultFamilialNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
     }
   ],
 

@@ -121,7 +121,7 @@
         "summer_Thu": "{{i18n: CFE_Gus_summerThu}}",
         "winter_Sat": "{{i18n: CFE_Gus_winterSat}}",
 
-        "Wed": "{{i18n: CFE_Gus_Wed}}",
+        "Wed": "{{i18n: CFE_Gus_Wed{{GenderNeutralCompat}}  |AdultFamilialNoun={{lowercase:{{Random:{{GNMTAdultFamilialNoun}}}}}}}}",
         "Wed_old": "{{i18n: CFE_Gus_Wed_old}}",
         "Wed_012": "{{i18n: CFE_Gus_Wed_012}}",
         "Wed_013": "{{i18n: CFE_Gus_Wed_013}}",
