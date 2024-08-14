@@ -1,5 +1,14 @@
 Gendered Dialogue
 
+funleave
+funreturn
+onekid
+twokids
+patio
+spouseroom
+outdoor
+
+
 Changes for use with GNT mod (i've added all the steps so that you can decide what you're able to do, i will handle what you can't):
  
  available config from GNT:
@@ -45,35 +54,35 @@ George (1) - Sun6...done
 
 Gus (1) - Wed....done
 
-Haley (6) - PinkCake(221), Thu4, Sat2, summer_Thu2, summer_Fri4, TwoKids_3
+Haley (6) - PinkCake(221), Thu4, Sat2, summer_Thu2, summer_Fri4, TwoKids_3.....done
 
-Harvey (0) - None
+Harvey () - ...done
 
-Jas (3) - FairyRose(595), Fri8, winter_28
+Jas (3) - FairyRose(595), Fri8, winter_28 ...done
 
 Jodi (0) - None
 
-Kent (2) - Mon8_inlaw_Sam (This token is incorrect, must be fixed), Wed2
+Kent (2) - Mon8_inlaw_Sam, Wed2.... done
 
 Krobus (0) - None
 
-Leah (0) - None
+Leah () - ....done
 
 Leo (0) - None
 
 LeoMainland (0) - None
 
-Lewis (1) - GreenTea(614)
+Lewis (1) - GreenTea(614).....done
 
 Linus (0) - None
 
 Marnie (0) - None
 
-Maru (4) - Tue6_inlaw_Penny, summer_Tue4_inlaw_Sebastian, fall_Wed10, spring_1_2
+Maru (4) - Tue6_inlaw_Penny, summer_Tue4_inlaw_Sebastian, fall_Wed10, spring_1_2....done
 
-Pam (1) - Tue2
+Pam (1) - Tue2...done
 
-Penny (0)- None
+Penny ()- .....done
 
 Pierre (2) - fall_Mon_inlaw_Abigail, winter_Mon_inlaw_Abigail
 

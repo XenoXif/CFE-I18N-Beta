@@ -90,7 +90,7 @@
       }
     },
     {
-      "LogName": "CFE_Krobus_Married_spouseRoom",
+      "LogName": "CFE_Krobus_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {

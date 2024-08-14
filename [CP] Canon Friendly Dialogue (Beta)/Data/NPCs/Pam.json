@@ -85,7 +85,7 @@
         "Tue8": "{{i18n: CFE_Pam_Tue8}}",
         "Tue6": "{{i18n: CFE_Pam_Tue6}}",
         "Tue4": "{{i18n: CFE_Pam_Tue4}}",
-        "Tue2": "{{i18n: CFE_Pam_Tue2}}",
+        "Tue2": "{{i18n: CFE_Pam_Tue2{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
         "Wed10": "{{i18n: CFE_Pam_Wed10}}",
         "Wed8": "{{i18n: CFE_Pam_Wed8}}",
         "Wed6": "{{i18n: CFE_Pam_Wed6}}",

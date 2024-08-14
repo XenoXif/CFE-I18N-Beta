@@ -20,6 +20,9 @@ exact duplicates from the vanilla code have been removed across all files!
 it has been hard to track what all codes have changed, but if you had to patch the exact same line for vanilla and for Canon Friendly, that should no longer be true!
 
 list of new lines added (or edited) by this update:
+
+A suite of Gender Neutrality Mod Tokens compatible lines! Search "_GN" in the default to find these new or adapted lines.
+
 -Abigail-
 CFE_Abigail_rainy_3
 CFE_Abigail_Married_patio_3

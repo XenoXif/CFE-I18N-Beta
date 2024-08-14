@@ -19,7 +19,7 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Jas_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Jas_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Jas_PrismaticShard}}",
-        "AcceptGift_(O)595": "{{i18n: CFE_Jas_FairyRose}}",
+        "AcceptGift_(O)595": "{{i18n: CFE_Jas_FairyRose{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
         "AcceptGift_(O)604": "{{i18n: CFE_Jas_PlumPudding}}"
       }
     },
@@ -39,8 +39,8 @@
         //special dialogue
 
         //Date Specific Dialogue
-        "winter_28_1": "{{i18n: CFE_Jas_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Jas_winter28}}",
+        "winter_28_1": "{{i18n: CFE_Jas_winter28{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
+        "winter_28_2": "{{i18n: CFE_Jas_winter28{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
 
         //Heart Specific Dialogue
         "summer_Mon4": "{{i18n: CFE_Jas_summerMon4}}",
@@ -78,7 +78,7 @@
         "Thu6": "{{i18n: CFE_Jas_Thu6}}",
         "Thu4": "{{i18n: CFE_Jas_Thu4}}",
         "Thu2": "{{i18n: CFE_Jas_Thu2}}",
-        "Fri8": "{{i18n: CFE_Jas_Fri8}}",
+        "Fri8": "{{i18n: CFE_Jas_Fri8{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
         "Fri6": "{{i18n: CFE_Jas_Fri6}}",
         "Sat8": "{{i18n: CFE_Jas_Sat8}}",
         "Sat6": "{{i18n: CFE_Jas_Sat6}}",

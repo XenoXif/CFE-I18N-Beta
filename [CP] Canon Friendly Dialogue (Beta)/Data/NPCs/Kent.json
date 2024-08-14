@@ -65,7 +65,7 @@
         "winter_Sat2": "{{i18n: CFE_Kent_winterSat2}}",
 
         "Mon10": "{{i18n: CFE_Kent_Mon10}}",
-        "Mon8_inlaw_Sam": "{{i18n: CFE_Kent_Mon8inlawSam}}",
+        "Mon8_inlaw_Sam": "{{i18n: CFE_Kent_Mon8inlawSam{{GenderNeutralCompat}} |AdultFamilialNoun={{lowercase:{{Random:{{GNMTAdultFamilialNoun}}}}}}}}",
         "Mon8": "{{i18n: CFE_Kent_Mon8}}",
         "Mon6_inlaw_Sam": "{{i18n: CFE_Kent_Mon6inlawSam}}",
         "Mon6": "{{i18n: CFE_Kent_Mon6}}",
@@ -82,7 +82,7 @@
         "Wed8": "{{i18n: CFE_Kent_Wed8}}",
         "Wed6": "{{i18n: CFE_Kent_Wed6}}",
         "Wed4": "{{i18n: CFE_Kent_Wed4}}",
-        "Wed2": "{{i18n: CFE_Kent_Wed2}}",
+        "Wed2": "{{i18n: CFE_Kent_Wed2{{GenderNeutralCompat}} |AdultFamilialNoun={{lowercase:{{Random:{{GNMTAdultFamilialNoun}}}}}}}}",
         "Thu10": "{{i18n: CFE_Kent_Thu10}}",
         "Thu8": "{{i18n: CFE_Kent_Thu8}}",
         "Thu6": "{{i18n: CFE_Kent_Thu6}}",

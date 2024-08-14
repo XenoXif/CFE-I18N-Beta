@@ -147,7 +147,7 @@
       }
     },
     {
-      "LogName": "CFE_Penny_Married_spouseRoom",
+      "LogName": "CFE_Penny_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
@@ -167,10 +167,10 @@
         "Rainy_Day_0": "{{i18n: CFE_Penny_Married_RainyDay_1}}",
         "Rainy_Day_1": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 2,3}}}}",
         "Rainy_Day_2": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 4,5}}}}",
-        "Rainy_Day_3": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 6,7}}}}",
+        "Rainy_Day_3": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 6,7}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
         "Rainy_Day_4": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 8,9}}}}",
 
-        "Rainy_Night_0": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 1,2}}}}",
+        "Rainy_Night_0": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 1,2}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
         "Rainy_Night_1": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 3,4}}}}",
         "Rainy_Night_2": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 5,6}}}}",
         "Rainy_Night_3": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 7,8}}}}",
@@ -186,7 +186,7 @@
         "Indoor_Night_1": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 3,4}}}}",
         "Indoor_Night_2": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 5,6}}}}",
         "Indoor_Night_3": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 7,8}}}}",
-        "Indoor_Night_4": "{{i18n: CFE_Penny_Married_IndoorNight_9}}",
+        "Indoor_Night_4": "{{i18n: CFE_Penny_Married_IndoorNight_9{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
 
         //locational specific dialogue
         //funleave and return only show up on Mondays or Fridays (except for characters with jobs), and only while the Penny is leaving or entering the farmhouse. fun return will not display once the Penny has reached their target location.
@@ -198,11 +198,12 @@
         "funReturn_Penny": "{{i18n: CFE_Penny_Married_funReturn_{{Random: 1,2}}}}",
 
         "OneKid_0": "{{i18n: CFE_Penny_Married_OneKid_{{Random: 1,2}}}}",
-		    "OneKid_1": "{{i18n: CFE_Penny_Married_OneKid_{{Random: 3,4}}}}",
-		    "OneKid_2": "{{i18n: CFE_Penny_Married_OneKid_{{Random: 5,6}}}}",
-		    "OneKid_3": "{{i18n: CFE_Penny_Married_OneKid_{{Random: 7,8}}}}",
+        "OneKid_1": "{{i18n: CFE_Penny_Married_OneKid_{{Random: 3,4}}}}",
+        "OneKid_2": "{{i18n: CFE_Penny_Married_OneKid_{{Random: 5,6}}}}",
+        "OneKid_3": "{{i18n: CFE_Penny_Married_OneKid_{{Random: 7,8}}}}",
+
         "TwoKids_0": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 1,2}}}}",
-	    	"TwoKids_1": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 3,4}}}}",
+        "TwoKids_1": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 3,4}}}}",
         "TwoKids_2": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 5,6}}}}",
         "TwoKids_3": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 7,8}}}}",
 

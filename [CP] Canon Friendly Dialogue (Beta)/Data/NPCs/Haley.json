@@ -6,7 +6,7 @@
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)221": "{{i18n: CFE_Haley_PinkCake}}"
+        "AcceptGift_(O)221": "{{i18n: CFE_Haley_PinkCake{{GenderNeutralCompat}}}}"
       },
       "When": { "ModdedDialogCompat": "true" }
     },
@@ -46,7 +46,6 @@
         "winter_28_2": "{{i18n: CFE_Haley_winter28}}",
 
         //Heart Specific Dialogue
-        "summer_Mon6": "{{i18n: CFE_Haley_summerMon6}}",
         "summer_Mon4": "{{i18n: CFE_Haley_summerMon4}}",
         "summer_Mon2": "{{i18n: CFE_Haley_summerMon2}}",
         "summer_Tue8": "{{i18n: CFE_Haley_summerTue8}}",
@@ -57,10 +56,10 @@
         "summer_Wed4": "{{i18n: CFE_Haley_summerWed4}}",
         "summer_Thu6": "{{i18n: CFE_Haley_summerThu6}}",
         "summer_Thu4": "{{i18n: CFE_Haley_summerThu4}}",
-        "summer_Thu2": "{{i18n: CFE_Haley_summerThu2}}",
+        "summer_Thu2": "{{i18n: CFE_Haley_summerThu2{{GenderNeutralCompat}}}}",
         "summer_Fri10": "{{i18n: CFE_Haley_summerFri10}}",
         "summer_Fri8": "{{i18n: CFE_Haley_summerFri8}}",
-        "summer_Fri4": "{{i18n: CFE_Haley_summerFri4}}",
+        "summer_Fri4": "{{i18n: CFE_Haley_summerFri4{{GenderNeutralCompat}}}}",
         "summer_Sat10": "{{i18n: CFE_Haley_summerSat10}}",
         "summer_Sat6": "{{i18n: CFE_Haley_summerSat6}}",
         "summer_Sun8_inlaw_Emily": "{{i18n: CFE_Haley_summerSun8inlawEmily}}",
@@ -81,7 +80,7 @@
         "fall_Wed4": "{{i18n: CFE_Haley_fallWed4}}",
         "fall_Thu6": "{{i18n: CFE_Haley_fallThu6}}",
         "fall_Thu4": "{{i18n: CFE_Haley_fallThu4}}",
-        "fall_Fri10": "{{i18n: CFE_Haley_fallFri10}}",
+        "fall_Fri10": "{{i18n: CFE_Haley_fallFri10{{GenderNeutralCompat}} |Adjective={{lowercase:{{Random:{{GNMTAdjective}}}}}}}}",
         "fall_Fri8": "{{i18n: CFE_Haley_fallFri8}}",
         "fall_Fri4": "{{i18n: CFE_Haley_fallFri4}}",
         "fall_Sat8": "{{i18n: CFE_Haley_fallSat8}}",
@@ -115,12 +114,12 @@
         "Wed2": "{{i18n: CFE_Haley_Wed2}}",
         "Thu10": "{{i18n: CFE_Haley_Thu10}}",
         "Thu6": "{{i18n: CFE_Haley_Thu6}}",
-        "Thu4": "{{i18n: CFE_Haley_Thu4}}",
+        "Thu4": "{{i18n: CFE_Haley_Thu4{{GenderNeutralCompat}} |ObjectivePronoun={{lowercase:{{Random:{{GNMTObjectivePronoun}}}}}}}}",
         "Thu2": "{{i18n: CFE_Haley_Thu2}}",
         "Sat8": "{{i18n: CFE_Haley_Sat8}}",
         "Sat6": "{{i18n: CFE_Haley_Sat6}}",
         "Sat4": "{{i18n: CFE_Haley_Sat4}}",
-        "Sat2": "{{i18n: CFE_Haley_Sat2}}",
+        "Sat2": "{{i18n: CFE_Haley_Sat2{{GenderNeutralCompat}} |GenericNoun={{lowercase:{{Random:{{GNMTGenericNoun}}}}}}}}",
         "Sat_old": "{{i18n: CFE_Haley_Sat_old}}",
         "Sat_070": "{{i18n: CFE_Haley_Sat_070}}",
         "Sat_072": "{{i18n: CFE_Haley_Sat_072}}",
@@ -139,7 +138,7 @@
       }
     },
     {
-      "LogName": "CFE_Haley_Married_spouseRoom",
+      "LogName": "CFE_Haley_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
@@ -159,7 +158,7 @@
         "Rainy_Day_1": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 3,4}}}}",
         "Rainy_Day_2": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 5,6}}}}",
         "Rainy_Day_3": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 7,8}}}}",
-        "Rainy_Day_4": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 9,10}}}}",
+        "Rainy_Day_4": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 9,10}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
 
         "Rainy_Night_0": "{{i18n: CFE_Haley_Married_RainyNight_{{Random: 1,2}}}}",
         "Rainy_Night_1": "{{i18n: CFE_Haley_Married_RainyNight_{{Random: 3,4}}}}",
@@ -171,12 +170,11 @@
         "Indoor_Day_1": "{{i18n: CFE_Haley_Married_IndoorDay_{{Random: 4,5,6}}}}",
         "Indoor_Day_2": "{{i18n: CFE_Haley_Married_IndoorDay_{{Random: 7,8,9}}}}",
         "Indoor_Day_3": "{{i18n: CFE_Haley_Married_IndoorDay_{{Random: 10,11,12}}}}",
-        "Indoor_Day_4": "{{i18n: CFE_Haley_Married_IndoorDay_{{Random: 13,14,15}}}}",
+        "Indoor_Day_4": "{{i18n: CFE_Haley_Married_IndoorDay_{{Random: 13,14,15}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
 
         "Indoor_Night_0": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 1,2}}}}",
         "Indoor_Night_1": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 3,4}}}}",
-        "Indoor_Night_2": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 5,6}}}}",
-        "Indoor_Night_3": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 7,8}}}}",
+        "Indoor_Night_2": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 5,6,7,8}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
         "Indoor_Night_4": "{{i18n: CFE_Haley_Married_IndoorNight_{{Random: 9,10}}}}",
 
         //locational specific dialogue
@@ -188,11 +186,12 @@
         "funReturn_Haley": "{{i18n: CFE_Haley_Married_funReturn_{{Random: 1,2}}}}",
 
         "OneKid_0": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 1,2}}}}",
-		    "OneKid_1": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 3,4}}}}",
-		    "OneKid_2": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 5,6}}}}",
-		    "OneKid_3": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 7,8}}}}",
+        "OneKid_1": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 3,4}}}}",
+        "OneKid_2": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 5,6}}}}",
+        "OneKid_3": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 7,8}}}}",
+       
         "TwoKids_0": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 1,2}}}}",
-	    	"TwoKids_1": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 3,4}}}}",
+        "TwoKids_1": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 3,4}}{{GenderNeutralCompat}}}}",
         "TwoKids_2": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 5,6}}}}",
         "TwoKids_3": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 7,8}}}}",
 

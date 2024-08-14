@@ -42,7 +42,7 @@
       "Target": "Characters/Dialogue/Maru",
       "Entries": {
         //Date Specific Dialogue
-        "spring_1_2": "{{i18n: CFE_Maru_spring1y2}}",
+        "spring_1_2": "{{i18n: CFE_Maru_spring1y2{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
 
         "summer_1_1": "{{i18n: CFE_Maru_summer1}}",
         "summer_1_2": "{{i18n: CFE_Maru_summer1}}",
@@ -65,7 +65,7 @@
         "summer_Mon2": "{{i18n: CFE_Maru_summerMon2}}",
         "summer_Tue8": "{{i18n: CFE_Maru_summerTue8}}",
         "summer_Tue6": "{{i18n: CFE_Maru_summerTue6}}",
-        "summer_Tue4_inlaw_Sebastian": "{{i18n: CFE_Maru_summerTue4inlawSebastian}}",
+        "summer_Tue4_inlaw_Sebastian": "{{i18n: CFE_Maru_summerTue4inlawSebastian{{GenderNeutralCompat}}}}",
         "summer_Tue2": "{{i18n: CFE_Maru_summerTue2}}",
         "summer_Wed10": "{{i18n: CFE_Maru_summerWed10}}",
         "summer_Wed8": "{{i18n: CFE_Maru_summerWed8}}",
@@ -94,7 +94,7 @@
         "fall_Tue8": "{{i18n: CFE_Maru_fallTue8}}",
         "fall_Tue4": "{{i18n: CFE_Maru_fallTue4}}",
         "fall_Tue2": "{{i18n: CFE_Maru_fallTue2}}",
-        "fall_Wed10": "{{i18n: CFE_Maru_fallWed10}}",
+        "fall_Wed10": "{{i18n: CFE_Maru_fallWed10{{GenderNeutralCompat}} |SpouseNoun={{lowercase:{{Random:{{GNMTSpouseNoun}}}}}}}}",
         "fall_Wed8": "{{i18n: CFE_Maru_fallWed8}}",
         "fall_Wed6": "{{i18n: CFE_Maru_fallWed6}}",
         "fall_Wed4": "{{i18n: CFE_Maru_fallWed4}}",
@@ -148,7 +148,7 @@
         "Mon2": "{{i18n: CFE_Maru_Mon2}}",
         "Tue10": "{{i18n: CFE_Maru_Tue10}}",
         "Tue8": "{{i18n: CFE_Maru_Tue8}}",
-        "Tue6_inlaw_Penny": "{{i18n: CFE_Maru_Tue6inlawPenny}}",
+        "Tue6_inlaw_Penny": "{{i18n: CFE_Maru_Tue6inlawPenny{{GenderNeutralCompat}}{{GenderNeutralSingular}} |AdultInformalNoun={{lowercase:{{Random:{{GNMTAdultInformalNoun}}}}}}, |SubjectivePronoun={{lowercase:{{Random:{{GNMTSubjectivePronoun}}}}}}}}",
         "Tue6": "{{i18n: CFE_Maru_Tue6}}",
         "Tue4": "{{i18n: CFE_Maru_Tue4}}",
         "Tue2": "{{i18n: CFE_Maru_Tue2}}",
@@ -176,7 +176,7 @@
       }
     },
     {
-      "LogName": "CFE_Maru_Married_spouseRoom",
+      "LogName": "CFE_Maru_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {

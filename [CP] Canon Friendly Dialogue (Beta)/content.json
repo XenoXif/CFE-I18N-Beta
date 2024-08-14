@@ -205,39 +205,39 @@
       "When": { "HasMod": "Hana.GNMTokens" }
     },
     {
-      "Name": "GNMTAdultInformalNoun",
+      "Name": "GenderNeutralSingular",
+      "Value": "_Singular"
+    },
+    {
+      "Name": "GenderNeutralSingular",
+      "Value": "_Plural",
+      "When": { "Hana.GNMTokens/Singular": true }
+    },
+    {
+      "Name": "GNMTObjectivePronoun",
       "Value": "false"
     },
     {
-      "Name": "GNMTAdultInformalNoun",
-      "Value": "{{Hana.GNMTokens/AdultInformalNoun}}",
+      "Name": "GNMTObjectivePronoun",
+      "Value": "{{Hana.GNMTokens/ObjectivePronoun}}",
       "When": { "HasMod": "Hana.GNMTokens" }
     },
     {
-      "Name": "GNMTGenericNoun",
+      "Name": "GNMTSubjectivePronoun",
       "Value": "false"
     },
     {
-      "Name": "GNMTGenericNoun",
-      "Value": "{{Hana.GNMTokens/GenericNoun}}",
+      "Name": "GNMTSubjectivePronoun",
+      "Value": "{{Hana.GNMTokens/SubjectivePronoun}}",
       "When": { "HasMod": "Hana.GNMTokens" }
     },
     {
-      "Name": "GNMTSpouseNoun",
+      "Name": "GNMTTitle",
       "Value": "false"
     },
     {
-      "Name": "GNMTSpouseNoun",
-      "Value": "{{Hana.GNMTokens/SpouseNoun}}",
-      "When": { "HasMod": "Hana.GNMTokens" }
-    },
-    {
-      "Name": "GNMTTermOfEndearment",
-      "Value": "false"
-    },
-    {
-      "Name": "GNMTTermOfEndearment",
-      "Value": "{{Hana.GNMTokens/TermOfEndearment}}",
+      "Name": "GNMTTitle",
+      "Value": "{{Hana.GNMTokens/Title}}",
       "When": { "HasMod": "Hana.GNMTokens" }
     },
     {
@@ -250,12 +250,21 @@
       "When": { "HasMod": "Hana.GNMTokens" }
     },
     {
-      "Name": "GNMTElderInformalNoun",
+      "Name": "GNMTSpouseNoun",
       "Value": "false"
     },
     {
-      "Name": "GNMTElderInformalNoun",
-      "Value": "{{Hana.GNMTokens/ElderInformalNoun}}",
+      "Name": "GNMTSpouseNoun",
+      "Value": "{{Hana.GNMTokens/SpouseNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTGenericNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTGenericNoun",
+      "Value": "{{Hana.GNMTokens/GenericNoun}}",
       "When": { "HasMod": "Hana.GNMTokens" }
     },
     {
@@ -266,9 +275,35 @@
       "Name": "GNMTAdultFamilialNoun",
       "Value": "{{Hana.GNMTokens/AdultFamilialNoun}}",
       "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTAdultInformalNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTAdultInformalNoun",
+      "Value": "{{Hana.GNMTokens/AdultInformalNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTElderInformalNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTElderInformalNoun",
+      "Value": "{{Hana.GNMTokens/ElderInformalNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTTermOfEndearment",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTTermOfEndearment",
+      "Value": "{{Hana.GNMTokens/TermOfEndearment}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
     }
   ],
-
   "Changes": [
     {
       "LogName": "CFE_Abigail_Include",
