@@ -84,19 +84,19 @@ Pam (1) - Tue2...done
 
 Penny ()- .....done
 
-Pierre (2) - fall_Mon_inlaw_Abigail, winter_Mon_inlaw_Abigail
+Pierre (2) - fall_Mon_inlaw_Abigail, winter_Mon_inlaw_Abigail....done
 
 Robin (0) - None
 
-Sam (1) - MapleBar(731)
+Sam (1) - MapleBar(731)....done
 
 Sandy (0) - None
 
-Sebastian (1) - fall_Sat8
+Sebastian (1) - fall_Sat8....done
 
-Shane - (1) fall_Sat10
+Shane - (1) fall_Sat10.....done
 
-Vincent (5) - Grape(398), Mon10_1, Tue6_1, Tue8, summerTue
+Vincent (5) - Grape(398), Mon10_1, Tue6_1, Tue8, summerTue.....done
 
 Willy - PrismaticShard(74), Catfish(143), Mead(459), SeaCucumber(154), Mon2
 

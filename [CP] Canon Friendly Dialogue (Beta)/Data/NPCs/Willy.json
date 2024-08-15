@@ -6,7 +6,7 @@
       "Target": "Characters/Dialogue/Willy",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)143": "{{i18n: CFE_Willy_Catfish}}"
+        "AcceptGift_(O)143": "{{i18n: CFE_Willy_Catfish{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}"
       },
       "When": { "ModdedDialogCompat": "true" }
     },
@@ -18,14 +18,14 @@
         // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)373": "{{i18n: CFE_Willy_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Willy_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Willy_PrismaticShard}}",
+        "AcceptGift_(O)74": "{{i18n: CFE_Willy_PrismaticShard{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Willy_RabbitsFoot}}",
         "AcceptGift_(O)72": "{{i18n: CFE_Willy_Diamond}}",
         "AcceptGift_(O)337": "{{i18n: CFE_Willy_IridiumBar}}",
-        "AcceptGift_(O)459": "{{i18n: CFE_Willy_Mead}}",
+        "AcceptGift_(O)459": "{{i18n: CFE_Willy_Mead{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}",
         "AcceptGift_(O)149": "{{i18n: CFE_Willy_Squid}}",
         "AcceptGift_(O)276": "{{i18n: CFE_Willy_Pumpkin}}",
-        "AcceptGift_(O)154": "{{i18n: CFE_Willy_SeaCucumber}}",
+        "AcceptGift_(O)154": "{{i18n: CFE_Willy_SeaCucumber{{GenderNeutralCompat}} |GenericNoun={{lowercase:{{Random:{{GNMTGenericNoun}}}}}}}}",
         "AcceptGift_(O)698": "{{i18n: CFE_Willy_Sturgeon}}"
       },
       "When": { "ModdedDialogCompat": "true" }
@@ -89,7 +89,7 @@
 
         "Mon8": "{{i18n: CFE_Willy_Mon8}}",
         "Mon6": "{{i18n: CFE_Willy_Mon6}}",
-        "Mon2": "{{i18n: CFE_Willy_Mon2}}",
+        "Mon2": "{{i18n: CFE_Willy_Mon2{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}",
         "Tue8": "{{i18n: CFE_Willy_Tue8}}",
         "Tue4": "{{i18n: CFE_Willy_Tue4}}",
         "Tue2": "{{i18n: CFE_Willy_repeated_2}}",

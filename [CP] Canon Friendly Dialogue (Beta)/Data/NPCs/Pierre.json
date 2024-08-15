@@ -111,9 +111,9 @@
         //Generic Weekday Dialogue
         "summer_Mon": "{{i18n: CFE_Pierre_summerMon}}",
         "summer_Tue": "{{i18n: CFE_Pierre_summerTue}}",
-        "fall_Mon_inlaw_Abigail": "{{i18n: CFE_Pierre_fallMoninlawAbigail}}",
+        "fall_Mon_inlaw_Abigail": "{{i18n: CFE_Pierre_repeated_7{{GenderNeutralCompat}} |AdultFamilialNoun={{lowercase:{{Random:{{AdultFamilialNoun}}}}}}}}",
         "fall_Sun": "{{i18n: CFE_Pierre_fallSun}}",
-        "winter_Mon_inlaw_Abigail": "{{i18n: CFE_Pierre_winterMoninlawAbigail}}",
+        "winter_Mon_inlaw_Abigail": "{{i18n: CFE_Pierre_repeated_7{{GenderNeutralCompat}} |AdultFamilialNoun={{lowercase:{{Random:{{AdultFamilialNoun}}}}}}}}",
         "winter_Wed": "{{i18n: CFE_Pierre_winterWed}}",
         "winter_Sat": "{{i18n: CFE_Pierre_winterSat}}"
       }

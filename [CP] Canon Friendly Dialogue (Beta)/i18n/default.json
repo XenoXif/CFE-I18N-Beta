@@ -3821,12 +3821,15 @@
   "CFE_Pierre_repeated_4": "Abigail will always be my little girl. It was love at first sight, when I saw her for the first time.",
   "CFE_Pierre_repeated_5": "I just can't really get into following gridball.#$e#Ha ha, go Tunnelers, I guess! Right?",
   "CFE_Pierre_repeated_6": "Is it just me or is there a cold draft in here?",
+  "CFE_Pierre_repeated_7": "Hello, er... my son?$s^Hello, er... my daughter?$s",
+  "CFE_Pierre_repeated_7_GN": "Hello, er... my {{AdultFamilialNoun}}?$s",
   //winter_Sun10, Mon6
   //summer_Sat10, Tue4
   //summer_Sun10, Fri4
   //summer_Thu6, winter_Tue10
   //fall_Mon4, winter_Mon4
   //winter_Thu4, winter_Sat6
+  //fallMoninlawAbigail, winterMoninlawAbigail
 
   //date specific dialogue
   "CFE_Pierre_spring1y2": "Aha! I figured you'd come by. Better get some seeds into the ground, huh?",
@@ -3883,9 +3886,7 @@
   //generic weekday dialogue
   "CFE_Pierre_summerMon": "What are you growing this summer? Something specific? A little of everything?",
   "CFE_Pierre_summerTue": "JojaMart doesn't even have lower prices than we do, unless you count those 50% off coupons that they're always handing out.$3#$e#You've never gotten one, huh? Yeah, neither have I. Makes sense why.",
-  "CFE_Pierre_fallMoninlawAbigail": "Hello, er... my son?$s^Hello, er... daughter?$s",
   "CFE_Pierre_fallSun": "Hi there. Is your farm still doing well?#$e#Maybe a few of my seeds will spruce things up.$h",
-  "CFE_Pierre_winterMoninlawAbigail": "Hello, er... my son?$s^Hello, er... daughter?$s",
   "CFE_Pierre_winterWed": "#$1 pierreDin#I'm going to surprise Caroline tonight with dinner and a bottle of Stardew Red. Don't tell anyone! Finally, a day of relaxation.$k#$e#",
   "CFE_Pierre_winterSat": "If I didn't have this shop to run I would be outside right now.#$e#It would be fun to throw a snowball.",
 
@@ -3985,6 +3986,7 @@
   "CFE_Sam_RabbitsFoot": "Nice! I can hang this on my guitar case. Thanks!$h",
   "CFE_Sam_CactusFruit": "Awesome! These are SO refreshing.$h",
   "CFE_Sam_MapleBar": "Oh, those are so good! And you're giving me one?$8#$b#Dude, you rock.$h^Oh my gosh, you rock.$h",
+  "CFE_Sam_MapleBar_GN": "Oh, those are so good! And you're giving me one?$8#$b#Oh my gosh, you rock.$h",
   "CFE_Sam_Tigerseye": "This stone is rad! Something about it just makes me want to rise up and rock out.",
 
   //Sam's Misc Dialogue
@@ -4062,8 +4064,8 @@
   "CFE_Sam_winterMon8": "Vince is looking forward to the Feast of the Winter Star. I'm coming up with ideas for how to make it extra special for him this year.",
   "CFE_Sam_winterMon4": "We had another good band practice this weekend! Things are coming along.$h#$e#Oh, don't worry, I'm definitely getting you tickets to our first show.",
   "CFE_Sam_winterMon2": "Everyone's indoors during the winter, so I can play guitar as loud as I want.$h",
-  "CFE_Sam_winterTue8": "Penny and I used to hang out a lot when we first moved here.#$e#We still hang out occasionally, and we've got this weird, almost... flirty? ...thing going, but we don't have a lot in common anymore.$s",
   "CFE_Sam_winterTue8inlawPenny": "I'm glad things worked out for you and Penny! I always kinda wondered about her.$h",
+  "CFE_Sam_winterTue8": "Penny and I used to hang out a lot when we first moved here.#$e#We still hang out occasionally, and we've got this weird, almost... flirty? ...thing going, but we don't have a lot in common anymore.$s",
   "CFE_Sam_winterWed10": "Heyyy... you aren't... 'hiring' at your farm, or anything, are you?$l",
   "CFE_Sam_winterWed6": "$d Joja#I know our jobs are kinda crap, but it'd be nice if Shane was a little friendlier at work to pass the time.|I wonder how Shane's doing? He always seemed like he hated his JojaMart job even more than I did.",
   "CFE_Sam_winterThu4y1": "I think my Dad is coming back this spring.#$e#It's been 3 years since I've seen him. This is going to be strange.",
@@ -4081,9 +4083,9 @@
   "CFE_Sam_Tue8": "Sometimes I look at other people and notice how everyone changes. Some people I grew up with just aren't the same.#$e#It sucks to have to leave behind those parts of your childhood. Why does everyone settle for it?",
   "CFE_Sam_Tue4y1": "Mom's always worried about Vincent. Personally, I think he'll turn out fine.#$e#I mean, did she forget about what I was like at that age, or something?$h",
   "CFE_Sam_Tue4y2": "I tried fixing a bowl of cereal for my dad, but as soon as I poured milk on it, he flipped out. What was up with that?$s",
-  "CFE_Sam_Tue2y1": "Hey, @.#$e#So, do you play any video games?",
+  "CFE_Sam_Tue2": "Hey, @.#$e#So, do you play any video games?",
   "CFE_Sam_Thu8y1": "I'm amazed we've made friends with each other as quickly as we have! You are seriously the best person ever, @!",
-  "CFE_Sam_Thu8y2": "Hey, if you get to talking with my dad, just uh... show him some support, if it's not too much to ask.#$e#He doesn't really like talking about himself around me, so maybe it's easier if you're not as close?$s",
+  "CFE_Sam_Thu8y2": "Hey, if you get to talking with my dad, just uh... show him some support, if it's not too much to ask.#$e#He doesn't really like talking about himself around me, but maybe it's easier if you're not as close?$s",
   "CFE_Sam_Thu4y1": "I think my Dad might be coming back in a year or so.#$e#I guess you might be able to meet him, then. If you're still living here.#$e#You wouldn't abandon the farm after putting so much effort into it!",
   "CFE_Sam_Thu4y2": "...I have mixed feelings about my father being back. He seems strange.$s#$b#But I guess I haven't seen him in 3 years... so that could explain it.",
   "CFE_Sam_Thu2y2": "Well, my Dad is back. You've met him, right?#$b#I'm just glad he's okay.",
@@ -4113,7 +4115,7 @@
   "CFE_Sam_Married_RainyDay_9": "How'd you sleep? The sound of rain really makes me zonk.",
   "CFE_Sam_Married_RainyDay_10": "I hope my mom's mood is okay today. At least she won't have to worry about me tracking footprints in the house.",
 
-  "CFE_Sam_Married_RainyNight_1": "Hey, how was your day? I just lay around and read comics most of the day... it was great.$h",
+  "CFE_Sam_Married_RainyNight_1": "Hey, how was your day? I just laid around and read comics most of the day... it was great.$h",
   "CFE_Sam_Married_RainyNight_2": "I love living here, with no neighbors! I cranked my amp up to eleven!$h",
   "CFE_Sam_Married_RainyNight_3": "It was a pretty low-key day for me... colas, frozen pizza, a few hours noodling around on the guitar. I feel relaxed.",
   "CFE_Sam_Married_RainyNight_4": "It'll be fun when Vince grows up a bit, into a teenager. Think he could crash here for movie nights?",
@@ -4156,6 +4158,24 @@
   "CFE_Sam_Married_funReturn_1": "Seeing family is nice, but it's also kind of depressing in a weird way. Like... our lives are totally separate now, and everything feels more formal than it used to.$7",
   "CFE_Sam_Married_funReturn_2": "My family's doing alright, but they're all struggling with something or other. I hope it's cool with you if I see 'em again soon.$7",
 
+  "CFE_Sam_Married_OneKid_1": "I was worried at first, but I really took to being a father!$h",
+  "CFE_Sam_Married_OneKid_2": "*yawn* Man oh man, I'm definitely feeling a new appreciation for stay-at home parents.$s",
+  "CFE_Sam_Married_OneKid_3": "I think we should have another kid. Why stop now?",
+  "CFE_Sam_Married_OneKid_4": "Sure, being a dad is way more exhausting than I imagined, but I'm up for a challenge!$h",
+  "CFE_Sam_Married_OneKid_5": "Hah, I guess we're the talk of the town, huh? Nobody expected someone like me to be a family man right out of the gate!$h",
+  "CFE_Sam_Married_OneKid_6": "*sniff* I'm not crying. I just really love %kid1.$l#$e#*sniff*Okay, maybe I'm crying a little. Ha-haa.$l",
+  "CFE_Sam_Married_OneKid_7": "Have you spent any time with %kid1 today?",
+  "CFE_Sam_Married_OneKid_8": "My favorite part of being a dad?#$b#Haha, gosh. All of it, really.$10",
+
+  "CFE_Sam_Married_TwoKids_1": "I woke up early, fed the kids and changed their diapers! We're all set. You can just focus on raking in that sweet money.$h#$e#I'm just kidding... I didn't marry you for the money.",
+  "CFE_Sam_Married_TwoKids_2": "Two kids... Crazy. Well, if my mom can survive it, so can I!",
+  "CFE_Sam_Married_TwoKids_3": "We have to make sure and give %kid1 a lot of attention now that we have %kid2. We don't want any jealousy between them.",
+  "CFE_Sam_Married_TwoKids_4": "It's fun to see the babies playing with each other. I think they're going to be very close.",
+  "CFE_Sam_Married_TwoKids_5": "I think I'll do a private concert for the kids today. That's the only kind of audience I really need!$u",
+  "CFE_Sam_Married_TwoKids_6": "I never thought I'd become such a family man, but I'm really satisfied with what we've built here. Life is going great.$l",
+  "CFE_Sam_Married_TwoKids_7": "My parents are still pretty young. They could easily live to see great grandbabies. Or maybe even great-great grandbabies!$u",
+  "CFE_Sam_Married_TwoKids_8": "The kids were plucking away at my guitar strings yesterday.#$b#It was kind of crazy. They made some sounds I've technically never made myself.",
+
   "CFE_Sam_Married_patio_1": "*Sigh*... I'm never gonna land this trick...$s",
   "CFE_Sam_Married_patio_2": "Aw man! You just missed it! I landed a perfect kickflip just a little bit ago.$h",
   "CFE_Sam_Married_patio_3": "This used to be so much easier...$s#$b#Either that or I just had a lot more unearned confidence when I was younger.$10",
@@ -4165,23 +4185,6 @@
   "CFE_Sam_Married_spouseRoom_3": "I've been messing around with the keyboard lately. Nothing too serious, though.",
   "CFE_Sam_Married_spouseRoom_4": "It's a good day for reading. A real book, y'know? I read more than just comics.#$e#Not that there's anything wrong with comics. Heck no.$h",
   "CFE_Sam_Married_spouseRoom_5": "Let's see, I'm all caught up with my e-mails, so what next?#$e#I've got this music composition software on the computer. It could be worthwhile to tinker around with that.",
-
-  "CFE_Sam_Married_OneKid_1": "It's weird, but I really like being a father!$h",
-  "CFE_Sam_Married_OneKid_2": "*yawn* Man oh man, I'm definitely feeling a new appreciation for stay-at home parents.$s",
-  "CFE_Sam_Married_OneKid_3": "I think we should have another kid. Why stop now?",
-  "CFE_Sam_Married_OneKid_4": "Sure, being a dad is way more exhausting than I imagined, but I'm up for a challenge!$h",
-  "CFE_Sam_Married_OneKid_5": "Hah, I guess we're the talk of the town, huh? Nobody expected someone like me to be a family man right out of the gate!$h",
-  "CFE_Sam_Married_OneKid_6": "*sniff* I'm not crying. I just really love %kid1.$l#$e#*sniff*Okay, maybe I'm crying a little. Ha-haa.$l",
-  "CFE_Sam_Married_OneKid_7": "Have you spent any time with %kid1 today?",
-  "CFE_Sam_Married_OneKid_8": "My favorite part of being a dad?#$b#Haha, gosh. All of it, really.$10",
-  "CFE_Sam_Married_TwoKids_1": "I woke up early, fed the kids and changed their diapers! We're all set. You can just focus on raking in that sweet money.$h#$e#I'm just kidding... I didn't marry you for the money.",
-  "CFE_Sam_Married_TwoKids_2": "Two kids... Crazy. Well, if my mom can survive it, so can I!",
-  "CFE_Sam_Married_TwoKids_3": "We have to make sure and give %kid1 a lot of attention now that we have %kid2. We don't want any jealousy between them.",
-  "CFE_Sam_Married_TwoKids_4": "It's fun to see the babies playing with each other. I think they're going to be very close.",
-  "CFE_Sam_Married_TwoKids_5": "I think I'll do a private concert for the kids today. That's the only kind of audience I really need!$u",
-  "CFE_Sam_Married_TwoKids_6": "I never thought I'd become such a family man, but I'm really satisfied with what we've built here. Life is going great.$l",
-  "CFE_Sam_Married_TwoKids_7": "My parents are still pretty young. They could easily live to see great grandbabies. Or maybe even great-great grandbabies!$u",
-  "CFE_Sam_Married_TwoKids_8": "The kids were plucking away at my guitar strings yesterday.#$b#It was kind of crazy. They made some sounds I've technically never made myself.",
 
   "CFE_Sam_Married_Outdoor_1": "Maybe I should get some off-road wheels for my skateboard. Mayor Lewis can't touch me out here.$h",
   "CFE_Sam_Married_Outdoor_2": "Hah, if it weren't for all the trees in the way, you could probably see my old house from here. Kinda funny, isn't it?$h",
@@ -4374,6 +4377,7 @@
   "CFE_Sebastian_fallThu4": "My room might be a little less depressing if I had a window...$s",
   "CFE_Sebastian_fallSat10": "@, hey! I'm glad I ran into you.$h#$e#I'm just having a really good day. I wanted to see how you were doing.",
   "CFE_Sebastian_fallSat8": "How the heck do you get up so early each day? I don't get it.#$e#That's officially your superpower. 'Early-Morning Man.'^That's officially your superpower. 'Early-Morning Girl.'",
+  "CFE_Sebastian_fallSat8_GN": "How the heck do you get up so early each day? I don't get it.#$e#That's officially your superpower. 'Early-Morning {{GenericNoun}}.'",
   "CFE_Sebastian_fallSat6": "Eventually, I have to get up in the morning so my parents don't patronize me. I'd rather not be treated like a kid.",
   "CFE_Sebastian_fallSun10": "Hey. Want to stay out late with me tonight?#$e#When there's a glow on the horizon, that's usually when I can tell it's time to head for bed.",
   "CFE_Sebastian_fallSun6": "People act completely different in big groups. They all put on this mask, this persona...#$b#...and it's just so other people will accept them.#$b#Don't they get a little too comfortable losing touch with the real version of themselves?",
@@ -4478,6 +4482,7 @@
   "CFE_Sebastian_Married_OneKid_6": "Have you smelled %kid1? Maybe it's time for a bath...",
   "CFE_Sebastian_Married_OneKid_7": "Life's a lot different now that we have a child.#$e#Good-different, I mean.$h#$b#It's breaking me out of my bubble, for sure.",
   "CFE_Sebastian_Married_OneKid_8": "Watching me work at the computer isn't very enriching for %kid1...$s#$b#...but maybe a little keyboard music would be nice.$7",
+
   "CFE_Sebastian_Married_TwoKids_1": "I'm trying to keep the kids on a schedule to preserve my sanity. My own schedule's still all over the place, though.",
   "CFE_Sebastian_Married_TwoKids_2": "Don't worry, I already fed the kids... %kid2 spilled the chocolate milk all over my shirt again.",
   "CFE_Sebastian_Married_TwoKids_3": "I can't say this is exactly the kind of life I imagined when I first met you. But it does feel more purposeful than I ever would've imagined.$l",
@@ -4486,16 +4491,6 @@
   "CFE_Sebastian_Married_TwoKids_6": "I've had this recurring dream that %kid2 is wearing a shadow shaman costume and sitting on a glowing pumpkin. Weird, huh?",
   "CFE_Sebastian_Married_TwoKids_7": "We've come a long way, @. Look at our family. To be honest, I never really thought I'd end up in this situation.#$e#Now that I'm here, I like it...$l",
   "CFE_Sebastian_Married_TwoKids_8": "We have to make sure and give %kid1 a lot of attention now that we have %kid2. We don't want any jealousy between them.",
-
-  "CFE_Sebastian_Married_Outdoor_1": "Hmm... sometimes I have to force myself to stay outside for health.#$e#I dunno what it is, but I like being indoors. Maybe I'm just so used to my dark basement.",
-  "CFE_Sebastian_Married_Outdoor_2": "The sun's starting to get pretty bright. I'll probably head back in soon.#$e#At least the air is nice and fresh.",
-  "CFE_Sebastian_Married_Outdoor_3": "I feel like I want to do something today... but I'm not sure what. Do you ever have that problem?",
-  "CFE_Sebastian_Married_Outdoor_4": "Hah, I stayed up almost the whole night out here, reading under the porchlight. I might need a nap later.$h",
-  "CFE_Sebastian_Married_Outdoor_5": "I'll just watch you from here. I enjoy watching you.$h",
-  "CFE_Sebastian_Married_Outdoor_6": "Standing here on the porch like this... I wonder if someday I'fll grow to be a mysterious old mentor for some kid in town.$7",
-  "CFE_Sebastian_Married_Outdoor_7": "I don't want to get soft now that I'm a married guy. Maybe I should start eating more hot pepper and working out? Just an idea...$h",
-  "CFE_Sebastian_Married_Outdoor_8": "I went for a little walk just before you got up. Sounds like some animals are already up and alive.$7",
-  "CFE_Sebastian_Married_Outdoor_9": "We should raise more slimes... In big quantities they can be pretty profitable. And they're so easy to raise.#$e#Also, different colored slimes produce different items. I dunno, I think it'd be kind of a fun hobby for us.",
 
   "CFE_Sebastian_Married_patio_1": "Need something? I'll just be over here working on my bike for a while.",
   "CFE_Sebastian_Married_patio_2": "I just want to make sure everything's in perfect shape. Next time I ride, I don't want any worries on my mind.",
@@ -4506,6 +4501,16 @@
   "CFE_Sebastian_Married_spouseRoom_3": "Some day, I'll have to get you caught up on my \"Cave Saga X\" comics.#$e#The series has been running for a little over twenty years, but oh man, it's totally worth it.$h",
   "CFE_Sebastian_Married_spouseRoom_4": "I've got a client who needs something done by the end of the day. So I'll be on the computer as soon as my brain finishes waking up.",
   "CFE_Sebastian_Married_spouseRoom_5": "I've got a \"Solarian Chronicles\" solo campaign that could use my attention. Should be a fun day.$7",
+
+  "CFE_Sebastian_Married_Outdoor_1": "Hmm... sometimes I have to force myself to stay outside for health.#$e#I dunno what it is, but I like being indoors. Maybe I'm just so used to my dark basement.",
+  "CFE_Sebastian_Married_Outdoor_2": "The sun's starting to get pretty bright. I'll probably head back in soon.#$e#At least the air is nice and fresh.",
+  "CFE_Sebastian_Married_Outdoor_3": "I feel like I want to do something today... but I'm not sure what. Do you ever have that problem?",
+  "CFE_Sebastian_Married_Outdoor_4": "Hah, I stayed up almost the whole night out here, reading under the porchlight. I might need a nap later.$h",
+  "CFE_Sebastian_Married_Outdoor_5": "I'll just watch you from here. I enjoy watching you.$h",
+  "CFE_Sebastian_Married_Outdoor_6": "Standing here on the porch like this... I wonder if someday I'fll grow to be a mysterious old mentor for some kid in town.$7",
+  "CFE_Sebastian_Married_Outdoor_7": "I don't want to get soft now that I'm a married guy. Maybe I should start eating more hot pepper and working out? Just an idea...$h",
+  "CFE_Sebastian_Married_Outdoor_8": "I went for a little walk just before you got up. Sounds like some animals are already up and alive.$7",
+  "CFE_Sebastian_Married_Outdoor_9": "We should raise more slimes... In big quantities they can be pretty profitable. And they're so easy to raise.#$e#Also, different colored slimes produce different items. I dunno, I think it'd be kind of a fun hobby for us.",
 
   //Date Specific Dialogue
   "CFE_Sebastian_Married_spring8": "My right eyelid keeps twitching. It's been doing that for almost a month.#$e#It's funny. I don't feel that stressed.#$e#Maybe it's from looking at screens so much. But I'm not giving those up for a little thing like this.$u",
@@ -4590,6 +4595,7 @@
   "CFE_Shane_fallFri8_2": "I'll definitely be going to the saloon tonight. What else is there to do?",
   "CFE_Shane_fallFri4": "$d Joja#That guy Sam? Yeah, I work with him. Don't really talk to him much, though.|That guy Sam? Yeah, we worked together. Never really talked to him much, though.",
   "CFE_Shane_fallSat10": "It never would've worked out for me and Emily... for obvious reasons. I'm glad I have you.$l^Emily and I were always just friends. I'm glad that we kept it that way.$l",
+  "CFE_Shane_fallSat10_GN": "It never would've worked out for me and Emily... for obvious reasons. I'm glad things worked out the way they did.$l",
   "CFE_Shane_fallSun10": "A new chick hatched on our farm last night. It's been a good day so far.$h",
   "CFE_Shane_fallSun8": "If I watch more TV maybe I can forget about life. That would be relaxing.$u",
   "CFE_Shane_fallSun6": "...I think I might be gaining weight.$s",
@@ -4692,23 +4698,15 @@
   "CFE_Shane_Married_OneKid_6": "%kid1 wouldn't stop crying yesterday, and I got kinda frustrated, so I had to leave the room to calm down.$s#$e#I don't have the best patience with this kinda stuff, but you know I'll always be good to our kid, right?",
   "CFE_Shane_Married_OneKid_7": "Can you stay home with %kid1 and I'll do all the farm chores?$3#$e#Uhhhm... actually, forget I said that. I'm good here.$10",
   "CFE_Shane_Married_OneKid_8": "I'm supposed to read to %kid1, huh?#$b#Uh, okay. Where am I supposed to get books from?$3#$e#Wait, what? Pelican Town has a library?!$10#$e#...Well no one ever told me!$10",
+
   "CFE_Shane_Married_TwoKids_1": "Well, if the kids stop behaving themselves today, I can always bust out some tunes for a spontaneous dance party.",
   "CFE_Shane_Married_TwoKids_2": "I already fed the kids two bowls of pizza puffs cereal. They'll be full for a while.",
-  "CFE_Shane_Married_TwoKids_3": "I'll be honest... two kids is enough for me.#Oh my god, how does anyone ever raise more than two kids? I'm so exhausted.$s",
+  "CFE_Shane_Married_TwoKids_3": "I'll be honest... two kids is enough for me.#$b#Oh my god, how does anyone ever raise more than two kids? I'm so exhausted.$s",
   "CFE_Shane_Married_TwoKids_4": "Whew... I hope the kids wind up with more of your traits than mine.",
   "CFE_Shane_Married_TwoKids_5": "Ugh... %kid2 is being a little brat today. Must've gotten that from me...",
   "CFE_Shane_Married_TwoKids_6": "*Sigh*... If only we could send the kids off to Joja work-camp for a season...#$e#I'm just kidding.$h",
   "CFE_Shane_Married_TwoKids_7": "I'm actually glad that I've got my hands full with the children. You do so much work, so I'm glad I can contribute to our household.",
   "CFE_Shane_Married_TwoKids_8": "I'm planning on having lots of little adventures with the kids today!$h",
-
-  "CFE_Shane_Married_Outdoor_1": "I didn't sleep well last night so I'm hoping this fresh air will get the juices flowing.#$e#What juices, you ask? Heh... you're weird.$h",
-  "CFE_Shane_Married_Outdoor_2": "Sometimes I stop and realize that I'm nothing more than a bag of juicy, squishy flesh.#$e#But hey... that's just fine... what's life, anyway?$h",
-  "CFE_Shane_Married_Outdoor_3": "When I stop and think about it... I'm in a good place. My life is pretty nice.$6",
-  "CFE_Shane_Married_Outdoor_4": "I can't really think of a better place to be right now, than here. Gotta keep things in perspective, right?$6",
-  "CFE_Shane_Married_Outdoor_5": "Ooohh... my tongue is swollen from eating too many pepper poppers.$s",
-  "CFE_Shane_Married_Outdoor_6": "Dang. I didn't realize how stagnant the air in my lungs was till I got out here.",
-  "CFE_Shane_Married_Outdoor_7": "Hey. You were sleeping like a baby so I slipped out of bed and went for a morning walk around the farm. Everything looks fine.",
-  "CFE_Shane_Married_Outdoor_8": "I don't know why, but I'm just feeling pretty good this morning. I must've slept well.$h",
 
   "CFE_Shane_Married_patio_1": "Charlie's doing well.$8",
   "CFE_Shane_Married_patio_2": "If Charlie's in a good mood, I'm in a good mood, too.$8",
@@ -4719,6 +4717,15 @@
   "CFE_Shane_Married_spouseRoom_3": "*sigh* Well, at least the chickens don't think I'm messy.$3#$e#It's enough to clean up their crap. Do I have to clean up my own, too?$s",
   "CFE_Shane_Married_spouseRoom_4": "I did ten lifts on the dumbell. Time for a snack.",
   "CFE_Shane_Married_spouseRoom_5": "Got a busy day today, huh?#$e#...Uh, yeah. Me too.$3",
+
+  "CFE_Shane_Married_Outdoor_1": "I didn't sleep well last night so I'm hoping this fresh air will get the juices flowing.#$e#What juices, you ask? Heh... you're weird.$h",
+  "CFE_Shane_Married_Outdoor_2": "Sometimes I stop and realize that I'm nothing more than a bag of juicy, squishy flesh.#$e#But hey... that's just fine... what's life, anyway?$h",
+  "CFE_Shane_Married_Outdoor_3": "When I stop and think about it... I'm in a good place. My life is pretty nice.$6",
+  "CFE_Shane_Married_Outdoor_4": "I can't really think of a better place to be right now, than here. Gotta keep things in perspective, right?$6",
+  "CFE_Shane_Married_Outdoor_5": "Ooohh... my tongue is swollen from eating too many pepper poppers.$s",
+  "CFE_Shane_Married_Outdoor_6": "Dang. I didn't realize how stagnant the air in my lungs was till I got out here.",
+  "CFE_Shane_Married_Outdoor_7": "Hey. You were sleeping like a baby so I slipped out of bed and went for a morning walk around the farm. Everything looks fine.",
+  "CFE_Shane_Married_Outdoor_8": "I don't know why, but I'm just feeling pretty good this morning. I must've slept well.$h",
 
   //Date Specific Dialogue
   "CFE_Shane_Married_spring2": "It was awesome yesterday, seeing the chickens get outside for the first time in a while.$h",
@@ -4752,6 +4759,7 @@
   "CFE_Vincent_CranberryCandy": "Mom says I can't have anymore candy today, except if it's a gift from you, then it's a 'special occasion.'#$b#Yayyy!$h",
   "CFE_Vincent_GingerAle": "I love soda!#$b#...#$b#It makes you burp!",
   "CFE_Vincent_Grape": "These taste like purple popsicles, but not frozen! Thanks, Mr. @!^These taste like purple popsicles, but not frozen! Thanks, Ms. @!",
+  "CFE_Vincent_Grape_GN": "These taste like purple popsicles, but not frozen! Thanks, {{Title}} @!",
   "CFE_Vincent_PinkCake": "Wowww. That looks... amazing.$u#$b#I can't believe you're giving it to me!$h#$e#Oh yeah, thank you!",
   "CFE_Vincent_Snail": "...Cool!",
 
@@ -4764,6 +4772,7 @@
   "CFE_Vincent_repeated_2": "@, was your dad around much when you were a kid?$u",
   "CFE_Vincent_repeated_3": "Red flavored gummies are really good, but the purple kind in this new brand is really REALLY good.#$e#The only problem? The other colors that come with the purple kind aren't as good.#$b#Hmmmmmmmmm...",
   "CFE_Vincent_repeated_4": "Can you keep a secret, mister?^Can you keep a secret, miss?$u#$b#I wanna marry Miss Penny when I grow up.#$e#Just don't tell her, okay?$u",
+  "CFE_Vincent_repeated_4_GN": "Can you keep a secret, {{Title}} @?$u#$b#I wanna marry Miss Penny when I grow up.#$e#Just don't tell her, okay?$u",
   "CFE_Vincent_repeated_5": "Dad seems weird since he came back. I wonder what happened to him?$s",
   //These keys correspond, line-by line, to the "repeated" lines above. I have them in a big chunk instead of interspersed so that it's easier to copy/paste.
   //repeated_1: summer_Sun10, Thu4
@@ -4800,6 +4809,7 @@
   "CFE_Vincent_winterSat10": "Hey! Wanna play in the snow?#$e#The snow is perfect today for the best snowballs ever!",
 
   "CFE_Vincent_Mon10y1": "@, maybe you can be my dad until my real dad comes back!^Even though you're a girl, maybe you can be my dad until my real dad comes back.",
+  "CFE_Vincent_Mon10y1_GN": "@, maybe you can be my pretend dad until my real dad comes back!",
   "CFE_Vincent_Mon10y2": "@, was your dad ever like mine?$u",
   "CFE_Vincent_Mon8_1": "Mom gave me a haircut. She's the one who usually does it.#$e#A long time ago, Sam gave me a haircut. He got in big trouble!$h",
   "CFE_Vincent_Mon8_2": "Mom made me stop playing just to show me Dad sleeping in.$u#$e#Then she started crying. It was really weird.$u",
@@ -4827,6 +4837,7 @@
 
   //generic weekday dialogue
   "CFE_Vincent_summerTue": "Hey Mister @.^Hey Miss @.#$e#Is there anyone in town who you like?#$e#Yeah, like... LIKE like.$h#$e#Aw, c'mon, tell me!",
+  "CFE_Vincent_summerTue_GN": "Hey {{Title}} @.#$e#Is there anyone in town who you like?#$e#Yeah, like... LIKE like.$h#$e#Aw, c'mon, tell me!",
   "CFE_Vincent_summerWed": "Whoa! Cool! You're all sweaty!",
   "CFE_Vincent_summerSat": "Sam showed me this music video with a bunch of dancing crabs. It's so funny!#$e#If I saw dancing crabs in real life at the beach, I'd be like, 'Whaaaat?'$h",
 
@@ -4848,14 +4859,18 @@
   "CFE_Willy_GoldPumpkin": "I do love a good pumpkin, but this one's golden? Har har! What'll ye find next?$h",
   "CFE_Willy_Pearl": "If a mermaid sees me holdin' this, I reckon I'll be pretty popular! Har har!$h",
   "CFE_Willy_PrismaticShard": "Now THAT'S a treasure, lad!$h^Now THAT'S a treasure, miss!$h#$b#Supposin' I get picked up by pirates, this stone'll make a hearty ransom for my life, and then some!",
+  "CFE_Willy_PrismaticShard_GN": "Now THAT'S a treasure, {{ElderInformalNoun}}!$h#$b#Supposin' I get picked up by pirates, this stone'll make a hearty ransom for my life, and then some!",
   "CFE_Willy_RabbitsFoot": "Thanks indeed. I can always use a little more luck when I go fishing.$h",
   "CFE_Willy_Catfish": "Aye, this'll make a fine meal. One o' the finest!$h#$b#Thanks, lad.$h^Thanks, miss.$h",
+  "CFE_Willy_Catfish_GN": "Aye, this'll make a fine meal. One o' the finest!$h#$b#Thanks, {{ElderInformalNoun}}.$h",
   "CFE_Willy_Diamond": "Come to share yer treasures with me? What a kind soul you are!$h",
   "CFE_Willy_IridiumBar": "Well I'll be! I could make a new iridium rod with this.$h",
   "CFE_Willy_Mead": "This was always ol' Pappy's favorite. My favorite now, too. Thanks, lad.$h^This was always ol' Pappy's favorite. My favorite now, too. Thanks, miss.$h",
+  "CFE_Willy_Mead_GN": "This was always ol' Pappy's favorite. My favorite now, too. Thanks, {{ElderInformalNoun}}.$h",
   "CFE_Willy_Squid": "What a battle this one must've been! Aye, look at those arms wriggle!$h",
   "CFE_Willy_Pumpkin": "Ahh, the smell o' fresh pumpkin with the smell o' my old shack... It doesn't get much better than that.$h",
   "CFE_Willy_SeaCucumber": "Ah, a lad of sophisticated tastes, I see!$h^Ah, a lass of sophisticated tastes, I see!$h#$b#Sea cucumber is one o' the tastiest creatures in the sea, but it takes a bit o' practice to enjoy.",
+  "CFE_Willy_SeaCucumber_GN": "Ah, a {{GenericNoun}} of sophisticated tastes, I see!$h#$b#Sea cucumber is one o' the tastiest creatures in the sea, but it takes a bit o' practice to enjoy.",
   "CFE_Willy_Sturgeon": "Why, this one looks fit for a royal feast! What a lunker!$h",
 
   //Willy's Misc Dialogue
@@ -4882,6 +4897,7 @@
   "CFE_Willy_Mon8": "I'll post some more fishing challenges on Pierre's bulletin board if the mood fancies me. I hope you'll keep an eye out for 'em.",
   "CFE_Willy_Mon6": "If you sell me some fish, I'll be sure to tell whoever buys it that you're the one who caught it.$h",
   "CFE_Willy_Mon2": "Ahoy there, son.^Ahoy there, lass.#$b#Looks like decent weather for fishing, eh?",
+  "CFE_Willy_Mon2_GN": "Ahoy there, {{ElderInformalNoun}}.#$b#Looks like decent weather for fishing, eh?",
   "CFE_Willy_Tue8": "I'm happy that I entrusted you with my old rod, @, back when we first met. You've been a good friend.$h",
   "CFE_Willy_Tue4": "To take the life of a fish, you have to respect it first. You certainly won't last long in this profession, otherwise.",
   "CFE_Willy_Wed8": "I've never been married, no.#$e#I loved someone once, long ago. She left me for another man.#$e#Sometimes, the one that gets away, stays away forever.$s",
