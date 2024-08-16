@@ -9,7 +9,10 @@
         "AcceptGift_(O)446": "{{i18n: CFE_Penny_RabbitsFoot}}",
         "AcceptGift_(O)60": "{{i18n: CFE_Penny_Emerald}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Penny_GiftTastes",
@@ -27,7 +30,8 @@
         "AcceptGift_(O)244": "{{i18n: CFE_Penny_RootsPlatter}}",
         "AcceptGift_(O)873": "{{i18n: CFE_Penny_Sandfish}}",
         "AcceptGift_(O)218": "{{i18n: CFE_Penny_TomKhaSoup}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Penny_Rainy",
@@ -35,7 +39,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Penny": "{{i18n: CFE_Penny_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Penny_Dialogue",
@@ -144,7 +149,8 @@
         "winter_Mon": "{{i18n: CFE_Penny_winterMon}}",
         "winter_Wed": "{{i18n: CFE_Penny_winterWed}}",
         "winter_Fri": "{{i18n: CFE_Penny_winterFri}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Penny_Marriage_GenericDialogue",
@@ -154,7 +160,8 @@
         "spouseRoom_Penny": "{{i18n: CFE_Penny_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Penny": "{{i18n: CFE_Penny_Married_jobLeave_{{Random: 1,2,3,4}}}}",
         "jobReturn_Penny": "{{i18n: CFE_Penny_Married_jobReturn_{{Random: 1,2,3,4}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Penny_Marriage",
@@ -251,7 +258,8 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      }
+      },
+      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

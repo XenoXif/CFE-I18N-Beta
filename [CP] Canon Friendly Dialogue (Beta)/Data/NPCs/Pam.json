@@ -13,7 +13,10 @@
         "AcceptGift_(O)199": "{{i18n: CFE_Pam_ParsnipSoup}}",
         "AcceptGift_(O)873": "{{i18n: CFE_Pam_PinaColada}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Pam_GiftTastes",
@@ -26,7 +29,8 @@
         "AcceptGift_(O)446": "{{i18n: CFE_Pam_RabbitsFoot}}",
         "AcceptGift_(O)90": "{{i18n: CFE_Pam_CactusFruit}}",
         "AcceptGift_(O)208": "{{i18n: CFE_Pam_GlazedYams}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Pam_Rainy",
@@ -34,7 +38,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Pam": "{{i18n: CFE_Pam_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Pam_Dialogue",
@@ -105,7 +110,8 @@
         //Generic Weekday Dialogue
         "winter_Mon": "{{i18n: CFE_Pam_winterMon}}",
         "Fri": "{{i18n: CFE_Pam_Fri}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

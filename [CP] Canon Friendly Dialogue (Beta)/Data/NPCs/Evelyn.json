@@ -8,7 +8,10 @@
         //any keys that overlap go here
         "AcceptGift_(O)595": "{{i18n: CFE_Evelyn_FairyRose{{GenderNeutralCompat}}}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Evelyn_GiftTastes",
@@ -24,7 +27,8 @@
         "AcceptGift_(O)72": "{{i18n: CFE_Evelyn_Diamond}}",
         "AcceptGift_(O)239": "{{i18n: CFE_Evelyn_Stuffing}}",
         "AcceptGift_(O)591": "{{i18n: CFE_Evelyn_Tulip}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Evelyn_Rainy",
@@ -32,7 +36,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Evelyn": "{{i18n: CFE_Evelyn_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Evelyn_Dialogue",
@@ -105,7 +110,8 @@
         "Sun6": "{{i18n: CFE_Evelyn_Sun6}}"
 
         //Generic Weekday Dialogue
-      }
+      },
+      "When": { "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

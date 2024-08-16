@@ -8,7 +8,10 @@
         //any keys that overlap go here
         "AcceptGift_(O)715": "{{i18n: CFE_Elliott_Lobster}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Elliott_GiftTastes",
@@ -22,7 +25,8 @@
         "AcceptGift_(O)732": "{{i18n: CFE_Elliott_CrabCakes}}",
         "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}",
         "AcceptGift_(O)218": "{{i18n: CFE_Elliott_TomKhaSoup}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Elliott_Rainy",
@@ -30,7 +34,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Elliott": "{{i18n: CFE_Elliott_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Elliott_Dialogue",
@@ -137,7 +142,8 @@
 
         //Generic Weekday Dialogue
         "winter_Wed": "{{i18n: CFE_Elliott_repeated_2}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Elliott_Marriage_GenericDialogue",
@@ -145,7 +151,8 @@
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Elliott": "{{i18n: CFE_Elliott_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Elliott_Marriage",
@@ -232,7 +239,8 @@
         //currently unused. key looks like "fall_Elliott"
 
         //Affection Specific Dialogue
-      }
+      },
+      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

@@ -8,7 +8,10 @@
         //any keys that overlap go here
         "AcceptGift_(O)143": "{{i18n: CFE_Willy_Catfish{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Willy}}' = 'true' OR ('{{CFE_Willy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Willy_GiftTastes",
@@ -28,14 +31,14 @@
         "AcceptGift_(O)154": "{{i18n: CFE_Willy_SeaCucumber{{GenderNeutralCompat}} |GenericNoun={{lowercase:{{Random:{{GNMTGenericNoun}}}}}}}}",
         "AcceptGift_(O)698": "{{i18n: CFE_Willy_Sturgeon}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+      "When": { "Query: '{{CFE_Willy}}' = 'true' OR ('{{CFE_Willy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     /* {
       "LogName": "CFE_Willy_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": { //left for future use }
+      "When": { "Query: '{{CFE_Willy}}' = 'true' OR ('{{CFE_Willy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }, */
     {
       "LogName": "CFE_Willy_Dialogue",
@@ -114,7 +117,8 @@
         "winter_Tue": "{{i18n: CFE_Willy_winterTue}}",
         "Mon": "{{i18n: CFE_Willy_Mon}}",
         "Fri": "{{i18n: CFE_Willy_Fri}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Willy}}' = 'true' OR ('{{CFE_Willy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

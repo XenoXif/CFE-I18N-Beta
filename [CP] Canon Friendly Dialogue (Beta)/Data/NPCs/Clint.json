@@ -14,7 +14,10 @@
         "AcceptGift_(O)70": "{{i18n: CFE_Clint_Jade}}"
         //any keys that overlap go here
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Clint}}' = 'true' OR ('{{CFE_Clint}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Clint_GiftTastes",
@@ -29,7 +32,8 @@
         "AcceptGift_(O)337": "{{i18n: CFE_Clint_IridiumBar}}",
         "AcceptGift_(O)605": "{{i18n: CFE_Clint_ArtichokeDip}}",
         "AcceptGift_(O)649": "{{i18n: CFE_Clint_FiddleheadRisotto}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Clint}}' = 'true' OR ('{{CFE_Clint}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Clint_Rainy",
@@ -37,7 +41,9 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Clint": "{{i18n: CFE_Clint_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Clint}}' = 'true' OR ('{{CFE_Clint}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+
     },
     {
       "LogName": "CFE_Clint_Dialogue",
@@ -113,7 +119,8 @@
 
         "Mon_inlaw_Emily": "{{i18n: CFE_Clint_MoninlawEmily}}",
         "Thu": "{{i18n: CFE_Clint_Thu}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Clint}}' = 'true' OR ('{{CFE_Clint}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

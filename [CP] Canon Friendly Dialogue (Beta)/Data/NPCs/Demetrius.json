@@ -11,7 +11,10 @@
         "AcceptGift_(O)232": "{{i18n: CFE_Demetrius_RicePudding}}",
         "AcceptGift_(O)400": "{{i18n: CFE_Demetrius_Strawberry}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Demetrius}}' = 'true' OR ('{{CFE_Demetrius}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Demetrius_GiftTastes",
@@ -22,7 +25,8 @@
         "AcceptGift_(O)797": "{{i18n: CFE_Demetrius_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Demetrius_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Demetrius_RabbitsFoot}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Demetrius}}' = 'true' OR ('{{CFE_Demetrius}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Demetrius_Rainy",
@@ -30,7 +34,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Demetrius": "{{i18n: CFE_Demetrius_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Demetrius}}' = 'true' OR ('{{CFE_Demetrius}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Demetrius_Dialogue",
@@ -109,7 +114,8 @@
         "winter_Wed": "{{i18n: CFE_Demetrius_winterWed}}",
         "winter_Sat": "{{i18n: CFE_Demetrius_winterSat}}",
         "Sun_inlaw_Sebastian": "{{i18n: CFE_Demetrius_SuninlawSebastian}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Demetrius}}' = 'true' OR ('{{CFE_Demetrius}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

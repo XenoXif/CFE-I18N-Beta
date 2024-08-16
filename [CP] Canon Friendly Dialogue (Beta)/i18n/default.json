@@ -4,7 +4,7 @@
 
   //Config Schema for GMCM.
   "config.section.Dialogue.name": "NPC Dialogue Settings",
-  "config.section.Dialogue.description": "Toggle specific NPCs new dialogue on, off, or 50/50",
+  "config.section.Dialogue.description": "Toggle specific NPCs new dialogue on, off, or 50/50.",
   "config.section.Misc.name": "Other Settings",
   "config.section.Misc.description": "Toggle other additions on/off",
   "config.CFE_Festivals.name": "Festivals",
@@ -3214,7 +3214,7 @@
   "CFE_Maru_summerTue8": "@, you're looking sharp today.$h",
   "CFE_Maru_summerTue6": "If you think about the human body, it's hard to believe that somehow, it all just 'works'.",
   "CFE_Maru_summerTue4inlawSebastian": "Heyyy, brother-in-law!$h^Heyyy, sister-in-law!$h#$e#Sebastian seems so much happier now that he doesn't have to live here. I hope things are well!",
-  "CFE_Maru_summerTue4inlawSebastian_GN": "Heyyy, in-law!$h#$e#Sebastian seems so much happier now that he doesn't have to live here. I hope things are well!",
+  "CFE_Maru_summerTue4inlawSebastian_GN": "Heyyy, {{SiblingNoun}}-in-law!$h#$e#Sebastian seems so much happier now that he doesn't have to live here. I hope things are well!",
   "CFE_Maru_summerTue2": "My brother only tends to come out of his room in the afternoon.#$e#Sometimes we go for a couple of days before our paths cross.$s",
   "CFE_Maru_summerWed10": "It's strange. Looking at the cosmos through my telescope seems a little lonely these days.$s#$e#Just lonely... without you with me.",
   "CFE_Maru_summerWed8": "I wonder if I can find some celestial bodies I haven't seen before tonight?",

@@ -1,19 +1,17 @@
 hello! This readme is for mod makers and translators~
 
-Canon Friendly Dialogue Expansion has just receieved a massive update to it's code! Now there is i18n functionality, a config to toggle individual npcs on/off, and shared key compatibility frameworks. If you would like compatibility with CDE on our side, please reach out
-
-[gizzymo- who should they ask? if they need your permission, should they go through discord or nexus? public or private?]
+Canon Friendly Dialogue Expansion has just receieved a massive update to it's code! Now there is i18n functionality, a config to toggle individual npcs on/off, and shared key compatibility options. If you would like compatibility with CDE on our side, please reach out to Gizzymo on Nexus for writing/story releated compat, or Koda on Discord (Sour_Creamier) for coding or complex mod related compat
 
 How to translate i18n:
 https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-guide/translations.md
 https://stardewvalleywiki.com/Modding:Translations
 
-** Please note! you only need to translate the dialogue lines found in default.json. you won't find anything to translate in the Data file.
-**Do not translate anything inside {{brackets}}, and be careful when translating questions that you don't translate any of the question code! 
-**Example:   "CFE_Abigail_fallSun8": "[Hmm... what should I do tonight?]#$q 27/28 fall_Sun_old#[I was thinking about dyeing my hair again... what do you think?]#$r 27 10 Sun_27#[Dye it black.]#$r 27 10 Sun_27#[Why not blonde?]#$r 27 20 Sun_WildColor#[How about bubblegum pink?]#$r 28 0 Sun_28#[I like your hair just the way it is!]", only translate the portions shown in [brackets] above 
+** Please note! you only need to translate the dialogue lines found in default.json. you won't find anything to translate in the Data folder.
+**Do not translate anything inside {{braces}}, and be careful when translating questions that you don't translate any of the question code! 
+**Example:   "CFE_Abigail_fallSun8": "[Hmm... what should I do tonight?]#$q 27/28 fall_Sun_old#[I was thinking about dyeing my hair again... what do you think?]#$r 27 10 Sun_27#[Dye it black.]#$r 27 10 Sun_27#[Why not blonde?]#$r 27 20 Sun_WildColor#[How about bubblegum pink?]#$r 28 0 Sun_28#[I like your hair just the way it is!]", only translate the portions shown in [brackets] above, and not anything that looks like this: {{GenericNoun}} 
 
 How to upload your translation:
-[gizzy- would you prefer they upload the file itself, or send you the translation for you to upload?]
+**Publish your i18n file alone, please do not publish the full mod/Data files! Players will drag and drop your i18n file, with your language's i18n.json inside, into CFE's i18n folder. You can also reach out to Gizzymo to include your file in the base mod, and we will mention you as a translator in our credits! We encourage you to upload the file itself though so that you can get DP and manage bugs or translation errors directly. 
 
 List of changes made to keys used in this update:
 exact duplicates from the vanilla code have been removed across all files!

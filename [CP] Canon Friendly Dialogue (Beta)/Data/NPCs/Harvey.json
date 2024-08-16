@@ -8,7 +8,10 @@
         //any keys that overlap go here
         "AcceptGift_(O)395": "{{i18n: CFE_Harvey_Coffee}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Harvey_GiftTastes",
@@ -19,10 +22,10 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Harvey_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Harvey_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Harvey_RabbitsFoot}}",
-
         "AcceptGift_(O)342": "{{i18n: CFE_Harvey_Pickles}}",
         "AcceptGift_(O)237": "{{i18n: CFE_Harvey_SuperMeal}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Harvey_Rainy",
@@ -30,7 +33,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Harvey": "{{i18n: CFE_Harvey_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Harvey_Dialogue",
@@ -118,7 +122,8 @@
 
         "Sat": "{{i18n: CFE_Harvey_Sat}}",
         "Sun": "{{i18n: CFE_Harvey_Sun}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Harvey_Marriage_GenericDialogue",
@@ -128,7 +133,8 @@
         "spouseRoom_Harvey": "{{i18n: CFE_Harvey_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Harvey": "{{i18n: CFE_Harvey_Married_jobLeave_{{Random: 1,2,3,4}}}}",
         "jobReturn_Harvey": "{{i18n: CFE_Harvey_Married_jobReturn_{{Random: 1,2,3,4}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Harvey_Marriage",
@@ -214,7 +220,8 @@
         //currently unused. key looks like "fall_Harvey"
 
         //Affection Specific Dialogue
-      }
+      },
+      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

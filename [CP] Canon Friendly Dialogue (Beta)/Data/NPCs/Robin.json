@@ -8,7 +8,10 @@
         //any keys that overlap go here
         "AcceptGift_(O)224": "{{i18n: CFE_Robin_Spaghetti}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Robin}}' = 'true' OR ('{{CFE_Robin}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Robin_GiftTastes",
@@ -22,7 +25,8 @@
         "AcceptGift_(O)446": "{{i18n: CFE_Robin_RabbitsFoot}}",
         "AcceptGift_(O)426": "{{i18n: CFE_Robin_GoatCheese}}",
         "AcceptGift_(O)636": "{{i18n: CFE_Robin_Peach}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Robin}}' = 'true' OR ('{{CFE_Robin}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Robin_Rainy",
@@ -30,7 +34,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Robin": "{{i18n: CFE_Robin_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Robin}}' = 'true' OR ('{{CFE_Robin}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Robin_Dialogue",
@@ -110,7 +115,8 @@
         "Wed_605": "{{i18n: CFE_Robin_Wed_605}}",
         "Wed_606": "{{i18n: CFE_Robin_Wed_606}}",
         "Fri_inlaw_Maru": "{{i18n: CFE_Robin_FriinlawMaru}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Robin}}' = 'true' OR ('{{CFE_Robin}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

@@ -8,7 +8,10 @@
         //any keys that overlap go here
         "AcceptGift_(O)221": "{{i18n: CFE_Haley_PinkCake{{GenderNeutralCompat}}}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Haley_GiftTastes",
@@ -18,9 +21,9 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Haley_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Haley_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Haley_RabbitsFoot}}",
-
-        "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}"
-      }
+        "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}",
+      },
+      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Haley_Rainy",
@@ -28,7 +31,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Haley": "{{i18n: CFE_Haley_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Haley_Dialogue",
@@ -135,7 +139,8 @@
         "summer_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
         "fall_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
         "winter_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Haley_Marriage_GenericDialogue",
@@ -143,7 +148,8 @@
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Haley": "{{i18n: CFE_Haley_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Haley_Marriage",
@@ -189,7 +195,7 @@
         "OneKid_1": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 3,4}}}}",
         "OneKid_2": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 5,6}}}}",
         "OneKid_3": "{{i18n: CFE_Haley_Married_OneKid_{{Random: 7,8}}}}",
-       
+
         "TwoKids_0": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 1,2}}}}",
         "TwoKids_1": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 3,4}}{{GenderNeutralCompat}}}}",
         "TwoKids_2": "{{i18n: CFE_Haley_Married_TwoKids_{{Random: 5,6}}}}",
@@ -232,7 +238,8 @@
         //currently unused. key looks like "fall_Haley"
 
         //Affection Specific Dialogue
-      }
+      },
+      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

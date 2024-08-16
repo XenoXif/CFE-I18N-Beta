@@ -8,7 +8,10 @@
         "AcceptGift_(O)90": "{{i18n: CFE_Sam_CactusFruit}}"
         //any keys that overlap go here
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Sam_GiftTastes",
@@ -21,7 +24,8 @@
         "AcceptGift_(O)446": "{{i18n: CFE_Sam_RabbitsFoot}}",
         "AcceptGift_(O)731": "{{i18n: CFE_Sam_MapleBar{{GenderNeutralCompat}}}}",
         "AcceptGift_(O)562": "{{i18n: CFE_Sam_TigersEye}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Sam_Rainy",
@@ -29,7 +33,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Sam": "{{i18n: CFE_Sam_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "Sam",
@@ -147,7 +152,8 @@
         //Generic Weekday Dialogue
         "summer_Mon": "{{i18n: CFE_Sam_summerMon}}",
         "Thu_2": "{{i18n: CFE_Sam_Thuy2}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Sam_Married_spouseRoom",
@@ -155,7 +161,8 @@
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Sam": "{{i18n: CFE_Sam_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "Sam Marriage",
@@ -228,7 +235,8 @@
 
         //season specific dialogue
         //affection specific dialogue
-      }
+      },
+      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

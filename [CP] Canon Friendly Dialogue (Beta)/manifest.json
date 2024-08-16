@@ -7,12 +7,5 @@
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
   },
-  "Dependencies": [
-    {
-      "UniqueID": " Hana.GNMTokens",
-      "IsRequired": false
-    }
-  ],
-  "UpdateKeys": [ "Nexus:2544" ],
-  "Priority": "low"
+  "UpdateKeys": [ "Nexus:2544" ]
 }

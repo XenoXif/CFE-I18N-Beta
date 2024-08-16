@@ -9,7 +9,10 @@
         "AcceptGift_(O)20": "{{i18n: CFE_George_Leek_{{Random: 1,2}}}}",
         "AcceptGift_(O)205": "{{i18n: CFE_George_FriedMushroom}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_George_GiftTastes",
@@ -20,7 +23,8 @@
         "AcceptGift_(O)279": "{{i18n: CFE_George_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_George_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_George_PrismaticShard}}"
-      }
+      },
+      "When": { "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_George_Rainy",
@@ -28,7 +32,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "George": "{{i18n: CFE_George_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
     },
     {
       "LogName": "CFE_George_Dialogue",
@@ -100,7 +105,8 @@
         //Generic Weekday Dialogue
         "Fri": "{{i18n: CFE_George_Fri}}",
         "Sun": "{{i18n: CFE_George_Sun}}"
-      }
+      },
+      "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
     }
   ]
 }

@@ -8,7 +8,10 @@
         //any keys that overlap go here
         "AcceptGift_(O)213": "{{i18n: CFE_Caroline_FishTaco}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Caroline_GiftTastes",
@@ -22,7 +25,8 @@
         "AcceptGift_(O)614": "{{i18n: CFE_Caroline_GreenTea}}",
         "AcceptGift_(O)593": "{{i18n: CFE_Caroline_SummerSpangle}}",
         "AcceptGift_(O)907": "{{i18n: CFE_Caroline_TropicalCurry}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Caroline_Rainy",
@@ -30,7 +34,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Caroline": "{{i18n: CFE_Caroline_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Caroline_Dialogue",
@@ -111,7 +116,8 @@
 
         "Tue": "{{i18n: CFE_Caroline_Tue}}",
         "Sat": "{{i18n: CFE_Caroline_Sat}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

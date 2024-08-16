@@ -9,7 +9,10 @@
         "AcceptGift_(O)346": "{{i18n: CFE_Shane_Beer}}",
         "AcceptGift_(O)206": "{{i18n: CFE_Shane_Pizza}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Shane_GiftTastes",
@@ -24,8 +27,7 @@
         "AcceptGift_(O)260": "{{i18n: CFE_Shane_HotPepper}}",
         "AcceptGift_(O)215": "{{i18n: CFE_Shane_PepperPoppers}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
-      //this is a dynamic token, used to 50/50 randomize which mods gift taste line shows up for these gifts when both mods use the same key. players may get 50/50 with a vanilla or generic gift taste line if UGDE doesn't touch the same key. I can change this if it bothers you but it would mean you have to keep track of a little bit more sectioning and note what keys UGDE uses.
+      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Shane_Rainy",
@@ -33,7 +35,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Shane": "{{i18n: CFE_Shane_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Shane_Dialogue",
@@ -121,7 +124,8 @@
 
         //Generic Weekday Dialogue
         "Mon": "{{i18n: CFE_Shane_Mon}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Shane_Married_spouseRoom",
@@ -129,7 +133,8 @@
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Shane": "{{i18n: CFE_Shane_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Shane_Marriage",
@@ -219,7 +224,8 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      }
+      },
+      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

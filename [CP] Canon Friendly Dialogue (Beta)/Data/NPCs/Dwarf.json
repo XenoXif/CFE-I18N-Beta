@@ -8,7 +8,10 @@
         "AcceptGift_(O)554": "{{i18n: CFE_Dwarf_LemonStone}}"
         //any keys that overlap go here
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Dwarf}}' = 'true' OR ('{{CFE_Dwarf}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Dwarf_GiftTastes",
@@ -28,7 +31,8 @@
         "AcceptGift_(O)70": "{{i18n: CFE_Dwarf_Jade}}",
         "AcceptGift_(O)749": "{{i18n: CFE_Dwarf_OmniGeode}}",
         "AcceptGift_(O)162": "{{i18n: CFE_Dwarf_LavaEel}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Dwarf}}' = 'true' OR ('{{CFE_Dwarf}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Dwarf_Rainy",
@@ -36,7 +40,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Dwarf": "{{i18n: CFE_Dwarf_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Dwarf}}' = 'true' OR ('{{CFE_Dwarf}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Dwarf_Dialogue",
@@ -108,7 +113,8 @@
         "Mon": "{{i18n: CFE_Dwarf_Mon}}",
         "Tue": "{{i18n: CFE_Dwarf_Tue}}",
         "Sun": "{{i18n: CFE_Dwarf_Sun}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Dwarf}}' = 'true' OR ('{{CFE_Dwarf}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

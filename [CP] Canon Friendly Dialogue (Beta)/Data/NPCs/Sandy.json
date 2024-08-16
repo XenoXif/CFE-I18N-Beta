@@ -7,7 +7,7 @@
       "Entries": {
         //any keys that overlap go here
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": { "ModdedDialogCompat": "true" "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }, */
     {
       "LogName": "CFE_Sandy_GiftTastes",
@@ -20,7 +20,8 @@
         "AcceptGift_(O)74": "{{i18n: CFE_Sandy_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Sandy_RabbitsFoot}}",
         "AcceptGift_(O)905": "{{i18n: CFE_Sandy_MangoStickyRice}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Sandy_Rainy",
@@ -28,7 +29,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Sandy": "{{i18n: CFE_Sandy_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "Sandy",
@@ -104,7 +106,8 @@
 
         "Fri": "{{i18n: CFE_Sandy_Fri}}",
         "Sat": "{{i18n: CFE_Sandy_Sat}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

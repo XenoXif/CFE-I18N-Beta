@@ -10,7 +10,10 @@
         "AcceptGift_(O)729": "{{i18n: CFE_Gus_Escargot}}",
         "AcceptGift_(O)213": "{{i18n: CFE_Gus_FishTaco}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Gus_GiftTastes",
@@ -23,7 +26,8 @@
         "AcceptGift_(O)74": "{{i18n: CFE_Gus_PrismaticShard}}",
         "AcceptGift_(O)635": "{{i18n: CFE_Gus_Orange}}",
         "AcceptGift_(O)907": "{{i18n: CFE_Gus_TropicalCurry}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Gus_Rainy",
@@ -31,7 +35,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Gus": "{{i18n: CFE_Gus_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Gus_Dialogue",
@@ -128,7 +133,8 @@
         "Wed_014": "{{i18n: CFE_Gus_Wed_014}}",
         "Wed_015": "{{i18n: CFE_Gus_Wed_015}}",
         "Sat": "{{i18n: CFE_Gus_Sat}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

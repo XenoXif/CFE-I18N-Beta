@@ -7,7 +7,10 @@
       "Entries": {
         //any keys that overlap go here
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+     "ModdedDialogCompat": "true" 
+     "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },*/
     {
       "LogName": "CFE_Jodi_GiftTastes",
@@ -27,7 +30,8 @@
         "AcceptGift_(O)211": "{{i18n: CFE_Jodi_Pancakes}}",
         "AcceptGift_(O)222": "{{i18n: CFE_Jodi_RhubarbPie}}",
         "AcceptGift_(O)200": "{{i18n: CFE_Jodi_VegetableMedley}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Jodi_Rainy",
@@ -35,7 +39,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Jodi": "{{i18n: CFE_Jodi_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Jodi_Dialogue",
@@ -135,7 +140,8 @@
         "Sun_116": "{{i18n: CFE_Jodi_Sun_116}}",
         "Sun_117": "{{i18n: CFE_Jodi_Sun_117}}",
         "Sun_2": "{{i18n: CFE_Jodi_Suny2}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

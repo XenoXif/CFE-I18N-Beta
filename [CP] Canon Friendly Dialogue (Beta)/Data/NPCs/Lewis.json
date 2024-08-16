@@ -8,7 +8,10 @@
         "AcceptGift_(O)200": "{{i18n: CFE_Lewis_VegetableMedley}}"
         //every time UGDE updates, or someone requests special compat with a different mod, this section may be updated to include the conflicting key. Mods other than UGDE will need to be added to the list of mods to recognize, found in the dynamic tokens section of content.json
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Lewis_Rainy",
@@ -16,7 +19,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Lewis": "{{i18n: CFE_Lewis_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Lewis_GiftTastes",
@@ -31,7 +35,8 @@
         "AcceptGift_(O)614": "{{i18n: CFE_Lewis_GreenTea{{GenderNeutralCompat}}}}",
         "AcceptGift_(O)208": "{{i18n: CFE_Lewis_GlazedYams}}",
         "AcceptGift_(O)260": "{{i18n: CFE_Lewis_HotPepper}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Lewis_Dialogue",
@@ -124,7 +129,8 @@
 
         "Thu": "{{i18n: CFE_Lewis_Thu}}",
         "Sun": "{{i18n: CFE_Lewis_Sun}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

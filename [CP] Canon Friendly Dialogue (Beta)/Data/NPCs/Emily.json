@@ -8,7 +8,10 @@
         //any keys that overlap go here
         "AcceptGift_(O)74": "{{i18n: CFE_Emily_PrismaticShard}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Emily_GiftTastes",
@@ -21,7 +24,8 @@
         "AcceptGift_(O)440": "{{i18n: CFE_Emily_Wool}}",
         "AcceptGift_(O)428": "{{i18n: CFE_Emily_Cloth}}",
         "AcceptGift_(O)241": "{{i18n: CFE_Emily_SurvivalBurger}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Emily_Rainy",
@@ -29,7 +33,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Emily": "{{i18n: CFE_Emily_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Emily_Dialogue",
@@ -141,7 +146,8 @@
         //Generic Weekday Dialogue
         "winter_Wed_inlaw_Haley": "{{i18n: CFE_Emily_winterWedinlawHaley}}",
         "winter_Wed": "{{i18n: CFE_Emily_winterWed}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Emily_Marriage_GenericDialogue",
@@ -149,7 +155,8 @@
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Emily": "{{i18n: CFE_Emily_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Emily_Marriage",
@@ -236,7 +243,8 @@
         //currently unused. key looks like "fall_Emily"
 
         //Affection Specific Dialogue
-      }
+      },
+      "When": { "Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

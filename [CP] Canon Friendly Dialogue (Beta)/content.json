@@ -1,178 +1,178 @@
 {
-  "Format": "2.0.0",
+  "Format": "2.3.0",
   "ConfigSchema": { //lets players toggle settings on and off
     "CFE_Abigail": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Alex": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Birdie": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Caroline": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Clint": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Demetrius": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Dwarf": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Elliott": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Emily": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Evelyn": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_George": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Gus": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Haley": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Harvey": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Jas": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Jodi": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Kent": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Krobus": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Leah": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Leo": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Lewis": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Linus": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Marnie": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Maru": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Pam": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Penny": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Pierre": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Robin": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Sam": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Sandy": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Sebastian": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Shane": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Vincent": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Willy": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
     "CFE_Wizard": {
-      "AllowValues": "true, false",
+      "AllowValues": "true, false, random",
       "Default": "true",
       "Section": "Dialogue"
     },
@@ -206,12 +206,16 @@
     },
     {
       "Name": "GenderNeutralSingular",
-      "Value": "_Singular"
+      "Value": "_Plural",
+      "When": { "HasMod": "Hana.GNMTokens" }
     },
     {
       "Name": "GenderNeutralSingular",
-      "Value": "_Plural",
-      "When": { "Hana.GNMTokens/Singular": true }
+      "Value": "_Singular",
+      "When": {
+        "Hana.GNMTokens/Singular": true,
+        "HasMod": "Hana.GNMTokens"
+      }
     },
     {
       "Name": "GNMTObjectivePronoun",
@@ -302,6 +306,15 @@
       "Name": "GNMTTermOfEndearment",
       "Value": "{{Hana.GNMTokens/TermOfEndearment}}",
       "When": { "HasMod": "Hana.GNMTokens" }
+    },
+    {
+      "Name": "GNMTSiblingNoun",
+      "Value": "false"
+    },
+    {
+      "Name": "GNMTSiblingNoun",
+      "Value": "{{Hana.GNMTokens/SiblingNoun}}",
+      "When": { "HasMod": "Hana.GNMTokens" }
     }
   ],
   "Changes": [
@@ -309,217 +322,217 @@
       "LogName": "CFE_Abigail_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Abigail.json",
-      "When": { "CFE_Abigail": "true" }
+      "When": { "CFE_Abigail |contains= false": false }
     },
     {
       "LogName": "CFE_Alex_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Alex.json",
-      "When": { "CFE_Alex": "true" }
+      "When": { "CFE_Alex |contains= false": false }
     },
     {
       "LogName": "CFE_Birdie_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Birdie.json",
-      "When": { "CFE_Birdie": "true" }
+      "When": { "CFE_Birdie |contains= false": false }
     },
     {
       "LogName": "CFE_Caroline_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Caroline.json",
-      "When": { "CFE_Caroline": "true" }
+      "When": { "CFE_Caroline |contains= false": false }
     },
     {
       "LogName": "CFE_Clint_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Clint.json",
-      "When": { "CFE_Clint": "true" }
+      "When": { "CFE_Clint |contains= false": false }
     },
     {
       "LogName": "CFE_Demetrius_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Demetrius.json",
-      "When": { "CFE_Demetrius": "true" }
+      "When": { "CFE_Demetrius |contains= false": false }
     },
     {
       "LogName": "CFE_Dwarf_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Dwarf.json",
-      "When": { "CFE_Dwarf": "true" }
+      "When": { "CFE_Dwarf |contains= false": false }
     },
     {
       "LogName": "CFE_Elliott_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Elliott.json",
-      "When": { "CFE_Elliott": "true" }
+      "When": { "CFE_Elliott |contains= false": false }
     },
     {
       "LogName": "CFE_Emily_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Emily.json",
-      "When": { "CFE_Emily": "true" }
+      "When": { "CFE_Emily |contains= false": false }
     },
     {
       "LogName": "CFE_Evelyn_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Evelyn.json",
-      "When": { "CFE_Evelyn": "true" }
+      "When": { "CFE_Evelyn |contains= false": false }
     },
     {
       "LogName": "CFE_George_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/George.json",
-      "When": { "CFE_George": "true" }
+      "When": { "CFE_George |contains= false": false }
     },
     {
       "LogName": "CFE_Gus_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Gus.json",
-      "When": { "CFE_Gus": "true" }
+      "When": { "CFE_Gus |contains= false": false }
     },
     {
       "LogName": "CFE_Haley_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Haley.json",
-      "When": { "CFE_Haley": "true" }
+      "When": { "CFE_Haley |contains= false": false }
     },
     {
       "LogName": "CFE_Harvey_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Harvey.json",
-      "When": { "CFE_Harvey": "true" }
+      "When": { "CFE_Harvey |contains= false": false }
     },
     {
       "LogName": "CFE_Jas_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Jas.json",
-      "When": { "CFE_Jas": "true" }
+      "When": { "CFE_Jas |contains= false": false }
     },
     {
       "LogName": "CFE_Jodi_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Jodi.json",
-      "When": { "CFE_Jodi": "true" }
+      "When": { "CFE_Jodi |contains= false": false }
     },
     {
       "LogName": "CFE_Kent_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Kent.json",
-      "When": { "CFE_Kent": "true" }
+      "When": { "CFE_Kent |contains= false": false }
     },
     {
       "LogName": "CFE_Krobus_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Krobus.json",
-      "When": { "CFE_Krobus": "true" }
+      "When": { "CFE_Krobus |contains= false": false }
     },
     {
       "LogName": "CFE_Leah_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Leah.json",
-      "When": { "CFE_Caroline": "true" }
+      "When": { "CFE_Caroline |contains= false": false }
     },
     {
       "LogName": "CFE_Leo_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Leo.json",
-      "When": { "CFE_Leo": "true" }
+      "When": { "CFE_Leo |contains= false": false }
     },
     {
       "LogName": "CFE_LeoMainland_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/LeoMainland.json",
-      "When": { "CFE_Leo": "true" }
+      "When": { "CFE_Leo |contains= false": false }
     },
     {
       "LogName": "CFE_Lewis_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Lewis.json",
-      "When": { "CFE_Lewis": "true" }
+      "When": { "CFE_Lewis |contains= false": false }
     },
     {
       "LogName": "CFE_Linus_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Linus.json",
-      "When": { "CFE_Linus": "true" }
+      "When": { "CFE_Linus |contains= false": false }
     },
     {
       "LogName": "CFE_Marnie_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Marnie.json",
-      "When": { "CFE_Marnie": "true" }
+      "When": { "CFE_Marnie |contains= false": false }
     },
     {
       "LogName": "CFE_Maru_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Maru.json",
-      "When": { "CFE_Maru": "true" }
+      "When": { "CFE_Maru |contains= false": false }
     },
     {
       "LogName": "CFE_Pam_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Pam.json",
-      "When": { "CFE_Pam": "true" }
+      "When": { "CFE_Pam |contains= false": false }
     },
     {
       "LogName": "CFE_Penny_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Penny.json",
-      "When": { "CFE_Penny": "true" }
+      "When": { "CFE_Penny |contains= false": false }
     },
     {
       "LogName": "CFE_Pierre_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Pierre.json",
-      "When": { "CFE_Pierre": "true" }
+      "When": { "CFE_Pierre |contains= false": false }
     },
     {
       "LogName": "CFE_Robin_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Robin.json",
-      "When": { "CFE_Robin": "true" }
+      "When": { "CFE_Robin |contains= false": false }
     },
     {
       "LogName": "CFE_Sam_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Sam.json",
-      "When": { "CFE_Sam": "true" }
+      "When": { "CFE_Sam |contains= false": false }
     },
     {
       "LogName": "CFE_Sandy_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Sandy.json",
-      "When": { "CFE_Sandy": "true" }
+      "When": { "CFE_Sandy |contains= false": false }
     },
     {
       "LogName": "CFE_Sebastian_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Sebastian.json",
-      "When": { "CFE_Sebastian": "true" }
+      "When": { "CFE_Sebastian |contains= false": false }
     },
     {
       "LogName": "CFE_Shane_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Shane.json",
-      "When": { "CFE_Shane": "true" }
+      "When": { "CFE_Shane |contains= false": false }
     },
     {
       "LogName": "CFE_Vincent_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Vincent.json",
-      "When": { "CFE_Vincent": "true" }
+      "When": { "CFE_Vincent |contains= false": false }
     },
     {
       "LogName": "CFE_Willy_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Willy.json",
-      "When": { "CFE_Willy": "true" }
+      "When": { "CFE_Willy |contains= false": false }
     },
     {
       "LogName": "CFE_Wizard_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Wizard.json",
-      "When": { "CFE_Wizard": "true" }
+      "When": { "CFE_Wizard |contains= false": false }
     },
     {
       "LogName": "CFE_FestivalAlt_Include",

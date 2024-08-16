@@ -7,7 +7,10 @@
       "Entries": {
         //any keys that overlap go here
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+     "ModdedDialogCompat": "true",
+     "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+    }
     }, */
     {
       "LogName": "CFE_Alex_GiftTastes",
@@ -21,7 +24,8 @@
 
         "AcceptGift_(O)201": "{{i18n: CFE_Alex_CompleteBreakfast}}",
         "AcceptGift_(O)212": "{{i18n: CFE_Alex_SalmonDinner}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Alex_Rainy",
@@ -29,7 +33,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Alex": "{{i18n: CFE_Alex_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Alex_Dialogue",
@@ -170,7 +175,8 @@
         "fall_Sat_inlaw_Haley": "{{i18n: CFE_Alex_repeated_3}}",
 
         "Sat_inlaw_Haley": "{{i18n: CFE_Alex_repeated_3}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Alex_Marriage_GenericDialogue",
@@ -178,7 +184,8 @@
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Alex": "{{i18n: CFE_Alex_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Alex_Marriage",
@@ -201,7 +208,7 @@
         "Rainy_Night_3": "{{i18n: CFE_Alex_Married_RainyNight_{{Random: 7,8}}}}",
         "Rainy_Night_4": "{{i18n: CFE_Alex_Married_RainyNight_{{Random: 9,10}}}}",
 
-        "Indoor_Day_0": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 1,2,3}}{{GenderNeutralCompat}} |SpouseNoun={{lowercase:{{Random:{{GNMTSpouseNoun}}}}}}, TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
+        "Indoor_Day_0": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 1,2,3}}{{GenderNeutralCompat}} |SpouseNoun={{lowercase:{{Random:{{GNMTSpouseNoun}}}}}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
         "Indoor_Day_1": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 4,5,6}}}}",
         "Indoor_Day_2": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 7,8,9}}}}",
         "Indoor_Day_3": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 10,11,12}}}}",
@@ -266,7 +273,8 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      }
+      },
+      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }

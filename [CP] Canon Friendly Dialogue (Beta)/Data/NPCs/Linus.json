@@ -8,7 +8,10 @@
         "AcceptGift_(O)90": "{{i18n: CFE_Linus_CactusFruit}}",
         "AcceptGift_(O)88": "{{i18n: CFE_Linus_Coconut}}"
       },
-      "When": { "ModdedDialogCompat": "true" }
+      "When": {
+        "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
       //every time UGDE updates, or someone requests special compat with this mod, this section may be updated to include the conflicting key. Mods other than UGDE will need to be added to the list of mods to recognize, found in the dynamic tokens section of content.json
     },
     {
@@ -17,7 +20,8 @@
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Linus": "{{i18n: CFE_Linus_rainy_{{random: 1,2,3}}}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Linus_GiftTastes",
@@ -31,7 +35,8 @@
         "AcceptGift_(O)234": "{{i18n: CFE_Linus_BlueberryTart}}",
         "AcceptGift_(O)242": "{{i18n: CFE_Linus_DishotheSea}}",
         "AcceptGift_(O)280": "{{i18n: CFE_Linus_Yam}}"
-      }
+      },
+      "When": { "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
       "LogName": "CFE_Linus_Dialogue",
@@ -91,7 +96,8 @@
         "Sun8": "{{i18n: CFE_Linus_Sun8}}",
         "Sun2": "{{i18n: CFE_Linus_Sun2}}"
         //Generic Weekday Dialogue
-      }
+      },
+      "When": { "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }
   ]
 }
