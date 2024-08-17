@@ -627,6 +627,6 @@
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:EnableVariantBasedDialogue": "True"
       }
-    },
+    }
   ]
 }
