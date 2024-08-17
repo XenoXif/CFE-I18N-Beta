@@ -45,6 +45,16 @@
   "config.CFE_Willy.name": "Willy",
   "config.CFE_Wizard.name": "Wizard",
 
+  "AlexGrandmaToken.Default": "Grandma", //what Alex calls Evelyn by default
+  "AlexGrandmaToken.Jewish": "Bubbe", //if DSV is installed and Jewish Mullners is enabled
+  "AlexGrandmaToken.Mexican": "Abuela", //if DSV is installed and Evelyn Variant is set to Mexican
+  "AlexGrandmaToken.Samoan": "Tinä", //if DSV is installed and Evelyn Variant is set to Samoan
+
+  "AlexGrandpaToken.Default": "Grandpa", //what Alex calls George by default
+  "AlexGrandpaToken.Jewish": "Zayde", //if DSV is installed and Jewish Mullners is enabled
+  "AlexGrandpaToken.Mexican": "Abuelo", //if DSV is installed and George Variant is set to Mexican
+  "AlexGrandpaToken.Samoan": "Tamä", //if DSV is installed and George Variant is set to Samoan
+
   //NPC Dialogue
 
   //Abigail
@@ -75,6 +85,7 @@
   "CFE_Abigail_repeated_4": "My favorite classes? Probably anthropology... or media arts...$u#$b#Don't know what I'd do with those for a career, though.",
   "CFE_Abigail_repeated_5": "'Journey of the Prairie King' is still driving me crazy.#$e#I tend to stick more to RPGs. Maybe that's why I'm not the best at shooters.",
   "CFE_Abigail_repeated_6": "Sebastian's basically my best friend. I don't know what I'd do without him.#$e#We pretty much grew up together.",
+  "CFE_Abigail_repeated_6.DSV.NonbinarySebastian": "Sebastian's basically my best friend. I don't know what I'd do without them.#$e#We pretty much grew up together.", //DSV's NonbinarySebastian option gives Sebastian a nonbinary gender identity where he uses both he/him (masculine) and they/them (gender-neutral) pronouns
   "CFE_Abigail_repeated_7": "I've often wondered if one day, I'll wake up and realize that the reality I knew was just a dream.#$e#But these days, I don't really hope that's the case.$l",
   "CFE_Abigail_repeated_8": "$d joja#Dad's really stressed about the store lately. He's been all passive aggressive, taking it out on me and Mom.$s|With JojaMart gone, it's actually really nice to see Dad in a positive mood more often.$h",
   "CFE_Abigail_repeated_9": "$d joja#I try to help out in the shop on most days. Business has been pretty bad since the JojaMart opened, though.|Ever since JojaMart shut down we've been doing great at the shop!$h",
@@ -121,8 +132,9 @@
   "CFE_Abigail_summerFri10": "Do you ever get lonely on your farm?",
   "CFE_Abigail_summerFri8": "If I had a cat, I'd spoil the heck out of him.#$e#House cats should be appropriately chunky, don't you think?",
   "CFE_Abigail_summerFri6": "If I ever get reincarnated, I'd want to be a cat in my next life. They've really got it figured out.",
-  "CFE_Abigail_summerFri4": "I kind of wish I had a cat. Unfortunately, my Dad is allergic to pretty much everything.",
+  "CFE_Abigail_summerFri4": "I kind of wish I had a cat. Unfortunately, my dad is allergic to pretty much everything.",
   "CFE_Abigail_summerFri2": "Sebastian's a few years older than I am, but he's one of the few people who actually gets me.",
+  "CFE_Abigail_summerFri2.DSV.NonbinarySebastian": "Sebastian's a few years older than I am, but they're one of the few people who actually gets me.",
   "CFE_Abigail_summerSat10": "This might be the best summer of my life.$l#$e#But getting to spend time with you in the fall sounds even better.$l",
   "CFE_Abigail_summerSat6": "I'm actually enjoying myself this summer.$h#$e#It's funny how quickly one's outlook can change.",
   "CFE_Abigail_summerSat4": "What's your favorite part about fall?#$e#For me, it's just everything that's not... all of this. What we have right now.",
@@ -137,6 +149,7 @@
   "CFE_Abigail_fallThu10": "I had an interesting dream last night, with you in it.#$e#It was a good dream.$h",
   "CFE_Abigail_fallThu6": "#$1 AbigailHAND#Last night I dreamt that my left hand had turned into a gigantic %noun. Does that mean anything?#$e#%Abigail doesn't seem to be interested in talking right now.",
   "CFE_Abigail_fallThu4": "Sebastian's a few years older than I am, but he's one of the few people who actually gets me.#$e#Well, and you and Sam sort of do, too.$h",
+  "CFE_Abigail_fallThu4.DSV.NonbinarySebastian": "Sebastian's a few years older than I am, but they're one of the few people who actually gets me.#$e#Well, and you and Sam sort of do, too.$h",
   "CFE_Abigail_fallFri10": "I usually feel lonely this time of year, but not anymore.$l#$e#@, what are your plans for the future?",
   "CFE_Abigail_fallFri6": "I wish the season lasted a little longer.$8#$e#When the wind really picks up, I almost feel like a kid again.",
   "CFE_Abigail_fallSat6": "Hi.$h#$e#Your hair looks cool today... did you do something different?",
@@ -162,15 +175,17 @@
   "CFE_Abigail_Mon6": "As I've gotten older, I've figured out a way to give my parents a pretty awesome death glare.#$e#I think they're legitimately afraid of it, on some level.$h",
   "CFE_Abigail_Mon4": "I'm getting an urge to visit the lake by Sebastian's house...#$b#...but it's only at its best when it's raining.",
   "CFE_Abigail_Tue8": "One of my online friends seems to get along so great with her parents.$s#$e#Is it normal for a girl my age to feel like I'm perpetually stuck in those early teenage years?$s",
+  "CFE_Abigail_Tue8.DSV.NonbinaryAbigail": "One of my online friends seems to get along so great with her parents.$s#$e#Is it normal for someone my age to feel like I'm perpetually stuck in those early teenage years?$s",
   "CFE_Abigail_Tue6": "Hi, I'm glad to see you.$h#$e#I want to take my mind off things for a while... how is your day going?",
   "CFE_Abigail_Tue4": "Sometimes I wonder... are everyone's parents as out-of-touch as mine are?$s#$e#Seems like their idea of a girl being adventurous is to try on a new dress or something.$u",
+  "CFE_Abigail_Tue4.DSV.NonbinaryAbigail": "Sometimes I wonder... are everyone's parents as out-of-touch as mine are?$s#$e#Seems like their idea of someone being adventurous is to try on a new shirt or something.$u",
   "CFE_Abigail_Wed10": "If I ever have kids, I'm making sure they get to be who they want to be.#$e#Even if their lives are completely different from what I expect, that'd be okay, right?",
   "CFE_Abigail_Wed8": "Which do you think is cooler: broadswords or katanas?#$e#I'm partial to both. I guess it just depends on the situation.",
   "CFE_Abigail_Wed2": "Oh, hi @. Taking a break from your work?#$e#Me too. Oh! Nothing physical... the classes I take are all online.",
   "CFE_Abigail_Thu10": "Hi.$l#$e#Do you feel like everything seems unreal lately?$l#$b#Not in a bad way, though.$h",
   "CFE_Abigail_Thu8": "I wonder if I would have turned out differently if I hadn't been born and raised in this little town.$u#$e#Do you ever think about other versions of yourself in alternate timelines?",
   "CFE_Abigail_Thu6": "I picked up how to play the drums pretty easily as a kid. My own set is in storage, though.#$e#Good thing Sam has some.",
-  "CFE_Abigail_Thu4": "#$1 Abigail1#Oh no, I think my Dad's going to cook dinner tonight...$s#$e#I don't feel like doing anything today...$u",
+  "CFE_Abigail_Thu4": "#$1 Abigail1#Oh no, I think my dad's going to cook dinner tonight...$s#$e#I don't feel like doing anything today...$u",
   "CFE_Abigail_Fri6": "The birds were happily chirping today. They're too simple to understand the future.#$e#It's better to be like them, isn't it?",
   "CFE_Abigail_Fri4": "It's saloon night. Wanna join us this evening?#$e#I just like having all my friends in one place.",
   "CFE_Abigail_Fri2": "We're all going to hang out in the saloon this evening. It's kind of like a Friday tradition, I guess.",
@@ -191,6 +206,7 @@
   "CFE_Abigail_Married_RainyDay_5": "Hey! I woke up early and did some exploring on my own. I found this and it reminded me of you. [768 767 769 66 82]#$e#Where'd I find it at this ungodly early hour? Ooh, wouldn't YOU like to know?$h",
   "CFE_Abigail_Married_RainyDay_6": "Night-time exploration is the best. Take a gander at what I discovered. [768 767 769 66 82]#$e#Think you can find something better than that? I'm not so sure!$h",
   "CFE_Abigail_Married_RainyDay_7": "Hehe, I did some sword training in the rainy darkness. You've gotta admit, your wife is pretty epic.$h",
+  "CFE_Abigail_Married_RainyDay_7.DSV.NonbinaryAbigail": "Hehe, I did some sword training in the rainy darkness. You've gotta admit, your spouse is pretty epic.$h",
   "CFE_Abigail_Married_RainyDay_8": "It might be a good day to visit the caves, huh? Just be careful out there, and if you go, bring a Life Elixir or two.",
   "CFE_Abigail_Married_RainyDay_9": "Is it getting kind of dusty in here? Don't worry, I'll take care of it.",
   "CFE_Abigail_Married_RainyDay_10": "Maybe I'll boot up Journey Of The Prairie King today... one of these days I swear I'll beat it fully.$h",
@@ -259,12 +275,14 @@
   "CFE_Abigail_Married_TwoKids_8": "You slept through the whole thing, but %kid1 and %kid2 were up in the middle of the night. Together.$s#$e#Looks like we already have a couple of night-time adventurers on our hands.$s",
 
   "CFE_Abigail_Married_patio_1": "%Abigail is lost in her music.",
+  "CFE_Abigail_Married_patio_1.DSV.NonbinaryAbigail": "%Abigail is lost in their music.", //DSV's NonbinaryAbigail option gives Abigail a nonbinary gender identity where she uses both she/her (feminine) and they/them (gender-neutral) pronouns
   "CFE_Abigail_Married_patio_2": "%Abigail appears to be perfectly content.",
   "CFE_Abigail_Married_patio_3": "%Abigail's eyes are closed as she plays peacefully. Better not interrupt.",
+  "CFE_Abigail_Married_patio_3.DSV.NonbinaryAbigail": "%Abigail's eyes are closed as they play peacefully. Better not interrupt.",
 
   "CFE_Abigail_Married_spouseRoom_1": "I got up a little before you and fed David Jr. He's very active this morning.",
   "CFE_Abigail_Married_spouseRoom_2": "I hope you don't mind the guinea pig smell.",
-  "CFE_Abigail_Married_spouseRoom_3": "My broadsword could use some sharpening today.#$e#What? I use it sometimes.#$e#I just need to get strong enough to heft it proerly...$s",
+  "CFE_Abigail_Married_spouseRoom_3": "My broadsword could use some sharpening today.#$e#What? I use it sometimes.#$e#I just need to get strong enough to heft it properly...$s",
   "CFE_Abigail_Married_spouseRoom_4": "If I play my drums, can you hear them all the way from the south end of the farm?",
   "CFE_Abigail_Married_spouseRoom_5": "I'm pretty sure none of my spellbooks are genuine. You never know, though.#$e#A couple of times, I've read them and noticed a soft chill or a flicker of the lights. But maybe it was just my imagination.$u",
 
@@ -387,6 +405,7 @@
   "CFE_Alex_fallSun10": "I was always worried that I might turn out like my dad. Still am.$a#$e#But with you around, I don't feel so worried anymore.",
   "CFE_Alex_fallSun8": "Hey, the gridball game is on today!#$e#Sundays are pretty awesome in the fall.$u",
   "CFE_Alex_fallSun6": "Hey, @, if my grandpa won't get off the freakin' TV, is it alright if I just sprint over to your house to watch the game?#$e#What kind of TV do you have, anyway?",
+  "CFE_Alex_fallSun6.DSV.ModdedGeorge": "Hey, @, if {{AlexGrandpa}} won't get off the freakin' TV, is it alright if I just sprint over to your house to watch the game?#$e#What kind of TV do you have, anyway?", //{{AlexGrandpa}} should not be translated. This determines what DSV's Alex calls George
   "CFE_Alex_fallSun4": "Gridball's on today! I've waited all week for this.$u",
 
   "CFE_Alex_winterMon10": "I think I disagree that high school is the best years of your life.#$b#This year, for one, has been better.$l",
@@ -399,6 +418,7 @@
   "CFE_Alex_winterTue6": "You're a cool person to hang out with, @. I feel like I learn something new every time I see you.",
   "CFE_Alex_winterTue4": "Hey, @. Could you do me a favor?$l#$b#If you see Haley, tell her I'm busy.$l#$e#Thanks.",
   "CFE_Alex_winterWed10": "I finished reading this book that my grandma said was my mom's favorite.#$b#It was about these two teenagers who travel through time and change history.#$b#So weird. I had no idea my mom was into that stuff.",
+  "CFE_Alex_winterWed10.DSV.ModdedEvelyn": "I finished reading this book that {{AlexGrandma}} said was my mom's favorite.#$b#It was about these two teenagers who travel through time and change history.#$b#So weird. I had no idea my mom was into that stuff.", //{{AlexGrandma}} should not be translated. This determines what DSV's Alex calls Evelyn
   "CFE_Alex_winterWed6": "So not much grows on your farm during the winter? You must be a little bored then.#$e#Hey, you and me, buddy! Welcome to the club.$h^Hey, you and me, @! Welcome to the club.$h",
   "CFE_Alex_winterWed6_GN": "So not much grows on your farm during the winter? You must be a little bored then.#$e#Hey, you and me, @! Welcome to the club.$h",
   "CFE_Alex_winterWed4": "I don't really play video games. Why would I want to push buttons and watch a guy throw a ball on the screen...#$b#...when I could do the same thing in real life?",
@@ -437,6 +457,7 @@
   "CFE_Alex_Sat8": "...Where do you think I'll be in 10 years?$s",
   "CFE_Alex_Sat6": "My arms are really sore, but that's the sign of progress for a guy like me.#$e#I must've done a thousand push-ups yesterday.",
   "CFE_Alex_Sat4": "Grandma keeps complaining I take up too much space in the freezer with all of my ice cube trays.#$b#But I mean, how else am I supposed to have enough ice to take ice baths?",
+  "CFE_Alex_Sat4.DSV.ModdedEvelyn": "{{AlexGrandma}} keeps complaining I take up too much space in the freezer with all of my ice cube trays.#$b#But I mean, how else am I supposed to have enough ice to take ice baths?",
   "CFE_Alex_Sun10": "Haley and I always thought we could be the town's 'power couple,' but it was always complicated.#$e#We just weren't meant for each other, beyond being friends.#$e#I mean, clearly, right?$l",
   "CFE_Alex_Sun6": "Hey, come by my place any afternoon you want and we can work out together.#$e#It's really a lot more fun to work out with friends.$h",
 
@@ -488,6 +509,7 @@
   "CFE_Alex_Married_IndoorDay_13": "Hmm, I wonder if I could play gridball with all the farm animals out there?#$e#The way they just fan out in some kind of formation...#$b#Oh, it'd be different, for sure.$h",
   "CFE_Alex_Married_IndoorDay_14": "I'm glad you get outside as much as you do. It seems like so many people just stay cooped up all the time.$l",
   "CFE_Alex_Married_IndoorDay_15": "Don't worry about Grandma and Grandpa. They'll definitely live for a good while.#$e#I'm stubborn about my workout schedule, but they're stubborn about, well, everything.$h#$b#They'll never let go easily.",
+  "CFE_Alex_Married_IndoorDay_15.DSV.ModdedEvelynGeorge": "Don't worry about {{AlexGrandma}} and {{AlexGrandpa}}. They'll definitely live for a good while.#$e#I'm stubborn about my workout schedule, but they're stubborn about, well, everything.$h#$b#They'll never let go easily.",
 
   "CFE_Alex_Married_IndoorNight_1": "It feels good to push yourself to the limit, doesn't it?#$b#You'll really feel like you earned your place in the soft bed tonight.",
   "CFE_Alex_Married_IndoorNight_2": "Let me know if you're sore. I know some physical therapy techniques that can help you if you need 'em.",
@@ -503,8 +525,10 @@
   //Location specific dialogue
   "CFE_Alex_Married_funLeave_1": "I'm going into town today. I'll see you tonight.",
   "CFE_Alex_Married_funLeave_2": "It's about time I owe a visit to Grandma and Grandpa. That's where I'll be, so drop in if you get a chance!",
+  "CFE_Alex_Married_funLeave_2.DSV.ModdedEvelynGeorge": "It's about time I owe a visit to {{AlexGrandma}} and {{AlexGrandpa}}. That's where I'll be, so drop in if you get a chance!",
   "CFE_Alex_Married_funReturn_1": "I had a good day. I like to see my grandparents often; they're getting pretty old.",
   "CFE_Alex_Married_funReturn_2": "It was nice visiting town today. Grandma had some cookies out, of course!",
+  "CFE_Alex_Married_funReturn_2.DSV.ModdedEvelyn": "It was nice visiting town today. {{AlexGrandma}} had some desserts out, of course!",
 
   "CFE_Alex_Married_OneKid_1": "I'm still getting used to my new life as a stay-at-home dad.$h",
   "CFE_Alex_Married_OneKid_2": "I could run a marathon if I really needed to, but looking after a kid all day is a completely different kind of exhaustion.$s",
@@ -550,6 +574,7 @@
   //Date Specific Dialogue
   "CFE_Alex_Married_spring3": "These past couple of days have been pretty busy for you, haven't they?",
   "CFE_Alex_Married_spring15": "When I visit my grandpa today, I wonder if I can get him to watch something good with me.#$b#Like... Sports Report! I don't wanna miss a minute of the gridball draft.$h",
+  "CFE_Alex_Married_spring15.DSV.ModdedGeorge": "When I visit {{AlexGrandpa}} today, I wonder if I can get him to watch something good with me.#$b#Like... Sports Report! I don't wanna miss a minute of the gridball draft.$h",
   "CFE_Alex_Married_spring27": "I should update my workout mix. Summer's gonna be here soon!",
 
   "CFE_Alex_Married_summer3": "I gotta say, I don't really miss working at the ice cream stand.#$e#What, do you miss the ice cream? Well, we could always make our own.#$b#I think uh... Sam's mom has a recipe. Or did she already share it with you?",
@@ -630,27 +655,36 @@
   "CFE_Caroline_summerThu6": "The wild grapes that grow here are great for making wine. Are you making any wine right now?",
   "CFE_Caroline_summerFri10": "I'm a tiny bit gluten intolerant, it seems. I've cut back on gluten this month and I've got a little more pep in my step.$h",
   "CFE_Caroline_summerSat6": "Sorry if Abby's ever said anything that made you feel awkward.#$b#I wonder if she could have learned better social skills if she'd gotten outside a bit more.",
+  "CFE_Caroline_summerSat6.DSV.NonbinaryAbigail": "Sorry if Abby's ever said anything that made you feel awkward.#$b#I wonder if they could have learned better social skills if they'd gotten outside a bit more.",
   "CFE_Caroline_summerSun8": "Everyone needs to put in the appropriate time for self-care. I think you know my little rituals by now.$h#$e#Have you been putting in the appropriate time? You deserve it, you know.",
   "CFE_Caroline_summerSun4": "It's perfect weather for an iced tea, don't you think?",
 
   "CFE_Caroline_fallMon10": "I hope Abby doesn't make the same mistakes I made when I was her age...$s#$e#Uhm, I mean, looks like we've got another exercise class tomorrow! I'll see you around?",
+  "CFE_Caroline_fallMon10.DSV.NonbinaryAbigail": "I hope Abby doesn't make the same mistakes I made when I was their age...$s#$e#Uhm, I mean, looks like we've got another exercise class tomorrow! I'll see you around?",
   "CFE_Caroline_fallTue10": "I actually lost two pounds in the past couple of weeks, and that's even with Pierre cooking more often!$h#$e#Sorry, when Pierre cooks, I can only stomach so much of it, so I end up sneaking out to the store shelves and I nosh on the snack foods.#$b#Um, don't tell.$s",
   "CFE_Caroline_fallThu6": "There are some good recipes that you can make year round with wild mushrooms, so it's not a bad idea to stock up.#$e#Or if you're not much of a cook, you can always sell them to us.",
   "CFE_Caroline_fallSat8": "Is it just me, or does Abigail play too many video games?#$e#Maybe I'm a little old-fashioned.",
   "CFE_Caroline_fallSat4": "Abby's always had a strange interest in the occult. I'm sure it's just a phase...",
   "CFE_Caroline_fallSat2": "Abby's always had a strange interest in the occult. I'm not sure where she gets it from...",
+  "CFE_Caroline_fallSat2.DSV.NonbinaryAbigail": "Abby's always had a strange interest in the occult. I'm not sure where they get it from...",
 
   "CFE_Caroline_winterMon10": "So many people want to have these grand adventures. Me? Well, I got my fill when I was younger.#$e#Why not take it a little easier? That's what most everyone's after in the long-run, isn't it?",
   "CFE_Caroline_winterWed10": "Ugh, Abby needs to clean her guinea pig's cage. I can smell the fumes from halfway across the house.$s#$e#Can you nag her about it for me? Phew, thanks.",
+  "CFE_Caroline_winterWed10.DSV.NonbinaryAbigail": "Ugh, Abby needs to clean their guinea pig's cage. I can smell the fumes from halfway across the house.$s#$e#Can you nag them about it for me? Phew, thanks.",
   "CFE_Caroline_winterFri6": "Don't you think Abby would look better with her natural hair color?#$e#She used to have light chestnut-colored hair.",
+  "CFE_Caroline_winterFri6.DSV.ModdedAbigail": "Don't you think Abby would look better with her natural hair color?#$e#She used to have black hair.",
   "CFE_Caroline_winterSun4": "Ahh, with a hot cup of green tea, it's like the cold doesn't even matter anymore.",
 
   "CFE_Caroline_Mon6": "Abby and I keep fighting. I really wish she'd understand that I know more than she thinks.$3#$e$Sorry, I hope your day is going well.",
+  "CFE_Caroline_Mon6.DSV.NonbinaryAbigail": "Abby and I keep fighting. I really wish they'd understand that I know more than they think.$3#$e$Sorry, I hope your day is going well.",
   "CFE_Caroline_Mon4": "Abby's actually pretty musically talented, but she's never stuck with one instrument for too long.#$b#Have you ever heard her play anything?",
+  "CFE_Caroline_Mon4.DSV.NonbinaryAbigail": "Abby's actually pretty musically talented, but they've never stuck with one instrument for too long.#$b#Have you ever heard them play anything?",
   "CFE_Caroline_Mon2": "Was Abby polite the last time you saw her?#$e#Usually, she's polite to others, but she does have the occasional outburst. I hope she's been good to you.",
+  "CFE_Caroline_Mon2.DSV.NonbinaryAbigail": "Was Abby polite the last time you saw them?#$e#Usually, they're polite to others, but they do have the occasional outburst. I hope they've been good to you.",
   "CFE_Caroline_Tue10": "Jodi and I were just talking about some of the things you've done for the community.$h#$e#Personally, I'm glad that you're a positive influence on Abby.$h",
   "CFE_Caroline_Tue8": "Pierre's a hard worker. Sometimes I feel guilty about how much he's sacrificed to keep this store running.",
   "CFE_Caroline_Tue6": "I'm still amazed with how Jodi went back for round two, raising another boy. I remember Sam was quite a handful.$h#$e#It was \"one and done\" for Pierre and me. That was our plan from the get-go.",
+  "CFE_Caroline_Tue6.DSV.TransSam": "I'm still amazed with how Jodi went back for round two, raising another child. Especially when Sam turned out to be a boy as well!#$b#I remember he was quite a handful when he was younger, before he figured things out.$h#$e#It was 'one and done' for Pierre and me. That was our plan from the get-go.",
   "CFE_Caroline_Tue4": "Jodi and I have been friends for a number of years now. I'm so glad that she and her family moved into town.#$e#Sometimes I wonder if I could even get by without her.",
   "CFE_Caroline_Tue2": "If you need fast cash, Pierre will be happy to buy whatever produce you have.#$e#Even if it's foraged, we'll still take it. Those kinds of items give our stock a bit of local character.$h",
   "CFE_Caroline_Wed8": "I do what I can to stay social. Truth be told, though, it takes a lot of effort for me.#$b#That's the life of a recovering introvert, I guess.",
@@ -664,14 +698,18 @@
   "CFE_Caroline_Fri8": "$d Joja#Jodi's my best friend, but does she have to shop at JojaMart? I don't know how to address the topic appropriately with her.$s|One of the best things about JojaMart closing down is that I don't have to worry about Jodi shopping there anymore.$h",
   "CFE_Caroline_Fri6": "Pierre is multi-talented. Have you ever heard him sing?$h#$e#He's also quite athletic. Or he was, anyway...",
   "CFE_Caroline_Fri4": "Abby goes to the saloon with a couple of her friends on Friday nights. Maybe you could join them?",
+  "CFE_Caroline_Fri4.DSV.NonbinaryAbigail": "Abby goes to the saloon with a couple of their friends on Friday nights. Maybe you could join them?",
   "CFE_Caroline_Sat8": "#$1 Caroline12#When we first moved here, I took a while to settle down... I wasn't ready for the domestic life.#$e#Pierre's a bit traditional... but he's a good man. He's ambitious, but he always puts his family first.",
   "CFE_Caroline_Sat6": "I thought I'd set a good example for Abigail with the aerobics classes I host, but if anything, it just seems like it pushed her away from wanting to exercise.#$e#I guess I shouldn't be surprised.",
+  "CFE_Caroline_Sat6.DSV.NonbinaryAbigail": "I thought I'd set a good example for Abigail with the aerobics classes I host, but if anything, it just seems like it pushed them away from wanting to exercise.#$e#I guess I shouldn't be surprised.",
   "CFE_Caroline_Sat4": "It's funny, I can't remember whether the aerobics club was my idea or someone else's.#$b#I think it just happened organically. Exercise has always been my thing, and our living room seemed perfect for it, so...",
   "CFE_Caroline_Sat2": "Is it just me, or does Abigail have an unhealthy interest in doom and gloom?#$e#Maybe I'm just too old to understand.",
   "CFE_Caroline_Sun8": "I worry too much as it is, and life is short. It's not worth it to let life get you down all the time.#$e#We have to make peace with what we have.",
   "CFE_Caroline_Sun6": "Everyone wants their own child to make fewer mistakes than they themselves made.$s#$e#Is it too much to ask, that Abby stays safe and happy?",
-  "CFE_Caroline_Sun4": "Between the Shrine of Yoba, the aerobics classes, and the store, we've had to get used to  people just walking through our home on a regular basis.#$e#Communal living isn't so bad as long as people are respectful.",
+  "CFE_Caroline_Sun4": "Between the Shrine of Yoba, the aerobics classes, and the store, we've had to get used to people just walking through our home on a regular basis.#$e#Communal living isn't so bad as long as people are respectful.", //typo - extra space removed from "used to  people"
+  "CFE_Caroline_Sun4.DSV.ReligionEdits": "Between the community altar, the aerobics classes, and the store, we've had to get used to people just walking through our home on a regular basis.#$e#Communal living isn't so bad as long as people are respectful.",
   "CFE_Caroline_Sun2": "Feel free to pray at the Shrine of Yoba if you'd like.#$e#No, it's not really my thing. I do respect those who practice, though.",
+  "CFE_Caroline_Sun2.DSV.ReligionEdits": "Feel free to pray at the community altar if you'd like. It's intended for anyone who would find peace there, no matter their religion.#$e#No, it's not really my thing. I appreciate that it's there for the people who need it, though.",
 
   //generic weekday dialogue
   "CFE_Caroline_summerMon": "Do you grow any flowers on your farm this time of year?",
@@ -688,14 +726,18 @@
   "CFE_Clint_Pearl": "Hey, this is great!$h#$b#I wonder if I could give it to... uhm... never mind.",
   "CFE_Clint_PrismaticShard": "You're giving me this?$4#$b#...Why are you being so nice to me?$4",
   "CFE_Clint_RabbitsFoot": "You're telling me... this little charm will bring me luck?$4#$b#I sure could use some luck right about now.$4",
-  "CFE_Clint_Emerald": "Oh nice! This one looks great.$h#$b#Apparently the green color comes from the amount of chromium in the emerald.#$e#...I  don't actually know what chromium is. But uh... I think I read that once.",
+  "CFE_Clint_Emerald": "Oh nice! This one looks great.$h#$b#Apparently the green color comes from the amount of chromium in the emerald.#$e#...I don't actually know what chromium is. But uh... I think I read that once.", //typo - extra space removed from "I  don't"
+  "CFE_Clint_Emerald.DSV.BlindClint": "Oh nice! This one has a great weight to it.$h#$b#Apparently the green color comes from the amount of chromium in the emerald.#$e#...I don't actually know what chromium is. But uh... I think I read that once.",
   "CFE_Clint_Aquamarine": "For me? Well that's awful nice!$h#$b#Thanks a lot. Look how round it is!$h",
   "CFE_Clint_Ruby": "Ooh, that one's shiny! Good find!$h#$e#Did you know the perfect ruby is supposed to be the same color as pigeon's blood?#$b#So uh... that's kind of sad for the pigeons, I guess.",
+  "CFE_Clint_Ruby.DSV.BlindClint": "Ooh, even I can see the shine on that one! Good find!$h#$e#Did you know the perfect ruby is supposed to be the same color as pigeon's blood?#$b#So uh... that's kind of sad for the pigeons, I guess.",
   "CFE_Clint_Amethyst": "I love it! That's so nice of you!#$b#Oh hey, did you know amethyst is just a purple quartz? It's true.",
   "CFE_Clint_Topaz": "Hey, pretty cool topaz you've got there.#$b#...You mean you're giving it to me? Wow! Thank you!$h",
   "CFE_Clint_Jade": "Well just look at that creamy green color!$h#$b#It's actually the same color as the cream I had in my fridge for a really long time.",
+  "CFE_Clint_Jade.DSV.BlindClint": "Well, just feel that fine grainy texture!$h#$b#It actually feels just like my kitchen counter when I haven't wiped it for a really long time.",
   "CFE_Clint_OmniGeode": "Oh boy! You're leaving this one for me? Sure you don't want to keep it?#$b#This'll be exciting. I almost never get to open these for myself.$h",
   "CFE_Clint_GoldBar": "Hoo! Look at that one, it's pristine! Thanks a lot!$h",
+  "CFE_Clint_GoldBar.DSV.BlindClint": "Hoo! Feel the smoothness of that one, it's pristine! Thanks a lot!$h",
   "CFE_Clint_IridiumBar": "Oh, awesome. I love working with this stuff!#$b#I can feel the energy rippling up my arm every time I hit it with my hammer.$h",
   "CFE_Clint_ArtichokeDip": "This is great! I could eat a whole bowl of this in one sitting.$h",
   "CFE_Clint_FiddleheadRisotto": "Oh, thanks! I think the best way to describe this dish is that it's just got my name written all over it!",
@@ -757,6 +799,7 @@
   "CFE_Clint_Thu6": "My little shop is a relic left over from Pelican Town's glory days as a mining town.#$e#The only reason I could afford the place was because the mining operation was in a downward spiral.",
   "CFE_Clint_Thu4": "How did those furnace blueprints work out for you? Did you craft a furnace?#$e#Hey, I just figured it was something you could use.",
   "CFE_Clint_Fri8": "It's strange how I've been drinking Gus's beer and eating his food for years, but I barely know a thing about him.",
+  "CFE_Clint_Fri8.DSV.TurkishGus": "It's strange how I've been drinking at Gus's place and eating his food for years, but I barely know a thing about him.",
   "CFE_Clint_Fri4": "What kind of beer do you drink? Porter? Stout?#$e#I'm a lager man, myself.",
   "CFE_Clint_Sat10": "Did I ever show you my hands? Tough as old leather from all the calluses.#$e#When I first started working, I was worried about my hands, but now I'd say I'm proud of 'em.#$b#If a guy has messed up hands, at least he can say he's done somethin'... instead of nothin'.$h",
   "CFE_Clint_Sat4": "I gotta get outta this town. Just for a day.#$e#Grampleton's sort of my go-to place. I can't afford a fancy vacation.",
@@ -849,8 +892,11 @@
   "CFE_Demetrius_Sat6": "Greetings, @. How is your work progressing?#$e#If you grow any pristine crops, it would be a privilege to examine them.#$e#And possibly taste them, too!$h#$b#...For science.",
   "CFE_Demetrius_Sat4": "One aim of my research is to figure out the exact environmental conditions that we see here in the valley, that make it so uniquely fertile for such a wide variety of species.#$e#In terms of application, we could use it to bolster the abundance of crop turnouts in less fertile regions.",
   "CFE_Demetrius_Sun10": "Between you and me, I really thought that Sebastian would have moved out by now.$s#$e#He's even older than I was when I first met Robin...$s#$e#As long as he works and pays his rent, though...",
+  "CFE_Demetrius_Sun10.DSV.NonbinarySebastian": "Between you and me, I really thought that Sebastian would have moved out by now.$s#$e#They're even older than I was when I first met Robin...$s#$e#As long as they work and pay their rent, though...",
   "CFE_Demetrius_Sun8": "Sebastian always seems bored by just about every aspect of my work.$s#$e#Computer science is a science, though. I've always tried to bond with him over that, but there's still a bit of a divide between us.#$e#The books I've read say that's to be expected.",
+  "CFE_Demetrius_Sun8.DSV.NonbinarySebastian": "Sebastian always seems bored by just about every aspect of my work.$s#$e#Computer science is a science, though. I've always tried to bond with them over that, but there's still a bit of a divide between us.#$e#The books I've read say that's to be expected.",
   "CFE_Demetrius_Sun6": "For Sebastian, I left most of the parenting to Robin.#$e#Even today, it's usually best to stay out of his way and let Robin handle things with him.",
+  "CFE_Demetrius_Sun6.DSV.NonbinarySebastian": "For Sebastian, I left most of the parenting to Robin.#$e#Even today, it's usually best to stay out of his -- sorry, their -- way and let Robin handle things with them.",
   "CFE_Demetrius_Sun4": "My work basically is my hobby. Occasionally, though, I'll cook a meal, too.",
 
   //generic weekday dialogue
@@ -864,6 +910,7 @@
   "CFE_Demetrius_winterSat": "Hello.#$e#%Demetrius seems lost in thought.",
 
   "CFE_Demetrius_SuninlawSebastian": "It's such a relief that Sebastian's finally moved out. I did always think you were a good match for him.$h",
+  "CFE_Demetrius_SuninlawSebastian.DSV.NonbinarySebastian": "It's such a relief that Sebastian's finally moved out. I did always think you were a good match for them.$h",
 
   //Dwarf
   //Dwarf Gift Tastes
@@ -962,15 +1009,18 @@
   "CFE_Elliott_Pearl": "Where on earth did you find this? It's exquisite!$h",
   "CFE_Elliott_RabbitsFoot": "Thank you! I'll hold this tight, next time I send something off to my publisher.$h",
   "CFE_Elliott_CrabCakes": "My my, a local delicacy!$h#$b#You simply have exquisite taste.",
+  "CFE_Elliott_DishOTheSea.DSV.JewishElliott": "My my, a local delicacy! And it's made with latkes too!$h#$b#You simply have exquisite taste.",
   "CFE_Elliott_Lobster": "Ahh, fresh steamed lobster! I enjoy my minimalistic lifestyle, but I never compromise on cuisine. Thank you!$h",
+  "CFE_Elliott_Albacore.DSV.JewishElliott": "Ahh, fresh seared albacore fillet! I enjoy my minimalistic lifestyle, but I never compromise on cuisine. Thank you!$h",
   "CFE_Elliott_Pomegranate": "The fruit of myth and fairytale! How wonderful!#$b#It's as if it transports me to the pages of a storybook.$h",
   "CFE_Elliott_TomKhaSoup": "This warms me to my soul! What a symphony of flavor!$h",
+  "CFE_Elliott_EggplantParmesan.DSV.JewishElliott": "This warms me to my soul! What a classic harmony of flavors!$h",
 
   //Elliott's Misc Dialogue
   //these lines target files other than the standard characters/dialogue/Elliott location such as unmarried rainy dialogue
   "CFE_Elliott_rainy_1": "Sometimes when I lay in bed I can hear a distant foghorn cut through the rain.#$b#But when I look out the window I see only a curtain of gray.",
   "CFE_Elliott_rainy_2": "I'm afraid I haven't stepped outside a bit today.$s#$e#Thank you for coming by. Your visit is a light in this gloom.",
-  "CFE_Elliott_rainy_3": "Perhaps it's time to give those old bedsheets a wash.#$e#With how old an musty the cabin is, I have to work extra hard to keep it fresh.",
+  "CFE_Elliott_rainy_3": "Perhaps it's time to give those old bedsheets a wash.#$e#With how old and musty the cabin is, I have to work extra hard to keep it fresh.",
 
   //Elliott's Standard Dialogue
   //Special Dialogue
@@ -1080,6 +1130,7 @@
   "CFE_Elliott_Married_RainyDay_5": "I got up early and made coffee.[395]#$e#$c .5#This is a surpassingly delicious blend. I've become quite familiar with how coffee should taste, if I may say so.$h",
   "CFE_Elliott_Married_RainyDay_6": "I find that a cup of this exquisite brew makes the early morning a lot more pleasant.#$b#Drink up, my darling![395]$h",
   "CFE_Elliott_Married_RainyDay_7": "I think I'll remain indoors today, my dear. The rain causes my hair to go limp.",
+  "CFE_Elliott_Married_RainyDay_7.DSV.BlackElliott": "I think I'll remain indoors today, my dear. I dare not risk getting mold in my locs should they get wet.$8",
   "CFE_Elliott_Married_RainyDay_8": "Goodness! I'm in constant admiration at how you boldly venture outside on these days, yet it never dampens your spirit.",
   "CFE_Elliott_Married_RainyDay_9": "My inspiration for writing is like the weather... it comes and goes at random. Today I feel entirely dull.$s#$e#Perhaps I'll read one of the classics to get my creative juices flowing.",
 
@@ -1127,7 +1178,9 @@
   "CFE_Elliott_Married_IndoorNight_7": "When I behold thy wondrous face, a precious jewel of form and grace, my heart... torn by the dread of night, is purified with golden light.#$e#Poetry is the only way I can begin to describe my feelings for you.$l",
   "CFE_Elliott_Married_IndoorNight_8": "A darkened, starry sky will blanket us, and I will wrap you up within my arms. Locked in that shroud we'll find our peace and thus, we'll lull into repose with gentle charms.#$e#I hope my words can warm your heart.",
   "CFE_Elliott_Married_IndoorNight_9": "I came to know gourmet seafood quite well while I lived on the beach. [198 202 727 728]Bon appetit!$h",
+  "CFE_Elliott_Married_IndoorNight_9.DSV.JewishElliott": "I came to know gourmet seafood quite well while I lived on the beach. [198 212 242 213]Bon appetit!$h",
   "CFE_Elliott_Married_IndoorNight_10": "I spent the afternoon daydreaming about the ocean. So I decided to cook some seafood. [198 202 727 728]$h",
+  "CFE_Elliott_Married_IndoorNight_10.DSV.JewishElliott": "I spent the afternoon daydreaming about the ocean. So I decided to cook some seafood. [198 212 242 213]$h",
 
   //location specific dialogue
   "CFE_Elliott_Married_funLeave_1": "I think I'll walk down to the beach today. It's always nice to see the ocean again.",
@@ -1469,7 +1522,10 @@
   "CFE_Evelyn_summerWed6": "I would go to Caroline's aerobics class if I could keep up half the speed of those other ladies.#$e#It's fine, though. I just do some basic stretches in the morning, and I walk a lot. Can't do much else beyond that.",
   "CFE_Evelyn_summerThu8": "Maybe today's a good day to make homemade bread, instead.#$e#I can't make bread every day. It's a little rough on the joints. Today is a good day, though.",
   "CFE_Evelyn_summerThu6": "It seems like we always have more visitors when I start baking cookies.#$e#My mother taught me the recipe.",
+  "CFE_Evelyn_summerThu6.DSV.ModdedEvelyn": "It seems like we always have more visitors when I start baking.#$e#My parents taught me all their recipes.",
   "CFE_Evelyn_summerThu4": "I'm going to bake cookies today. They're coconut wonders shaped like little palm trees! Heehee.$h#$e#Have you tried a little baking yet, dear?",
+  "CFE_Evelyn_summerThu4.DSV.SamoanEvelyn": "I'm going to make paifala today. The sweet pineapple filling is perfect for summer! Heehee.$h#$e#Have you tried a little baking yet, dear?",
+  "CFE_Evelyn_summerThu4.DSV.MexicanEvelyn": "I'm going to make melon paletas today. I have a set of palm tree-shaped molds for them! Heehee.$h#$e#Have you tried a little baking yet, dear?",
   "CFE_Evelyn_summerSat10": "Make sure you don't get sunburnt, dear. I've got some sunscreen tucked away somewhere if you need it.",
   "CFE_Evelyn_summerSun10": "*sniff* ...Hello, dear.$s#$e#I'm sorry for you to see me like this. It was around this time of year that we lost our daughter, Alex's mother.$s#$e#I'll be alright by tomorrow, dear. Thank you for asking.$s",
 
@@ -1479,6 +1535,8 @@
   "CFE_Evelyn_fallThu8": "Hey there, dearie. I was just thinking I might have to make a treat to send you in the mail sometime.$h#$e#It'll just have to be a surprise, though.$h",
   "CFE_Evelyn_fallThu6": "I think I'll try something different today. Leaf-shaped cookies! $h#$e#It helps me to make something that reflects what I see outside.",
   "CFE_Evelyn_fallThu4": "Today I'm baking cookies. They're shaped like little pumpkins.$h#$e#Have you tried a little baking yet, dear?",
+  "CFE_Evelyn_fallThu4.DSV.SamoanEvelyn": "Today I'm making fa'ausi. I like to make it with pumpkin fa'apapa in fall.$h#$e#Have you tried a little baking yet, dear?",
+  "CFE_Evelyn_fallThu4.DSV.MexicanEvelyn": "Today I'm baking conchas. I like to make them with a little cinnamon.$h#$e#Have you tried a little baking yet, dear?",
   "CFE_Evelyn_fallFri6": "Ooh, that breeze sure is blowing. Is it always so chilly this time of year, or is it just me?",
   "CFE_Evelyn_fallSat8": "Have you been spending much time with Alex lately?#$e#I just wonder sometimes where his life is headed.",
   "CFE_Evelyn_fallSat4": "Does Alex still spend his time with Haley? She's a good girl, but I wonder whether she gives him the kind of support he needs.",
@@ -1491,6 +1549,8 @@
   "CFE_Evelyn_winterThu10": "I bake cookies because they never fail to make George open up to me.#$e#He had a bite of cookie in his mouth when he looked right at me and said \"I love you\" for the first time.#$e#He's kept that going ever since.",
   "CFE_Evelyn_winterThu6": "I've got some snowflake-shaped cookie cutters to use today. This should be fun!$h",
   "CFE_Evelyn_winterThu4": "It's another great day for baking cookies. They're in the shape of little snowmen this time.$h#$e#Have you tried a little baking yet, dear?",
+  "CFE_Evelyn_winterThu4.DSV.SamoanEvelyn": "It's a great day for making pagipopo. I always make a big pot of koko to go with it.$h#$e#Have you tried a little baking yet, dear?",
+  "CFE_Evelyn_winterThu4.DSV.MexicanEvelyn": "It's a great day for making buñuelos. It's traditional to make them when the weather turns cold like this.$h#$e#Have you tried a little baking yet, dear?",
 
   "CFE_Evelyn_winterSat10": "I'm reading through 'The Zuzu City Express' again. Have you read it? It's one of my favorites.$h#$e#The movie version is excellent, too.$h",
 
@@ -1500,12 +1560,16 @@
   "CFE_Evelyn_Tue6": "It's nice of you to take the time to visit George and me.#$e#Without young people around, we'd age much faster.$h",
   "CFE_Evelyn_Tue2": "How's life on that farm going for you?#$e#George mentioned to me how glad he was to see someone working on it again. I don't know if he'll tell you that, though.",
   "CFE_Evelyn_Thu8": "It's cookie baking day again. If we wind up with leftovers, I'll be sure to send you some in the mail.",
+  "CFE_Evelyn_Thu8.DSV.ModdedEvelyn": "It's baking day again. If we wind up with leftovers, I'll be sure to send you some in the mail.",
   "CFE_Evelyn_Thu6": "I think if I cut them right, I can make my cookies look like tulips today.#$e#Even if no one eats the cookies, it helps me to do something creative.",
   "CFE_Evelyn_Thu4": "I'll be baking cookies today. I like to make flower shapes in the spring.$h#$e#Have you tried a little baking yet, dear?",
+  "CFE_Evelyn_Thu4.DSV.SamoanEvelyn": "I'll be baking panikeke today. I like to serve them with fresh spring fruit.$h#$e#Have you tried a little baking yet, dear?",
+  "CFE_Evelyn_Thu4.DSV.MexicanEvelyn": "I'll be baking sopapillas today. I like to drizzle them with piloncillo syrup.$h#$e#Have you tried a little baking yet, dear?",
   "CFE_Evelyn_Fri10": "George agreed to turn the volume down on the TV. Turns out his ears are actually better than mine.#$e#That's no little victory. I've been asking him for years.",
   "CFE_Evelyn_Fri8": "One of George's favorite TV programs is so violent. And he always keeps the volume up so loud.#$e#I worry it can't be good for his health. Why bring more stress into the house when we don't need it?",
   "CFE_Evelyn_Fri6": "I hate to ask, dear, but could you talk to George a bit for me? The longer he stays locked up in the house, the crankier he becomes.#$e#I'm terribly sorry.",
   "CFE_Evelyn_Fri4": "You'll see George heading to the Shrine of Yoba on Sundays.#$b#His own little traditions are the only things that can get him to do anything good for him.",
+  "CFE_Evelyn_Fri4.DSV.ReligionEdits": "You'll see George heading to the community altar on Sundays.#$b#His own little traditions are the only things that can get him to do anything good for him.",
   "CFE_Evelyn_Sat4": "Springtime always gives me a fresh sense of hope. I figure these old bones still have a number of good years left!",
   "CFE_Evelyn_Sun6": "I keep a diary, but I always write down what I did two days ago. It's an exercise that helps me with my memory.",
 
@@ -1550,6 +1614,8 @@
   "CFE_George_fallThu10": "I don't watch the news to \"stay informed.\" I watch it because I just want to know what's going on.#$e#Look, there's a difference, okay?",
   "CFE_George_fallFri10": "I'm not stupid. I know there's some bias in the news programs. I just keep my thinking cap on while I watch.#$b#That's what everyone needs to do.",
   "CFE_George_fallSat10": "Tomorrow's an altar day. The way things used to be, you'd see half the town showing up at the Shrine of Yoba each Sunday.",
+  "CFE_George_fallSat10.DSV.ReligionEdits": "Tomorrow's an altar day. The way things used to be, you'd see half the town showing up at the community altar each Sunday.",
+  "CFE_George_fallSat10.DSV.ReligionEdits.JewishMullners": "Today's an altar day for me an' Evelyn. The way things used to be, you'd see half the town showing up at the community altar each weekend.",
   "CFE_George_fallSun10": "Yep, I can do jumps, wheelies, spins... all kinds of tricks.$h#$e#Look over there!#$b#Oop, ya just missed me doing a somersault. Too bad.$h",
 
   "CFE_George_winterWed10": "Don't go wasting your youthful energy, @. You've gotta put in enough living for the both of us, y'hear?",
@@ -1581,6 +1647,7 @@
   "CFE_George_Sat4": "My prescription just keeps getting more and more expensive.#$e#This wouldn't have been a problem a generation or two ago. But these drug companies keep hiking the cost!",
   "CFE_George_Sat2": "Hi there.#$e#What's going on out there, anyway?",
   "CFE_George_Sun10": "I didn't spend much time praying till recently.#$b#For a while, I was furious with Yoba, what with me losing everything I had.#$e#I have a kernel of faith that there's something better for me after this old body's ticker runs out.#$b#It's not much, but what's an old man like me to do?$s",
+  "CFE_George_Sun10.DSV.JewishMullners": "I didn't spend much time praying till recently.#$b#For a while, I was too furious for belief, what with me losing everything I had.#$e#I have a kernel of faith that there's something better for me after this old body's ticker runs out.#$b#It's not much, but what's an old man like me to do?$s",
   "CFE_George_Sun6": "It'll be good to be out of the house for a while.#$e#What are you up to today, young man?^What are you up to today, young miss?",
   "CFE_George_Sun6_GN": "It'll be good to be out of the house for a while.#$e#What are you up to today, young {{ElderInformalNoun}}?",
   "CFE_George_Sun4": "Is it the end of the week already? I lose track of what day it is.",
@@ -1605,6 +1672,7 @@
   //Gus's Misc Dialogue
   //these lines target files other than the standard characters/dialogue/Gus location such as unmarried rainy dialogue
   "CFE_Gus_rainy_1": "There's nothing like a glass of dry red wine on a day like this, huh?#$e#Hehehe, I love my job.",
+  "CFE_Gus_rainy_1.DSV.TurkishGus": "There's nothing like a bowl of hot tarhana soup on a day like this, huh?#$e#Hehehe, I love my job.",
   "CFE_Gus_rainy_2": "Need something to warm you up tonight? Don't be shy!",
   "CFE_Gus_rainy_3": "Seen anyone around town who needs a little pick-me-up? Send 'em to me!",
 
@@ -1620,6 +1688,7 @@
   "CFE_Gus_fall26": "There's some pretty spooky stuff at the Spirit's Eve festival. Me? I'll just stick with hosting the buffet.",
   "CFE_Gus_winter24": "What's a good festival without some good food? *chuckle* I've saved all my best recipes for this feast, so don't go missin' it!$h",
   "CFE_Gus_winter28": "Happy new year, @! I'm breaking out the good stuff tonight! [348]$h#$e#Cheers to a great year in Stardew Valley. May the next year be even better!",
+  "CFE_Gus_winter28.DSV.TurkishGus": "Happy new year, @! I'm breaking out the good coffee beans tonight! [253]$h#$e#Cheers to a great year in Stardew Valley. May the next year be even better!",
 
   //heart specific dialogue
   "CFE_Gus_summerMon10": "I was in Zuzu City a while back, and I've gotta hand it to those food truck vendors. They've got some real skills!#$e#They've got tacos, curries, burgers, just about anything you could wish for!#$b#Of course, you know me, I like to eat a little of everything, just like how I like to make a little of everything!$h",
@@ -1640,6 +1709,7 @@
 
   "CFE_Gus_Mon10": "I know I can't solve every customer's problems, but behind the counter, I can still be there and treat them as a person.",
   "CFE_Gus_Mon8": "*whisper* Hey, @. Y'know, I've been thinking...$s#$q 010/011 Mon_old#If I help someone make bad choices with their drinking habits, is that on me?#$r 010 -20 Mon_010#Honestly? Yes.#$r 011 0 Mon_011#No. Everyone's responsible for themselves.",
+  "CFE_Gus_Mon8.DSV.TurkishGus": "*whisper* Hey, @. Y'know, I've been thinking...$s#$q 010/011 Mon_old#If I keep letting someone with a drinking problem return, am I helping them make bad choices?#$r 010 -20 Mon_010#Honestly? Yes.#$r 011 0 Mon_011#No. Everyone's responsible for themselves.",
   "CFE_Gus_Mon_old": "$p 010#We're just gonna have to politely disagree on what we talked about the other week. I respect your opinion, though.|I appreciate hearing your opinion the other week. You're a good friend.",
   "CFE_Gus_Mon_010": "Hmm. Thank you for your opinion. I'll have to think about it.$s",
   "CFE_Gus_Mon_011": "That's always been my philosophy. It's just that after years of seeing customers' struggles up close and personal, it starts to wear on you.$s",
@@ -1651,22 +1721,31 @@
   "CFE_Gus_Tue4": "You should see what's on the menu tonight! I've got something really special.",
   "CFE_Gus_Tue2": "I've got some self-published cookbooks for sale, too. Have you checked them out?",
   "CFE_Gus_Wed10": "After my wife passed, marrying again isn't for me. For some of us, we only meet the love of our life once.#$e#Despite life's hardships, we must never forget to spread joy to those around us.",
+  "CFE_Gus_Wed10.DSV.AroAceGus": "When I was younger, I lived together with a close friend. We thought that we would grow old together as happy bachelors.$s#$b#We had plans to open a soup kitchen together, but he passed away unexpectedly.$s#$b#I think he would've liked what I've done with the saloon though and I hope that I've made him proud.",
   "CFE_Gus_Wed8": "Yes, I was married once, a long time ago. Did I ever tell you that?$s#$e#She's no longer with us. But I think about her every day.$s#$e#I like to think that what I do here at the saloon is to fulfill the dream we had together. First and foremost, just spread joy. I don't think she'd want anything less.",
+  "CFE_Gus_Wed8.DSV.AroAceGus": "I've never been married or even dated anyone before. I thought for years that it might happen with time, but then I learnt about asexuality and aromanticism and things clicked for me.#$b#People sometimes ask me if I'm unhappy without a romantic partner, but I've got my good friends and the saloon. What more could I want?$h",
   "CFE_Gus_Wed6": "I try to source as many fresh, local ingredients as possible.#$b#Otherwise, what would really make my spaghetti or my salad any different from other restaurants'?",
   "CFE_Gus_Wed4": "Emily's been working here for a while now. I don't know what I'd do without her!#$e#I would hate to have to clean all those pots by myself.$s",
+  "CFE_Gus_Wed4.DSV.NonbinaryEmily": "Emily's been working here for a while now. I don't know what I'd do without them!#$e#I would hate to have to clean all those pots by myself.$s", //DSV's NonbinaryEmily option gives Emily a nonbinary gender identity where she uses all pronouns, including she/her (feminine), he/him (masculine), and they/them (gender-neutral) pronouns
   "CFE_Gus_Wed2": "Not to boast or anything, but the Saloon is the best place to be on a Friday night!$h#$e#Hope you can make it this week.",
   "CFE_Gus_Thu10": "*whisper* I've been limiting the number of drinks I give Pam, more than I used to.#$e#I swear she's got a flask in her pocket, though, because sometimes she still winds up pretty sloshy.$s",
+  "CFE_Gus_Thu10.DSV.TurkishGus": "*whisper* I've been asking Emily to limit the number of drinks she gives Pam, more than we used to.#$e#I swear Pam's got a flask in her pocket, though, because sometimes she still winds up pretty sloshy.$s",
+  "CFE_Gus_Thu10.DSV.NonbinaryEmily": "*whisper* I've been asking Emily to limit the number of drinks he gives Pam, more than we used to.#$e#I swear Pam's got a flask in her pocket, though, because sometimes she still winds up pretty sloshy.$s",
   "CFE_Gus_Thu4": "I feel like I've got even more of a reason to love Pelican Town when I'm able to source locally from your farm!$h#$e#So, if you're growing something good, I'd be honored if you brought some by!",
   "CFE_Gus_Thu2": "I'm no hedonist, but I truly think that good food and drink are some of the greatest things a person can live for.$h",
   "CFE_Gus_Fri8": "Whew! What a week it's been!#$e#I meant everyone else's week. I don't consider things done until the last mug is washed tonight!$h",
   "CFE_Gus_Fri6": "I don't actually drink very much myself. I'm mainly doing this to make a living.#$e#Although I do enjoy a taste of the Stardew Valley vintage from time to time.",
+  "CFE_Gus_Fri6.DSV.TurkishGus": "I don't actually drink at all myself. I'm mainly doing this to make a living.#$e#Although I do enjoy the conversation with people who come in for a drink.",
   "CFE_Gus_Fri4": "Sam tries so hard at billiards, but he loses to Sebastian each time.#$e#Sam must be a really good sport about it, because they've been at it week after week!$h",
   "CFE_Gus_Fri2": "Hi there, @. How's that farming life working out for you? Be sure to treat yourself right every once in a while.",
   "CFE_Gus_Sat8": "I think I've earned a little glass of Stardew Red tonight.#$e#Are you going to be enjoying anything, @?",
+  "CFE_Gus_Sat8.DSV.TurkishGus": "I think I've earned a plate of karnıyarik with pilav tonight. There's nothing better for comfort food!#$e#Are you going to be enjoying anything, @?",
   "CFE_Gus_Sat6": "Look, I know I serve a lot of drinks to a few of my customers. But I'm a strong believer in personal freedom. That's all.$3#$e#Sorry... what's new with you?",
+  "CFE_Gus_Sat6.DSV.TurkishGus": "Look, I know my establishment serves a lot of drinks to a few of my customers. But I'm a strong believer in personal freedom. That's all.$3#$e#Sorry... what's new with you?",
   "CFE_Gus_Sat4": "I play a little violin when I find the opportunity. As much as I love cooking, sometimes it's good to have a hobby that isn't also your job.",
   "CFE_Gus_Sat2": "Are you much of a chef, @?#$e#If you have a kitchen and some recipes, you can cook some useful dishes.#$e#Home-cooked meals make great gifts, as well.",
   "CFE_Gus_Sun10": "You're a good friend, @. Here's one on the house.[346]#$e#Cheers! To another good week!",
+  "CFE_Gus_Sun10.DSV.TurkishGus": "You're a good friend, @. Here's dessert on the house.[233]#$e#Cheers! To another good week!",
   "CFE_Gus_Sun8": "The Stardrop Saloon is definitely one of the older buildings in town.#$e#I restored it when I first bought it, but I'm far from the original owner.",
   "CFE_Gus_Sun6": "I know I can't fix everyone's problems, but if I can make a fellow something delicious, I feel I've done my part.",
   "CFE_Gus_Sun4": "How are you doing, @?#$e#Me? Just livin' the dream.$h",
@@ -1675,12 +1754,15 @@
   //generic weekday dialogue
   "CFE_Gus_summerThu": "Welcome to the Stardrop Saloon! Can I get you anything?",
   "CFE_Gus_winterSat": "Sure is chilly out there! Think you could do with a hot cup of coffee?",
+  "CFE_Gus_winterSat.DSV.TurkishGus": "Sure is chilly out there! Think you could do with a hot cup of coffee? How about some salep?",
 
   "CFE_Gus_Wed": "Glad to see you, buddy.$h^Glad to see you, young lady.$h#$q 012/013/014/015 Wed_old#I've got a cold beer here on the house.[346] What's today's battle? Lay it on me.#$r 012 10 Wed_012#It's kind of lonely here.#$r 013 10 Wed_013#I know nothing about farming.#$r 014 10 Wed_014#I have no money.#$r 015 0 Wed_015#Everything's peachy!",
   "CFE_Gus_Wed_GN": "Glad to see you, {{AdultFamilialNoun}}.$h.$h#$q 012/013/014/015 Wed_old#I've got a cold beer here on the house.[346] What's today's battle? Lay it on me.#$r 012 10 Wed_012#It's kind of lonely here.#$r 013 10 Wed_013#I know nothing about farming.#$r 014 10 Wed_014#I have no money.#$r 015 0 Wed_015#Everything's peachy!",
+  "CFE_Gus_Wed.DSV.TurkishGus": "Glad to see you, @.$h#$q 012/013/014/015 Wed_old#I've got a bowl of warm soup here on the house.[199] What's today's battle? Lay it on me.#$r 012 10 Wed_012#It's kind of lonely here.#$r 013 10 Wed_013#I know nothing about farming.#$r 014 10 Wed_014#I have no money.#$r 015 0 Wed_015#Everything's peachy!",
   "CFE_Gus_Wed_old": "$p 015#I hope things are still going well! Let me know if you need a pick-me-up, though.|Remember you've got lots of friends here at the saloon. Especially on Fridays!",
   "CFE_Gus_Wed_012": "I feel ya. That's the reality for any newcomer.#$b#But relatively speaking, there are quite a few singles your age in Pelican Town. You're bound to hit it off with someone.$h",
   "CFE_Gus_Wed_013": "Well, I once knew nothing about cooking and brewing! But here I am.$h#$b#Truth is, we all start somewhere. Be sure to forgive yourself when things go wrong, and I'm sure you'll make it.",
+  "CFE_Gus_Wed_013.DSV.TurkishGus": "Well, I once knew nothing about cooking and baking! But here I am.$h#$b#Truth is, we all start somewhere. Be sure to forgive yourself when things go wrong, and I'm sure you'll make it.",
   "CFE_Gus_Wed_014": "Oh yes, we've all been there, if we're not there now.$h#$b#But you know, your future looks bright. You're a landowner! I'm sure things will work out.",
   "CFE_Gus_Wed_015": "Is that so? Well, I'm glad to hear it. Pelican Town truly is a special place.$h#$b#Just let me know if something comes up. I'm always ready to lend an ear.",
   "CFE_Gus_Sat": "Business was great last night. I'm pleased.#$e#Be sure to drop by again soon!$h",
@@ -1715,6 +1797,7 @@
 
   //heart specific dialogue
   "CFE_Haley_summerMon4": "I'm going to get such a nice tan this summer.",
+  "CFE_Haley_summerMon4.DSV.ModdedHaley": "I'm going to spend so much time at the beach this summer.",
   "CFE_Haley_summerMon2": "Pretty much everyone who talks to Emily says she's weird.#$e#Some of the clothes she makes are nice, but why would you wear them when there are a ton of perfectly good brands out there?",
   "CFE_Haley_summerTue8": "I guess living in the country isn't so bad.#$e#If I lived in the city I might start to miss all the trees.#$e#@, I think I've been hanging out with you too much.$h",
   "CFE_Haley_summerTue4": "$p 47#Hey I found this new tool to open jars with. So you won't need to help me anymore.$h|There's not a cloud in the sky today.$h",
@@ -1733,6 +1816,7 @@
   "CFE_Haley_summerSat10": "Rowr. Well I thought this day couldn't get any hotter.$l#$e#What have you been thinking about today?$l",
   "CFE_Haley_summerSat6": "It seems like a good day to go swimming.",
   "CFE_Haley_summerSun8inlawEmily": "Hey. How's my sister?#$e#I've been getting along okay. It's been an adjustment.",
+  "CFE_Haley_summerSun8inlawEmily.DSV.NonbinaryEmily": "Hey. How's my sibling?#$e#I've been getting along okay. It's been an adjustment.",
   "CFE_Haley_summerSun4inlawEmily": "Has Emily been cooking for you? I kind of miss her cooking. It was actually really good.$s",
   "CFE_Haley_summerSun4": "Emily usually cooks dinner... But she makes weird stuff like quinoa.",
   "CFE_Haley_summerSun2": "So you're still not bored with that farm?#$e#Sure, okay. You do you.",
@@ -1757,8 +1841,10 @@
   "CFE_Haley_fallSun10": "I don't think I'd be very happy in this town without you, @. So, thank you.#$e#Seriously, I'll do anything for you if you need it.$l",
   "CFE_Haley_fallSun8inlawEmily": "I've had to change my habits a lot to keep the house in shape.#$e#I mean, you've seen it, right? I'm not doing a bad job, am I?",
   "CFE_Haley_fallSun4inlawEmily": "So... how's my sister?",
+  "CFE_Haley_fallSun4inlawEmily.DSV.NonbinaryEmily": "So... how's my sister? Or sibling, I guess.",
 
   "CFE_Haley_winterMon6": "A little fresh coconut would make me feel like I'm someplace warmer.#$e#Plus, there's this special volumizing treatment I read about that uses coconut oil. I've tried it a few times and it's the best.",
+  "CFE_Haley_winterMon6.DSV.ModdedHaley": "A little fresh coconut would make me feel like I'm someplace warmer.#$e#Plus, there's this special curl care treatment I read about that uses coconut oil. I've tried it a few times and it's the best.",
   "CFE_Haley_winterMon8": "I wish it were warmer here in Stardew Valley.#$e#I could move somewhere else, but...",
   "CFE_Haley_winterTue6": "Hmm. It's too cold to take any good photos right now.$u#$e#Snow is pretty, but my fingers would freeze.",
   "CFE_Haley_winterTue10": "Alex and I have had kind of an on-again off-again thing since we were kids.$u#$e#He's a good guy, but we're much better off as just friends.#$e#...So you don't have to worry about a thing.$l",
@@ -1797,6 +1883,7 @@
   "CFE_Haley_Sat_073": "Yeah right. Then how come you look all dirty?$h#$e#Oh. Or do you just always look like that?",
   "CFE_Haley_Sun10inlawEmily": "The house is so empty and quiet without Emily around. I get so lonely.$s#$e#Why don't you come by?$l",
   "CFE_Haley_Sun8inlawEmily": "The house is so empty and quiet without Emily around. I never thought I'd miss her this much.$s#$b#But are you guys doing well?",
+  "CFE_Haley_Sun8inlawEmily.DSV.NonbinaryEmily": "The house is so empty and quiet without Emily around. I never thought I'd miss them this much.$s#$b#But are you guys doing well?",
   "CFE_Haley_Sun2": "Hey.#$b#Have you seen Alex?",
   "CFE_Haley_Sun6": "I'm thinking about donating a bunch of clothes... I must have a hundred pairs of shoes.",
   "CFE_Haley_Sun4inlawEmily": "The house is so empty and quiet without Emily around.",
@@ -1813,9 +1900,14 @@
   "CFE_Haley_Married_RainyDay_5": "Good morning! I got up early and baked something sweet for you! [223 234 211 651 731]#$e#I wonder if I could work as a baker?#$e#...But maybe it wouldn't be as fun. I like baking for you.",
   "CFE_Haley_Married_RainyDay_6": "Good morning! I did some baking early this morning! [223 234 211 651 731]#$e#I know you're strong, but you still need to eat well to stay at your best!$h",
   "CFE_Haley_Married_RainyDay_7": "Oh no... If this weather keeps up I'll get so pale.$s#$e#I'll just stay here and do some housework.",
+  "CFE_Haley_Married_RainyDay_7.DSV.ModdedHaley": "Oh no... If this weather keeps up I'll lose my glow.$s#$e#I'll just stay here and do some housework.",
   "CFE_Haley_Married_RainyDay_8": "You want me to go out there with you and ruin my hair? Heehee, no, I'll pass.$h",
   "CFE_Haley_Married_RainyDay_9": "I can't go outside today... my hair will go limp.$s#$e#Forgive me, dear.$s#$e#I want to look my best for you.",
   "CFE_Haley_Married_RainyDay_9_GN": "I can't go outside today... my hair will go limp.$s#$e#Forgive me, {{TermOfEndearment}}.$s#$e#I want to look my best for you.",
+  "CFE_Haley_Married_RainyDay_9.DSV.BlackHaley": "I can't go outside today... I can't risk damaging my braids.$s#$e#Forgive me, dear.$s#$e#I want to look my best for you.",
+  "CFE_Haley_Married_RainyDay_9.DSV.RomaniHaley": "I can't go outside today... my hair will go frizzy.$s#$e#Forgive me, dear.$s#$e#I want to look my best for you.",
+  "CFE_Haley_Married_RainyDay_9_GN.DSV.BlackHaley": "I can't go outside today... I can't risk damaging my braids.$s#$e#Forgive me, {{TermOfEndearment}}.$s#$e#I want to look my best for you.",
+  "CFE_Haley_Married_RainyDay_9_GN.DSV.RomaniHaley": "I can't go outside today... my hair will go frizzy.$s#$e#Forgive me, {{TermOfEndearment}}.$s#$e#I want to look my best for you.",
   "CFE_Haley_Married_RainyDay_10": "Are you going out in this weather? Just make sure to wipe your boots on the way back in, honey.#$e#I can get some chores done around here.",
   "CFE_Haley_Married_RainyDay_10_GN": "Are you going out in this weather? Just make sure to wipe your boots on the way back in, {{TermOfEndearment}}.#$e#I can get some chores done around here.",
 
@@ -1825,6 +1917,7 @@
   "CFE_Haley_Married_RainyNight_4": "I hope it's nice and sunny tomorrow morning. Too much rain can make me moody.$s",
   "CFE_Haley_Married_RainyNight_5": "Oh, thank goodness! I thought I might not see you until the morning.",
   "CFE_Haley_Married_RainyNight_6": "I hope Emily isn't too lonely all by herself. I should visit her again soon.$7",
+  "CFE_Haley_Married_RainyNight_6.DSV.NonbinaryEmily": "I hope Emily isn't too lonely all by himself. I should visit him again soon.$7",
   "CFE_Haley_Married_RainyNight_7": "Today was kind of a drag for me. Sorry if I'm no fun.$s",
   "CFE_Haley_Married_RainyNight_8": "Rain is horrible for a photographer. The lighting is awful, and you can't go outside without ruining your equipment!$s",
   "CFE_Haley_Married_RainyNight_9": "Cooking helped pass the time today. It just took a little effort to get started. [727 231 207 199]",
@@ -1903,12 +1996,14 @@
   "CFE_Haley_Married_Outdoor_1": "I always feel best when I'm outside, breathing fresh air.#$e#You know what I mean, right? Like, look at you. You're always outside.",
   "CFE_Haley_Married_Outdoor_2": "*sniff* Ahhh... Feels good to get out into the fresh air.#$e#Don't get me wrong, your grandpa's old cottage is very nice! But nothing beats this beautiful landscape.",
   "CFE_Haley_Married_Outdoor_3": "I'm going to give Emily a call today. I just need to wait until she gets up.",
+  "CFE_Haley_Married_Outdoor_3.DSV.NonbinaryEmily": "I'm going to give Emily a call today. I just need to wait until they get up.",
   "CFE_Haley_Married_Outdoor_4": "I'm just going to do some dusting over here. That should help you out, right?",
   "CFE_Haley_Married_Outdoor_5": "Is today going to be another busy day?#$e#Just remember, I'll look forward to seeing you when you get home.",
   "CFE_Haley_Married_Outdoor_6": "Hi, honey! If I knew more about farm work I'd help you out more. Sorry!#$e#I'll be thinking of you.$h",
   "CFE_Haley_Married_Outdoor_7": "I used to be so bored with this town. But once you learn how to stop and appreciate things, it's not really that bad.",
   "CFE_Haley_Married_Outdoor_8": "We've got to make sure the farm is cute! That might be important... right, honey?",
   "CFE_Haley_Married_Outdoor_9": "Looks like a good day to work on my tan, don't you think, sweetheart?",
+  "CFE_Haley_Married_Outdoor_9.DSV.ModdedHaley": "Looks like a good day to get some sun, don't you think, sweetheart?",
   "CFE_Haley_Married_Outdoor_10": "Don't overwork yourself, dear. Make sure and take a break every now and then, or get something to eat.",
 
   //Date Specific Dialogue
@@ -1920,6 +2015,7 @@
   "CFE_Haley_Married_summer6": "You know, one kind of funny thing about not spending every day with Alex anymore... I don't have to listen to him talk nonstop about sports.",
   "CFE_Haley_Married_summer8": "If you get too hot out there, why don't you come looking for me? We'll spend some time in the shade.",
   "CFE_Haley_Married_summer12": "I like dancing, but when Emily does her thing at the luau, it's actually more fun for me just to watch.",
+  "CFE_Haley_Married_summer12.DSV.NonbinaryEmily": "I like dancing, but when Emily does his thing at the luau, it's actually more fun for me just to watch.",
   "CFE_Haley_Married_summer22": "Want me to wear anything sexy tonight?#$e#Hah, like that's even a question, right?$h",
   "CFE_Haley_Married_summer27": "The moonlight jellies are tomorrow night. Can we call it a date?",
   "CFE_Haley_Married_fall3": "Well, there we go! I just had to bake something to pull me out of the fall blues. Here, give it a try. [223 234 211 651 731]",
@@ -1974,10 +2070,12 @@
   "CFE_Harvey_summerFri10": "I went into this profession anticipating that it might be dehumanizing.#$e#What I've found has been quite the opposite.$l",
   "CFE_Harvey_summerFri6": "You really should avoid the mines, @. It's one thing if there's a team-based operation with onsite medical staff...#$b#...but to go in there alone? That worries me.#$e#Well, all I can do is give professional advice. The choice is ultimately yours.",
   "CFE_Harvey_summerFri4": "People don't get sick much during the summer. That's nice, but it also means less business for me.",
+  "CFE_Harvey_summerFri4.DSV.ModdedHarvey": "People don't get sick much during the summer. That's nice, and it means less stress for me.",
   "CFE_Harvey_summerFri2": "It's less common to get a cold during the summer, but they can be extra persistent. Keep taking good care, @.",
 
   "CFE_Harvey_fallSat10": "What, me and Maru? No, of course not.$h#$e#She's a beautiful young woman, and Demetrius seemed pleased with the prospect, but it wouldn't have worked out.#$b#Where even to begin...?$l",
   "CFE_Harvey_fallSat8": "I believe in a system of morality in which care is the only good and harm is the only evil.#$e#I think that's why I became a doctor, but I didn't quite learn to phrase it that way until a couple of years into med school.#$e#I just want to reduce the amount of suffering in the world.#$e#What drives you, @?",
+  "CFE_Harvey_fallSat8.DSV.ModdedHarvey": "Do you know the concept of seva, @? It means selfless service, to help others without any expectation of reward.#$b#It's a core part of my beliefs and while I do take payment from some of my patients so I can pay my rent, I also offer free services to those who can't afford it.#$e#It's why I became a doctor. I just want to reduce the amount of suffering in the world.#$e#What drives you, @?",
   "CFE_Harvey_fallSat6": "I heard from an old colleague of mine. He sounded like he wanted to open a small countryside practice.#$e#He's paid quite well in the city where he works now, but his free time is almost nonexistent.",
   "CFE_Harvey_fallSat4": "It was a bit strange, at first, to move into an apartment directly above my workplace.#$e#I'll never have a better commute, though!$h",
   "CFE_Harvey_fallFri10": "When you eat certain foods you'll perform better.#$b#'Lucky Lunch' is a bizarre dish, but I feel like I have no need for it when I'm around you.$l",
@@ -2005,6 +2103,7 @@
   "CFE_Harvey_Tue6": "A lot of my job comes down to paperwork. If I worked in a big hospital, a secretary would do a lot of it for me.#$e#It's still easier here, in the long-run. I get the occasional afternoon off.",
   "CFE_Harvey_Tue4": "It's important for the examination room to remain confidential, so please don't linger too long if I'm busy seeing a patient.#$e#It's nice to see you, though.",
   "CFE_Harvey_Tue2": "Dairy products are healthy for small children in moderation, but it's actually a good idea for adults to limit milk and cheese.#$e#Fish is good to eat on a regular basis for the health of your brain.",
+  "CFE_Harvey_Tue2.DSV.ModdedSikhHarvey": "Dairy products are healthy for small children in moderation, but it's actually a good idea for adults to limit milk and cheese.#$e#Legumes are good to eat on a regular basis for the health of your gastrointestinal system.",
   "CFE_Harvey_Wed2": "It's good to get out for a walk every now and then. I wish I could get outside more, myself.#$e#That's not really a problem for you though, is it?$h",
   "CFE_Harvey_Thu10": "It's a lot of work, being a doctor. I don't eat as well as I should.$s#$e#If I didn't live alone I think it would be easier.$l",
   "CFE_Harvey_Thu8": "I never really got into the martyr complex that so many doctors develop.#$e#I feel like I work decently hard, and I'm technically on call 24/7, but I also want to be present for my own life.",
@@ -2072,9 +2171,12 @@
 
   "CFE_Harvey_Married_IndoorNight_1": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#Just make sure to eat a reasonable portion, dear.",
   "CFE_Harvey_Married_IndoorNight_1_GN": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#Just make sure to eat a reasonable portion, {{TermOfEndearment}}.",
+  "CFE_Harvey_Married_IndoorNight_1.DSV.ModdedSikhHarvey": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [207 230 235 237 200]$h#$e#Just make sure to eat a reasonable portion, dear.",
+  "CFE_Harvey_Married_IndoorNight_1_GN.DSV.ModdedSikhHarvey": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [207 230 235 237 200]$h#$e#Just make sure to eat a reasonable portion, {{TermOfEndearment}}.",
   "CFE_Harvey_Married_IndoorNight_2": "You look exhausted, dear. Let me give you a massage tonight. I promise it will reduce the inflammation in your muscle tissue!$l",
   "CFE_Harvey_Married_IndoorNight_2_GN": "You look exhausted,{{TermOfEndearment}}. Let me give you a massage tonight. I promise it will reduce the inflammation in your muscle tissue!$l",
   "CFE_Harvey_Married_IndoorNight_3": "Dinner's ready! This one will make you feel great! [212 214 225 209 200]$h#$c .5#It's one of my favorites. Enjoy!",
+  "CFE_Harvey_Married_IndoorNight_3.DSV.ModdedSikhHarvey": "Dinner's ready! This one will make you feel great! [207 230 235 237 200]$h#$c .5#It's one of my favorites. Enjoy!",
   "CFE_Harvey_Married_IndoorNight_4": "I got in a little bit of exercise today. Did you?#$e#...Er, well, of course you did.",
   "CFE_Harvey_Married_IndoorNight_5": "Good evening... did you finish everything you needed to do today?",
   "CFE_Harvey_Married_IndoorNight_6": "Don't worry about me. I'm very self-sufficient. If you have more work to do go right ahead.",
@@ -2154,6 +2256,7 @@
   "CFE_Harvey_Married_winter16": "When you opened that letter from your grandfather... you know, the one you told me about?#$b#It's strange to think how I didn't even know you then, but that moment changed the direction of my life forever.$l#$e#It makes you think... what else is going on in the world right now, that we don't know about, but will change our lives forever?",
   "CFE_Harvey_Married_winter24": "Ohhh, the Feast is tomorrow! I can't wait!$h#$e#Who, me? Feasting? Well, \"Everything in moderation,\" they say... \"Including moderation.\"",
   "CFE_Harvey_Married_winter26": "Hah! Look what was left over and completely unguarded at the Feast! [348]$h#$e#Let's open it tonight. Sorry, I know it's early. I just couldn't wait to show you.",
+  "CFE_Harvey_Married_winter26.DSV.ModdedSikhHarvey": "Hah! Look what was left over and completely unguarded at the Feast! [903]$h#$e#Let's open it tonight. Sorry, I know it's early. I just couldn't wait to show you.",
 
   //Season specific dialogue
   //Affection specific dialogue
@@ -2188,7 +2291,7 @@
   "CFE_Jas_fallWed4": "Have you found any wild plums on the ground?#$e#They're really yummy in plum pudding!$h#$b#I don't like them plain, though.$u",
   "CFE_Jas_fallThu4": "Fall flowers are my favorite. Are you growing any on your farm?",
   "CFE_Jas_fallThu10": "I love fall.",
-  "CFE_Jas_fallFri10": "Sometimes I wonder what it'd be like to have my mom and dad with me at home, and it makes me sad.$u#$b#But I still have Aunt Marnie, Uncle Shane, Miss Penny, and You. There are a lot of grown-ups who are nice to me.",
+  "CFE_Jas_fallFri10": "Sometimes I wonder what it'd be like to have my mom and dad with me at home, and it makes me sad.$u#$b#But I still have Aunt Marnie, Uncle Shane, Miss Penny, and you. There are a lot of grown-ups who are nice to me.", //typo - incorrectly capitalised "You"
   "CFE_Jas_fallSat10": "Grown ups always talk about how life goes by so fast. It doesn't seem like that to me.#$e#It's going to be SO long until my next birthday. I'm going to be an old lady by then!$s",
   "CFE_Jas_fallSun10": "When I grow up, maybe I'll work on a farm. Maybe I'll write stories or paint pictures.#$e#Or maybe I'll be a veterinarian.#$b#I don't know! We'll see.$h",
   "CFE_Jas_winterMon10": "Once, I woke up in the middle of the night. The shadows looked like they were moving, and then a face appeared.$u#$b#I almost screamed but then it disappeared.$u#$e#Maybe it was all a dream. I can't really tell.$u",
@@ -2199,7 +2302,7 @@
 
   "CFE_Jas_Mon10": "@! It's youuu!$h#$e#I love you.$h",
   "CFE_Jas_Mon8": "I wish there were some other kids to play with around here.#$e#Vincent's a nice friend, but I see him almost every day.",
-  "CFE_Jas_Mon6": "What's Zuzu city like? I've never been.",
+  "CFE_Jas_Mon6": "What's Zuzu City like? I've never been.",
   "CFE_Jas_Mon2": "So you live next door, right?$u",
   "CFE_Jas_Tue10": "If you're good at taking care of animals, you're probably also good at taking care of dolls.#$e#A barn is kind of like a dollhouse, right? You have to go in and check on them and make sure they're all loved and happy.",
   "CFE_Jas_Tue4inlawShane": "Shane always used to look so sad, but then he met you.#$e#I love happy endings.$h",
@@ -2233,7 +2336,7 @@
   "CFE_Jodi_Pearl": "Oh, I couldn't possibly take something like this!$h#$b#But... well, it's been a while since I had something so nice. Thank you!",
   "CFE_Jodi_PrismaticShard": "What a beautiful stone! Thank you!#$b#I just feel giddy holding it! I don't know the last time I felt this good!$h",
   "CFE_Jodi_RabbitsFoot": "What a kind gesture of you! I wish you good luck, too!$h",
-  "CFE_Jodi_ChocolateCake": "This looks absolutely delicious! Those layers are something else.$h#$b#Time for a little indulgence. I can't deny it's been awhile.",
+  "CFE_Jodi_ChocolateCake": "This looks absolutely delicious! Those layers are something else.$h#$b#Time for a little indulgence. I can't deny it's been a while.", //typo - "awhile" should be "a while"
   "CFE_Jodi_CrispyBass": "Oh, did you give my old family recipe a go?$h#$b#Let's see... yes, it looks perfect! The breading is exactly right.$h",
   "CFE_Jodi_Diamond": "Oh, @, are you sure? I couldn't possibly accept this...#$b#But, heh heh, if you insist, I don't want to be impolite.$h",
   "CFE_Jodi_EggplantParmesan": "Oh! @, you're a lifesaver. Here I was, with no idea how I'd manage dinner tonight, but this looks perfect!",
@@ -2261,6 +2364,7 @@
   "CFE_Jodi_spring1y2": "It's such a wonderful day today! Our family has so much to be thankful for!$h#$e#I'll never forget what it was like to see Kent step off that bus.$h",
   "CFE_Jodi_winter24": "Vince is so excited for tomorrow! It's hard to get the winter blues with his cute little face around here.",
   "CFE_Jodi_winter28": "The boys are staying up late, but not me. I have a lot of prayers to say tonight.",
+  "CFE_Jodi_winter28.DSV.ModdedJodi": "The boys are staying up late, but not me. I've had a lot of work to do today.",
 
   //heart specific dialogue
   "CFE_Jodi_springWed8": "I wonder if anyone would say something if I skipped cleaning the house today...$s#$e#Who am I kidding? I would notice.$4",
@@ -2270,9 +2374,11 @@
   "CFE_Jodi_springSat2": "The springtime air is wonderful.$h#$b#Just... please don't bring me any spring flowers. Sam's terribly allergic.",
 
   "CFE_Jodi_summerMon4y2": "Kent's retirement pension actually exceeds what he was paid during active duty.#$b#We can meet our bills decently, but... well uh...$s#$b#How are things going for you?",
+  "CFE_Jodi_summerMon4y2.DSV.NoMoreWar": "Kent's retirement pension actually exceeds his working salary.#$b#We can meet our bills decently, but... well uh...$s#$b#How are things going for you?", //DSV's NoMoreWar option changes Kent's profession to a war journalist covering events in Gotoro rather than a soldier
   "CFE_Jodi_summerTue8y2": "It was such a relief to see Kent come home. I just never expected to see how much he had changed.$s#$e#If he's suffering, I want to suffer with him.$s#$b#But I'm also afraid that pushing him to open up will just make it worse.$s",
   "CFE_Jodi_summerWed8y1": "I'm glad you moved into town, @. There are few people I've met who are as generous and caring as you.",
   "CFE_Jodi_summerWed8y2": "Kent truly is a good man at heart. I wish you could have met him before his tour, @.$s",
+  "CFE_Jodi_summerWed8y2.DSV.NoMoreWar": "Kent truly is a good man at heart. I wish you could have met him before he left, @.$s",
   "CFE_Jodi_summerThu6y1": "Housework is frustrating because you're never finished.#$e#The day after I sweep the floor, it's dirty again.",
   "CFE_Jodi_summerThu6y2": "Some days are difficult. But Kent is home, and difficult or not, our family is complete.#$e#I have to take time to be thankful for that.",
   "CFE_Jodi_summerFri6": "I'm thankful for the education that Vince gets from Penny. He wouldn't get as much one-on-one attention at a public school.#$e#Plus, commuting out of town to a public school is off the table, anyway.",
@@ -2285,6 +2391,7 @@
   "CFE_Jodi_fallSun4": "When you become a parent, you have to leave your old lifestyle behind.#$e#Maybe that's not entirely true... but if you're not careful, it will happen.",
 
   "CFE_Jodi_winterMon10": "Sam hasn't ever shown any interest in becoming a soldier. But Vincent? Who knows what he'll be like when he's older.#$e#There are some things I just have to let go of.",
+  "CFE_Jodi_winterMon10.DSV.NoMoreWar": "Sam hasn't ever shown interest in following in his father's footsteps. But Vincent? Who knows what he'll be like when he's older.#$e#There are some things I just have to let go of.",
   "CFE_Jodi_winterTue10": "It's easy at times not to worry about the future, but every now and then I can't help but get anxious.#$e#That's normal, right?",
   "CFE_Jodi_winterWed4": "What do I do for fun? Hmm... That's a good question.#$e#I like sleeping.$s",
   "CFE_Jodi_winterFri8": "Not too long before the year ends, huh? I can't believe it's already almost over.",
@@ -2299,6 +2406,7 @@
   "CFE_Jodi_Mon4": "Have you spent much time with Sam? Maybe he can show you his music skills.",
   "CFE_Jodi_Mon2inlawSam": "I'm thankful for Sam's visit today. ...Is he picking up after himself?#$b#I hope he's not too much of a burden on you...",
   "CFE_Jodi_Mon2": "#$1 JodiAltar#Yesterday I visited Yoba's Altar to ask for my husband's safe return.#$e#I'm trying to stay positive, but it's hard sometimes.$s",
+  "CFE_Jodi_Mon2.DSV.ReligionEdits": "#$1 JodiAltar#Yesterday I visited the community altar to ask for my husband's safe return.#$e#I'm trying to stay positive, but it's hard sometimes.$s",
   "CFE_Jodi_Tue10": "I've always believed that childhood is something that should be cherished and protected, but...#$e#Maybe I made some mistakes. I just wanted the best for Sam and Vince. Did I try too hard?$s",
   "CFE_Jodi_Tue8": "I got Vincent to make his bed this morning. So that's one less thing I had to do.#$e#Then he started demanding candy for his 'work.'$s",
   "CFE_Jodi_Tue6": "I want Sam to make some achievable goals for his future, but every time I talk with him about it, he just says he has everything under control.$s#$b#It's difficult being a parent when I know it's no longer my job to solve his problems for him.$s",
@@ -2329,6 +2437,7 @@
   "CFE_Jodi_Sun6": "Have you heard Sam play his guitar recently? He's actually really good!$h#$b#...If a bit loud.",
   "CFE_Jodi_Sun4y1": "I'm glad that Sam has gradually become a good role model for Vincent. Those two boys connect in a way a mother simply can't.",
   "CFE_Jodi_Sun4y2": "Sam has come a long way with Vincent. He really stepped up when Kent was first deployed.#$e#It did make me happy to see him grow and change like that.",
+  "CFE_Jodi_Sun4y2.DSV.NoMoreWar": "Sam has come a long way with Vincent. He really stepped up when Kent's assignment started.#$e#It did make me happy to see him grow and change like that.",
   "CFE_Jodi_Sun2": "I'm taking a break from house chores today.$h#$e#If I don't spend any time outside, I'll go crazy!#$e#Plus I don't want my legs to turn soft.",
 
   //generic weekday dialogue
@@ -2347,6 +2456,7 @@
   "CFE_Kent_Pearl": "Something like this takes some real guts to retrieve. Where'd you find it?$h",
   "CFE_Kent_PrismaticShard": "Hmm, this stone...#$b#What is this? I feel... calm. I haven't felt this way since... I don't remember.$5",
   "CFE_Kent_RabbitsFoot": "A good luck charm? Thanks.$h#$b#One of my comrades swore this kept him safe through our deployment. He might've been onto something.",
+  "CFE_Kent_RabbitsFoot.DSV.NoMoreWar": "A good luck charm? Thanks.$h#$b#One of my colleagues swore this kept him safe through our time in Gotoro. He might've been onto something.",
   "CFE_Kent_FiddleheadRisotto": "Hey, did I ever mention this is what my mother used to make, ages ago?$h#$e#It's really kind of you to bring some by.$h",
   "CFE_Kent_RoastedHazelnuts_1": "...I had these at a ball game when I was just a kid. That might be one of my earliest memories. Thank you.$h#...",
   "CFE_Kent_RoastedHazelnuts_2": "These are great for movie night. You ever tried them? Even if the movie's insufferable, it'll make things decent.$h",
@@ -2368,6 +2478,7 @@
   "CFE_Kent_summerMon8": "It's nice to see Sam take Vincent to the beach in summer. I'm glad that they still spend time together.$h",
   "CFE_Kent_summerMon4": "My mother used to make a risotto with fiddlehead ferns. That was a staple of my childhood.$h",
   "CFE_Kent_summerWed10": "@, I know you want to help me, and I appreciate it. But some things will never be the same again.#$b#What's a man to do? It's miles away from perfect, but all I can do each day is my best, for the kids, for Jodi...#$b#...and then pray to Yoba it's enough.",
+  "CFE_Kent_summerWed10.DSV.OmaniKent": "@, I know you want to help me, and I appreciate it. But some things will never be the same again.#$b#What's a man to do? It's miles away from perfect, but all I can do each day is my best, for the kids, for Jodi...#$b#...and then pray it's enough.",
   "CFE_Kent_summerThu8": "I worry sometimes about losing my temper with Vince if he's not listening to me. In those cases, I just leave the room.#$e#But then Jodi gets upset, saying I'm leaving all the parenting to her...",
   "CFE_Kent_summerSat10": "I'm not sure when's the last time I drank water today.#$e#I should probably get some hydration.",
   "CFE_Kent_summerSun2": "I remember that sound of the river rustling by.$h#$e#It takes me back.$h",
@@ -2380,8 +2491,10 @@
   "CFE_Kent_fallSun10": "Sometimes, I can feel anger welling up within me, but I don't fully notice it until it's almost too late.#$e#I just can't afford to lose my temper in front of my family. Especially Vincent, you know?",
 
   "CFE_Kent_winterMon10": "I've been having this dream where I'm on the front lines again, but Sam's there trying to provide cover fire for me.$s#$b#Then for some reason, Vincent shows up.$s#$e#It all feels so real when it happens. I never had to face that image before I came home.$3",
+  "CFE_Kent_winterMon10.DSV.NoMoreWar": "I've been having this dream where I'm on the front lines again, but Sam's there trying to draw the soldiers away from us.$s#$b#Then for some reason, Vincent shows up.$s#$e#It all feels so real when it happens. I never had to face that image before I came home.$3",
   "CFE_Kent_winterThu10": "Despite all the evils of the world, we've all got to be good to each other and enjoy the good times.#$e#So people say. It's not easy for me. Feels selfish.#$b#But I don't know another way.",
   "CFE_Kent_winterFri10": "I wonder what's on tap at the saloon tonight. I don't like to drink overmuch. One or two drinks -- that's all I like.#$e#As long as I feel in control of myself, I'm fine.",
+  "CFE_Kent_winterFri10.DSV.OmaniKent": "I wonder what Gus is making at the saloon tonight. Jodi could do with a night off from cooking, but I don't trust myself with the stovetop most days.#$e#Some day I'll feel in control of myself again and I'll cook for her then.",
   "CFE_Kent_winterSat8": "I'd just fallen asleep this morning when Vincent woke me up. I lost my temper with him, big time.$s#$e#Poor kid deserves better.#$b#I hope he'll forgive me someday. All I can do is my best.$s",
   "CFE_Kent_winterSat2": "I keep fooling myself into thinking I hear thunder on the horizon.#$b#Of course, that can't be the case.",
 
@@ -2399,25 +2512,33 @@
   "CFE_Kent_Tue_old": "$p 018#I still wouldn't trade places with the poor bastard who died at his desk job.$h|The city would probably drive me crazy at this point. Or even worse... the suburbs.$h",
   "CFE_Kent_Tue_018": "...Seriously?#$b#...#$b#Heh heh heh...$h#$b#That's hilarious.$h#$e#Thanks. I needed to hear that.$h",
   "CFE_Kent_Tue_019": "Hm. Sounds miserable. I'm glad you got out.#$b#Well, better to be retired military with a family you love than to spend your entire life in a cubicle. Thanks for sharing.$h",
+  "CFE_Kent_Tue_019.DSV.NoMoreWar": "Hm. Sounds miserable. I'm glad you got out.#$b#Well, better to be a retired newshound with a family you love than to spend your entire life in a cubicle. Thanks for sharing.$h",
   "CFE_Kent_Tue8": "Jodi would send me photos of Sam and Vince while I was gone. I don't know if I would've even recognized them if I hadn't seen them growing and changing.#$e#Seeing them in person was still pretty disorienting, regardless.",
+  "CFE_Kent_Tue8.DSV.TransSam": "Jodi would send me photos of Sam and Vince while I was gone, especially of Sam's transition. I don't know if I would've even recognized them if I hadn't seen them growing and changing.#$e#Seeing them in person was still pretty disorienting, regardless.",
   "CFE_Kent_Tue4": "So, do you have any hobbies?#$e#I'm just looking for ideas.",
   "CFE_Kent_Wed8": "I have to wonder if Jodi and the boys are any better off with me here.$s#$b#Jodi admonishes me for doubting. It doesn't make much sense to me, but I guess that's something I have to take on faith.",
   "CFE_Kent_Wed6": "...I lost a lot of friends in battle.$s#$e#What's sad is that I can't even remember their faces.#$e#...",
+  "CFE_Kent_Wed6.DSV.NoMoreWar": "...I lost a lot of friends in the destruction.$s#$e#What's sad is that I can't even remember their faces.#$e#...",
   "CFE_Kent_Wed4": "The kind of work you do sounds nice, @. Maybe that's where my calling should've been.$h",
   "CFE_Kent_Wed2": "...So you're the grandson of the man who used to live on the farm?^...So you're the granddaughter of the man who used to live on that farm?",
   "CFE_Kent_Wed2_GN": "...So you're the grand{{AdultFamilialNoun}} of the man who used to live on the farm?",
   "CFE_Kent_Thu10": "I had a good time playing with Vince yesterday.$h#$b#I could only sustain that feeling for a minute or two, but it reminded me briefly of how things are 'supposed' to feel.$h",
   "CFE_Kent_Thu8": "I talked to someone from my unit on the phone. He said watching cartoons with his daughter helped 'bring the color back.'#$e#I think I get what he means by that, but mostly in the abstract sense.#$e#It must be nice.",
+  "CFE_Kent_Thu8.DSV.NoMoreWar": "I talked to one of my contacts on the phone. He said watching cartoons with his daughter helped 'bring the color back.'#$e#I think I get what he means by that, but mostly in the abstract sense.#$e#It must be nice.",
   "CFE_Kent_Thu6": "I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.#$e#Sam has really grown up since I left. He's a man now.#$e#I wish I could've been there for him.$s",
+  "CFE_Kent_Thu6.DSV.TransSam": "I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.#$e#Sam has really grown up since I left. He's an adult now.#$e#I wish I could've been there for him.$s",
   "CFE_Kent_Thu4": "What day is it again, today?#$e#I almost never remember anymore.",
   "CFE_Kent_Thu2": "...!$3#$b#Sorry, bad headache.$s",
   "CFE_Kent_Fri10": "In the war, it's drilled into your head relentlessly that survival is the only right... the only good.#$b#And the reality of the situation only confirms that.$s#$e#How does anyone expect someone like me to resume a normal life again after that?#$e#...Sorry.",
+  "CFE_Kent_Fri10.DSV.NoMoreWar": "In the war, so many people are forced to learn that survival is the only right... the only good.#$b#And the reality of the situation only confirms that.$s#$e#How does anyone expect someone like me to resume a normal life again after that?#$e#...Sorry.",
   "CFE_Kent_Fri8": "Any plans for your weekend? I'm trying a change of pace. Don't want to stretch myself too thin.$h",
   "CFE_Kent_Fri6": "Everyone looks so damn busy all the time. And what for, anyway?",
   "CFE_Kent_Fri2": "I guess I'll go for a walk today.",
   "CFE_Kent_Sat10": "I wish I had some ideas for how to do something special for Jodi. She's really given a lot for Sam and Vincent.#$e#When I was younger, I did elaborate gestures all the time. ...I think. It's tough to remember them now.$s",
   "CFE_Kent_Sat6": "The boys turned out pretty well. Jodi's been a good mother to them.#$b#And there's still some time. Vincent's still just a boy.#$e#So many I served with won't even get to see their families again.$s",
+  "CFE_Kent_Sat6.DSV.NoMoreWar": "The boys turned out pretty well. Jodi's been a good mother to them.#$b#And there's still some time. Vincent's still just a boy.#$e#Too many people I met over there won't even get to see their families again.$s",
   "CFE_Kent_Sat4": "The military let me take an early retirement.#$e#It's nice that they send checks that support the family.#$e#They deserve the money, even if I don't.",
+  "CFE_Kent_Sat4.DSV.NoMoreWar": "The newspaper company let me take an early retirement.#$e#It's nice that they send checks that support the family.#$e#They deserve the money, even if I don't.",
   "CFE_Kent_Sat2": "I guess there are a few others who joined the community since I left.#$e#Jodi had me introduce myself to them, too.",
   "CFE_Kent_Sun10": "I know I'm not the most fun person to talk to, @, but you keep coming around.#$b#Thank you for being such a kind friend.$h#$e#I've seen some horrible things. Talking about it doesn't fix anything that happened, but it seems to be the next best thing we've got.",
   "CFE_Kent_Sun8": "What gets you through the day, @? It seems like no matter how hard I try, I can't bring myself... to try.#$e#That probably makes no sense.",
@@ -2444,7 +2565,7 @@
   //these lines target files other than the standard characters/dialogue/Krobus location such as unmarried rainy dialogue
   "CFE_Krobus_rainy_1": "Ah, the sewers are flowing quickly today. It'll get nice and humid in here... Just how I like it.",
   "CFE_Krobus_rainy_2": "Rain is truly a lifegiving force. Give thanks to Yoba today.",
-  "CFE_Krobus_rainy_3": "Today might be a good day for me to poke me head outside for a few minutes.#$e#...If the coast is clear, that is.",
+  "CFE_Krobus_rainy_3": "Today might be a good day for me to poke my head outside for a few minutes.#$e#...If the coast is clear, that is.",
 
   //Krobus's Standard Dialogue
   //Special Dialogue
@@ -2465,7 +2586,7 @@
   "CFE_Krobus_fallThu10": "There are plenty of delicious things to eat down here. Flies. Slugs. Roaches.#$e#Recently, I saw a mantis who was lost.",
   "CFE_Krobus_fallSat10": "I decided upon the name \"Krobus\" for myself. This was only a few hundred years ago.#$e#Before then, I had other names. ...I think.#$b#Or maybe I didn't have a name before \"Krobus.\" It's tough to remember.$3",
   "CFE_Krobus_fallSun10": "We shadow beings don't grow old. We can \"pass away,\" though not in the same way as your kind.#$e#With time, we slowly dissolve until we are indistinguishable from the darkness once again.#$b#Some time later, a new shadow being hatches from the darkness.$h",
-  "CFE_Krobus_winterMon10": "Many shadow beings enjoy \"Strange Bun.\" I certainly do, too.#$b#But humans probably don't like them. Too bad, they're delicious.$s",
+  "CFE_Krobus_winterMon10": "Many shadow beings enjoy a \"Strange Bun.\" I certainly do, too.#$b#But humans probably don't like them. Too bad, they're delicious.$s", //typo - "enjoy Strange Bun"
   "CFE_Krobus_winterTue10": "It's too cold for the tiny bugs to survive. My food supply is a bit short.$s",
   "CFE_Krobus_winterSat10": "I carry mixed feelings about my species. On one hand, I'm ashamed of the chaos we've caused. It's simply in our nature.$3#$b#But we're not all violent. And my kin, my origin... it's who I am. I can't just forsake where I come from, can I?$3",
 
@@ -2584,9 +2705,11 @@
   "CFE_Leah_PrismaticShard": "That's fantastic! I wonder if I could mix it into some paint...$h",
   "CFE_Leah_RabbitsFoot": "Thanks! I could use some good luck!$h#$b#A career in art is never very easy.$7",
   "CFE_Leah_GoatCheese": "Ooh! My favorite kind of cheese!#$b#I've got the perfect wine that'll pair with that tangy acidity.$h",
+  "CFE_Leah_GoatCheese.DSV.NativeLeah": "Ooh! My favorite kind of cheese!#$b#I've got the perfect cider that'll pair with that tangy acidity.$h",
   "CFE_Leah_PoppyseedMuffin": "Thank you! It'll be great kicking back with this.$h#$b#*sniff* Mmm, fresh-baked and oh-so soothing.",
   "CFE_Leah_StirFry": "Now that's a meal! There are so many delicious things in there, practically every bite's got a little something new.$h",
   "CFE_Leah_Wine": "Ahh, one of life's great pleasures. I'll sip this one nice and slow. Thank you!",
+  "CFE_Leah_Juice.DSV.NativeLeah": "Ahh, one of life's little pleasures. I'll sip this one nice and slow. Thank you!",
 
   //Leah's Misc Dialogue
   //these lines target files other than the standard characters/dialogue/Leah location such as unmarried rainy dialogue
@@ -2597,6 +2720,7 @@
   //Leah's Standard Dialogue
   //Special Dialogue
   "CFE_Leah_repeated_1": "Have you ever tried the wine from the valley?#$e#Better yet, you could probably make your own wine on your farm. That would be amazing.$h",
+  "CFE_Leah_repeated_1.DSV.NativeLeah": "Have you ever tried the cheeses from the valley?#$e#Better yet, you could probably make your own cheese on your farm. That would be amazing.$h",
   "CFE_Leah_repeated_2": "Oh, @! Hi!$h#$e#Did your morning chores go okay?$l#$e#I hope I can help you sometime.",
   "CFE_Leah_repeated_3": "Hello, @. It's a nice day, isn't it?#$e#Stop by my cabin if you ever need someone to talk to.$h",
   "CFE_Leah_repeated_4": "Nature itself will always be a greater artist than any one of us.#$e#You work directly with nature, though. Yeah, I'd say farming is an art, of sorts.",
@@ -2640,8 +2764,10 @@
   "CFE_Leah_summerMon4": "Such a lovely day, isn't it?#$e#Oh, by the way, I found these. I saved one for you. [396]#$e#To me, they just taste like summer memories.",
   "CFE_Leah_summerTue8": "One time, I went on a night hike with some friends and we unexpectedly wound up at an old vineyard.#$b#The owner of the vineyard invited us in. I remember that summer night air was so pure and warm. That was the first time I had a glass of wine.#$e#What's your favorite summer memory, @?",
   "CFE_Leah_summerTue6": "The simple things in life are best: a soft summer breeze, majestic clouds, and a goblet full of Stardew Valley red.",
+  "CFE_Leah_summerTue6.DSV.NativeLeah": "The simple things in life are best: a soft summer breeze, majestic clouds, and a plate full of Stardew Valley cheese and fruit.",
   "CFE_Leah_summerTue4": "I walked by Marnie's ranch yesterday, and the cows just kept looking at me.#$e#Their faces were so gentle.#$e#Do you have some cows, too?",
   "CFE_Leah_summerWed8": "Sometimes, a strange feeling comes over me. My head becomes totally empty... and I feel completely at peace, even blissful.#$e#Hey, now! It has nothing to do with drinking wine!$h",
+  "CFE_Leah_summerWed8.DSV.NativeLeah": "Sometimes, a strange feeling comes over me. My head becomes totally empty... and I feel completely at peace, even blissful.#$e#That's the beauty of living with nature, isn't it?$h",
   "CFE_Leah_summerWed4": "Do you ever walk out into the forest... Pause... And simply enjoy the beauty of nature?#$e#It's easy to forget how incredible this world actually is...",
   "CFE_Leah_summerThu10": "*giggle* Why yes, I do like long walks on the beach. How perceptive of you to ask!$h",
   "CFE_Leah_summerThu8": "The sound of the ocean puts me into a meditative state. It's so peaceful.#$e#But you're always welcome to talk to me, too.",
@@ -2689,6 +2815,7 @@
   "CFE_Leah_winterThu4": "I hope Elliott's doing okay in his little house. I like to think I have it hard sometimes, but that guy really knows how to rough it out.",
   "CFE_Leah_winterThu2": "I'm having a hard time finding fresh food to eat.#$e#I've been eating a lot of bread.$s",
   "CFE_Leah_winterFri10": "Hey. Whaddaya say we get a little tipsy together this evening?$h#$e#It's alright. I trust you.$l#$e#I just want to be asleep by around midnight, though.",
+  "CFE_Leah_winterFri10.DSV.NativeLeah": "Hey. Whaddaya say we get a little tipsy together this evening?$h#$e#It's alright. I trust you and I never have more than a glass or two anyway.$l#$e#I just want to be asleep by around midnight, though.",
   "CFE_Leah_winterFri4": "Time seems to move slower here.#$e#When I lived in the city, the year went by so fast.",
   "CFE_Leah_winterFri2": "So, what do you enjoy most about living on a farm?#$e#You must have a lot more time on your hands lately.",
   "CFE_Leah_winterSat8": "Do you ever get cold in that farmhouse of yours?#$e#Stop by my cabin if you want to huddle under one of my quilts and drink cider.$h",
@@ -2765,7 +2892,7 @@
   "CFE_Leah_Married_IndoorDay_8": "I was thinking... life's too short to eat bad food. Luckily, we live in one of the best regions for fresh greens and vegetables!#$e#Here, I made you a healthy salad. [196]#$e#I'm surprised you aren't sick of my salad yet!",
   "CFE_Leah_Married_IndoorDay_9": "Good morning! I made us some coffee.[395]$h",
   "CFE_Leah_Married_IndoorDay_10": "My morning just wouldn't be complete without a hot cup of coffee.[395] How about you?$h",
-  "CFE_Leah_Married_IndoorDay_11": "Let me know if you see any cute animals out there today.#$e#I think I saw some fuzzy racoons down in Cindersap Forest. Maybe keep an eye out for 'em?",
+  "CFE_Leah_Married_IndoorDay_11": "Let me know if you see any cute animals out there today.#$e#I think I saw some fuzzy raccoons down in Cindersap Forest. Maybe keep an eye out for 'em?",
   "CFE_Leah_Married_IndoorDay_12": "Busy day today? Remember, you don't have to do it all.#$e#Whatever you can get done will be plenty, I'm sure.",
   "CFE_Leah_Married_IndoorDay_13": "Are the animals doing well today?#$e#I suppose I could give them a visit myself too.",
   "CFE_Leah_Married_IndoorDay_14": "Is it odd to have salad for breakfast, too? Sorry, I couldn't resist. [196 196 609 610]$h#$e#I must be the biggest salad nut you know, huh?$l",
@@ -2839,6 +2966,7 @@
   "CFE_Leah_Married_summer24": "I wonder how my old neighbors are doing. Marnie, Jas...#$e#...Oh right. And Shane.#$e#I guess I'm still technically neighbors with them, huh?$h",
   "CFE_Leah_Married_fall7": "I wonder if I should check out Caroline's dance aerobics class again. I've only ever been... twice? ...I think?#$e#Oh yeah! Once, Dr. Harvey was there. It was cute.$h#$b#Hey, more power to him.",
   "CFE_Leah_Married_fall10": "Emily's still working at the Saloon, isn't she? Hm, I wonder if she'll ever move out of town?#$e#I've never gotten to know her super well, but I always got the sense she was meant for more than waiting tables.",
+  "CFE_Leah_Married_fall10.DSV.TurkishGus": "Emily's still working at the Saloon, isn't she? Hm, I wonder if she'll ever move out of town?#$e#I've never gotten to know her super well, but I always got the sense she was meant for more than bartending and waiting tables.",
   "CFE_Leah_Married_fall13": "I basically get to live my dream. @, I hope you understand that I don't take that for granted, right?",
   "CFE_Leah_Married_fall24": "The coffee shop in Grampleton was displaying some of my paintings and they finished selling the last piece! Score!$h#$e#Maybe they'll ask me again.",
   "CFE_Leah_Married_winter4": "Hmm... I wonder how Elliott's doing with all this cold? Do you think maybe he'd appreciate a hot meal from us?",
@@ -2928,7 +3056,7 @@
   //Lewis Gift Tastes
   "CFE_Lewis_GoldPumpkin": "So that's what was at the end of the maze, huh? Another Pelican Town mystery solved!$h#$e#I'll just uh... put the gold pumpkin in the town's trophy case.#$e#We don't have a trophy case, but I've been trying to get one made.#$e#Date to be determined.",
   "CFE_Lewis_RockCandy": "Oho! You're telling me this rock candy will give me strength like nothing else? I know where I can use this!$h",
-  "CFE_Lewis_PrismaticShard": "This if fantastic! I could use it to adorn one of my artistic projects!$h#$e#...What projects, you ask? They're uh, top secret.",
+  "CFE_Lewis_PrismaticShard": "This is fantastic! I could use it to adorn one of my artistic projects!$h#$e#...What projects, you ask? They're uh, top secret.",
   "CFE_Lewis_RabbitsFoot": "Wishing me good luck? I think Pelican Town got all the luck it needed, the day you showed up!$h#$b#Thanks for everything, @.",
   "CFE_Lewis_AutumnsBounty": "That might be the most delicious-looking plate of food I've seen all month!$h#$b#Thanks, @, you sure know your stuff.",
   "CFE_Lewis_GreenTea": "You're a gent! Thank you!$h^What a treat! Thank you!$h#$b#I was just about to unwind. This looks perfect!",
@@ -2950,7 +3078,7 @@
   //date specific dialogue
   "CFE_Lewis_spring1y2": "Cheers to the new year! You've got a lot of work in these early days of the season, haven't you?",
   "CFE_Lewis_spring3": "Have you planted any spring crops yet? The season doesn't last forever, you know.",
-  "CFE_Lewis_spring12": "Did you get my letter about the Egg festival? I sure hope you can make it!#$e#I've got some good ideas for hiding spots in the egg hunt. Just you wait.$h",
+  "CFE_Lewis_spring12": "Did you get my letter about the Egg Festival? I sure hope you can make it!#$e#I've got some good ideas for hiding spots in the egg hunt. Just you wait.$h",
   "CFE_Lewis_spring14": "I think we've got all the hidden eggs from yesterday cleaned up.#$b#...Pretty sure, anyway.",
   "CFE_Lewis_spring23": "I sure hope the flower dance is a success again this year.#$e#Sometimes those old traditions die hard, though...$s",
   "CFE_Lewis_summer10": "I didn't sleep much last night. The luau is always the most stressful festival of the year for me.#$e#Don't let that get in the way of you having a good time, though!$h",
@@ -2973,7 +3101,7 @@
   "CFE_Lewis_summerTue4": "Do you talk to Willy from time to time? He's lived in that shack for about as long as I can remember.#$e#He's a good man.",
   "CFE_Lewis_summerWed6": "I learned a few gardening tips from Evelyn. It's always worthwhile to spend time with a good soul like her.",
   "CFE_Lewis_summerThu4": "The saloon gets pretty lively at night.#$e#I like to visit once a week or so to catch up on things. And to get a taste of Gus' authentic spaghetti.",
-  "CFE_Lewis_summerSat10": "I er, you probably know a secret or two about me, @.#$b#But you've still remained a good friend to me despite that, so thank you.#$e#I wanted to repay you, even if just a little bit. I've got some gold leftover from when I was making...#$b#[336]I mean, here. Please have some of this.$u",
+  "CFE_Lewis_summerSat10": "I, er, you probably know a secret or two about me, @.#$b#But you've still remained a good friend to me despite that, so thank you.#$e#I wanted to repay you, even if just a little bit. I've got some gold leftover from when I was making...#$b#[336]I mean, here. Please have some of this.$u",
   "CFE_Lewis_summerSun6": "It's the perfect time to be cooking with some spicy peppers! Got any growing this summer?",
 
   "CFE_Lewis_fallMon4": "I've been Mayor of Pelican Town for over twenty years!#$e#No one ever runs against me when it's time for an election. I like to think that it means I'm doing my job well.#$e#I like being Mayor.",
@@ -2981,7 +3109,7 @@
   "CFE_Lewis_fallWed4": "Every Wednesday I have buckwheat waffles and coffee for breakfast. It's a little tradition I observe to keep the bachelor life interesting.$h",
   "CFE_Lewis_fallThu10": "As mayor, it's important to remember I have a great deal of influence on this town.#$e#I'd like to think I'm responsible for setting the mustache trend. Have you noticed how many citizens have mustaches?#$e#I'm quite proud of myself for that one.",
   "CFE_Lewis_fallThu4": "Do you have any bee houses on your farm?#$e#If you place them near flowers you can get different types of honey.",
-  "CFE_Lewis_fallFri10": "I feel like I've become as close with you, @, as I was with your Grandfather. It's strange yet heartwarming to see how times change.#$e#For every life that leaves this world, a new one comes to replace it. We must not forget that.",
+  "CFE_Lewis_fallFri10": "I feel like I've become as close with you, @, as I was with your grandfather. It's strange yet heartwarming to see how times change.#$e#For every life that leaves this world, a new one comes to replace it. We must not forget that.",
   "CFE_Lewis_fallSat10": "\"Firm but fair\" is how I like to lead the town. If someone disturbs the peace here, I can show them a lot of mercy...#$b#...but not before I admonish them thoroughly.#$e#Well, it's worked for over twenty years, so why change now?",
   "CFE_Lewis_fallSun4": "Ah... There's nothing like a strong cup of tea in the morning.",
 
@@ -3048,6 +3176,7 @@
   //heart specific dialogue
   "CFE_Linus_summerMon10": "Where did all the trash in the water come from? I don't understand...$s",
   "CFE_Linus_summerTue8": "Marlon and Gil? Yes, I see them every now and then.#$e#We mostly keep to ourselves.",
+  "CFE_Linus_summerTue8.DSV.ModdedLinus": "Marlon and Gil? Yes, I see them every now and then.#$e#Marlon checks in on me from time to time, but otherwise we mostly keep to ourselves.",
   "CFE_Linus_summerWed10": "The world existed long before we ever did. And it will continue to exist long after we leave it.#$e#Thinking deeply about this truth has guided the way I live.",
   "CFE_Linus_summerThu10": "I respect what you do on your farm, @. As long as you take care of the ecosystem your farm is a part of, we have nothing to fear.",
   "CFE_Linus_summerSat10": "What is it that mankind ultimately lives for? Comfort? No, it cannot be something so base as that.#$e#I have no single answer for why we are here. Kindness? Harmony? Love? These are the things I desire most.",
@@ -3058,10 +3187,12 @@
   "CFE_Linus_fallWed8": "The mountain owes us nothing, yet it still gives. Anything we take is an undeserved gift. We must never forget to be thankful.",
   "CFE_Linus_fallFri10": "I've never lived only for myself. I just wish to be in harmony with all parts of nature... the plants and trees, the animals, even the rocks.#$e#Lately, I might have a tiny bias in favor of people over the rest of nature. Perhaps that's only natural.$h",
   "CFE_Linus_fallSat10": "Everyone must discover and understand the role they can best play in the world.#$e#For example, there's just as much nature underground as there is up here.#$b#But if I stay in the mines too long, my lungs get heavy and my eyes long for sunshine. It goes against my nature.#$e#The same could be said for all aspects of life, inside and out.#$b#Have you found your role yet, @?$h",
+  "CFE_Linus_fallSat10.DSV.ModdedLinus": "Everyone must discover and understand the role they can best play in the world.#$e#For example, there's just as much nature underground as there is up here.#$b#But if I stay in the mines too long, my lungs get heavy and my eyes long for sunshine, and Marigold gets anxious. It goes against our nature.#$e#The same could be said for all aspects of life, inside and out.#$b#Have you found your role yet, @?$h",
   "CFE_Linus_fallSun10": "Have you tried fishing with wild bait yet?",
 
   "CFE_Linus_winterMon8": "I could hide indefinitely from the cold in the hot spring, but that isn't where I live.#$e#I'd rather not step on anyone's toes. The building belongs to the village.",
   "CFE_Linus_winterTue8": "If I play things right, I can go for a week or so without food.#$e#It isn't my first choice, but I can do it if it becomes necessary.",
+  "CFE_Linus_winterTue8.DSV.ModdedLinus": "If I play things right, I can go for a week or so without food.#$e#It isn't my first choice, but I can do it if it becomes necessary.#$b#There has been times when I've only found enough food for one, and I couldn't bear to see Marigold go hungry.",
   "CFE_Linus_winterWed8": "Rasmodius is a good friend. We only run into each other every now and then, but we always pick up where we left off.",
   "CFE_Linus_winterThu8": "The family in that house seemed annoyed by my presence when I first settled here. Lately, though, they seem fine with me.",
   "CFE_Linus_winterFri10": "Is suffering a natural part of a harmonious life? I'm inclined to say yes, though it depends upon the kind of suffering.#$e#Do not be afraid of any discomfort or hardship that is ultimately feasible, @. We are always stronger than we think.",
@@ -3073,6 +3204,7 @@
   "CFE_Linus_Mon4": "When berry season arrives, there's more than enough food to go around.#$e#You just have to know how to look for them, and they come in abundance.",
   "CFE_Linus_Mon2": "I found some trash on the ground here. I hope it wasn't you, was it?",
   "CFE_Linus_Tue10": "Well, @, I suppose I could consider you a part of my new family, if that's alright.$h#$e#Oh, please don't be alarmed. The trees, the rocks, the lake, the sky... they are all my family, too.",
+  "CFE_Linus_Tue10.DSV.ModdedLinus": "Well, @, I suppose I could consider you a part of my new family, if that's alright.$h#$e#Oh, please don't be alarmed. The trees, the rocks, the lake, the sky... they are all my family, too. And of course my beloved Marigold.",
   "CFE_Linus_Tue6": "A long time ago, yes, I grew up in a family. I haven't seen them for many years.#$e#I don't think I can even remember their faces anymore...$s",
   "CFE_Linus_Tue2": "Is there something that you want?",
   "CFE_Linus_Wed4": "This land will continue to exist for many eons past our lifetimes.#$b#Please do treat it with respect.",
@@ -3216,6 +3348,7 @@
   "CFE_Maru_summerTue4inlawSebastian": "Heyyy, brother-in-law!$h^Heyyy, sister-in-law!$h#$e#Sebastian seems so much happier now that he doesn't have to live here. I hope things are well!",
   "CFE_Maru_summerTue4inlawSebastian_GN": "Heyyy, {{SiblingNoun}}-in-law!$h#$e#Sebastian seems so much happier now that he doesn't have to live here. I hope things are well!",
   "CFE_Maru_summerTue2": "My brother only tends to come out of his room in the afternoon.#$e#Sometimes we go for a couple of days before our paths cross.$s",
+  "CFE_Maru_summerTue2.DSV.NonbinarySebastian": "My sibling only tends to come out of their room in the afternoon.#$e#Sometimes we go for a couple of days before our paths cross.$s",
   "CFE_Maru_summerWed10": "It's strange. Looking at the cosmos through my telescope seems a little lonely these days.$s#$e#Just lonely... without you with me.",
   "CFE_Maru_summerWed8": "I wonder if I can find some celestial bodies I haven't seen before tonight?",
   "CFE_Maru_summerWed6": "Tonight's a good night to do some stargazing. You should stop by.",
@@ -3227,9 +3360,10 @@
   "CFE_Maru_summerFri10": "Hey @. We should hang out sometime by the lake and share some ice cream.#$e#Do you like that idea?",
   "CFE_Maru_summerFri6": "I'm glad I get to work at such a slow clinic. If we lived somewhere else, it'd take up so much more of my time.#$e#The hours I work each week are perfect for me.",
   "CFE_Maru_summerFri4": "Dad and I sometimes go out for ice cream. Sebastian used to come too, but he doesn't anymore.",
+  "CFE_Maru_summerFri4.DSV.NonbinarySebastian": "Dad and I sometimes go out for ice cream. Sebastian used to come too, but they don't anymore.",
   "CFE_Maru_summerSat10": "It's in the middle of summer like this when I see you, @, and my whole heart just feels warm.$l#$e#In the evenings, especially, I just get the sense that later in life, I'll be nostalgic for these days.",
   "CFE_Maru_summerSat8": "My parents support my work, but they draw the line at bringing a nuclear reactor into the house.#$e#What? I could handle it.$h#$b#In theory, anyway. They're not that dangerous if you know what you're doing.",
-  "CFE_Maru_summerSat6": "My Dad is very logical, and my Mom is very intuitive. That difference leads to conflict, sometimes...$s",
+  "CFE_Maru_summerSat6": "My dad is very logical, and my mom is very intuitive. That difference leads to conflict, sometimes...$s",
   "CFE_Maru_summerSat4": "Hmm... I wonder if robots will ever be popular enough to replace animals as pets?#$e#Well, probably not during our lifetimes.",
   "CFE_Maru_summerSat2": "Trying to build something mechanical is a game of problem solving. I enjoy having to think outside the box.#$e#Is anything in your job like that, too?",
   "CFE_Maru_summerSun10": "I wonder if I should apply for a job as a researcher in a university.#$e#I'd miss the valley, though. And I can do pretty much everything I want to out here, though, so...#$e#And there's you.$l",
@@ -3276,9 +3410,13 @@
   "CFE_Maru_winterWed4": "Hm. I'm a little bored today. How do you pass the time in the winter?#$e#My current projects just aren't doin' it for me, lately. I need a change of pace.",
   "CFE_Maru_winterThu10": "@, come closer. I'm cold.#$e#My hands are so dry from the winter air. I'm sorry about that.",
   "CFE_Maru_winterThu8": "I let Sebastian do his own thing these days. I think he just wants to be left alone.#$e#It sucks. I've tried all these years to be a good sister, but I don't think he'll ever stop pushing me away.$s#$e#Well, not every sibling relationship winds up perfect.$s",
+  "CFE_Maru_winterThu8.DSV.NonbinarySebastian": "I let Sebastian do their own thing these days. I think they just want to be left alone.#$e#It sucks. I've tried all these years to be a good sister, but I don't think they'll ever stop pushing me away.$s#$e#Well, not every sibling relationship winds up perfect.$s",
   "CFE_Maru_winterThu6": "I tried asking Sebastian if I could join them the next time Sam comes over, but he looked really unenthusiastic.$s#$e#I mean, I'd understand if I did something wrong, but honestly, why does he single me out like that?$a",
+  "CFE_Maru_winterThu6.DSV.NonbinarySebastian": "I tried asking Sebastian if I could join them the next time Sam comes over, but they looked really unenthusiastic.$s#$e#I mean, I'd understand if I did something wrong, but honestly, why do they single me out like that?$a",
   "CFE_Maru_winterThu4inlawSebastian": "I did a voicechat with Sebastian this morning. Now that he's moved out, it's a lot easier to get along with him.#$b#Isn't it funny how that works?$h",
+  "CFE_Maru_winterThu4inlawSebastian.DSV.NonbinarySebastian": "I did a voicechat with Sebastian this morning. Now that they've moved out, it's a lot easier to get along with them.#$b#Isn't it funny how that works?$h",
   "CFE_Maru_winterThu4": "I hope Sebastian's okay. I feel like he barely sees the sun during the winter. It's not healthy.$s",
+  "CFE_Maru_winterThu4.DSV.NonbinarySebastian": "I hope Sebastian's okay. I feel like they barely see the sun during the winter. It's not healthy.$s",
   "CFE_Maru_winterFri10": "Your cheeks are all rosy. *giggle* So cute.$l#$e#Mmm, give me a hug.$l",
   "CFE_Maru_winterFri6": "You look fresh today. I guess it's that crisp winter air.",
   "CFE_Maru_winterFri4": "We treated a patient with the flu yesterday. Ugh. I really hope I don't get it, too.$s#$e#No, I can't tell you who it is. Patient confidentiality.#$b#Just be sure to wash your hands a lot.",
@@ -3450,7 +3588,7 @@
 
   "CFE_Maru_Married_winter11": "I learn best by doing things hands-on, and I try to learn something new every day.#$e#For me, knowledge is its own end. I don't have any plans to sell an invention for big money.#$b#I'm open to changing my mind on the subject if it ever becomes necessary, though.",
   "CFE_Maru_Married_winter22": "I love fireplaces... even more than I love central heating. Is that weird for a technophile like me?#$e#It's just that woodfire smell, and the feel of the natural heat. You can't beat it.",
-  "CFE_Maru_Married_winter23": "I've almost finished the book that Penny lent me a while back.#$e#I don't know how she speeds through books the way she does. I only read through a few leasure books per year.",
+  "CFE_Maru_Married_winter23": "I've almost finished the book that Penny lent me a while back.#$e#I don't know how she speeds through books the way she does. I only read through a few leisure books per year.",
   "CFE_Maru_Married_winter28": "Happy new year, honey. Let's celebrate tonight! [232 234 223 220]$h#$b#Don't stay out too late.$l",
 
   //Season specific dialogue
@@ -3510,6 +3648,7 @@
   "CFE_Pam_winterTue4": "I just hope Penny has a good life ahead of her. If you ever have kids you'll know how I feel.",
   "CFE_Pam_winterWed10": "$d bus#You don't know how glad I am that the bus is up and running! I feel alive again.|Some of us just can't win in this world, kid.$s",
   "CFE_Pam_winterThu10": "I probably oughta get to that Altar of Yoba more often, seein' as I'm a believer and all that.#$e#It's just tough to find the time with my schedule the way it is.",
+  "CFE_Pam_winterThu10.DSV.ReligionEdits": "I probably oughta get to that community altar more often, seein' as I believe in Yoba and all that.#$e#It's just tough to find the time with my schedule the way it is.",
   "CFE_Pam_winterFri8": "It's cute seein' how Penny works with those kids.#$e#Well, even if it's too late for me, at least Penny's doin' something good for the world.",
   "CFE_Pam_winterSat8": "Fishin' in the Ice Festival is pretty fun. I figure I should do it more often.$h#$e#Maybe I just need an audience to motivate me.#$e#Heh... like someone's got time for that.",
   "CFE_Pam_winterSun8": "Your farm sure is pretty in the snow. Makes for a nice view.#$e#Don't you let it go fallin' apart, y'hear?$h",
@@ -3627,6 +3766,7 @@
   "CFE_Penny_winterThu4": "I have to make sure I do my best with my job. If the parents don't feel like their kids are learning enough...$u#$b#...they'll put them on a bus each day for the long commute to a public school.#$e#So far, so good, though.",
   "CFE_Penny_winterFri6": "George doesn't go outside of his house as much as he used to. I hope everything's okay.$u",
   "CFE_Penny_winterFri2": "Are you friends with Linus? He lives in a tent up in the mountains.#$e#Everyone ignores him, the poor guy. He's actually really nice... Just a little odd.#$e#It must be so cold to live in a tent this time of year.",
+  "CFE_Penny_winterFri2.DSV.ModdedLinus": "Are you friends with Linus? He lives in a tent with his dog up in the mountains.#$e#Everyone ignores him, the poor guy. He's actually really nice... Just a little odd. And his dog is such a sweetheart!#$e#It must be so cold for them both to live in a tent this time of year.",
   "CFE_Penny_winterSun10": "Sometime soon, we should go back to my place in the evening and cozy up together with a book.$h#$e#If you can make it, just try to show up before 8. I don't want my mom to come home early and make things awkward.",
   "CFE_Penny_winterSun6": "I have to hide most of the money I make from my job. Otherwise, my mom might drink it away.$s#$e#My mom still loves me. She doesn't do it all the time, but it has happened before.",
 
@@ -3642,6 +3782,7 @@
   "CFE_Penny_Wed8": "It's tough trying to fill the shoes of the woman who had my job before me, but having only two students makes it a bit easier.#$e#Ms. Eleanor had nine of us one year. There were just more kids in town when I was growing up.",
   "CFE_Penny_Wed6": "Ms. Eleanor was my teacher when I was growing up. A lot of the things I teach Vincent and Jas, I learned from her.#$e#I've also learned a lot just from the books in the library.",
   "CFE_Penny_Thu10": "When I was a little girl, I always thought I'd grow up and marry Sam. We barely even spend time together anymore, though.#$e#Heehee, no, you don't have to be jealous.$h",
+  "CFE_Penny_Thu10.DSV.TransPennySam": "When I was a child, I always thought I'd grow up and marry Sam. Of course, we were both very different back then!#$b#We'll always have that connection of having transitioned together, but we don't spend as much time together anymore.#$e#Heehee, no, you don't have to be jealous.$h",
   "CFE_Penny_Thu8": "Hi @!$h#$e#It's been a great week so far. The kids did really well on their quizzes yesterday.#$e#How's your week coming along?",
   "CFE_Penny_Thu4": "Some book suggestions? Hm, well, the 'Marcie' series is really good. Everyone loves those.#$e#For my personal favorites, just about anything by Nora Sealy is hard to go wrong with.",
   "CFE_Penny_Thu2": "It's nice just having two students. We get a little more flexibility with when we meet for class.",
@@ -3709,6 +3850,7 @@
   "CFE_Penny_Married_IndoorNight_1": "Hee hee. I can, um, finish this chapter later if you wanted to head to bed.$l",
   "CFE_Penny_Married_IndoorNight_2": "When the light's dim, you have these little glowing stars in your eyes. You're so lovely.$l",
   "CFE_Penny_Married_IndoorNight_3": "Hmm... skirt or pants tomorrow? Oh, who am I kidding... I always go with the skirt.",
+  "CFE_Penny_Married_IndoorNight_3.DSV.TransPenny": "Now that I have another source of income, I can start saving up for surgery... I'm so grateful to be able to share in all the success you've had here.$l",
   "CFE_Penny_Married_IndoorNight_4": "So this is what happily ever after feels like.$l",
   "CFE_Penny_Married_IndoorNight_5": "We should always try and remember those less fortunate than us. I'm just very grateful for what we have.",
   "CFE_Penny_Married_IndoorNight_6": "Phew. Did I mention? Over the last week, Vincent wouldn't stop pummeling me with little kid questions about married life.",
@@ -3801,7 +3943,7 @@
 
   //Pierre
   //Pierre Gift Tastes
-  "CFE_Pierre_RockCandy": "Rock candy? Sure, I'll have a bite. *crunch*#$b#...Whoooaaa! Holy smokes!$4#$b#Is this magic? I feel ready to march off to Zuzu city and punch that smug Joja CEO in the kisser!$h#$b#...Uhhm, ahem. After my shift.$4",
+  "CFE_Pierre_RockCandy": "Rock candy? Sure, I'll have a bite. *crunch*#$b#...Whoooaaa! Holy smokes!$4#$b#Is this magic? I feel ready to march off to Zuzu City and punch that smug Joja CEO in the kisser!$h#$b#...Uhhm, ahem. After my shift.$4",
   "CFE_Pierre_Pearl": "Thank you, you're beyond generous! I'm sure you must know the market value on something like this?$h",
   "CFE_Pierre_PrismaticShard": "No kidding...? @, do you know how much one of these is worth?$4#$b#Y-you're outstanding!$4",
   "CFE_Pierre_RabbitsFoot": "Wow, thanks a lot!$h#$b#No one can afford to just give these things out willy-nilly, so I do not take your generosity for granted.",
@@ -3818,6 +3960,7 @@
   "CFE_Pierre_repeated_1": "Caroline and I met in school. We never actually dated anyone besides each other.#$e#I know, it's a little unconventional. But it's worked so far!$h",
   "CFE_Pierre_repeated_2": "If we look out for one another, that's how our community will make it in the long run.#$e#Anyway, would you like to buy anything?$h",
   "CFE_Pierre_repeated_3": "With her online classes, Abigail's already formally more educated than I've ever been. I'm proud of her.#$e#I started out as a courtesy clerk as a kid, and then I worked my way up until I could open this store.",
+  "CFE_Pierre_repeated_3.DSV.NonbinaryAbigail": "With their online classes, Abigail's already formally more educated than I've ever been. I'm proud of them.#$e#I started out as a courtesy clerk as a kid, and then I worked my way up until I could open this store.",
   "CFE_Pierre_repeated_4": "Abigail will always be my little girl. It was love at first sight, when I saw her for the first time.",
   "CFE_Pierre_repeated_5": "I just can't really get into following gridball.#$e#Ha ha, go Tunnelers, I guess! Right?",
   "CFE_Pierre_repeated_6": "Is it just me or is there a cold draft in here?",
@@ -3846,6 +3989,7 @@
 
   "CFE_Pierre_fallMon8": "I heard there was a big sportsball game last night.#$e#Joseph Sports ran all the yards and scored the goal.#$e#...$h",
   "CFE_Pierre_fallMon4inlawAbigail": "Hi, @. How's Abigail doing? Tell her that we've been missing her around here.",
+  "CFE_Pierre_fallMon4inlawAbigail.DSV.NonbinaryAbigail": "Hi, @. How's Abigail doing? Tell them that we've been missing them around here.",
   "CFE_Pierre_fallTue10": "Business has been fine lately, but I swear we've got a petty shoplifter in our community.$s#$e#The snack foods keep disappearing from the shelves. And I know I'm not off in my counting.$s",
   "CFE_Pierre_fallWed6": "$d Joja#People don't understand... Just to keep this store alive under the shadow of Joja, I've had to make it my obsession day after day...$s|Maybe sometimes I've gotten carried away with chasing success, but I hope people understand, the shop would've closed years ago if I hadn't fought tooth and nail against Joja.$s",
   "CFE_Pierre_fallThu10": "You know, it's tough spending so much time behind a counter...#$b#...but it's a little easier knowing that just about every face that comes through the door is a familiar one.#$e#Of course, it's nice that you're one of them today!$h",
@@ -3858,6 +4002,7 @@
 
   "CFE_Pierre_winterMon8": "The thing about gridball is that it's all about giving it 110%.#$e#The other team only gave it 108%, though, so that's why they didn't score more goal points.#$e#Hehehe... sorry.$h",
   "CFE_Pierre_winterMon4inlawAbigail": "I used to worry about Abigail's future, but I can see that she's wound up exactly where she needs to be.#$e#You be good to each other now, alright?$h",
+  "CFE_Pierre_winterMon4inlawAbigail.DSV.NonbinaryAbigail": "I used to worry about Abigail's future, but I can see that they've wound up exactly where they need to be.#$e#You be good to each other now, alright?$h",
   "CFE_Pierre_winterWed6": "This used to be my day off, but who cares? I'll sell you whatever you need.#$e#Neighbors need to help each other out.",
   "CFE_Pierre_winterThu6": "Caroline really is wonderful. I don't think I could last through this cold season without her.",
   "CFE_Pierre_winterThu2": "I mainly deal in edibles, so if you've got any ores or wood you'd better try selling them somewhere else.",
@@ -3909,6 +4054,7 @@
   //Robin's Standard Dialogue
   //Special Dialogue
   "CFE_Robin_repeated_1": "Sometimes, I wonder if Sebastian passively resents me for not having his father around.$s#$e#Maybe he feels like Maru's got it all, and he lives in her shadow...$s",
+  "CFE_Robin_repeated_1.DSV.NonbinarySebastian": "Sometimes, I wonder if Sebastian passively resents me for not having their father around.$s#$e#Maybe they feel like Maru's got it all, and they live in her shadow...$s",
   "CFE_Robin_repeated_2": "I met Demetrius in college while working an apprenticeship and raising Sebastian.#$e#My head still spins when I wonder how we managed to find time for it all!",
   "CFE_Robin_repeated_3": "When we first moved here, we had to rough it out in a trailer until I could get the house finished.#$e#Demetrius had a separate trailer for his lab.",
   "CFE_Robin_repeated_4": "Demetrius may be a bit stoic, with his scientific brain, but I learned pretty quickly how to get through to his romantic side.#$e#I did teach him how to dance with me, after all.$h",
@@ -3942,6 +4088,7 @@
   "CFE_Robin_winterMon8": "I've always had a passion for building things, even when I was a kid.#$e#Sometimes I'd get a \"look\" from others about my hobbies. I just didn't let it bother me.",
   "CFE_Robin_winterMon6": "Do you like your fireplace? Let me know if you ever want to remodel it.#$e#The right fireplace makes the biggest difference in making a room's appearance come together.",
   "CFE_Robin_winterTue10": "My kids have their own interests. I never really pushed either of them into carpentry.#$e#They still seem to enjoy their hands-on activities, though. Maru's got her gadgets and Sebastian's got his motorcycle.",
+  "CFE_Robin_winterTue10.DSV.NonbinarySebastian": "My kids have their own interests. I never really pushed either of them into carpentry.#$e#They still seem to enjoy their hands-on activities, though. Maru's got her gadgets and Sebastian's got their motorcycle.",
   "CFE_Robin_winterWed6": "Architecture styles and home fashions might come and go, but they all have one goal in mind: to make a better place to live.#$e#Humanity has always sought a better place to live. It's as old as history itself. So I enjoy the feel of that connection in my work.",
   "CFE_Robin_winterThu10": "With all these cold days, how's your hearth treating you? Need me to restyle it?",
   "CFE_Robin_winterSat8": "As a girl, I remember looking up how to make a real igloo and then putting it together.#$e#It turned out pretty good! I acted as foreman and put a couple of my friends to work.$h",
@@ -3959,10 +4106,11 @@
   "CFE_Robin_Thu4": "I hear strange electrical noises coming from Maru's room from time to time.#$e#I always wondered whether her interests would take after me or Demetrius. Guess it was a little of both.$h",
   "CFE_Robin_Thu2": "Have you tried reaching out to Sebastian yet?",
   "CFE_Robin_Fri8": "It's strange. I don't feel old enough to be the mother of two adult-aged children.#$e#Life just gets faster and faster as you go, I guess.",
-  "CFE_Robin_Fri2": "Sam comes over occasionally to play games with Sebastian. Maybe they'll invite you join them sometime.",
+  "CFE_Robin_Fri2": "Sam comes over occasionally to play games with Sebastian. Maybe they'll invite you to join them sometime.",
   "CFE_Robin_Sat8": "Out here, I get a little more flexibility to do the projects that interest me.#$e#I don't think I'd get that kind of freedom working in the city.",
   "CFE_Robin_Sat6": "Demetrius is usually laid back about everything, with the exception of anything Maru-related.#$e#That's the one area in which you really have to earn his trust.#$e#Sorry if he's ever said anything standoffish. It's not just you.",
   "CFE_Robin_Sat4": "Ugh, I wish Sebastian wouldn't smoke.$s#$e#I don't even know where he picked that up from.$s",
+  "CFE_Robin_Sat4.DSV.NonbinarySebastian": "Ugh, I wish Sebastian wouldn't smoke.$s#$e#I don't even know where they picked that up from.$s",
 
   //generic weekday dialogue
   "CFE_Robin_summerFriinlawSebastian": "Has Sebastian been getting outside much lately?#$e#Make sure you two take good care of each other!$h",
@@ -3991,7 +4139,7 @@
 
   //Sam's Misc Dialogue
   //these lines target files other than the standard characters/dialogue/Sam location such as unmarried rainy dialogue
-  "CFE_Sam_rainy_1": "Rain muffles sound, so I can play my guitar louder without my Mom getting mad. Hehe.$h",
+  "CFE_Sam_rainy_1": "Rain muffles sound, so I can play my guitar louder without my mom getting mad. Hehe.$h",
   "CFE_Sam_rainy_2": "It feels kinda badass to walk through the rain without letting it faze you.",
   "CFE_Sam_rainy_3": "Am I gonna let a day like this dampen my spirits? Nahh.#$e#There's always something fun going on if you look for it.",
 
@@ -3999,6 +4147,7 @@
   //Special Dialogue
   "CFE_Sam_repeated_1": "Hi @.#$e#Hmm... I wonder if I could grow a cactus in my room?",
   "CFE_Sam_repeated_2": "Abby came up with a cool drum solo. I just have to figure out how to incorporate it into one of our songs.#$e#I didn't think too much of Abby when I was younger, but it turns out she's really creative.",
+  "CFE_Sam_repeated_2.DSV.NonbinaryAbigail": "Abby came up with a cool drum solo. I just have to figure out how to incorporate it into one of our songs.#$e#I didn't think too much of Abby when I was younger, but it turns out they're really creative.",
   //fall_Thu4, fall_Sat2
   //Sat8_1, Sat6
 
@@ -4028,8 +4177,9 @@
   "CFE_Sam_summerTue6": "Hmm, tomorrow morning should be a pancake day.#$e#I bet Vince would really like that.",
   "CFE_Sam_summerWed6": "$d Joja#Another shift at JojaMart today. Yay, another few hours of my life wasted.$s|If I work quickly, Gunther sometimes lets me off my shift early. Morris never would've let that slide.",
   "CFE_Sam_summerThu6y1": "@, thanks for reaching out to me like you have. Things have been tough lately with my dad being gone.$s#$e#No news is good news, right? Gotta stay positive.",
-  "CFE_Sam_summerThu6y2": "Sometimes I can hear my Dad pacing down the hallway at night.$s#$b#...But he won't tell us what's troubling him.",
+  "CFE_Sam_summerThu6y2": "Sometimes I can hear my dad pacing down the hallway at night.$s#$b#...But he won't tell us what's troubling him.",
   "CFE_Sam_summerThu4": "Sebastian has some pretty cool board games.#$b#A long time ago, I wasn't into board games, but he knows how to make them fun.$h",
+  "CFE_Sam_summerThu4.DSV.NonbinarySebastian": "Sebastian has some pretty cool board games.#$b#A long time ago, I wasn't into board games, but they know how to make them fun.$h",
   "CFE_Sam_summerFri10": "I've been writing a song lately.#$e#It's uh... it's about you.#$e#Hey, c'mon, don't laugh!",
   "CFE_Sam_summerFri6": "I was homesick a lot when we first moved here, but that was ages ago.#$e#This is really the only home Vince has ever known. Seeing him fit in makes it easier for me, too.",
   "CFE_Sam_summerFri4": "Oh man. I ate an entire large pizza at like... eleven last night.#$e#I just opened the fridge, and I was like, 'jackpot'!#$e#...Haha, nope, I feel fine.$h",
@@ -4046,11 +4196,12 @@
   "CFE_Sam_fallMon2": "I like taking walks in the forest this time of year. The temperature is so comfortable.#$e#...$h",
   "CFE_Sam_fallTue8": "I did a little cleaning up around the house to make things easier for my mom, but she doesn't actually seem any happier.#$e#She was thankful, but... I dunno. She's always saying that's her biggest source of stress. I'm not so sure, though.",
   "CFE_Sam_fallTue6": "After Dad left for his tour, I made a conscious decision to give Vince the best childhood he can get.#$e#I realized, if I don't help make that happen for him, who else will?",
+  "CFE_Sam_fallTue6.DSV.NoMoreWar": "After Dad left for his assignment, I made a conscious decision to give Vince the best childhood he can get.#$e#I realized, if I don't help make that happen for him, who else will?",
   "CFE_Sam_fallWed10": "It's tough for me to focus on writing lyrics lately. I think some of my muse came from feeling isolated in this town.#$e#But that's... not really an issue anymore.$l",
   "CFE_Sam_fallWed8": "Been cooking any pizza lately? Man, I could really go for a slice.",
   "CFE_Sam_fallWed6": "I think I'm becoming a pizza purist. Toppings are nice, but if you get just the right blend of cheeses, that's all you really need.#$e#I wish I could cook.$s",
   "CFE_Sam_fallWed4": "My mom makes pretty awesome pizza, as long as she doesn't put any weird toppings on it.#$e#Don't tell her, but the pizza at the saloon is downright perfection. Gus knows his stuff.",
-  "CFE_Sam_fallThu6y1": "I think my Dad might be coming back next year.#$e#I guess that's kind of soon. Weird.",
+  "CFE_Sam_fallThu6y1": "I think my dad might be coming back next year.#$e#I guess that's kind of soon. Weird.",
   "CFE_Sam_fallThu6y2": "I guess I should start thinking about moving out soon...$s#$e#...But I would miss Mom's fish casserole, so I dunno...$s#$e#I hate making decisions.",
   "CFE_Sam_fallFri8": "I got my paycheck yesterday. Hmm... should I save it or should I spend it...",
   "CFE_Sam_fallFri6": "...I stayed up late playing games on my computer last night. I really wish I'd focused on writing some more lyrics.",
@@ -4066,9 +4217,10 @@
   "CFE_Sam_winterMon2": "Everyone's indoors during the winter, so I can play guitar as loud as I want.$h",
   "CFE_Sam_winterTue8inlawPenny": "I'm glad things worked out for you and Penny! I always kinda wondered about her.$h",
   "CFE_Sam_winterTue8": "Penny and I used to hang out a lot when we first moved here.#$e#We still hang out occasionally, and we've got this weird, almost... flirty? ...thing going, but we don't have a lot in common anymore.$s",
+  "CFE_Sam_winterTue8.DSV.TransPennySam": "Penny and I used to hang out a lot when we first moved here. We might not have that much in common, but we transitioned together and that was huge.#$b#You could say it trans-cended our differences! Hehe.$h#$e#We don't hang out as much now that we're both working, though...$s",
   "CFE_Sam_winterWed10": "Heyyy... you aren't... 'hiring' at your farm, or anything, are you?$l",
   "CFE_Sam_winterWed6": "$d Joja#I know our jobs are kinda crap, but it'd be nice if Shane was a little friendlier at work to pass the time.|I wonder how Shane's doing? He always seemed like he hated his JojaMart job even more than I did.",
-  "CFE_Sam_winterThu4y1": "I think my Dad is coming back this spring.#$e#It's been 3 years since I've seen him. This is going to be strange.",
+  "CFE_Sam_winterThu4y1": "I think my dad is coming back this spring.#$e#It's been 3 years since I've seen him. This is going to be strange.",
   "CFE_Sam_winterThu4y2": "Dad's been back for a while now. I guess I'm finally getting used to it.",
   "CFE_Sam_winterFri6": "Vince and I had an epic snowball fight yesterday. We're almost getting evenly matched.$h#$e#A couple more years, and I'll legitimately have to watch my back.",
   "CFE_Sam_winterFri4": "I'm hoping for some more dry, powdery snow before everything outside turns to slush.",
@@ -4076,7 +4228,7 @@
   "CFE_Sam_winterFri8": "Snowboarding's a lot of fun, but I've only been a couple times. Too bad there aren't any good slopes nearby...",
   "CFE_Sam_winterSat6": "After we moved here, Penny and I grew up together. Now she's my little brother's teacher. How does that even happen?#$e#Maybe it's high time I actually get a move on my life. Sebastian's got the right idea.#$e#You do, too, for that matter.",
   "CFE_Sam_winterSun10": "Maybe if I moved out, my mom would finally be a little happier.#$e#I wonder if she's stressed just because she's worried about me?",
-  "CFE_Sam_winterSun6": "Try not to make a mess in the house. My Mom's pretty obsessive about keeping things clean.#$e#It's uh... actually a legit struggle sometimes...$s",
+  "CFE_Sam_winterSun6": "Try not to make a mess in the house. My mom's pretty obsessive about keeping things clean.#$e#It's uh... actually a legit struggle sometimes...$s",
   "CFE_Sam_winterSun4": "I caught Vince at the door with wet shoes. Glad I caught him before he went running into the kitchen.",
 
   "CFE_Sam_Mon4": "I got into skateboarding when I was a little kid.#$e#It's rewarding to do the same hobby as an adult, though. You really end up viewing it in a whole new light.",
@@ -4086,9 +4238,10 @@
   "CFE_Sam_Tue2": "Hey, @.#$e#So, do you play any video games?",
   "CFE_Sam_Thu8y1": "I'm amazed we've made friends with each other as quickly as we have! You are seriously the best person ever, @!",
   "CFE_Sam_Thu8y2": "Hey, if you get to talking with my dad, just uh... show him some support, if it's not too much to ask.#$e#He doesn't really like talking about himself around me, but maybe it's easier if you're not as close?$s",
-  "CFE_Sam_Thu4y1": "I think my Dad might be coming back in a year or so.#$e#I guess you might be able to meet him, then. If you're still living here.#$e#You wouldn't abandon the farm after putting so much effort into it!",
+  "CFE_Sam_Thu4y1": "I think my dad might be coming back in a year or so.#$e#I guess you might be able to meet him, then. If you're still living here.#$e#You wouldn't abandon the farm after putting so much effort into it!",
   "CFE_Sam_Thu4y2": "...I have mixed feelings about my father being back. He seems strange.$s#$b#But I guess I haven't seen him in 3 years... so that could explain it.",
-  "CFE_Sam_Thu2y2": "Well, my Dad is back. You've met him, right?#$b#I'm just glad he's okay.",
+  "CFE_Sam_Thu4y2.DSV.TransSam": "...I have mixed feelings about my father being back. He seems strange.$s#$b#But I guess I haven't seen him in 3 years... so that could explain it. At least there hasn't been any weirdness about me transitioning.",
+  "CFE_Sam_Thu2y2": "Well, my dad is back. You've met him, right?#$b#I'm just glad he's okay.",
   "CFE_Sam_Fri10": "The older I get the more attached I feel to the valley.#$b#Although I could be biased... for a certain reason.$l#$e#So, how are you doing today?$h",
   "CFE_Sam_Fri2": "I miss the city sometimes, but if I moved there again, I'd end up working around the clock just to get by.#$e#I wonder which is more worth it?",
   "CFE_Sam_Sat8y2": "Having my dad back has been... even more different than I expected.$s#$e#I just don't know I'm supposed to act around him. Like, am I a kid again or am I a man?$s",
@@ -4108,6 +4261,7 @@
   "CFE_Sam_Married_RainyDay_2": "Hey, sweet. Looks like good ol' nature's doing your work for you today. Take advantage of that!",
   "CFE_Sam_Married_RainyDay_3": "Do you think Sebastian and Abigail will ever hook up? Heh... now that I'm married I'm trying to get everyone else married too.",
   "CFE_Sam_Married_RainyDay_4": "Sebastian's a few years older than me. I never expected I'd beat him to the punch with tying the knot.",
+  "CFE_Sam_Married_RainyDay_4.DSV.NonbinarySebastian": "Sebastian's a few years older than me. I never expected I'd beat them to the punch with tying the knot.",
   "CFE_Sam_Married_RainyDay_5": "Hey, I found one of these rolling around in the back of a drawer. [90 88 86 535]I thought you might be able to use it.",
   "CFE_Sam_Married_RainyDay_6": "Aw man, I was gonna go skateboarding today.$s",
   "CFE_Sam_Married_RainyDay_7": "Aw, man. These cloudy days are kind of a drag...$7",
@@ -4200,12 +4354,14 @@
   //Date Specific Dialogue
   "CFE_Sam_Married_spring3": "I went and got some allergy meds. I don't like using 'em, though. I just feel really spacey.$s",
   "CFE_Sam_Married_spring8": "Sebastian lent me a big ol' stack of his comics. That pretty much carves out my reading for the next month.$h",
+  "CFE_Sam_Married_spring8.DSV.NonbinarySebastian": "Sebastian lent me a big ol' stack of their comics. That pretty much carves out my reading for the next month.$h",
   "CFE_Sam_Married_spring16": "It's kind of weird, knowing I'll never be a kid again.#$b#But... knowing my old track record, maybe that's a really good thing.$h",
   "CFE_Sam_Married_spring25": "How many days until summer now? Heh, I can't wait.",
   "CFE_Sam_Married_summer5": "I hope tomorrow's a good day to hit up the halfpipe.#$e#You wanna come by and watch me for a bit?",
   "CFE_Sam_Married_summer12": "It was nice seeing Penny at the festival yesterday. We only hang out every once in a while these days.#$b#Plus, now that I'm married to you, there's less awkwardness hanging in the air between her and me.",
   "CFE_Sam_Married_summer17": "Today marks the anniversary of when my family moved to Pelican Town.#$b#Or... I think it was this day?$s#$e#Maybe I'll ask my mom.",
   "CFE_Sam_Married_fall4": "This is Abby's favorite season, right? I bet she's enjoying herself.#$e#I noticed, whenever she's in a good mood, Sebastian seems to be pretty happy, too.",
+  "CFE_Sam_Married_fall4.DSV.NonbinaryAbigail": "This is Abby's favorite season, right? I bet they're enjoying themself.#$e#I noticed, whenever they're in a good mood, Sebastian seems to be pretty happy, too.",
   "CFE_Sam_Married_fall9": "I keep getting the sense that some people think we got married too young.$7#$b#Look, I get how they could think that, but I just want to let you know that for me, this is real.$s#$b#We can do this, right? I'm on board... you're on board...#$e#We're gonna conquer the world together.",
   "CFE_Sam_Married_fall13": "I thought Pelican Town was a prime spot for doing things how you want, but... dang. On this farm, we really can do whatever we want, huh?$u",
   "CFE_Sam_Married_fall23": "One year, I went a bit overboard with Vincent on the Spirit's Eve candy.#$b#That was a mistake. Poor little guy couldn't keep it all down. So gross.$h#$e#Uh, yeah, Mom cleaned it up. I felt pretty bad.$s#$e#Not doing that again. Don't worry.",
@@ -4243,6 +4399,7 @@
 
   //heart specific dialogue
   "CFE_Sandy_summerMon10": "Are my roots showing? My hairdresser canceled on me again.$s#$e#*sigh* It's such a long journey into the city, too, I can't just reschedule for the next day.$s",
+  "CFE_Sandy_summerMon10.DSV.ModdedSandy": "Are my pins still in place? I bought new ones recently and they keep slipping.$s#$e#*sigh* It's such a long journey into the city, too, I can't just go back and get a refund.$s",
   "CFE_Sandy_summerTue10": "How's the desert trader's camel doing? Is she up for some pets?",
   "CFE_Sandy_summerWed8": "I heard there used to be Pepper Rexes wandering this desert in packs, long ago. Imagine that!",
   "CFE_Sandy_summerWed6": "Next year's desert festival is so far away... *sigh*$s#$e#Better get used to some lonely months.$s",
@@ -4262,6 +4419,7 @@
 
   "CFE_Sandy_Mon10": "Hey honey! Made any of that tom kha soup lately? I don't think I'll ever get tired of the flavor.#$e#Grab a coconut before you go, if you see one.",
   "CFE_Sandy_Mon6": "I got lunch with Emily not too long ago! It was so great to catch up with her.$h#$e#We talked for a bit about you, actually. All good things, I promise!$h",
+  "CFE_Sandy_Mon6.NonbinaryEmily": "I got lunch with Emily not too long ago! It was so great to catch up with them.$h#$e#We talked for a bit about you, actually. All good things, I promise!$h",
   "CFE_Sandy_Mon2": "You made it out here again! I'm so glad.$h#$e#What's new in the valley?",
   "CFE_Sandy_Tue10": "Well gosh! How many times have you ridden that bus out here now?#$e#Hey, I appreciate every visit.",
   "CFE_Sandy_Tue8": "Hi!~ Stay as long as you like.#$e#The air conditioning sure feels nice, doesn't it?",
@@ -4282,6 +4440,7 @@
   "CFE_Sandy_Sun2": "Hi there, honey. Yep, it's just me, alone in this big old shop. Hmmm...#$e#Well, except for that creepy guy in the back. But he never moves a muscle, so I often forget about him.",
 
   "CFE_Sandy_repeated_1": "Emily's got a real knack for reading people. It's like she's on a different wavelength, or something.#$e#She can't help but treat everyone with equal respect, though, no matter how the other person acts. I admire that.",
+  "CFE_Sandy_repeated_1.DSV.NonbinaryEmily": "Emily's got a real knack for reading people. It's like they're on a different wavelength, or something.#$e#They can't help but treat everyone with equal respect, though, no matter how the other person acts. I admire that.",
   "CFE_Sandy_repeated_2": "One time, a couple literally camped out here for their honeymoon. Whatever floats their boat, right?",
   "CFE_Sandy_repeated_3": "I complain about the heat nonstop, but nothing can really beat the coolness of the desert when the sun goes down.#$e#The way a desert sunset looks is hard to beat, too.",
   "CFE_Sandy_repeated_4": "My name's not really Sandy, you know. It's just good for business.#$e#But everyone calls me Sandy anyway, so I've just gotten used to it.",
@@ -4314,7 +4473,7 @@
   "CFE_Sebastian_GoldPumpkin": "This might be one of the coolest things I've ever seen. Is that real gold? It's definitely not paint.$7",
   "CFE_Sebastian_RockCandy": "Thanks! I love rock candy.$h#$b#This kind looks extra special.",
   "CFE_Sebastian_Pearl": "Wow, I don't know what to say. You're just giving this to me?$h#$b#Just thinking about where it comes from... I love it.$6",
-  "CFE_Sebastian_PrismaticShard": "This is awesome. I could stare at it for hours.$6#$b#Er, well, minutes. I could stare at it for... awhile.$l",
+  "CFE_Sebastian_PrismaticShard": "This is awesome. I could stare at it for hours.$6#$b#Er, well, minutes. I could stare at it for... a while.$l",
   "CFE_Sebastian_FrozenTear": "This is so mysterious. It's really... cool.#$b#Ha, wasn't trying to make a pun there. Sorry.$h",
 
   //Sebastian's Misc Dialogue
@@ -4388,6 +4547,7 @@
   "CFE_Sebastian_winterTue8": "Feast of the Winter Star's coming up. I know I should try to think of things I'm grateful for, but...$s#$b#...it's tough when there are so many people my age moving on with their lives.$s",
   "CFE_Sebastian_winterTue2": "You want to talk? Uh... I'm kind of busy at the moment.#$e#Okay, not 'busy' busy, but...$s#$b#...Sorry, today's just not a good day. Maybe later.",
   "CFE_Sebastian_winterWed10": "Abby's a great girl, don't get me wrong. She's cooler than most of the people in town.#$b#But she's a little young. And besides, I've got you.$l",
+  "CFE_Sebastian_winterWed10.DSV.NonbinaryAbigail": "Abby's a great person, don't get me wrong. They're cooler than most of the people in town.#$b#But they're a little young. And besides, I've got you.$l",
   "CFE_Sebastian_winterWed6": "Sam's being needy again. And we just gamed online last night.#$e#Oh well. He's still happy if I only say yes one in every four or five times he asks.",
   "CFE_Sebastian_winterThu10": "Here, you wanna finish my coffee? I've had a few cups already. [395]#$e#Gotta get you warmed up!$h",
   "CFE_Sebastian_winterThu4": "I used to like my sushi dressed up as much as possible. But if the fish is good, everything else just gets in the way of the flavor.#$e#Maybe a little soy sauce.#$e#Plus, uh, one of my favorite characters from a series I read has a thing for sashimi, so...$s",
@@ -4507,7 +4667,7 @@
   "CFE_Sebastian_Married_Outdoor_3": "I feel like I want to do something today... but I'm not sure what. Do you ever have that problem?",
   "CFE_Sebastian_Married_Outdoor_4": "Hah, I stayed up almost the whole night out here, reading under the porchlight. I might need a nap later.$h",
   "CFE_Sebastian_Married_Outdoor_5": "I'll just watch you from here. I enjoy watching you.$h",
-  "CFE_Sebastian_Married_Outdoor_6": "Standing here on the porch like this... I wonder if someday I'fll grow to be a mysterious old mentor for some kid in town.$7",
+  "CFE_Sebastian_Married_Outdoor_6": "Standing here on the porch like this... I wonder if someday I'll grow to be a mysterious old mentor for some kid in town.$7",
   "CFE_Sebastian_Married_Outdoor_7": "I don't want to get soft now that I'm a married guy. Maybe I should start eating more hot pepper and working out? Just an idea...$h",
   "CFE_Sebastian_Married_Outdoor_8": "I went for a little walk just before you got up. Sounds like some animals are already up and alive.$7",
   "CFE_Sebastian_Married_Outdoor_9": "We should raise more slimes... In big quantities they can be pretty profitable. And they're so easy to raise.#$e#Also, different colored slimes produce different items. I dunno, I think it'd be kind of a fun hobby for us.",
@@ -4553,6 +4713,15 @@
   //Shane's Standard Dialogue
   //Special Dialogue
   "CFE_Shane_Introduction": "I don't know you. Why are you talking to me...?",
+  "CFE_Shane_repeated_1": "$d Joja#*sigh* ...Every day is the same. Stocking those horrible shelves, going to the saloon, tossing and turning all night.$s|I hated my job at JojaMart, but now that I'm unemployed I feel even worse.$s",
+  "CFE_Shane_repeated_2": "When your two best friends die on the same exact day, it really kind of messes you up.$s#$e#I had problems before they died, but that's really still the worst of it.",
+  "CFE_Shane_repeated_3": "Seeing people who have it all... the money, the house, the honor-student kids...#$b#...it almost seems even more depressing than what I've got.#$e#Hey there, sport! Congrats on another straight-A report card! Let's get ice cream!$10#$b#Gross.$u",
+  "CFE_Shane_repeated_4": "I saw some old classmates' photos online.$s#$e#The most revolting ones are of the people who can't take a photo without their freakin' baby in the shot.",
+
+  //Summer_Wed6, FallWed6, WinterWed6
+  //SummerThu10, WinterMon10
+  //SummerFri8, WinterFri8
+  //SummerFri6, FallMon6
 
   //date specific dialogue
   //I might change this so it fits better with his attempts to mitigate his alcoholism. It's pretty negative.
@@ -4567,13 +4736,9 @@
   "CFE_Shane_summerTue10": "Maybe I fell for Emily a little bit, at one point or another, but...$s#$b#...you're different in that you actually seem to be serious about wanting something from me, too.$l",
   "CFE_Shane_summerTue8": "$d Joja#My walk to work in the morning is nice during the summer. It's just so calm and not too hot yet.|Those chickens sure do get me up early. But at least the air's nice in the summer when the sun first comes up.",
   "CFE_Shane_summerWed8": "Marnie and Jas have put up with a lot of my crap. I actually feel motivated to do my best for them.#$e#That's not something I've felt in a long time.",
-  "CFE_Shane_summerWed6": "$d Joja#*sigh* ...Every day is the same. Stocking those horrible shelves, going to the saloon, tossing and turning all night.$s|I hated my job at JojaMart, but now that I'm unemployed I feel even worse.$s",
-  "CFE_Shane_summerThu10": "When your two best friends die on the same exact day, it really kind of messes you up.$s#$e#I had problems before they died, but that's really still the worst of it.",
   "CFE_Shane_summerThu8": "Man, the chickens won't stay out of trouble lately. Breaking stuff... Getting stuck in stuff...#$b#Hah, at least they need me for something.$h",
   "CFE_Shane_summerThu6": "Looking forward to gridball season?#$e#Sometimes it's fun to watch the junior league in the off-season, too. Tickets are cheaper.",
   "CFE_Shane_summerFri10": "Out of a million people, I bet you're the only one who wouldn't have bailed on me by this point.#$e#Hey, I don't take these things for granted.",
-  "CFE_Shane_summerFri8": "Seeing people who have it all... the money, the house, the honor-student kids...#$b#...it almost seems even more depressing than what I've got.#$e#Hey there, sport! Congrats on another straight-A report card! Let's get ice cream!$10#$b#Gross.$u",
-  "CFE_Shane_summerFri6": "I saw some old classmates' photos online.$s#$e#The most revolting ones are of the people who can't take a photo without their freakin' baby in the shot.",
   "CFE_Shane_summerFri4": "What a hot day. I could really use a cold one.#$e#You in?",
   "CFE_Shane_summerSun10": "@, one thing you should probably know is that I'm technically Jas's godfather.$s#$e#Marnie's really the one who's been raising her, though. I really screwed that one up.$s",
   "CFE_Shane_summerSun8": "$d Joja#Back to work for another week tomorrow. Yayyy...$s|I kind of miss having actual weekends, like I used to. But I guess that's the tradeoff for being a full-time chicken man, now.",
@@ -4581,12 +4746,10 @@
 
   "CFE_Shane_fallMon10": "Do you ever feel like the whole world is scrutinizing you like some disgusting insect?",
   "CFE_Shane_fallMon8": "I missed the gridball game last night. Whatevs. It's better live, anyway.",
-  "CFE_Shane_fallMon6": "I saw some old classmates' photos online.$s#$e#The most revolting ones are of the people who can't take a photo without their freakin' baby in the shot.",
   "CFE_Shane_fallTue10": "It's strange how I don't ever seem to get bored with seeing you, @.#$e#That's never happened for me before.$l",
   "CFE_Shane_fallTue8": "Well, at least Clint's life is crappier than mine. Guy lives alone.#$e#Sorry, yeah, that was a crappy thing to say.$s",
   "CFE_Shane_fallWed10": "Your farm seems like a great place to raise chickens.$h",
   "CFE_Shane_fallWed8": "I guess I've grown attached to Marnie and Jas. We're a ragtag bunch but it kind of feels like a weird family.#$e#I never really had much of a family as a kid.$s",
-  "CFE_Shane_fallWed6": "$d Joja#*sigh* ...Every day is the same. Stocking those horrible shelves, going to the saloon, tossing and turning all night.$s|I hated my job at JojaMart, but now that I'm unemployed I feel even worse.$s",
   "CFE_Shane_fallThu10": "I have my ups and downs still. But lately, things seem to be a bit better.#$e#Like, today's good, right? You stopped to talk, for one thing.$h",
   "CFE_Shane_fallThu8": "You like talking to me? I guess I believe you... maybe you're as weird as I am.$h",
   "CFE_Shane_fallThu6": "Hey @.#$e#So, are you drinking tonight? It's cool if you want to join me.",
@@ -4598,32 +4761,29 @@
   "CFE_Shane_fallSat10_GN": "It never would've worked out for me and Emily... for obvious reasons. I'm glad things worked out the way they did.$l",
   "CFE_Shane_fallSun10": "A new chick hatched on our farm last night. It's been a good day so far.$h",
   "CFE_Shane_fallSun8": "If I watch more TV maybe I can forget about life. That would be relaxing.$u",
-  "CFE_Shane_fallSun6": "...I think I might be gaining weight.$s",
+  "CFE_Shane_fallSun6": "...I think I might be gaining weight.$s", 
 
-  "CFE_Shane_winterMon10": "When your two best friends die on the same exact day, it really kind of messes you up.$s#$e#I had problems before they died, but that's really still the worst of it.",
   "CFE_Shane_winterMon8": "I don't get how someone like Emily is so content with her life.#$e#I couldn't put up with her job and her life if I were in her shoes.#$e#And I probably wouldn't hang out with guys like me, either.$s",
   "CFE_Shane_winterMon4": "I learned a while ago that it's easier to shut new people out before they get to know me.#$e#A lot of people just turn out to be jackasses.",
   "CFE_Shane_winterTue10": "My counselor's been helping me out a lot with my thoughts of suicide.#$b#Alcohol is still a tough one, though.#$e#A lot of people don't get it. I can't just 'stop going' to the saloon.$s",
   "CFE_Shane_winterTue8": "Do chickens have it better or worse than humans? Hmm...$u#$e#Worse, I'd say.#$b#Unless they're free-range chickens. Then... I don't know.",
   "CFE_Shane_winterTue4": "Poor little mother cluckers are stuck inside all winter long. Gotta take good care of them.#$e#You got that I meant chickens, right?$u",
   "CFE_Shane_winterWed8": "I try to do my best for Jas. She says she has some good memories with me already.#$e#I don't remember some of the ones she mentions, though.$s",
-  "CFE_Shane_winterWed6": "$d Joja#*sigh* ...Every day is the same. Stocking those horrible shelves, going to the saloon, tossing and turning all night.$s|I hated my job at JojaMart, but now that I'm unemployed I feel even worse.$s",
   "CFE_Shane_winterThu10": "I'll say... I had you completely wrong.#$b#First time I saw you, I thought you'd be an absolute tool. I'm glad I was wrong.$h",
   "CFE_Shane_winterThu8": "You like talking to me? I guess I believe you... maybe you're as weird as I am.$h",
   "CFE_Shane_winterThu6": "Kind of a crappy day today...$s#$e#So what's the drunkest you've ever been?",
   "CFE_Shane_winterFri10": "$d Joja#The thought of getting to see you is what gets me through the day. Are we hanging out tonight?|Hey, I hope you're staying warm. I've got an old coat you can borrow if you need it.",
-  "CFE_Shane_winterFri8": "Seeing people who have it all... the money, the house, the honor-student kids...#$b#...it almost seems even more depressing than what I've got.#$e#Hey there, sport! Congrats on another straight-A report card! Let's get ice cream!$10#$b#Gross.$u",
-  "CFE_Shane_winterFri6": "I'll definitely be going to the saloon tonight. What else is there to do?",
+  "CFE_Shane_winterFri6": "I'll definitely be going to the saloon tonight. What else is there to do?", //intentionally left to allow random function in FallFri8_1 and FallFri8_2
   "CFE_Shane_winterSun10": "What you have to understand, @, is that when I do my best, it looks a lot worse than what other people do.$s#$e#I just thought you should know that.",
   "CFE_Shane_winterSun8": "What's it like for those functional alcoholic millionaires? Like, the CEOs who always have half a minibar behind their desk?#$b#Do they just stay plastered all day and get paid for it? 'Cause if so, sign me up.#$e#Looks like I missed my calling.",
   "CFE_Shane_winterSun6": "It's been an interesting gridball season.#$e#Or so I hear. I've missed a ton of the games.",
 
   "CFE_Shane_Mon8": "Emily's a pretty good girl. She gives me beer and she listens. Not much else I need.#$e#You're pretty cool, too.",
   "CFE_Shane_Wed10": "My counselor's been helping me out a lot with my darkest thoughts. I think I'm moving past 'em.#$b#Alcohol is still a tough one, though.#$e#A lot of people don't get it. I can't just 'stop going' to the saloon.$s",
-  "CFE_Shane_Wed6": "$d Joja#*sigh* ...Every day is the same. Stocking those horrible shelves, going to the saloon, tossing and turning all night.$s|I hated my job at JojaMart, but now that I'm unemployed I feel even worse.$s",
-  "CFE_Shane_Wed4": "Have I ever gotten really weird and vulnerable with you while I was drunk? I have the tendency to do that.$u#$e#Whatever I said, don't read into it.$u",
+  "CFE_Shane_Wed6": "$d Joja#*sigh* ...Every day is the same. Stocking those horrible shelves, going to the saloon, tossing and turning all night.$s|I hated my job at JojaMart, but now that I'm unemployed I feel even worse.$s", 
+  "CFE_Shane_Wed4": "Have I ever gotten really weird and vulnerable with you while I was drunk? I have the tendency to do that.$u#$e#Whatever I said, don't read into it.$u", 
   "CFE_Shane_Wed2": "...'Suuuuup.$s",
-  "CFE_Shane_Thu10": "I have my ups and downs still. But lately, things seem to be a bit better.#$e#Like, today's good, right? You stopped to talk, for one thing.$h",
+  "CFE_Shane_Thu10": "I have my ups and downs still. But lately, things seem to be a bit better.#$e#Like, today's good, right? You stopped to talk, for one thing.$h", 
   "CFE_Shane_Thu2": "...'Ey.$s",
   "CFE_Shane_Fri2": "You're just not gonna leave me alone, are you? $s",
   "CFE_Shane_Sat10": "Oh man, I got really drunk before I went to bed last night.$s#$q 530/531/532 Sat_old#You must be disappointed in me.#$r 530 -250 Sat_530#Yeah! I thought you wanted to get clean!#$r 531 0 Sat_531#Recovery has its ups and downs.#$r 531 0 Sat_531#Sorry, I know it's hard for you.#$r 532 -50 Sat_532#No prob. You do you.",
@@ -4756,7 +4916,7 @@
   "CFE_Vincent_RockCandy": "You mean this candy will give me tons of extra energy? *crunch*#$b#...#$b#I don't feel any different.#$e#Tastes yummy, though! Thanks!$h",
   "CFE_Vincent_Pearl": "Cool! A marble!",
   "CFE_Vincent_PrismaticShard": "Is this candy? It looks really good!$h",
-  "CFE_Vincent_CranberryCandy": "Mom says I can't have anymore candy today, except if it's a gift from you, then it's a 'special occasion.'#$b#Yayyy!$h",
+  "CFE_Vincent_CranberryCandy": "Mom says I can't have any more candy today, except if it's a gift from you, then it's a 'special occasion.'#$b#Yayyy!$h",
   "CFE_Vincent_GingerAle": "I love soda!#$b#...#$b#It makes you burp!",
   "CFE_Vincent_Grape": "These taste like purple popsicles, but not frozen! Thanks, Mr. @!^These taste like purple popsicles, but not frozen! Thanks, Ms. @!",
   "CFE_Vincent_Grape_GN": "These taste like purple popsicles, but not frozen! Thanks, {{Title}} @!",
@@ -4804,7 +4964,7 @@
   "CFE_Vincent_fallSun4": "There's so much mud outside!#$e#Mom's not a big fan.",
 
   "CFE_Vincent_winterTue4": "I built a block tower yesterday that was even taller than my brother!$h#$e#I had to stand on a stool to make it.",
-  "CFE_Vincent_winterThu10": "I had a bad dream last night.$s#$e#I dreamt that Dad was gone again. Forever.$s#$e#I know. It's not real. But it was still scary.$s",
+  "CFE_Vincent_winterThu10": "I had a bad dream last night.$s#$e#I dreamt that Dad was gone again. Forever.$s#$e#I know. It's not real. But it was still scary.$s", //repeated line with Sat8y2?
   "CFE_Vincent_winterFri10": "A long time ago, I hit Jas when we were playing.$u#$e#I always make sure I'm nice to her now.",
   "CFE_Vincent_winterSat10": "Hey! Wanna play in the snow?#$e#The snow is perfect today for the best snowballs ever!",
 
@@ -4832,6 +4992,7 @@
   "CFE_Vincent_Sat4y1": "*sigh*... When's Dad coming back?$s",
   "CFE_Vincent_Sat4y2": "I'm having fun today! Are you?",
   "CFE_Vincent_Sat2": "Do you know anyone in the army? That's where my dad works.",
+  "CFE_Vincent_Sat2.DSV.NoMoreWar": "Do you know anyone in Gotoro? That's where my dad works.",
   "CFE_Vincent_Sun8": "I tried some of Mom's yellow curry. It was actually really good.#$b#But ONLY because of the sauce. Vegetables are still icky.",
   "CFE_Vincent_Sun4": "Ms. Penny makes me read a new book every week.$s#$b#At least she lets me pick them, sometimes!",
 
@@ -4993,7 +5154,7 @@
   "CFE_Wizard_fallThu10": "What do you think of my hat?#$e#I think it is a wonderful hat.",
 
   "CFE_Wizard_winterMon4": "The affairs of mundane folk matter little to me, but the elementals like a chance to see you up close.#$e#It is for them that I created that silly maze at the Spirit's Eve festival.",
-  "CFE_Wizard_winterWed4": "Yes, am quite well acquainted with Linus, though we typically only meet once per year.#$e#He understands the mountain better than most others. There is much you could learn from him.",
+  "CFE_Wizard_winterWed4": "Yes, I am quite well acquainted with Linus, though we typically only meet once per year.#$e#He understands the mountain better than most others. There is much you could learn from him.",
   "CFE_Wizard_winterThu10": "What continues to bring you back here, @? I must admit I never expected you to show such a personal interest in me.#$e#It's certainly kind of you. I appreciate it.",
   "CFE_Wizard_winterFri10": "I admit my work does not entirely occupy me around the clock.#$e#It's just that other people... make me nervous. This lifestyle suits me.",
   "CFE_Wizard_winterSat10": "Mmm... wouldn't a cup of tea help clear the senses? Perhaps that's what I need.",
@@ -5079,12 +5240,14 @@
 
   //Flower Dance
   "CFE_FlowerDance_Abigail": "Can't we just have a flower dance without the dance? I don't mind the dress.$u",
+  "CFE_FlowerDance_Abigail.DSV.ChineseFilipinoAbigail": "Can't we just have a flower dance without the dance? I don't mind wearing Lolo's barong.$u",
   "CFE_FlowerDance_Robin": "A flower feature can really make the aesthetics of your home come together. Have you seen the crafting recipe that Pierre has for sale?",
   "CFE_FlowerDance_Demetrius": "It makes me so proud to see Maru in this festival. Kids sure do grow up fast.",
   "CFE_FlowerDance_Maru": "I wonder if my dad's going to be videotaping this?#$b#I guess he can if he wants. He never really goes back and watches old videos, anyway.",
   "CFE_FlowerDance_Sebastian": "After a while, these festivals get... routine.#$e#I think I'm just numb to this one, at this point.",
   "CFE_FlowerDance_Linus": "I wondered if it would be a good idea for me to show up this year.#$b#Well, thank you for visiting with me.$h",
   "CFE_FlowerDance_Caroline": "Abby needs to learn that a little dance once a year is far from anything that will kill her.#$e#I think she's more insecure than she realizes, and there's only one way to fix that!",
+  "CFE_FlowerDance_Caroline.DSV.NonbinaryAbigail": "Abby needs to learn that a little dance once a year is far from anything that will kill them.#$e#I think they're more insecure than they realize, and there's only one way to fix that!",
   "CFE_FlowerDance_Alex": "Dancing's really fun if you've got the right partner!$h",
   "CFE_FlowerDance_George": "My body'll be screamin' at me tomorrow for pushing myself all the way out here.#$e#It's the least I can do, though.",
   "CFE_FlowerDance_Evelyn": "George won't let me push him out here to the clearing. Says he still wants to do it himself.",
@@ -5122,6 +5285,7 @@
   "CFE_FlowerDance_Pam_y2": "How's Penny doin'? That girl sure knows how to worry herself.#$e#I'm sure she'll be fine.",
   "CFE_FlowerDance_Emily_y2": "I remember your first year at the flower dance. That was a good year!",
   "CFE_FlowerDance_Haley_y2": "One of these years, I know I won't be the flower queen anymore. But for now, no one seems to have a problem with it.",
+  "CFE_FlowerDance_Haley_y2.DSV.FlowerQueensCrown": "One of these years, I know I won't be eligible to be the flower queen anymore. But for now, I'm enjoying it while it lasts.",
   "CFE_FlowerDance_Jodi_y2": "I wonder how many more years until Vincent's old enough for this?",
   "CFE_FlowerDance_Kent_y2": "Dancing... singing... all just for the heck of it.#$b#This is what happiness looks like.#$e#I'm grateful to see everyone happy like this. It's... what it's all about, right?",
   "CFE_FlowerDance_Marlon_y2": "Such a contrast to my usual environment. *sigh*#$b#Perhaps I should have put more effort into matters of love when I was younger.",
@@ -5162,6 +5326,7 @@
   "CFE_Luau_Shane": "Hoo... I'm getting a little overheated here from all this spicy food. What is there to drink?",
   "CFE_Luau_Marnie": "I just love seeing everyone together like this.",
   "CFE_Luau_Elliott": "There's a marvelous lobster bisque on the table closest to the ocean. Have you had some yet?$h",
+  "CFE_Luau_Elliott.DSV.JewishElliott": "There's a marvelous baked snapper on the table closest to the ocean. Have you had some yet?$h",
   "CFE_Luau_Gus": "I could make a delicious soup, no problem, but the potluck soup is supposed to be more a reflection of the whole valley, not a reflection of me.#$e#I just have to step back and let it be what it'll be!",
   "CFE_Luau_Wizard": "Ever notice how it's always sunny on festival days?#$e#Yeah, you're welcome for that.",
   "CFE_Luau_Harvey": "Is Emily still dancing? Good grief. I told her, dehydration and dance meditation are not the same thing.$11",
@@ -5197,9 +5362,10 @@
   "CFE_Luau_Marnie_y2": "*yawn* I'm tired. I think I'll sleep like a log tonight, especially after such a feast.$2",
   "CFE_Luau_Elliott_y2": "I didn't forget about the luau this year!$1#$e#Well, Leah reminded me, anyway. That helped.",
   "CFE_Luau_Gus_y2": "Based on what I've seen going into that soup, I'd say a little wine might be safe to add. Or something savory, like cheese or truffles.#$e#It'd have to be the best of the best quality, though.",
+  "CFE_Luau_Gus_y2.DSV.TurkishGus": "Based on what I've seen going into that soup, I'd say a little cabbage or cauliflower might be safe to add. Or something savory, like cheese or truffles.#$e#It'd have to be the best of the best quality, though.",
   "CFE_Luau_Wizard_y2": "What? I'm not being antisocial. This is quite social for me, thank you.#$e#Compared to my usual lifestyle, this is...#$b#...look, I'm doing my best, okay?",
   "CFE_Luau_Harvey_y2": "I trust everyone here enough to take decent care of themselves in this heat.#$b#But it's still my job to nag everyone, anyway.$1",
-  "CFE_Luau_Jas_y2": "I'm helping Aunt Marine!$1#$e#...But she doesn't have anything for me to do right now.$3",
+  "CFE_Luau_Jas_y2": "I'm helping Aunt Marnie!$1#$e#...But she doesn't have anything for me to do right now.$3",
   "CFE_Luau_Vincent_y2": "Jas doesn't want to dance this year.$3#$e#I've gotten better at dancing since last year! Really!$3",
   "CFE_Luau_Willy_y2": "It's just past the horizon, down south. If you sail out that far, you can see the Fern Islands from that point.#$b#Wouldn't you say that's about right?",
   "CFE_Luau_Leo_y2": "The parrots would really enjoy this beach during the summer!$1",
@@ -5366,9 +5532,11 @@
   "CFE_SpiritsEve_Abigail_y2": "These wilderness golems don't look so tough...#$e#The mummies, on the other hand...$9",
   "CFE_SpiritsEve_Robin_y2": "The structural integrity of those monster cages looks pretty good...#$b#...I think.$6#$e#Maybe I should take a closer look when I'm done with dinner.$2",
   "CFE_SpiritsEve_Demetrius_y2": "Sebastian finished his dinner a while ago. I wonder how long he's going to be in that maze?",
+  "CFE_SpiritsEve_Demetrius_y2.DSV.NonbinarySebastian": "Sebastian finished their dinner a while ago. I wonder how long they're going to be in that maze?",
   "CFE_SpiritsEve_Maru_y2": "No mazes for me this year, thanks.#$b#Not after some of the stories I've heard.$2",
   "CFE_SpiritsEve_Sebastian_y2": "Don't mind the wiggly hands. If one of 'em grabs you, just kick 'em off.#$b#But not too hard or violent. You've gotta be assertive, but polite.",
   "CFE_SpiritsEve_Caroline_y2": "There goes Abby, running off again...$2#$e#Maybe you'd like to finish her crab cakes?",
+  "CFE_SpiritsEve_Caroline_y2.DSV.NonbinaryAbigail": "There goes Abby, running off again...$2#$e#Maybe you'd like to finish their crab cakes?",
   "CFE_SpiritsEve_Alex_y2": "I made it to the end last year, but all I found was an empty box. Someone must've beaten me to it.#$e#*sigh* Where oh where should I go next?",
   "CFE_SpiritsEve_Lewis_y2": "I can't decide whether I love this festival or hate it.#$e#It's definitely impressive, but I can't ever seem to find answers for how that old man puts it together and cleans it up.",
   "CFE_SpiritsEve_Clint_y2": "Nahh, the monsters over there don't scare me. If Marlon says it's safe, it's safe.",
@@ -5399,6 +5567,7 @@
   "CFE_IceFest_Robin": "This should be ready in an hour or two. I hope there are some people who are still around to see it then.",
   "CFE_IceFest_Demetrius": "Can you believe how borderline tropical it'll be around here, in just half a year?",
   "CFE_IceFest_Maru": "Sebastian makes some pretty cool snowmen. I feel like I could learn a thing or two from him, if he'd let me.",
+  "CFE_IceFest_Maru.DSV.NonbinarySebastian": "Sebastian makes some pretty cool snowmen. I feel like I could learn a thing or two from them, if they'd let me.",
   "CFE_IceFest_Sebastian": "Nah, this isn't too cold. Cold is when you go outside with wet hair and it freezes.",
   "CFE_IceFest_Pierre": "Finally! I can spend some time outside and throw a snowball!$h#$e#Hmm... is there anyone I can hit? Or... they'll just be mad, won't they?$s",
   "CFE_IceFest_Shane": "Two words: Pizza. Festival. Seriously, that needs to happen this year.#$e#It'd be so easy, too. We'd just order a crap-ton of pizzas from Gus and pass 'em around.",

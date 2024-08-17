@@ -196,6 +196,66 @@
       }
     },
     {
+      "Name": "SyncedRandom",
+      "Value": "{{Random: True, False |key=CFE_SyncedRandom}}" //used for syncing edits to CFE's festival dialogue. Other mods can also sync any compatibility edits in their own code by copying this token and key and including it in their content.json
+    },
+    {
+      "Name": "AlexGrandmaToken",
+      "Value": "Grandma"
+    },
+    {
+      "Name": "AlexGrandmaToken",
+      "Value": "Bubbe",
+      "When": {
+        "HasMod": "DSV.Core",
+        "DSV.Core/ConfigValue:JewishMullners": "true"
+      }
+    },
+    {
+      "Name": "AlexGrandmaToken",
+      "Value": "Abuela",
+      "When": {
+        "HasMod": "DSV.Core",
+        "DSV.Core/ConfigValue:EvelynVariant": "Mexican"
+      }
+    },
+    {
+      "Name": "AlexGrandmaToken",
+      "Value": "Tinä",
+      "When": {
+        "HasMod": "DSV.Core",
+        "DSV.Core/ConfigValue:EvelynVariant": "Samoan"
+      }
+    },
+    {
+      "Name": "AlexGrandpaToken",
+      "Value": "Grandpa"
+    },
+    {
+      "Name": "AlexGrandpaToken",
+      "Value": "Zayde",
+      "When": {
+        "HasMod": "DSV.Core",
+        "DSV.Core/ConfigValue:JewishMullners": "true"
+      }
+    },
+    {
+      "Name": "AlexGrandpaToken",
+      "Value": "Abuelo",
+      "When": {
+        "HasMod": "DSV.Core",
+        "DSV.Core/ConfigValue:GeorgeVariant": "Mexican"
+      }
+    },
+    {
+      "Name": "AlexGrandpaToken",
+      "Value": "Tamä",
+      "When": {
+        "HasMod": "DSV.Core",
+        "DSV.Core/ConfigValue:GeorgeVariant": "Samoan"
+      }
+    },
+    {
       "Name": "GenderNeutralCompat",
       "Value": ""
     },
@@ -546,11 +606,20 @@
     {
       "LogName": "CFE_FestivalRandom_Include",
       "Action": "Include",
-      "FromFile": "Data/Festivals/Fest_{{Random:null, True}}.json",
+      "FromFile": "Data/Festivals/Fest_True.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
+        "SyncedRandom": "True",
         "Year |contains= 1, 2, 3, 4": false,
         "CFE_Festivals": "true"
+      }
+    },
+    {
+      "LogName": "DSV_Compatibility",
+      "Action": "Include",
+      "FromFile": "Data/Compat/DSV.json",
+      "When": {
+        "HasMod": "DSV.Core",
+        "DSV.Core/ConfigValue:EnableVariantBasedDialogue": "True"
       }
     }
   ]
