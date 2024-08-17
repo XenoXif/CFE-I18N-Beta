@@ -144,7 +144,7 @@
       "When": {
         "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
         "HasMod |contains= DSV.Core": true,
-        "DSV.Core/ConfigValue:CarolineDialogue": "True"
+        "DSV.Core/ConfigValue:CarolineDialogue": "True",
       }
     },
     {
@@ -517,7 +517,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueHaley",
       "Entries": {
         "Rainy_Day_3": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 7.DSV.ModdedHaley,8}}}}",
-        "Rainy_Day_4": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 9{{GenderNeutralCompat}}.DSV.{{DSV.Core/ConfigValue:HaleyVariant}}Haley,10{{GenderNeutralCompat}}}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}"
+        "Rainy_Day_4": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 9{{GenderNeutralCompat}}.DSV.{{DSV.Core/ConfigValue:HaleyVariant}}Haley,10{{GenderNeutralCompat}}}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
       },
       "When": {
         "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
@@ -556,7 +556,7 @@
         "Year |contains= 1, 2, 3, 4": false,
         "CFE_Festivals": "true",
         "SyncedRandom": "True",
-        "FlowerQueensCrown": "True",
+				"DSV.Core/ConfigValue:FlowerQueensCrown": "True",
         "DSV.Core/FlowerQueen |contains= Haley": false
       }
     },
@@ -608,7 +608,7 @@
         "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
         "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:JodiDialogue": "True",
-        "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true'": true
+        "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true')": true
       }
     },
     {
@@ -644,7 +644,7 @@
         "Query: '{{CFE_Kent}}' = 'true' OR ('{{CFE_Kent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
         "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:KentDialogue": "True",
-        "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true'": true
+        "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true')": true
       }
     },
     {
@@ -695,7 +695,7 @@
         "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
         "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:LeahDialogue": "True",
-        "Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+        "Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true,
       }
     },
     {
@@ -789,7 +789,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Penny",
       "Entries": {
-        "Thu10": "{{i18n: CFE_Penny_Thu10.DSV.TransPennySam}}"
+        "Thu10": "{{i18n: CFE_Penny_Thu10.DSV.TransPennySam}}",
       },
       "When": {
         "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
@@ -915,7 +915,7 @@
         "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
         "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SamDialogue": "True",
-        "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true'": true
+        "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true')": true
       }
     },
     {
@@ -1005,7 +1005,7 @@
         "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
         "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:VincentDialogue": "True",
-        "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true'": true
+        "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true')": true
       }
     }
   ]

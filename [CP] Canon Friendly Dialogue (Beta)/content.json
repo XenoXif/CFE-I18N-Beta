@@ -201,56 +201,62 @@
     },
     {
       "Name": "AlexGrandmaToken",
-      "Value": "Grandma"
+      "Value": "{{i18n:AlexGrandmaToken.Default}}"
     },
     {
       "Name": "AlexGrandmaToken",
-      "Value": "Bubbe",
-      "When": {
+      "Value": "{{i18n:AlexGrandmaToken.Jewish}}",
+      "When": 
+      {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:JewishMullners": "true"
       }
     },
     {
       "Name": "AlexGrandmaToken",
-      "Value": "Abuela",
-      "When": {
+      "Value": "{{i18n:AlexGrandmaToken.Mexican}}",
+      "When": 
+      {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:EvelynVariant": "Mexican"
       }
     },
     {
       "Name": "AlexGrandmaToken",
-      "Value": "Tinä",
-      "When": {
+      "Value": "{{i18n:AlexGrandmaToken.Samoan}}",
+      "When": 
+      {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:EvelynVariant": "Samoan"
       }
     },
     {
       "Name": "AlexGrandpaToken",
-      "Value": "Grandpa"
+      "Value": "{{i18n:AlexGrandpaToken.Default}}"
     },
     {
       "Name": "AlexGrandpaToken",
-      "Value": "Zayde",
-      "When": {
+      "Value": "{{i18n:AlexGrandpaToken.Jewish}}",
+      "When": 
+      {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:JewishMullners": "true"
       }
     },
     {
       "Name": "AlexGrandpaToken",
-      "Value": "Abuelo",
-      "When": {
+      "Value": "{{i18n:AlexGrandpaToken.Mexican}}",
+      "When": 
+      {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:GeorgeVariant": "Mexican"
       }
     },
     {
       "Name": "AlexGrandpaToken",
-      "Value": "Tamä",
-      "When": {
+      "Value": "{{i18n:AlexGrandpaToken.Samoan}}",
+      "When": 
+      {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:GeorgeVariant": "Samoan"
       }
@@ -621,6 +627,6 @@
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:EnableVariantBasedDialogue": "True"
       }
-    }
+    },
   ]
 }
