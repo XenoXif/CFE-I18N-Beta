@@ -1086,10 +1086,10 @@
 
   "CFE_Elliott_winterMon4": "These dark winter days do affect my disposition.$s#$q 060/061/062/063 winterMon_old#Does the winter season affect your mood, too? #$r 060 0 Mon_060#It takes the wind out of my sails.#$r 061 0 Mon_061#It perks me right up!#$r 062 0 Mon_062#It's a mix of joy and melancholy.#$r 063 0 Mon_063#No affect on me.",
   "CFE_Elliott_winterMon_old": "$p 060#Are you taking good care of yourself?|I must not allow myself to succumb to a state of ennui.",
-  "CFE_Elliott_Mon_060": "Oh dear! It must be difficult to be a farmer when every living thing is asleep. Please come talk with me whenever you like.",
-  "CFE_Elliott_Mon_061": "Is that so? Yes, I suppose there is something quite uplifting about the holiday spirit.",
-  "CFE_Elliott_Mon_062": "That's exactly how it is for me, too. Some of my best writing has come from wintertime, but it does tend to be darker in tone.",
-  "CFE_Elliott_Mon_063": "Is that so? Well, I admire your impervious nature, then!",
+  "CFE_Elliott_winterMon_060": "Oh dear! It must be difficult to be a farmer when every living thing is asleep. Please come talk with me whenever you like.",
+  "CFE_Elliott_winterMon_061": "Is that so? Yes, I suppose there is something quite uplifting about the holiday spirit.",
+  "CFE_Elliott_winterMon_062": "That's exactly how it is for me, too. Some of my best writing has come from wintertime, but it does tend to be darker in tone.",
+  "CFE_Elliott_winterMon_063": "Is that so? Well, I admire your impervious nature, then!",
   "CFE_Elliott_winterTue6": "I've written countless stories before, but if I'm going to submit something for publication, it has to be perfect!$a#$e#Writing can exacerbate my perfectionist tendencies quite a lot.$s",
   "CFE_Elliott_winterTue4": "$d Joja#JojaMarts have always filled me with a deep sense of loathing. I haven't been in one in years.|It warms my heart whenever I see others shopping at Pierre's. I'm reminded of how the soul of this town won me over.",
   "CFE_Elliott_winterWed6": "I've been so involved in my own work that I've neglected to ask how your work is going. How is the farm?#$e#Do you have plans for building anything new for the coming year?",
@@ -2103,7 +2103,7 @@
   "CFE_Harvey_Tue6": "A lot of my job comes down to paperwork. If I worked in a big hospital, a secretary would do a lot of it for me.#$e#It's still easier here, in the long-run. I get the occasional afternoon off.",
   "CFE_Harvey_Tue4": "It's important for the examination room to remain confidential, so please don't linger too long if I'm busy seeing a patient.#$e#It's nice to see you, though.",
   "CFE_Harvey_Tue2": "Dairy products are healthy for small children in moderation, but it's actually a good idea for adults to limit milk and cheese.#$e#Fish is good to eat on a regular basis for the health of your brain.",
-  "CFE_Harvey_Tue2.DSV.ModdedSikhHarvey": "Dairy products are healthy for small children in moderation, but it's actually a good idea for adults to limit milk and cheese.#$e#Legumes are good to eat on a regular basis for the health of your gastrointestinal system.",
+  "CFE_Harvey_Tue2.DSV.ModdedHarvey": "Dairy products are healthy for small children in moderation, but it's actually a good idea for adults to limit milk and cheese.#$e#Legumes are good to eat on a regular basis for the health of your gastrointestinal system.",
   "CFE_Harvey_Wed2": "It's good to get out for a walk every now and then. I wish I could get outside more, myself.#$e#That's not really a problem for you though, is it?$h",
   "CFE_Harvey_Thu10": "It's a lot of work, being a doctor. I don't eat as well as I should.$s#$e#If I didn't live alone I think it would be easier.$l",
   "CFE_Harvey_Thu8": "I never really got into the martyr complex that so many doctors develop.#$e#I feel like I work decently hard, and I'm technically on call 24/7, but I also want to be present for my own life.",
@@ -3916,7 +3916,7 @@
   //Date Specific Dialogue
   "CFE_Penny_Married_spring1": "We've got a long, warm year to look forward to. Let's make it a productive one.",
   "CFE_Penny_Married_spring4": "Spring is probably my favorite season. There's a certain freshness in the air that fills me with hope.",
-  "CFE_Penny_Married_spring13": "School's off today. I'll be heading into town for the egg festival. Are you coming, too?",
+  "CFE_Penny_Married_spring12": "School's off today. I'll be heading into town for the egg festival. Are you coming, too?",
   "CFE_Penny_Married_spring16": "Ah, the 'spring cleaning'... I'm actually going to enjoy this.",
   "CFE_Penny_Married_spring19": "It's really nice seeing my mom proud of me. I wondered, briefly, if she'd be jealous of me.#$b#But that turned out not to be a problem!$h",
   "CFE_Penny_Married_spring26": "I've got an art project that Jas and Vincent are going to love, using some flowers left over from the festival.#$b#I'm really looking forward to it.$h",
@@ -4411,7 +4411,7 @@
 
   "CFE_Sandy_fallWed10": "Good thing you showed up! I haven't had a customer all day!#$e#...as expected.$s",
   "CFE_Sandy_fallThu10": "Well hellooooooo ~ What brings you to the desert today?#$e#Treasure hunting? Coconut foraging? ...Meeeeee? <$h#$e#Haha, just kidding.",
-  "CFE_Sandy_fall_Fri4": "Seems like that desert trader usually knows how to predict when you'll show up.#$b#Then she heads home just as soon as you leave. Can she predict the future or something?#$e#Wish I could do that...",
+  "CFE_Sandy_fallFri4": "Seems like that desert trader usually knows how to predict when you'll show up.#$b#Then she heads home just as soon as you leave. Can she predict the future or something?#$e#Wish I could do that...",
 
   "CFE_Sandy_winterFri6": "At least it's a little cooler here in the winter. That sun sure doesn't let up, though.",
   "CFE_Sandy_winterSat10": "Do you go fishing in that pond across the street?#$e#I've seen those fish. I can't imagine eating something like that! Blech.",

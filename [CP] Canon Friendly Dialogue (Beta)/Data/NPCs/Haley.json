@@ -225,12 +225,12 @@
         "fall_3": "{{i18n: CFE_Haley_Married_fall3}}",
         "fall_8": "{{i18n: CFE_Haley_Married_fall8}}",
         "fall_13": "{{i18n: CFE_Haley_Married_fall13}}",
-        "fall_22": "{{i18n: CFE_Haley_Married_fall2}}",
+        "fall_22": "{{i18n: CFE_Haley_Married_fall22}}",
         "fall_28": "{{i18n: CFE_Haley_Married_fall28}}",
 
-        "winter_8": "{{i18n: CFE_Haley_Married_winter1}}",
-        "winter_22": "{{i18n: CFE_Haley_winter22}}",
-        "winter_24": "{{i18n: CFE_Haley_winter24}}",
+        "winter_8": "{{i18n: CFE_Haley_Married_winter8}}",
+        "winter_22": "{{i18n: CFE_Haley_Married_winter22}}",
+        "winter_24": "{{i18n: CFE_Haley_Married_winter24}}",
         "winter_28": "{{i18n: CFE_Haley_Married_winter28}}"
 
         //Seasonal Dialogue

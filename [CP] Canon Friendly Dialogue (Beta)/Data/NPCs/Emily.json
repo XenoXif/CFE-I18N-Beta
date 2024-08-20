@@ -187,9 +187,9 @@
 
         "Indoor_Night_0": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 1,2,3}}}}",
         "Indoor_Night_1": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 4,5,6}}}}",
-        "Indoor_Night_2": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 7,8,9}}}}",
-        "Indoor_Night_3": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 10,11,12}}}}",
-        "Indoor_Night_4": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 13,14,15}}}}",
+        "Indoor_Night_2": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 7,8,9,10}}}}",
+        //"Indoor_Night_3": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 10,11,12}}}}",
+        //"Indoor_Night_4": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 13,14,15}}}}",
 
         //locational specific dialogue
         //funleave and return only show up on Mondays or Fridays (except for characters with jobs), and only while the Emily is leaving or entering the farmhouse. fun return will not display once the Emily has reached their target location.
