@@ -344,7 +344,6 @@
   "CFE_Alex_repeated_8": "At least the gridball season keeps going through winter. But it just gets too snowy where we live to do anything.",
   "CFE_Alex_repeated_9": "You know, I used to want fame and fortune, but lately I've been starting to sing a different tune. In the end it's the humble little things that satisfy, don't you think?#$e#I still want to go pro, but it's not the most important thing in the world.",
   //summer_Sun6, Fri6
-  //fall_Fri8, Mon8
   //fall_Sat_inlaw_Haley, Sat_inlaw_Haley
   //fallSat2, Sat2
   //fall_Sat8_inlaw_Haley, Sat8_inlaw_Haley
@@ -352,6 +351,7 @@
   //summer_Mon8, Sun8
   //summer_Thu8, winter_Wed8
   //winter_Sun6, winter_Sun2
+  //fall_Fri8, Mon8
 
   //date specific dialogue
   "CFE_Alex_spring1y2": "Happy new year!#$e#I'm going to try to upgrade my workout again this year.",
