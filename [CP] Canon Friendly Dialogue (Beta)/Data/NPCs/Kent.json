@@ -13,7 +13,7 @@
         "Query: '{{CFE_Kent}}' = 'true' OR ('{{CFE_Kent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
       }
     },
-    {
+    /*{
       "LogName": "CFE_Kent_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
@@ -21,7 +21,7 @@
         "Kent": "{{i18n: CFE_Kent_rainy_{{random: 1,2,3}}}}"
       },
       "When": { "Query: '{{CFE_Kent}}' = 'true' OR ('{{CFE_Kent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
-    },
+    }, */
     {
       "LogName": "CFE_Kent_GiftTastes",
       "Action": "EditData",
