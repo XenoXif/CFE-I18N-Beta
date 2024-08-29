@@ -2045,7 +2045,7 @@
   //these lines target files other than the standard characters/dialogue/Harvey location such as unmarried rainy dialogue
   "CFE_Harvey_rainy_1": "Hi @! Er... Read anything interesting in the library lately?#$e#Heh. Well, um... I'll see you around then?",
   "CFE_Harvey_rainy_2": "Days like these make me hungry for a hot meal. How about you?",
-  "CFE_Harvey_rainy_3": "That gray sky is so serene to look it, isn't it?#$e#Heh, I can only look for a moment before the raindrops clutter up my glasses.",
+  "CFE_Harvey_rainy_3": "That gray sky is so serene to look at, isn't it?#$e#Heh, I can only look for a moment before the raindrops clutter up my glasses.",
 
   //Harvey's Standard Dialogue
   //Special Dialogue
