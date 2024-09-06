@@ -16,7 +16,7 @@
     {
       "LogName": "CFE_Sam_GiftTastes",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Shane",
+      "Target": "Characters/Dialogue/Sam",
       "Entries": {
         "AcceptGift_(O)373": "{{i18n: CFE_Sam_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Sam_RockCandy}}",
