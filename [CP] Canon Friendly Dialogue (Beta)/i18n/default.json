@@ -4136,7 +4136,7 @@
   "CFE_Sam_CactusFruit": "Awesome! These are SO refreshing.$h",
   "CFE_Sam_MapleBar": "Oh, those are so good! And you're giving me one?$8#$b#Dude, you rock.$h^Oh my gosh, you rock.$h",
   "CFE_Sam_MapleBar_GN": "Oh, those are so good! And you're giving me one?$8#$b#Oh my gosh, you rock.$h",
-  "CFE_Sam_Tigerseye": "This stone is rad! Something about it just makes me want to rise up and rock out.",
+  "CFE_Sam_TigersEye": "This stone is rad! Something about it just makes me want to rise up and rock out.",
 
   //Sam's Misc Dialogue
   //these lines target files other than the standard characters/dialogue/Sam location such as unmarried rainy dialogue
@@ -5113,7 +5113,7 @@
   "CFE_Wizard_RockCandy": "The magic residing within these crystals is beyond potent. Whoever made this candy is imbued with the supernatural, no doubt.",
   "CFE_Wizard_PrismaticShard": "This... with this, I can bring the forest's spirits a whole day of calm and prosperity.$h#$e#Hmm, I may even get to take a day off because of it.",
   "CFE_Wizard_RabbitsFoot": "Rabbits are beasts of pure innocence. This will be quite useful to brew, I think.",
-  "CFE_Wizard_PurpleMushroom": "This, the rarest ingredient in a life elixer...$h#$b#Take heed, @. Your actions today may have saved a life in the near future.",
+  "CFE_Wizard_PurpleMushroom": "This, the rarest ingredient in a life elixir...$h#$b#Take heed, @. Your actions today may have saved a life in the near future.",
   "CFE_Wizard_SuperCucumber": "Ah, with this, I can concoct a libation that will compel the ocean spirits into peaceful revelry.#$b#You have done great work, @.",
   "CFE_Wizard_SolarEssence": "Thank you. This shall help maintain balance within our corner of the cosmos.",
   "CFE_Wizard_VoidEssence": "For anything good to exist, there must be perfect harmony between light and shadow. I'll put this to proper use.",
