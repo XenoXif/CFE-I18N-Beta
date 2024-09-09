@@ -19,6 +19,31 @@ it has been hard to track what all codes have changed, but if you had to patch t
 
 list of new lines added (or edited) by this update:
 
+VERSION 3.0.3 DEFAULT.JSON CHANGES
+CFE_Caroline_Mon6: fixed a $ error
+CFE_Caroline_Mon6.DSV.NonbinaryAbigail: fixed a $ error
+CFE_Demetrius_Tue6: fixed a $ error
+CFE_Elliott_winterMon4: winterMon_old became winter_Mon_old
+CFE_Elliott_Married_IndoorNight_6: removed an extra #
+CFE_Harvey_rainy_3: "it" changed to "at"
+CFE_Sam_Tigerseye: renamed CFE_Sam_TigersEye
+CFE_Wizard_PurpleMushroom: "elixer" became "elixir"
+CFE_WinterStar_Emily: an extra $h removed
+
+VERSION 3.0.2 DEFAULT.JSON CHANGES
+CFE_Jodi_Mon2: renamed CFE_Jodi_Mon2y1
+CFE_Jodi_Mon2y2: added!
+
+VERSION 3.0.1 DEFAULT.JSON CHANGES
+CFE_Elliott_Mon_060 : renamed CFE_Elliott_winterMon_060
+CFE_Elliott_Mon_061: renamed CFE_Elliott_winterMon_061
+CFE_Elliott_Mon_062: renamed CFE_Elliott_winterMon_062
+CFE_Elliott_Mon_063: renamed CFE_Elliott_winterMon_063
+CFE_Harvey_Tue2.DSV.ModdedSikhHarvey: renamed CFE_Harvey_Tue2.DSV.ModdedHarvey
+CFE_Penny_Married_spring13: renamed CFE_Penny_Married_spring12
+CFE_Sandy_fall_Fri4: renamed CFE_Sandy_fallFri4
+
+
 A suite of Gender Neutrality Mod Tokens compatible lines! Search "_GN" in the default to find these new or adapted lines.
 
 -Abigail-
