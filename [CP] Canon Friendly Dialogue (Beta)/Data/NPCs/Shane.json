@@ -117,10 +117,10 @@
         "Thu2": "{{i18n: CFE_Shane_Thu2}}",
         "Fri2": "{{i18n: CFE_Shane_Fri2}}",
         "Sat10": "{{i18n: CFE_Shane_Sat10}}",
-        "Sat_old": "{{i18n: CFE_Shane_Sat_old}}",
-        "Sat_530": "{{i18n: CFE_Shane_Sat_530}}",
-        "Sat_531": "{{i18n: CFE_Shane_Sat_531}}",
-        "Sat_532": "{{i18n: CFE_Shane_Sat_532}}",
+        "Sat10_old": "{{i18n: CFE_Shane_Sat10_old}}",
+        "Sat10_530": "{{i18n: CFE_Shane_Sat10_530}}",
+        "Sat10_531": "{{i18n: CFE_Shane_Sat10_531}}",
+        "Sat10_532": "{{i18n: CFE_Shane_Sat10_532}}",
 
         //Generic Weekday Dialogue
         "Mon": "{{i18n: CFE_Shane_Mon}}"

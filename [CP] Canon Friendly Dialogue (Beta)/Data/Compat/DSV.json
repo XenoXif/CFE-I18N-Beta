@@ -125,7 +125,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Caroline",
       "Entries": {
-        "winter_Fri6": "{{i18n: CFE_Caroline_winterFri6.DSV.ChineseFilipinoAbigail}}"
+        "winter_Fri6": "{{i18n: CFE_Caroline_winterFri6.DSV.ModdedAbigail}}"
       },
       "When": {
         "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
@@ -633,7 +633,7 @@
       "Entries": {
         "AcceptGift_(O)446": "{{i18n: CFE_Kent_RabbitsFoot.DSV.NoMoreWar}}",
         "winter_Mon10": "{{i18n: CFE_Kent_winterMon10.DSV.NoMoreWar}}",
-        "Tue_019": "{{i18n: CFE_Kent_Tue_019.DSV.NoMoreWar}}",
+        "Tue_019": "{{i18n: CFE_Kent_Tue10_019.DSV.NoMoreWar}}",
         "Wed6": "{{i18n: CFE_Kent_Wed6.DSV.NoMoreWar}}",
         "Thu8": "{{i18n: CFE_Kent_Thu8.DSV.NoMoreWar}}",
         "Fri10": "{{i18n: CFE_Kent_Fri10.DSV.NoMoreWar}}",

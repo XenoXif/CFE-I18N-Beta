@@ -73,7 +73,10 @@
         "summer_Wed4": "{{i18n: CFE_Emily_summerWed4}}",
         "summer_Thu8": "{{i18n: CFE_Emily_summerThu8}}",
         "summer_Thu4": "{{i18n: CFE_Emily_summerThu4}}",
-        "summer_Thu_old": "{{i18n: CFE_Emily_summerThu_old}}",
+        "summer_Thu4_old": "{{i18n: CFE_Emily_summer_Thu4_old}}",
+        "summer_Thu4_040": "{{i18n: CFE_Emily_summer_Thu4_040}}",
+        "summer_Thu4_041": "{{i18n: CFE_Emily_summer_Thu4_041}}",
+        "summer_Thu4_042": "{{i18n: CFE_Emily_summer_Thu4_042}}",
         "summer_Sat10": "{{i18n: CFE_Emily_summerSat10}}",
         "summer_Sat8": "{{i18n: CFE_Emily_summerSat8}}",
         "summer_Sat4": "{{i18n: CFE_Emily_summerSat4}}",
@@ -139,9 +142,7 @@
         "Sun8": "{{i18n: CFE_Emily_Sun8}}",
         "Sun6": "{{i18n: CFE_Emily_Sun6}}",
 
-        "Thu_040": "{{i18n: CFE_Emily_Thu_040}}",
-        "Thu_041": "{{i18n: CFE_Emily_Thu_041}}",
-        "Thu_042": "{{i18n: CFE_Emily_Thu_042}}",
+
 
         //Generic Weekday Dialogue
         "winter_Wed_inlaw_Haley": "{{i18n: CFE_Emily_winterWedinlawHaley}}",

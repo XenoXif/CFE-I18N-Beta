@@ -19,31 +19,92 @@ it has been hard to track what all codes have changed, but if you had to patch t
 
 list of new lines added (or edited) by this update:
 
+VERSION 3.0.4 DEFAULT.JSON CHANGES
+**this update fixes some persistent bugs with question code, please be careful to update accurately to minimize bugs!**
+
+ "CFE_Abigail_fallSun8": Sun_ instances became fall_Sun8_: fall_Sun8_old, fall_Sun8_27, fall_Sun8_27, fall_Sun8_WildColor, fall_Sun8_28
+ "CFE_Abigail_fall_Sun8_old": added
+ "CFE_Abigail_fall_Sun8_27": added
+ "CFE_Abigail_fall_Sun8_28": added
+ "CFE_Abigail_fall_Sun8_WildColor": added
+ "CFE_Elliott_winterMon4":Mon_ and winterMon_ instances became winter_Mon4_: winter_Mon4_old, winter_Mon4_060, winter_Mon4_061, winter_Mon4_062, winter_Mon4_063
+ "CFE_Elliott_winterMon_old": renamed CFE_Elliott_winter_Mon4_old
+ "CFE_Elliott_winterMon_060": renamed CFE_Elliott_winter_Mon4_060
+ "CFE_Elliott_winterMon_061": renamed CFE_Elliott_winter_Mon4_061
+ "CFE_Elliott_winterMon_062": renamed CFE_Elliott_winter_Mon4_062
+ "CFE_Elliott_winterMon_063": renamed CFE_Elliott_winter_Mon4_063
+ "CFE_Emily_summerThu4": Thu_ instances became summer_Thu4_: summer_Thu4_old, summer_Thu4_040, summer_Thu4_041, summer_Thu4_042
+ "CFE_Emily_summerThu_old": renamed CFE_Emily_summer_Thu4_old
+ "CFE_Emily_Thu_040": renamed CFE_Emily_summer_Thu4_040
+ "CFE_Emily_Thu_041": renamed CFE_Emily_summer_Thu4_041
+ "CFE_Emily_Thu_042": renamed CFE_Emily_summer_Thu4_042
+ "CFE_Gus_Mon8": instances of Mon_ became Mon8_: Mon8_old Mon8_010 Mon8_011
+ "CFE_Gus_Mon8.DSV.TurkishGus": instances of Mon_ became Mon8_: Mon8_old Mon8_010 Mon8_011
+ "CFE_Gus_Mon_old": renamed CFE_Gus_Mon8_old
+ "CFE_Gus_Mon_010": renamed CFE_Gus_Mon8_010
+ "CFE_Gus_Mon_011": renamed CFE_Gus_Mon8_011
+ "CFE_Haley_Sat2": Sat_ instances became Sat2_: Sat2_old, Sat2_070 ,Sat2_070, Sat2_072, Sat2_073
+ "CFE_Haley_Sat2_GN": Sat_ instances became Sat2_: Sat2_old, Sat2_070 ,Sat2_070, Sat2_072, Sat2_073 
+ "CFE_Haley_Sat_old": renamed CFE_Haley_Sat2_old
+ "CFE_Haley_Sat_070": renamed CFE_Haley_Sat2_070
+ "CFE_Haley_Sat_072": renamed CFE_Haley_Sat2_072
+ "CFE_Haley_Sat_073": renamed CFE_Haley_Sat2_073
+ "CFE_Harvey_Mon2": Mon_ instances became Mon2_: Mon2_old, Mon2_080, Mon2_081, Mon2_082, Mon2_083
+ "CFE_Harvey_Mon_old": renamed CFE_Harvey_Mon2_old
+ "CFE_Harvey_Mon_080": renamed CFE_Harvey_Mon2_080
+ "CFE_Harvey_Mon_081": renamed CFE_Harvey_Mon2_081
+ "CFE_Harvey_Mon_082": renamed CFE_Harvey_Mon2_082
+ "CFE_Harvey_Mon_083": renamed CFE_Harvey_Mon2_083
+ "CFE_Kent_Tue10": instances of Tue_ became Tue10_: Tue10_old, Tue10_018, Tue10_019
+ "CFE_Kent_Tue_old": renamed CFE_Kent_Tue10_old
+ "CFE_Kent_Tue_018": renamed CFE_Kent_Tue10_018
+ "CFE_Kent_Tue_019": renamed CFE_Kent_Tue10_019
+ "CFE_Kent_Tue_019.DSV.NoMoreWar": renamed CFE_Kent_Tue10_019.DSV.NoMoreWar
+ "CFE_Leah_Wed8": Wed_ instances became Wed8_: Wed8_old, Wed8_225, Wed8_226
+ "CFE_Leah_Wed_old": renamed CFE_Leah_Wed8_old
+ "CFE_Leah_Wed_225": renamed CFE_Leah_Wed8_225
+ "CFE_Leah_Wed_226": renamed CFE_Leah_Wed8_226
+ "CFE_Lewis_summerMon4": summer_Mon instances became summer_Mon4: summer_Mon4_old, summer_Mon4_007, summer_Mon4_007, summer_Mon4_008, summer_Mon4_008
+ "CFE_Lewis_summer_Mon_old": renamed CFE_Lewis_summer_Mon4_old
+ "CFE_Lewis_summer_Mon4_007": renamed CFE_Lewis_summer_Mon4_007
+ "CFE_Lewis_summer_Mon4_008":  renamed CFE_Lewis_summer_Mon4_008
+ "CFE_Penny_Mon4": Mon_ instances became Mon4: Mon4_old, Mon4_237, Mon4_238
+ "CFE_Penny_Mon_old": renamed CFE_Penny_Mon4_old
+ "CFE_Penny_Mon_237": renamed CFE_Penny_Mon4_237
+ "CFE_Penny_Mon_238": renamed CFE_Penny_Mon4_238
+ "CFE_Shane_Sat10": Sat_ instances became Sat10_: Sat10_old, Sat10_530, Sat10_531, Sat10_531, Sat10_532
+ "CFE_Shane_Sat_old": renamed CFE_Shane_Sat10_old
+ "CFE_Shane_Sat_530": renamed CFE_Shane_Sat10_530
+ "CFE_Shane_Sat_531": renamed CFE_Shane_Sat10_531
+ "CFE_Shane_Sat_532": renamed CFE_Shane_Sat10_532
+ "CFE_SpiritsEve_Vincent": added "?" to the end of the sentence
+ 
+
 VERSION 3.0.3 DEFAULT.JSON CHANGES
-CFE_Caroline_Mon6: fixed a $ error
-CFE_Caroline_Mon6.DSV.NonbinaryAbigail: fixed a $ error
-CFE_Demetrius_Tue6: fixed a $ error
-CFE_Elliott_winterMon4: winterMon_old became winter_Mon_old
-CFE_Elliott_Married_IndoorNight_6: removed an extra #
-CFE_Harvey_rainy_3: "it" changed to "at"
-CFE_Sam_Tigerseye: renamed CFE_Sam_TigersEye
-CFE_Wizard_PurpleMushroom: "elixer" became "elixir"
-CFE_WinterStar_Emily: an extra $h removed
+ CFE_Caroline_Mon6: fixed a $ error
+ CFE_Caroline_Mon6.DSV.NonbinaryAbigail: fixed a $ error
+ CFE_Demetrius_Tue6: fixed a $ error
+ CFE_Elliott_winterMon4: winterMon_old became winter_Mon_old
+ CFE_Elliott_Married_IndoorNight_6: removed an extra #
+ CFE_Harvey_rainy_3: "it" changed to "at"
+ CFE_Sam_Tigerseye: renamed CFE_Sam_TigersEye
+ CFE_Wizard_PurpleMushroom: "elixer" became "elixir"
+ CFE_WinterStar_Emily: an extra $h removed
 
 VERSION 3.0.2 DEFAULT.JSON CHANGES
-CFE_Jodi_Mon2: renamed CFE_Jodi_Mon2y1
-CFE_Jodi_Mon2y2: added!
+ CFE_Jodi_Mon2: renamed CFE_Jodi_Mon2y1
+ CFE_Jodi_Mon2y2: added!
 
 VERSION 3.0.1 DEFAULT.JSON CHANGES
-CFE_Elliott_Mon_060 : renamed CFE_Elliott_winterMon_060
-CFE_Elliott_Mon_061: renamed CFE_Elliott_winterMon_061
-CFE_Elliott_Mon_062: renamed CFE_Elliott_winterMon_062
-CFE_Elliott_Mon_063: renamed CFE_Elliott_winterMon_063
-CFE_Harvey_Tue2.DSV.ModdedSikhHarvey: renamed CFE_Harvey_Tue2.DSV.ModdedHarvey
-CFE_Penny_Married_spring13: renamed CFE_Penny_Married_spring12
-CFE_Sandy_fall_Fri4: renamed CFE_Sandy_fallFri4
+ CFE_Elliott_Mon_060 : renamed CFE_Elliott_winterMon_060
+ CFE_Elliott_Mon_061: renamed CFE_Elliott_winterMon_061
+ CFE_Elliott_Mon_062: renamed CFE_Elliott_winterMon_062
+ CFE_Elliott_Mon_063: renamed CFE_Elliott_winterMon_063
+ CFE_Harvey_Tue2.DSV.ModdedSikhHarvey: renamed CFE_Harvey_Tue2.DSV.ModdedHarvey
+ CFE_Penny_Married_spring13: renamed CFE_Penny_Married_spring12
+ CFE_Sandy_fall_Fri4: renamed CFE_Sandy_fallFri4
 
-
+VERSION 3.0.0 DEFAULT.JSON NOTES
 A suite of Gender Neutrality Mod Tokens compatible lines! Search "_GN" in the default to find these new or adapted lines.
 
 -Abigail-

@@ -90,9 +90,9 @@
 
         "Mon10": "{{i18n: CFE_Gus_Mon10}}",
         "Mon8": "{{i18n: CFE_Gus_Mon8}}",
-        "Mon_old": "{{i18n: CFE_Gus_Mon_old}}",
-        "Mon_010": "{{i18n: CFE_Gus_Mon_010}}",
-        "Mon_011": "{{i18n: CFE_Gus_Mon_011}}",
+        "Mon8_old": "{{i18n: CFE_Gus_Mon8_old}}",
+        "Mon8_010": "{{i18n: CFE_Gus_Mon8_010}}",
+        "Mon8_011": "{{i18n: CFE_Gus_Mon8_011}}",
         "Mon6": "{{i18n: CFE_Gus_Mon6}}",
         "Mon4": "{{i18n: CFE_Gus_Mon4}}",
         "Mon2": "{{i18n: CFE_Gus_Mon2}}",

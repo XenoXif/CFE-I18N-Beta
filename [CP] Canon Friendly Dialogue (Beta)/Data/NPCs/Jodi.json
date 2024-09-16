@@ -136,7 +136,7 @@
         "summer_Fri": "{{i18n: CFE_Jodi_summerFri}}",
         "fall_Fri": "{{i18n: CFE_Jodi_fallFri}}",
         "Tue": "{{i18n: CFE_Jodi_Tue}}",
-        "Sun": "{{i18n: CFE_Jodi_Suny1}}",
+        "Sun_1": "{{i18n: CFE_Jodi_Suny1}}",
         "Sun_old": "{{i18n: CFE_Jodi_Sun_old}}",
         "Sun_116": "{{i18n: CFE_Jodi_Sun_116}}",
         "Sun_117": "{{i18n: CFE_Jodi_Sun_117}}",

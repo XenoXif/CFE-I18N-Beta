@@ -110,6 +110,10 @@
         "fall_Sat8": "{{i18n: CFE_Abigail_repeated_2}}",
         "fall_Sat6": "{{i18n: CFE_Abigail_fallSat6}}",
         "fall_Sun8": "{{i18n: CFE_Abigail_fallSun8}}",
+        "fall_Sun8_old": "{{i18n: CFE_Abigail_fall_Sun8_old}}",
+        "fall_Sun8_27": "{{i18n: CFE_Abigail_fall_Sun8_27}}",
+        "fall_Sun8_28": "{{i18n: CFE_Abigail_fall_Sun8_28}}",
+        "fall_Sun8_WildColor": "{{i18n: CFE_Abigail_fall_Sun8_WildColor}}",
         "fall_Sun6": "{{i18n: CFE_Abigail_fallSun6}}",
 
         "winter_Mon8": "{{i18n: CFE_Abigail_winterMon8}}",

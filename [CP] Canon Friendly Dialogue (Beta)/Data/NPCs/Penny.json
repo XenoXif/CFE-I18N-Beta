@@ -117,9 +117,9 @@
 
         "Mon6": "{{i18n: CFE_Penny_Mon6}}",
         "Mon4": "{{i18n: CFE_Penny_Mon4}}",
-        "Mon_old": "{{i18n: CFE_Penny_Mon_old}}",
-        "Mon_237": "{{i18n: CFE_Penny_Mon_237}}",
-        "Mon_238": "{{i18n: CFE_Penny_Mon_238}}",
+        "Mon4_old": "{{i18n: CFE_Penny_Mon4_old}}",
+        "Mon4_237": "{{i18n: CFE_Penny_Mon4_237}}",
+        "Mon4_238": "{{i18n: CFE_Penny_Mon4_238}}",
         "Mon2": "{{i18n: CFE_Penny_Mon2}}",
         "Tue8": "{{i18n: CFE_Penny_Tue8}}",
         "Tue6": "{{i18n: CFE_Penny_Tue6}}",
