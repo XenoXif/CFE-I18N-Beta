@@ -158,7 +158,7 @@
     {
       "LogName": "CFE_Sebastian_Married",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriedDialogueSebastian",
+      "Target": "Characters/Dialogue/MarriageDialogueSebastian",
       "Entries": {
         //Weather Specific Dialogue
         "Rainy_Day_0": "{{i18n: CFE_Sebastian_Married_RainyDay_{{Random: 1,2}}}}",
