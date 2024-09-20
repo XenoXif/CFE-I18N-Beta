@@ -241,7 +241,7 @@
         "fall_16": "{{i18n: CFE_Penny_Married_fall16}}",
         "fall_19": "{{i18n: CFE_Penny_Married_fall19}}",
 
-        "winter_5": "{{i18n: CFE_Penny_Married_winter1}}",
+        "winter_5": "{{i18n: CFE_Penny_Married_winter5}}",
         "winter_6": null, //intentionally nulled
         "winter_9": "{{i18n: CFE_Penny_Married_winter9}}",
         "winter_12": "{{i18n: CFE_Penny_Married_winter12}}",
