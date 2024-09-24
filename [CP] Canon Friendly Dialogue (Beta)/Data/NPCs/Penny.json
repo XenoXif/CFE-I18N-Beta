@@ -180,8 +180,8 @@
         "Rainy_Night_0": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 1,2}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
         "Rainy_Night_1": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 3,4}}}}",
         "Rainy_Night_2": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 5,6}}}}",
-        "Rainy_Night_3": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 7,8}}}}",
-        "Rainy_Night_4": "{{i18n: CFE_Penny_Married_RainyDay_{{Random: 9,10}}}}",
+        "Rainy_Night_3": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 7,8}}}}",
+        "Rainy_Night_4": "{{i18n: CFE_Penny_Married_RainyNight_{{Random: 9,10}}}}",
 
         "Indoor_Day_0": "{{i18n: CFE_Penny_Married_IndoorDay_{{Random: 1,2,3}}}}",
         "Indoor_Day_1": "{{i18n: CFE_Penny_Married_IndoorDay_{{Random: 4,5,6}}}}",
