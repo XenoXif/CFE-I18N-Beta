@@ -10,15 +10,29 @@ https://stardewvalleywiki.com/Modding:Translations
 **Do not translate anything inside {{braces}}, and be careful when translating questions that you don't translate any of the question code! 
 **Example:   "CFE_Abigail_fallSun8": "[Hmm... what should I do tonight?]#$q 27/28 fall_Sun_old#[I was thinking about dyeing my hair again... what do you think?]#$r 27 10 Sun_27#[Dye it black.]#$r 27 10 Sun_27#[Why not blonde?]#$r 27 20 Sun_WildColor#[How about bubblegum pink?]#$r 28 0 Sun_28#[I like your hair just the way it is!]", only translate the portions shown in [brackets] above, and not anything that looks like this: {{GenericNoun}} 
 
+
+**EVEN IF YOUR LANGUAGE IS NOT AVAILABLE FOR MODS LIKE DIVERSE STARDEW VALLEY OR GENDER NEUTRALITY MOD TOKENS, PLEASE DO NOT REMOVE THOSE i18n KEYS FROM YOUR i18n.json FILE. THIS WILL CAUSE ERRORS FOR USERS USING YOUR TRANSLATION ALONGSIDE THOSE OTHER MODS. BILINGUAL USERS HAVE REPORTED MULTIPLE BUGS OF THIS NATURE TO US. LEAVE THEM IN, IF NECESSARY THEY CAN REMAIN IN ENGLISH.
+
+
 How to upload your translation:
 **Publish your i18n file alone, please do not publish the full mod/Data files! Players will drag and drop your i18n file, with your language's i18n.json inside, into CFE's i18n folder. You can also reach out to Gizzymo to include your file in the base mod, and we will mention you as a translator in our credits! We encourage you to upload the file itself though so that you can get DP and manage bugs or translation errors directly. 
 
+
 List of changes made to keys used in this update:
-exact duplicates from the vanilla code have been removed across all files!
-it has been hard to track what all codes have changed, but if you had to patch the exact same line for vanilla and for Canon Friendly, that should no longer be true!
+-exact duplicates from the vanilla code have been removed across all files!
+-some other keys may have been removed or added over the course of the beta of this update, but most should not be problematic for your compatibility updates. if you are unsure about a change, feel free to ask WitchWeed on Nexus or Discord.
 
 list of new lines added (or edited) by this update:
 
+[Stable updates]
+VERSION 3.0.5 DEFAULT.JSON CHANGES
+no changes were made to the default.json between updates! all translations should remain up to date with the stable release of this mod.
+
+please ensure you have included ALL i18n tokens in your translation, even if they correspond to mods that are not translated for your language. this prevents errrors for users who are bilingual or choose to use those mods without a translation. you can leave those lines in english if they are hard to translate into your language because of syntax or cultural differences, and warn in your mod description that those lines are untranslated. Please do not translate these lines and remove their intended edits. 
+
+ie: it would be inappropritate to translate "_gn" lines to re-add gendered language, or ".dsv" lines to remove Alex's grandparents' ethnicity. We understand localization and translation are complex, and gender is different across languages and cultures, so instead of removing inclusivity for multilingual players who want gender neutrality compatibility, please just leave those lines in english if you cannot effectively translate them into your own language. The intentional removal of lgbt+ or cultural diversity themes from the dialogue are not permittable- these edits are few and far between, and retain the canon-esq, family friendly nature of this mod. 
+
+[Beta updates]
 VERSION 3.0.4 DEFAULT.JSON CHANGES
 **this update fixes some persistent bugs with question code, please be careful to update accurately to minimize bugs!**
 
@@ -106,6 +120,7 @@ VERSION 3.0.1 DEFAULT.JSON CHANGES
 
 VERSION 3.0.0 DEFAULT.JSON NOTES
 A suite of Gender Neutrality Mod Tokens compatible lines! Search "_GN" in the default to find these new or adapted lines.
+A suite of Diverse Stardew Valley compatible lines! Search ".DSV" in the default to find these new or adapted lines.
 
 -Abigail-
 CFE_Abigail_rainy_3
