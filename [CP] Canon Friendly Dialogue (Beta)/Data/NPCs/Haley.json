@@ -21,7 +21,7 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Haley_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Haley_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Haley_RabbitsFoot}}",
-        "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}",
+        "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}"
       },
       "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

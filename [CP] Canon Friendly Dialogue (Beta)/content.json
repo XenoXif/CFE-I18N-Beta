@@ -496,7 +496,7 @@
       "LogName": "CFE_Leah_Include",
       "Action": "Include",
       "FromFile": "Data/NPCs/Leah.json",
-      "When": { "CFE_Caroline |contains= false": false }
+      "When": { "CFE_Leah |contains= false": false }
     },
     {
       "LogName": "CFE_Leo_Include",
