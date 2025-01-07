@@ -15,6 +15,25 @@
       }
     },
     {
+      "LogName": "CFE_Penny_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Penny",
+      "Entries": {
+        "AcceptGift_(O)72": "{{i18n: CFE_Penny_Diamond}}",
+        "AcceptGift_(O)651": "{{i18n: CFE_Penny_PoppyseedMuffin}}",
+        "AcceptGift_(O)376": "{{i18n: CFE_Penny_Poppy}}",
+        "AcceptGift_(O)230": "{{i18n: CFE_Penny_RedPlate}}",
+        "AcceptGift_(O)244": "{{i18n: CFE_Penny_RootsPlatter}}",
+        "AcceptGift_(O)218": "{{i18n: CFE_Penny_TomKhaSoup}}",
+        "AcceptGift_(O)254": "{{i18n: CFE_Penny_Melon}}"
+
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
       "LogName": "CFE_Penny_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Penny",
@@ -22,14 +41,7 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Penny_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Penny_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Penny_PrismaticShard}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Penny_Diamond}}",
-        "AcceptGift_(O)254": "{{i18n: CFE_Penny_Melon}}",
-        "AcceptGift_(O)376": "{{i18n: CFE_Penny_Poppy}}",
-        "AcceptGift_(O)651": "{{i18n: CFE_Penny_PoppyseedMuffin}}",
-        "AcceptGift_(O)230": "{{i18n: CFE_Penny_RedPlate}}",
-        "AcceptGift_(O)244": "{{i18n: CFE_Penny_RootsPlatter}}",
         "AcceptGift_(O)873": "{{i18n: CFE_Penny_Sandfish}}",
-        "AcceptGift_(O)218": "{{i18n: CFE_Penny_TomKhaSoup}}"
       },
       "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

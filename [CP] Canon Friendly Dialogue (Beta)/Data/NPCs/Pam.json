@@ -5,16 +5,39 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pam",
       "Entries": {
-        //any keys that overlap go here
-        "AcceptGift_(O)346": "{{i18n: CFE_Pam_Beer}}",
-        "AcceptGift_(O)459": "{{i18n: CFE_Pam_Mead}}",
-        "AcceptGift_(O)303": "{{i18n: CFE_Pam_PaleAle}}",
         "AcceptGift_(O)24": "{{i18n: CFE_Pam_Parsnip}}",
         "AcceptGift_(O)199": "{{i18n: CFE_Pam_ParsnipSoup}}",
-        "AcceptGift_(O)873": "{{i18n: CFE_Pam_PinaColada}}"
+        "AcceptGift_(O)90": "{{i18n: CFE_Pam_CactusFruit}}"
       },
       "When": {
         "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
+      "LogName": "CFE_Pam_Compat.UGDE",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
+        "AcceptGift_(O)346": "{{i18n: CFE_Pam_Beer}}",
+        "AcceptGift_(O)459": "{{i18n: CFE_Pam_Mead}}",
+        "AcceptGift_(O)303": "{{i18n: CFE_Pam_PaleAle}}",
+        "AcceptGift_(O)873": "{{i18n: CFE_Pam_PinaColada}}"
+      },
+      "When": {
+        "ModdedDialogCompat.UGDE": "true",
+        "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
+      "LogName": "CFE_Pam_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
+        "AcceptGift_(O)208": "{{i18n: CFE_Pam_GlazedYams}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
         "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
       }
     },
@@ -26,9 +49,7 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Pam_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Pam_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Pam_Pearl}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Pam_RabbitsFoot}}",
-        "AcceptGift_(O)90": "{{i18n: CFE_Pam_CactusFruit}}",
-        "AcceptGift_(O)208": "{{i18n: CFE_Pam_GlazedYams}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Pam_RabbitsFoot}}"
       },
       "When": { "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

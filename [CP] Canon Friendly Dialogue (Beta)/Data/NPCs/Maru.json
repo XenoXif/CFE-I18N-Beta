@@ -1,14 +1,23 @@
 {
   "Changes": [
-    /*{
-      "LogName": "CFE_Maru_Compat",
+    {
+      "LogName": "CFE_Maru_Compat.MSGR",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Maru",
       "Entries": {
-        //any keys that overlap go here
+        "AcceptGift_(O)72": "{{i18n: CFE_Maru_Diamond}}",
+        "AcceptGift_(O)190": "{{i18n: CFE_Maru_Cauliflower}}",
+        "AcceptGift_(O)197": "{{i18n: CFE_Maru_CheeseCauliflower}}",
+        "AcceptGift_(O)243": "{{i18n: CFE_Maru_MinersTreat}}",
+        "AcceptGift_(O)215": "{{i18n: CFE_Maru_PepperPoppers}}",
+        "AcceptGift_(O)222": "{{i18n: CFE_Maru_RhubarbPie}}",
+        "AcceptGift_(O)400": "{{i18n: CFE_Maru_Strawberry}}"
       },
-      "When": { "ModdedDialogCompat": "true",  "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
-    }, */
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
     {
       "LogName": "CFE_Maru_GiftTastes",
       "Action": "EditData",
@@ -18,14 +27,6 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Maru_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Maru_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Maru_PrismaticShard}}",
-
-        "AcceptGift_(O)72": "{{i18n: CFE_Maru_Diamond}}",
-        "AcceptGift_(O)190": "{{i18n: CFE_Maru_Cauliflower}}",
-        "AcceptGift_(O)197": "{{i18n: CFE_Maru_CheeseCauliflower}}",
-        "AcceptGift_(O)243": "{{i18n: CFE_Maru_MinersTreat}}",
-        "AcceptGift_(O)215": "{{i18n: CFE_Maru_PepperPoppers}}",
-        "AcceptGift_(O)222": "{{i18n: CFE_Maru_RhubarbPie}}",
-        "AcceptGift_(O)400": "{{i18n: CFE_Maru_Strawberry}}"
       },
       "When": { "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

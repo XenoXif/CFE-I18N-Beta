@@ -14,13 +14,20 @@
       }
     },
     {
-      "LogName": "CFE_Leah_Rainy",
+      "LogName": "CFE_Leah_Compat.MSGR",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
+      "Target": "Characters/Dialogue/Leah",
       "Entries": {
-        "Leah": "{{i18n: CFE_Leah_rainy_{{random: 1,2,3}}}}"
+        //any keys that overlap go here
+        "AcceptGift_(O)426": "{{i18n: CFE_Leah_GoatCheese}}",
+        "AcceptGift_(O)651": "{{i18n: CFE_Leah_PoppyseedMuffin}}",
+        "AcceptGift_(O)606": "{{i18n: CFE_Leah_StirFry}}"
+
       },
-      "When": { "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Leah_GiftTastes",
@@ -30,11 +37,16 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Leah_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Leah_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Leah_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Leah_RabbitsFoot}}",
-
-        "AcceptGift_(O)426": "{{i18n: CFE_Leah_GoatCheese}}",
-        "AcceptGift_(O)651": "{{i18n: CFE_Leah_PoppyseedMuffin}}",
-        "AcceptGift_(O)606": "{{i18n: CFE_Leah_StirFry}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Leah_RabbitsFoot}}"
+      },
+      "When": { "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+    },
+    {
+      "LogName": "CFE_Leah_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Leah": "{{i18n: CFE_Leah_rainy_{{random: 1,2,3}}}}"
       },
       "When": { "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

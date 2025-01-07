@@ -184,6 +184,7 @@
   },
 
   "DynamicTokens": [
+    //Tokens for Gift Dialogue Compat
     {
       "Name": "ModdedDialogCompat",
       "Value": "true" //generally my content should be applied
@@ -192,13 +193,62 @@
       "Name": "ModdedDialogCompat",
       "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
       "When": {
-        "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded": "true" //add new mods UniqueIDs here after a comma to include them in intentional key compat
+        "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded, unfeldspar.More_Specific_Gift_Reaction-Dialogue_Expansion-eng, Kaori_Haruta.More_Specific_Gift_Reaction-Dialoge_Expansion-zh": "true" //add new mods to this list when randomized compat is needed on our side
       }
     },
+    //Unique Gift Dialogue Compat
+    {
+      "Name": "ModdedDialogCompat.UGDE",
+      "Value": "true" //generally my content should be applied
+    },
+    {
+      "Name": "ModdedDialogCompat.UGDE",
+      "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
+      "When": {
+        "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded": "true" //use this token option when only UGDE needs accounting for
+      }
+    },
+    //More Specific Gift Reactions Compat
+    {
+      "Name": "ModdedDialogCompat.MSGR",
+      "Value": "true" //generally my content should be applied
+    },
+    {
+      "Name": "ModdedDialogCompat.MSGR",
+      "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
+      "When": {
+        "HasMod |contains= unfeldspar.More_Specific_Gift_Reaction-Dialogue_Expansion-eng, Kaori_Haruta.More_Specific_Gift_Reaction-Dialoge_Expansion-zh": "true" //use this token option when only MSGR needs accounting for
+      }
+    },
+    //Festival Compat
     {
       "Name": "SyncedRandom",
       "Value": "{{Random: True, False |key=CFE_SyncedRandom}}" //used for syncing edits to CFE's festival dialogue. Other mods can also sync any compatibility edits in their own code by copying this token and key and including it in their content.json
     },
+    //Feast of the Sun compat
+    {
+      "Name": "ShortLuauName",
+      "Value": "{{i18n:CFE_FotSCompat_VanillaLuauName}}"
+    },
+    {
+      "Name": "ShortLuauName",
+      "Value": "{{i18n:CFE_FotSCompat_ShortLuauName}}",
+      "When": {
+        "HasMod |contains= KaileyStardew.FeastOfTheSun": "true"
+      }
+    },
+    {
+      "Name": "LongLuauName",
+      "Value": "{{i18n:CFE_FotSCompat_VanillaLuauName}}"
+    },
+    {
+      "Name": "LongLuauName",
+      "Value": "{{i18n:CFE_FotSCompat_LongLuauName}}",
+      "When": {
+        "HasMod |contains= KaileyStardew.FeastOfTheSun": "true"
+      }
+    },
+    //DSV compat
     {
       "Name": "AlexGrandmaToken",
       "Value": "{{i18n:AlexGrandmaToken.Default}}"
@@ -206,8 +256,7 @@
     {
       "Name": "AlexGrandmaToken",
       "Value": "{{i18n:AlexGrandmaToken.Jewish}}",
-      "When": 
-      {
+      "When": {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:JewishMullners": "true"
       }
@@ -215,8 +264,7 @@
     {
       "Name": "AlexGrandmaToken",
       "Value": "{{i18n:AlexGrandmaToken.Mexican}}",
-      "When": 
-      {
+      "When": {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:EvelynVariant": "Mexican"
       }
@@ -224,8 +272,7 @@
     {
       "Name": "AlexGrandmaToken",
       "Value": "{{i18n:AlexGrandmaToken.Samoan}}",
-      "When": 
-      {
+      "When": {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:EvelynVariant": "Samoan"
       }
@@ -237,8 +284,7 @@
     {
       "Name": "AlexGrandpaToken",
       "Value": "{{i18n:AlexGrandpaToken.Jewish}}",
-      "When": 
-      {
+      "When": {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:JewishMullners": "true"
       }
@@ -246,8 +292,7 @@
     {
       "Name": "AlexGrandpaToken",
       "Value": "{{i18n:AlexGrandpaToken.Mexican}}",
-      "When": 
-      {
+      "When": {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:GeorgeVariant": "Mexican"
       }
@@ -255,12 +300,12 @@
     {
       "Name": "AlexGrandpaToken",
       "Value": "{{i18n:AlexGrandpaToken.Samoan}}",
-      "When": 
-      {
+      "When": {
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:GeorgeVariant": "Samoan"
       }
     },
+    //Gender Neutrality Tokens Compat
     {
       "Name": "GenderNeutralCompat",
       "Value": ""
@@ -383,6 +428,7 @@
       "When": { "HasMod": "Hana.GNMTokens" }
     }
   ],
+
   "Changes": [
     {
       "LogName": "CFE_Abigail_Include",

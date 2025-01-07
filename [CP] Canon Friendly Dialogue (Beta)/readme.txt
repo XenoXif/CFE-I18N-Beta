@@ -25,6 +25,30 @@ List of changes made to keys used in this update:
 list of new lines added (or edited) by this update:
 
 [Stable updates]
+VERSION 3.0.6 DEFAULT.JSON CHANGES
+added feast of the sun compat via dynamic token. 
+  "CFE_Abigail_summer10": "Everyone's excited for the {{ShortLuauName}} tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+  "CFE_Emily_summer10": "Hey, look for me tomorrow at the {{LongLuauName}}. I'll greet you, but probably not in the way you're used to.",
+  "CFE_Evelyn_summer10": "Mayor Lewis always gets so nervous for the {{LongLuauName}}. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
+  "CFE_Gus_summer10": "I've got some good dishes prepped for the {{ShortLuauName}} tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
+  "CFE_Haley_summer12": "Did you see Emily yesterday at the {{ShortLuauName}}? So ridiculous.$11",
+  "CFE_Haley_Married_summer12": "I like dancing, but when Emily does her thing at the {{ShortLuauName}}, it's actually more fun for me just to watch.",
+  "CFE_Haley_Married_summer12.DSV.NonbinaryEmily": "I like dancing, but when Emily does his thing at the {{ShortLuauName}}, it's actually more fun for me just to watch.",
+  "CFE_Harvey_summer10": "I really hope nobody gets sick from the communal soup at tomorrow's {{ShortLuauName}}.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
+  "CFE_Lewis_summer10": "I didn't sleep much last night. The {{LongLuauName}} is always the most stressful festival of the year for me.#$e#Don't let that get in the way of you having a good time, though!$h",
+  "CFE_Lewis_summer28": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the {{LongLuauName}} earlier this month.",
+  "CFE_Linus_summer10": "I think I might take a risk tomorrow at the {{ShortLuauName}} and share a little of my cooking.",
+  "CFE_Penny_summer10": "Mmm... I can already almost taste the food at tomorrow's {{ShortLuauName}}.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
+  "CFE_Luau_George": "I liked the {{LongLuauName}} better, back when we didn't have those big electronic speakers ruining the atmosphere of the beach.#$e#This was... oh, twenty, twenty-five years ago.",
+  "CFE_Luau_Robin_y2": "Oh, hi @! It wouldn't be a proper {{LongLuauName}} without a little dancing, would it?$1",
+  "CFE_Luau_Pierre_y2": "If we ever get a storm on {{ShortLuauName}} day, we could always host the Governor in my store.#$e#...What? I could make it work.",
+  "CFE_Luau_Elliott_y2": "I didn't forget about the {{LongLuauName}} this year!$1#$e#Well, Leah reminded me, anyway. That helped.",
+  
+//NEW i18n lines
+  "CFE_FotSCompat_ShortLuauName": "Feast",
+  "CFE_FotSCompat_LongLuauName": "Feast of the Sun",
+  "CFE_FotSCompat_VanillaLuauName": "Luau",
+
 VERSION 3.0.5 DEFAULT.JSON CHANGES
 no changes were made to the default.json between updates! all translations should remain up to date with the stable release of this mod.
 

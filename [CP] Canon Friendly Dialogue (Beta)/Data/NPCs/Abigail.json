@@ -15,6 +15,22 @@
       }
     },
     {
+      "LogName": "CFE_Abigail_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "AcceptGift_(O)904": "{{i18n: CFE_Abigail_BananaPudding}}",
+        "AcceptGift_(O)611": "{{i18n: CFE_Abigail_BlackberryCobbler}}",
+        "AcceptGift_(O)220": "{{i18n: CFE_Abigail_ChocolateCake{{GenderNeutralCompat}} |AdultInformalNoun={{lowercase:{{Random:{{GNMTAdultInformalNoun}}}}}}}}",
+        "AcceptGift_(O)226": "{{i18n: CFE_Abigail_SpicyEel}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+
+    {
       "LogName": "CFE_Abigail_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
@@ -24,10 +40,6 @@
         "AcceptGift_(O)74": "{{i18n: CFE_Abigail_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Abigail_RabbitsFoot}}",
 
-        "AcceptGift_(O)904": "{{i18n: CFE_Abigail_BananaPudding}}",
-        "AcceptGift_(O)611": "{{i18n: CFE_Abigail_BlackberryCobbler}}",
-        "AcceptGift_(O)220": "{{i18n: CFE_Abigail_ChocolateCake{{GenderNeutralCompat}} |AdultInformalNoun={{lowercase:{{Random:{{GNMTAdultInformalNoun}}}}}}}}",
-        "AcceptGift_(O)226": "{{i18n: CFE_Abigail_SpicyEel}}"
       },
       "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

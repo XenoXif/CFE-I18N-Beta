@@ -6,10 +6,26 @@
       "Target": "Characters/Dialogue/Vincent",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)221": "{{i18n: CFE_Vincent_PinkCake}}"
+        "AcceptGift_(O)221": "{{i18n: CFE_Vincent_PinkCake}}",
+        "AcceptGift_(O)398": "{{i18n: CFE_Vincent_Grape{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}"
       },
       "When": {
         "ModdedDialogCompat": "true",
+        "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
+      "LogName": "CFE_Vincent_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)612": "{{i18n: CFE_Vincent_CranberryCandy}}",
+        "AcceptGift_(O)903": "{{i18n: CFE_Vincent_GingerAle}}",
+        "AcceptGift_(O)721": "{{i18n: CFE_Vincent_Snail}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
         "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
       }
     },
@@ -21,11 +37,7 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Vincent_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Vincent_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Vincent_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Vincent_PrismaticShard}}",
-        "AcceptGift_(O)612": "{{i18n: CFE_Vincent_CranberryCandy}}",
-        "AcceptGift_(O)903": "{{i18n: CFE_Vincent_GingerAle}}",
-        "AcceptGift_(O)398": "{{i18n: CFE_Vincent_Grape{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
-        "AcceptGift_(O)721": "{{i18n: CFE_Vincent_Snail}}"
+        "AcceptGift_(O)74": "{{i18n: CFE_Vincent_PrismaticShard}}"
       },
       "When": { "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

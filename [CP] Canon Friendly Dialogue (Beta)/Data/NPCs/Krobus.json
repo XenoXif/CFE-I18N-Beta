@@ -14,13 +14,19 @@
       }
     },
     {
-      "LogName": "CFE_Krobus_Rainy",
+      "LogName": "CFE_Krobus_Compat.MSGR",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
+      "Target": "Characters/Dialogue/Krobus",
       "Entries": {
-        "Krobus": "{{i18n: CFE_Krobus_rainy_{{random: 1,2,3}}}}"
+        "AcceptGift_(O)305": "{{i18n: CFE_Krobus_VoidEgg}}",
+        "AcceptGift_(O)72": "{{i18n: CFE_Krobus_Diamond}}",
+        "AcceptGift_(O)337": "{{i18n: CFE_Krobus_IridiumBar}}",
+        "AcceptGift_(O)276": "{{i18n: CFE_Krobus_Pumpkin}}"
       },
-      "When": { "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Krobus_GiftTastes",
@@ -30,12 +36,16 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Krobus_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Krobus_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Krobus_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Krobus_RabbitsFoot}}",
-
-        "AcceptGift_(O)305": "{{i18n: CFE_Krobus_VoidEgg}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Krobus_Diamond}}",
-        "AcceptGift_(O)337": "{{i18n: CFE_Krobus_IridiumBar}}",
-        "AcceptGift_(O)276": "{{i18n: CFE_Krobus_Pumpkin}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Krobus_RabbitsFoot}}"
+      },
+      "When": { "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+    },
+    {
+      "LogName": "CFE_Krobus_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Krobus": "{{i18n: CFE_Krobus_rainy_{{random: 1,2,3}}}}"
       },
       "When": { "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

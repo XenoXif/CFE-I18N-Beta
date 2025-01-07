@@ -14,6 +14,22 @@
       }
     },
     {
+      "LogName": "CFE_Evelyn_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Evelyn",
+      "Entries": {
+        "AcceptGift_(O)284": "{{i18n: CFE_Evelyn_Beet}}",
+        "AcceptGift_(O)220": "{{i18n: CFE_Evelyn_ChocolateCake}}",
+        "AcceptGift_(O)72": "{{i18n: CFE_Evelyn_Diamond}}",
+        "AcceptGift_(O)239": "{{i18n: CFE_Evelyn_Stuffing}}",
+        "AcceptGift_(O)591": "{{i18n: CFE_Evelyn_Tulip}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
       "LogName": "CFE_Evelyn_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Evelyn",
@@ -21,12 +37,7 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Evelyn_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Evelyn_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Evelyn_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Evelyn_RabbitsFoot}}",
-        "AcceptGift_(O)284": "{{i18n: CFE_Evelyn_Beet}}",
-        "AcceptGift_(O)220": "{{i18n: CFE_Evelyn_ChocolateCake}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Evelyn_Diamond}}",
-        "AcceptGift_(O)239": "{{i18n: CFE_Evelyn_Stuffing}}",
-        "AcceptGift_(O)591": "{{i18n: CFE_Evelyn_Tulip}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Evelyn_RabbitsFoot}}"
       },
       "When": { "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

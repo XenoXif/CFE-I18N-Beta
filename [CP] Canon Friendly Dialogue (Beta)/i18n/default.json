@@ -106,7 +106,7 @@
   "CFE_Abigail_spring12": "I'm definitely going to enter the egg hunt tomorrow. Are you?",
 
   "CFE_Abigail_summer6y1": "I went to the beach last night, after dark... Sometimes you can see strange lights bobbing over the sea.#$e#Or maybe that was just a dream I had... It doesn't feel real anymore.",
-  "CFE_Abigail_summer10": "Everyone's excited for the luau tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
+  "CFE_Abigail_summer10": "Everyone's excited for the {{ShortLuauName}} tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
   "CFE_Abigail_summer27": "You can't miss tomorrow's festival. It's one of the most beautiful wonders of the valley.",
 
   "CFE_Abigail_fall26y1": "Will I see you tomorrow at the Spirit's Eve festival? Look for me in the haunted maze.$h",
@@ -1278,7 +1278,7 @@
   //date specific dialogue
   "CFE_Emily_spring1y2": "Where will fate lead us this year? I'm eager to find out.$h",
   "CFE_Emily_spring23": "Who will I dance with tomorrow at the festival? Wherever my presence is needed the most, that's where I'll end up!",
-  "CFE_Emily_summer10": "Hey, look for me tomorrow at the luau. I'll greet you, but probably not in the way you're used to.",
+  "CFE_Emily_summer10": "Hey, look for me tomorrow at the {{LongLuauName}}. I'll greet you, but probably not in the way you're used to.",
   "CFE_Emily_summer27": "The moonlight jellies will be here soon. As people, we have so much we can learn from them.$l",
   "CFE_Emily_fall14": "I'm looking forward to the crowds at the fair in a couple of days. There will be so many interesting people to meet!",
   "CFE_Emily_fall26": "Gus has some pretty tasty treats that he's been prepping for Spirit's Eve. Be sure to say hi!",
@@ -1515,7 +1515,7 @@
   "CFE_Evelyn_spring1y2": "Well, a very fine day to you too, dearie! I hope your year is off to a nice start.$h",
   "CFE_Evelyn_spring21": "Looks like I need to get started on the flower arrangements for the dance next week.#$e#I hope you'll be there, dearie!$h",
   "CFE_Evelyn_spring23": "The flower arrangements for tomorrow's dance are all but finished. I hope Mayor Lewis will be pleased.#$e#And I hope you'll be pleased, too!$h",
-  "CFE_Evelyn_summer10": "Mayor Lewis always gets so nervous for the luau. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
+  "CFE_Evelyn_summer10": "Mayor Lewis always gets so nervous for the {{LongLuauName}}. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
   "CFE_Evelyn_winter7": "I'll gladly brave the cold for tomorrow's Ice Festival. That's an important one for me.#$e#I'll even drag George along with me, no matter what he says.$h",
   "CFE_Evelyn_winter1": "I had Alex hang up the old winter decorations this morning. I'd say he did a great job!",
   "CFE_Evelyn_winter28": "Best wishes in the new year, dearie. It's such a blessing to have you here in town.",
@@ -1687,7 +1687,7 @@
   //date specific dialogue
   "CFE_Gus_spring1y2": "I hope you were able to get up on time today! How's the start of the new year for you so far?$h",
   "CFE_Gus_spring12": "Boy howdy! I've been staying up late the past few nights, getting ready for the egg festival!#$e#Just wait till you see what I've prepared.",
-  "CFE_Gus_summer10": "I've got some good dishes prepped for the luau tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
+  "CFE_Gus_summer10": "I've got some good dishes prepped for the {{ShortLuauName}} tomorrow, but I try to steer clear of the communal soup.#$e#It's really a hit-and-miss tradition, and I'd rather play it safe when it comes to my reputation.$s",
   "CFE_Gus_fall15": "Gonna be at the fair tomorrow? Look for me up north. I'll be making burgers all day.",
   "CFE_Gus_fall26": "There's some pretty spooky stuff at the Spirit's Eve festival. Me? I'll just stick with hosting the buffet.",
   "CFE_Gus_winter24": "What's a good festival without some good food? *chuckle* I've saved all my best recipes for this feast, so don't go missin' it!$h",
@@ -1795,7 +1795,7 @@
 
   //date specific dialogue
   "CFE_Haley_spring1y2": "I think this year, I need to keep working on my photography.#$e#Any new year's resolutions for you?",
-  "CFE_Haley_summer12": "Did you see Emily yesterday at the luau? So ridiculous.$11",
+  "CFE_Haley_summer12": "Did you see Emily yesterday at the {{ShortLuauName}}? So ridiculous.$11",
   "CFE_Haley_fall1": "It's fall already?$s",
   "CFE_Haley_winter28": "Finally. I was thinking this cold weather would never end.#$e#Just have to wait for all this slush to finish melting.",
 
@@ -2018,8 +2018,8 @@
   "CFE_Haley_Married_spring28": "I hope we make some good memories this summer. What are you looking forward to?",
   "CFE_Haley_Married_summer6": "You know, one kind of funny thing about not spending every day with Alex anymore... I don't have to listen to him talk nonstop about sports.",
   "CFE_Haley_Married_summer8": "If you get too hot out there, why don't you come looking for me? We'll spend some time in the shade.",
-  "CFE_Haley_Married_summer12": "I like dancing, but when Emily does her thing at the luau, it's actually more fun for me just to watch.",
-  "CFE_Haley_Married_summer12.DSV.NonbinaryEmily": "I like dancing, but when Emily does his thing at the luau, it's actually more fun for me just to watch.",
+  "CFE_Haley_Married_summer12": "I like dancing, but when Emily does her thing at the {{ShortLuauName}}, it's actually more fun for me just to watch.",
+  "CFE_Haley_Married_summer12.DSV.NonbinaryEmily": "I like dancing, but when Emily does his thing at the {{ShortLuauName}}, it's actually more fun for me just to watch.",
   "CFE_Haley_Married_summer22": "Want me to wear anything sexy tonight?#$e#Hah, like that's even a question, right?$h",
   "CFE_Haley_Married_summer27": "The moonlight jellies are tomorrow night. Can we call it a date?",
   "CFE_Haley_Married_fall3": "Well, there we go! I just had to bake something to pull me out of the fall blues. Here, give it a try. [223 234 211 651 731]",
@@ -2059,7 +2059,7 @@
   "CFE_Harvey_spring1y2": "Happy new year, @!$h#$b#It's a great day for a fresh start.",
   "CFE_Harvey_spring12": "It's interesting how Pelican Town's first festival of the calendar year is also one of the more bizarre.#$e#Hey, that's not a complaint, though.$h",
   "CFE_Harvey_spring23": "My old med school colleagues wouldn't believe that I literally dance in front of my patients.#$e#Well, technically it's not a part of the job description. But in choosing to live here, it might as well be.$h",
-  "CFE_Harvey_summer10": "I really hope nobody gets sick from the communal soup at tomorrow's luau.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
+  "CFE_Harvey_summer10": "I really hope nobody gets sick from the communal soup at tomorrow's {{ShortLuauName}}.#$e#Potentially, it's a disaster waiting to happen. But this town sure loves its traditions.",
   "CFE_Harvey_winter7": "With everyone outside in the cold tomorrow? No, I'm not worried. No more than usual, anyway.#$e#The cold weather itself isn't what causes the illness. People should still bundle up, though.",
   "CFE_Harvey_winter28": "So... by the time this coming year ends, I'll be... how old? Hm.$s",
 
@@ -3086,8 +3086,8 @@
   "CFE_Lewis_spring12": "Did you get my letter about the Egg Festival? I sure hope you can make it!#$e#I've got some good ideas for hiding spots in the egg hunt. Just you wait.$h",
   "CFE_Lewis_spring14": "I think we've got all the hidden eggs from yesterday cleaned up.#$b#...Pretty sure, anyway.",
   "CFE_Lewis_spring23": "I sure hope the flower dance is a success again this year.#$e#Sometimes those old traditions die hard, though...$s",
-  "CFE_Lewis_summer10": "I didn't sleep much last night. The luau is always the most stressful festival of the year for me.#$e#Don't let that get in the way of you having a good time, though!$h",
-  "CFE_Lewis_summer28": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the luau earlier this month.",
+  "CFE_Lewis_summer10": "I didn't sleep much last night. The {{LongLuauName}} is always the most stressful festival of the year for me.#$e#Don't let that get in the way of you having a good time, though!$h",
+  "CFE_Lewis_summer28": "I think tonight's festival is my favorite because I don't have to worry about a thing. The moonlight jellies do all the work for me!$h#$e#It's a nice change of pace after the {{LongLuauName}} earlier this month.",
   "CFE_Lewis_fall15": "I take it you got my letter about the Stardew Valley Fair?#$b#This festival's my specialty. I'm sure it's going to go great.$h",
   "CFE_Lewis_fall28": "I'm not even sure how the town gets everything cleaned up after Spirit's Eve. Each year, I wake up expecting a mess, but it's like you'd never even know it happened.",
   "CFE_Lewis_winter1": "Well, winter is here! That means the townspeople will be spending most of their days indoors.#$e#At least you'll know where to find them!$h",
@@ -3174,7 +3174,7 @@
 
   //date specific dialogue
   "CFE_Linus_spring1y2": "Breathe in that spring air!$h#$b#The valley is coming to life.$h",
-  "CFE_Linus_summer10": "I think I might take a risk tomorrow at the luau and share a little of my cooking.",
+  "CFE_Linus_summer10": "I think I might take a risk tomorrow at the {{ShortLuauName}} and share a little of my cooking.",
   "CFE_Linus_winter15": "I caught a glimpse of the ships docking at the beach, from my view up on the mountain.#$e#Maybe I'll give them a look up close.",
   "CFE_Linus_winter28": "We made it.$h#$e#*chuckle*$h",
 
@@ -3721,7 +3721,7 @@
   "CFE_Penny_spring12": "We decorated a few eggs earlier this week in preparation for the egg festival.#$e#Are you going to be there, too?",
   "CFE_Penny_spring23": "I have pleasant memories of the flower dance.#$e#I imagine the dance would seem a little old-fashioned for a newcomer, but the steps are really easy to learn.",
 
-  "CFE_Penny_summer10": "Mmm... I can already almost taste the food at tomorrow's luau.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
+  "CFE_Penny_summer10": "Mmm... I can already almost taste the food at tomorrow's {{ShortLuauName}}.#$e#I just hope no one ruins the soup this year...$a#$e#That's one reason why I don't hang out with Sam as much as I used to.$a",
 
   "CFE_Penny_fall15": "I love the Stardew Valley fair.#$b#Those carnival games can be a little tough for the kids, though.#$e#Maybe you can win a prize, @.",
   "CFE_Penny_fall26": "Spirit's Eve used to scare me when I was little. These days, though, I enjoy it.#$e#Everyone's got to be a little adventurous from time to time, right?$h",
@@ -5317,7 +5317,7 @@
   "CFE_Luau_Pierre": "I got done speaking with the Governor right before you arrived.$h#$e#It went... fine.#$e#He didn't actually respond to me.$s",
   "CFE_Luau_Caroline": "I worked everyone just a bit harder during aerobics this week. We've all earned a little feasting, I'd say.",
   "CFE_Luau_Alex": "Now this is what I'm talking about! Why don't we just do this kind of party every day?$h#$e#We could make Pelican Town into a beach paradise spot for tourists.$h#$e#Hey, maybe I should be mayor someday.",
-  "CFE_Luau_George": "I liked the luau better, back when we didn't have those big electronic speakers ruining the atmosphere of the beach.#$e#This was... oh, twenty, twenty-five years ago.",
+  "CFE_Luau_George": "I liked the {{LongLuauName}} better, back when we didn't have those big electronic speakers ruining the atmosphere of the beach.#$e#This was... oh, twenty, twenty-five years ago.",
   "CFE_Luau_Evelyn": "This is just about the spot where I'd build sandcastles as a little girl, all these years ago. I can still picture it.#$e#Oh, this was well before I lived in Pelican Town. My family used to come here on vacation.$h",
   "CFE_Luau_Lewis": "Ah! Governor, do you remember? This is @, one of our premier agriculturalists here in the valley.$h#$b#Psst... Hey @, we're really counting on you this year, okay?",
   "CFE_Luau_Clint": "Welp, time for another helping.",
@@ -5342,12 +5342,12 @@
   "CFE_Luau_Kent": "This is the kind of stuff I dreamed about when I was overseas.$h#$e#It's worth a little reflection.",
   "CFE_Luau_Governor_y2": "That one year, the soup was delicious! Was that last year, or...?#$b#...no, perhaps it was a different year? Ah, I can't remember.",
   "CFE_Luau_Abigail_y2": "Mmmm, @, why don't you grab one of those turkey legs and just chow down like a champ?#$b#Like some kind of medieval gladiator, fresh from the fight?#$e#Well fine, if you won't, maybe I will!$1",
-  "CFE_Luau_Robin_y2": "Oh, hi @! It wouldn't be a proper luau without a little dancing, would it?$1",
+  "CFE_Luau_Robin_y2": "Oh, hi @! It wouldn't be a proper {{LongLuauName}} without a little dancing, would it?$1",
   "CFE_Luau_Demetrius_y2": "Honey, what was that dance step you taught me at the saloon the other night?",
   "CFE_Luau_Maru_y2": "Hey, here's a game. Watch the mayor, and every time he smiles and says 'Absolutely!' to the governor, you get a point.#$e#It's adorable. I've only been sitting here for a few minutes and I'm already at five points.",
   "CFE_Luau_Sebastian_y2": "If it suddenly rained right now, people would scramble and run away like the rain's made of poison.#$e#Is it bad if the thought of that sight makes me chuckle?$1",
   "CFE_Luau_Linus_y2": "I'm happy to share my roast with you if you'd like, @. Let no part of the animal go to waste, I say.$1",
-  "CFE_Luau_Pierre_y2": "If we ever get a storm on luau day, we could always host the Governor in my store.#$e#...What? I could make it work.",
+  "CFE_Luau_Pierre_y2": "If we ever get a storm on {{ShortLuauName}} day, we could always host the Governor in my store.#$e#...What? I could make it work.",
   "CFE_Luau_Emily_y2": "Join in! Don't be shy!",
   "CFE_Luau_Caroline_y2": "I hope you brought an appetite. If you got just a little bit of everything, you still couldn't fit it all on one plate!",
   "CFE_Luau_Alex_y2": "It's nice, you know? It really feels like Pelican Town is one big family.$1#$e#I should put in more effort to hang out with the people I don't normally see too much.",
@@ -5365,7 +5365,7 @@
   "CFE_Luau_Leah_y2": "Hey, have you seen any good pieces of driftwood lying around?#$e#I always wonder how long it stays out at sea before it comes back home.",
   "CFE_Luau_Shane_y2": "Linus knows what's up with that roast. When the weather's like this, barbecue somehow tastes even better.",
   "CFE_Luau_Marnie_y2": "*yawn* I'm tired. I think I'll sleep like a log tonight, especially after such a feast.$2",
-  "CFE_Luau_Elliott_y2": "I didn't forget about the luau this year!$1#$e#Well, Leah reminded me, anyway. That helped.",
+  "CFE_Luau_Elliott_y2": "I didn't forget about the {{LongLuauName}} this year!$1#$e#Well, Leah reminded me, anyway. That helped.",
   "CFE_Luau_Gus_y2": "Based on what I've seen going into that soup, I'd say a little wine might be safe to add. Or something savory, like cheese or truffles.#$e#It'd have to be the best of the best quality, though.",
   "CFE_Luau_Gus_y2.DSV.TurkishGus": "Based on what I've seen going into that soup, I'd say a little cabbage or cauliflower might be safe to add. Or something savory, like cheese or truffles.#$e#It'd have to be the best of the best quality, though.",
   "CFE_Luau_Wizard_y2": "What? I'm not being antisocial. This is quite social for me, thank you.#$e#Compared to my usual lifestyle, this is...#$b#...look, I'm doing my best, okay?",
@@ -5691,5 +5691,10 @@
   "CFE_WinterStar_Vincent_y2": "I wish today was every day.",
   "CFE_WinterStar_Marlon_y2": "Happy Feasting. Gil sends his regards.",
   "CFE_WinterStar_Leo_y2": "Willy got me a box of colored pencils. It was just what I wanted!$1#$e#I can use them for school. Also, if you hold them out, they make good perches.",
-  "CFE_WinterStar_Willy_y2": "What do I want out o' life in the next year? Oh, more o' the same, I suppose.#$e#If somethin' different happens, that'll be a nice surprise, but I'm thankful for what I got.$1"
+  "CFE_WinterStar_Willy_y2": "What do I want out o' life in the next year? Oh, more o' the same, I suppose.#$e#If somethin' different happens, that'll be a nice surprise, but I'm thankful for what I got.$1",
+
+  //Extra Compat Section!
+  "CFE_FotSCompat_ShortLuauName": "Feast",
+  "CFE_FotSCompat_LongLuauName": "Feast of the Sun",
+  "CFE_FotSCompat_VanillaLuauName": "Luau"
 }

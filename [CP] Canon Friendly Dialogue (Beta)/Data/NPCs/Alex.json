@@ -1,17 +1,18 @@
 {
   "Changes": [
-    /* {
-      "LogName": "CFE_Alex_Compat",
+    {
+      "LogName": "CFE_Alex_Compat.MSGR",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Alex",
       "Entries": {
-        //any keys that overlap go here
+        "AcceptGift_(O)201": "{{i18n: CFE_Alex_CompleteBreakfast}}",
+        "AcceptGift_(O)212": "{{i18n: CFE_Alex_SalmonDinner}}"
       },
       "When": {
-     "ModdedDialogCompat": "true",
-     "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
-    }
-    }, */
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
     {
       "LogName": "CFE_Alex_GiftTastes",
       "Action": "EditData",
@@ -21,9 +22,6 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Alex_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Alex_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Alex_RabbitsFoot}}",
-
-        "AcceptGift_(O)201": "{{i18n: CFE_Alex_CompleteBreakfast}}",
-        "AcceptGift_(O)212": "{{i18n: CFE_Alex_SalmonDinner}}"
       },
       "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

@@ -6,7 +6,6 @@
       "Target": "Characters/Dialogue/Lewis",
       "Entries": {
         "AcceptGift_(O)200": "{{i18n: CFE_Lewis_VegetableMedley}}"
-        //every time UGDE updates, or someone requests special compat with a different mod, this section may be updated to include the conflicting key. Mods other than UGDE will need to be added to the list of mods to recognize, found in the dynamic tokens section of content.json
       },
       "When": {
         "ModdedDialogCompat": "true",
@@ -14,13 +13,19 @@
       }
     },
     {
-      "LogName": "CFE_Lewis_Rainy",
+      "LogName": "CFE_Lewis_Compat.MSGR",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
+      "Target": "Characters/Dialogue/Lewis",
       "Entries": {
-        "Lewis": "{{i18n: CFE_Lewis_rainy_{{random: 1,2,3}}}}"
+        "AcceptGift_(O)235": "{{i18n: CFE_Lewis_AutumnsBounty}}",
+        "AcceptGift_(O)614": "{{i18n: CFE_Lewis_GreenTea{{GenderNeutralCompat}}}}",
+        "AcceptGift_(O)208": "{{i18n: CFE_Lewis_GlazedYams}}",
+        "AcceptGift_(O)260": "{{i18n: CFE_Lewis_HotPepper}}"
       },
-      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
     {
       "LogName": "CFE_Lewis_GiftTastes",
@@ -30,11 +35,16 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Lewis_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Lewis_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Lewis_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Lewis_RabbitsFoot}}",
-        "AcceptGift_(O)235": "{{i18n: CFE_Lewis_AutumnsBounty}}",
-        "AcceptGift_(O)614": "{{i18n: CFE_Lewis_GreenTea{{GenderNeutralCompat}}}}",
-        "AcceptGift_(O)208": "{{i18n: CFE_Lewis_GlazedYams}}",
-        "AcceptGift_(O)260": "{{i18n: CFE_Lewis_HotPepper}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Lewis_RabbitsFoot}}"
+      },
+      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+    },
+    {
+      "LogName": "CFE_Lewis_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Lewis": "{{i18n: CFE_Lewis_rainy_{{random: 1,2,3}}}}"
       },
       "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

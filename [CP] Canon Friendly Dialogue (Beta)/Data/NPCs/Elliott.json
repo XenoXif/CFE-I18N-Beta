@@ -14,6 +14,20 @@
       }
     },
     {
+      "LogName": "CFE_Elliott_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elliott",
+      "Entries": {
+        "AcceptGift_(O)732": "{{i18n: CFE_Elliott_CrabCakes}}",
+        "AcceptGift_(O)218": "{{i18n: CFE_Elliott_TomKhaSoup}}",
+        "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
       "LogName": "CFE_Elliott_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Elliott",
@@ -21,10 +35,7 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Elliott_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Elliott_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Elliott_Pearl}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Elliott_RabbitsFoot}}",
-        "AcceptGift_(O)732": "{{i18n: CFE_Elliott_CrabCakes}}",
-        "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}",
-        "AcceptGift_(O)218": "{{i18n: CFE_Elliott_TomKhaSoup}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Elliott_RabbitsFoot}}"
       },
       "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

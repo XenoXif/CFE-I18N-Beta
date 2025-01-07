@@ -14,6 +14,19 @@
       }
     },
     {
+      "LogName": "CFE_Harvey_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Harvey",
+      "Entries": {
+        "AcceptGift_(O)342": "{{i18n: CFE_Harvey_Pickles}}",
+        "AcceptGift_(O)237": "{{i18n: CFE_Harvey_SuperMeal}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
       "LogName": "CFE_Harvey_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Harvey",
@@ -22,8 +35,6 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Harvey_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Harvey_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Harvey_RabbitsFoot}}",
-        "AcceptGift_(O)342": "{{i18n: CFE_Harvey_Pickles}}",
-        "AcceptGift_(O)237": "{{i18n: CFE_Harvey_SuperMeal}}"
       },
       "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

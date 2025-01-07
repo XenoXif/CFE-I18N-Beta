@@ -14,6 +14,20 @@
       }
     },
     {
+      "LogName": "CFE_Leo_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leo",
+      "Entries": {
+        "AcceptGift_(O)834": "{{i18n: CFE_Leo_Mango}}",
+        "AcceptGift_(O)289": "{{i18n: CFE_Leo_OstrichEgg}}",
+        "AcceptGift_(O)906": "{{i18n: CFE_Leo_Poi}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
       "LogName": "CFE_Leo_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Leo",
@@ -21,11 +35,7 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Leo_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Leo_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Leo_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Leo_RabbitsFoot}}",
-
-        "AcceptGift_(O)834": "{{i18n: CFE_Leo_Mango}}",
-        "AcceptGift_(O)289": "{{i18n: CFE_Leo_OstrichEgg}}",
-        "AcceptGift_(O)906": "{{i18n: CFE_Leo_Poi}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Leo_RabbitsFoot}}"
       },
       "When": { "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

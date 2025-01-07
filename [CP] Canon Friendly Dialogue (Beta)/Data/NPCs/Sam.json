@@ -14,6 +14,18 @@
       }
     },
     {
+      "LogName": "CFE_Sam_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "Entries": {
+        "AcceptGift_(O)562": "{{i18n: CFE_Sam_TigersEye}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
       "LogName": "CFE_Sam_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
@@ -22,8 +34,7 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Sam_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Sam_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Sam_RabbitsFoot}}",
-        "AcceptGift_(O)731": "{{i18n: CFE_Sam_MapleBar{{GenderNeutralCompat}}}}",
-        "AcceptGift_(O)562": "{{i18n: CFE_Sam_TigersEye}}"
+        "AcceptGift_(O)731": "{{i18n: CFE_Sam_MapleBar{{GenderNeutralCompat}}}}"
       },
       "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

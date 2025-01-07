@@ -14,16 +14,30 @@
       }
     },
     {
+      "LogName": "CFE_Emily_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Entries": {
+          "AcceptGift_(O)440": "{{i18n: CFE_Emily_Wool}}",
+        "AcceptGift_(O)428": "{{i18n: CFE_Emily_Cloth}}",   
+        "AcceptGift_(O)241": "{{i18n: CFE_Emily_SurvivalBurger}}"
+
+
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
       "LogName": "CFE_Emily_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
         "AcceptGift_(O)373": "{{i18n: CFE_Emily_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Emily_Pearl}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Emily_RabbitsFoot}}",
-        "AcceptGift_(O)440": "{{i18n: CFE_Emily_Wool}}",
-        "AcceptGift_(O)428": "{{i18n: CFE_Emily_Cloth}}",
-        "AcceptGift_(O)241": "{{i18n: CFE_Emily_SurvivalBurger}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Emily_RabbitsFoot}}"
+
       },
       "When": { "Query: '{{CFE_Emily}}' = 'true' OR ('{{CFE_Emily}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

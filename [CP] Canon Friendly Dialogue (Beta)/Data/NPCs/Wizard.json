@@ -15,6 +15,20 @@
       }
     },
     {
+      "LogName": "CFE_Wizard_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "Entries": {
+        "AcceptGift_(O)446": "{{i18n: CFE_Wizard_RabbitsFoot}}",
+        "AcceptGift_(O)768": "{{i18n: CFE_Wizard_SolarEssence}}",
+        "AcceptGift_(O)769": "{{i18n: CFE_Wizard_VoidEssence}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
+        "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
       "LogName": "CFE_Wizard_GiftTastes",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Wizard",
@@ -22,10 +36,7 @@
         // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)373": "{{i18n: CFE_Wizard_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Wizard_RockCandy}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Wizard_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Wizard_RabbitsFoot}}",
-        "AcceptGift_(O)768": "{{i18n: CFE_Wizard_SolarEssence}}",
-        "AcceptGift_(O)769": "{{i18n: CFE_Wizard_VoidEssence}}"
+        "AcceptGift_(O)74": "{{i18n: CFE_Wizard_PrismaticShard}}"
       },
       "When": { "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

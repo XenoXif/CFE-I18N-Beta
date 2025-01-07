@@ -1,15 +1,31 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Marnie_Compat",
+      "LogName": "CFE_Marnie_Compat.UGDE",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Marnie",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)446": "{{i18n: CFE_Marnie_RabbitsFoot}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Marnie_RabbitsFoot}}",
+        "AcceptGift_(O)221": "{{i18n: CFE_Marnie_PinkCake}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
+        "ModdedDialogCompat.UGDE": "true",
+        "Query: '{{CFE_Marnie}}' = 'true' OR ('{{CFE_Marnie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
+    },
+    {
+      "LogName": "CFE_Marnie_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "Entries": {
+        "AcceptGift_(O)221": "{{i18n: CFE_Marnie_PinkCake}}",
+        "AcceptGift_(O)72": "{{i18n: CFE_Marnie_Diamond}}",
+        "AcceptGift_(O)240": "{{i18n: CFE_Marnie_FarmersLunch}}",
+        "AcceptGift_(O)608": "{{i18n: CFE_Marnie_PumpkinPie}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true",
         "Query: '{{CFE_Marnie}}' = 'true' OR ('{{CFE_Marnie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
       }
     },
@@ -20,11 +36,7 @@
       "Entries": {
         "AcceptGift_(O)373": "{{i18n: CFE_Marnie_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Marnie_RockCandy}}",
-        "AcceptGift_(O)797": "{{i18n: CFE_Marnie_Pearl}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Marnie_Diamond}}",
-        "AcceptGift_(O)240": "{{i18n: CFE_Marnie_FarmersLunch}}",
-        "AcceptGift_(O)221": "{{i18n: CFE_Marnie_PinkCake}}",
-        "AcceptGift_(O)608": "{{i18n: CFE_Marnie_PumpkinPie}}"
+        "AcceptGift_(O)797": "{{i18n: CFE_Marnie_Pearl}}"
       },
       "When": { "Query: '{{CFE_Marnie}}' = 'true' OR ('{{CFE_Marnie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },

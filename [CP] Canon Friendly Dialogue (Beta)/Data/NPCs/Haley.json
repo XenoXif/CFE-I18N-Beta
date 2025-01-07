@@ -6,7 +6,8 @@
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)221": "{{i18n: CFE_Haley_PinkCake{{GenderNeutralCompat}}}}"
+        "AcceptGift_(O)221": "{{i18n: CFE_Haley_PinkCake{{GenderNeutralCompat}}}}",
+        "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}" //UGDE does not currently add this key, but it seemed silly to add a whole second block for one line. Maybe this will spark their author to add the line haha
       },
       "When": {
         "ModdedDialogCompat": "true",
@@ -21,7 +22,6 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Haley_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Haley_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Haley_RabbitsFoot}}",
-        "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}"
       },
       "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
