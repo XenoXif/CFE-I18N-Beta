@@ -12,8 +12,7 @@
         "AcceptGift_(O)905": "{{i18n: CFE_Sandy_MangoStickyRice}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     /*    {
@@ -21,20 +20,20 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
       "Entries": {
-      },
-      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }, */
+
     {
       "LogName": "CFE_Sandy_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Sandy": "{{i18n: CFE_Sandy_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
-      "LogName": "Sandy",
+      "LogName": "CFE_Sandy_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
       "Entries": {
@@ -107,8 +106,7 @@
 
         "Fri": "{{i18n: CFE_Sandy_Fri}}",
         "Sat": "{{i18n: CFE_Sandy_Sat}}"
-      },
-      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

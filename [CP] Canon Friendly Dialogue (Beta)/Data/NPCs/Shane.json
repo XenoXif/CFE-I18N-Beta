@@ -10,8 +10,7 @@
         "AcceptGift_(O)206": "{{i18n: CFE_Shane_Pizza}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -21,11 +20,9 @@
       "Entries": {
         "AcceptGift_(O)260": "{{i18n: CFE_Shane_HotPepper}}",
         "AcceptGift_(O)215": "{{i18n: CFE_Shane_PepperPoppers}}"
-      
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -38,18 +35,18 @@
         "AcceptGift_(O)797": "{{i18n: CFE_Shane_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Shane_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Shane_RabbitsFoot}}"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Shane_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Shane": "{{i18n: CFE_Shane_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Shane_Dialogue",
       "Action": "EditData",
@@ -136,17 +133,16 @@
 
         //Generic Weekday Dialogue
         "Mon": "{{i18n: CFE_Shane_Mon}}"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
-      "LogName": "CFE_Shane_Married_spouseRoom",
+      "LogName": "CFE_Shane_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Shane": "{{i18n: CFE_Shane_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Shane_Marriage",
@@ -236,8 +232,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

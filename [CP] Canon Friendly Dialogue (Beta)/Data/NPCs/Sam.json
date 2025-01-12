@@ -6,11 +6,9 @@
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
         "AcceptGift_(O)90": "{{i18n: CFE_Sam_CactusFruit}}"
-        //any keys that overlap go here
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -21,8 +19,7 @@
         "AcceptGift_(O)562": "{{i18n: CFE_Sam_TigersEye}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -35,9 +32,9 @@
         "AcceptGift_(O)797": "{{i18n: CFE_Sam_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Sam_RabbitsFoot}}",
         "AcceptGift_(O)731": "{{i18n: CFE_Sam_MapleBar{{GenderNeutralCompat}}}}"
-      },
-      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Sam_Rainy",
       "Action": "EditData",
@@ -48,7 +45,7 @@
       "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
-      "LogName": "Sam",
+      "LogName": "CFE_Sam_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
@@ -163,20 +160,19 @@
         //Generic Weekday Dialogue
         "summer_Mon": "{{i18n: CFE_Sam_summerMon}}",
         "Thu_2": "{{i18n: CFE_Sam_Thuy2}}"
-      },
-      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
-      "LogName": "CFE_Sam_Married_spouseRoom",
+      "LogName": "CFE_Sam_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Sam": "{{i18n: CFE_Sam_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
-      "LogName": "Sam Marriage",
+      "LogName": "CFE_Sam_Marriage",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueSam",
       "Entries": {
@@ -246,8 +242,7 @@
 
         //season specific dialogue
         //affection specific dialogue
-      },
-      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

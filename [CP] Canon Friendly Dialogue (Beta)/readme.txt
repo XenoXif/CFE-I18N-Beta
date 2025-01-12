@@ -1,6 +1,6 @@
 hello! This readme is for mod makers and translators~
 
-Canon Friendly Dialogue Expansion has just receieved a massive update to it's code! Now there is i18n functionality, a config to toggle individual npcs on/off, and shared key compatibility options. If you would like compatibility with CDE on our side, please reach out to Gizzymo on Nexus for writing/story releated compat, or Koda on Discord (Sour_Creamier) for coding or complex mod related compat
+Canon Friendly Dialogue Expansion has receieved a massive update to it's code! Now there is i18n functionality, a config to toggle individual npcs on/off, and shared key compatibility options. If you would like compatibility with CDE on our side, please reach out to Gizzymo on Nexus for writing/story releated compat, or Koda on Discord (Sour_Creamier) for coding or complex mod related compat
 
 How to translate i18n:
 https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-guide/translations.md
@@ -18,15 +18,13 @@ How to upload your translation:
 **Publish your i18n file alone, please do not publish the full mod/Data files! Players will drag and drop your i18n file, with your language's i18n.json inside, into CFE's i18n folder. You can also reach out to Gizzymo to include your file in the base mod, and we will mention you as a translator in our credits! We encourage you to upload the file itself though so that you can get DP and manage bugs or translation errors directly. 
 
 
-List of changes made to keys used in this update:
--exact duplicates from the vanilla code have been removed across all files!
--some other keys may have been removed or added over the course of the beta of this update, but most should not be problematic for your compatibility updates. if you are unsure about a change, feel free to ask WitchWeed on Nexus or Discord.
 
-list of new lines added (or edited) by this update:
+list of new lines added (or edited) by this update in i18n folder:
 
 [Stable updates]
 VERSION 3.0.6 DEFAULT.JSON CHANGES
-added feast of the sun compat via dynamic token. 
+added feast of the sun compat via dynamic token. Thank you to Kailey for doing the work for this!
+
   "CFE_Abigail_summer10": "Everyone's excited for the {{ShortLuauName}} tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
   "CFE_Emily_summer10": "Hey, look for me tomorrow at the {{LongLuauName}}. I'll greet you, but probably not in the way you're used to.",
   "CFE_Evelyn_summer10": "Mayor Lewis always gets so nervous for the {{LongLuauName}}. Be sure to show him some support.#$e#The best way to do that is simply to bring something delicious for the soup.",
@@ -48,6 +46,7 @@ added feast of the sun compat via dynamic token.
   "CFE_FotSCompat_ShortLuauName": "Feast",
   "CFE_FotSCompat_LongLuauName": "Feast of the Sun",
   "CFE_FotSCompat_VanillaLuauName": "Luau",
+
 
 VERSION 3.0.5 DEFAULT.JSON CHANGES
 no changes were made to the default.json between updates! all translations should remain up to date with the stable release of this mod.

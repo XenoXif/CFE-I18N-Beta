@@ -9,8 +9,7 @@
         "AcceptGift_(O)84": "{{i18n: CFE_Sebastian_FrozenTear}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -22,18 +21,18 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Sebastian_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Sebastian_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Sebastian_PrismaticShard}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Sebastian_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Sebastian": "{{i18n: CFE_Sebastian_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Sebastian_Billiards",
       "Action": "EditData",
@@ -41,9 +40,9 @@
       "Entries": {
         "Fri.000": "{{i18n: CFE_Sebastian_Billiards_{{random: 1,2}}}}",
         "marriage_Fri.001": "{{i18n: CFE_Sebastian_Married_Billiards_{{random: 1,2}}}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Sebastian_Dialogue",
       "Action": "EditData",
@@ -143,20 +142,19 @@
 
         //Generic Weekday Dialogue
         "summer_Thu": "{{i18n: CFE_Sebastian_summerThu}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
-      "LogName": "CFE_Sebastian_Married_spouseRoom",
+      "LogName": "CFE_Sebastian_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Sebastian": "{{i18n: CFE_Sebastian_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
-      "LogName": "CFE_Sebastian_Married",
+      "LogName": "CFE_Sebastian_Marriage",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueSebastian",
       "Entries": {
@@ -229,8 +227,7 @@
 
         //Seasonal Dialogue
         //Affection Specific Dialogue
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

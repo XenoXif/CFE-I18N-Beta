@@ -10,8 +10,7 @@
         "AcceptGift_(O)276": "{{i18n: CFE_Abigail_Pumpkin}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -25,11 +24,9 @@
         "AcceptGift_(O)226": "{{i18n: CFE_Abigail_SpicyEel}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
-
     {
       "LogName": "CFE_Abigail_GiftTastes",
       "Action": "EditData",
@@ -38,20 +35,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Abigail_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Abigail_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Abigail_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Abigail_RabbitsFoot}}",
-
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Abigail_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Abigail_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Abigail": "{{i18n: CFE_Abigail_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Abigail_Dialogue",
       "Action": "EditData",
@@ -65,8 +61,8 @@
         "spring_1_2": "{{i18n: CFE_Abigail_spring1y2}}",
 
         "summer_6_1": "{{i18n: CFE_Abigail_summer6y1}}",
-        "summer_10_1": "{{i18n: CFE_Abigail_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Abigail_summer10}}",
+        "summer_10_1": "{{i18n: CFE_Abigail_summer10 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Abigail_summer10 | ShortLuauName={{ShortLuauName}}}}",
         "summer_27_1": "{{i18n: CFE_Abigail_summer27}}",
         "summer_27_2": "{{i18n: CFE_Abigail_summer27}}",
 
@@ -176,17 +172,16 @@
         //Generic Weekday Dialogue
         "spring_Thu": "{{i18n:  CFE_Abigail_springThu}}",
         "fall_Tue": "{{i18n: CFE_Abigail_repeated_9}}"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Abigail_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Abigail": "{{i18n: CFE_Abigail_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Abigail_Marriage",
@@ -272,8 +267,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

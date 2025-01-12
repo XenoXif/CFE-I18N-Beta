@@ -9,8 +9,7 @@
         "AcceptGift_(O)395": "{{i18n: CFE_Harvey_Coffee}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -22,8 +21,7 @@
         "AcceptGift_(O)237": "{{i18n: CFE_Harvey_SuperMeal}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -34,19 +32,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Harvey_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Harvey_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Harvey_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Harvey_RabbitsFoot}}",
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Harvey_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Harvey_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Harvey": "{{i18n: CFE_Harvey_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Harvey_Dialogue",
       "Action": "EditData",
@@ -61,8 +59,8 @@
         "spring_23_1": "{{i18n: CFE_Harvey_spring23}}",
         "spring_23_2": "{{i18n: CFE_Harvey_spring23}}",
 
-        "summer_10_1": "{{i18n: CFE_Harvey_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Harvey_summer10}}",
+        "summer_10_1": "{{i18n: CFE_Harvey_summer10 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Harvey_summer10 | ShortLuauName={{ShortLuauName}}}}",
 
         "winter_7_1": "{{i18n: CFE_Harvey_winter7}}",
         "winter_7_2": "{{i18n: CFE_Harvey_winter7}}",
@@ -133,9 +131,9 @@
 
         "Sat": "{{i18n: CFE_Harvey_Sat}}",
         "Sun": "{{i18n: CFE_Harvey_Sun}}"
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Harvey_Marriage_GenericDialogue",
       "Action": "EditData",
@@ -144,8 +142,7 @@
         "spouseRoom_Harvey": "{{i18n: CFE_Harvey_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Harvey": "{{i18n: CFE_Harvey_Married_jobLeave_{{Random: 1,2,3,4}}}}",
         "jobReturn_Harvey": "{{i18n: CFE_Harvey_Married_jobReturn_{{Random: 1,2,3,4}}}}"
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Harvey_Marriage",
@@ -231,8 +228,7 @@
         //currently unused. key looks like "fall_Harvey"
 
         //Affection Specific Dialogue
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

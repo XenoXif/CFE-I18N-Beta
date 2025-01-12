@@ -5,13 +5,11 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
-        //any keys that overlap go here
         "AcceptGift_(O)221": "{{i18n: CFE_Haley_PinkCake{{GenderNeutralCompat}}}}",
         "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}" //UGDE does not currently add this key, but it seemed silly to add a whole second block for one line. Maybe this will spark their author to add the line haha
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -21,19 +19,19 @@
       "Entries": {
         "AcceptGift_(O)373": "{{i18n: CFE_Haley_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Haley_Pearl}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Haley_RabbitsFoot}}",
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Haley_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Haley_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Haley": "{{i18n: CFE_Haley_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Haley_Dialogue",
       "Action": "EditData",
@@ -43,9 +41,12 @@
 
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Haley_spring1y2}}",
-        "summer_12_1": "{{i18n: CFE_Haley_summer12}}",
-        "summer_12_2": "{{i18n: CFE_Haley_summer12}}",
-        "fall_1": "{{i18n: CFE_Haley_fall1}}",
+        "summer_12_1": "{{i18n: CFE_Haley_summer12 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_12_2": "{{i18n: CFE_Haley_summer12 | ShortLuauName={{ShortLuauName}}}}",
+
+        "fall_1_1": "{{i18n: CFE_Haley_fall1}}",
+        "fall_1_2": "{{i18n: CFE_Haley_fall1}}",
+
         "winter_28_1": "{{i18n: CFE_Haley_winter28}}",
         "winter_28_2": "{{i18n: CFE_Haley_winter28}}",
 
@@ -139,17 +140,16 @@
         "summer_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
         "fall_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
         "winter_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}"
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Haley_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Haley": "{{i18n: CFE_Haley_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Haley_Marriage",
@@ -218,7 +218,7 @@
 
         "summer_6": "{{i18n: CFE_Haley_Married_summer6}}",
         "summer_8": "{{i18n: CFE_Haley_Married_summer8}}",
-        "summer_12": "{{i18n: CFE_Haley_Married_summer12}}",
+        "summer_12": "{{i18n: CFE_Haley_Married_summer12 | ShortLuauName={{ShortLuauName}}}}",
         "summer_22": "{{i18n: CFE_Haley_Married_summer22}}",
         "summer_27": "{{i18n: CFE_Haley_Married_summer27}}",
 
@@ -238,8 +238,7 @@
         //currently unused. key looks like "fall_Haley"
 
         //Affection Specific Dialogue
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

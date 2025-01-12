@@ -10,8 +10,7 @@
         "AcceptGift_(O)155": "{{i18n: CFE_Wizard_SuperCucumber}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -24,8 +23,7 @@
         "AcceptGift_(O)769": "{{i18n: CFE_Wizard_VoidEssence}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -37,18 +35,18 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Wizard_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Wizard_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Wizard_PrismaticShard}}"
-      },
-      "When": { "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Wizard_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Wizard": "{{i18n: CFE_Wizard_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Wizard_Dialogue",
       "Action": "EditData",
@@ -105,8 +103,7 @@
         "summer_Fri": "{{i18n: CFE_Wizard_repeated_5}}",
         "fall_Wed": "{{i18n: CFE_Wizard_repeated_5}}",
         "Fri": "{{i18n: CFE_Wizard_Fri}}"
-      },
-      "When": { "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

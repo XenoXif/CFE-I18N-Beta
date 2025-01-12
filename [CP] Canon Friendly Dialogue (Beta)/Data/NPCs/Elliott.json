@@ -9,8 +9,7 @@
         "AcceptGift_(O)715": "{{i18n: CFE_Elliott_Lobster}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -23,8 +22,7 @@
         "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -36,18 +34,18 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Elliott_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Elliott_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Elliott_RabbitsFoot}}"
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Elliott_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Elliott": "{{i18n: CFE_Elliott_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Elliott_Dialogue",
       "Action": "EditData",
@@ -153,17 +151,16 @@
 
         //Generic Weekday Dialogue
         "winter_Wed": "{{i18n: CFE_Elliott_repeated_2}}"
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Elliott_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Elliott": "{{i18n: CFE_Elliott_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Elliott_Marriage",
@@ -250,8 +247,7 @@
         //currently unused. key looks like "fall_Elliott"
 
         //Affection Specific Dialogue
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

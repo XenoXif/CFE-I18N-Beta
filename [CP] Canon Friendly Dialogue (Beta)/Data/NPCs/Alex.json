@@ -9,8 +9,7 @@
         "AcceptGift_(O)212": "{{i18n: CFE_Alex_SalmonDinner}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -21,19 +20,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Alex_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Alex_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Alex_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Alex_RabbitsFoot}}",
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Alex_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Alex_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Alex": "{{i18n: CFE_Alex_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Alex_Dialogue",
       "Action": "EditData",
@@ -173,17 +172,16 @@
         "fall_Sat_inlaw_Haley": "{{i18n: CFE_Alex_repeated_2}}",
 
         "Sat_inlaw_Haley": "{{i18n: CFE_Alex_repeated_2}}"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Alex_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Alex": "{{i18n: CFE_Alex_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Alex_Marriage",
@@ -271,8 +269,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

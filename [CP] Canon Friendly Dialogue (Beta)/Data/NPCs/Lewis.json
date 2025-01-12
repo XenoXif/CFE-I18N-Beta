@@ -8,8 +8,7 @@
         "AcceptGift_(O)200": "{{i18n: CFE_Lewis_VegetableMedley}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -23,8 +22,7 @@
         "AcceptGift_(O)260": "{{i18n: CFE_Lewis_HotPepper}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -36,18 +34,18 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Lewis_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Lewis_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Lewis_RabbitsFoot}}"
-      },
-      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Lewis_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Lewis": "{{i18n: CFE_Lewis_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Lewis_Dialogue",
       "Action": "EditData",
@@ -64,10 +62,10 @@
         "spring_23_1": "{{i18n: CFE_Lewis_spring23}}",
         "spring_23_2": "{{i18n: CFE_Lewis_spring23}}",
 
-        "summer_10_1": "{{i18n: CFE_Lewis_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Lewis_summer10}}",
-        "summer_28_1": "{{i18n: CFE_Lewis_summer28}}",
-        "summer_28_2": "{{i18n: CFE_Lewis_summer28}}",
+        "summer_10_1": "{{i18n: CFE_Lewis_summer10 | LongLuauName={{LongLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Lewis_summer10 | LongLuauName={{LongLuauName}}}}",
+        "summer_28_1": "{{i18n: CFE_Lewis_summer28 | LongLuauName={{LongLuauName}}}}",
+        "summer_28_2": "{{i18n: CFE_Lewis_summer28 | LongLuauName={{LongLuauName}}}}",
 
         "fall_15_1": "{{i18n: CFE_Lewis_fall15}}",
         "fall_15_2": "{{i18n: CFE_Lewis_fall15}}",
@@ -139,8 +137,7 @@
 
         "Thu": "{{i18n: CFE_Lewis_Thu}}",
         "Sun": "{{i18n: CFE_Lewis_Sun}}"
-      },
-      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

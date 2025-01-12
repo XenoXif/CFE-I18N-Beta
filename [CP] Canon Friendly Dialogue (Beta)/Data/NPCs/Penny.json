@@ -10,8 +10,7 @@
         "AcceptGift_(O)60": "{{i18n: CFE_Penny_Emerald}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -26,11 +25,9 @@
         "AcceptGift_(O)244": "{{i18n: CFE_Penny_RootsPlatter}}",
         "AcceptGift_(O)218": "{{i18n: CFE_Penny_TomKhaSoup}}",
         "AcceptGift_(O)254": "{{i18n: CFE_Penny_Melon}}"
-
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -41,19 +38,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Penny_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Penny_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Penny_PrismaticShard}}",
-        "AcceptGift_(O)873": "{{i18n: CFE_Penny_Sandfish}}",
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)873": "{{i18n: CFE_Penny_Sandfish}}"
+      }
     },
+
     {
       "LogName": "CFE_Penny_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Penny": "{{i18n: CFE_Penny_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Penny_Dialogue",
       "Action": "EditData",
@@ -66,8 +63,8 @@
         "spring_23_1": "{{i18n: CFE_Penny_spring23}}",
         "spring_23_2": "{{i18n: CFE_Penny_spring23}}",
 
-        "summer_10_1": "{{i18n: CFE_Penny_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Penny_summer10}}",
+        "summer_10_1": "{{i18n: CFE_Penny_summer10 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Penny_summer10 | ShortLuauName={{ShortLuauName}}}}",
 
         "fall_15_1": "{{i18n: CFE_Penny_fall15}}",
         "fall_15_2": "{{i18n: CFE_Penny_fall15}}",
@@ -161,9 +158,9 @@
         "winter_Mon": "{{i18n: CFE_Penny_winterMon}}",
         "winter_Wed": "{{i18n: CFE_Penny_winterWed}}",
         "winter_Fri": "{{i18n: CFE_Penny_winterFri}}"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Penny_Marriage_GenericDialogue",
       "Action": "EditData",
@@ -172,8 +169,7 @@
         "spouseRoom_Penny": "{{i18n: CFE_Penny_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Penny": "{{i18n: CFE_Penny_Married_jobLeave_{{Random: 1,2,3,4}}}}",
         "jobReturn_Penny": "{{i18n: CFE_Penny_Married_jobReturn_{{Random: 1,2,3,4}}}}"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Penny_Marriage",
@@ -269,8 +265,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

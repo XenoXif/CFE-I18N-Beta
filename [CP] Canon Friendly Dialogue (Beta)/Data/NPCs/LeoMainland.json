@@ -5,12 +5,10 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/LeoMainland",
       "Entries": {
-        //any keys that overlap go here
         "AcceptGift_(O)444": "{{i18n: CFE_Leo_DuckFeather}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat": "true"
       }
     },
     {
@@ -21,8 +19,7 @@
         "AcceptGift_(TR)ParrotEgg": "{{i18n: CFE_Leo_ParrotEgg}}"
       },
       "When": {
-        "ModdedDialogCompat.UGDE": "true",
-        "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.UGDE": "true"
       }
     },
     {
@@ -35,8 +32,7 @@
         "AcceptGift_(O)906": "{{i18n: CFE_Leo_Poi}}"
       },
       "When": {
-        "ModdedDialogCompat.MSGR": "true",
-        "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -48,18 +44,18 @@
         "AcceptGift_(O)797": "{{i18n: CFE_Leo_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Leo_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Leo_RabbitsFoot}}"
-      },
-      "When": { "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Leo_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Leo": "{{i18n: CFE_Leo_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Leo_Dialogue",
       "Action": "EditData",
@@ -94,8 +90,7 @@
         "fall_Tue": "{{i18n: CFE_Leo_fallTue}}",
         "fall_Wed": "{{i18n: CFE_Leo_fallWed}}",
         "winter_Wed": "{{i18n: CFE_Leo_winterWed}}"
-      },
-      "When": { "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }
