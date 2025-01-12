@@ -451,7 +451,7 @@
       "Action": "Include",
       "FromFile": "Data/NPCs/Birdie.json",
       "When": {
-        "When": { "Query: '{{CFE_Birdie}}' = 'true' OR ('{{CFE_Birdie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "Query: '{{CFE_Birdie}}' = 'true' OR ('{{CFE_Birdie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true 
       }
     },
     {
