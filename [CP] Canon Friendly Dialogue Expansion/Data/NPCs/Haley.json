@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Haley_Compat",
+      "LogName": "CFE_Haley_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
@@ -9,7 +9,7 @@
         "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}" //UGDE does not currently add this key, but it seemed silly to add a whole second block for one line. Maybe this will spark their author to add the line haha
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -17,8 +17,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
-        "AcceptGift_(O)373": "{{i18n: CFE_Haley_GoldPumpkin}}",
-        "AcceptGift_(O)797": "{{i18n: CFE_Haley_Pearl}}",
+        "AcceptGift_(O)373": "{{i18n: CFE_Haley_GoldPumpkin |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+        "AcceptGift_(O)797": "{{i18n: CFE_Haley_Pearl |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Haley_RabbitsFoot}}"
       }
     },
@@ -62,7 +62,7 @@
         "summer_Thu6": "{{i18n: CFE_Haley_summerThu6}}",
         "summer_Thu4": "{{i18n: CFE_Haley_summerThu4}}",
         "summer_Thu2": "{{i18n: CFE_Haley_summerThu2{{GenderNeutralCompat}}}}",
-        "summer_Fri10": "{{i18n: CFE_Haley_summerFri10}}",
+        "summer_Fri10": "{{i18n: CFE_Haley_summerFri10 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "summer_Fri8": "{{i18n: CFE_Haley_summerFri8}}",
         "summer_Fri4": "{{i18n: CFE_Haley_summerFri4{{GenderNeutralCompat}}}}",
         "summer_Sat10": "{{i18n: CFE_Haley_summerSat10}}",
@@ -89,7 +89,7 @@
         "fall_Fri8": "{{i18n: CFE_Haley_fallFri8}}",
         "fall_Fri4": "{{i18n: CFE_Haley_fallFri4}}",
         "fall_Sat8": "{{i18n: CFE_Haley_fallSat8}}",
-        "fall_Sun10": "{{i18n: CFE_Haley_fallSun10}}",
+        "fall_Sun10": "{{i18n: CFE_Haley_fallSun10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "fall_Sun8_inlaw_Emily": "{{i18n: CFE_Haley_fallSun8inlawEmily}}",
         "fall_Sun6_inlaw_Emily": "{{i18n: CFE_Haley_repeated_1}}",
         "fall_Sun4_inlaw_Emily": "{{i18n: CFE_Haley_fallSun4inlawEmily}}",
@@ -117,7 +117,7 @@
         "Wed8": "{{i18n: CFE_Haley_Wed8}}",
         "Wed4": "{{i18n: CFE_Haley_Wed4}}",
         "Wed2": "{{i18n: CFE_Haley_Wed2}}",
-        "Thu10": "{{i18n: CFE_Haley_Thu10}}",
+        "Thu10": "{{i18n: CFE_Haley_Thu10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Thu6": "{{i18n: CFE_Haley_Thu6}}",
         "Thu4": "{{i18n: CFE_Haley_Thu4{{GenderNeutralCompat}} |ObjectivePronoun={{lowercase:{{Random:{{GNMTObjectivePronoun}}}}}}}}",
         "Thu2": "{{i18n: CFE_Haley_Thu2}}",

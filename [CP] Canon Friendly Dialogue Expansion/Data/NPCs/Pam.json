@@ -64,6 +64,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pam",
       "Entries": {
+        //Special Dialogue
+
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Pam_spring1y2}}",
         "spring_23_1": "{{i18n: CFE_Pam_spring23}}",
@@ -72,8 +74,14 @@
         "winter_7_1": "{{i18n: CFE_Pam_winter7}}",
         "winter_7_2": "{{i18n: CFE_Pam_winter7}}",
         "winter_28_1": "{{i18n: CFE_Pam_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Pam_winter28}}",
-
+        "winter_28_2": "{{i18n: CFE_Pam_winter28}}"
+      }
+    },
+    {
+      "LogName": "CFE_Pam_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon8": "{{i18n: CFE_Pam_summerMon8}}",
         "summer_Tue10": "{{i18n: CFE_Pam_summerTue10}}",

@@ -1,14 +1,14 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Lewis_Compat",
+      "LogName": "CFE_Lewis_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lewis",
       "Entries": {
         "AcceptGift_(O)200": "{{i18n: CFE_Lewis_VegetableMedley}}"
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {

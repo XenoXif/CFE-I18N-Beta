@@ -48,12 +48,15 @@
     },
 
     {
-      "LogName": "CFE_Marnie_Dialogue",
+      "LogName": "CFE_Dwarf_Dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Marnie",
+      "Target": "Characters/Dialogue/Dwarf",
       "Entries": {
-        //Date Specific Dialogue
+        //Special Dialogue
+        "Tue8_inlaw_Shane": "{{i18n: CFE_Marnie_Tue8inlawShane}}",
+        "Tue_inlaw_Shane": "{{i18n: CFE_Marnie_TueinlawShane}}",
 
+        //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Marnie_spring1y2}}",
         "spring_12_1": "{{i18n: CFE_Marnie_spring12}}",
         "spring_12_2": "{{i18n: CFE_Marnie_spring12}}",
@@ -64,8 +67,15 @@
         "winter_24_1": "{{i18n: CFE_Marnie_winter24}}",
         "winter_24_2": "{{i18n: CFE_Marnie_winter24}}",
         "winter_28_1": "{{i18n: CFE_Marnie_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Marnie_winter28}}",
-
+        "winter_28_2": "{{i18n: CFE_Marnie_winter28}}"
+      }
+    },
+    {
+      "LogName": "CFE_Marnie_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon2": "{{i18n: CFE_Marnie_summerMon2}}",
         "summer_Tue10": "{{i18n: CFE_Marnie_summerTue10}}",
@@ -91,7 +101,6 @@
         "Mon4": "{{i18n: CFE_Marnie_Mon4}}",
         "Mon2": "{{i18n: CFE_Marnie_Mon2}}",
         "Tue10": "{{i18n: CFE_Marnie_Tue10}}",
-        "Tue8_inlaw_Shane": "{{i18n: CFE_Marnie_Tue8inlawShane}}",
         "Tue8": "{{i18n: CFE_Marnie_Tue8}}",
         "Tue6": "{{i18n: CFE_Marnie_Tue6}}",
         "Tue4": "{{i18n: CFE_Marnie_Tue4}}",
@@ -118,7 +127,6 @@
         "winter_Thu": "{{i18n: CFE_Marnie_winterThu}}",
         "winter_Fri": "{{i18n: CFE_Marnie_winterFri}}",
 
-        "Tue_inlaw_Shane": "{{i18n: CFE_Marnie_TueinlawShane}}",
         "Wed": "{{i18n: CFE_Marnie_Wed}}"
       }
     }

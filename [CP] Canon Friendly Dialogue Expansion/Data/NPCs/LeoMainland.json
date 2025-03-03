@@ -1,14 +1,14 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_LeoMainland_Compat",
+      "LogName": "CFE_LeoMainland_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/LeoMainland",
       "Entries": {
         "AcceptGift_(O)444": "{{i18n: CFE_Leo_DuckFeather}}"
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {

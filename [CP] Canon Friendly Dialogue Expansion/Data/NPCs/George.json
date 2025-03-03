@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_George_Compat",
+      "LogName": "CFE_George_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/George",
       "Entries": {
@@ -10,7 +10,7 @@
         "AcceptGift_(O)205": "{{i18n: CFE_George_FriedMushroom}}"
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {

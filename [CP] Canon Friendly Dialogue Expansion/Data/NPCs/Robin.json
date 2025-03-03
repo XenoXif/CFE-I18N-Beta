@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Robin_Compat",
+      "LogName": "CFE_Robin_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Robin",
       "Entries": {
@@ -9,7 +9,7 @@
         "AcceptGift_(O)224": "{{i18n: CFE_Robin_Spaghetti}}"
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {

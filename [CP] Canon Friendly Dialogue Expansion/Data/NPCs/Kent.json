@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Kent_Compat",
+      "LogName": "CFE_Kent_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Kent",
       "Entries": {
@@ -9,7 +9,7 @@
         "AcceptGift_(O)607": "{{i18n: CFE_Kent_RoastedHazelnuts_{{Random: 1,2}}}}"
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {

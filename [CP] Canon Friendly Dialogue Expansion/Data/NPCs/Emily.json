@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Emily_Compat",
+      "LogName": "CFE_Emily_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
@@ -9,7 +9,7 @@
         "AcceptGift_(O)74": "{{i18n: CFE_Emily_PrismaticShard}}"
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -57,8 +57,8 @@
         "spring_23_1": "{{i18n: CFE_Emily_spring23}}",
         "spring_23_2": "{{i18n: CFE_Emily_spring23}}",
 
-        "summer_10_1": "{{i18n: CFE_Emily_summer10 | LongLuauName={{LongLuauName}}}}",
-        "summer_10_2": "{{i18n: CFE_Emily_summer10 | LongLuauName={{LongLuauName}}}}",
+        "summer_10_1": "{{i18n: CFE_Emily_summer10| LongLuauName={{LongLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Emily_summer10| LongLuauName={{LongLuauName}}}}",
         "summer_27_1": "{{i18n: CFE_Emily_summer27}}",
         "summer_27_2": "{{i18n: CFE_Emily_summer27}}",
 
@@ -89,7 +89,7 @@
         "summer_Sat10": "{{i18n: CFE_Emily_summerSat10}}",
         "summer_Sat8": "{{i18n: CFE_Emily_summerSat8}}",
         "summer_Sat4": "{{i18n: CFE_Emily_summerSat4}}",
-        "summer_Sun10": "{{i18n: CFE_Emily_summerSun10}}",
+        "summer_Sun10": "{{i18n: CFE_Emily_summerSun10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_Sun8": "{{i18n: CFE_Emily_summerSun8}}",
         "summer_Sun6": "{{i18n: CFE_Emily_summerSun6{{GenderNeutralCompat}} |GenericNoun={{lowercase:{{Random:{{GNMTGenericNoun}}}}}}}}",
 
@@ -178,7 +178,7 @@
         "Rainy_Day_1": "{{i18n: CFE_Emily_Married_RainyDay_{{Random: 3,4}}}}",
         "Rainy_Day_2": "{{i18n: CFE_Emily_Married_RainyDay_{{Random: 5,6}}}}",
         "Rainy_Day_3": "{{i18n: CFE_Emily_Married_RainyDay_{{Random: 7,8}}}}",
-        "Rainy_Day_4": "{{i18n: CFE_Emily_Married_RainyDay_{{Random: 9,10}}}}",
+        "Rainy_Day_4": "{{i18n: CFE_Emily_Married_RainyDay_{{Random: 9,10}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
 
         "Rainy_Night_0": "{{i18n: CFE_Emily_Married_RainyNight_{{Random: 1,2,3}}}}",
         "Rainy_Night_1": "{{i18n: CFE_Emily_Married_RainyNight_{{Random: 4,5,6}}}}",
@@ -186,15 +186,15 @@
         "Rainy_Night_3": "{{i18n: CFE_Emily_Married_RainyNight_{{Random: 9,10}}}}",
         "Rainy_Night_4": "{{i18n: CFE_Emily_Married_RainyNight_{{Random: 11,12}}}}",
 
-        "Indoor_Day_0": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 1,2}}}}",
-        "Indoor_Day_1": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 3,4}}}}",
-        "Indoor_Day_2": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 5,6}}}}",
-        "Indoor_Day_3": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 7,8}}}}",
-        "Indoor_Day_4": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 9,10}}}}",
+        "Indoor_Day_0": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 1,2,3}}}}",
+        "Indoor_Day_1": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 4,5,6}}}}",
+        "Indoor_Day_2": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 7,8,9}}}}",
+        "Indoor_Day_3": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 10,11,12}}}}",
+        "Indoor_Day_4": "{{i18n: CFE_Emily_Married_IndoorDay_{{Random: 13,14,15}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
 
         "Indoor_Night_0": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 1,2,3}}}}",
         "Indoor_Night_1": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 4,5,6}}}}",
-        "Indoor_Night_2": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 7,8,9,10}}}}",
+        "Indoor_Night_2": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 7,8,9,10}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         //"Indoor_Night_3": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 10,11,12}}}}",
         //"Indoor_Night_4": "{{i18n: CFE_Emily_Married_IndoorNight_{{Random: 13,14,15}}}}",
 

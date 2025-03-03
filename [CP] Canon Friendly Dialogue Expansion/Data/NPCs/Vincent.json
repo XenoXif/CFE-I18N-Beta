@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Vincent_Compat",
+      "LogName": "CFE_Vincent_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Vincent",
       "Entries": {
@@ -10,7 +10,7 @@
         "AcceptGift_(O)398": "{{i18n: CFE_Vincent_Grape{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}"
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {

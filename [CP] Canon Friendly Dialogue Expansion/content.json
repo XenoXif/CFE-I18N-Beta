@@ -186,14 +186,14 @@
   "DynamicTokens": [
     //Tokens for Gift Dialogue Compat
     {
-      "Name": "ModdedDialogCompat",
+      "Name": "ModdedDialogCompat.GiftTaste",
       "Value": "true" //generally my content should be applied
     },
     {
-      "Name": "ModdedDialogCompat",
+      "Name": "ModdedDialogCompat.GiftTaste",
       "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
       "When": {
-        "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded, unfeldspar.More_Specific_Gift_Reaction-Dialogue_Expansion-eng, Kaori_Haruta.More_Specific_Gift_Reaction-Dialoge_Expansion-zh": "true" //add new mods to this list when randomized compat is needed on our side
+        "HasMod |contains= PrincessFelicie.UniqueGiftDialoguesExpanded, unfeldspar.More_Specific_Gift_Reaction-Dialogue_Expansion-eng, Kaori_Haruta.More_Specific_Gift_Reaction-Dialoge_Expansion-zh": "true"
       }
     },
     //Unique Gift Dialogue Compat
@@ -220,6 +220,19 @@
         "HasMod |contains= unfeldspar.More_Specific_Gift_Reaction-Dialogue_Expansion-eng, Kaori_Haruta.More_Specific_Gift_Reaction-Dialoge_Expansion-zh": "true" //use this token option when only MSGR needs accounting for
       }
     },
+    //Haywrite's Dialogue Compat
+    {
+      "Name": "ModdedDialogCompat.Hay",
+      "Value": "true" //generally my content should be applied
+    },
+    {
+      "Name": "ModdedDialogCompat.Hay",
+      "Value": "{{Random: true, false}}", //randomize applying my content when these mods are present
+      "When": {
+        "HasMod |contains= silver.haywrite.dialogue": "true" //use this token option only for Haywrite's Dialogue!
+      }
+    },
+
     //Festival Compat
     {
       "Name": "SyncedRandom",
@@ -305,6 +318,90 @@
         "DSV.Core/ConfigValue:GeorgeVariant": "Samoan"
       }
     },
+
+    // PLATONIC PARTNERS AND FRIENDSHIPS TOKENS
+    {
+      "Name": "LovePortraitsHappyToken",
+      "Value": "$l"
+    },
+    {
+      "Name": "LovePortraitsHappyToken",
+      "Value": "$h",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:UseLovePortraits": "False"
+      }
+    },
+    {
+      "Name": "LovePortraitsNeutralToken",
+      "Value": "$l"
+    },
+    {
+      "Name": "LovePortraitsNeutralToken",
+      "Value": "$0",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:UseLovePortraits": "False"
+      }
+    },
+    {
+      "Name": "LovePortraitsExpression6Token",
+      "Value": "$l"
+    },
+    {
+      "Name": "LovePortraitsExpression6Token",
+      "Value": "$6",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:UseLovePortraits": "False"
+      }
+    },
+    {
+      "Name": "LovePortraitsExpression7Token",
+      "Value": "$l"
+    },
+    {
+      "Name": "LovePortraitsExpression7Token",
+      "Value": "$7",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:UseLovePortraits": "False"
+      }
+    },
+    {
+      "Name": "LowercasePPAFEndearmentToken",
+      "Value": ""
+    },
+    {
+      "Name": "LowercasePPAFEndearmentToken",
+      "Value": "{{Lowercase:{{PPAF.Core/ConfigValue:TermOfEndearment}}}}",
+      "When": { "HasMod": "PPAF.Core" }
+    },
+    {
+      "Name": "LowercasePPAFEndearmentToken",
+      "Value": "{{PPAF.Core/ConfigValue:TermOfEndearment}}",
+      "When": {
+        "HasMod": "PPAF.Core",
+        "PPAF.Core/ConfigValue:TermOfEndearment": "@, BFF"
+      }
+    },
+    {
+      "Name": "LowercasePPAFEndearmentToken",
+      "Value": "@",
+      "When": {
+        "HasMod |contains=aedenthorn.MultipleSpouses, aedenthorn.FreeLove, ApryllForever.PolyamorySweetLove": true
+      }
+    },
+    {
+      "Name": "PlatonicHousemateToken",
+      "Value": ""
+    },
+    {
+      "Name": "PlatonicHousemateToken",
+      "Value": "{{PPAF.Core/ConfigValue:PlatonicLabel_housemate}}",
+      "When": { "HasMod": "PPAF.Core" }
+    },
+
     //Gender Neutrality Tokens Compat
     {
       "Name": "GenderNeutralCompat",
@@ -451,7 +548,7 @@
       "Action": "Include",
       "FromFile": "Data/NPCs/Birdie.json",
       "When": {
-        "Query: '{{CFE_Birdie}}' = 'true' OR ('{{CFE_Birdie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true 
+        "Query: '{{CFE_Birdie}}' = 'true' OR ('{{CFE_Birdie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
       }
     },
     {
@@ -745,6 +842,12 @@
         "HasMod": "DSV.Core",
         "DSV.Core/ConfigValue:EnableVariantBasedDialogue": "True"
       }
+    },
+    {
+      "LogName": "PPAF_Compatibility",
+      "Action": "Include",
+      "FromFile": "Data/Compat/PPAF.json",
+      "When": { "HasMod": "PPAF.Core" }
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "Changes": [
     /*{
-      "LogName": "CFE_Jodi_Compat",
+      "LogName": "CFE_Jodi_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Jodi",
       "Entries": {
         //any keys that overlap go here
       },
       "When": {
-     "ModdedDialogCompat": "true"
+     "ModdedDialogCompat.GiftTaste": "true"
       }
     },*/
     {

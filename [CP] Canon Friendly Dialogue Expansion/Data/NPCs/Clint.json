@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Clint_Compat",
+      "LogName": "CFE_Clint_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Clint",
       "Entries": {
@@ -9,7 +9,7 @@
         //any keys that overlap go here
       },
       "When": {
-        "ModdedDialogCompat": "true"
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -73,8 +73,15 @@
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Clint_spring1y2}}",
         "winter_28_1": "{{i18n: CFE_Clint_winter28y1}}",
-        "winter_28_2": "{{i18n: CFE_Clint_winter28y2}}",
-
+        "winter_28_2": "{{i18n: CFE_Clint_winter28y2}}"
+      }
+    },
+    {
+      "LogName": "CFE_Clint_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Clint",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Clint_summerMon10}}",
         "summer_Tue4": "{{i18n: CFE_Clint_summerTue4}}",
