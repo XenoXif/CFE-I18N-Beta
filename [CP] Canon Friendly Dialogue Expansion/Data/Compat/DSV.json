@@ -1,6 +1,6 @@
 {
   "Changes": [
-    //ABIGAIL
+    // ABIGAIL
     {
       "LogName": "DSV Abigail Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
@@ -9,11 +9,12 @@
       "Entries": {
         "Thu2": "{{i18n: CFE_Abigail_repeated_6.DSV.NonbinarySebastian}}",
         "summer_Fri2": "{{i18n: CFE_Abigail_summerFri2.DSV.NonbinarySebastian}}",
-        "fall_Tue2": "{{i18n: CFE_Abigail_repeated_6.DSV.NonbinarySebastian}}",
+        "fall_Tue2": "{{i1n: CFE_Abigail_repeated_6.DSV.NonbinarySebastian}}",
         "fall_Thu4": "{{i18n: CFE_Abigail_fallThu4.DSV.NonbinarySebastian}}"
       },
       "When": {
         "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:AbigailDialogue": "True",
         "DSV.Core/ConfigValue:NonbinarySebastian": "True"
       }
@@ -29,6 +30,7 @@
       },
       "When": {
         "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:AbigailDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
@@ -44,6 +46,7 @@
       },
       "When": {
         "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:AbigailDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
@@ -58,6 +61,7 @@
       },
       "When": {
         "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:AbigailDialogue": "True",
         "DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true,
         "Year |contains= 1, 2, 3, 4": false,
@@ -65,7 +69,7 @@
         "SyncedRandom": "True"
       }
     },
-    //ALEX
+    // ALEX
     {
       "LogName": "DSV Alex Daily Dialogue - Modded Evelyn & George",
       "Action": "EditData",
@@ -78,6 +82,7 @@
       },
       "When": {
         "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:AlexDialogue": "True"
       }
     },
@@ -94,10 +99,11 @@
       },
       "When": {
         "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:AlexDialogue": "True"
       }
     },
-    //CAROLINE
+    // CAROLINE
     {
       "LogName": "DSV Caroline Daily Dialogue - Nonbinary Abigail",
       "Action": "EditData",
@@ -116,6 +122,7 @@
       },
       "When": {
         "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:CarolineDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
@@ -130,6 +137,7 @@
       },
       "When": {
         "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:CarolineDialogue": "True",
         "DSV.Core/ConfigValue:AbigailVariant |contains= ModdedPlusSize,ModdedStraightSize": true
       }
@@ -144,6 +152,7 @@
       },
       "When": {
         "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:CarolineDialogue": "True"
       }
     },
@@ -158,6 +167,7 @@
       },
       "When": {
         "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:CarolineDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true' OR '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true'": true
       }
@@ -172,6 +182,7 @@
       },
       "When": {
         "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:CarolineDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True",
         "Year |contains= 1, 2, 3, 4": false,
@@ -189,6 +200,7 @@
       },
       "When": {
         "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:CarolineDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True",
         "Year |contains= 1, 2, 3, 4": false,
@@ -196,7 +208,7 @@
         "SyncedRandom": "True"
       }
     },
-    //CLINT
+    // CLINT
     {
       "LogName": "DSV Clint Gift Dialogue - Blind Clint",
       "Action": "EditData",
@@ -210,6 +222,7 @@
       },
       "When": {
         "Query: '{{CFE_Clint}}' = 'true' OR ('{{CFE_Clint}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:ClintDialogue": "True",
         "DSV.Core/ConfigValue:ClintVariant |contains= Modded": true
       }
@@ -224,11 +237,12 @@
       },
       "When": {
         "Query: '{{CFE_Clint}}' = 'true' OR ('{{CFE_Clint}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:ClintDialogue": "True",
         "DSV.Core/ConfigValue:GusVariant |contains= Modded": true
       }
     },
-    //DEMETRIUS
+    // DEMETRIUS
     {
       "LogName": "DSV Demetrius Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
@@ -242,6 +256,7 @@
       },
       "When": {
         "Query: '{{CFE_Demetrius}}' = 'true' OR ('{{CFE_Demetrius}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:DemetriusDialogue": "True",
         "DSV.Core/ConfigValue:NonbinarySebastian": "True"
       }
@@ -256,6 +271,7 @@
       },
       "When": {
         "Query: '{{CFE_Demetrius}}' = 'true' OR ('{{CFE_Demetrius}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:DemetriusDialogue": "True",
         "DSV.Core/ConfigValue:NonbinarySebastian": "True",
         "Year |contains= 1, 2, 3, 4": false,
@@ -263,7 +279,7 @@
         "SyncedRandom": "True"
       }
     },
-    //ELLIOTT
+    // ELLIOTT
     {
       "LogName": "DSV Elliott Gift Dialogue - Jewish Elliott",
       "Action": "EditData",
@@ -281,6 +297,7 @@
       },
       "When": {
         "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:ElliottDialogue": "True",
         "DSV.Core/ConfigValue:JewishElliott": "True",
         "DSV.Core/ConfigValue:GiftTastesChange": "True"
@@ -296,6 +313,7 @@
       },
       "When": {
         "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:ElliottDialogue": "True",
         "DSV.Core/ConfigValue:JewishElliott": "True"
       }
@@ -310,6 +328,7 @@
       },
       "When": {
         "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:ElliottDialogue": "True",
         "DSV.Core/ConfigValue:ElliottVariant |contains= Modded": true
       }
@@ -324,6 +343,7 @@
       },
       "When": {
         "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:ElliottDialogue": "True",
         "DSV.Core/ConfigValue:JewishElliott": "True",
         "Year |contains= 1, 2, 3, 4": false,
@@ -331,7 +351,7 @@
         "SyncedRandom": "True"
       }
     },
-    //EVELYN
+    // EVELYN
     {
       "LogName": "DSV Evelyn Daily Dialogue - Modded Evelyn",
       "Action": "EditData",
@@ -347,6 +367,7 @@
       },
       "When": {
         "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:EvelynDialogue": "True",
         "DSV.Core/ConfigValue:EvelynVariant |contains= Mexican, Samoan": true
       }
@@ -361,11 +382,12 @@
       },
       "When": {
         "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:EvelynDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true' OR '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true'": true
       }
     },
-    //GEORGE
+    // GEORGE
     {
       "LogName": "DSV George Daily Dialogue - Religion Edits",
       "Action": "EditData",
@@ -376,6 +398,7 @@
       },
       "When": {
         "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:GeorgeDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true' OR '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true'": true
       }
@@ -391,11 +414,12 @@
       },
       "When": {
         "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:GeorgeDialogue": "True",
         "DSV.Core/ConfigValue:JewishMullners": "True"
       }
     },
-    //GUS
+    // GUS
     {
       "LogName": "DSV Gus Rainy Dialogue - Turkish Gus",
       "Action": "EditData",
@@ -406,6 +430,7 @@
       },
       "When": {
         "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:GusDialogue": "True",
         "DSV.Core/ConfigValue:GusVariant |contains= Modded": true
       }
@@ -430,6 +455,7 @@
       },
       "When": {
         "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:GusDialogue": "True",
         "DSV.Core/ConfigValue:GusVariant |contains= Modded": true
       }
@@ -445,6 +471,7 @@
       },
       "When": {
         "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:GusDialogue": "True",
         "DSV.Core/ConfigValue:AroAceGus": "True"
       }
@@ -460,6 +487,7 @@
       },
       "When": {
         "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:GusDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryEmily": "True"
       }
@@ -474,6 +502,7 @@
       },
       "When": {
         "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:GusDialogue": "True",
         "DSV.Core/ConfigValue:GusVariant |contains= Modded": true,
         "Year |contains= 1, 2, 3, 4": false,
@@ -481,7 +510,7 @@
         "SyncedRandom": "True"
       }
     },
-    //HALEY
+    // HALEY
     {
       "LogName": "DSV Haley Daily Dialogue - Modded Haley",
       "Action": "EditData",
@@ -493,6 +522,7 @@
       },
       "When": {
         "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:HaleyDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Black, Romani}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true
       }
@@ -509,6 +539,7 @@
       },
       "When": {
         "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:HaleyDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryEmily": "True"
       }
@@ -524,6 +555,7 @@
       },
       "When": {
         "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:HaleyDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:HaleyVariant |contains= Black, Romani}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.TenthousandcatsHaley}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.AirynHaley}}' = 'true'": true
       }
@@ -540,6 +572,7 @@
       },
       "When": {
         "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:HaleyDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryEmily": "True"
       }
@@ -554,6 +587,7 @@
       },
       "When": {
         "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:HaleyDialogue": "True",
         "Year |contains= 1, 2, 3, 4": false,
         "CFE_Festivals": "true",
@@ -562,7 +596,7 @@
         "DSV.Core/FlowerQueen |contains= Haley": false
       }
     },
-    //HARVEY
+    // HARVEY
     {
       "LogName": "DSV Harvey Daily Dialogue - Modded Harvey",
       "Action": "EditData",
@@ -575,6 +609,7 @@
       },
       "When": {
         "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:HarveyDialogue": "True",
         "DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh, ModdedNonSikh": true
       }
@@ -591,11 +626,12 @@
       },
       "When": {
         "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:HarveyDialogue": "True",
         "DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh": true
       }
     },
-    //JODI
+    // JODI
     {
       "LogName": "DSV Jodi Daily Dialogue - No More War",
       "Action": "EditData",
@@ -609,6 +645,7 @@
       },
       "When": {
         "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:JodiDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true')": true
       }
@@ -623,11 +660,12 @@
       },
       "When": {
         "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:JodiDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true' OR '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true'": true
       }
     },
-    //KENT
+    // KENT
     {
       "LogName": "DSV Kent Daily Dialogue - No More War",
       "Action": "EditData",
@@ -645,6 +683,7 @@
       },
       "When": {
         "Query: '{{CFE_Kent}}' = 'true' OR ('{{CFE_Kent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:KentDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true')": true
       }
@@ -660,6 +699,7 @@
       },
       "When": {
         "Query: '{{CFE_Kent}}' = 'true' OR ('{{CFE_Kent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:KentDialogue": "True",
         "DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled": true
       }
@@ -675,10 +715,11 @@
       },
       "When": {
         "Query: '{{CFE_Kent}}' = 'true' OR ('{{CFE_Kent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:KentDialogue": "True"
       }
     },
-    //LEAH
+    // LEAH
     {
       "LogName": "DSV Leah Daily Dialogue - Native Leah",
       "Action": "EditData",
@@ -696,6 +737,7 @@
       },
       "When": {
         "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:LeahDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:LeahVariant |contains= Native}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
       }
@@ -710,11 +752,12 @@
       },
       "When": {
         "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:LeahDialogue": "True",
         "DSV.Core/ConfigValue:GusVariant |contains= Modded": true
       }
     },
-    //LINUS
+    // LINUS
     {
       "LogName": "DSV Linus Daily Dialogue - Modded Linus",
       "Action": "EditData",
@@ -728,12 +771,13 @@
       },
       "When": {
         "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:LinusDialogue |contains= True": true,
         "DSV.Core/ConfigValue:LinusVariant |contains= Modded": true,
         "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
       }
     },
-    //MARU
+    // MARU
     {
       "LogName": "DSV Maru Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
@@ -749,6 +793,7 @@
       },
       "When": {
         "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:MaruDialogue": "True",
         "DSV.Core/ConfigValue:NonbinarySebastian": "True"
       }
@@ -763,6 +808,7 @@
       },
       "When": {
         "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:MaruDialogue": "True",
         "DSV.Core/ConfigValue:NonbinarySebastian": "True",
         "Year |contains= 1, 2, 3, 4": false,
@@ -770,7 +816,7 @@
         "SyncedRandom": "True"
       }
     },
-    //PAM
+    // PAM
     {
       "LogName": "DSV Pam Daily Dialogue - Religion Edits",
       "Action": "EditData",
@@ -781,11 +827,12 @@
       },
       "When": {
         "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:PamDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true' OR '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true'": true
       }
     },
-    //PENNY
+    // PENNY
     {
       "LogName": "DSV Penny Daily Dialogue - Trans Penny & Sam",
       "Action": "EditData",
@@ -796,6 +843,7 @@
       },
       "When": {
         "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:PennyDialogue": "True"
       }
     },
@@ -809,6 +857,7 @@
       },
       "When": {
         "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:PennyDialogue": "True",
         "DSV.Core/ConfigValue:LinusVariant |contains= Modded": true
       }
@@ -823,10 +872,11 @@
       },
       "When": {
         "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:PennyDialogue": "True"
       }
     },
-    //PIERRE
+    // PIERRE
     {
       "LogName": "DSV Pierre Daily Dialogue - Nonbinary Abigail",
       "Action": "EditData",
@@ -840,11 +890,12 @@
       },
       "When": {
         "Query: '{{CFE_Pierre}}' = 'true' OR ('{{CFE_Pierre}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:PierreDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
     },
-    //ROBIN
+    // ROBIN
     {
       "LogName": "DSV Robin Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
@@ -858,11 +909,12 @@
       },
       "When": {
         "Query: '{{CFE_Robin}}' = 'true' OR ('{{CFE_Robin}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:RobinDialogue": "True",
         "DSV.Core/ConfigValue:NonbinarySebastian": "True"
       }
     },
-    //SAM
+    // SAM
     {
       "LogName": "DSV Sam Daily Dialogue - Trans Penny & Sam",
       "Action": "EditData",
@@ -874,6 +926,7 @@
       },
       "When": {
         "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SamDialogue": "True"
       }
     },
@@ -888,6 +941,7 @@
       },
       "When": {
         "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SamDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
@@ -902,6 +956,7 @@
       },
       "When": {
         "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SamDialogue": "True",
         "DSV.Core/ConfigValue:NonbinarySebastian": "True"
       }
@@ -916,6 +971,7 @@
       },
       "When": {
         "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SamDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true')": true
       }
@@ -930,6 +986,7 @@
       },
       "When": {
         "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SamDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
@@ -945,11 +1002,12 @@
       },
       "When": {
         "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SamDialogue": "True",
         "DSV.Core/ConfigValue:NonbinarySebastian": "True"
       }
     },
-    //SANDY
+    // SANDY
     {
       "LogName": "DSV Sandy Daily Dialogue - Modded Sandy",
       "Action": "EditData",
@@ -960,6 +1018,7 @@
       },
       "When": {
         "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SandyDialogue": "True",
         "DSV.Core/ConfigValue:SandyVariant |contains= Modded": true
       }
@@ -976,11 +1035,12 @@
       },
       "When": {
         "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SandyDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryEmily": "True"
       }
     },
-    //SEBASTIAN
+    // SEBASTIAN
     {
       "LogName": "DSV Sebastian Daily Dialogue - Nonbinary Abigail",
       "Action": "EditData",
@@ -991,11 +1051,12 @@
       },
       "When": {
         "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:SebastianDialogue": "True",
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
     },
-    //VINCENT
+    // VINCENT
     {
       "LogName": "DSV Vincent Daily Dialogue - No More War",
       "Action": "EditData",
@@ -1006,6 +1067,7 @@
       },
       "When": {
         "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
+        "HasMod |contains= DSV.Core": true,
         "DSV.Core/ConfigValue:VincentDialogue": "True",
         "Query: '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{HasMod |contains= ShotFromGuns.NoMoreWarKentJournalist}}' = 'true' OR '{{HasMod |contains= Mazout.NoMoreWarSFGKentReporterDeGuerre}}' = 'true' OR (('{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true') AND '{{DSV.Core/ConfigValue:NoMoreWarDialogueEdits}}' = 'true')": true
       }
