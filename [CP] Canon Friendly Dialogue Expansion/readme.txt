@@ -23,6 +23,9 @@ list of new lines added (or edited) by this update in i18n folder:
 
 
 [Stable updates]
+VERSION 3.0.7 DEFAULT.JSON CHANGES
+none :) this update fixes some minor coding bugs. The 3.0.6 log has been updated to include the lines added for clint. 
+
 VERSION 3.0.6 DEFAULT.JSON CHANGES
 
 //added feast of the sun and PPAF compat via dynamic tokens. Thank you to Kailey and Airyn for doing the work for this! Some lines have been edited, while others have new iterations to translate. 
@@ -110,27 +113,27 @@ VERSION 3.0.6 DEFAULT.JSON CHANGES
   "CFE_Penny_winterTue10": "With the Feast of the Winter Star approaching, I was counting my blessings.#$b#I'm very thankful to have gotten to know you, @.{{LovePortraitsNeutral}}",
   "CFE_Penny_Married_IndoorNight_3.DSV.TransPenny": "Now that I have another source of income, I can start saving up for surgery... I'm so grateful to be able to share in all the success you've had here.{{LovePortraitsHappy}}",
   "CFE_Penny_Married_TwoKids_8": "With the way I grew up, I never really thought I'd amount to much. But seeing our children like this makes me feel so lucky.{{LovePortraitsNeutral}}",
-"CFE_Penny_Married_Outdoor_1": "This whole scene, all ours... it's a dream come true.{{LovePortraitsHappy}}#$e#I realize how much I was missing before you moved into town.{{LovePortraitsNeutral}}",
-"CFE_Sam_fallMon10y1": "You're the best, @. I can't wait for my dad to meet you when he gets back.{{LovePortraitsHappy}}",
-"CFE_Sam_fallWed10": "It's tough for me to focus on writing lyrics lately. I think some of my muse came from feeling isolated in this town.#$e#But that's... not really an issue anymore.{{LovePortraitsNeutral}}",
-"CFE_Sam_Married_RainyNight_5": "Earlier, I listened to our live recording from that show we played. Remember that? Man, was that sloppy.#$b#It made me a little nervous that you were there, I didn't want to mess up and have you think I was a loser!$10",
-"CFE_Sam_Married_winter14": "If you're not as busy this season, is there a day that we can just spend lounging around? I really kinda miss you.{{LovePortraitsNeutral}}",
-"CFE_Sebastian_PrismaticShard": "This is awesome. I could stare at it for hours.$6#$b#Er, well, minutes. I could stare at it for... a while.{{LovePortraitsNeutral}}",
-"CFE_Sebastian_summerMon10": "I've gotta say, @, when I first met you, I didn't think I'd like you. You seemed so...#$b#...peppy?$h#$b#But I'm glad I was wrong. It was probably just me projecting assumptions on someone who willingly moved to Pelican Town.{{LovePortraitsExpression7}}",
-"CFE_Sebastian_summerSat10": "Maybe it'd be fun to ride my bike out in a nighttime thunderstorm.#$e#I mean, uh, scratch that. Too dangerous, I know.$s#$e#I know you'd worry. I've got to think of that.{{LovePortraitsExpression7}}",
-"CFE_Sebastian_winterMon10": "I was just thinking... I'm really thankful I have you in my life.{{LovePortraitsExpression7}}#$e#Just something I was thinking about, with the Feast of the Winter Star coming up.",
-"CFE_Sebastian_Mon10": "It seems pretty narcissistic to assume that we matter in the grand scheme of things.$s#$e#That said, though, you matter to me, no matter how indifferent the universe might be.{{LovePortraitsExpression7}}",
-"CFE_Sebastian_Married_IndoorNight_9": "I often felt unappreciated back home... but here I feel like I really belong. Thanks for making me feel welcome.{{LovePortraitsExpression7}}",
-"CFE_Sebastian_Married_TwoKids_3": "I can't say this is exactly the kind of life I imagined when I first met you. But it does feel more purposeful than I ever would've imagined.{{LovePortraitsExpression7}}",
-"CFE_Sebastian_Married_TwoKids_7": "We've come a long way, @. Look at our family. To be honest, I never really thought I'd end up in this situation.#$e#Now that I'm here, I like it...{{LovePortraitsExpression7}}",
-"CFE_Shane_fallTue10": "It's strange how I don't ever seem to get bored with seeing you, @.#$e#That's never happened for me before.{{LovePortraitsExpression6}}",
-"CFE_Shane_Married_IndoorDay_11": "@, I mean it when I say you're the best thing in my life.{{LovePortraitsExpression6}}#$e#Well, you and Charlie.#$e#Actually, y'know what? Just Charlie.$3#$e#...Ha ha, what?$h",
-"CFE_Shane_Married_IndoorNight_10": "Hey, uh... take this outta my hands, will you?[346 303]$s#$e#I'm glad you're home.{{LovePortraitsExpression6}}",
-"CFE_Shane_Married_summer17": "How do people like you and Marnie just keep it together all the time? I don't even know where I'd be if Marnie hadn't taken in Jas... and me.$s#$e#Well, and then you came along.{{LovePortraitsExpression6}}",
-"CFE_Luau_George": "I liked the {{LongLuauName}} better, back when we didn't have those big electronic speakers ruining the atmosphere of the beach.#$e#This was... oh, twenty, twenty-five years ago.",
-"CFE_Luau_Robin_y2": "Oh, hi @! It wouldn't be a proper {{LongLuauName}} without a little dancing, would it?$1",
-"CFE_Luau_Pierre_y2": "If we ever get a storm on {{ShortLuauName}} day, we could always host the Governor in my store.#$e#...What? I could make it work.",
-"CFE_Luau_Elliott_y2": "I didn't forget about the {{LongLuauName}} this year!$1#$e#Well, Leah reminded me, anyway. That helped.",
+  "CFE_Penny_Married_Outdoor_1": "This whole scene, all ours... it's a dream come true.{{LovePortraitsHappy}}#$e#I realize how much I was missing before you moved into town.{{LovePortraitsNeutral}}",
+  "CFE_Sam_fallMon10y1": "You're the best, @. I can't wait for my dad to meet you when he gets back.{{LovePortraitsHappy}}",
+  "CFE_Sam_fallWed10": "It's tough for me to focus on writing lyrics lately. I think some of my muse came from feeling isolated in this town.#$e#But that's... not really an issue anymore.{{LovePortraitsNeutral}}",
+  "CFE_Sam_Married_RainyNight_5": "Earlier, I listened to our live recording from that show we played. Remember that? Man, was that sloppy.#$b#It made me a little nervous that you were there, I didn't want to mess up and have you think I was a loser!$10",
+  "CFE_Sam_Married_winter14": "If you're not as busy this season, is there a day that we can just spend lounging around? I really kinda miss you.{{LovePortraitsNeutral}}",
+  "CFE_Sebastian_PrismaticShard": "This is awesome. I could stare at it for hours.$6#$b#Er, well, minutes. I could stare at it for... a while.{{LovePortraitsNeutral}}",
+  "CFE_Sebastian_summerMon10": "I've gotta say, @, when I first met you, I didn't think I'd like you. You seemed so...#$b#...peppy?$h#$b#But I'm glad I was wrong. It was probably just me projecting assumptions on someone who willingly moved to Pelican Town.{{LovePortraitsExpression7}}",
+  "CFE_Sebastian_summerSat10": "Maybe it'd be fun to ride my bike out in a nighttime thunderstorm.#$e#I mean, uh, scratch that. Too dangerous, I know.$s#$e#I know you'd worry. I've got to think of that.{{LovePortraitsExpression7}}",
+  "CFE_Sebastian_winterMon10": "I was just thinking... I'm really thankful I have you in my life.{{LovePortraitsExpression7}}#$e#Just something I was thinking about, with the Feast of the Winter Star coming up.",
+  "CFE_Sebastian_Mon10": "It seems pretty narcissistic to assume that we matter in the grand scheme of things.$s#$e#That said, though, you matter to me, no matter how indifferent the universe might be.{{LovePortraitsExpression7}}",
+  "CFE_Sebastian_Married_IndoorNight_9": "I often felt unappreciated back home... but here I feel like I really belong. Thanks for making me feel welcome.{{LovePortraitsExpression7}}",
+  "CFE_Sebastian_Married_TwoKids_3": "I can't say this is exactly the kind of life I imagined when I first met you. But it does feel more purposeful than I ever would've imagined.{{LovePortraitsExpression7}}",
+  "CFE_Sebastian_Married_TwoKids_7": "We've come a long way, @. Look at our family. To be honest, I never really thought I'd end up in this situation.#$e#Now that I'm here, I like it...{{LovePortraitsExpression7}}",
+  "CFE_Shane_fallTue10": "It's strange how I don't ever seem to get bored with seeing you, @.#$e#That's never happened for me before.{{LovePortraitsExpression6}}",
+  "CFE_Shane_Married_IndoorDay_11": "@, I mean it when I say you're the best thing in my life.{{LovePortraitsExpression6}}#$e#Well, you and Charlie.#$e#Actually, y'know what? Just Charlie.$3#$e#...Ha ha, what?$h",
+  "CFE_Shane_Married_IndoorNight_10": "Hey, uh... take this outta my hands, will you?[346 303]$s#$e#I'm glad you're home.{{LovePortraitsExpression6}}",
+  "CFE_Shane_Married_summer17": "How do people like you and Marnie just keep it together all the time? I don't even know where I'd be if Marnie hadn't taken in Jas... and me.$s#$e#Well, and then you came along.{{LovePortraitsExpression6}}",
+  "CFE_Luau_George": "I liked the {{LongLuauName}} better, back when we didn't have those big electronic speakers ruining the atmosphere of the beach.#$e#This was... oh, twenty, twenty-five years ago.",
+  "CFE_Luau_Robin_y2": "Oh, hi @! It wouldn't be a proper {{LongLuauName}} without a little dancing, would it?$1",
+  "CFE_Luau_Pierre_y2": "If we ever get a storm on {{ShortLuauName}} day, we could always host the Governor in my store.#$e#...What? I could make it work.",
+  "CFE_Luau_Elliott_y2": "I didn't forget about the {{LongLuauName}} this year!$1#$e#Well, Leah reminded me, anyway. That helped.",
   
 
 
@@ -187,6 +190,9 @@ VERSION 3.0.6 DEFAULT.JSON CHANGES
   "CFE_Alex_Married_OneKid_5.PPAF.AlwaysAdopt": "I think I'm really bonding with the kiddo.$h",
   "CFE_Alex_Married_spouseRoom_1.PPAF.NoRomance": "Don't ever let me get lazy. I want to stay in good shape so I can keep helping you out!",
   "CFE_Alex_Married_Outdoor_8.PPAF.NoRomance": "Look at us, with our little farm. We make a good team.$h",
+  "CFE_Clint_summerThuinlawEmily.PPAF.NoRomance": "...$s#$e#...What? Oh...#$e#...I was just thinking that I don't see Emily much now that you're {{RelationshipLabel}}.$s#$e#What do you need?",
+  "CFE_Clint_fallMoninlawEmily.PPAF.NoRomance": "How are you and Emily?#$e#Oh, that's great!#$e#And, um... Is it really not... I mean, the two of you aren't...#$b#Sorry. It's none of my business.",
+  "CFE_Clint_winterSuninlawEmily.PPAF.NoRomance": "I'm not in the mood to chat today.$s#$e#Why don't you just go talk to Emily? She likes you better anyway.$3#$e#Sorry I... that was...$4#$b#I'm sorry. What do you need?",
   "CFE_Demetrius_SuninlawSebastian.PPAF.NoRomance": "It's such a relief that Sebastian's finally moved out. I did always think you two were a good fit for each other.$h",
   "CFE_Elliott_repeated_6.DSV.JewishElliott": "One thing I adore about this beach is that I can enjoy a luxurious seared albacore dinner on the cheap.$h#$e#The finest things in life require very little money if you know where to look.",
   "CFE_Elliott_summerMon10.PPAF.NoRomance": "I can't help but picture you whenever I sit down to write.{{LovePortraitsNeutral}}#$b#Would it be too sentimental to describe you as my muse?$h",
