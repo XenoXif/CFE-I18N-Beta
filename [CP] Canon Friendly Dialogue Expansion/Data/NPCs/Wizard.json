@@ -48,9 +48,9 @@
     },
 
     {
-      "LogName": "CFE_Dwarf_Dialogue",
+      "LogName": "CFE_Wizard_Dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Dwarf",
+      "Target": "Characters/Dialogue/Wizard",
       "Entries": {
         //special dialogue
 

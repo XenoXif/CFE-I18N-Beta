@@ -48,9 +48,9 @@
     },
 
     {
-      "LogName": "CFE_Dwarf_Dialogue",
+      "LogName": "CFE_Marnie_Dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Dwarf",
+      "Target": "Characters/Dialogue/Marnie",
       "Entries": {
         //Special Dialogue
         "Tue8_inlaw_Shane": "{{i18n: CFE_Marnie_Tue8inlawShane}}",

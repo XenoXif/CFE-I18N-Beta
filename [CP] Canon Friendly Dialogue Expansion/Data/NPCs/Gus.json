@@ -48,9 +48,9 @@
     },
 
     {
-      "LogName": "CFE_Dwarf_Dialogue",
+      "LogName": "CFE_Gus_Dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Dwarf",
+      "Target": "Characters/Dialogue/Gus",
       "Entries": {
         //special dialogue
         "Saloon": null, //intentionally nulled
@@ -81,9 +81,9 @@
     },
 
     {
-      "LogName": "CFE_Dwarf_Dialogue_Compat.Haywrites",
+      "LogName": "CFE_Gus_Dialogue_Compat.Haywrites",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Dwarf",
+      "Target": "Characters/Dialogue/Gus",
       "When": { "ModdedDialogCompat.Hay": "true" },
       "Entries": {
         //Heart Specific Dialogue

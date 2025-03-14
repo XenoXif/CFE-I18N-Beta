@@ -9,7 +9,7 @@
       "Entries": {
         "Thu2": "{{i18n: CFE_Abigail_repeated_6.DSV.NonbinarySebastian}}",
         "summer_Fri2": "{{i18n: CFE_Abigail_summerFri2.DSV.NonbinarySebastian}}",
-        "fall_Tue2": "{{i1n: CFE_Abigail_repeated_6.DSV.NonbinarySebastian}}",
+        "fall_Tue2": "{{i18n: CFE_Abigail_repeated_6.DSV.NonbinarySebastian}}",
         "fall_Thu4": "{{i18n: CFE_Abigail_fallThu4.DSV.NonbinarySebastian}}"
       },
       "When": {
