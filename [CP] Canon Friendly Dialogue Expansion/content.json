@@ -176,10 +176,15 @@
       "Default": "true",
       "Section": "Dialogue"
     },
-    "CFE_Festivals": {
+    "CFE_Festivals_Add": {
       "AllowValues": "true, false",
       "Default": "true",
-      "Section": "Misc"
+      "Section": "Festivals"
+    },
+    "CFE_Festivals_Replace": {
+      "AllowValues": "true, false",
+      "Default": "False",
+      "Section": "Festivals"
     }
   },
 
@@ -816,12 +821,12 @@
       }
     },
     {
-      "LogName": "CFE_FestivalAlt_Include",
+      "LogName": "CFE_FestivalAdd_Include",
       "Action": "Include",
       "FromFile": "Data/Festivals/Fest_True.json",
       "When": {
         "Year": "3, 4",
-        "CFE_Festivals": "true"
+        "CFE_Festivals_Add": "true"
       }
     },
     {
@@ -831,7 +836,15 @@
       "When": {
         "SyncedRandom": "True",
         "Year |contains= 1, 2, 3, 4": false,
-        "CFE_Festivals": "true"
+        "CFE_Festivals_Add": "true"
+      }
+    },
+    {
+      "LogName": "CFE_FestivalChanged_Include",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/Fest_True.json",
+      "When": {
+        "CFE_Festivals_Replace": "true"
       }
     },
     {
