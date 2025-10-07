@@ -830,6 +830,14 @@
       }
     },
     {
+      "LogName": "CFE_FestivalChanged_Include",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/Fest_True.json",
+      "When": {
+        "CFE_Festivals_Replace": "true"
+      }
+    },
+    {
       "LogName": "CFE_FestivalRandom_Include",
       "Action": "Include",
       "FromFile": "Data/Festivals/Fest_True.json",
@@ -837,14 +845,6 @@
         "SyncedRandom": "True",
         "Year |contains= 1, 2, 3, 4": false,
         "CFE_Festivals_Add": "true"
-      }
-    },
-    {
-      "LogName": "CFE_FestivalChanged_Include",
-      "Action": "Include",
-      "FromFile": "Data/Festivals/Fest_True.json",
-      "When": {
-        "CFE_Festivals_Replace": "true"
       }
     },
     {
