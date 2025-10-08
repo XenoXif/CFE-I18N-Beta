@@ -23,6 +23,9 @@ list of new lines added (or edited) by this update in i18n folder:
 
 
 [Stable updates]
+VERSION 3.0.7 DEFAULT.JSON CHANGES
+none! this was just a minor bug fix that couldnt wait for separate publishing.
+
 VERSION 3.0.8 DEFAULT.JSON CHANGES
 //Minor changes to the config section: misc section removed, new config option added. 
 
