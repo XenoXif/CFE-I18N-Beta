@@ -240,6 +240,17 @@
 
     //Festival Compat
     {
+      "Name": "CFE_Festivals",
+      "Value": "false"
+    },
+    {
+      "Name": "CFE_Festivals",
+      "Value": "true",
+      "When": {
+        "Query: '{{CFE_Festivals_Add}}' = 'true' OR '{{CFE_Festivals_Replace}}' = 'true'": true
+      }
+    },
+    {
       "Name": "SyncedRandom",
       "Value": "{{Random: True, False |key=CFE_SyncedRandom}}" //used for syncing edits to CFE's festival dialogue. Other mods can also sync any compatibility edits in their own code by copying this token and key and including it in their content.json
     },
