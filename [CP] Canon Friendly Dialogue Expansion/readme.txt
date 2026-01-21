@@ -23,7 +23,10 @@ list of new lines added (or edited) by this update in i18n folder:
 
 
 [Stable updates]
-VERSION 3.0.7 DEFAULT.JSON CHANGES
+VERSION 3.1.0 DEFAULT.JSON CHANGES
+none! this update preps canon friendly for upcoming sdv releases and fixes a minor error in Penny's gift taste code. ( i will not be releasing this update until 1.6.16 or 1.7 is released, so if you'd like to make dialogue changes gizzymo we can certainly edit this section to include those changes)
+
+VERSION 3.0.9 DEFAULT.JSON CHANGES
 none! this was just a minor bug fix that couldnt wait for separate publishing.
 
 VERSION 3.0.8 DEFAULT.JSON CHANGES
