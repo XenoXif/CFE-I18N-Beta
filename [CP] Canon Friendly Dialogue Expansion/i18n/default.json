@@ -5484,7 +5484,7 @@
   "CFE_EggFest_Y1_Maru": "Happy Egg Fest to you! Are you settling in okay?#$e#I know you've got a busy schedule, but thanks for making time!",
   "CFE_EggFest_Y1_Pam": "Hey there! First Pelican Town festival, huh?#$b#Glad we haven't all scared you off yet!$h",
   "CFE_EggFest_Y1_Penny": "I like spending time with the kids on my off-hours, too.#$b#It's enjoyable, even if they can be a bit goofy.",
-  "CFE_EggFest_Y1_Pierre": "Nothing to see here! I-$4#$b#Oh, @, it's just you. I thought for a second you were someone else.$4#$e#...Um, what are you doing back here, anyway?", //suggest: needs a y2+ line, can be a copy of vanilla. just needs adding to prevent code breaking
+  "CFE_EggFest_Y1_Pierre": "Nothing to see here! I-$4#$b#Oh, @, it's just you. I thought for a second you were someone else.$4#$e#...Um, what are you doing back here, anyway?",
   "CFE_EggFest_Y1_Robin": "@! Glad you were able to make it.#$e#This must be your first time seeing everyone all in one place, isn't it?#$b#We look after our neighbors here. That includes you now!",
   "CFE_EggFest_Y1_Sam": "*sniff* If my allergies decide to give me a break, I might see if I can help my little brother find some eggs.$s",
   "CFE_EggFest_Y1_Sebastian": "Whew, so many bright pastels. It kind of hurts my eyes.#$e#Hey, I'm not complaining. It's just a fact. And I can deal.",
@@ -5531,7 +5531,7 @@
   "CFE_Luau_Y1_Clint": "They've got clam chowder, fish stew, and lobster bisque at this table, but I couldn't carry all three back to my spot, so I just combined 'em all into one bowl.#$e#...Maybe the potluck soup will taste better.$s",
   "CFE_Luau_Y1_Demetrius": "The atmosphere seems a bit lighter than at last year's {{ShortLuauName}}.#$b#The party atmosphere, I mean. Not the literal atmosphere.#$b#Though that's an important topic to discuss too, but erm... not this minute.",
   "CFE_Luau_Y1_Elliott": "I don't carry much of an appetite during these sweltery summer days, but I cannot pass up an opportunity like this. Time to strike while the iron is hot!",
-  "CFE_Luau_Y1_Evelyn": "Did you need sunscreen? If you do, I brought extra.#$e#I always have extra.$h", //suggest: "Melanoma is no joke!" would fit well and be funny here instead of the second comment about having extra
+  "CFE_Luau_Y1_Evelyn": "Did you need sunscreen? If you do, I brought extra.#$e#Melanoma is no joke!",
   "CFE_Luau_Y1_George": "There's too much food here. Used to be there was only the soup. And anyone who didn't like the soup could go to bed hungry.#$b#So naturally, it tasted good every year, and nobody threw a fit. But these days... *grumble grumble*",
   "CFE_Luau_Y1_Governor": "Ah, Lewis, it would be lovely to visit Pelican town more often, but I'm afraid my schedule keeps me too busy to afford more frequent visits.#$e#What have we on the menu today, hmm?",
   "CFE_Luau_Y1_Gus": "If you see it, it's got your name on it! That's my rule.#$e#Oh, and if you've had some, why not have some more? That's another rule.$h",
@@ -5591,7 +5591,7 @@
   "CFE_Fair_Y1_Alex": "All right... I've put down a few burgers and I'm ready to rock some of these games!#$e#Have you been up the hill yet? It's like a burger heaven there.",
   "CFE_Fair_Y1_Caroline": "It's nice to see all the out-of-towners here. Some of them are fresh faces, but there are also a few familiar folks I can catch up with.",
   "CFE_Fair_Y1_Clint": "It's kind of nice. I've been getting a lot of compliments on my weapons display here.#$e#I guess I don't talk about it much... not everyone knows I've got some talent.$h#$b#I sort of forget sometimes too.",
-  "CFE_Fair_Y1_Demetrius": "I think Robin's woodworking demonstration is really interesting.", //suggest: "Have you seen it yet?" would fit well here
+  "CFE_Fair_Y1_Demetrius": "Well, I think Robin's woodworking demonstration is really interesting.",
   "CFE_Fair_Y1_Elliott": "Ah! I see you've found my favorite corner of the fairgrounds.#$e#Truth be told, I came up a bit short in my grocery budget this week, so a feast like this is a life-saver.",
   "CFE_Fair_Y1_Emily": "Some people worry about what's beyond the makeup when they see a clown. I let my sense of wonder take over instead.$3#$b#Where you set your expectations is what you'll get, you know?",
   "CFE_Fair_Y1_Evelyn": "You must be working hard this season, dearie. Are you taking it easier today?#$e#Come get something to eat. I bet you've worked up an appetite!",
@@ -5671,9 +5671,8 @@
   "CFE_IceFest_Y1_Gus": "I wrapped a salmon in some foil and I'm gonna bake it nice and slow in the coals... as soon as these flames die down a bit.",
   "CFE_IceFest_Y1_Harvey": "If you see anyone's teeth chattering, just let me know and I'll throw a blanket over their shoulders!#$e#I brought two dozen blankets... do you think that'll be enough?",
   "CFE_IceFest_Y1_Jas": "I've only ever made snow kids. Snowmen are too tall for me to reach up to.#$e#So this is my first actual snow man!$h",
-  "CFE_IceFest_Y1_Vincent": "Heeere fishy fishy...",
-  "CFE_Icefest_Y1_Willy": "Squidfest is right around the corner. Today's a good day to get in some practice.#$e#You've got to be clever to catch a squid. Think you'll be interested to join?$h", //suggest: needs a y2+ line, can be a copy of vanilla. just needs adding to prevent code breaking
-
+  "CFE_IceFest_Y1_Vincent": "17... 18... How many fish are in there? I keep losing count!",
+  "CFE_Icefest_Y1_Willy": "Squidfest is right around the corner. Today's a good day to get in some practice.#$e#You've got to be clever to catch a squid. Think you'll be interested to join?$h",
   "CFE_WinterStar_Y1_Abigail": "Mmph, really good pumpkin pie. You should try some.#$e#Yeah, I had dessert first. Life is short.",
   "CFE_WinterStar_Y1_Robin": "The way the Winter Star appears and disappears all on one night, it's kind of like a friendly presence winking at us.#$e#That's not my literal belief, but it's a nice thought I've held since I was a kid.",
   "CFE_WinterStar_Y1_Demetrius": "No one fully knows why the Winter Star is only visible from this valley, or even what it exactly is.#$e#Researchers say it looks like an ordinary star, but it exhibits some unusual properties.#$e#I'd have to be an astronomer to give you more details than that.$h",
@@ -5690,7 +5689,7 @@
   "CFE_WinterStar_Y1_Clint": "I had some shoulder pain that started a few days ago, but today I woke up and felt fine.#$b#If that's a Winter Star miracle, I'll take it.$h",
   "CFE_WinterStar_Y1_Emily": "$y '@! What are you hoping to find under the spirit tree?_Tasty beverages_Yum! Well, you've earned it, haven't you?_Toys_That's the spirit! I say you're never too old for toys.$h_A stack of cold hard cash_Oh. Well that's not very personal, is it?$3'",
   "CFE_WinterStar_Y1_Penny": "Hi @. Happy feasting.$h#$e#The kids have finished their work for the term, so we're taking it a little easier until spring.",
-  "CFE_WinterStar_Y1_Pam": "Bet they don't celebrate like this over in Zuzu, huh? The winter star is only visible here in the Valley, so we make the best of it!",
+  "CFE_WinterStar_Y1_Pam": "Bet they don't celebrate like this over in Zuzu, huh? The Winter Star is only visible here in the Valley, so we make the best of it!",
   "CFE_WinterStar_Y1_Haley": "Such a beautiful tree. I already got a lot of photos.#$e#I also got photos of the table spreads and decorations.",
   "CFE_WinterStar_Y1_Jodi": "I read this morning that the military is sending a thousand troops home. So that's some good news, isn't it?#$e#Do you suppose it could be true?",
   "CFE_WinterStar_Y1_Sam": "I woke my family with some old fashioned carols this morning, bright and early. It's a little tradition we have.#$e#Mom asked me to turn down the amp on my guitar. That's another little tradition.",
@@ -5702,11 +5701,12 @@
   "CFE_WinterStar_Y1_Vincent": "Are those giant candy canes made of real candy cane?",
   "CFE_WinterStar_Y1_Marlon": "There are still plenty of things I hope to get out of life.#$b#Having more days like this would be at the top of my list.",
   "CFE_WinterStar_Y1_Gus": "Three days well spent! That's how long I spent in the kitchen, prepping this feast.#$e#I'm ready to sleep clean through to the new year, but it was worth it!#$e#%Gus appears to be zoning out from fatigue.",
-  "CFE_WinterStar_Y1_Willy": "A jug of spiced mead goes well with an occasion like this.$h", //suggest: needs a y2+ line, can be a copy of vanilla. just needs adding to prevent code breaking
+  "CFE_WinterStar_Y1_Willy": "A jug of spiced mead goes well with an occasion like this.$h",
 
 
-  //Year 2+
+  //Year 3+
   //Egg Festival
+  "CFE_EggFest_Pierre": "You're back here again? You know, there are easier ways to casually say hello.",
   "CFE_EggFest_Abigail": "Sam? Sebastian? Did you guys even try last year?",
   "CFE_EggFest_Robin": "Hey, @. Good to see you here.#$e#You must be in full swing with your crops by now, huh?",
   "CFE_EggFest_Demetrius": "Gus's buffet is pretty spectacular this year. Are any of the eggs in there from your farm?",
@@ -5736,6 +5736,7 @@
   "CFE_EggFest_Willy": "The children of this town don't care too much for what I spend most of my time doing. And that's fine.#$b#Helping out with this event helps me connect with them a little, even if indirectly.$h",
   "CFE_EggFest_Kent": "I'll help clean up when the event wraps up. It's the least I can do.",
   "CFE_EggFest_Leo": "Did you know ostriches used to live on Ginger Island? That's what the parrots told me.#$e#Their eggs are so huge! You could probably fit your head inside if you tried.$h",
+  "CFE_EggFest_Pierre_Alt": "So uh, this is just what we do now, huh? You just sort of make yourself comfortable back here?#$e#I'll put you to work if you keep hanging around. Maybe I'll go hunt some eggs...",
   "CFE_EggFest_Abigail_y2": "Are you bringing your A-game again this year?$1",
   "CFE_EggFest_Robin_y2": "@, what do you think? Could %farm farm use another coop?#$e#I'm on board if you are!$1",
   "CFE_EggFest_Demetrius_y2": "The grass in the valley is very nutritious for chickens, certainly better than the corn they're fed on most other farms.",
@@ -6125,6 +6126,7 @@
   "CFE_IceFest_Vincent": "Look! If you stomp really hard, little cracks appear in the ice.#$e#What? Why is that bad?$u#$e#Oh...$u",
   "CFE_IceFest_Leo": "When the snow falls from the sky, I like to look straight up and spin around.$1#$e#You should try it.",
   "CFE_IceFest_Kent": "Biggest fish I ever caught was almost as long as my arm... but I suppose you've caught even bigger ones.$h",
+  "CFE_IceFest_Willy": "$y 'Hey, @. Ready for another ice fishing competition?_I'm always ready._I know you'll never let me down!$h_Sure. This will be too easy._Har har, now don't get overconfident!$h_*sigh* Do we have to?_Y-you don't like fishing after all?$s'",
 
   "CFE_IceFest_Abigail_y2": "I think it's safe to say that I'm morally incapable of creating normal looking snowmen.#$e#Oh, I wear that as a badge of honor. But I'll spare everyone else the spectacle this year.",
   "CFE_IceFest_Robin_y2": "I know I'm late getting this done again, but it has to be architecturally accurate!",
@@ -6155,7 +6157,7 @@
   "CFE_IceFest_Jas_y2": "Heeere, fishy fishy!$1",
   "CFE_IceFest_Vincent_y2": "I want to make this snowman ten snowballs high!",
   "CFE_IceFest_Leo_y2": "I hope I travel to many different places when I'm all grown up. Maybe some places even colder than here.#$e#There's just so much to see!$1",
-  "CFE_IceFest_Willy_y2": "I like to watch the waters of the stream flow by, along with all o' me thoughts. It sets me spirit right for the competition.",
+  "CFE_IceFest_Willy_y2": "I like to watch the waters of the stream flow by, along with all o' my thoughts. It sets my spirit right for the competition.",
   "CFE_IceFest_Marlon_y2": "Gil once survived in arctic tundra, fending off skeleton mages for nearly a week straight.#$e#I may be an accomplished adventurer, but my feats are nothing compared to Gil's.",
 
   //Winter Star
@@ -6188,6 +6190,7 @@
   "CFE_WinterStar_Vincent": "Preseeeeeents!$h",
   "CFE_WinterStar_Marlon": "I spent some time in the lava mines this morning. My body isn't properly adjusted to this chill.",
   "CFE_WinterStar_Leo": "On days like these... I know I never want to live alone again.#$e#This time together is joyful!$h",
+  "CFE_WinterStar_Willy": "I opened my door bright and early today, and the first thing I saw was a whale spoutin' as if to say \"Good mornin'!\"#$b#Well now, I hope that whale gets a nice feast today too.$h",
 
   "CFE_WinterStar_Abigail_y2": "My mom almost never drinks except for this day. She must get it all out of her system at once.",
   "CFE_WinterStar_Robin_y2": "We're also coming up on the anniversary of your arrival in Pelican Town, aren't we? And look how far you've come!$1",
