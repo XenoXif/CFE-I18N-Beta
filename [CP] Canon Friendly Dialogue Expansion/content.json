@@ -176,6 +176,11 @@
       "Default": "true",
       "Section": "Dialogue"
     },
+    "CFE_Festivals_Y1": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Festivals"
+    },
     "CFE_Festivals_Add": {
       "AllowValues": "true, false",
       "Default": "true",
@@ -247,7 +252,19 @@
       "Name": "CFE_Festivals",
       "Value": "true",
       "When": {
-        "Query: '{{CFE_Festivals_Add}}' = 'true' OR '{{CFE_Festivals_Replace}}' = 'true'": true
+        "Query: '{{CFE_Festivals_Add}}' = 'true' OR '{{CFE_Festivals_Replace}}' = 'true' OR '{{CFE_Festivals_Y1}}' = 'true'": true
+      }
+    },
+    {
+      "Name": "FestivalY1Token",
+      "Value": ""
+    },
+    {
+      "Name": "FestivalY1Token",
+      "Value": "_Y1",
+      "When": {
+        "Query:'{{CFE_Festivals_Replace}}' = 'true' OR '{{CFE_Festivals_Y1}}' = 'true'": true,
+        "Year": "1"
       }
     },
     {
@@ -832,6 +849,15 @@
       }
     },
     {
+      "LogName": "CFE_FestivalY1_Include",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/Fest_True.json",
+      "When": {
+        "Year": "1",
+        "CFE_Festivals_Y1": "true"
+      }
+    },
+    {
       "LogName": "CFE_FestivalAdd_Include",
       "Action": "Include",
       "FromFile": "Data/Festivals/Fest_True.json",
@@ -841,21 +867,21 @@
       }
     },
     {
-      "LogName": "CFE_FestivalChanged_Include",
-      "Action": "Include",
-      "FromFile": "Data/Festivals/Fest_True.json",
-      "When": {
-        "CFE_Festivals_Replace": "true"
-      }
-    },
-    {
-      "LogName": "CFE_FestivalRandom_Include",
+      "LogName": "CFE_FestivalAdd_Random_Include",
       "Action": "Include",
       "FromFile": "Data/Festivals/Fest_True.json",
       "When": {
         "SyncedRandom": "True",
         "Year |contains= 1, 2, 3, 4": false,
         "CFE_Festivals_Add": "true"
+      }
+    },
+    {
+      "LogName": "CFE_FestivalReplaced_Include",
+      "Action": "Include",
+      "FromFile": "Data/Festivals/Fest_True.json",
+      "When": {
+        "CFE_Festivals_Replace": "true"
       }
     },
     {

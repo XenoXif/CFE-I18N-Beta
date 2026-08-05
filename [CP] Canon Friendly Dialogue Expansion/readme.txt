@@ -8,7 +8,8 @@ https://stardewvalleywiki.com/Modding:Translations
 
 ** Please note! you only need to translate the dialogue lines found in default.json. you won't find anything to translate in the Data folder.
 **Do not translate anything inside {{braces}}, and be careful when translating questions that you don't translate any of the question code! 
-**Example:   "CFE_Abigail_fallSun8": "[Hmm... what should I do tonight?]#$q 27/28 fall_Sun_old#[I was thinking about dyeing my hair again... what do you think?]#$r 27 10 Sun_27#[Dye it black.]#$r 27 10 Sun_27#[Why not blonde?]#$r 27 20 Sun_WildColor#[How about bubblegum pink?]#$r 28 0 Sun_28#[I like your hair just the way it is!]", only translate the portions shown in [brackets] above, and not anything that looks like this: {{GenericNoun}} 
+**Example:   "CFE_Abigail_fallSun8": "[Hmm... what should I do tonight?]#$q 27/28 fall_Sun_old#[I was thinking about dyeing my hair again... what do you think?]#$r 27 10 Sun_27#[Dye it black.]#$r 27 10 Sun_27#[Why not blonde?]#$r 27 20 Sun_WildColor#[How about bubblegum pink?]#$r 28 0 Sun_28#[I like your hair just the way it is!]",
+    only translate the portions shown in [brackets] above, and not anything that looks like this: {{GenericNoun}} 
 
 
 **EVEN IF YOUR LANGUAGE IS NOT AVAILABLE FOR MODS LIKE DIVERSE STARDEW VALLEY OR GENDER NEUTRALITY MOD TOKENS, PLEASE DO NOT REMOVE THOSE i18n KEYS FROM YOUR i18n.json FILE. THIS WILL CAUSE ERRORS FOR USERS USING YOUR TRANSLATION ALONGSIDE THOSE OTHER MODS. BILINGUAL USERS HAVE REPORTED MULTIPLE BUGS OF THIS NATURE TO US. LEAVE THEM IN, IF NECESSARY THEY CAN REMAIN IN ENGLISH.
@@ -24,7 +25,18 @@ list of new lines added (or edited) by this update in i18n folder:
 
 [Stable updates]
 VERSION 3.1.0 DEFAULT.JSON CHANGES
-none! this update preps canon friendly for upcoming sdv releases and fixes a minor error in Penny's gift taste code. ( i will not be releasing this update until 1.6.16 or 1.7 is released, so if you'd like to make dialogue changes gizzymo we can certainly edit this section to include those changes)
+//fixes error in one of penny's gift codes.
+//changes to the config section: added CFE_Festivals_Y1
+
+  "config.section.Festivals.name": "Festival Settings",
+  "config.section.Festivals.description": "Add to or fully replace festival dialogue for all NPCs.",
+
+  "config.CFE_Festivals_Add.name": "Add More Dialogue",
+  "config.CFE_Festivals_Y1.name": "Replace Year One Dialogue",
+  "config.CFE_Festivals_Y1.description": "Replaces year one festival dialogue. compatible with Add More.",
+  "config.CFE_Festivals_Replace.name": "Replace All Dialogue",
+  "config.CFE_Festivals_Replace.description": "Replaces festival dialogue from year 1 onward. NOT compatible with Add More.",
+
 
 VERSION 3.0.9 DEFAULT.JSON CHANGES
 none! this was just a minor bug fix that couldnt wait for separate publishing.
@@ -51,7 +63,7 @@ VERSION 3.0.6 DEFAULT.JSON CHANGES
 //These lines have been edited, you MUST edit your version of the line to match or there may be bugs for your users! No new translating is required for most of these lines, the appropriate edit is all that's needed. **DO NOT translate anything in {{braces}}**
 
   "CFE_Abigail_GoldPumpkin": "No way! Is that-?$7#$b#You actually found the gold pumpkin!$h#$e#@, you are so cool. I mean it!{{LovePortraitsHappy}}",
-   "CFE_Abigail_repeated_7": "I've often wondered if one day, I'll wake up and realize that the reality I knew was just a dream.#$e#But these days, I don't really hope that's the case.{{LovePortraitsNeutral}}",
+  "CFE_Abigail_repeated_7": "I've often wondered if one day, I'll wake up and realize that the reality I knew was just a dream.#$e#But these days, I don't really hope that's the case.{{LovePortraitsNeutral}}",
   "CFE_Abigail_summer10": "Everyone's excited for the {{ShortLuauName}} tomorrow. Maybe a little nervous, too, considering the Governor will be here.",
   "CFE_Abigail_summerSat10": "This might be the best summer of my life.{{LovePortraitsHappy}}#$e#But getting to spend time with you in the fall sounds even better.{{LovePortraitsNeutral}}",
   "CFE_Abigail_fallFri10": "I usually feel lonely this time of year, but not anymore.{{LovePortraitsNeutral}}#$e#@, what are your plans for the future?",
