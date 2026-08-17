@@ -1,9 +1,10 @@
 //Abigail
-"CFE_Abigail_Mony1": "I guess you're kind of roughing it out at your end of town.#$q 901/902 animalQ_old#Do you ever see any wild animals on your farm at night?#$r 901 0 animalQ_yes#Yes#$r 901 0 animalQ_no#No#$r 902 20 animalQ_monster#There are actual monsters on my farm.",
-	"animalQ_old": "#$p 902#Have you gotten your hands on a weapon to keep those creatures at bay?|Seems like a pretty cool place to live, though.",
-    "animalQ_yes": "Yeah, we've got possums, owls... Try not to get spooked.",
-    "animalQ_no": "Well, I bet you can hear them in the distance, right? They're kind of comforting.",
-    "animalQ_monster": "S-seriously? Uh, stay safe and make sure you lock your door.",
+"CFE_Abigail_Mony1": "I guess you're kind of roughing it out at your end of town.#$q 901/902 Mon_1_animalQ_old#Do you ever see any wild animals on your farm at night?#$r 901 0 Mon_1_animalQ_yes#Yes#$r 901 0 Mon_1_animalQ_no#No#$r 902 20 Mon_1_animalQ_monster#There are actual monsters on my farm.",
+	"CFE_Abigail_Mony1_animalQ_old": "#$p 902#Have you gotten your hands on a weapon to keep those creatures at bay?|Seems like a pretty cool place to live, though.",
+    "CFE_Abigail_Mony1_animalQ_yes": "Yeah, we've got possums, owls... Try not to get spooked.",
+    "CFE_Abigail_Mony1_animalQ_no": "Well, I bet you can hear them in the distance, right? They're kind of comforting.",
+    "CFE_Abigail_Mony1_animalQ_monster": "S-seriously? Uh, stay safe and make sure you lock your door.",
+
 "CFE_Abigail_Tue_y1": "Oh, uh, hey.$8#$e#Drop by the general store if you need anything. My dad was talking about you nonstop before you arrived.$8",
 "CFE_Abigail_Wed_y1": "There's a lot we don't know about the world. And even if you do discover something new, it's unlikely anybody will believe you.#$e#People rely heavily on their comfort zones, it seems.",
 "CFE_Abigail_Thu_y1": "Today's supposed to be an open research day for one of my online classes.#$e#Honestly, I doubt anybody in my class actually does anything on these days.$9",

@@ -52,8 +52,11 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
-        "Mon_1": "{{i18n: CFE_Abigail_Mony1}}"
-
+        "Mon_1": "{{i18n: CFE_Abigail_Mony1}}",
+        "Mon_1_animalQ_old": "{{i18n: CFE_Abigail_Mony1_animalQ_old}}",
+        "Mon_1_animalQ_yes": "{{i18n: CFE_Abigail_animalQ_yes}}",
+        "Mon_1_animalQ_no": "{{i18n: CFE_Abigail_animalQ_no}}",
+        "Mon_1_animalQ_monster": "{{i18n: CFE_Abigail_animalQ_monster}}"
       },
       "When": {
         "query: {{PLAYER_FRIENDSHIP_POINTS Current Abigail 20 480}}": true,

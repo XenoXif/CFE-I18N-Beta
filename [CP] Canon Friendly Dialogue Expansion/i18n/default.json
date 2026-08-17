@@ -218,6 +218,12 @@
 
   //generic weekday dialogue
   "CFE_Abigail_springThu": "Ugh... I'm not in a good mood right now.$s#$e#I said I'm not in a good mood... what do you want?$a",
+  
+  "CFE_Abigail_Mony1": "I guess you're kind of roughing it out at your end of town.#$q 901/902 Mon_1_animalQ_old#Do you ever see any wild animals on your farm at night?#$r 901 0 Mon_1_animalQ_yes#Yes#$r 901 0 Mon_1_animalQ_no#No#$r 902 20 Mon_1_animalQ_monster#There are actual monsters on my farm.",
+  "CFE_Abigail_Mony1_animalQ_old": "#$p 902#Have you gotten your hands on a weapon to keep those creatures at bay?|Seems like a pretty cool place to live, though.",
+  "CFE_Abigail_Mony1_animalQ_yes": "Yeah, we've got possums, owls... Try not to get spooked.",
+  "CFE_Abigail_Mony1_animalQ_no": "Well, I bet you can hear them in the distance, right? They're kind of comforting.",
+  "CFE_Abigail_Mony1_animalQ_monster": "S-seriously? Uh, stay safe and make sure you lock your door.",
 
   //Abigail's Married Dialogue
   //weather specific dialogue
