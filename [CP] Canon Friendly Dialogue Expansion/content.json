@@ -1,6 +1,10 @@
 {
   "Format": "2.8.0",
   "ConfigSchema": { //lets players toggle settings on and off
+    "CFE_ZeroHearts": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
     "CFE_Abigail": {
       "AllowValues": "true, false, random",
       "Default": "true",

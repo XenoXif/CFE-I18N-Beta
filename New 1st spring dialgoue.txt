@@ -1,5 +1,5 @@
 //Abigail
-"CFE_Abigail_Mon_y1": "I guess you're kind of roughing it out at your end of town.#$q 901/902 animalQ_old#Do you ever see any wild animals on your farm at night?#$r 901 0 animalQ_yes#Yes#$r 901 0 animalQ_no#No#$r 902 20 animalQ_monster#There are actual monsters on my farm.",
+"CFE_Abigail_Mony1": "I guess you're kind of roughing it out at your end of town.#$q 901/902 animalQ_old#Do you ever see any wild animals on your farm at night?#$r 901 0 animalQ_yes#Yes#$r 901 0 animalQ_no#No#$r 902 20 animalQ_monster#There are actual monsters on my farm.",
 	"animalQ_old": "#$p 902#Have you gotten your hands on a weapon to keep those creatures at bay?|Seems like a pretty cool place to live, though.",
     "animalQ_yes": "Yeah, we've got possums, owls... Try not to get spooked.",
     "animalQ_no": "Well, I bet you can hear them in the distance, right? They're kind of comforting.",

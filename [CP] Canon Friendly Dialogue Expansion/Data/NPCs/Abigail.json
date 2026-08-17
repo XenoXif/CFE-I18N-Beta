@@ -47,6 +47,21 @@
         "Abigail": "{{i18n: CFE_Abigail_rainy_{{random: 1,2,3}}}}"
       }
     },
+    {
+      "LogName": "CFE_Abigail_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Abigail_Mony1}}"
+
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Abigail 20 480}}": true,
+        "CFE_ZeroHearts": "true"
+
+      }
+
+    },
 
     {
       "LogName": "CFE_Abigail_Dialogue",

@@ -2,14 +2,17 @@
   //The first line refers to the code, the second line is what the players see. Translators should create a copy of this json file, rename it to the appropriate i18n name for their language, and edit the second line in quotes. They now no longer need any files besides the i18n in their own mod.
   //use ctrl + F to find different sections, as this document is quite long.
 
-  //Config Schema for GMCM.
+  //Config Schema for GMCM
+  "config.CFE_ZeroHearts_Add.name": "Add New Zero to Two Heart Dialogue",
+  "config.CFE_ZeroHearts_Add.description": "adds new year 1 low-level dialogue for NPCs that are enabled below.",
+
   "config.section.Dialogue.name": "NPC Dialogue Settings",
   "config.section.Dialogue.description": "Toggle specific NPCs new dialogue on, off, or 50/50.",
   "config.section.Festivals.name": "Festival Settings",
   "config.section.Festivals.description": "Add to or fully replace festival dialogue for all NPCs.",
 
   "config.CFE_Festivals_Add.name": "Add More Dialogue",
-  "config.CFE_Festivals_Add.description": "adds new dialogue to year 3 and 4, and randomizes dialogue from year 5 onward",
+  "config.CFE_Festivals_Add.description": "adds new dialogue to year 3 and 4, and randomizes dialogue from year 5 onward.",
   "config.CFE_Festivals_Y1.name": "Replace Year One Dialogue",
   "config.CFE_Festivals_Y1.description": "Replaces year one festival dialogue. compatible with Add More.",
   "config.CFE_Festivals_Replace.name": "Replace All Dialogue",
