@@ -45,7 +45,30 @@
         "Elliott": "{{i18n: CFE_Elliott_rainy_{{random: 1,2,3}}}}"
       }
     },
+    {
+      "LogName": "CFE_Elliott_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elliott",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Elliott_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Elliott_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Elliott_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Elliott_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Elliott_Friy1}}",
+        "Fri_1_moveQ_old": "{{i18n: CFE_Elliott_Friy1_moveQ_old}}",
+        "Fri_1_moveQ_rat": "{{i18n: CFE_Elliott_Friy1_moveQ_rat}}",
+        "Fri_1_moveQ_gpa": "{{i18n: CFE_Elliott_Friy1_moveQ_gpa}}",
+        "Fri_1_moveQ_opp": "{{i18n: CFE_Elliott_Friy1_moveQ_opp}}",
+      	"Fri_1_moveQ_idk": "{{i18n: CFE_Elliott_Friy1_moveQ_idk}}",
+        "Sat_1": "{{i18n: CFE_Elliott_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Elliott_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Abigail 20 480}}": true,
+        "CFE_ZeroHearts": "true"
 
+      }
+    },
     {
       "LogName": "CFE_Elliott_Dialogue",
       "Action": "EditData",
