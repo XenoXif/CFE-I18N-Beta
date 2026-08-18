@@ -224,6 +224,12 @@
   "CFE_Abigail_Mony1_animalQ_yes": "Yeah, we've got possums, owls... Try not to get spooked.",
   "CFE_Abigail_Mony1_animalQ_no": "Well, I bet you can hear them in the distance, right? They're kind of comforting.",
   "CFE_Abigail_Mony1_animalQ_monster": "S-seriously? Uh, stay safe and make sure you lock your door.",
+  "CFE_Abigail_Tuey1": "Oh, uh, hey.$8#$e#Drop by the general store if you need anything. My dad was talking about you nonstop before you arrived.$8",
+  "CFE_Abigail_Wedy1": "There's a lot we don't know about the world. And even if you do discover something new, it's unlikely anybody will believe you.#$e#People rely heavily on their comfort zones, it seems.",
+  "CFE_Abigail_Thuy1": "Today's supposed to be an open research day for one of my online classes.#$e#Honestly, I doubt anybody in my class actually does anything on these days.$9",
+  "CFE_Abigail_Friy1": "I'll do the occasional shift at the store. It's the least I can do.#$e#Now I'm an expert at stocking and facing shelves. I'm sure eight-year-old me would be thrilled.$9",
+  "CFE_Abigail_Saty1": "Adventures are often about getting away from the farm, but you did the opposite, huh?#$b#Is the \"real world\" out there truly that much of a letdown?$8",
+  "CFE_Abigail_Suny1": "It's a good day for a hike. Are you much of an outdoor person yourself?#$b#What am I saying? Of course, you totally have to be, right?$9",
 
   //Abigail's Married Dialogue
   //weather specific dialogue
