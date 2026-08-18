@@ -218,7 +218,7 @@
 
   //generic weekday dialogue
   "CFE_Abigail_springThu": "Ugh... I'm not in a good mood right now.$s#$e#I said I'm not in a good mood... what do you want?$a",
-  
+
   "CFE_Abigail_Mony1": "I guess you're kind of roughing it out at your end of town.#$q 901/902 Mon_1_animalQ_old#Do you ever see any wild animals on your farm at night?#$r 901 0 Mon_1_animalQ_yes#Yes#$r 901 0 Mon_1_animalQ_no#No#$r 902 20 Mon_1_animalQ_monster#There are actual monsters on my farm.",
   "CFE_Abigail_Mony1_animalQ_old": "#$p 902#Have you gotten your hands on a weapon to keep those creatures at bay?|Seems like a pretty cool place to live, though.",
   "CFE_Abigail_Mony1_animalQ_yes": "Yeah, we've got possums, owls... Try not to get spooked.",
@@ -1203,12 +1203,12 @@
   "CFE_Elliott_Tuey1": "I've been a writer since the first day I lifted a pen, more or less.#$e#I hope my stories can bring a deepened understanding of the soul to those who read them.",
   "CFE_Elliott_Wedy1": "My little shack may not be much to look at, but it serves me well enough.#$e#I am quite accustomed to it.",
   "CFE_Elliott_Thuy1": "I never saw the ocean until only a few years ago, but as soon as I caught a glimpse, I knew I wanted to live on the beach.#$e#I've been in Pelican Town for a little over a year now.",
-  "CFE_Elliott_Friy1": "Ah, springtime is the season of new beginnings and new directions.$h#$q 921/922 moveQ_old#What brought you to the Valley, @?#$r 921 10 moveQ_rat#Escaping the rat race.#$r 921 10 moveQ_gpa#I owe it to my grandfather.#$r 921 10 moveQ_opp#Opportunity.#$r 922 10 moveQ_idk#Honestly? I'm not really sure.",
-  "CFE_Elliott_Friy1_moveQ_old":"$p 922#I hope your new journey's purpose reveals itself a little more each day.$h|But as the days pass, we mustn't forget what we promised ourselves at the beginning of our new year.",
+  "CFE_Elliott_Friy1": "Ah, springtime is the season of new beginnings and new directions.$h#$q 921/922 Fri_1_moveQ_old#What brought you to the Valley, @?#$r 921 10 Fri_1_moveQ_rat#Escaping the rat race.#$r 921 10 Fri_1_moveQ_gpa#I owe it to my grandfather.#$r 921 10 Fri_1_moveQ_opp#Opportunity.#$r 922 10 Fri_1_moveQ_idk#Honestly? I'm not really sure.",
+  "CFE_Elliott_Friy1_moveQ_old": "$p 922#I hope your new journey's purpose reveals itself a little more each day.$h|But as the days pass, we mustn't forget what we promised ourselves at the beginning of our new year.",
   "CFE_Elliott_Friy1_moveQ_rat": "Certainly. I never understood how anyone lives that way. We're not made for it, are we?",
   "CFE_Elliott_Friy1_moveQ_gpa": "How wonderful! But you must remember to work for yourself, too. Wouldn't your grandfather have wanted that?",
   "CFE_Elliott_Friy1_moveQ_opp": "I'm sure it's a lot of work! But that fresh air envigorates the soul, doesn't it?",
-	"CFE_Elliott_Friy1_moveQ_idk": "Indeed? Well, we don't always need all the answers. Perhaps they'll find you eventually.",
+  "CFE_Elliott_Friy1_moveQ_idk": "Indeed? Well, we don't always need all the answers. Perhaps they'll find you eventually.",
   "CFE_Elliott_Saty1": "Hmm? Oh, my apologies. I was a bit lost in thought.#$e#We all live in our minds, not just in physical space. I more so than most, it seems.",
   "CFE_Elliott_Suny1": "I presume you've met Willy, my neighbor?#$b#He's a rather generous soul. If I'm self-sufficient today, it's due in part to his teachings.",
 
