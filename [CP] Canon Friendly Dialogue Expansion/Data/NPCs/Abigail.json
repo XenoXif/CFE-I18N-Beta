@@ -54,9 +54,9 @@
       "Entries": {
         "Mon_1": "{{i18n: CFE_Abigail_Mony1}}",
         "Mon_1_animalQ_old": "{{i18n: CFE_Abigail_Mony1_animalQ_old}}",
-        "Mon_1_animalQ_yes": "{{i18n: CFE_Abigail_animalQ_yes}}",
-        "Mon_1_animalQ_no": "{{i18n: CFE_Abigail_animalQ_no}}",
-        "Mon_1_animalQ_monster": "{{i18n: CFE_Abigail_animalQ_monster}}",
+        "Mon_1_animalQ_yes": "{{i18n: CFE_Abigail_Mony1_animalQ_yes}}",
+        "Mon_1_animalQ_no": "{{i18n: CFE_Abigail_Mony1_animalQ_no}}",
+        "Mon_1_animalQ_monster": "{{i18n: CFE_Abigail_Mony1_animalQ_monster}}",
         "Tue_1": "{{i18n: CFE_Abigail_Tuey1}}",
         "Wed_1": "{{i18n: CFE_Abigail_Wedy1}}",
         "Thu_1": "{{i18n: CFE_Abigail_Thuy1}}",
