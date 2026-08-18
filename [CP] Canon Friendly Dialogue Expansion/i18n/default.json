@@ -525,6 +525,15 @@
   "CFE_Alex_summerSun_GN": "Haley's pretty hot, don't you think?",
   "CFE_Alex_fallTue": "Isn't it sad how some people just don't ever reach their full potential?#$e#The important thing is just to keep fighting, no matter what.",
 
+  "CFE_Alex_Mony1": "There are some good routes through the forest you can use for running. The town's got a pretty good loop, too.",
+  "CFE_Alex_Tuey1": "Yeah, I live with my grandparents. Things are a little slow with them, but somebody's got to keep things lively under that roof.",
+  "CFE_Alex_Wedy1": "I've never met a sport I didn't like, but gridball is basically my life.#$b#You could probably tell, huh? What gave it away?$3",
+  "CFE_Alex_Thuy1": "There aren't any teams to play with here, but I don't let things like that stand in my way.#$e#Adversity leads to opportunity. There's still plenty I can do on my own, and I'll be good and ready for gridball tryouts.",
+  "CFE_Alex_Friy1": "Hey farmer dude.^Hey farmer girl.#$b#You sure you're cut out for all that farm work? Those arms look a little skinny.$h^You sure you're cut out for all that farm work? That's a lot of heavy labor for a girl.$h",
+  "CFE_Alex_Saty1": "The hot spring was one of the best places here, but a rock slide blocked off the path to it.#$b#*sigh* Too bad, yeah?$9",
+  "CFE_Alex_Suny1": "It's a competitive world out there, isn't it? Everything's a competition, whether you realize it or not.#$e#Not everyone has the discipline, but thankfully I'm staying ahead of the curve.",
+
+
   //Alex's Married Dialogue
   //weather specific dialogue
   "CFE_Alex_Married_RainyDay_1": "With all this space, I can really achieve a full body workout.",
@@ -792,6 +801,15 @@
   "CFE_Caroline_Tue": "On Wednesdays the shop is closed.#$e#Keep that in mind if you're going to need anything.",
   "CFE_Caroline_Sat": "I host an aerobics class on Tuesdays in our living room. You can come if you'd like.",
 
+  "CFE_Caroline_Mony1": "The world is changing rapidly, and Joja Co. seems to hold more influence every year$s.#$e#Of course, our family is about as far removed from Joja as can be, but a lot of it seems inevitable.$s",
+  "CFE_Caroline_Tuey1": "I told Abigail to be hospitable when she sees you. I take it you've met her already?",
+  "CFE_Caroline_Wedy1": "Yeah, sorry, we're closed on Wednesdays. But we'll be open again tomorrow!",
+  "CFE_Caroline_Thuy1": "I host an aerobics club on Tuesdays. All skill levels are welcome; you can drop by if you'd like.#$e#Anyway, if you're ever wondering where some of the towns' ladies have gone, you'll probably find them at my house.",
+  "CFE_Caroline_Friy1": "You ought to check out the library if you haven't yet.#$b#Though a lot of the books have gone missing lately...$s",
+  "CFE_Caroline_Saty1": "If you're looking for good hikes around here, you can't really go wrong with Cindersap Forest.#$e#Sometimes you can even find fresh vegetables if you know where to look.$h",
+  "CFE_Caroline_Suny1": "Our home is among the oldest in Pelican Town.#$b#The family that built it was quite wealthy and wanted to show off their opulence, but then it was subdivided long ago and we bought up our portion for pretty cheap.#$e#The house does have a couple of eccentricities, but we make the best of it.",
+
+
   //Clint
   //Clint Gift Tastes
   "CFE_Clint_RockCandy": "*crunch* Wow! With this, I just might be able to get past level two of the mines! Thanks, @!",
@@ -893,6 +911,15 @@
   "CFE_Clint_MoninlawEmily": "So uh... how's uh... how's Emily?$s",
   "CFE_Clint_Thu": "You inherited a pretty basic toolset, huh? Yeah, let me know how I can help with that.",
 
+  "CFE_Clint_Mony1": "There used to be a lot more mining in this town. I'll bet my predecessors got a lot of business.",
+  "CFE_Clint_Tuey1": "Hey, farmer.^Yes.#$e#So your grandfather lived on that farm, huh? I think I remember that guy.^...Uhm, I mean, hi. How are you?#$e#He was retired by the time I moved here, but uh... nice guy.^So... I'm the town blacksmith. Have I mentioned that yet?$s",
+  "CFE_Clint_Wedy1": "Things must be pretty quiet on your side of town.#$e#It's pretty quiet on mine, too.#$e#Except for when the furnace is running. That thing's really noisy.#$b#Which... it runs most of the time.",
+  "CFE_Clint_Friy1": "You can usually find me at the saloon in the evenings, but I'm off the clock then.#$b#So if you wanna talk business, it'll just have to wait.#$e#...Sorry.$s",
+  "CFE_Clint_Saty1": "I can also help you crack open geodes, if that's your thing.#$e#I hear there are a bunch of them up in the mines.",
+  "CFE_Clint_Suny1": "Some people say blacksmiths aren't really needed in today's world, but what they don't realize is that uh...#$b#Uhm...$s#$b#...Sorry, what were we talking about again?",
+
+
+
   //Demetrius
   //Demetrius Gift Tastes
   "CFE_Demetrius_GoldPumpkin": "This specimen is fascinating! What a discovery!$h#$b#For one thing, is it made of organic matter, or is it composed of real gold? This may take years of research!",
@@ -987,6 +1014,14 @@
   "CFE_Demetrius_SuninlawSebastian": "It's such a relief that Sebastian's finally moved out. I did always think you were a good match for him.$h",
   "CFE_Demetrius_SuninlawSebastian.DSV.NonbinarySebastian": "It's such a relief that Sebastian's finally moved out. I did always think you were a good match for them.$h",
   "CFE_Demetrius_SuninlawSebastian.PPAF.NoRomance": "It's such a relief that Sebastian's finally moved out. I did always think you two were a good fit for each other.$h",
+
+  "CFE_Demetrius_Mony1": "If you need some upgrades to your farm, Robin's got you covered. Honestly, she never ceases to impress me.",
+  "CFE_Demetrius_Tuey1": "My daughter Maru is showing great promise in a variety of sciences: robotics, astronomy, not to mention medical science.#$b#Which one is her calling? Who knows! The kid certainly has options.$h",
+  "CFE_Demetrius_Wedy1": "Did you know one teaspoon of soil from your farm contains over a billion organic cells?#$b#And I'm the one who gets to observe how they all interact with one another.$h#$e#As you can imagine, my work keeps me quite busy.",
+  "CFE_Demetrius_Thuy1": "Pelican Town may have become a bit run down in recent years, but still, life is good out here.",
+  "CFE_Demetrius_Friy1": "Ah, it's Friday. Weekend, here we come!#$e#Actually, I tend to do just as much work on weekends. What can I say? It's enjoyable for me.",
+  "CFE_Demetrius_Saty1": "East Ferngill University supports my research out here.#$b#I explore the micro and macrobiology of vibrant ecosystems, but I also dabble in numerous facets of biochemistry on my own time.",
+  "CFE_Demetrius_Suny1": "If you're digging your hands into the Valley's ecosystem here, it presents some great opportunities for research.#$b#I'll let you know if I can use a sample or two of the local flora.",
 
   //Dwarf
   //Dwarf Gift Tastes

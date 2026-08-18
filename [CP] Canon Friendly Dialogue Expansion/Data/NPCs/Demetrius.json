@@ -35,6 +35,25 @@
         "Demetrius": "{{i18n: CFE_Demetrius_rainy_{{random: 1,2,3}}}}"
       }
     },
+    {
+      "LogName": "CFE_Demetrius_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Demetrius",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Demetrius_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Demetrius_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Demetrius_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Demetrius_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Demetrius_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Demetrius_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Demetrius_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Demetrius 20 480}}": true,
+        "CFE_ZeroHearts": "true"
+
+      }
+    },
 
     {
       "LogName": "CFE_Demetrius_Dialogue",
@@ -59,6 +78,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Demetrius",
       "When": { "ModdedDialogCompat_Hay": "true" },
+
       "Entries": {
         //Heart Specific Dialogue
         "summer_Mon6": "{{i18n: CFE_Demetrius_summerMon6}}",

@@ -45,6 +45,25 @@
         "Caroline": "{{i18n: CFE_Caroline_rainy_{{random: 1,2,3}}}}"
       }
     },
+    {
+      "LogName": "CFE_Caroline_ZeroHeartDialogue",
+      "Action": "Editdata",
+      "Target": "Characters/Dialogue/Caroline",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Caroline_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Caroline_{{Random: {{Tuey1, Tue}}}}",
+        "Wed_1": "{{i18n: CFE_Caroline_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Caroline_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Caroline_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Caroline_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Caroline_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Caroline 20 480}}": true,
+        "CFE_ZeroHearts": "true"
+
+      }
+    },
 
     {
       "LogName": "CFE_Caroline_Dialogue",
