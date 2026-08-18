@@ -64,7 +64,7 @@
         "Sun_1": "{{i18n: CFE_Elliott_Suny1}}"
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Abigail 20 480}}": true,
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Elliott 20 480}}": true,
         "CFE_ZeroHearts": "true"
 
       }
