@@ -1521,6 +1521,19 @@
   "CFE_Emily_winterWedinlawHaley": "I'm so happy that Haley found you. The universe had a plan for her after all!$h",
   "CFE_Emily_winterWed": "I wish Haley would get a job or at least contribute to cooking and cleaning.$s#$e#I think she's hoping to marry someone rich.$u",
 
+  "CFE_Emily_Mony1": "You just arrived here with the shirt on your back, huh?#$b#Tell you what, if you ever get a bolt of cloth, hold onto it. I'll teach you a thing or two about making your own clothes!",
+  "CFE_Emily_Tuey1": "Haley is my sister, but you'd never know that by just looking at us, would you?",
+  "CFE_Emily_Wedy1": "Wednesday nights are usually pretty quiet at the saloon. It's a good place to be if you're looking for some peace and quiet.",
+  "CFE_Emily_Thuy1": "There's something for everyone in the Valley! I tell everyone this is a perfect spot for healing and renewal.#$q 931/932 Thu_1_favoriteQ_old#Sooo, what's your favorite thing about Pelican Town so far?#$r 931 15 Thu_1_favoriteQ_ppl#The people#$r 931 10 Thu_1_favoriteQ_nat#The nature#$r 931 10 Thu_1_favoriteQ_lcl#The local events#$r 932 -20 Thu_1_favoriteQ_nada#Nothing",
+  "CFE_Emily_Thuy1_favoriteQ_old": "$p 932#You should come by the saloon more often if you're looking for a place to fit in.|And I knew you'd find your place here right away!",
+  "CFE_Emily_Thuy1_favoriteQ_ppl": "Ha! If this were a test, you'd pass with flying colors! I agree, our community is full of such charming people.$h",
+  "CFE_Emily_Thuy1_favoriteQ_nat": "You're so right! Everyone needs their daily dose of beauty. And the Valley never lets me down.",
+  "CFE_Emily_Thuy1_favoriteQ_lcl": "Oh, you haven't seen anything yet! Just wait for the summer Luau, or the winter Night Market, or... (etc.)",
+  "CFE_Emily_Thuy1_favoriteQ_nada": "Oh, is that so? Just... wait for it, then. I'm sure you'll find something you'll love.$3",
+  "CFE_Emily_Friy1": "There are a lot of mysterious and beautiful things hiding in plain sight.#$b#A lot of people don't notice them, but they'll reveal themselves if you know how to look.#$e#Hehe, maybe I'll tell you more about it in the future.$h",
+  "CFE_Emily_Saty1": "Nature offers us so many gifts. The least we can do is be kind to it in return.#$e#You get it, right? You're a farmer now, so you have the perfect opportunity to grow food sustainably.",
+  "CFE_Emily_Suny1": "One of my hobbies is collecting clothing. Even if it doesn't fit me, I love imagining the people who would wear it well.#$e#Maybe I could donate some of it? Or... I've got some clever ideas brimming at the back of my mind.",
+
   //Emily's Married Dialogue
   //weather specific dialogue
   "CFE_Emily_Married_RainyDay_1": "I wonder where the flying insects go when it rains? Don't they get hit by the raindrops?",
@@ -1744,6 +1757,13 @@
   "CFE_Evelyn_Sun6": "I keep a diary, but I always write down what I did two days ago. It's an exercise that helps me with my memory.",
 
   //generic weekday dialogue
+  "CFE_Evelyn_Mony1": "Hello there, dear! I hope you're having a beautiful day.$h",
+  "CFE_Evelyn_Tuey1": "I've been taking care of flower gardens for as long as I can remember, and I also did some vegetable gardening, years ago.#$e#Farm work is a little too much for me these days, but I'll be sure to let you know some tricks if I think of any.",
+  "CFE_Evelyn_Wedy1": "Never mind George. He likes to be a grump, but he doesn't mean half of what he says.",
+  "CFE_Evelyn_Thuy1": "I can't tell you how happy it makes me to see your grandpa's old farm put to use again. Some things do come back and get better with time, don't they?$h",
+  "CFE_Evelyn_Friy1": "George worked around the clock when he was younger. Now he feels he's earned all his time off.#$e#I just wish he'd spend all his time doing something besides watching television.",
+  "CFE_Evelyn_Saty1": "I grew up in the area, but we didn't move into this house until, oh, thirty years ago or so.#$e#Goodness, has it really been that long?$h",
+  "CFE_Evelyn_Suny1": "I make sure to get in a good walk every day. It takes a little effort to get started, but after my legs get pumping, I always feel better.#$e#Stretching is also important. I have to stretch so I can do it all again tomorrow.",
 
   //George
   //George Gift Tastes
@@ -1826,6 +1846,18 @@
   //generic weekday dialogue
   "CFE_George_Fri": "That farm's been in miserable shape for years.#$e#And you want to restore it? Hmph. Good luck.",
   "CFE_George_Sun": "What's it take for a little peace and quiet around here?",
+
+  "CFE_George_Mony1": "Have you spoken with my grandson Alex? He's a disciplined young man.#$e#Maybe he needs a bit of direction, but he knows how to dig in his heels. His peers could learn a thing or two.",
+  "CFE_George_Tuey1": "I can't imagine you'll be around here in town for very long, hmm?#$e#Most young folks don't have the discipline for country life, as far as I can see.",
+  "CFE_George_Wedy1": "What's this now? Do we just let the whole town waltz right into our home, uninvited?#$e#I don't go barging into your house like I own it. Now git!",
+  "CFE_George_Thuy1": "I've been waiting all day for this television program, and I'll be darned if I let you ruin it for me.#$e#Pipe down!",
+  "CFE_George_Friy1": "That farm's been in miserable shape for years.#$e#And you want to restore it? Hmph. Good luck.",
+  "CFE_George_Saty1": "The days of the week all blend together when you're retired like me.#$q 941/942 Sat_1_weekQ_old#Let's see... what day is it, again?#$r 942 -10 Sat_1_weekQ_fri#Friday.#$r 941 10 Sat_1_weekQ_sat#Saturday.#$r 942 -10 Sat_1_weekQ_jerk#Someday. (You figure it out, jerk.)",
+  "CFE_George_Saty1_weekQ_old":"$p 942#And I suppose they blend together for you too, even though your brain's supposed to be sharp as a tack at your age.|It's like having fourteen weekends a month. All well earned, I should say.",
+  "CFE_George_Saty1_weekQ_fri": "Friday, huh? Was it really only yesterday that my favorite program was on...?$s#$b#I suppose it must have been.$s",
+  "CFE_George_Saty1_weekQ_sat": "Saturday? ...Yeah, that's right.#$b#Good. Then I haven't missed my visit to the Yoba shrine.",
+  "CFE_George_Saty1_weekQ_jerk": "Sunday? Is it Sunday already? I-$s#$b#Hey, it's not Sunday. Here I thought my mind was going, but your young mind's even worse!",
+  "CFE_George_Suny1": "What's it take for a little peace and quiet around here?",
 
   //Gus
   //Gus Gift Tastes
@@ -1936,6 +1968,14 @@
   "CFE_Gus_Wed_014": "Oh yes, we've all been there, if we're not there now.$h#$b#But you know, your future looks bright. You're a landowner! I'm sure things will work out.",
   "CFE_Gus_Wed_015": "Is that so? Well, I'm glad to hear it. Pelican Town truly is a special place.$h#$b#Just let me know if something comes up. I'm always ready to lend an ear.",
   "CFE_Gus_Sat": "Business was great last night. I'm pleased.#$e#Be sure to drop by again soon!$h",
+
+  "CFE_Gus_Mony1": "If you're busy getting that farm up and running, feel free to leave the cooking to me!#$e#Life sure gets busy, doesn't it?",
+  "CFE_Gus_Tuey1": "\"Fresh and local\" is the way we roll around here. I'll only make a dish if the ingredients are top-notch!#$e#And maybe that'll be a little easier with a new local farm starting up, huh?$h",
+ 
+  "CFE_Gus_Thuy1": "The Stardrop Saloon has been serving this community for over fifteen years, owned and operated by yours truly.$h#$e#Yes sir, I'm in this for the long haul.^Yes ma'am, I'm in this for the long haul.",
+  "CFE_Gus_Friy1": "Welcome, @! Good to see you.$h#$e#Looks like we've got enough food prepped for a crowd like tonight's, but the special's in limited supply, so don't miss out on that if you can help it!",
+  "CFE_Gus_Saty1": "Business was great last night. I'm pleased.#$e#Be sure to drop by again soon!$h",
+  "CFE_Gus_Suny1": "Times have been a bit tough for this little town lately, but that's all the more reason we've all got to stick together, isn't it?",
 
   //Haley
   //Haley Gift Tastes
@@ -2068,6 +2108,17 @@
   "CFE_Haley_Sun4": "Sometimes I wish Emily would just treat me like she treats everyone else.#$e#She doesn't care what other people do with their lives, but if it's something I do, she gets all up in my business.$u#$e#I don't know...",
 
   //generic weekday dialogue
+  "CFE_Haley_Mony1": "*sigh* To think... there are people in the city who can just walk right out their door to a clothing boutique at the end of the block.#$e#I should schedule a trip out of this cow town.",
+  "CFE_Haley_Tuey1": "Oh. Hey, farmer boy.^Oh. Hey, farmer girl.#$e#People are saying your farm is a mess, but you seem like you'll be a really good fit for it.",
+  "CFE_Haley_Wedy1": "What, did my sister invite you over here, or something?#$e#You're kind of interrupting, so...$7",
+  "CFE_Haley_Thuy1": "*giggle*$11#$e#What? Oh, nothing.$13#$e#You look great today, by the way.^You look super pretty today, by the way.",
+  "CFE_Haley_Friy1": "*sniff* Ugh, what's that awful smell? It's like old grass mixed with sweat.$3#$e#Oh well. Guess we'll never know.$13",
+  "CFE_Haley_Saty1": "If you want other people to respect you, you have to respect yourself first.#$q 951/952 Sat_1_clothesQ_old#I don't mean to be rude, but do you even own any clothes besides what you're wearing?#$r 951 0 Sat_1_clothesQ_yes#I do.#$r 951 0 Sat_1_clothesQ_no#I don't.#$r 952 -10 Sat_1_clothesQ_creep#I don't, but I'll just borrow yours when you're not looking.",
+  "CFE_Haley_Saty1_clothesQ_old": "$p 952#And you also have to respect other people, which includes not making creepy jokes.$3|But I guess not everyone wants to put in the effort.",
+  "CFE_Haley_Saty1_clothesQ_yes": "Then why don't you wear them?$13",
+  "CFE_Haley_Saty1_clothesQ_no": "Wait, actually?$7#$e#I don't even know how to respond to that.$13",
+  "CFE_Haley_Saty1_clothesQ_creep": "What? That had better be a joke!$5",
+  "CFE_Haley_Suny1": "I'm bored.#$e#It'd be nice if someone interesting came to visit our town.#$b#But you probably already noticed that like, never happens.",
 
   //Haley's Married Dialogue
   //weather specific dialogue
@@ -2342,6 +2393,14 @@
   "CFE_Harvey_Sat": "Today's my day off, but I figure I shouldn't stay cooped up all day.",
   "CFE_Harvey_Sun": "When I'm at the clinic, feel free to come around behind the counter if you want to talk about anything non-business related.#$e#That's the benefit of working in a small town.",
 
+  "CFE_Harvey_Mony1": "Thankfully, there aren't any viruses sweeping through the community right now. But never hurts to wash your hands regularly throughout the day.",
+  "CFE_Harvey_Tuey1": "Make sure you don't push yourself too hard. If you're not yet used to the heavy farm labor, you're more likely to face exhaustion.",
+  "CFE_Harvey_Wedy1": "Working in a small community like this one certainly has its perks. I wasn't entirely sure of things at first, but it's been a very rewarding lifestyle.",
+  "CFE_Harvey_Thuy1": "If you're still unfamiliar the area, make sure you keep a plan of how to get back home before it gets too late.#$b#Staying out all night can really disrupt your circadian rhythm.",
+  "CFE_Harvey_Friy1": "If you're looking for healthy food, I'm afraid JojaMart is not very likely to help you with that.#$e#I'd recommend the saloon or Pierre's.#$b#But of course, anything you grow on your farm would be the best choice.$h",
+  "CFE_Harvey_Saty1": "I like to make the best of my weekends, but don't worry. I'm always on call for emergencies.",
+  "CFE_Harvey_Suny1": "There are a lot of nice places to go for walks. The green spaces around town, the beach, the forest...#$b#You can't really go wrong.$h",
+
   //Harvey's Married Dialogue
   //weather specific dialogue
   "CFE_Harvey_Married_RainyDay_1": "Do you think you'd consider wearing a raincoat today?#$e#I often worry about you.",
@@ -2559,6 +2618,15 @@
   //generic weekday dialogue
   "CFE_Jas_TueinlawShane": "I miss Shane. Is he going to move back in?$s",
 
+  "CFE_Jas_Mony1": "Aunt Marnie said I'm supposed to say hi to you.$u#$e#Um... hi.$u",
+  "CFE_Jas_Tuey1": "%Jas is looking at her feet.",
+  "CFE_Jas_Wedy1": "...If you're a farmer then you have to be nice to animals.$u#$b#...$u",
+  "CFE_Jas_Thuy1": "...H-hi.%u",
+  "CFE_Jas_Friy1": "Oh um-$u#$b#...$u#$b#...never mind.$u",
+  "CFE_Jas_Saty1": "*giggle*$h#$b#...$u#$e#I was just playing in my imagination.$u",
+  "CFE_Jas_Suny1": "Are you one of Aunt Marnie's friends?$u",
+  "CFE_Jas_Tue2": "Do you know Ms. Leah? She's my neighbor.",
+
   //Jodi
   //Jodi Gift Tastes
   "CFE_Jodi_GoldPumpkin": "So golden pumpkins are real? How amazing!$h#$b#I never would have thought that.",
@@ -2679,6 +2747,13 @@
   "CFE_Jodi_Sun_116": "That's great. If you would, could you please pray for my husband, Kent? Just for his safe return from the war.#$b#Thanks.",
   "CFE_Jodi_Sun_117": "I see. Sorry to bother you.",
   "CFE_Jodi_Suny2": "I can't believe my husband is finally back!$h#$e#We should hang out more.",
+
+  "CFE_Jodi_Mony1": "Oh, hello. I hope your farm is coming along nicely.#$e#I'm impressed with how you manage it all.",
+  "CFE_Jodi_Tuey1": "Oh, you moved here from the city? So did we, though we've been here for years and years now.#$e#I think my son Sam hardly even remembers living in the city. And of course little Vincent wasn't born yet.",
+  "CFE_Jodi_Wedy1": "If you come over to visit, be sure to wipe your feet at the door.#$e#I just like keeping a clean house. But you're welcome to visit anytime.",
+  "CFE_Jodi_Thuy1": "Caroline is my good friend. You've met her, right?#$e#She knows a thing or two about how to de-stress. And she helps me out with that.",
+  "CFE_Jodi_Friy1": "With the grocery stores so close, I don't really plan out meals in advance. I'll just grab a little of this or that on any day of the week.#$e#I always mean to get more shopping done at Pierre's, but, well, who isn't on a tight budget these days?$4",
+  "CFE_Jodi_Saty1": "I think you'd get along pretty well with Sam. He can use some more positive influences in his life.#$e#I don't mean to say he's coming up short in any way; he's great with his little brother, for one thing.",
 
   //Kent
   //Kent Gift Tastes
@@ -3100,6 +3175,14 @@
   "CFE_Leah_winterThu": "I love to decorate for the different seasons.",
   "CFE_Leah_Thu": "I'm interested to see what you do with your farm, though there's also a natural beauty to the rocks and trees that have moved in.",
 
+  "CFE_Leah_Mony1": "Today's my shopping day, but I've got to watch my budget.#$e#Maybe I can forage something from the woods. Have you found the field where the spring onions grow?",
+  "CFE_Leah_Tuey1": "It'll be nice having you up the road. I always thought that farm looked a bit lonely.",
+  "CFE_Leah_Wedy1": "You just missed the snowy season before your arrival. It all melted a day or two before.#$e#You really should stick around for the next winter, though. It's really beautiful.",
+  "CFE_Leah_Thuy1": "I'm an artist by trade. Or at least... that's the goal.#$b#Wealthy patrons don't exactly come pounding on your door just because you can paint.$3#$e#But I don't give up easily. So I'm determined to keep going as long as I can.",
+  "CFE_Leah_Friy1": "Have you met my friend Elliott? He moved here a little bit before I did.#$e#Including you, then, I guess all three of us are relative newcomers, huh?",
+  "CFE_Leah_Saty1": "It's a welcoming community here for sure, and cozy, but I wonder if I'll have to find a second job eventually, just to keep living here.$3",
+  "CFE_Leah_Suny1": "I'll use synthetic paints and tools in my work, but I especially like it when I can pull materials directly from nature.#$e#Certain woods, dyes... it can be tough to use the rustic stuff well, but I enjoy the challenge.",
+
   //Leah's Married Dialogue
   //weather specific dialogue
   "CFE_Leah_Married_RainyDay_1": "I sometimes find inspiration in the most unlikely of places.",
@@ -3398,6 +3481,14 @@
   "CFE_Lewis_Sun": "Some of the townsfolk are wary of strangers. You'll have to win their trust before they open up to you.#$e#Just be persistent and you'll get through to them.$h",
   "CFE_Lewis_Thu": "Hi there, @! Nice to see you out and about.#$b#It's good to spend time socializing with the townsfolk every now and then.$h",
 
+  "CFE_Lewis_Mony1": "I learned a thing or two about gardening from your grandfather, and now it's one of my favorite hobbies.#$e#My own little flower garden exists today because of him. You could say it's my own way of carrying on his legacy.$h",
+  "CFE_Lewis_Tuey1": "Don't you worry about your shipping bin. I'll be sure to collect what's in it every day, rain or shine.#$e#Keep me updated on your farm's progress, okay?",
+  "CFE_Lewis_Wedy1": "Hi there, @! Nice to see you out and about.#$b#It's good to spend time socializing with the townsfolk every now and then.$h",
+  "CFE_Lewis_Thuy1": "You're wondering how your grandfather managed to live in that little house all those years? Well, he was just a modest and resourceful man.$h#$e#That's just how things used to be. But to be fair, *ahem* I do agree that Robin could add on a bit more... breathing room.",
+  "CFE_Lewis_Friy1": "Pelican Town has seen a lot of changes recently. People have been leaving, making it a bit tougher to keep up the rhythm of the town...#$b#...but on the other hand we've had a handful of newcomers, too. Yourself included.$h",
+  "CFE_Lewis_Saty1": "Well, it's the weekend. Still working hard? Or are you going to take it a little easier today?#$e#For myself, I've still got a couple of mayoral duties to attend to.#$b#But I'll be enjoying a nice hot cup of tea tonight.$h",
+  "CFE_Lewis_Suny1": "Long ago, even before my time, this was predominantly a mining town. But there's not much left of that industry anymore.#$e#Mining doesn't appeal as a career to many people on account of the danger.#$b#It seems even Joja's pulled its mining operation out of our town for good.",
+
   //Linus
   //Linus Gift Tastes
   "CFE_Linus_GoldPumpkin": "Good show, old friend.$h#$e#I saw you from the edge of the maze. Did you see me?",
@@ -3474,6 +3565,13 @@
   "CFE_Linus_Sun8": "When I first met you, @, I was sure I would be leaving the valley soon. Thank you for helping to change my mind.",
   "CFE_Linus_Sun2": "You don't have to speak to me if you don't want to.",
   //generic weekday dialogue
+  "CFE_Linus_Mony1": "This mountainside is abundant with gifts. Please be kind to it in return.",
+  "CFE_Linus_Tuey1": "Don't worry about me. I'm quite content living the way I do.",
+  "CFE_Linus_Wedy1": "If the townsfolk need me to move, I'll move. Until then...",
+  "CFE_Linus_Thuy1": "All I ask for is a little space. I believe I'm giving the same to others.",
+  "CFE_Linus_Friy1": "Ah... hello.#$e#%Linus appears to be in quiet contemplation.",
+  "CFE_Linus_Saty1": "If people want me gone, all anyone has to do is ask.#$b#There's no need for people to ransack my camp.$s",
+  "CFE_Linus_Suny1": "%Linus whispers a greeting, but his words are inaudible.",
 
   //Marnie
   //Marnie Gift Tastes
@@ -3557,6 +3655,14 @@
 
   "CFE_Marnie_TueinlawShane": "I'm so glad Shane met you. You take good care of him now, you hear?",
   "CFE_Marnie_Wed": "You can use a scythe to cut feed from grass.#$e#Just make sure you've got a silo to keep it in.#$e#Robin could help with that.",
+
+  "CFE_Marnie_Mony1": "Hi there, Mr. @!^Hi there, Ms. @!#$e#I'm always a bit busy with all my responsibilities, but if you catch me at my desk, I'm happy to help you!#$e#I'm open for business Wednesday through Sunday.",
+  "CFE_Marnie_Tuey1": "If I don't take a little time for myself, I'll never get it. Those animals get me up early seven days a week!#$e#I also look after Jas and keep the house clean. It never ends!$h",
+  "CFE_Marnie_Wedy1": "On my ranch, we treat our animals more like pets than livestock, and the results show for the eggs and milk we get.#$e#I hope you'll consider the same for your animals.",
+  "CFE_Marnie_Thuy1": "All the animals you can raise here get a steady diet of the valley's grass.#$e#There's nothing better for them to eat. It almost feels like we're getting away with something!",
+  "CFE_Marnie_Friy1": "My nephew Shane moved in not too long ago. By any chance, is he minding his manners-?#$e#Erm, sorry. He's a full-grown man, so it's really not my business.$s#$b#I just think everyone should be polite.$3",
+  "CFE_Marnie_Saty1": "Those animals raised on Joja's factory farms don't live the happiest lives.$s#$e#I get it, there's a lot of people to feed...$s#$b#...but that just isn't the way we do things around here, as long as I can help it.",
+  "CFE_Marnie_Suny1": "My family has owned our ranch for four generations.$h#$e#Apparently my great granduncle built it. Or technically... step great granduncle? Something like that.#$b#And here I am, carrying on the legacy.",
 
   //Maru
   //Maru Gift Tastes
@@ -3725,6 +3831,14 @@
   //generic weekday dialogue
   "CFE_Maru_fallMoninlawSebastian": "Oh, hey @! How's my brother doing?",
 
+  "CFE_Maru_Mony1": "One tricky thing out here is the lack of parts and metals I need for building machines.#$e#We have a mine that's still rich with metal ores, but the industry for it dried up years ago.$8",
+  "CFE_Maru_Tuey1": "I'm a bit of an amateur inventor, I suppose. Technology was my first love.#$b#But, growing up around here, I have a healthy appreciation for nature that's just as strong.",
+  "CFE_Maru_Wedy1": "Be sure to stop by Dr. Harvey's clinic if you need medicine.#$e#If you visit on Tuesday or Thursday, you'll probably see me behind the counter.",
+  "CFE_Maru_Thuy1": "Sebastian's my brother. He's really talented at coding and web design.#$b#Or at least, I think he is. He rarely ever shows me his work.$8",
+  "CFE_Maru_Friy1": "It's nice how this town has a lot of space where I can experiment with my inventions.#$e#I always have at least half a dozen projects going at once.",
+  "CFE_Maru_Saty1": "If you like stargazing, this is an excellent place for it. We're far from any sources of light pollution.#$e#I've got a telescope and I've learned most of the constellations. Maybe I can show you at some point.",
+  "CFE_Maru_Suny1": "Penny keeps me up to date on how her tutoring job is going. She has the patience of a saint.#$e#I'm impressed by how she finds something new to do with the kids every day.",
+
   //Maru's Married Dialogue
   //weather specific dialogue
   "CFE_Maru_Married_RainyDay_1": "I bet my brother just went to bed an hour or two ago. What a goof.",
@@ -3886,6 +4000,13 @@
 
   //Pam's Standard Dialogue
   //Special Dialogue
+  "CFE_Pam_Saloony1": "*sip* ...Ahh, good stuff! Good stuff.",
+  "CFE_Pam_Saloon_Tuey1": "Oi! Gus! Let's get a round for the whole house!#$b#Oop, I mean... just kiddin'! I didn't mean it!$h",
+  "CFE_Pam_Saloon_Wedy1": "Hey, where is everybody? Isn't today Friday?$h",
+  "CFE_Pam_Saloon_Thuy1": "%Pam looks like she could use some alone time.",
+  "CFE_Pam_Saloon_Friy1": "%Pam is lazily staring at the bear statue across the room.",
+  "CFE_Pam_Saloon_Saty1": "I ain't shellin' out for any o' that bottled stuff. Get me the good stuff!$h",
+  "CFE_Pam_Saloon_Suny1": "Y'see... my Penny's extra, extra special.$4#$b#And if anybody ever does her wrong... they're answerin' to me, y'hear?$4",
 
   //date specific dialogue
   "CFE_Pam_spring1y2": "Any plans for the new year?#$e#Yep, we'll see.#$e#Gotta keep that head up, huh?",
@@ -3950,6 +4071,14 @@
   //generic weekday dialogue
   "CFE_Pam_winterMon": "It's so dry in winter. My skin feels like old parchment.",
   "CFE_Pam_Fri": "Hi, stranger.",
+
+  "CFE_Pam_Mony1": "I was born right here in this town. Got out and about for a few years in my twenties, and now I've been here to stay ever since.#$e#I think you'll like it here, kid. We need more young folks movin' in.",
+  "CFE_Pam_Tuey1": "I live in the trailer by the river. Just be sure to knock before you enter.#$e#And if no one's home, make sure you scram till we get back.",
+  "CFE_Pam_Wedy1": "$d bus#I hear you had somethin' to do with getting that bus up and running again. Kid, you're a lifesaver!$h|I used to drive that bus in and outta town before it broke down. I was a hard worker, but now... *sigh* ...well, times are tough.$s",
+  "CFE_Pam_Thuy1": "My daughter Penny's the teacher here in town.#$b#I don't know how she got to be as smart as she did, but I've always said that kid's goin' places.",
+  "CFE_Pam_Friy1": "I oughta feed that mutt who lives outside my house. He's been actin' a bit sulky.#$e#Not sure who originally brought him to town. Probably someone who doesn't even live here anymore. But we all pitch in.",
+  "CFE_Pam_Saty1": "Erm... sorry, kid. My head hurts today. What'd you say?$4",
+  "CFE_Pam_Suny1": "You're lookin' pretty skinny there, kid. If you want a hot meal, Gus'll set you up right at the saloon.",
 
   //Penny
   //Penny Gift Tastes
@@ -4082,6 +4211,18 @@
   "CFE_Penny_winterMon": "On the 25th we'll be having the Feast of the Winter Star. It's one of my favorite events.#$e#It's supposed to be a time to show gratitude for all the good things in your life... but for most people it's just a time to relax and exchange gifts.",
   "CFE_Penny_winterWed": "I love that the library has a fireplace. It makes it so much nicer to just curl up with a good book.",
   "CFE_Penny_winterFri": "...yes?$u",
+
+  "CFE_Penny_Mony1": "Oh um, hi.#$q 961/962 Mon_1_readQ_old#A-are you much of a reader?#$r 961 20 Mon_1_readQ_yes#I love reading!#$r 961 10 Mon_1_readQ_kinda#Sometimes, but I'm always so busy.#$r 962 -20 Mon_1_readQ_ew#Books? Ew.",
+  "CFE_Penny_Mony1_readQ_old":"$p 962#We've all got to set a positive example for the kids in this town, don't you think?$3|Do you know when the bookseller will be back? I can't wait to see if he has the new \"Marcie\" book.",
+  "CFE_Penny_Mony1_readQ_yes": "Me too!$h#$b#I've read everything at our library at least once, but let me know if you get your hands on anything else that's good.",
+  "CFE_Penny_Mony1_readQ_kinda": "Yeah, that farm probably keeps you busy around the clock.#$b#But even still, there's a bookseller who visits twice a month. I bet you'd find something you like.",
+  "CFE_Penny_Mony1_readQ_ew": "Oh. Of course. Nobody ever reads anymore.$s",
+  "CFE_Penny_Tuey1": "I got certified to be a teacher after the town's previous teacher left a couple of years ago.#$b#But with only two students, I guess I'm more of a tutor.#$e#It's been really rewarding.",
+  "CFE_Penny_Wedy1": "Hi uh...$3#$b#S-sorry, I'm kind of busy right now.$3#$e#Have a good day.$3",
+  "CFE_Penny_Thuy1": "We know this place as Pelican Town, but people have actually lived here for thousands of years.#$e#I dream sometimes about what it'd be like to have a time machine.$3#$b#...Hold up a second, I just got a lesson idea I need to jot down.",
+  "CFE_Penny_Friy1": "So many books seem to have gone missing from the library lately. Where could they all have gone?$s",
+  "CFE_Penny_Saty1": "I occasionally take the kids to the playground. It's not part of my teaching duties, it's just a sitting job we all came to an agreement about.",
+  "CFE_Penny_Suny1": "I spend a lot of time thinking about lesson plans. Once you get started, it's difficult to stop.",
 
   //Penny's Married Dialogue
   //weather specific dialogue
@@ -4331,6 +4472,14 @@
   "CFE_Pierre_winterWed": "#$1 pierreDin#I'm going to surprise Caroline tonight with dinner and a bottle of Stardew Red. Don't tell anyone! Finally, a day of relaxation.$k#$e#",
   "CFE_Pierre_winterSat": "If I didn't have this shop to run I would be outside right now.#$e#It would be fun to throw a snowball.",
 
+  "CFE_Pierre_Mony1": "How's the weather out there? I haven't been outside yet today.",
+  "CFE_Pierre_Tuey1": "We'll be closed tomorrow, so be sure to plan accordingly.#$e#You might be able to find what you're looking for at JojaMart, but *ahem* I can't speak to the quality of their products.",
+  "CFE_Pierre_Wedy1": "$d Joja#Hey! How'd you get in here?$3#$e#...Fine. Sorry. How can I help you?$s|You drove Joja out of town pretty quickly! ...Are you magic?",
+  "CFE_Pierre_Thuy1": "We specialize in local and organic produce, so having your farm start up again is a game changer!",
+  "CFE_Pierre_Friy1": "Running an independent business is an all-consuming endeavor, but it's very rewarding.#$e#Caroline and Abigail also pitch in, sometimes. So it's kind of a family effort.",
+  "CFE_Pierre_Saty1": "When your seeds are done growing, bring the produce back here. I'll give you cash on the spot!#$e#Same thing goes for good-quality foragables and artisan goods. I'm all about keeping things local.",
+  "CFE_Pierre_Suny1": "There are no membership fees here! Nope, you get low prices just by walking through the doors, because you're a member of the community.#$e#Joja doesn't understand community. For them, it's just subscriber numbers and money, money, money...",
+
   //Robin
   //Robin Gift Tastes
   "CFE_Robin_GoldPumpkin": "Looks like that haunted maze had quite the prize after all! I can't believe you want me to have it!$h",
@@ -4421,6 +4570,13 @@
   "CFE_Robin_Wed_605": "Hang in there. It'll get better.#$b#Remember, we didn't even have a house when we first moved out here. I'm sure you'll land on your feet soon, too.",
   "CFE_Robin_Wed_606": "Oh gosh, I didn't realize it was that bad.$s#$b#Thank you for being honest. Please know you're never alone here. We're all on your side.",
   "CFE_Robin_FriinlawMaru": "I did think you and Maru would get along well. It really makes me happy to see the two of you together.",
+
+  "CFE_Robin_Mony1": "That farmhouse came with a few pieces of furniture, huh? Well, don't let that prevent you from making the place your own.#$e#I've got a bunch of homemade furniture and decorations, and at least one new item every day.",
+  "CFE_Robin_Tuey1": "I've already sketched out blueprints for farm structures. If you ever want a coop, a barn, a shed... I've got ideas.#$e#Oh, don't mind me. I draft out blueprints for fun.$4",
+  "CFE_Robin_Thuy1": "You've met the whole family by now, right? Demetrius... Maru...#$b#Sebastian's a pretty serious night owl, so if you visit in the evenings, you'll be more likely to find him.",
+  "CFE_Robin_Friy1": "The weekend's upon us, but I can still help you out if you need anything.#$e#I only take Tuesdays off entirely.",
+  "CFE_Robin_Saty1": "It's true that your grandfather was well-loved by the community, but don't let that intimidate you.#$e#I think it's important for you to go after what you want, not what someone else thinks you should do.",
+  "CFE_Robin_Suny1": "Demetrius found this spot during an ecological survey. He came back and asked me if we'd like to move here.#$e#I said yes, but only if I'd get to build the house myself.#$b#So here we are.$h",
 
   //Sam
   //Sam Gift Tastes
@@ -4557,6 +4713,17 @@
 
   //generic weekday dialogue
   "CFE_Sam_Thuy2": "My dad dropped by your farm, right?",
+
+  "CFE_Sam_Mony1": "*sigh* Work day today.#$e#Oh yeah, I work at JojaMart.#$e#Heh, I'm not supposed to listen to music on my shift, but no one ever calls me out for it, so I do it anyway.$h",
+  "CFE_Sam_Tuey1": "So, farming, huh? Sounds like it's a whole lotta work.#$e#I'm more into taking things slow. But when I do something, I go full force, you know?",
+  "CFE_Sam_Wedy1": "Let's see... I'm trying to come up with another song for my band's setlist.#$q 19/20 Wed_1_old#Okay, random burst of inspiration: Give me a song idea! Go!#$r 20 30 Wed_1_20#Moving away from the city.#$r 8820 30 Wed_1_20#Stickin' it to the man.#$r 8821 30 Wed_1_20#Sugary cereals.#$r 19 0 Wed_1_19#Ummmm...",
+  "CFE_Sam_Wedy1_old": "$p 19#Don't worry, if musical inspiration's not your thing, I'm not putting you on the spot again.$h|I've already got a demo for the song idea you gave me. Now I'm onto the next!",
+  "CFE_Sam_Wedy1_19": "Aw, c'mon, don't leave me hangin'!",
+  "CFE_Sam_Wedy1_20": "That's perfect... I think an opening riff is coming to me right now! Thanks!",
+  "CFE_Sam_Thuy1": "Vincent is my kid brother. I'm just trying my best to make sure the kid grows up right.#$e#Good cartoons, good comic books... Man, they just don't make 'em like they used to.$3",
+  "CFE_Sam_Friy1": "Hey, how's it goin', man?^Hey, how's it goin'?",
+  "CFE_Sam_Saty1": "People say there's nothing to do around here, but hey, at least there's always video games.",
+  "CFE_Sam_Suny1": "I've been playing guitar since I was twelve.#$b#I never had a guitar teacher. I just figure things out and look up videos when I need to.",
 
   //Sam's Married Dialogue
 
@@ -4897,6 +5064,19 @@
   //generic weekday dialogue
   "CFE_Sebastian_summerThu": "Getting out and making small talk with the locals, just for the fun of it. ...That's probably your kind of thing, isn't it?",
 
+  "CFE_Sebastian_Mony1": "*yawn* Man, I need some coffee.",
+  "CFE_Sebastian_Tuey1": "%Sebastian nods at you.#$q 971/972 Tue_1_smalltalk_old#...#$r 971 0 Tue_1_smalltalk_weather#Interesting weather today, huh?#$r 971 0 Tue_1_smalltalk_fam#I just wanted to say your family's really nice!#$r 971 0 Tue_1_smalltalk_hide#Why do you hide in your room so much?#$r 972 20 Tue_1_smalltalk_nothing#(Nod back and move on)",
+  "CFE_Sebastian_Tuey1_smalltalk_old":"$p 972#...Have a good one.|Sorry, I don't really do small talk.$s",
+  "CFE_Sebastian_Tuey1_smalltalk_weather": "...Yeah, I guess.$s",
+  "CFE_Sebastian_Tuey1_smalltalk_fam": "...$s#$b#...So does everyone.$s",
+  "CFE_Sebastian_Tuey1_smalltalk_hide": "Just... working.$s#$b#...You sound like my stepdad.$s",
+  "CFE_Sebastian_Tuey1_smalltalk_nothing": "...Have a good evening.",
+  "CFE_Sebastian_Wedy1": "So you're actually staying, huh? You're not on vacation?#$e#...Okay, cool.",
+  "CFE_Sebastian_Thuy1": "Crap. I was just trying to solve a problem in my head. You broke my train of thought.$s#$e#Whatever, it's fine. I'll figure it out later.$s",
+  "CFE_Sebastian_Friy1": "...Just playing pool with my friends today. Gotta keep my skills sharp.",
+  "CFE_Sebastian_Saty1": "Hey what's up.",
+  "CFE_Sebastian_Suny1": "Looks like the mines are open again.#$e#It's pretty cool inside. You've just gotta be careful.",
+
   //Sebastian's Married Dialogue
   //weather specific dialogue
   "CFE_Sebastian_Married_RainyDay_1": "Finally... some heavy rain. I get bored of sunny weather easily.",
@@ -5125,6 +5305,14 @@
 
   //generic weekday dialogue
   "CFE_Shane_Mon": "I don't know you. Why are you talking to me?",
+
+  "CFE_Shane_Mony1": "No time to talk. Busy day today, and even busier day tomorrow.#$e#Wednesday doesn't look good either.$5",
+  "CFE_Shane_Tuey1": "*sigh*$3#$e#%Shane is avoiding eye contact.",
+  "CFE_Shane_Wedy1": "Y'know, some of us moved out here specifically so there'd be fewer people to bother them.#$e#Just a thought.",
+  "CFE_Shane_Thuy1": "Hi.#$e#What do you want?",
+  "CFE_Shane_Friy1": "Oh look, it's Mr. New Guy.^Oh look, it's Little-Miss New Girl.#$e#Is life hard with that entire plot of land all to yourself?#$b#Y'know, the one you apparently got for free?",
+  "CFE_Shane_Saty1": "...Look, if you're gonna be raising chickens, you gotta do it right, at least. Clean coop, lots of open space, and top-quality food.#$b#If I ever get word they're not getting the best possible life, it's not gonna fly.$5",
+  "CFE_Shane_Suny1": "My weekend? It's going fine.#$e#Why do you care?",
 
   //Shane's Married Dialogue
   //weather specific dialogue
@@ -5361,6 +5549,19 @@
   "CFE_Vincent_Fri": "Oh no... Mom's making lentil soup tonight.$s",
   "CFE_Vincent_Saty1": "Dad's coming back soon!#$b#I hope he brings me some toys.$u",
 
+  "CFE_Vincent_Mony1": "I talked to my dad on the phone last month.#$e#He's on a long trip, but he told me he'd be back as soon as he can.#$e#How long do you think \"as soon as he can\" is?$u",
+  "CFE_Vincent_Tuey1": "I go to school at the library. Ms. Penny's my teacher, and Jas is the only other student in my class.#$q 981/982 Tue_1_schoolQ_old#What are real schools like?#$r 981 0 Tue_1_schoolQ_fine#They're fine. Just noisier than libraries.#$r 981 0 Tue_1_schoolQ_awe#They're awesome! You meet a lot of cool people.#$r 982 0 Tue_1_schoolQ_tor#They're torture. Consider yourself lucky.#$r 981 20 Tue_1_schoolQ_idk#I don't know. I never went to a 'real school' either.",
+  "CFE_Vincent_Tuey1_schoolQ_old":"$p 982#I still wish I could see what a big school is like, even if you said it's torture.|I still wish I could see what a big school is like.",
+  "CFE_Vincent_Tuey1_schoolQ_fine": "Really? I heard they're more boring.#$b#But I do like being noisy.",
+  "CFE_Vincent_Tuey1_schoolQ_awe": "Aww, I wish I could go.",
+  "CFE_Vincent_Tuey1_schoolQ_tor": "Haha, I can tell when you're joking.$h#$b#But yeah, everyone says I'm lucky to have \"one on one attention.\"",
+  "CFE_Vincent_Tuey1_schoolQ_idk": "...Really?#$b#Cool!$h",
+  "CFE_Vincent_Wedy1": "I have a scooter. And one day Sam is gonna give me his old skateboard.#$b#But I have to learn how to ride one first.",
+  "CFE_Vincent_Thuy1": "There aren't enough other kids around here, and it's boring because grown-ups say they're too busy to play.$u",
+  "CFE_Vincent_Friy1": "My mom's a really good cook, but I just don't like anything she makes.#$e#That's what she always says.",
+  "CFE_Vincent_Saty1": "I wake up extra early when there's no school...#$b#...because then there's more playtiiime!$h#$e#Momma and Sam hate it. *giggle*",
+  "CFE_Vincent_Suny1": "If I get too hot, I just put my hands in the river.#$e#It feels really nice.",
+
   //Willy Gift Tastes
   "CFE_Willy_GoldPumpkin": "I do love a good pumpkin, but this one's golden? Har har! What'll ye find next?$h",
   "CFE_Willy_Pearl": "If a mermaid sees me holdin' this, I reckon I'll be pretty popular! Har har!$h",
@@ -5452,6 +5653,18 @@
   "CFE_Willy_Mon": "Any progress with fishing yet? Stick with it. It'll get easier with time.",
   "CFE_Willy_Fri": "How's your rod holding up?",
 
+  "CFE_Willy_Mony1": "Ahoy there.#$q 991/992 Mon_1_fishQ_old#Any progress with fishing yet?#$r 991 10 Mon_1_fishQ_yes#I think I'm a natural. This is fun!#$r 991 0 Mon_1_fishQ_kinda#It's a bit rough but I'm managing.#$r 992 0 Mon_1_fishQ_no#It's... not good, to be honest.",
+  "CFE_Willy_Mony1_fishQ_old": "$p 992#My schedule's been a bit tight, keepin' the shop well stocked, but I haven't forgotten about teaching you some fishing tricks.|Be sure to let me know about any of your interesting catches!$h",
+  "CFE_Willy_Mony1_fishQ_yes": "Glad to hear it!$h",
+  "CFE_Willy_Mony1_fishQ_kinda": "Stick with it. It'll get easier with time.",
+  "CFE_Willy_Mony1_fishQ_no": "Hmm, I 'ppreciate the honesty. I'll look at my schedule and see if I can give you a lesson sometime. No charge, of course!",
+  "CFE_Willy_Tuey1": "If you catch any bugs and find bug meat, be sure to save it. It'll make for good bait when you're ready to use it.",
+  "CFE_Willy_Wedy1": "You'll find different kinds of fish dependin' on where you cast. Ocean, rivers, lakes...#$b#If there's water, I say cast a line and see what comes up!$h",
+  "CFE_Willy_Thuy1": "I've lived here all my life. The fresh salt air is all I need.",
+  "CFE_Willy_Friy1": "How's your rod holding up?",
+  "CFE_Willy_Saty1": "We've got a lot o' fishing events here in the Valley. Trout Derby in summer, Squidfest and Ice Fishing in winter, among others.#$e#The competition's a bit tough, so it's good to start practicin' now!$h",
+  "CFE_Willy_Suny1": "Me ol' pappy taught me everything he knew about fishing.#$b#Though I've learned a few tricks of me own, too.$h",
+
   //Wizard Gift Tastes
   "CFE_Wizard_GoldPumpkin": "You were quite successful in the maze. I give you my sincere congratulations.#$b#Your returning of the golden pumpkin to me proves you are pure of heart.#$e#...That's it. Being pure of heart is its own reward.#$e#Disappointed? Hmmm. Well then...",
   "CFE_Wizard_RockCandy": "The magic residing within these crystals is beyond potent. Whoever made this candy is imbued with the supernatural, no doubt.",
@@ -5520,6 +5733,14 @@
 
   //Generic Weekday Dialogue
   "CFE_Wizard_Fri": "Think of me as an ambassador between this world and the world of spirits.#$e#That is but one of my duties, anyway.",
+
+  "CFE_Wizard_Mony1": "There are so many tasks for you to balance, aren't there? But take it easy. You can't be in two places at once.#$e#Well, actually you can be in two places at once, but that would require a spell that would take many years for you to learn.",
+  "CFE_Wizard_Tuey1": "There is spiritual energy infused into every molecule in the universe, and that energy is what one can harness in the form of magic.#$e#But don't expect me to give you a breakdown on how it works. This isn't science.",
+  "CFE_Wizard_Wedy1": "I foresee that you have many trials ahead of you. You currently face hard labor, and you will eventually face grave danger.#$b#But do not lose heart. Face your future with bravery. You have been given this destiny with a grand purpose.#$e#...Or at least, some kind of purpose. I dunno. It doesn't have to be grand.",
+  "CFE_Wizard_Thuy1": "My tower is stocked with numerous potions that can augment your physical and spiritual strength tenfold.#$e#No, you may not have any. I need those.#$e#I prefer not to answer why I need them.#$e#Good day.",
+  "CFE_Wizard_Friy1": "You've hiked out here to visit me on a Friday? Don't you have any youthful merriment to get to?#$e#You cannot expect there to be any mirthful revelry here.#$e#Well, okay, I will be opening a portal into the spriit realm to host a band of hobgoblins and pixies. But I assure you these social functions are awkward and boring.#$e#I only humor the spirits so they don't smite our land with pestilence next year.",
+  "CFE_Wizard_Saty1": "The Junimos are counting on you. I assume you don't intend to let them down.",
+  "CFE_Wizard_Suny1": "I keep mostly to myself because I wish to avoid causing a disturbance. Few of the townsfolk understand my purpose here, and some outright fear me.#$e#Nonetheless, I continue my communion with the spirit world for their sake. I expect no reward.",
 
   //Festival Dialogue
   //Year 1
