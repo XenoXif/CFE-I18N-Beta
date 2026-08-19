@@ -1528,7 +1528,7 @@
   "CFE_Emily_Thuy1_favoriteQ_old": "$p 932#You should come by the saloon more often if you're looking for a place to fit in.|And I knew you'd find your place here right away!",
   "CFE_Emily_Thuy1_favoriteQ_ppl": "Ha! If this were a test, you'd pass with flying colors! I agree, our community is full of such charming people.$h",
   "CFE_Emily_Thuy1_favoriteQ_nat": "You're so right! Everyone needs their daily dose of beauty. And the Valley never lets me down.",
-  "CFE_Emily_Thuy1_favoriteQ_lcl": "Oh, you haven't seen anything yet! Just wait for the summer Luau, or the winter Night Market, or... (etc.)",
+  "CFE_Emily_Thuy1_favoriteQ_lcl": "Oh, you haven't seen anything yet! Just wait for the summer {{ShortLuauName}}, or the winter Night Market, or... (etc.)",
   "CFE_Emily_Thuy1_favoriteQ_nada": "Oh, is that so? Just... wait for it, then. I'm sure you'll find something you'll love.$3",
   "CFE_Emily_Friy1": "There are a lot of mysterious and beautiful things hiding in plain sight.#$b#A lot of people don't notice them, but they'll reveal themselves if you know how to look.#$e#Hehe, maybe I'll tell you more about it in the future.$h",
   "CFE_Emily_Saty1": "Nature offers us so many gifts. The least we can do is be kind to it in return.#$e#You get it, right? You're a farmer now, so you have the perfect opportunity to grow food sustainably.",
@@ -1848,16 +1848,14 @@
   "CFE_George_Sun": "What's it take for a little peace and quiet around here?",
 
   "CFE_George_Mony1": "Have you spoken with my grandson Alex? He's a disciplined young man.#$e#Maybe he needs a bit of direction, but he knows how to dig in his heels. His peers could learn a thing or two.",
-  "CFE_George_Tuey1": "I can't imagine you'll be around here in town for very long, hmm?#$e#Most young folks don't have the discipline for country life, as far as I can see.",
+  "CFE_George_Tuey1": "I can't imagine you'll be around here for very long, hmm?#$e#Most young folks don't have the discipline for country life, as far as I can see.",
   "CFE_George_Wedy1": "What's this now? Do we just let the whole town waltz right into our home, uninvited?#$e#I don't go barging into your house like I own it. Now git!",
   "CFE_George_Thuy1": "I've been waiting all day for this television program, and I'll be darned if I let you ruin it for me.#$e#Pipe down!",
-  "CFE_George_Friy1": "That farm's been in miserable shape for years.#$e#And you want to restore it? Hmph. Good luck.",
-  "CFE_George_Saty1": "The days of the week all blend together when you're retired like me.#$q 941/942 Sat_1_weekQ_old#Let's see... what day is it, again?#$r 942 -10 Sat_1_weekQ_fri#Friday.#$r 941 10 Sat_1_weekQ_sat#Saturday.#$r 942 -10 Sat_1_weekQ_jerk#Someday. (You figure it out, jerk.)",
-  "CFE_George_Saty1_weekQ_old":"$p 942#And I suppose they blend together for you too, even though your brain's supposed to be sharp as a tack at your age.|It's like having fourteen weekends a month. All well earned, I should say.",
+  "CFE_George_Saty1": "The days of the week all blend together when you're retired like me.#$q 941/942 Sat_1_weekQ_old#Let's see... what day is it, again?#$r 942 -10 Sat_1_weekQ_fri#Friday.#$r 941 10 Sat_1_weekQ_sat#Saturday.#$r 942 -10 Sat_1_weekQ_jerk#Some day. (You figure it out, jerk.)",
+  "CFE_George_Saty1_weekQ_old": "$p 942#And I suppose they blend together for you too, even though your brain's supposed to be sharp as a tack at your age.|It's like having fourteen weekends a month. All well earned, I should say.",
   "CFE_George_Saty1_weekQ_fri": "Friday, huh? Was it really only yesterday that my favorite program was on...?$s#$b#I suppose it must have been.$s",
   "CFE_George_Saty1_weekQ_sat": "Saturday? ...Yeah, that's right.#$b#Good. Then I haven't missed my visit to the Yoba shrine.",
   "CFE_George_Saty1_weekQ_jerk": "Sunday? Is it Sunday already? I-$s#$b#Hey, it's not Sunday. Here I thought my mind was going, but your young mind's even worse!",
-  "CFE_George_Suny1": "What's it take for a little peace and quiet around here?",
 
   //Gus
   //Gus Gift Tastes
@@ -1971,10 +1969,9 @@
 
   "CFE_Gus_Mony1": "If you're busy getting that farm up and running, feel free to leave the cooking to me!#$e#Life sure gets busy, doesn't it?",
   "CFE_Gus_Tuey1": "\"Fresh and local\" is the way we roll around here. I'll only make a dish if the ingredients are top-notch!#$e#And maybe that'll be a little easier with a new local farm starting up, huh?$h",
- 
-  "CFE_Gus_Thuy1": "The Stardrop Saloon has been serving this community for over fifteen years, owned and operated by yours truly.$h#$e#Yes sir, I'm in this for the long haul.^Yes ma'am, I'm in this for the long haul.",
+  "CFE_Gus_Thuy1": "The Stardrop Saloon has been serving this community for over fifteen years, owned and operated by yours truly.$h#$e#Yes sir, I'm in this for the long haul.^Yes ma'am, I'm in this for the long haul.$h",
+  "CFE_Gus_Thuy1_GN": "The Stardrop Saloon has been serving this community for over fifteen years, owned and operated by yours truly.$h#$e#Yes {{GNMTTitle}}, I'm in this for the long haul.$h",
   "CFE_Gus_Friy1": "Welcome, @! Good to see you.$h#$e#Looks like we've got enough food prepped for a crowd like tonight's, but the special's in limited supply, so don't miss out on that if you can help it!",
-  "CFE_Gus_Saty1": "Business was great last night. I'm pleased.#$e#Be sure to drop by again soon!$h",
   "CFE_Gus_Suny1": "Times have been a bit tough for this little town lately, but that's all the more reason we've all got to stick together, isn't it?",
 
   //Haley
@@ -2565,7 +2562,9 @@
 
   //Jas's Standard Dialogue
   //Special Dialogue
-  //no repeated dialogue
+  "CFE_Jas_repeated_1": "Do you know Ms. Leah? She's my neighbor.",
+  //repeated 1: Tue2, Mony1
+
 
   //date specific dialogue
   "CFE_Jas_winter28": "Happy new year, Mister @.^Happy new year, Ms. @.",
@@ -2625,7 +2624,7 @@
   "CFE_Jas_Friy1": "Oh um-$u#$b#...$u#$b#...never mind.$u",
   "CFE_Jas_Saty1": "*giggle*$h#$b#...$u#$e#I was just playing in my imagination.$u",
   "CFE_Jas_Suny1": "Are you one of Aunt Marnie's friends?$u",
-  "CFE_Jas_Tue2": "Do you know Ms. Leah? She's my neighbor.",
+
 
   //Jodi
   //Jodi Gift Tastes
@@ -4213,7 +4212,7 @@
   "CFE_Penny_winterFri": "...yes?$u",
 
   "CFE_Penny_Mony1": "Oh um, hi.#$q 961/962 Mon_1_readQ_old#A-are you much of a reader?#$r 961 20 Mon_1_readQ_yes#I love reading!#$r 961 10 Mon_1_readQ_kinda#Sometimes, but I'm always so busy.#$r 962 -20 Mon_1_readQ_ew#Books? Ew.",
-  "CFE_Penny_Mony1_readQ_old":"$p 962#We've all got to set a positive example for the kids in this town, don't you think?$3|Do you know when the bookseller will be back? I can't wait to see if he has the new \"Marcie\" book.",
+  "CFE_Penny_Mony1_readQ_old": "$p 962#We've all got to set a positive example for the kids in this town, don't you think?$3|Do you know when the bookseller will be back? I can't wait to see if he has the new \"Marcie\" book.",
   "CFE_Penny_Mony1_readQ_yes": "Me too!$h#$b#I've read everything at our library at least once, but let me know if you get your hands on anything else that's good.",
   "CFE_Penny_Mony1_readQ_kinda": "Yeah, that farm probably keeps you busy around the clock.#$b#But even still, there's a bookseller who visits twice a month. I bet you'd find something you like.",
   "CFE_Penny_Mony1_readQ_ew": "Oh. Of course. Nobody ever reads anymore.$s",
@@ -5066,7 +5065,7 @@
 
   "CFE_Sebastian_Mony1": "*yawn* Man, I need some coffee.",
   "CFE_Sebastian_Tuey1": "%Sebastian nods at you.#$q 971/972 Tue_1_smalltalk_old#...#$r 971 0 Tue_1_smalltalk_weather#Interesting weather today, huh?#$r 971 0 Tue_1_smalltalk_fam#I just wanted to say your family's really nice!#$r 971 0 Tue_1_smalltalk_hide#Why do you hide in your room so much?#$r 972 20 Tue_1_smalltalk_nothing#(Nod back and move on)",
-  "CFE_Sebastian_Tuey1_smalltalk_old":"$p 972#...Have a good one.|Sorry, I don't really do small talk.$s",
+  "CFE_Sebastian_Tuey1_smalltalk_old": "$p 972#...Have a good one.|Sorry, I don't really do small talk.$s",
   "CFE_Sebastian_Tuey1_smalltalk_weather": "...Yeah, I guess.$s",
   "CFE_Sebastian_Tuey1_smalltalk_fam": "...$s#$b#...So does everyone.$s",
   "CFE_Sebastian_Tuey1_smalltalk_hide": "Just... working.$s#$b#...You sound like my stepdad.$s",
@@ -5547,16 +5546,17 @@
   "CFE_Vincent_WedinlawSam": "How's my brother doing?#$e#I can't believe we're related now!$h",
   "CFE_Vincent_WedinlawSam.PPAF.NoRomance": "How's my brother doing?#$e#We're sort of related now, aren't we?$h",
   "CFE_Vincent_Fri": "Oh no... Mom's making lentil soup tonight.$s",
-  "CFE_Vincent_Saty1": "Dad's coming back soon!#$b#I hope he brings me some toys.$u",
+  "CFE_Vincent_Sat": "I have a scooter. And one day Sam is gonna give me his old skateboard.#$b#But I have to learn how to ride one first.",
+
 
   "CFE_Vincent_Mony1": "I talked to my dad on the phone last month.#$e#He's on a long trip, but he told me he'd be back as soon as he can.#$e#How long do you think \"as soon as he can\" is?$u",
   "CFE_Vincent_Tuey1": "I go to school at the library. Ms. Penny's my teacher, and Jas is the only other student in my class.#$q 981/982 Tue_1_schoolQ_old#What are real schools like?#$r 981 0 Tue_1_schoolQ_fine#They're fine. Just noisier than libraries.#$r 981 0 Tue_1_schoolQ_awe#They're awesome! You meet a lot of cool people.#$r 982 0 Tue_1_schoolQ_tor#They're torture. Consider yourself lucky.#$r 981 20 Tue_1_schoolQ_idk#I don't know. I never went to a 'real school' either.",
-  "CFE_Vincent_Tuey1_schoolQ_old":"$p 982#I still wish I could see what a big school is like, even if you said it's torture.|I still wish I could see what a big school is like.",
+  "CFE_Vincent_Tuey1_schoolQ_old": "$p 982#I still wish I could see what a big school is like, even if you said it's torture.|I still wish I could see what a big school is like.",
   "CFE_Vincent_Tuey1_schoolQ_fine": "Really? I heard they're more boring.#$b#But I do like being noisy.",
   "CFE_Vincent_Tuey1_schoolQ_awe": "Aww, I wish I could go.",
   "CFE_Vincent_Tuey1_schoolQ_tor": "Haha, I can tell when you're joking.$h#$b#But yeah, everyone says I'm lucky to have \"one on one attention.\"",
   "CFE_Vincent_Tuey1_schoolQ_idk": "...Really?#$b#Cool!$h",
-  "CFE_Vincent_Wedy1": "I have a scooter. And one day Sam is gonna give me his old skateboard.#$b#But I have to learn how to ride one first.",
+  "CFE_Vincent_Wedy1": "Dad's coming back soon!#$b#I hope he brings me some toys.$u",
   "CFE_Vincent_Thuy1": "There aren't enough other kids around here, and it's boring because grown-ups say they're too busy to play.$u",
   "CFE_Vincent_Friy1": "My mom's a really good cook, but I just don't like anything she makes.#$e#That's what she always says.",
   "CFE_Vincent_Saty1": "I wake up extra early when there's no school...#$b#...because then there's more playtiiime!$h#$e#Momma and Sam hate it. *giggle*",

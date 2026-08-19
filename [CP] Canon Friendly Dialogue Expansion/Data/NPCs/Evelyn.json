@@ -47,6 +47,24 @@
         "Evelyn": "{{i18n: CFE_Evelyn_rainy_{{random: 1,2,3}}}}"
       }
     },
+    {
+      "LogName": "CFE_Evelyn_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Evelyn",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Evelyn_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Evelyn_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Evelyn_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Evelyn_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Evelyn_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Evelyn_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Evelyn_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Evelyn 20 480}}": true,
+        "CFE_ZeroHearts": "true"
+      }
+    },
 
     {
       "LogName": "CFE_Evelyn_Dialogue",

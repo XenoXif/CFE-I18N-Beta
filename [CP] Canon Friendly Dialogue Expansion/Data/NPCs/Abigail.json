@@ -67,9 +67,7 @@
       "When": {
         "query: {{PLAYER_FRIENDSHIP_POINTS Current Abigail 20 480}}": true,
         "CFE_ZeroHearts": "true"
-
       }
-
     },
 
     {

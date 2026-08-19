@@ -33,6 +33,27 @@
         "George": "{{i18n: CFE_George_rainy_{{random: 1,2,3}}}}"
       }
     },
+    {
+      "LogName": "CFE_George_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/George",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_George_Mony1}}",
+        "Tue_1": "{{i18n: CFE_George_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_George_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_George_Thuy1}}",
+        "Sat_1": "{{i18n: CFE_George_Saty1}}",
+        "Mon_1_weekQ_old": "{{i18n: CFE_George_Mony1_weekQ_old}}",
+        "Mon_1_weekQ_fri": "{{i18n: CFE_George_Mony1_weekQ_fri}}",
+        "Mon_1_weekQ_sat": "{{i18n: CFE_George_Mony1_weekQ_sat}}",
+        "Mon_1_weekQ_jerk": "{{i18n: CFE_George_Mony1_weekQ_jerk}}"
+
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current George 20 480}}": true,
+        "CFE_ZeroHearts": "true"
+      }
+    },
 
     {
       "LogName": "CFE_George_Dialogue",
