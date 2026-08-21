@@ -31,7 +31,28 @@
         "Haley": "{{i18n: CFE_Haley_rainy_{{random: 1,2,3}}}}"
       }
     },
-
+ {
+      "LogName": "CFE_Haley_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Haley_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Haley_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Haley_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Haley_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Haley_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Haley_Saty1}}",
+        "Sat_1_clothesQ_yes": "{{i18n: CFE_Haley_Saty1_clothesQ_old}}",
+        "CFE_Haley_Saty1_clothesQ_yes": "{{i18n: CFE_Haley_Saty1_clothesQ_yes}}",
+        "CFE_Haley_Saty1_clothesQ_no": "{{i18n: CFE_Haley_Saty1_clothesQ_no}}",
+        "CFE_Haley_Saty1_clothesQ_creep": "{{i18n: CFE_Haley_Saty1_clothesQ_creep}}",
+        "Sun_1": "{{i18n: CFE_Haley_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Haley 20 480}}": true,
+        "CFE_ZeroHearts": "true"
+      }
+    },
     {
       "LogName": "CFE_Haley_Dialogue",
       "Action": "EditData",
