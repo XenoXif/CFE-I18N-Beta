@@ -34,7 +34,25 @@
         //no rainy dialogue currently
       }
       }, */
+    {
+      "LogName": "CFE_Jas_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Jas_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Jas_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Jas_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Jas_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Jas_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Jas_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Jas_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Jas 20 480}}": true,
+        "CFE_ZeroHearts": "true"
 
+      }
+    },
     {
       "LogName": "CFE_Jas_Dialogue",
       "Action": "EditData",
