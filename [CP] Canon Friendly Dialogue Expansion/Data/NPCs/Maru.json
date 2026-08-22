@@ -37,7 +37,25 @@
         "Maru": "{{i18n: CFE_Maru_rainy_{{random: 1,2,3}}}}"
       }
     },
+     {
+      "LogName": "CFE_Maru_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Maru_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Maru_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Maru_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Maru_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Maru_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Maru_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Maru_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Maru 20 480}}": true,
+        "CFE_ZeroHearts": "true"
 
+      }
+    },
     {
       "LogName": "CFE_Maru_Dialogue",
       "Action": "EditData",
