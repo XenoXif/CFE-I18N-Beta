@@ -366,7 +366,7 @@
 
   //Alex
   //Alex Gift Tastes
-  "CFE_Alex_GoldPumpkin": "You got through the maze safe and sound, huh? Congrats! This is an awesome prize!$h",
+  "CFE_Alex_GoldPumpkin": "They had one of these at the end of the maze, huh? Congrats! It's like a gold medal!$h",
   "CFE_Alex_RockCandy": "I normally stay away from sugar, but... *crunch*#$b#No way!$7#$b#I feel unstoppable! I could do a thousand pushups and run a hundred miles!$h",
   "CFE_Alex_PrismaticShard": "This is the best! I don't know why, but just holding this thing feels like I'm holding a championship trophy!$h",
   "CFE_Alex_RabbitsFoot": "Nice! My favorite gridball player always taps one of these three times before he goes out on the field. I think I'll do the same.",
@@ -478,7 +478,7 @@
   "CFE_Alex_winterThu10": "If I ever make a lot of money, I'll make sure all my friends and family are taken care of.#$e#That means you, too.$h",
   "CFE_Alex_winterThu8": "I had a dream the other night where my mom was there. Then I woke up.$s#$e#Reality bites sometimes.$a",
   "CFE_Alex_winterThu6": "I wish I could control the weather.",
-  "CFE_Alex_winterThu4": "Nobody really knows who owns Dusty. I feed him sometimes, but so do a few other people.#$e#This pen's been here for as long as I can remember. I think it's even been here longer than Dusty.",
+  "CFE_Alex_winterThu4": "I take care of Dusty, but so do a few other people.#$e#This pen's been here for as long as I can remember. And one day he just showed up.",
   "CFE_Alex_winterFri10": "@, are your parents proud of you?#$e#Well, here's one guy who's pretty proud of you.{{LovePortraitsHappy}}",
   "CFE_Alex_winterFri6": "Do you think I'll wind up like Clint if I don't make pro soon?$s",
   "CFE_Alex_winterSat10": "@, you're totally different from me, but I feel like you've shown me a whole different side of life.#$e#Maybe I shouldn't be so judgmental of people who are different from me.",
@@ -1976,7 +1976,7 @@
 
   //Haley
   //Haley Gift Tastes
-  "CFE_Haley_GoldPumpkin": "You found this in the haunted maze? My hero!{{LovePortraitsHappy}}",
+  "CFE_Haley_GoldPumpkin": "I can't imagine, what did you go through to get this? My hero!{{LovePortraitsHappy}}",
   "CFE_Haley_Pearl": "It's beautiful!$8#$b#And... you thought of me when you found it?{{LovePortraitsHappy}}",
   "CFE_Haley_RabbitsFoot": "*gasp* It's perfect! All the top models in Zuzu City have these on their purses and handbags these days!$h",
   "CFE_Haley_FruitSalad": "*gasp* Can I-$8#$b#...I can? I was just craving a fruit salad! How'd you know?$h",
@@ -2293,7 +2293,7 @@
 
   //Harvey
   //Harvey Gift Tastes
-  "CFE_Harvey_GoldPumpkin": "You got to the end of the maze and you're just giving me the prize? @, this is so generous!",
+  "CFE_Harvey_GoldPumpkin": "You discovered this treasure yourself, and you're just giving it to me? @, this is so generous!",
   "CFE_Harvey_RockCandy": "I suppose a little candy never hurt anyone.#$b#If I'm having candy, though, I'm going for the good stuff like this!$h",
   "CFE_Harvey_PrismaticShard": "This is absolutely stunning. Where did you manage to find such a treasure?$h",
   "CFE_Harvey_RabbitsFoot": "What a nice little charm! Though for me, it'll be a reminder to take my day's luck into my own hands.",
@@ -2858,7 +2858,7 @@
 
   //Krobus
   //Krobus Gift Tastes
-  "CFE_Krobus_GoldPumpkin": "The Wizard's maze held this prize at the end, didn't it? I suppose you could only find it if you're unafraid of the dark.$h",
+  "CFE_Krobus_GoldPumpkin": "The Wizard's maze holds one of these at the end, doesn't it? I suppose you could only find it if you're unafraid of the dark.$h",
   "CFE_Krobus_RockCandy": "I've heard of these, but I've never tried one. *crunch*#$b#Ohhhh, hohoho, the power! Tonight is going to be a very interesting night!$6",
   "CFE_Krobus_PrismaticShard": "I can feel a beautiful, sacred energy emanating from this stone. What a rare and special item.",
   "CFE_Krobus_RabbitsFoot": "Humans keep these for luck, don't they? What an amusing practice!$7",
@@ -3007,7 +3007,7 @@
 
   //Leah
   //Leah Gift Tastes
-  "CFE_Leah_GoldPumpkin": "You found this at the end of the maze? It's simply enchanting!$h",
+  "CFE_Leah_GoldPumpkin": "Where did you find this? It's simply enchanting!$h",
   "CFE_Leah_Pearl": "@! This is... really rare!$6#$b#But... you want me to have it? I uh... okay. Thank you!{{LovePortraitsHappy}}",
   "CFE_Leah_PrismaticShard": "That's fantastic! I wonder if I could mix it into some paint...$h",
   "CFE_Leah_RabbitsFoot": "Thanks! I could use some good luck!$h#$b#A career in art is never very easy.$7",
@@ -3389,7 +3389,7 @@
 
   //Lewis
   //Lewis Gift Tastes
-  "CFE_Lewis_GoldPumpkin": "So that's what was at the end of the maze, huh? Another Pelican Town mystery solved!$h#$e#I'll just uh... put the gold pumpkin in the town's trophy case.#$e#We don't have a trophy case, but I've been trying to get one made.#$e#Date to be determined.",
+  "CFE_Lewis_GoldPumpkin": "So there's one of these at the end of the Spirit's Eve maze, huh? Another Pelican Town mystery solved!$h#$b#I'll just uh... put the gold pumpkin in the town's trophy case.#$e#We don't have a trophy case, but I've been trying to get one made.#$e#Date to be determined.",
   "CFE_Lewis_RockCandy": "Oho! You're telling me this rock candy will give me strength like nothing else? I know where I can use this!$h",
   "CFE_Lewis_PrismaticShard": "This is fantastic! I could use it to adorn one of my artistic projects!$h#$e#...What projects, you ask? They're uh, top secret.",
   "CFE_Lewis_RabbitsFoot": "Wishing me good luck? I think Pelican Town got all the luck it needed, the day you showed up!$h#$b#Thanks for everything, @.",
@@ -3490,7 +3490,7 @@
 
   //Linus
   //Linus Gift Tastes
-  "CFE_Linus_GoldPumpkin": "Good show, old friend.$h#$e#I saw you from the edge of the maze. Did you see me?",
+  "CFE_Linus_GoldPumpkin": "Good show, old friend.$h#$e#I caught a glimpse of you finding this. Did you see me?",
   "CFE_Linus_Pearl": "Nature is filled with countless beautiful secrets. A pearl may be one of the finest.$h",
   "CFE_Linus_PrismaticShard": "W-why, what a sight!$3#$b#This world we inhabit never ceases to amaze.$3",
   "CFE_Linus_RabbitsFoot": "Rabbits are selfless creatures. We must never take them for granted.#$b#Neither do I take this gift for granted. Thank you.$h",
@@ -3665,12 +3665,12 @@
 
   //Maru
   //Maru Gift Tastes
-  "CFE_Maru_GoldPumpkin": "Hey, looks like you found your way through the maze!#$b#And you're giving the prize to me? You're amazing!$l",
+  "CFE_Maru_GoldPumpkin": "You're giving this to me? You're amazing!$l#$b#I'm going to start extracting the gold deposits right away!",
   "CFE_Maru_RockCandy": "Wow! Thank you! Is it safe to eat?$h#$b#I'll begin some scans on it right away!",
   "CFE_Maru_Pearl": "This pearl is huge! It's kind of awe-inspiring to think how long it took the mollusk to make it.$h#$b#Hold on, I think I can figure out its age with a little microcarbon dating. This'll be fun!",
   "CFE_Maru_PrismaticShard": "Look how it separates the light into that perfect spectrum! It's utterly stunning!$l",
   "CFE_Maru_Diamond": "Oh, perfect! I was looking to try an experiment, refracting a laser through several prisms. This will do the trick!$h",
-  "CFE_Maru_Cauliflower": "That's so nice of you! Mom and Dad will be happy if I cook this up tonight, but...$h#$b#...honestly, I just want to take a bite of it right now. It's so fresh!",
+  "CFE_Maru_Cauliflower": "That's so nice of you! It'd be great if I cooked this up tonight, but...$h#$b#...honestly, I just want to take a bite of it right now. It's so fresh!",
   "CFE_Maru_CheeseCauliflower": "Oooh, look at you, coming in fast with the gourmet cuisine!$l#$b#You are the best!$l",
   "CFE_Maru_MinersTreat": "Is that a homemade lollipop? I've always loved these since I was a kid!$l",
   "CFE_Maru_PepperPoppers": "I can never eat just one of these! *munch* They're delicious!$h",
@@ -4081,7 +4081,7 @@
 
   //Penny
   //Penny Gift Tastes
-  "CFE_Penny_GoldPumpkin": "You found the gold pumpkin? That's fantastic!$h#$b#Thank goodness you managed. I can barely even remember what the maze was like. It's strange.",
+  "CFE_Penny_GoldPumpkin": "You found a gold pumpkin? That's fantastic!$h#$b#It reminds me... I can barely even remember the Spirit's Eve maze. It's strange.",
   "CFE_Penny_Pearl": "What a treasure! Pearls are so interesting!$h#$b#And gorgeous!{{LovePortraitsHappy}}",
   "CFE_Penny_PrismaticShard": "Oh, @, is that-?$12#$b#This is so unbelievably rare! Thank you!{{LovePortraitsHappy}}",
   "CFE_Penny_RabbitsFoot": "Ew! Nooo, I don't like it.$s",
@@ -4481,7 +4481,7 @@
 
   //Robin
   //Robin Gift Tastes
-  "CFE_Robin_GoldPumpkin": "Looks like that haunted maze had quite the prize after all! I can't believe you want me to have it!$h",
+  "CFE_Robin_GoldPumpkin": "This is quite a Spirit's Eve treasure! I can't believe you want me to have it!$h",
   "CFE_Robin_Pearl": "@, are you sure?$h#$b#Thank you. I never expected to have a neighbor who's so generous.",
   "CFE_Robin_PrismaticShard": "This is amazing! It'll make for the most beautiful decoration in one of my upcoming projects!$h",
   "CFE_Robin_RabbitsFoot": "Very nice! By any chance, did this come from your coop?$h",
@@ -4579,7 +4579,7 @@
 
   //Sam
   //Sam Gift Tastes
-  "CFE_Sam_GoldPumpkin": "Seriously? Isn't this your prize from the maze?$h#$b#I'm speechless. Thanks!",
+  "CFE_Sam_GoldPumpkin": "Seriously? Doesn't this prize belong to you?$h#$b#I'm speechless. Thanks!",
   "CFE_Sam_RockCandy": "Alright! Sugar rush, here we come!$h",
   "CFE_Sam_Pearl": "This looks ultra rare. Where'd you find it?$10",
   "CFE_Sam_RabbitsFoot": "Nice! I can hang this on my guitar case. Thanks!$h",
