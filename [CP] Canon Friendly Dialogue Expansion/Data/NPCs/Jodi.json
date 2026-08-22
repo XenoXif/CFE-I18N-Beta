@@ -40,7 +40,24 @@
         "Jodi": "{{i18n: CFE_Jodi_rainy_{{random: 1,2,3}}}}"
       }
     },
+  {
+      "LogName": "CFE_Jodi_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Jodi_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Jodi_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Jodi_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Jodi_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Jodi_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Jodi_Saty1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Jodi 20 480}}": true,
+        "CFE_ZeroHearts": "true"
 
+      }
+    },
     {
       "LogName": "CFE_Jodi_Dialogue",
       "Action": "EditData",
