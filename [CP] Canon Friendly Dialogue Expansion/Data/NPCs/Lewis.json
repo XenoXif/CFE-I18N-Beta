@@ -45,7 +45,25 @@
         "Lewis": "{{i18n: CFE_Lewis_rainy_{{random: 1,2,3}}}}"
       }
     },
+ {
+      "LogName": "CFE_Lewis_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Lewis_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Lewis_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Lewis_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Lewis_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Lewis_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Lewis_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Lewis_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Lewis 20 480}}": true,
+        "CFE_ZeroHearts": "true"
 
+      }
+    },
     {
       "LogName": "CFE_Lewis_Dialogue",
       "Action": "EditData",
