@@ -44,7 +44,25 @@
         "Harvey": "{{i18n: CFE_Harvey_rainy_{{random: 1,2,3}}}}"
       }
     },
+    {
+      "LogName": "CFE_Harvey_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Harvey",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Harvey_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Harvey_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Harvey_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Harvey_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Harvey_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Harvey_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Harvey_Suny1}}"
+      },
+      "When": {
+        "query: {{PLAYER_FRIENDSHIP_POINTS Current Harvey 20 480}}": true,
+        "CFE_ZeroHearts": "true"
 
+      }
+    },
     {
       "LogName": "CFE_Harvey_Dialogue",
       "Action": "EditData",
