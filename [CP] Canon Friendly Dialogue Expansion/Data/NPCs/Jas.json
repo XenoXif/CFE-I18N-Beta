@@ -48,9 +48,8 @@
         "Sun_1": "{{i18n: CFE_Jas_Suny1}}"
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Jas 20 480}}": true,
+        "Hearts:Jas": "0, 1",
         "CFE_ZeroHearts": "true"
-
       }
     },
     {

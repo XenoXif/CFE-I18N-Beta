@@ -45,7 +45,7 @@
         "Robin": "{{i18n: CFE_Robin_rainy_{{random: 1,2,3}}}}"
       }
     },
-     {
+    {
       "LogName": "CFE_Robin_ZeroHeartDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Robin",
@@ -58,9 +58,8 @@
         "Sun_1": "{{i18n: CFE_Robin_Suny1}}"
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Robin 20 480}}": true,
+        "Hearts:Robin": "0, 1",
         "CFE_ZeroHearts": "true"
-
       }
     },
     {

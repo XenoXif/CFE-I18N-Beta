@@ -44,6 +44,7 @@
       },
       "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
+
     {
       "LogName": "CFE_Sam_Dialogue",
       "Action": "EditData",

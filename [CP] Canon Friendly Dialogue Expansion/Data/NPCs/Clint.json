@@ -75,9 +75,8 @@
         "Sun_1": "{{i18n: CFE_Clint_Suny1}}"
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Caroline 20 480}}": true,
+        "Hearts:Clint": "0, 1",
         "CFE_ZeroHearts": "true"
-
       }
     },
 

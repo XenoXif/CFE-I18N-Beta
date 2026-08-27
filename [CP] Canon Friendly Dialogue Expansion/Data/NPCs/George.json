@@ -50,7 +50,7 @@
 
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current George 20 480}}": true,
+        "Hearts:George": "0, 1",
         "CFE_ZeroHearts": "true"
       }
     },

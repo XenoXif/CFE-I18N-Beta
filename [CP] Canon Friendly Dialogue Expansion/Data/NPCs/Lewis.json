@@ -45,7 +45,7 @@
         "Lewis": "{{i18n: CFE_Lewis_rainy_{{random: 1,2,3}}}}"
       }
     },
- {
+    {
       "LogName": "CFE_Lewis_ZeroHeartDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lewis",
@@ -59,9 +59,8 @@
         "Sun_1": "{{i18n: CFE_Lewis_Suny1}}"
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Lewis 20 480}}": true,
+        "Hearts:Lewis": "0, 1",
         "CFE_ZeroHearts": "true"
-
       }
     },
     {

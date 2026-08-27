@@ -48,6 +48,30 @@
  */
 
     {
+      "LogName": "CFE_Vincent_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Vincent_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Vincent_Tuey1}}",
+        "Tue_1_fishQ_old": "{{i18n: CFE_Vincent_Mony1_fishQ_old}}",
+        "Tue_1_fishQ_fine": "{{i18n: CFE_Vincent_Mony1_fishQ_fine}}",
+        "Tue_1_fishQ_awe": "{{i18n: CFE_Vincent_Mony1_fishQ_awe}}",
+        "Tue_1_fishQ_tor": "{{i18n: CFE_Vincent_Mony1_fishQ_tor}}",
+        "Tue_1_fishQ_idk": "{{i18n: CFE_Vincent_Mony1_fishQ_idk}}",
+        "Wed_1": "{{i18n: CFE_Vincent_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Vincent_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Vincent_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Vincent_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Vincent_Suny1}}"
+      },
+      "When": {
+        "Hearts:Vincent": "0, 1",
+        "CFE_ZeroHearts": "true"
+      }
+    },
+
+    {
       "LogName": "CFE_Vincent_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Vincent",

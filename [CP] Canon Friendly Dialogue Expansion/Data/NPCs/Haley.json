@@ -31,7 +31,7 @@
         "Haley": "{{i18n: CFE_Haley_rainy_{{random: 1,2,3}}}}"
       }
     },
- {
+    {
       "LogName": "CFE_Haley_ZeroHeartDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
@@ -49,7 +49,7 @@
         "Sun_1": "{{i18n: CFE_Haley_Suny1}}"
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Haley 20 480}}": true,
+        "Hearts:Haley": "0, 1",
         "CFE_ZeroHearts": "true"
       }
     },

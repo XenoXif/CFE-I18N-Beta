@@ -52,11 +52,11 @@
         "Fri_1": "{{i18n: CFE_Jodi_Friy1}}",
         "Sat_1": "{{i18n: CFE_Jodi_Saty1}}"
       },
-      "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Jodi 20 480}}": true,
-        "CFE_ZeroHearts": "true"
+    "When": {
+      "Hearts:Jodi": "0, 1",
+      "CFE_ZeroHearts": "true"
 
-      }
+    }
     },
     {
       "LogName": "CFE_Jodi_Dialogue",

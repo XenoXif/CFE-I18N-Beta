@@ -50,6 +50,28 @@
     }, */
 
     {
+      "LogName": "CFE_Willy_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Willy",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Willy_Mony1}}",
+        "Mon_1_fishQ_old": "{{i18n: CFE_Willy_Mony1_fishQ_old}}",
+        "Mon_1_fishQ_yes": "{{i18n: CFE_Willy_Mony1_fishQ_yes}}",
+        "Mon_1_fishQ_no": "{{i18n: CFE_Willy_Mony1_fishQ_no}}",
+        "Mon_1_fishQ_kinda": "{{i18n: CFE_Willy_Mony1_fishQ_kinda}}",
+        "Tue_1": "{{i18n: CFE_Willy_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Willy_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Willy_Thuy1}}",
+        "Sat_1": "{{i18n: CFE_Willy_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Willy_Suny1}}"
+      },
+      "When": {
+        "Hearts:Willy": "0, 1",
+        "CFE_ZeroHearts": "true"
+      }
+    },
+
+    {
       "LogName": "CFE_Willy_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Willy",
@@ -68,7 +90,6 @@
         "winter_15_2": "{{i18n: CFE_Willy_winter15}}",
         "winter_28_1": "{{i18n: CFE_Willy_winter28}}",
         "winter_28_2": "{{i18n: CFE_Willy_winter28}}"
-
       }
     },
     {

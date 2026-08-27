@@ -58,11 +58,10 @@
         "Sun_1": "{{i18n: CFE_Gus_Suny1}}"
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Gus 20 480}}": true,
+        "Hearts:Gus": "0, 1",
         "CFE_ZeroHearts": "true"
       }
     },
-
     {
       "LogName": "CFE_Gus_Dialogue",
       "Action": "EditData",

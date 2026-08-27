@@ -45,7 +45,7 @@
         "Linus": "{{i18n: CFE_Linus_rainy_{{random: 1,2,3}}}}"
       }
     },
-     {
+    {
       "LogName": "CFE_Linus_ZeroHeartDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Linus",
@@ -59,9 +59,8 @@
         "Sun_1": "{{i18n: CFE_Linus_Suny1}}"
       },
       "When": {
-        "query: {{PLAYER_FRIENDSHIP_POINTS Current Linus 20 480}}": true,
+        "Hearts:Linus": "0, 1",
         "CFE_ZeroHearts": "true"
-
       }
     },
     {
