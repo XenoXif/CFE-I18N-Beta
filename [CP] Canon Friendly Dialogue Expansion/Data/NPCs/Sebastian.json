@@ -44,6 +44,29 @@
     },
 
     {
+      "LogName": "CFE_Sebastian_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Sebastian_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Sebastian_Tuey1}}",
+        "Tue_1_smalltalk_old": "{{i18n: CFE_Sebastian_Tuey1_smalltalk_old}}",
+        "Tue_1_smalltalk_weather": "{{i18n: CFE_Sebastian_Tuey1_smalltalk_weather}}",
+        "Tue_1_smalltalk_fam": "{{i18n: CFE_Sebastian_Tuey1_smalltalk_fam}}",
+        "Tue_1_smalltalk_hide": "{{i18n: CFE_Sebastian_Tuey1_smalltalk_hide}}",
+        "Tue_1_smalltalk_nothing": "{{i18n: CFE_Sebastian_Tuey1_smalltalk_nothing}}",
+        "Wed_1": "{{i18n: CFE_Sebastian_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Sebastian_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Sebastian_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Sebastian_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Sebastian_Suny1}}"
+      },
+      "When": {
+        "Hearts:Sebastian": "0, 1",
+        "CFE_ZeroHearts": "true"
+      }
+    },
+    {
       "LogName": "CFE_Sebastian_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",

@@ -64,7 +64,7 @@
     },
     {
       "LogName": "CFE_Clint_ZeroHeartDialogue",
-      "Action": "Editdata",
+      "Action": "EditData",
       "Target": "Characters/Dialogue/Clint",
       "Entries": {
         "Mon_1": "{{i18n: CFE_Clint_Mony1}}",

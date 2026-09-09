@@ -46,6 +46,28 @@
     },
 
     {
+      "LogName": "CFE_Sam_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Sam_Mony1}}",
+        "Tue_1": "{{i18n: CFE_Sam_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Sam_Wedy1}}",
+        "Wed_1_old": "{{i18n: CFE_Sam_Wedy1_old}}",
+        "Wed_1_19": "{{i18n: CFE_Sam_Wedy1_19}}",
+        "Wed_1_20": "{{i18n: CFE_Sam_Wedy1_20}}",
+        "Thu_1": "{{i18n: CFE_Sam_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Sam_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Sam_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Sam_Suny1}}"
+      },
+      "When": {
+        "Hearts:Sam": "0, 1",
+        "CFE_ZeroHearts": "true"
+      }
+    },
+
+    {
       "LogName": "CFE_Sam_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",

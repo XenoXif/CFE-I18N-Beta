@@ -31,15 +31,16 @@
         "Haley": "{{i18n: CFE_Haley_rainy_{{random: 1,2,3}}}}"
       }
     },
+
     {
       "LogName": "CFE_Haley_ZeroHeartDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
         "Mon_1": "{{i18n: CFE_Haley_Mony1}}",
-        "Tue_1": "{{i18n: CFE_Haley_Tuey1}}",
+        "Tue_1": "{{i18n: CFE_Haley_Tuey1{{GenderNeutralCompat}}}}",
         "Wed_1": "{{i18n: CFE_Haley_Wedy1}}",
-        "Thu_1": "{{i18n: CFE_Haley_Thuy1}}",
+        "Thu_1": "{{i18n: CFE_Haley_Thuy1{{GenderNeutralCompat}}}}",
         "Fri_1": "{{i18n: CFE_Haley_Friy1}}",
         "Sat_1": "{{i18n: CFE_Haley_Saty1}}",
         "Sat_1_clothesQ_yes": "{{i18n: CFE_Haley_Saty1_clothesQ_old}}",

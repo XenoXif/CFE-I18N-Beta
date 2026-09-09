@@ -47,6 +47,7 @@
         "Abigail": "{{i18n: CFE_Abigail_rainy_{{random: 1,2,3}}}}"
       }
     },
+
     {
       "LogName": "CFE_Abigail_ZeroHeartDialogue",
       "Action": "EditData",

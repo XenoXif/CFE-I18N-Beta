@@ -45,6 +45,7 @@
         "Robin": "{{i18n: CFE_Robin_rainy_{{random: 1,2,3}}}}"
       }
     },
+
     {
       "LogName": "CFE_Robin_ZeroHeartDialogue",
       "Action": "EditData",

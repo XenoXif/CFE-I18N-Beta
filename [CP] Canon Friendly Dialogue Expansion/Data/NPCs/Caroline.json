@@ -47,7 +47,7 @@
     },
     {
       "LogName": "CFE_Caroline_ZeroHeartDialogue",
-      "Action": "Editdata",
+      "Action": "EditData",
       "Target": "Characters/Dialogue/Caroline",
       "Entries": {
         "Mon_1": "{{i18n: CFE_Caroline_Mony1}}",

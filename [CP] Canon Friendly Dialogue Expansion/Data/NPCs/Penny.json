@@ -52,6 +52,29 @@
     },
 
     {
+      "LogName": "CFE_Penny_ZeroHeartDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Penny",
+      "Entries": {
+        "Mon_1": "{{i18n: CFE_Penny_Mony1}}",
+        "Mon_1_readQ_old": "{{i18n: CFE_Penny_Mony1_readQ_old}}",
+        "Mon_1_readQ_yes": "{{i18n: CFE_Penny_Mony1_readQ_yes}}",
+        "Mon_1_readQ_kinda": "{{i18n: CFE_Penny_readQ_kinda}}",
+        "Mon_1_readQ_ew": "{{i18n: CFE_Penny_Mony1_readQ_ew}}",
+        "Tue_1": "{{i18n: CFE_Penny_Tuey1}}",
+        "Wed_1": "{{i18n: CFE_Penny_Wedy1}}",
+        "Thu_1": "{{i18n: CFE_Penny_Thuy1}}",
+        "Fri_1": "{{i18n: CFE_Penny_Friy1}}",
+        "Sat_1": "{{i18n: CFE_Penny_Saty1}}",
+        "Sun_1": "{{i18n: CFE_Penny_Suny1}}"
+      },
+      "When": {
+        "Hearts:Penny": "0, 1",
+        "CFE_ZeroHearts": "true"
+      }
+    },
+
+    {
       "LogName": "CFE_Penny_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Penny",

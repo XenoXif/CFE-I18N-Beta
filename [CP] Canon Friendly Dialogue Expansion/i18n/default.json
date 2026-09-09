@@ -527,6 +527,7 @@
 
   "CFE_Alex_Mony1": "There are some good routes through the forest you can use for running. The town's got a pretty good loop, too.",
   "CFE_Alex_Tuey1": "Hey farmer dude.^Hey farmer girl.#$b#You sure you're cut out for all that farm work? Those arms look a little skinny.$h^You sure you're cut out for all that farm work? That's a lot of heavy labor for a girl.$h",
+  "CFE_Alex_Tuey1_GN": "Hey farmer.#$b#You sure you're cut out for all that farm work? Those arms look a little skinny.$h",
   "CFE_Alex_Wedy1": "I've never met a sport I didn't like, but gridball is basically my life.#$b#You could probably tell, huh? What gave it away?$3",
   "CFE_Alex_Thuy1": "There aren't any teams to play with here, but I don't let things like that stand in my way.#$e#Adversity leads to opportunity. There's still plenty I can do on my own, and I'll be good and ready for gridball tryouts.",
   "CFE_Alex_Friy1": "Looks like another good day, huh?#$e#Hey, stay hydrated.",
@@ -2107,9 +2108,12 @@
   //generic weekday dialogue
   "CFE_Haley_Mony1": "*sigh* To think... there are people in the city who can just walk right out their door to a clothing boutique at the end of the block.#$e#I should schedule a trip out of this cow town.",
   "CFE_Haley_Tuey1": "Oh. Hey, farmer boy.^Oh. Hey, farmer girl.#$e#People are saying your farm is a mess, but I actually think you'll be a really good fit for it.",
+  "CFE_Haley_Tuey1_GN": "Oh. Hey, farmer.#$e#People are saying your farm is a mess, but I actually think you'll be a really good fit for it.",
   "CFE_Haley_Wedy1": "What, did my sister invite you over here, or something?#$e#You're kind of interrupting, so...$7",
   "CFE_Haley_Thuy1": "*giggle*$11#$e#What? Oh, nothing.$13#$e#You look great today, by the way.^You look super pretty today, by the way.",
+  "CFE_Haley_Thuy1_GN": "*giggle*$11#$e#What? Oh, nothing.$13#$e#You look great today, by the way.",
   "CFE_Haley_Friy1": "*sniff* Ugh, what's that awful smell? It's like old grass mixed with sweat.$3#$e#Oh well. Guess we'll never know.$13",
+
   "CFE_Haley_Saty1": "If you want other people to respect you, you have to respect yourself first.#$q 951/952 Sat_1_clothesQ_old#I don't mean to be rude, but do you even own any clothes besides what you're wearing?#$r 951 0 Sat_1_clothesQ_yes#I do.#$r 951 0 Sat_1_clothesQ_no#I don't.#$r 952 -10 Sat_1_clothesQ_creep#I don't, but I'll just borrow yours when you're not looking.",
   "CFE_Haley_Saty1_clothesQ_old": "$p 952#And you also have to respect other people, which includes not making creepy jokes.$3|But I guess not everyone wants to put in the effort.",
   "CFE_Haley_Saty1_clothesQ_yes": "Then why don't you wear them?$13",
@@ -3999,7 +4003,7 @@
 
   //Pam's Standard Dialogue
   //Special Dialogue
-  "CFE_Pam_Saloony1": "*sip* ...Ahh, good stuff! Good stuff.",
+  "CFE_Pam_Saloon_Mony1": "*sip* ...Ahh, good stuff! Good stuff.",
   "CFE_Pam_Saloon_Tuey1": "Oi! Gus! Let's get a round for the whole house!#$b#Oop, I mean... just kiddin'! I didn't mean it!$h",
   "CFE_Pam_Saloon_Wedy1": "Hey, where is everybody? Isn't today Friday?$h",
   "CFE_Pam_Saloon_Thuy1": "%Pam looks like she could use some alone time.",
@@ -5556,7 +5560,6 @@
   "CFE_Vincent_Tuey1_schoolQ_awe": "Aww, I wish I could go.",
   "CFE_Vincent_Tuey1_schoolQ_tor": "Haha, I can tell when you're joking.$h#$b#But yeah, everyone says I'm lucky to have \"one on one attention.\"",
   "CFE_Vincent_Tuey1_schoolQ_idk": "...Really?#$b#Cool!$h",
-  "CFE_Vincent_Wedy1": "I have a scooter. And one day Sam is gonna give me his old skateboard.#$b#But I have to learn how to ride one first.",
   "CFE_Vincent_Thuy1": "There aren't enough other kids around here, and it's boring because grown-ups say they're too busy to play.$u",
   "CFE_Vincent_Friy1": "My mom's a really good cook, but I just don't like anything she makes.#$e#That's what she always says.",
   "CFE_Vincent_Saty1": "I wake up extra early when there's no school...#$b#...because then there's more playtiiime!$h#$e#Momma and Sam hate it. *giggle*",
