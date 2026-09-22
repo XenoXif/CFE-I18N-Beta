@@ -1852,7 +1852,7 @@
   "CFE_George_Tuey1": "I don't imagine you'll be around here for very long, hmm?#$e#Most young folks don't have the discipline for country life, as far as I've seen.",
   "CFE_George_Wedy1": "What's this? Do we just let any random person waltz right into our home now, uninvited?#$e#I don't go barging into your house like I own it. Now git!",
   "CFE_George_Thuy1": "I've been waiting all day for this television program, and I'll be darned if I let you ruin it for me.#$e#Pipe down!",
-  "CFE_George_Saty1": "The days of the week all blend together when you're retired like me.#$q 941/942 Sat_1_weekQ_old#Let's see... what day is it, again?#$r 942 -10 Sat_1_weekQ_fri#Friday.#$r 941 10 Sat_1_weekQ_sat#Saturday.#$r 942 -10 Sat_1_weekQ_jerk#Some day. (You figure it out, jerk.)",
+  "CFE_George_Saty1": "The days of the week all blend together when you're retired like me.#$q 941/942 Sat_1_weekQ_old#Let's see... what day is it, again?#$r 942 -10 Sat_1_weekQ_fri#Friday.#$r 941 10 Sat_1_weekQ_sat#Saturday.#$r 942 -10 Sat_1_weekQ_jerk#*sigh* Some day.",
   "CFE_George_Saty1_weekQ_old": "$p 942#And I suppose they blend together for you too, even though your brain's supposed to be sharp as a tack at your age.|It's like having fourteen weekends a month. All well earned, I should say.",
   "CFE_George_Saty1_weekQ_fri": "Friday, huh? Was it really only yesterday that my favorite program was on...?$s#$b#I suppose it must have been.$s",
   "CFE_George_Saty1_weekQ_sat": "Saturday? ...Yeah, that's right.#$b#Good. Then I haven't missed my visit to the Yoba shrine.",
@@ -2117,7 +2117,7 @@
   "CFE_Haley_Saty1": "If you want other people to respect you, you have to respect yourself first.#$q 951/952 Sat_1_clothesQ_old#I don't mean to be rude, but do you even own any clothes besides what you're wearing?#$r 951 0 Sat_1_clothesQ_yes#I do.#$r 951 0 Sat_1_clothesQ_no#I don't.#$r 952 -10 Sat_1_clothesQ_creep#I don't, but I'll just borrow yours when you're not looking.",
   "CFE_Haley_Saty1_clothesQ_old": "$p 952#And you also have to respect other people, which includes not making creepy jokes.$3|But I guess not everyone wants to put in the effort.",
   "CFE_Haley_Saty1_clothesQ_yes": "Then why don't you wear them?$13",
-  "CFE_Haley_Saty1_clothesQ_no": "Wait, actually?$7#$e#I don't even know how to respond to that.$13",
+  "CFE_Haley_Saty1_clothesQ_no": "Wait, actually?#$b#I don't even know how to respond to that.$13",
   "CFE_Haley_Saty1_clothesQ_creep": "What? That had better be a joke!$5",
   "CFE_Haley_Suny1": "I'm bored.#$e#It'd be nice if someone interesting came to visit our town.#$b#But you probably already noticed that like, never happens.",
 
