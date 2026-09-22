@@ -59,7 +59,7 @@
         "Mon_1": "{{i18n: CFE_Penny_Mony1}}",
         "Mon_1_readQ_old": "{{i18n: CFE_Penny_Mony1_readQ_old}}",
         "Mon_1_readQ_yes": "{{i18n: CFE_Penny_Mony1_readQ_yes}}",
-        "Mon_1_readQ_kinda": "{{i18n: CFE_Penny_readQ_kinda}}",
+        "Mon_1_readQ_kinda": "{{i18n: CFE_Penny_Mony1_readQ_kinda}}",
         "Mon_1_readQ_ew": "{{i18n: CFE_Penny_Mony1_readQ_ew}}",
         "Tue_1": "{{i18n: CFE_Penny_Tuey1}}",
         "Wed_1": "{{i18n: CFE_Penny_Wedy1}}",
