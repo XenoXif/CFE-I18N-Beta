@@ -43,7 +43,7 @@
         "Thu_1": "{{i18n: CFE_Haley_Thuy1{{GenderNeutralCompat}}}}",
         "Fri_1": "{{i18n: CFE_Haley_Friy1}}",
         "Sat_1": "{{i18n: CFE_Haley_Saty1}}",
-        "Sat_1_clothesQ_yes": "{{i18n: CFE_Haley_Saty1_clothesQ_old}}",
+        "Sat_1_clothesQ_old": "{{i18n: CFE_Haley_Saty1_clothesQ_old}}",
         "Sat_1_clothesQ_yes": "{{i18n: CFE_Haley_Saty1_clothesQ_yes}}",
         "Sat_1_clothesQ_no": "{{i18n: CFE_Haley_Saty1_clothesQ_no}}",
         "Sat_1_clothesQ_creep": "{{i18n: CFE_Haley_Saty1_clothesQ_creep}}",
