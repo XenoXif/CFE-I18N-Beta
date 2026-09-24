@@ -4008,9 +4008,9 @@
   //Special Dialogue
   "CFE_Pam_Saloon_Mony1": "*sip* ...Ahh, good stuff! Good stuff.",
   "CFE_Pam_Saloon_Tuey1": "Oi! Gus! Let's get a round for the whole house!#$b#Oop, I mean... just kiddin'! I didn't mean it!$h",
-  "CFE_Pam_Saloon_Wedy1": "Hey, where is everybody? Isn't today Friday?$h",
-  "CFE_Pam_Saloon_Thuy1": "%Pam looks like she could use some alone time.",
-  "CFE_Pam_Saloon_Friy1": "%Pam is lazily staring at the bear statue across the room.",
+  "CFE_Pam_Saloon_Wedy1": "%Pam looks like she could use some alone time.%noturn",
+  "CFE_Pam_Saloon_Thuy1": "Hrm, where is everybody? Isn't today Friday?$h#$b#...Well I sure wish it was.",
+  "CFE_Pam_Saloon_Friy1": "%Pam is lazily staring at the bear statue across the room.%noturn",
   "CFE_Pam_Saloon_Saty1": "I ain't shellin' out for any o' that bottled stuff. Get me the good stuff!$h",
   "CFE_Pam_Saloon_Suny1": "Y'see... my Penny's extra, extra special.$4#$b#And if anybody ever does her wrong... they're answerin' to me, y'hear?$4",
 
