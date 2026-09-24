@@ -56,7 +56,7 @@
         "Tue_1": "{{i18n: CFE_Shane_Tuey1}}",
         "Wed_1": "{{i18n: CFE_Shane_Wedy1}}",
         "Thu_1": "{{i18n: CFE_Shane_Thuy1}}",
-        "Fri_1": "{{i18n: CFE_Shane_Friy1}}",
+        "Fri_1": "{{i18n: CFE_Shane_Friy1{{GenderNeutralCompat}}}}",
         "Sat_1": "{{i18n: CFE_Shane_Saty1}}",
         "Sun_1": "{{i18n: CFE_Shane_Suny1}}"
       },

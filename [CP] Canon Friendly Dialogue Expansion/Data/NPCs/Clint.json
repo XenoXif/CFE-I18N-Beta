@@ -62,13 +62,14 @@
         "Clint": "{{i18n: CFE_Clint_rainy_{{random: 1,2,3}}}}"
       }
     },
+
     {
       "LogName": "CFE_Clint_ZeroHeartDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Clint",
       "Entries": {
         "Mon_1": "{{i18n: CFE_Clint_Mony1}}",
-        "Tue_1": "{{i18n: CFE_Clint_Tuey1}}",
+        "Tue_1": "{{i18n: CFE_Clint_Tuey1{{GenderNeutralCompat}}}}",
         "Wed_1": "{{i18n: CFE_Clint_Wedy1}}",
         "Fri_1": "{{i18n: CFE_Clint_Friy1}}",
         "Sat_1": "{{i18n: CFE_Clint_Saty1}}",

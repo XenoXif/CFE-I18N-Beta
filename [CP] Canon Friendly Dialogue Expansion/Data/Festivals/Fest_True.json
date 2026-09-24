@@ -95,7 +95,7 @@
         "Shane": "{{i18n: CFE_FlowerDance{{FestivalY1Token}}_Shane}}",
         "Marnie": "{{i18n: CFE_FlowerDance{{FestivalY1Token}}_Marnie}}",
         "Elliott": "{{i18n: CFE_FlowerDance{{FestivalY1Token}}_Elliott}}",
-        "Gus": "{{i18n: CFE_FlowerDance{{FestivalY1Token}}_Gus}}",
+        "Gus": "{{i18n: CFE_FlowerDance{{FestivalY1Token}}_Gus{{GenderNeutralCompat}}}}",
         "Harvey": "{{i18n: CFE_FlowerDance{{FestivalY1Token}}_Harvey}}",
         "Jas": "{{i18n: CFE_FlowerDance{{FestivalY1Token}}_Jas}}",
         "Vincent": "{{i18n: CFE_FlowerDance{{FestivalY1Token}}_Vincent}}",

@@ -68,7 +68,7 @@
         "Tue_1": "{{i18n: CFE_Pam_Tuey1}}",
         "Wed_1": "{{i18n: CFE_Pam_Wedy1}}",
         "Thu_1": "{{i18n: CFE_Pam_Thuy1}}",
-        "Fri_1": "{{i18n: CFE_Pam_{{Random: {{Friy1, Fri}}}}}}",
+        "Fri_1": "{{i18n: CFE_Pam_{{random: Friy1,Fri}}}}",
         "Sat_1": "{{i18n: CFE_Pam_Saty1}}",
         "Sun_1": "{{i18n: CFE_Pam_Suny1}}",
 
@@ -145,7 +145,7 @@
         "Tue8": "{{i18n: CFE_Pam_Tue8}}",
         "Tue6": "{{i18n: CFE_Pam_Tue6}}",
         "Tue4": "{{i18n: CFE_Pam_Tue4}}",
-        "Tue2": "{{i18n: CFE_Pam_Tue2{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
+        "Tue2": "{{i18n: CFE_Pam_Tue2{{GenderNeutralCompat}} |Title={{random:{{GNMTTitle}}}}}}",
         "Wed10": "{{i18n: CFE_Pam_Wed10}}",
         "Wed8": "{{i18n: CFE_Pam_Wed8}}",
         "Wed6": "{{i18n: CFE_Pam_Wed6}}",

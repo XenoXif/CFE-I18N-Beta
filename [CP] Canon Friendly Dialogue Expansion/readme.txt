@@ -38,6 +38,8 @@ VERSION 3.1.0 DEFAULT.JSON CHANGES
   "config.CFE_Festivals_Replace.description": "Replaces festival dialogue from year 1 onward. NOT compatible with Add More.",
 
 
+
+
 VERSION 3.0.9 DEFAULT.JSON CHANGES
 none! this was just a minor bug fix that couldnt wait for separate publishing.
 

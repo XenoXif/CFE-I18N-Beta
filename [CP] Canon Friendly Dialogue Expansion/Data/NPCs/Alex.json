@@ -39,7 +39,7 @@
       "Target": "Characters/Dialogue/Alex",
       "Entries": {
         "Mon_1": "{{i18n: CFE_Alex_Mony1}}",
-        "Tue_1": "{{i18n: CFE_Alex_Tuey1{{GenderNeutralCompat}}}}",
+        "Tue_1": "{{i18n: CFE_Alex_Tuey1{{GenderNeutralCompat}} |AdultInformalNoun={{GNMTAdultInformalNoun}}}}",
         "Wed_1": "{{i18n: CFE_Alex_Wedy1}}",
         "Thu_1": "{{i18n: CFE_Alex_Thuy1}}",
         "Fri_1": "{{i18n: CFE_Alex_Friy1}}",

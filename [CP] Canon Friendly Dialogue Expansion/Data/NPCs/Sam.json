@@ -57,7 +57,7 @@
         "Wed_1_19": "{{i18n: CFE_Sam_Wedy1_19}}",
         "Wed_1_20": "{{i18n: CFE_Sam_Wedy1_20}}",
         "Thu_1": "{{i18n: CFE_Sam_Thuy1}}",
-        "Fri_1": "{{i18n: CFE_Sam_Friy1}}",
+        "Fri_1": "{{i18n: CFE_Sam_Friy1{{GenderNeutralCompat}} |AdultInformalNoun={{GNMTAdultInformalNoun}}}}",
         "Sat_1": "{{i18n: CFE_Sam_Saty1}}",
         "Sun_1": "{{i18n: CFE_Sam_Suny1}}"
       },

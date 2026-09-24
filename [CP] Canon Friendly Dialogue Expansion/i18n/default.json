@@ -527,7 +527,7 @@
 
   "CFE_Alex_Mony1": "There are some good routes through the forest you can use for running. The town's got a pretty good loop, too.",
   "CFE_Alex_Tuey1": "Hey farmer dude.^Hey farmer girl.#$b#You sure you're cut out for all that farm work? Those arms look a little skinny.$h^You sure you're cut out for all that farm work? That's a lot of heavy labor for a girl.$h",
-  "CFE_Alex_Tuey1_GN": "Hey farmer.#$b#You sure you're cut out for all that farm work? Those arms look a little skinny.$h",
+  "CFE_Alex_Tuey1_GN": "Hey farmer {{AdultInformalNoun}}.#$b#You sure you're cut out for all that farm work? Those arms look a little skinny.$h",
   "CFE_Alex_Wedy1": "I've never met a sport I didn't like, but gridball is basically my life.#$b#You could probably tell, huh? What gave it away?$3",
   "CFE_Alex_Thuy1": "There aren't any teams to play with here, but I don't let things like that stand in my way.#$e#Adversity leads to opportunity. There's still plenty I can do on my own, and I'll be good and ready for gridball tryouts.",
   "CFE_Alex_Friy1": "Looks like another good day, huh?#$e#Hey, stay hydrated.",
@@ -914,6 +914,8 @@
 
   "CFE_Clint_Mony1": "There used to be a lot more mining in this town. I'll bet my predecessors got a lot of business.",
   "CFE_Clint_Tuey1": "Hey, farmer.^Yes.#$e#So your grandfather lived on that farm, huh? I think I remember that guy.^...Uhm, I mean, hi. How are you?#$e#He was retired by the time I moved here, but uh... nice guy.^So... I'm the town blacksmith. Have I mentioned that yet?$s",
+  "CFE_Clint_Tuey1_GN": "Hey, farmer.#$b#So your grandfather lived on that farm, huh? I think I remember that guy.#$e#He was retired by the time I moved here, but uh... nice guy.#$e#So... I'm the town blacksmith. Have I mentioned that yet?$s",
+
   "CFE_Clint_Wedy1": "Things must be pretty quiet on your side of town.#$e#It's pretty quiet on mine, too.#$e#Except for when the furnace is running. That thing's really noisy.#$b#Which... it runs most of the time.",
   "CFE_Clint_Friy1": "You can usually find me at the saloon in the evenings, but I'm off the clock then.#$b#So if you wanna talk business, it'll just have to wait.#$e#...Sorry.$s",
   "CFE_Clint_Saty1": "I can also help you crack open geodes, if that's your thing.#$e#I hear there are a bunch of them up in the mines.",
@@ -1971,7 +1973,7 @@
   "CFE_Gus_Mony1": "If you're busy getting that farm up and running, feel free to leave the cooking to me!#$e#Life sure gets busy, doesn't it?",
   "CFE_Gus_Tuey1": "\"Fresh and local\" is the way we roll around here. I'll only make a dish if the ingredients are top-notch!#$e#And maybe that'll be a little easier with a new local farm starting up, huh?$h",
   "CFE_Gus_Thuy1": "The Stardrop Saloon has been serving this community for over fifteen years, owned and operated by yours truly.$h#$e#Yes sir, I'm in this for the long haul.^Yes ma'am, I'm in this for the long haul.$h",
-  "CFE_Gus_Thuy1_GN": "The Stardrop Saloon has been serving this community for over fifteen years, owned and operated by yours truly.$h#$e#Yes {{GNMTTitle}}, I'm in this for the long haul.$h",
+  "CFE_Gus_Thuy1_GN": "The Stardrop Saloon has been serving this community for over fifteen years, owned and operated by yours truly.$h#$e#Yes {{Title}}, I'm in this for the long haul.$h",
   "CFE_Gus_Friy1": "Welcome, @! Good to see you.$h#$e#Looks like we've got enough food prepped for a crowd like tonight's, but the special's in limited supply, so don't miss out on that if you can help it!",
   "CFE_Gus_Suny1": "Times have been a bit tough for this little town lately, but that's all the more reason we've all got to stick together, isn't it?",
 
@@ -2108,7 +2110,7 @@
   //generic weekday dialogue
   "CFE_Haley_Mony1": "*sigh* To think... there are people in the city who can just walk right out their door to a clothing boutique at the end of the block.#$e#I should schedule a trip out of this cow town.",
   "CFE_Haley_Tuey1": "Oh. Hey, farmer boy.^Oh. Hey, farmer girl.#$e#People are saying your farm is a mess, but I actually think you'll be a really good fit for it.",
-  "CFE_Haley_Tuey1_GN": "Oh. Hey, farmer.#$e#People are saying your farm is a mess, but I actually think you'll be a really good fit for it.",
+  "CFE_Haley_Tuey1_GN": "Oh. Hey, farmer {{AdultInformalNoun}}.#$e#People are saying your farm is a mess, but I actually think you'll be a really good fit for it.",
   "CFE_Haley_Wedy1": "What, did my sister invite you over here, or something?#$e#You're kind of interrupting, so...$7",
   "CFE_Haley_Thuy1": "*giggle*$11#$e#What? Oh, nothing.$13#$e#You look great today, by the way.^You look super pretty today, by the way.",
   "CFE_Haley_Thuy1_GN": "*giggle*$11#$e#What? Oh, nothing.$13#$e#You look great today, by the way.",
@@ -3660,6 +3662,7 @@
   "CFE_Marnie_Wed": "You can use a scythe to cut feed from grass.#$e#Just make sure you've got a silo to keep it in.#$e#Robin could help with that.",
 
   "CFE_Marnie_Mony1": "Hi there, Mr. @!^Hi there, Ms. @!#$e#I'm always a bit busy with all my responsibilities, but if you catch me at my desk, I'm happy to help you!#$e#I'm open for business Wednesday through Sunday.",
+  "CFE_Marnie_Mony1_GN": "Hi there,{{Title}} @!#$e#I'm always a bit busy with all my responsibilities, but if you catch me at my desk, I'm happy to help you!#$e#I'm open for business Wednesday through Sunday.",
   "CFE_Marnie_Tuey1": "If I don't take a little time for myself, I'll never get it. Those animals get me up early seven days a week!#$e#I also look after Jas and keep the house clean. It never ends!$h",
   "CFE_Marnie_Wedy1": "On my ranch, we treat our animals more like pets than livestock, and the results show for the eggs and milk we get.#$e#I hope you'll consider the same for your animals.",
   "CFE_Marnie_Thuy1": "All the animals you can raise here get a steady diet of the valley's grass.#$e#There's nothing better for them to eat. It almost feels like we're getting away with something!",
@@ -4725,6 +4728,8 @@
   "CFE_Sam_Wedy1_20": "That's perfect... I think an opening riff is coming to me right now! Thanks!",
   "CFE_Sam_Thuy1": "Vincent is my kid brother. I'm just trying my best to make sure the kid grows up right.#$e#Good cartoons, good comic books... Man, they just don't make 'em like they used to.$3",
   "CFE_Sam_Friy1": "Hey, how's it goin', man?^Hey, how's it goin'?",
+  "CFE_Sam_Friy1_GN": "Hey, how's it goin', {{AdultInformalNoun}}?",
+
   "CFE_Sam_Saty1": "People say there's nothing to do around here, but hey, at least there's always video games.",
   "CFE_Sam_Suny1": "I've been playing guitar since I was twelve.#$b#I never had a guitar teacher. I just figure things out and look up videos when I need to.",
 
@@ -5314,6 +5319,7 @@
   "CFE_Shane_Wedy1": "Y'know, some of us moved out here specifically so there'd be fewer people to bother them.#$e#Just a thought.",
   "CFE_Shane_Thuy1": "Hi.#$e#What do you want?",
   "CFE_Shane_Friy1": "Oh look, it's Mr. New Guy.^Oh look, it's Little-Miss New Girl.#$e#Is life hard with that entire plot of land all to yourself?#$b#Y'know, the one you apparently got for free?",
+  "CFE_Shane_Friy1_GN": "Oh look, it's the talk of the town.#$e#Is life hard with that entire plot of land all to yourself, farmer?#$b#Y'know, the one you apparently got for free?",
   "CFE_Shane_Saty1": "...Look, if you're gonna be raising chickens, you gotta do it right, at least. Clean coop, lots of open space, and top-quality food.#$b#If I ever get word they're not getting the best possible life, it's not gonna fly.$5",
   "CFE_Shane_Suny1": "My weekend? It's going fine.#$e#Why do you care?",
 
@@ -5788,6 +5794,8 @@
   "CFE_FlowerDance_Y1_Evelyn": "$y 'Hello there, dearie! Should we expect to see you dance today?_Yes_What a treat! I'm not surprised, you're fitting in faster than you probably thought you would!_No_No? Not to worry. You're in good company. Not everyone has to dance.'",
   "CFE_FlowerDance_Y1_George": "These young'uns never seem to get the dancing right, the way it used to be done.#$e#They all skip over one of the steps they're supposed to do.#$b# I don't remember which one, but it was definitely one of 'em.",
   "CFE_FlowerDance_Y1_Gus": "Did you know you can eat some of the flowers in this valley? Blue jazz and tulips make a nice garnish on your meal, but daffodils? No sir!^Did you know you can eat some of the flowers in this valley? Blue jazz and tulips make a nice garnish on your meal, but daffodils? No ma'am!",
+  "CFE_FlowerDance_Y1_Gus_GN": "Did you know you can eat some of the flowers in this valley? Blue jazz and tulips make a nice garnish on your meal, but daffodils? They're no good!",
+
   "CFE_FlowerDance_Y1_Haley": "I was born for this! Hope everyone's ready.$h",
   "CFE_FlowerDance_Y1_Harvey": "*gulp* I'm not quite used to this tradition yet, but I'll give it my best.$11",
   "CFE_FlowerDance_Y1_Jas": "All the girl dancers look like princesses. REAL princesses!",
@@ -6004,6 +6012,7 @@
   "CFE_EggFest_Linus": "It's worth it to brave the looks people give me, if it means I get to eat something delicious.",
   "CFE_EggFest_Caroline": "Did you visit Pierre's kiosk yet?$h",
   "CFE_EggFest_Alex": "Maybe I overdid it a bit with the buffet this year... but it'll be easy to work it off.#$e#I could go for a run later tonight.",
+  "CFE_EggFest_Alex_GN": "Maybe I overdid it a bit with the buffet this year... but it'll be easy to work it off.#$e#I could go for a run later tonight.",
   "CFE_EggFest_George": "It was another rerun on TV. But this festival is like a rerun, too, so y'all should be thankful I'm here.",
   "CFE_EggFest_Evelyn": "Oh George. You like the free food and you know it.",
   "CFE_EggFest_Clint": "I made sure to get here extra early this year, before everyone else raided the buffet. I really had my fill.$h#$e#Wait... does that mean I hogged someone else's share?$s",
@@ -6084,6 +6093,7 @@
   "CFE_FlowerDance_Marnie": "Hey @. D'you think if I just went over and...$s#$b#...Er, never mind.$s",
   "CFE_FlowerDance_Elliott": "The true beauty of flowers comes from their very temporary nature, not just their physical appearance.#$b#The shorter something lasts, the more precious it can potentially be.$h",
   "CFE_FlowerDance_Gus": "Well, everybody seems to be having a good time. Looks like another success.",
+  "CFE_FlowerDance_Gus_GN": "Well, everybody seems to be having a good time. Looks like another success.",
   "CFE_FlowerDance_Harvey": "I wonder how many of my old colleagues would be willing to dance at an event like this?$h",
   "CFE_FlowerDance_Jas": "I wanna see Ms. Penny's flower dress!$h",
   "CFE_FlowerDance_Vincent": "If you dance with someone, it doesn't mean you have to promise to marry them, right?$u",

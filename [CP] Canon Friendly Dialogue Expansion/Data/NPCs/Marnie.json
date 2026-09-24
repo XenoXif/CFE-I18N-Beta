@@ -51,7 +51,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Marnie",
       "Entries": {
-        "Mon_1": "{{i18n: CFE_Marnie_Mony1}}",
+        "Mon_1": "{{i18n: CFE_Marnie_Mony1{{GenderNeutralCompat}} |Title={{GNMTTitle}}}}",
         "Tue_1": "{{i18n: CFE_Marnie_Tuey1}}",
         "Wed_1": "{{i18n: CFE_Marnie_Wedy1}}",
         "Thu_1": "{{i18n: CFE_Marnie_Thuy1}}",

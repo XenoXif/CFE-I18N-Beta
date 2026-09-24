@@ -53,7 +53,7 @@
       "Entries": {
         "Mon_1": "{{i18n: CFE_Gus_Mony1}}",
         "Tue_1": "{{i18n: CFE_Gus_Tuey1}}",
-        "Thu_1": "{{i18n: CFE_Gus_Thuy1{{GenderNeutralCompat}}  |GNMTTitle={{lowercase:{{Random:{{GNMTTitle}}}}}}}}",
+        "Thu_1": "{{i18n: CFE_Gus_Thuy1{{GenderNeutralCompat}}  |Title={{lowercase:{{Random:{{GNMTTitle}}}}}}}}",
         "Fri_1": "{{i18n: CFE_Gus_Friy1}}",
         "Sun_1": "{{i18n: CFE_Gus_Suny1}}"
       },
