@@ -1240,7 +1240,7 @@
   "CFE_Elliott_Mony1": "The ocean winds do their worst to tangle my hair, but I remain undeterred in my daily grooming habits.#$e#It's a lot of work!",
   "CFE_Elliott_Tuey1": "I've been a writer since the first day I lifted a pen, more or less.#$e#I hope my stories can bring a deepened understanding of the soul to those who read them.",
   "CFE_Elliott_Wedy1": "My little shack may not be much to look at, but it serves me well enough.#$e#I am quite accustomed to it.",
-  "CFE_Elliott_Thuy1": "I never saw the ocean until only a few years ago, but as soon as I caught a glimpse, I knew I wanted to live on the beach.#$e#I've been in Pelican Town for a little over a year now.",
+  "CFE_Elliott_Thuy1": "I had never seen the ocean until only a few years ago, but as soon as I caught a glimpse, I knew I wanted to live on the beach.#$e#I've been in Pelican Town for a little over a year now.",
   "CFE_Elliott_Friy1": "Ah, springtime is the season of new beginnings and new directions.$h#$q 921/922 Fri_1_moveQ_old#What brought you to the Valley, @?#$r 921 10 Fri_1_moveQ_rat#Escaping the rat race.#$r 921 10 Fri_1_moveQ_gpa#I owe it to my grandfather.#$r 921 10 Fri_1_moveQ_opp#Opportunity.#$r 922 10 Fri_1_moveQ_idk#Honestly? I'm not really sure.",
   "CFE_Elliott_Friy1_moveQ_old": "$p 922#I hope your new journey's purpose reveals itself a little more each day.$h|But as the days pass, we mustn't forget what we promised ourselves at the beginning of our new year.",
   "CFE_Elliott_Friy1_moveQ_rat": "Certainly. I never understood how anyone lives that way. We're not made for it, are we?",
@@ -3182,7 +3182,7 @@
 
   "CFE_Leah_Mony1": "Today's my shopping day, but I've got to watch my budget.#$e#Maybe I can forage something from the woods. Have you found the field where the spring onions grow?",
   "CFE_Leah_Tuey1": "It'll be nice having you up the road. I always thought that farm looked a bit lonely.",
-  "CFE_Leah_Wedy1": "You just missed the snowy season before your arrival. It all melted a day or two before.#$e#You really should stick around for the next winter, though. It's really beautiful.",
+  "CFE_Leah_Wedy1": "You just missed the snowy season before your arrival. It all melted a day or two before.#$e#You really should stick around for the next winter, though. It's beautiful here.",
   "CFE_Leah_Thuy1": "I'm an artist by trade. Or at least... that's the goal.#$b#Wealthy patrons don't exactly come pounding on your door just because you can paint.$3#$e#But I don't give up easily. So I'm determined to keep going as long as I can.",
   "CFE_Leah_Friy1": "Have you met my friend Elliott? He moved here a little bit before I did.#$e#Including you, then, I guess all three of us are relative newcomers, huh?",
   "CFE_Leah_Saty1": "It's a welcoming community here for sure, and cozy, but I wonder if I'll have to find a second job eventually, just to keep living here.$3",
@@ -4729,7 +4729,6 @@
   "CFE_Sam_Thuy1": "Vincent is my kid brother. I'm just trying my best to make sure the kid grows up right.#$e#Good cartoons, good comic books... Man, they just don't make 'em like they used to.$3",
   "CFE_Sam_Friy1": "Hey, how's it goin', man?^Hey, how's it goin'?",
   "CFE_Sam_Friy1_GN": "Hey, how's it goin', {{AdultInformalNoun}}?",
-
   "CFE_Sam_Saty1": "People say there's nothing to do around here, but hey, at least there's always video games.",
   "CFE_Sam_Suny1": "I've been playing guitar since I was twelve.#$b#I never had a guitar teacher. I just figure things out and look up videos when I need to.",
 
@@ -5795,7 +5794,6 @@
   "CFE_FlowerDance_Y1_George": "These young'uns never seem to get the dancing right, the way it used to be done.#$e#They all skip over one of the steps they're supposed to do.#$b# I don't remember which one, but it was definitely one of 'em.",
   "CFE_FlowerDance_Y1_Gus": "Did you know you can eat some of the flowers in this valley? Blue jazz and tulips make a nice garnish on your meal, but daffodils? No sir!^Did you know you can eat some of the flowers in this valley? Blue jazz and tulips make a nice garnish on your meal, but daffodils? No ma'am!",
   "CFE_FlowerDance_Y1_Gus_GN": "Did you know you can eat some of the flowers in this valley? Blue jazz and tulips make a nice garnish on your meal, but daffodils? They're no good!",
-
   "CFE_FlowerDance_Y1_Haley": "I was born for this! Hope everyone's ready.$h",
   "CFE_FlowerDance_Y1_Harvey": "*gulp* I'm not quite used to this tradition yet, but I'll give it my best.$11",
   "CFE_FlowerDance_Y1_Jas": "All the girl dancers look like princesses. REAL princesses!",
@@ -5804,13 +5802,10 @@
   "CFE_FlowerDance_Y1_Linus": "I'll stick around at the end to make sure all the trash gets picked up. This place is not our own, we're merely borrowing it.",
   "CFE_FlowerDance_Y1_Marlon": "The woods north of this clearing can be a little dangerous. Be sure to prepare properly if you ever visit it.#$e#We are quite safe here. Please, enjoy the party.",
   "CFE_FlowerDance_Y1_Marnie": "I didn't expect Shane to take to this festival the way he has. I guess he has a soft spot after all!#$e#Erm... don't tell him I said that!",
-
   "CFE_FlowerDance_Y1_Maru": "This event must make us all look a little dorky, huh? We're so old-fashioned here.#$b#Not that I mind!$h",
   "CFE_FlowerDance_Y1_Pam": "I think I skipped stones down here, once, with my Pappy. I'm not sure. It's been such a long time.$4#$e#*hem* Is Penny gettin' ready for her dance? How's she doin'?",
   "CFE_FlowerDance_Y1_Penny": "How many other people are going to be dancing? I really don't like being the center of attention...$s",
-
   "CFE_FlowerDance_Y1_Robin": "Demetrius and I already do our dancing elsewhere. But I'm flattered at the suggestion, Jodi.$4%noturn",
-
   "CFE_FlowerDance_Y1_Sam": "If you forget the choreography, you can always just make stuff up. No one seems to mind.#$b#Except for maybe a few people. But they'll get over it. I think.$10",
   "CFE_FlowerDance_Y1_Shane": "I can dance. As long as it requires minimal effort on my part.#$b#And if it's with someone who makes everything incredibly easy for me. But otherwise... nope.",
   "CFE_FlowerDance_Y1_Sebastian": "You've probably got a big to-do list to get back to, right? I can't be the only one...",
@@ -5940,7 +5935,6 @@
   //Ice Festival
   "CFE_IceFest_Y1_Abigail": "All snowmen eventually look like snow goons when they start to melt. The difference is that I make the best of that fact.",
   "CFE_IceFest_Y1_Alex": "I raided grandpa's wardrobe for the hat and scarf.#$e#He won't notice.",
-
   "CFE_IceFest_Y1_Caroline": "How is it, farming in winter? Do you have some extra free time?#$e#It's definitely an off-season, but I've heard there are a couple of crops that can grow even in the snow. Have you looked into that?",
   "CFE_IceFest_Y1_Clint": "That's uh... that's my hat on the snowman there.$s#$e#I wore it to the saloon last Saturday...$s",
   "CFE_IceFest_Y1_Demetrius": "Is Robin still worried about her ice castle? She'll get over it, you just have to let her be.#$e#She simply has to focus on every last detail, even if it's a sculpture that's destined to melt.",
@@ -5983,7 +5977,6 @@
   "CFE_WinterStar_Y1_Harvey": "Oh, alright. I suppose one more plate won't hurt.$h",
   "CFE_WinterStar_Y1_Jas": "It took so long. I felt like this day would never come.#$b#But now it's here!$h",
   "CFE_WinterStar_Y1_Jodi": "I read this morning that the military is sending a thousand troops home. So that's some good news, isn't it?#$e#Do you suppose it could be true?",
-
   "CFE_WinterStar_Y1_Robin": "The way the Winter Star appears and disappears all on one night, it's kind of like a friendly presence winking at us.#$e#That's not my literal belief, but it's a nice thought I've held since I was a kid.",
   "CFE_WinterStar_Y1_Maru": "Maybe someday science will have an explanation for the Winter Star's mysteries. But either way, for me it's a reminder that this universe deserves to be marveled at.",
   "CFE_WinterStar_Y1_Shane": "Our ancient ancestors had to bulk up for those long winters, so I guess we'd better do the same.#$e#Well, sure, winter technically ends in a few days, but whatever. I'm still noshing.",
