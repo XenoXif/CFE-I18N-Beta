@@ -24,6 +24,14 @@ list of new lines added (or edited) by this update in i18n folder:
 
 
 [Stable updates]
+Version 3.1.1 DEFAULT.JSON CHANGES 
+//changes to the config section: edited Zero Heart description
+
+"config.CFE_ZeroHearts_Add.description": "New daily dialogue for the first spring.",
+
+//added the line
+"CFE_MoonlightJellies_Y1_Leah": "Found me over here, huh? Yeah, it's a nice spot.#$e#I was looking for some quiet time, but you can stay for a minute if you had the same idea.",
+
 
 VERSION 3.1.0 DEFAULT.JSON CHANGES
 //changes to the config section: added CFE_Festivals_Y1

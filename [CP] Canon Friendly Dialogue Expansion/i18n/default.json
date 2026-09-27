@@ -4,7 +4,7 @@
 
   //Config Schema for GMCM
   "config.CFE_ZeroHearts_Add.name": "Add New Zero to Two Heart Dialogue",
-  "config.CFE_ZeroHearts_Add.description": "adds new year 1 low-level dialogue for NPCs that are enabled below.",
+  "config.CFE_ZeroHearts_Add.description": "New daily dialogue for the first spring.",
 
   "config.section.Dialogue.name": "NPC Dialogue Settings",
   "config.section.Dialogue.description": "Toggle specific NPCs new dialogue on, off, or 50/50.",
