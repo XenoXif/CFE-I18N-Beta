@@ -3,7 +3,8 @@
   "ConfigSchema": { //lets players toggle settings on and off
     "CFE_ZeroHearts": {
       "AllowValues": "true, false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Dialogue"
     },
     "CFE_Abigail": {
       "AllowValues": "true, false, random",

@@ -24,6 +24,12 @@ list of new lines added (or edited) by this update in i18n folder:
 
 
 [Stable updates]
+Version 3.1.2 DEFAULT>JSON CHANGES
+
+//edited the following lines to:
+  "CFE_Haley_Thuy1": "giggle$11#$e#What? Oh, nothing.$13#$e#You look great today, really.^You look super pretty today, promise!",
+  "CFE_Haley_Thuy1_GN": "*giggle*$11#$e#What? Oh, nothing.$13#$e#You look great today.. really!",
+
 Version 3.1.1 DEFAULT.JSON CHANGES 
 //changes to the config section: edited Zero Heart description
 

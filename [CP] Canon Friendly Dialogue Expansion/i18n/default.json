@@ -3,8 +3,8 @@
   //use ctrl + F to find different sections, as this document is quite long.
 
   //Config Schema for GMCM
-  "config.CFE_ZeroHearts_Add.name": "Add New Zero to Two Heart Dialogue",
-  "config.CFE_ZeroHearts_Add.description": "New daily dialogue for the first spring.",
+  "config.CFE_ZeroHearts.name": "Add New Zero to Two Heart Dialogue",
+  "config.CFE_ZeroHearts.description": "New daily dialogue for the first spring.",
 
   "config.section.Dialogue.name": "NPC Dialogue Settings",
   "config.section.Dialogue.description": "Toggle specific NPCs new dialogue on, off, or 50/50.",
@@ -2113,7 +2113,7 @@
   "CFE_Haley_Tuey1_GN": "Oh. Hey, farmer {{AdultInformalNoun}}.#$e#People are saying your farm is a mess, but I actually think you'll be a really good fit for it.",
   "CFE_Haley_Wedy1": "What, did my sister invite you over here, or something?#$e#You're kind of interrupting, so...$7",
   "CFE_Haley_Thuy1": "giggle$11#$e#What? Oh, nothing.$13#$e#You look great today, really.^You look super pretty today, promise!",
-  "CFE_Haley_Thuy1_GN": "*giggle*$11#$e#What? Oh, nothing.$13#$e#You look great today, really.",
+  "CFE_Haley_Thuy1_GN": "*giggle*$11#$e#What? Oh, nothing.$13#$e#You look great today.. really!",
   "CFE_Haley_Friy1": "*sniff* Ugh, what's that awful smell? It's like old grass mixed with sweat.$3#$e#Oh well. Guess we'll never know.$13",
 
   "CFE_Haley_Saty1": "If you want other people to respect you, you have to respect yourself first.#$q 951/952 Sat_1_clothesQ_old#I don't mean to be rude, but do you even own any clothes besides what you're wearing?#$r 951 0 Sat_1_clothesQ_yes#I do.#$r 951 0 Sat_1_clothesQ_no#I don't.#$r 952 -10 Sat_1_clothesQ_creep#I don't, but I'll just borrow yours when you're not looking.",
